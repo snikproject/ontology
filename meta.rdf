@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.snik.eu/ontology/meta/"
+     xml:base="http://www.snik.eu/ontology/meta/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:ov="http://open.vocab.org/terms/"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+	<owl:Ontology rdf:about="http://www.snik.eu/meta">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-08-08</dcterms:modified>
+    <ov:defines rdf:resource="InformationManagement"/>
+    <ov:defines rdf:resource="Administrative"/>
+    <ov:defines rdf:resource="PatientCare"/>
+    <ov:defines rdf:resource="Management"/>
+    <ov:defines rdf:resource="EducationResearch"/>
+    <ov:defines rdf:resource="Function"/>
+    <ov:defines rdf:resource="Role"/>
+    <ov:defines rdf:resource="HisStakeholder"/>
+    <ov:defines rdf:resource="ApplicationComponent"/>
+    <ov:defines rdf:resource="PassiveEntityType"/>
+    <ov:defines rdf:resource="ComputerBasedApplicationComponent"/>
+    <ov:defines rdf:resource="SoftwareProduct"/>
+    <ov:defines rdf:resource="RepresentationType"/>
+    <ov:defines rdf:resource="DataSetType"/>
+    <ov:defines rdf:resource="approves"/>
+    <ov:defines rdf:resource="isInvolvedIn"/>
+    <ov:defines rdf:resource="supports"/>
+    <ov:defines rdf:resource="isBasedOn"/>
+    <ov:defines rdf:resource="similarRole"/>
+    <ov:defines rdf:resource="similarEntityType"/>
+    <ov:defines rdf:resource="isMasterFor"/>
+    <ov:defines rdf:resource="baseEntityType"/>
+    <ov:defines rdf:resource="representation"/>
+    <ov:defines rdf:resource="isResponsibleForEntityType"/>
+    <ov:defines rdf:resource="isResponsibleForFunction"/>
+    <ov:defines rdf:resource="subFunction"/>
+    <ov:defines rdf:resource="subEntityType"/>
+		<foaf:homepage rdf:resource="http://www.snik.eu"/>
+		<dcterms:source rdf:resource="http://www.snik.eu/mapping"/>
+		<vann:preferredNamespacePrefix>snik-meta</vann:preferredNamespacePrefix>
+		<vann:preferredNamespaceUri rdf:resource="http://www.snik.eu/ontology/bb/"/>
+	</owl:Ontology>
+
+<owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/typicalFeature">
+ <rdfs:label xml:lang="en">typical feature</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="approves">
+ <rdfs:label xml:lang="en">approves</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="isInvolvedIn">
+ <rdfs:label xml:lang="en">isInvolvedIn</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="supports">
+ <rdfs:label xml:lang="en">supports</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="isBasedOn">
+ <rdfs:label xml:lang="en">isBasedOn</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="similarRole">
+ <rdfs:label xml:lang="en">similarRole</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="similarEntityType">
+ <rdfs:label xml:lang="en">similarEntityType</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="isMasterFor">
+ <rdfs:label xml:lang="en">isMasterFor</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="baseEntityType">
+ <rdfs:label xml:lang="en">baseEntityType</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="representation">
+ <rdfs:label xml:lang="en">representation</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="isResponsibleForEntityType">
+ <rdfs:label xml:lang="en">isResponsibleForEntityType</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="isResponsibleForFunction">
+ <rdfs:label xml:lang="en">isResponsibleForFunction</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="subFunction">
+ <rdfs:label xml:lang="en">subFunction</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="subEntityType">
+ <rdfs:label xml:lang="en">subEntityType</rdfs:label>
+</owl:ObjectProperty>
+
+
+
+	<owl:Class rdf:about="Function">
+	 <rdfs:label xml:lang="en">Function</rdfs:label>
+	</owl:Class>
+	<owl:Class rdf:about="InformationManagement">
+	 <rdfs:label xml:lang="en">information µanagement</rdfs:label>
+	 <rdfs:subClassOf rdf:resource="Function"/>
+	</owl:Class>
+	<owl:Class rdf:about="Administration">
+	 <rdfs:label xml:lang="en">administration</rdfs:label>
+	 <rdfs:subClassOf rdf:resource="Function"/>
+	</owl:Class>
+	<owl:Class rdf:about="PatientCare">
+	 <rdfs:label xml:lang="en">patient care</rdfs:label>
+	 <rdfs:subClassOf rdf:resource="Function"/>
+	</owl:Class>
+	<owl:Class rdf:about="Management">
+	 <rdfs:label xml:lang="en">management</rdfs:label>
+	 <rdfs:subClassOf rdf:resource="Function"/>
+	</owl:Class>
+	<owl:Class rdf:about="EducationResearch">
+	 <rdfs:label xml:lang="en">education and research</rdfs:label>
+	 <rdfs:subClassOf rdf:resource="Function"/>
+	</owl:Class>
+	<owl:Class rdf:about="Role">
+	 <rdfs:label xml:lang="en">role</rdfs:label>
+	</owl:Class>
+	<owl:Class rdf:about="HisStakeholder">
+	 <rdfs:label xml:lang="en">HIS stakeholder</rdfs:label>
+	</owl:Class>
+	<owl:Class rdf:about="ApplicationComponent">
+	 <rdfs:label xml:lang="en">application component</rdfs:label>
+	</owl:Class>
+	<owl:Class rdf:about="PassiveEntityType">
+	 <rdfs:label xml:lang="en">passive entity type</rdfs:label>
+	</owl:Class>
+	<owl:Class rdf:about="ComputerBasedApplicationComponent">
+	 <rdfs:label xml:lang="en">computer based application component</rdfs:label>
+	</owl:Class>
+	<owl:Class rdf:about="SoftwareProduct">
+	 <rdfs:label xml:lang="en">software product</rdfs:label>
+	</owl:Class>
+	<owl:Class rdf:about="RepresentationType">
+	 <rdfs:label xml:lang="en">representation type</rdfs:label>
+	</owl:Class>
+	<owl:Class rdf:about="DataSetType">
+	 <rdfs:label xml:lang="en">data set type</rdfs:label>
+	</owl:Class>
+
+</rdf:RDF>
