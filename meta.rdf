@@ -36,7 +36,7 @@
     <ov:defines rdf:resource="similarEntityType"/>
     <ov:defines rdf:resource="isMasterFor"/>
     <ov:defines rdf:resource="baseEntityType"/>
-    <ov:defines rdf:resource="representation"/>
+    <ov:defines rdf:resource="representationType"/>
     <ov:defines rdf:resource="isResponsibleForEntityType"/>
     <ov:defines rdf:resource="isResponsibleForFunction"/>
     <ov:defines rdf:resource="subFunction"/>
@@ -49,106 +49,140 @@
 
 <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/typicalFeature">
  <rdfs:label xml:lang="en">typical feature</rdfs:label>
+ <rdfs:domain rdf:resource=""/>
+ <rdfs:range  rdf:resource=""/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="approves">
  <rdfs:label xml:lang="en">approves</rdfs:label>
+ <rdfs:domain rdf:resource="Role"/>
+ <rdfs:range  rdf:resource="Function"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="isInvolvedIn">
- <rdfs:label xml:lang="en">isInvolvedIn</rdfs:label>
+ <rdfs:label xml:lang="en">is involved in</rdfs:label>
+ <rdfs:domain rdf:resource="Role"/>
+ <rdfs:range  rdf:resource="Function"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="supports">
  <rdfs:label xml:lang="en">supports</rdfs:label>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="isBasedOn">
- <rdfs:label xml:lang="en">isBasedOn</rdfs:label>
+ <rdfs:domain rdf:resource="ApplicationComponent"/>
+ <rdfs:range  rdf:resource="Function"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="similarRole">
- <rdfs:label xml:lang="en">similarRole</rdfs:label>
+ <rdfs:label xml:lang="en">similar role</rdfs:label>
+ <rdfs:domain rdf:resource="Role"/>
+ <rdfs:range  rdf:resource="Role"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="similarEntityType">
- <rdfs:label xml:lang="en">similarEntityType</rdfs:label>
+ <rdfs:label xml:lang="en">similar entity type</rdfs:label>
+ <rdfs:domain rdf:resource="EntityType"/>
+ <rdfs:range  rdf:resource="EntityType"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="isMasterFor">
- <rdfs:label xml:lang="en">isMasterFor</rdfs:label>
+ <rdfs:label xml:lang="en">is master for</rdfs:label>
+ <rdfs:domain rdf:resource="ApplicationComponent"/>
+ <rdfs:range  rdf:resource="EntityType"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="baseEntityType">
- <rdfs:label xml:lang="en">baseEntityType</rdfs:label>
+ <rdfs:label xml:lang="en">base entity type</rdfs:label>
+ <rdfs:domain rdf:resource="EntityType"/>
+ <rdfs:range  rdf:resource="EntityType"/>
 </owl:ObjectProperty>
 
-<owl:ObjectProperty rdf:about="representation">
- <rdfs:label xml:lang="en">representation</rdfs:label>
+<owl:ObjectProperty rdf:about="representationType">
+ <rdfs:label xml:lang="en">representationType</rdfs:label>
+ <rdfs:domain rdf:resource="RepresentationType"/>
+ <rdfs:range  rdf:resource="EntityType"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="isResponsibleForEntityType">
- <rdfs:label xml:lang="en">isResponsibleForEntityType</rdfs:label>
+ <rdfs:label xml:lang="en">is responsible for entity type</rdfs:label>
+ <rdfs:domain rdf:resource="Role"/>
+ <rdfs:range  rdf:resource="EntityType"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="isResponsibleForFunction">
- <rdfs:label xml:lang="en">isResponsibleForFunction</rdfs:label>
+ <rdfs:label xml:lang="en">is responsible for function</rdfs:label>
+ <rdfs:domain rdf:resource="Role"/>
+ <rdfs:range  rdf:resource="Function"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="subFunction">
- <rdfs:label xml:lang="en">subFunction</rdfs:label>
+ <rdfs:label xml:lang="en">sub function</rdfs:label>
+ <rdfs:domain rdf:resource="Function"/>
+ <rdfs:range  rdf:resource="Function"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="subEntityType">
- <rdfs:label xml:lang="en">subEntityType</rdfs:label>
+ <rdfs:label xml:lang="en">sub entity type</rdfs:label>
+ <rdfs:domain rdf:resource="EntityType"/>
+ <rdfs:range  rdf:resource="EntityType"/>
 </owl:ObjectProperty>
-
 
 
 	<owl:Class rdf:about="Function">
 	 <rdfs:label xml:lang="en">Function</rdfs:label>
 	</owl:Class>
+
 	<owl:Class rdf:about="InformationManagement">
 	 <rdfs:label xml:lang="en">information µanagement</rdfs:label>
 	 <rdfs:subClassOf rdf:resource="Function"/>
 	</owl:Class>
+
 	<owl:Class rdf:about="Administration">
 	 <rdfs:label xml:lang="en">administration</rdfs:label>
 	 <rdfs:subClassOf rdf:resource="Function"/>
 	</owl:Class>
+
 	<owl:Class rdf:about="PatientCare">
 	 <rdfs:label xml:lang="en">patient care</rdfs:label>
 	 <rdfs:subClassOf rdf:resource="Function"/>
 	</owl:Class>
+
 	<owl:Class rdf:about="Management">
 	 <rdfs:label xml:lang="en">management</rdfs:label>
 	 <rdfs:subClassOf rdf:resource="Function"/>
 	</owl:Class>
+
 	<owl:Class rdf:about="EducationResearch">
 	 <rdfs:label xml:lang="en">education and research</rdfs:label>
 	 <rdfs:subClassOf rdf:resource="Function"/>
 	</owl:Class>
+
 	<owl:Class rdf:about="Role">
 	 <rdfs:label xml:lang="en">role</rdfs:label>
 	</owl:Class>
+
 	<owl:Class rdf:about="HisStakeholder">
 	 <rdfs:label xml:lang="en">HIS stakeholder</rdfs:label>
 	</owl:Class>
+
 	<owl:Class rdf:about="ApplicationComponent">
 	 <rdfs:label xml:lang="en">application component</rdfs:label>
 	</owl:Class>
+
 	<owl:Class rdf:about="PassiveEntityType">
 	 <rdfs:label xml:lang="en">passive entity type</rdfs:label>
 	</owl:Class>
+
 	<owl:Class rdf:about="ComputerBasedApplicationComponent">
 	 <rdfs:label xml:lang="en">computer based application component</rdfs:label>
 	</owl:Class>
+
 	<owl:Class rdf:about="SoftwareProduct">
 	 <rdfs:label xml:lang="en">software product</rdfs:label>
 	</owl:Class>
+
 	<owl:Class rdf:about="RepresentationType">
 	 <rdfs:label xml:lang="en">representation type</rdfs:label>
 	</owl:Class>
+
 	<owl:Class rdf:about="DataSetType">
 	 <rdfs:label xml:lang="en">data set type</rdfs:label>
 	</owl:Class>
