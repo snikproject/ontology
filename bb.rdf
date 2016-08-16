@@ -3389,7 +3389,7 @@ easily extendable to match increasing volume of communication.</Definition_EN>
         <rdfs:subClassOf rdf:resource="Hospital_Staff"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1150</ID>
@@ -3485,7 +3485,7 @@ easily extendable to match increasing volume of communication.</Definition_EN>
         <rdfs:subClassOf rdf:resource="Physician"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2042</ID>
@@ -5983,7 +5983,7 @@ Object Workgroup Standard</Synonym>
         <rdfs:subClassOf rdf:resource="Hospital_Staff"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en">Responsible for setting and carrying out the strategic plans and policies of an enterprise.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">296 </Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2057</ID>
@@ -6006,7 +6006,7 @@ Object Workgroup Standard</Synonym>
         <rdfs:subClassOf rdf:resource="Hospital_Staff"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en">Responsible for financial planning and record keeping of an enterprise.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">296 </Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1685</ID>
@@ -6183,7 +6183,7 @@ Object Workgroup Standard</Synonym>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is generally useful to centralize responsibilities for information management in one role. This role is usually called chief information offi cer (CIO); but the role is also often called vice president (or director) of information systems (or information services, information management, information and communication technology, information resources) or chief of information services.
 ------------------
  Responsible for the strategic, tactical, and operational information management and the related budgets in an enterprise. The CIO usually has the authority for all employees concerned with information management. The specific position of the CIO demands dedicated professional skills.</Definition_EN>
@@ -7365,7 +7365,7 @@ user groups within a hospital</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">601</ID>
@@ -9130,7 +9130,7 @@ communication tools is called a computer-based information system .</Definition_
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">548</ID>
@@ -9346,7 +9346,7 @@ this type of integrity consistency .</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">602</ID>
@@ -11170,7 +11170,7 @@ and stored inside a HIS</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">594</ID>
@@ -11990,7 +11990,7 @@ judgment in the next round.  </Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">557</ID>
@@ -16970,7 +16970,7 @@ output when searching for a patient , and it guarantees security of stored data.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">603</ID>
@@ -17064,7 +17064,7 @@ output when searching for a patient , and it guarantees security of stored data.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">533</ID>
@@ -17831,7 +17831,7 @@ member.</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en">Anyone who has direct or indirect influence on or interest in a component of an information system.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">322 </Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</ID>
@@ -18434,7 +18434,7 @@ discharge summary or a radiology report</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">604</ID>
@@ -18933,7 +18933,7 @@ the patient or the clinical user by electric hazards.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is one who treats, according to his or her specialization (e.g.,
 nephrology or pediatrics), patients with certain diagnoses .
 Examples are physicians and nurses.
@@ -20084,7 +20084,7 @@ budget , investments, and key treatments).</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">534</ID>
@@ -20179,7 +20179,7 @@ budget , investments, and key treatments).</Definition_EN>
         <rdfs:subClassOf rdf:resource="Role"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1249</ID>
@@ -21918,7 +21918,7 @@ It comprises all measures and methods that are necessary to support the business
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">564</ID>
@@ -22332,7 +22332,7 @@ It comprises all measures and methods that are necessary to support the business
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity Type</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">540</ID>
@@ -22554,7 +22554,7 @@ information management should contribute to fulfi ll strategic enterprise goals.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Such a board can often be found
 in larger hospitals (Fig. 9.7 ). Members should include one representative from the hospi-
 tal’s board of directors, representatives from the main departments and user groups, and
@@ -22647,7 +22647,7 @@ users or number of workstations.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There is usually one central information management department (often called the department for medical informatics, hospital computing center, or ICT department). This unit
 takes care at least of the tactical and operational information management of those parts
 of the HIS with hospital-wide relevance (e.g., the enterprise resource planning system , the
@@ -22901,7 +22901,7 @@ If the information management department also cares of strategic information man
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">558</ID>
@@ -26473,7 +26473,7 @@ goals, structures, and behaviors.</Definition_EN>
         <rdfs:subClassOf rdf:resource="Management_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.1</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As an institution, management comprises all organizational units of an enterprise that make decisions about planning , monitoring
 , and directing all activities of subordinate units</Definition_EN>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">238 </Definition_EN_Page>
@@ -27538,7 +27538,7 @@ treatment</Definition_EN>
         <rdfs:subClassOf rdf:resource="Information_Management_Staff"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1154</ID>
@@ -29402,7 +29402,7 @@ hepatitis, or anthrax occurred</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ID>
@@ -32054,7 +32054,7 @@ information management plan.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">559</ID>
@@ -33661,7 +33661,7 @@ of an orthopedics department, can include a computer-aided design
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is a person who is a subject of care; information about a patient
 includes the patient identifi cation number (PIN)</Definition_EN>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76 </Definition_EN_Page>
@@ -36735,7 +36735,7 @@ components.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537</ID>
@@ -38352,7 +38352,7 @@ projects are initiated by strategic information management .</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity Type</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Such a project management board supports the project manager by providing an interface
 between the project manager, future user groups, vendors involved in the project, and
 strategic information management authorities like CIO and information management
@@ -38491,7 +38491,7 @@ board.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1913</ID>
@@ -41728,7 +41728,7 @@ doctor.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">605</ID>
@@ -42287,7 +42287,7 @@ form a ring. Data are passed from one system to the other in the same direction 
 
 
     <!-- http://www.snik.eu/ontology/bb/Role -->
-
+<!-- TODO -->
     <owl:Class rdf:about="http://www.snik.eu/ontology/bb/Role">
 <rdfs:label xml:lang="en">Role</rdfs:label>
         <rdfs:subClassOf rdf:resource="Hospital_Staff"/>
@@ -43345,7 +43345,7 @@ interpret data the same way.
         <rdfs:subClassOf rdf:resource="Physician"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1157</ID>
@@ -43684,7 +43684,7 @@ interpret data the same way.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">554</ID>
@@ -44327,7 +44327,7 @@ when the user has logged in at an involved application component</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">607</ID>
@@ -46752,7 +46752,7 @@ tasks effectively and efficiently?</Definition_EN>
         <rdfs:subClassOf rdf:resource="Physician"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1108</ID>
@@ -49661,7 +49661,7 @@ one vendor as “V 1 .”</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">563</ID>
@@ -50002,7 +50002,7 @@ data processing systems (virtual machine).</Definition_EN>
         <rdfs:subClassOf rdf:resource="Physician"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1159</ID>
@@ -52396,7 +52396,7 @@ system component into the same monetary terms as the costs and compares them.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">899</ID>
@@ -53501,7 +53501,7 @@ approach that first identifies factors critical to the hospital’s success or f
     </rdf:Description>
     <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Relative">
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1544</ID>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.4</Chapter>
         <skos:definition xml:lang="en"></skos:definition>

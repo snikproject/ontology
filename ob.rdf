@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://www.snik.eu/ontology/ob/"
      xml:base="http://www.snik.eu/ontology/ob/"
      xmlns:ammenwerth="http://www.snik.eu/ontology/ob/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -10,11 +11,13 @@
      xmlns:terms="http://open.vocab.org/terms/"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:dc="http://purl.org/dc/terms/"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+>
     <owl:Ontology rdf:about="http://www.snik.eu/ob"/>
 
 		<bibo:Book rdf:about="OrangeBook" dc:date="2011">
-			<dc:title xml:lang="de">IT-Projektmanagement im Gesundheitswesen/dc:title>
+			<dc:title xml:lang="de">IT-Projektmanagement im Gesundheitswesen</dc:title>
 			<rdfs:comment xml:lang="de">Lehrbuch und Projektleitfaden</rdfs:comment>
 			<dc:publisher rdf:resource="http://www.schattauer.de"/>.
 			<bibo:isbn>978-3-7945-3071-7</bibo:isbn>
@@ -606,7 +609,7 @@
 <rdfs:label xml:lang="en">Actor</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An der Informationsverarbeitung beteiligte Menschen (menschliche Handlungsträger) sowie die beteiligten Werkzeuge der Informationsverarbeitung (maschinelle Handlungsträger).</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">326 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -845,7 +848,7 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">564</ID>
@@ -1029,7 +1032,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Konzentriert sich auf die Aufgaben, welche direkt die
 Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Benutzerbetreuung, Organisationsentwicklung.</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">282 </Definition_DE_Page>
@@ -2582,7 +2585,7 @@ und gemeinsam ausgewertet.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verantwortlicher für das Management von Informationssystemen.</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">324 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -3326,7 +3329,7 @@ und gemeinsam ausgewertet.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">576</ID>
@@ -3475,7 +3478,7 @@ und gemeinsam ausgewertet.</Definition_DE>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person oder Einrichtung, die den Projektauftrag von einem Auftraggeber entgegen genommen hat. Der Auftragnehmer ist für die planmäßige Durchführung des Projekts verantwortlich. Der Auftragnehmer kann, muss aber nicht, auch der Projektleiter sein - so kann z.B. der CIO einen Projektauftrag vom Klinikvorstand entgegeb nehmen und dann einen seiner Mitarbeiter mit der Projektleitung betrauen.</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">321 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -5025,7 +5028,7 @@ Nachrichten sind Daten.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1395</ID>
@@ -5411,7 +5414,7 @@ Abb. 8.11 auf S. 148) und mittlerweile auch UML-Klassendiagramme.</Definition_DE
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ID>
@@ -5861,7 +5864,7 @@ Abb. 8.11 auf S. 148) und mittlerweile auch UML-Klassendiagramme.</Definition_DE
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity Type</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organisationseinheit in einer Einrichtung. Im Zusammenhang mit einem Projekt die von diesem Projekt betroffene Organisationseinheit.</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">326 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -5976,7 +5979,7 @@ Abb. 8.11 auf S. 148) und mittlerweile auch UML-Klassendiagramme.</Definition_DE
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">645</ID>
@@ -6483,7 +6486,7 @@ mina möglich.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">560</ID>
@@ -6557,7 +6560,7 @@ mina möglich.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">681</ID>
@@ -7872,7 +7875,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">672</ID>
@@ -10401,7 +10404,7 @@ Patientenaufnahme) beschrieben werden können.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">595</ID>
@@ -10472,7 +10475,7 @@ Patientenaufnahme) beschrieben werden können.</Definition_DE>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/ob/Actor"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1263</ID>
@@ -10991,7 +10994,7 @@ Patientenaufnahme) beschrieben werden können.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">573</ID>
@@ -12241,7 +12244,7 @@ sollte er ausreichend Platz lassen.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">596</ID>
@@ -12406,7 +12409,7 @@ sollte er ausreichend Platz lassen.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">675</ID>
@@ -12605,7 +12608,7 @@ statt. Es dient vor allem der Teambildung.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">657</ID>
@@ -13734,7 +13737,7 @@ Vergleich vorgenommen wird.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bei offenen Fragen ist es empfehlenswert, neben einem Gesprächsführer
 auch einen Protokollführer zu haben, welcher die Antworten
 notiert und bei Verständnisproblemen nachfragt. Ist der Befragte einverstanden,
@@ -14574,7 +14577,7 @@ verwendende Abkürzungen) auf dem Bogen enthalten sind.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">571</ID>
@@ -15086,7 +15089,7 @@ verwendende Abkürzungen) auf dem Bogen enthalten sind.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">667</ID>
@@ -18469,7 +18472,7 @@ in ihrer Gesamtheit gekennzeichnet ist, wie z. B.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1293</ID>
@@ -20585,7 +20588,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verantwortlich für eine erfolgreiche Projektabwicklung, also für die Planung, Steuerung und Überwachung eines Projekts. Zu den Aufgaben gehören die Abstimmung mit dem Auftraggeber, die Erstellung des Projekts. Zu den Aufgaben gehören die Abstimung mit dem Auftraggeber, die Erstellung eines des Projektplans, die Führung und Koordination aller Projektmitarbeiter, die Erstellung von Zwischenberichten und Abschlussberichten, das Vertreten des Projekts nach außen, das Krisen- und Konfliktmanagement, die Überwachung des Projektfortschritts (Projektcontrolling), die Pflege der Projektdokumentation und damit insgesamt das Projektmanagement.</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">336 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -21072,7 +21075,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</Definition_DE>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hierunter versteht man alle Aktivitäten, die Interessierte und Betroffene über Projektziele und Projektablauf informieren.
 ------------------
  Alle Aktivitäten, die Interessierte und Betroffene eines Projekts über Projektziele und Projektablauf informieren. Ein gutes Projektmarketing schafft ein Klima der Offenheit und Transparenz nach außen in Bezug auf das Projekt, es stellt die kontinuierliche Unterstützung durch den Auftraggeber bzw. durch andere Interessengruppen sicher und hilft dabei , dass die Projektergebnisse am Projektende auch von Betroffenen akzeptiert werden.</Definition_DE>
@@ -21648,7 +21651,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</Definition_DE>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity Type</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unter einer Projektorganisation verstehen wir die Gesamtheit der
 Rollen und Regelungen zur Abwicklung eines bestimmten Projekts.
 (vgl. DIN 69901).
@@ -23465,7 +23468,7 @@ c) Was könnte besser gemacht werden?
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity Type</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oberstes Steuerungs- und Entscheidungsprogramm eines Projekts. Wird vor allem in Großprojekten oder bei interdisziplinär ausgerichteten Projekten eingesetzt. Wird aus hochrangigen Vertretern aller in ein Projekt involvierten Gruppen zusammengesetzt (Auftraggeber, Auftragnehmer, Vertreter zukünftiger Benutergruppen etc.)</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">336 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -23647,7 +23650,7 @@ c) Was könnte besser gemacht werden?
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity Type</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Projektleiter und alle Projektmitarbeiter eines Projekts.</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21, 337</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -23874,7 +23877,7 @@ c) Was könnte besser gemacht werden?
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitglied des Projektteams. Projektmitarbeiter unterstützen den Projektleiter bei der Abwicklung eines Projekts, insbesondere durch die Ausführung der ihnen zugewiesenen Arbeitspakete.</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">336 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -25700,7 +25703,7 @@ c) Was könnte besser gemacht werden?
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zu seiner Entlastung kann es bei Großprojekten hilfreich sein, einen Risikobeauftragten zu bestimmen.</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -25753,7 +25756,7 @@ c) Was könnte besser gemacht werden?
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity Type</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unter einer Rolle verstehen wir die Summe von Erwartungen, die
 an eine Person gerichtet werden. Sie beschreibt ein Bündel von zu
 erfüllenden Aufgaben und den daraus abgeleiteten Pflichten und
@@ -26432,7 +26435,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">658</ID>
@@ -27056,7 +27059,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">572</ID>
@@ -27483,7 +27486,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity Type</Concept_Type>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Projektauftraggeber: Er initiiert das Projekt, erteilt den Projektauftrag, genehmigt den Projektplan, stellt Projektressourcen zur
 Verfügung, begleitet und unterstützt die Projektdurchführung und
 nimmt das Projekt am Ende ab.
@@ -28038,7 +28041,7 @@ nimmt das Projekt am Ende ab.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">653</ID>
@@ -28115,7 +28118,7 @@ nimmt das Projekt am Ende ab.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">628</ID>
@@ -29191,7 +29194,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1401</ID>
@@ -29483,7 +29486,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">610</ID>
@@ -29663,7 +29666,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zuständig für alle technischen Aspekte, wie z. B. Serverund Datenbankadministration, Schnittstellenmanagement und
 Pflege der technischen Komponenten, Netzwerkmanagement.</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">282 </Definition_DE_Page>
@@ -31284,7 +31287,7 @@ z. B. sein, ob eine Verbesserung oder ein Austausch einer Komponente notwendig i
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">663</ID>
@@ -32384,7 +32387,7 @@ Informationskomponente.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1396</ID>
@@ -34486,7 +34489,7 @@ werden.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">597</ID>
@@ -35022,7 +35025,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">655</ID>
@@ -35343,7 +35346,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</Definition_DE>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">577</ID>
@@ -35827,7 +35830,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</Definition_DE>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person, welche für die Durchführung eines Arbeitspakets entsprechend der Arbeitspaketbeschreibung verantwortlich ist.</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">337 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
