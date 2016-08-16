@@ -22,6 +22,7 @@
 		<ov:defines rdf:resource="EducationResearch"/>
 		<ov:defines rdf:resource="Role"/>
 		<ov:defines rdf:resource="HisStakeholder"/>
+		<ov:defines rdf:resource="EntityType"/>
 		<ov:defines rdf:resource="PassiveEntityType"/>
 		<ov:defines rdf:resource="SoftwareProduct"/>
 		<ov:defines rdf:resource="RepresentationType"/>

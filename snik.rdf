@@ -41,7 +41,7 @@
 
     <ObjectProperty rdf:about="http://www.snik.eu/snik.owl#IOR_Synonym">
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </ObjectProperty>
@@ -192,7 +192,7 @@
         </rdfs:subClassOf>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     
 
@@ -208,7 +208,7 @@
         </rdfs:subClassOf>
         <ammenwerth:Synonym>Application System</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
     </rdf:Description>
     
@@ -223,7 +223,7 @@
                 <someValuesFrom rdf:resource="&winter;Department_of_Information_Management"/>
             </Restriction>
         </rdfs:subClassOf>
-        <ammenwerth:Concept_Type>Role</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
@@ -241,7 +241,7 @@
             </Restriction>
         </rdfs:subClassOf>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Operational Concept</ammenwerth:Synonym>
     </rdf:Description>
@@ -257,7 +257,7 @@
                 <someValuesFrom rdf:resource="&ammenwerth;Change_Request"/>
             </Restriction>
         </rdfs:subClassOf>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <skos:definition xml:lang="de">Ein Change Antrag kommt per Email und (papierbasiert) per Hauspost. Für den B1 ist nur der unterschriebene RfC relevant.</skos:definition>
         <ammenwerth:Synonym>Change Request, Request for Change, RfC</ammenwerth:Synonym>
@@ -283,7 +283,7 @@
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Änderungsverwaltung</ammenwerth:Synonym>
         <skos:definition xml:lang="de">Change-Management ist ein Themengebiet aus der IT Infrastructure Library (ITIL) und wird dort im Buch Service Transition als Prozess definiert, der das Ziel hat, dass alle Anpassungen an der IT-Infrastruktur kontrolliert, effizient und unter Minimierung von Risiken für den Betrieb bestehender Business-Services durchgeführt werden.</skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     
 
@@ -299,7 +299,7 @@
         </rdfs:subClassOf>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     
 
@@ -316,7 +316,7 @@
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     
 
@@ -336,7 +336,7 @@
                 <someValuesFrom rdf:resource="&winter;Project_2"/>
             </Restriction>
         </rdfs:subClassOf>
-        <ammenwerth:Concept_Type>Concept Type</ammenwerth:Concept_Type>
+        <Concept_Type>Concept Type</Concept_Type>
         <skos:definition xml:lang="de">Projekte werden definiert als Tätigkeiten, die länger als 5 Personentage dauern und das eigene Budget beanspruchen</skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
@@ -354,7 +354,7 @@
         </rdfs:subClassOf>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym>Project Order</ammenwerth:Synonym>
     </rdf:Description>
     
@@ -371,7 +371,7 @@
         </rdfs:subClassOf>
         <ammenwerth:Synonym>Project Budget</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     
@@ -394,7 +394,7 @@
         </rdfs:subClassOf>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Project Execution</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     
@@ -412,7 +412,7 @@
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Project Management</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     
 
@@ -435,7 +435,7 @@
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Porject Plan</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     
 
@@ -455,7 +455,7 @@
                 <someValuesFrom rdf:resource="&ammenwerth;Project_Planning"/>
             </Restriction>
         </rdfs:subClassOf>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Project Planning</ammenwerth:Synonym>
         <skos:definition xml:lang="de">Zeitplanung, Priorisieren, Aufgaben zuweisen, Berechtigungen einstellen u.a.</skos:definition>
@@ -481,7 +481,7 @@
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Project Monitoring</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     
 
@@ -498,7 +498,7 @@
         <ammenwerth:Synonym>Bill</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     
 
@@ -513,7 +513,7 @@
             </Restriction>
         </rdfs:subClassOf>
         <ammenwerth:Synonym>Resource</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
@@ -531,7 +531,7 @@
         </rdfs:subClassOf>
         <ammenwerth:Synonym>Resource Plan</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     
@@ -548,7 +548,7 @@
         </rdfs:subClassOf>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     
@@ -569,7 +569,7 @@
                 <someValuesFrom rdf:resource="&winter;Software_Product"/>
             </Restriction>
         </rdfs:subClassOf>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
@@ -587,7 +587,7 @@
         </rdfs:subClassOf>
         <ammenwerth:Synonym>Maintenance Contract</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     
@@ -604,26 +604,26 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Tabellenkalkulationssystem">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektewarteliste">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de">Grundlage für jährliche Projektplanung</skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Geplanter_Personalaufwand">
         <ammenwerth:Synonym>Planned Personnel Costs</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Textverarbeitungssoftware">
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Sachkonto">
         <ammenwerth:Synonym></ammenwerth:Synonym>
@@ -634,29 +634,29 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Durchführung_Wartungsfenster">
         <ammenwerth:Synonym>Maintenance Window Execution</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#SAP_xFlow">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Bestellungsbearbeitung">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Purchase Order Processing</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Polypoint_PEP">
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Change_Request_Prüfung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>Change Request Check</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
@@ -664,33 +664,33 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Krankenhausverwaltung">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Role</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <ammenwerth:Synonym>Hospital Administration</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Ticket">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Kostenrechnungssystem">
         <skos:definition xml:lang="de">Interview CionX 2015</skos:definition>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#MS_Exchange_Server">
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <ammenwerth:Source></ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#SAP_FI">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektportfolio">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Project Portfolio</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
@@ -704,17 +704,17 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Beschaffungsfreigabe">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projekteplanung">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Porjects Planning</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="&ammenwerth;3LGM²_Organizational_System">
         <ammenwerth:Chapter></ammenwerth:Chapter>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <definition_EN_Page></definition_EN_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <ammenwerth:Source></ammenwerth:Source>
@@ -731,23 +731,23 @@
         <ammenwerth:Source></ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Wartungsfenster_Freigabe">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektfreigabe">
         <ammenwerth:Synonym>Project Release</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektstatusbericht">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
@@ -755,28 +755,28 @@
         <ammenwerth:Synonym>Change Request Decision</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektportfolioplanung">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Project Portfolio Planning</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Microsoft">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym>MS</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Wirtschaftsplanung">
         <skos:definition xml:lang="de">Schätzung des Budgets für die Sachkonten des B1</skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>Economic Planning</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#SAP_MM">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>SAP Material Management</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
@@ -784,11 +784,11 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektdefinition">
         <ammenwerth:Synonym>Project Definition</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Project Definition</ammenwerth:Concept_Type>
+        <Concept_Type>Project Definition</Concept_Type>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Ticketauswertung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Ticket Evaluation</ammenwerth:Synonym>
@@ -796,83 +796,83 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Plansumme_Fremdmittel">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Fremdmittel">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Sachkonto_Hardwarereparaturen">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektreview">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>Project Review</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Sachkonto_IT-Dienstleistungen">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Instant_Messaging_System">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektmanagementsystem">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#E-Mail-Transport-Server-System">
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source></ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Durchführung_Jour-fixe">
         <ammenwerth:Synonym>Joure-fice Execution</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de">Statusabfrage der Projekte, 1x wöchentlich Projektleiter Jour fixe zur Besprechung laufender Projekte</skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Plansumme_Dienstleistungsmittel">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Ticketklassifikation">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>Ticket Classification</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Geplante_Aktivierbare_Dienstleistungsmittel">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Ticketbearbeitungszuweisung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Ticket Processing Assesment</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#SAP">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym>Systemanalyse und Programmentwicklung</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
@@ -880,17 +880,17 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#CAB_Durchführung">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>CAB Execution</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Ticketüberwachung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>Ticket Monitoring</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Kostenmanagement">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Cost Management</ammenwerth:Synonym>
@@ -898,40 +898,40 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projekteskalation">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>Project Escalation</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#MS_Project">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Information_Management_Function">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>CionX2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Materialbestellung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Verzeichnisdienstsystem">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Jour-fixe_Protokoll">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Jour-fixe Protocol</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Dienstanweisung">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Organisation Instruction</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
@@ -940,10 +940,10 @@
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Kollaborationsplattform">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
@@ -951,11 +951,11 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Wartungsvertragsentscheidung">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#SAP_HR_PEP">
         <ammenwerth:Synonym>SAP Human Resource -  Personaleinsatzplanung</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
@@ -963,28 +963,28 @@
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Arbeitsablaufsystem">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#MS_Powerpoint">
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <ammenwerth:Source></ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Change_Antrag_Protokoll">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Change Request Protocol</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#MS_SCSM">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym>System Center Service Manager</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
@@ -993,17 +993,17 @@
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Wartungsvertragfreigabe">
         <skos:definition xml:lang="de">Wenn Vertragsbetrag &lt; 25.000 Euro und Vertragslaufzeit begrenzt. Die Bereichsassistenz trägt die Kosten des Wartungsvertrags in den Wirtschaftsplan ein.</skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>Maintenance Contract Release</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#MS_Sytem_Center">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
@@ -1011,19 +1011,19 @@
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Project Priorisation</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Wartungsaktivitätsprotokoll">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#FAMOS">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Fast Analysis And Monitoring Of Signals</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Enterprise_Resource_Planning_System">
         <ammenwerth:Concept_Domain>Entity Type</ammenwerth:Concept_Domain>
@@ -1034,69 +1034,69 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Personaleinsatzplanung">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Personnel Management</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektleiterzuweisung">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Project Manager Assignment</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektrisiko">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym>Project Risk</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Personalmanagement">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Sachkonto_IT-Investitionen">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Change_Request_Überwachung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Change Request Monitoring</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#IT_Strategieentwicklung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Bestellung">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektübergabeprotokoll">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Ticket_Bearbeitung">
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Ticket Processing</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#MS_Exchange">
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <ammenwerth:Source></ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#SAP_Cats">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
@@ -1104,24 +1104,24 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Officepaket">
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#PDF_Viewer">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektpriorität">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Project Priority</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Kostenart">
         <ammenwerth:Synonym>Cost Type</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
     </rdf:Description>
@@ -1129,35 +1129,35 @@
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Anlagenmanagementsystem">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Budgetplanung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#SAP_CO">
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym>SAP Controlling</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#IT-Strategie">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>IT-Strategy</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#IT_Service_Management_System">
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
     </rdf:Description>
@@ -1165,16 +1165,16 @@
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Durchführung_Jour-fixe_CEO">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Joure-fixe Execution CEO</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#SAP_ERP">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>SAP Enterprise Resource Planning</ammenwerth:Synonym>
@@ -1182,7 +1182,7 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Vertragsmanagement">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>Contract Management</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Finanzwesensystem">
@@ -1195,10 +1195,10 @@
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Project Presentation</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Materialwirtschaftssystem">
-        <ammenwerth:Concept_Type>Enttiy Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
@@ -1206,23 +1206,23 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Dienstleistungsmittel">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Wirtschaftsplan">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektwebsite">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#IT-Sachkontenplanung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de">Sachkonten werden einmal jährlich geplant auf Grundlage des Vorjahrs.</skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>IT General Ledger Account Planning</ammenwerth:Synonym>
@@ -1231,14 +1231,14 @@
         <ammenwerth:Source></ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
     </rdf:Description>
     <rdf:Description rdf:about="&ammenwerth;Certification">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Chapter></ammenwerth:Chapter>
         <ammenwerth:Source></ammenwerth:Source>
         <ammenwerth:Concept_Domain></ammenwerth:Concept_Domain>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <definition_EN_Page></definition_EN_Page>
     </rdf:Description>
@@ -1246,16 +1246,16 @@
         <ammenwerth:Synonym>Change Request Aquisition</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Bereich_Finanzen,_Planung_und_Controlling">
-        <ammenwerth:Concept_Type>Role</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Störungserfassung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Fault Entry</ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
@@ -1263,30 +1263,30 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Rechnungsfreigabe">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Invoice Release</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Anlegen_Hardwarereparatur">
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Beschaffungsbeauftragung">
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de">Die Beschaffung wird beauftragt und auf das entsprechende Budget geschaut. Anschließend geht ein Auftrag aus SAP raus und eine Rückmeldung geht an den Auftraggeber zurück.</skos:definition>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#MS_Outlook">
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <ammenwerth:Source></ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Personaleinsatzplanungsystem">
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <winter:Source>Interview CionX 2015</winter:Source>
     </rdf:Description>
@@ -1294,29 +1294,29 @@
         <ammenwerth:Source>Interview CionX 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym></ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Sachkonto_Softwarereparaturen">
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Aktiverbare_Dienstleistungsmittel">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Investitionen</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Wartungsvertagserstellung">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>Maintenance Contract Creation</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Anlegen_Softwarereparatur">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
@@ -1324,10 +1324,10 @@
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source></ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
     </rdf:Description>
     <rdf:Description rdf:about="&ammenwerth;3LGM²_Information_Process">
-        <ammenwerth:Concept_Type></ammenwerth:Concept_Type>
+        <Concept_Type></Concept_Type>
         <definition_EN_Page></definition_EN_Page>
         <winter:Definition_EN></winter:Definition_EN>
         <ammenwerth:Synonym></ammenwerth:Synonym>
@@ -1337,12 +1337,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektabschlussbericht">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Concept Type</ammenwerth:Concept_Type>
+        <Concept_Type>Concept Type</Concept_Type>
         <ammenwerth:Synonym>Project Completition Report</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#MS_Word">
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym></ammenwerth:Synonym>
@@ -1351,28 +1351,28 @@
         <ammenwerth:Synonym></ammenwerth:Synonym>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Role</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Etat">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Budget</ammenwerth:Synonym>
-        <ammenwerth:Concept_Type>Entity Type</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de">Geldmittel für Dienstleistungen, Softwarewartung, Hardwarewartung, Reparatur, Ersatzteile und Investitionsmittel</skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Interne_Budgetkontierung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Synonym>Internal Budget Account Assignment</ammenwerth:Synonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#IT-Finanzcontrolling">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ammenwerth:Synonym>IT Financial Controlling</ammenwerth:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektbudgetverwaltung">
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <ammenwerth:Synonym>Project Budget Administration</ammenwerth:Synonym>
@@ -1380,7 +1380,7 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Beschaffungsmanagement">
         <ammenwerth:Source>Interview CIOx 2015</ammenwerth:Source>
         <skos:definition xml:lang="de"></skos:definition>
-        <ammenwerth:Concept_Type>Function</ammenwerth:Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
 </rdf:RDF>
 
