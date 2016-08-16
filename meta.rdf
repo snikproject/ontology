@@ -7,32 +7,27 @@
 	xmlns:xml="http://www.w3.org/XML/1998/namespace"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:ov="http://open.vocab.org/terms/"
 	xmlns:vann="http://purl.org/vocab/vann/"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<owl:Ontology rdf:about="http://www.snik.eu/meta">
-		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-08-08</dcterms:modified>
+	xmlns:dc="http://purl.org/dc/terms">
 
+	<owl:Ontology rdf:about="http://www.snik.eu/meta">
+		<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-08-08</dc:modified>
 		<ov:defines rdf:resource="Function"/>
 		<ov:defines rdf:resource="InformationManagement"/>
-		<ov:defines rdf:resource="Administrative"/>
+		<ov:defines rdf:resource="Administration"/>
 		<ov:defines rdf:resource="PatientCare"/>
 		<ov:defines rdf:resource="Management"/>
 		<ov:defines rdf:resource="EducationResearch"/>
-
 		<ov:defines rdf:resource="Role"/>
 		<ov:defines rdf:resource="HisStakeholder"/>
 		<ov:defines rdf:resource="PassiveEntityType"/>
 		<ov:defines rdf:resource="SoftwareProduct"/>
-
 		<ov:defines rdf:resource="RepresentationType"/>
 		<ov:defines rdf:resource="DataSetType"/>
-
 		<ov:defines rdf:resource="approvesEntityType"/>
 		<ov:defines rdf:resource="approvesFunction"/>
-
 		<ov:defines rdf:resource="isInvolvedIn"/>
 		<ov:defines rdf:resource="uses"/>
 		<ov:defines rdf:resource="increases"/>
@@ -50,7 +45,7 @@
 		<ov:defines rdf:resource="subFunction"/>
 		<ov:defines rdf:resource="subEntityType"/>
 		<foaf:homepage rdf:resource="http://www.snik.eu"/>
-		<dcterms:source rdf:resource="http://www.snik.eu/mapping"/>
+		<dc:source rdf:resource="http://www.snik.eu/mapping"/>
 		<vann:preferredNamespacePrefix>snik-meta</vann:preferredNamespacePrefix>
 		<vann:preferredNamespaceUri rdf:resource="http://www.snik.eu/ontology/bb/"/>
 	</owl:Ontology>
