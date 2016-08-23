@@ -19,6 +19,7 @@
      xmlns:dcam="http://purl.org/dc/dcam/"
      xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:dbr="http://dbpedia.org/resource/"
+     xmlns:schema="http://schema.org/"
 >
     <owl:Ontology rdf:about="http://www.snik.eu/ontology/bb">
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
@@ -961,7 +962,6 @@
         <ov:defines rdf:resource="Timeslot"/>
         <ov:defines rdf:resource="Order_Entry"/>
         <ov:defines rdf:resource="Project_2"/>
-        <ov:defines rdf:resource="Concept_Type"/>
         <ov:defines rdf:resource="Socio-Technical_System"/>
         <ov:defines rdf:resource="Software_Vendor"/>
         <ov:defines rdf:resource="Medical_Admission"/>
@@ -1226,7 +1226,6 @@
         <ov:defines rdf:resource="System_Analysis"/>
         <ov:defines rdf:resource="Architectural_Style_of_the_Logical_Tool_Layer"/>
         <ov:defines rdf:resource="NIC"/>
-        <ov:defines rdf:resource="Error"/>
         <ov:defines rdf:resource="Quality_of_Health_Care_Outcome"/>
         <ov:defines rdf:resource="Oncology_Information_System"/>
         <ov:defines rdf:resource="Execution_of_Chemotheraphy"/>
@@ -1339,7 +1338,7 @@
         <ov:defines rdf:resource="Organize_patient_transport"/>
         <ov:defines rdf:resource="General_Practice"/>
         <ov:defines rdf:resource="Financing_of_Health_Care"/>
-        <ov:defines rdf:resource="Information_Management"/>
+        <ov:defines rdf:resource=/>
         <ov:defines rdf:resource="Software_Quality"/>
         <ov:defines rdf:resource="Temporal_Development_stage"/>
         <ov:defines rdf:resource="Standard"/>
@@ -1401,72 +1400,11 @@
      -->
 
 
-    <!-- http://www.snik.eu/ontology/bb/Chapter -->
-
-    <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Chapter"/>
-
-
-
     <!-- http://www.snik.eu/ontology/bb/Concept_Domain -->
 
     <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Concept_Domain"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/bb/Concept_Type -->
-
-    <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Concept_Type"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/bb/Definition_DE -->
-
-    <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Definition_DE"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/bb/Definition_DE_Page -->
-
-    <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Definition_DE_Page"/>
-
-
-    <!-- http://www.snik.eu/ontology/bb/Definition_EN_Page -->
-
-    <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Definition_EN_Page"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/bb/Error -->
-
-    <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Error"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/bb/ID -->
-
-    <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/ID"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/bb/Source -->
-
-    <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Source"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/bb/Tripel_Page -->
-
-    <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Tripel_Page"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/bb/Tripel_RowNr -->
-
-    <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Tripel_RowNr"/>
-
-
-
-    <!--
+    
+<!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -2204,7 +2142,7 @@ related to admission, discharge, and transfer of a patient.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1662</ID>
@@ -2323,7 +2261,7 @@ fi ndings are free of measurement or transcription errors.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1626</ID>
@@ -2439,7 +2377,7 @@ entity types.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ad Hoc Monitoring may be initiated when larger changes of a component are
 planned, or when sudden larger problems of HIS components have been observed. Ad hoc
 activities help to analyze a certain situation in detail, in order to better understand reasons
@@ -3515,7 +3453,7 @@ easily extendable to match increasing volume of communication.</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">235</ID>
@@ -3562,7 +3500,7 @@ easily extendable to match increasing volume of communication.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</ID>
@@ -4123,7 +4061,6 @@ relationship.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">408</ID>
@@ -6088,7 +6025,7 @@ Object Workgroup Standard</Synonym>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="Information_Management"/>
+                <owl:someValuesFrom rdf:resource=/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6252,7 +6189,7 @@ Object Workgroup Standard</Synonym>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="Information_Management"/>
+                <owl:someValuesFrom rdf:resource=/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">249</Tripel_Page>
@@ -7107,7 +7044,6 @@ ed according to the national law for medical devices .</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1686</ID>
@@ -9225,7 +9161,6 @@ diagnoses of a patient are only accessible by the treating health care professio
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1699</ID>
@@ -9441,7 +9376,6 @@ this type of integrity consistency .</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1700</ID>
@@ -9470,7 +9404,6 @@ this type of integrity consistency .</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</ID>
@@ -9506,7 +9439,6 @@ this type of integrity consistency .</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1702</ID>
@@ -10225,7 +10157,6 @@ provided</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1705</ID>
@@ -10301,7 +10232,6 @@ of the repositories where they are physically stored.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1706</ID>
@@ -11007,7 +10937,6 @@ and stored inside a HIS</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2, Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data models describe the data processed and stored in an information system.
 ------------------
@@ -11064,7 +10993,6 @@ and stored inside a HIS</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">984</ID>
@@ -11858,7 +11786,6 @@ right diagnosis or treatment for a specifi c patient</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1712</ID>
@@ -12025,7 +11952,6 @@ judgment in the next round.  </Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1713</ID>
@@ -12094,7 +12020,6 @@ judgment in the next round.  </Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1715</ID>
@@ -12882,7 +12807,6 @@ diagnosis , or prevention</Definition_EN>
         <rdfs:subClassOf rdf:resource="Asynchronous_Communication"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1293</ID>
@@ -13973,7 +13897,6 @@ user, with either little or no effort to correct it?</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1727</ID>
@@ -14002,7 +13925,6 @@ user, with either little or no effort to correct it?</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">410</ID>
@@ -15322,7 +15244,7 @@ period. </Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">171</ID>
@@ -15637,7 +15559,7 @@ hospital and also influences KPIs</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1741</ID>
@@ -16195,7 +16117,7 @@ x-ray examinations</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en">User support unit serving as first contact for all user groups with any kinds of information processing problems. It may consist, for example, of a central 24-h-hotline (service desk) that is responsible for the management of user accounts and fi rst troubleshooting, or of decentralized information processing staff. When the first-level support cannot solve the problems, it hands them over to the second-level support.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">303 </Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">885</ID>
@@ -16493,7 +16415,7 @@ patients , e.g., normal diet and light diet</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">241</ID>
@@ -16680,7 +16602,7 @@ as general goals of all hospitals.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</ID>
@@ -17099,7 +17021,6 @@ output when searching for a patient , and it guarantees security of stored data.
         <rdfs:subClassOf rdf:resource="Law"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1548</ID>
@@ -17313,7 +17234,7 @@ output when searching for a patient , and it guarantees security of stored data.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comparison of HIS quality with other organizations in order to find best practices.
 ------------------
  Benchmarking in general describes a process in which organizations evaluate various
@@ -17465,7 +17386,7 @@ in which organizations measure and then steadily improve their performance.</Def
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1756</ID>
@@ -17559,7 +17480,7 @@ in which organizations measure and then steadily improve their performance.</Def
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Certification in general means to confi rm that an object or organization has certain characteristics.
 HIS certifi cation in general describes a process where an accredited body confi rms that
 the HIS fulfi lls certain pre-defi ned quality characteristics.</Definition_EN>
@@ -17766,7 +17687,7 @@ member.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1759</ID>
@@ -19407,7 +19328,7 @@ using tools from the same vendor</Definition_EN>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Information_Management"/>
+                <owl:someValuesFrom rdf:resource=/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -19440,7 +19361,7 @@ survival and the economic success of the hospital.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Information_Management"/>
+                <owl:someValuesFrom rdf:resource=/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</Tripel_Page>
@@ -21428,7 +21349,7 @@ centers.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">888</ID>
@@ -21678,7 +21599,7 @@ centers.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231</ID>
@@ -21785,7 +21706,7 @@ centers.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1808</ID>
@@ -21808,7 +21729,7 @@ centers.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1809</ID>
@@ -21843,7 +21764,7 @@ centers.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT service management (ITSM) is information management centered on the customer’s per-
 spective of IT’s contribution to the business, in contrast to technology-centered approaches.
 It comprises all measures and methods that are necessary to support the business processes.
@@ -21989,7 +21910,7 @@ It comprises all measures and methods that are necessary to support the business
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2155</ID>
@@ -22062,7 +21983,7 @@ It comprises all measures and methods that are necessary to support the business
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1777</ID>
@@ -22085,7 +22006,6 @@ It comprises all measures and methods that are necessary to support the business
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1778</ID>
@@ -22108,7 +22028,6 @@ It comprises all measures and methods that are necessary to support the business
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1779</ID>
@@ -22131,7 +22050,6 @@ It comprises all measures and methods that are necessary to support the business
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1780</ID>
@@ -22252,7 +22170,6 @@ It comprises all measures and methods that are necessary to support the business
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="en">Information is a specific determination about entities such as facts, events, things, persons, processes, ideas, or concepts.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 </Definition_EN_Page>
@@ -22415,7 +22332,6 @@ It comprises all measures and methods that are necessary to support the business
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.4, 6.3, 9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information management comprises those management activities that deal with the
 management of information processing in an institution, for example, a hospital.
 ------------------
@@ -22430,14 +22346,14 @@ information management should contribute to fulfi ll strategic enterprise goals.
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Management of Information Systems</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information_Management"/>
+        <owl:annotatedSource rdf:resource=/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1791</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information_Management"/>
+        <owl:annotatedSource rdf:resource=/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -22449,7 +22365,7 @@ information management should contribute to fulfi ll strategic enterprise goals.
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1074</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information_Management"/>
+        <owl:annotatedSource rdf:resource=/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -22461,7 +22377,7 @@ information management should contribute to fulfi ll strategic enterprise goals.
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">801</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information_Management"/>
+        <owl:annotatedSource rdf:resource=/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -22473,7 +22389,7 @@ information management should contribute to fulfi ll strategic enterprise goals.
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">799</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information_Management"/>
+        <owl:annotatedSource rdf:resource=/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -22485,7 +22401,7 @@ information management should contribute to fulfi ll strategic enterprise goals.
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information_Management"/>
+        <owl:annotatedSource rdf:resource=/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -22497,7 +22413,7 @@ information management should contribute to fulfi ll strategic enterprise goals.
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information_Management"/>
+        <owl:annotatedSource rdf:resource=/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -22509,7 +22425,7 @@ information management should contribute to fulfi ll strategic enterprise goals.
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information_Management"/>
+        <owl:annotatedSource rdf:resource=/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -22521,7 +22437,7 @@ information management should contribute to fulfi ll strategic enterprise goals.
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information_Management"/>
+        <owl:annotatedSource rdf:resource=/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -22860,7 +22776,6 @@ If the information management department also cares of strategic information man
         <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1790</ID>
@@ -22957,7 +22872,7 @@ If the information management department also cares of strategic information man
 
     <owl:Class rdf:about="http://www.snik.eu/ontology/bb/Information_Management_in_Health_Care_Networks">
 <rdfs:label xml:lang="en">Information Management in Health Care Networks</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Information_Management"/>
+        <rdfs:subClassOf rdf:resource=/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="uses"/>
@@ -22967,7 +22882,6 @@ If the information management department also cares of strategic information man
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224</ID>
@@ -22976,7 +22890,7 @@ If the information management department also cares of strategic information man
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Information_Management_in_Health_Care_Networks"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Information_Management"/>
+        <owl:annotatedTarget rdf:resource=/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2136</Tripel_RowNr>
     </owl:Axiom>
@@ -22999,7 +22913,7 @@ If the information management department also cares of strategic information man
 
     <owl:Class rdf:about="http://www.snik.eu/ontology/bb/Information_Management_in_Hospitals">
 <rdfs:label xml:lang="en">Information Management in Hospitals</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Information_Management"/>
+        <rdfs:subClassOf rdf:resource=/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
@@ -23008,7 +22922,6 @@ If the information management department also cares of strategic information man
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en">Information management in hospitals is the management of hospital information systems;</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">241 </Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1075</ID>
@@ -23017,7 +22930,7 @@ If the information management department also cares of strategic information man
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Information_Management_in_Hospitals"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Information_Management"/>
+        <owl:annotatedTarget rdf:resource=/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1788</Tripel_RowNr>
     </owl:Axiom>
@@ -23172,7 +23085,6 @@ If the information management department also cares of strategic information man
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1796</ID>
@@ -23460,7 +23372,6 @@ enterprise-wide view on information processing in an institution.</Definition_EN
         <rdfs:subClassOf rdf:resource="Model"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information system model is a model describing the architecture of the hospital’s information
 system.
@@ -23570,7 +23481,6 @@ system.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When hospital information systems make available  the right information and knowledge at the right time at the right place  to the right people in the right form, so that these people can make the right decisions, this is also described as information and
 knowledge logistics .
 • the right information and knowledge
@@ -25414,7 +25324,6 @@ resource KPI).
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -25503,7 +25412,6 @@ resource KPI).
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">810</ID>
@@ -25753,7 +25661,6 @@ reach their destination</Definition_EN>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">394</ID>
@@ -26163,7 +26070,6 @@ overall application component’s stability.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1821</ID>
@@ -26602,7 +26508,6 @@ goals, structures, and behaviors.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1825</ID>
@@ -28073,7 +27978,6 @@ available media</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Those messages transferred during communication in the context of notifications
 , teleconsultations, or teleconferences, and for the global use of patient records,
 have to be protected from unauthorized third party access. Encryption procedures
@@ -28492,7 +28396,6 @@ to a certain working place, are available.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ID>
@@ -28534,7 +28437,6 @@ to a certain working place, are available.</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ID>
@@ -28579,7 +28481,6 @@ to a certain working place, are available.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1628</ID>
@@ -28638,7 +28539,6 @@ to a certain working place, are available.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</ID>
@@ -28673,7 +28573,6 @@ to a certain working place, are available.</Definition_EN>
         <rdfs:subClassOf rdf:resource="Permanent_Monitoring"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1612</ID>
@@ -28696,7 +28595,6 @@ to a certain working place, are available.</Definition_EN>
         <rdfs:subClassOf rdf:resource="Permanent_Monitoring"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1614</ID>
@@ -28725,7 +28623,6 @@ to a certain working place, are available.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">211</ID>
@@ -28801,7 +28698,6 @@ to a certain working place, are available.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1845</ID>
@@ -29091,7 +28987,6 @@ Classification; </Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1847</ID>
@@ -29114,7 +29009,6 @@ Classification; </Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1848</ID>
@@ -31349,7 +31243,6 @@ standards have to be established and used.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Directing means the sum of all management activities that are necessary to ensure
 proper responses to operating problems of components of the hospital information sys-
 tem, that is, to provide backup facilities, to operate a service desk, to maintain servers,
@@ -31384,7 +31277,6 @@ tion of the hospital information system is ensured.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring deals with caring for the verifi cation of the proper working and effective-
 ness of components of the hospital information system</Definition_EN>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">244 </Definition_EN_Page>
@@ -31456,7 +31348,6 @@ ness of components of the hospital information system</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">876</ID>
@@ -31696,7 +31587,6 @@ ness of components of the hospital information system</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3, 9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_DE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operational information management , finally, is responsible for operating the components
 of the information system</Definition_DE>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 </Definition_DE_Page>
@@ -32012,7 +31902,6 @@ information management plan.</Definition_EN>
         <rdfs:subClassOf rdf:resource="Information_Management_Goal"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -36284,7 +36173,6 @@ and how he or she is to be transported there</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">397</ID>
@@ -36960,7 +36848,6 @@ components.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1629</ID>
@@ -37013,7 +36900,6 @@ components.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1887</ID>
@@ -37036,7 +36922,6 @@ components.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1888</ID>
@@ -37059,7 +36944,6 @@ components.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1889</ID>
@@ -37082,7 +36966,6 @@ components.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</ID>
@@ -37105,7 +36988,6 @@ components.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1891</ID>
@@ -37128,7 +37010,6 @@ components.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</ID>
@@ -37206,7 +37087,6 @@ used database systems and operating systems.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An important instrument for information management strategic planning is portfolio man-
 agement. Originally coming from the fi eld of fi nance to acquire a well-balanced securities
 portfolio, today the term portfolio management is used to refer to multiple strategic man-
@@ -37635,7 +37515,6 @@ data as well as user interfaces in a unifi ed way.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1899</ID>
@@ -37658,7 +37537,6 @@ data as well as user interfaces in a unifi ed way.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1900</ID>
@@ -38055,7 +37933,6 @@ resources, and by a specifi c project organization (DIN 69901)</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1905</ID>
@@ -38101,7 +37978,6 @@ resources, and by a specifi c project organization (DIN 69901)</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1906</ID>
@@ -38154,7 +38030,6 @@ resources, and by a specifi c project organization (DIN 69901)</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deals with particular enterprise functions or
 application components that are introduced, removed, or changed. Usually these
 activities are done in the form of projects . Such tactical information management
@@ -38263,7 +38138,6 @@ projects are initiated by strategic information management .</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1910</ID>
@@ -38521,9 +38395,9 @@ board.</Definition_EN>
 
     <!-- http://www.snik.eu/ontology/bb/Project_Module_2 -->
 
-    <owl:Class rdf:about="http://www.snik.eu/ontology/bb/Project_Module_2">
-<rdfs:label xml:lang="en">Project Module 2</rdfs:label>
-        <Error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</Error>
+    <owl:Class	rdf:about="http://www.snik.eu/ontology/bb/Project_Module_2"
+		schema:title="Annotation fehlt, Konzept kommt nur als Objekt vor.">
+	<rdfs:label xml:lang="en">Project Module 2</rdfs:label>
     </owl:Class>
 
 
@@ -38535,7 +38409,6 @@ board.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1914</ID>
@@ -38581,7 +38454,6 @@ board.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</ID>
@@ -38668,7 +38540,6 @@ board.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1919</ID>
@@ -38714,7 +38585,6 @@ board.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1921</ID>
@@ -39534,7 +39404,6 @@ board.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</ID>
@@ -41617,7 +41486,6 @@ doctor.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/PatientCare"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2206</ID>
@@ -41699,7 +41567,6 @@ doctor.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</ID>
@@ -42217,7 +42084,6 @@ form a ring. Data are passed from one system to the other in the same direction 
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</ID>
@@ -43131,7 +42997,6 @@ based tools still in use.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specially trained informatics staff in the central information management department who are
 usually responsible for the operation of the specifi c application components.
 ------------------
@@ -43546,7 +43411,6 @@ interpret data the same way.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1946</ID>
@@ -43620,7 +43484,6 @@ interpret data the same way.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.10</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1948</ID>
@@ -43643,7 +43506,6 @@ interpret data the same way.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1949</ID>
@@ -43761,7 +43623,6 @@ interpret data the same way.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">893</ID>
@@ -43829,7 +43690,6 @@ interpret data the same way.
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1951</ID>
@@ -43870,7 +43730,6 @@ interpret data the same way.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">896</ID>
@@ -43958,7 +43817,6 @@ interpret data the same way.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">389</ID>
@@ -44193,7 +44051,6 @@ when the user has logged in at an involved application component</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1959</ID>
@@ -44852,7 +44709,6 @@ a central system which handles data transmission</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1966</ID>
@@ -44907,7 +44763,6 @@ a central system which handles data transmission</Definition_EN>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategic alignment
 describes the process that balances and coordinates the hospital goals and the information
 management strategies to get the best result for the hospital.
@@ -45160,7 +45015,6 @@ management strategies to get the best result for the hospital.
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Directing as part of strategic information management means to transform the strategic
 information management plan into action, that is, to systematically manipulate the
 hospital information system to make it conform to the strategic plan.
@@ -45392,7 +45246,6 @@ HIS architectures, and information management organizations.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring as part of strategic information management means continuously auditing
 HIS quality as defi ned by means of its strategic information management plan’s directives
 and goals.</Definition_EN>
@@ -45602,7 +45455,6 @@ and goals.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The planning activities of
 strategic information management result in a specifi c strategic information management
 plan. This plan includes the direction and strategy of information management and
@@ -45808,7 +45660,6 @@ by describing its intended architecture.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategic information management deals with information
 processing as a whole.
 ------------------
@@ -46896,7 +46747,6 @@ as long as response data from the partner are not obtained.
         <rdfs:subClassOf rdf:resource="Project_Execution_Module"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1587</ID>
@@ -46927,7 +46777,6 @@ as long as response data from the partner are not obtained.
         <rdfs:subClassOf rdf:resource="Project_Execution_Module"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1588</ID>
@@ -46964,7 +46813,6 @@ as long as response data from the partner are not obtained.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">868</ID>
@@ -47013,7 +46861,6 @@ as long as response data from the partner are not obtained.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">949</ID>
@@ -47062,7 +46909,6 @@ as long as response data from the partner are not obtained.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">869</ID>
@@ -47122,9 +46968,11 @@ as long as response data from the partner are not obtained.
 
     <!-- http://www.snik.eu/ontology/bb/Systematic_Information_Processing -->
 
-    <owl:Class rdf:about="http://www.snik.eu/ontology/bb/Systematic_Information_Processing">
+    <owl:Class rdf:about="http://www.snik.eu/ontology/bb/Systematic_Information_Processing"
+schema:error="Exact subclass relationship unclear: is a goal a function?">
 <rdfs:label xml:lang="en">Systematic Information Processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="Strategic_Information_Management_Goal"/>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
@@ -47133,7 +46981,6 @@ as long as response data from the partner are not obtained.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">983</ID>
@@ -47318,7 +47165,6 @@ as long as response data from the partner are not obtained.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Directing in tactical management means the execution of such tactical information
 management projects in hospitals, based on a project plan. Therefore, it includes typical
 tasks of project management such as resource allocation and coordination, motivation and
@@ -47381,7 +47227,6 @@ Monitoring means continually</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring means continually checking whether the initiated projects are running as
 planned and whether they will produce the expected results. Monitoring results infl uence
 project planning, as a project’s plan may be updated or changed according to the results of
@@ -47443,7 +47288,6 @@ the project’s monitoring in a given situation</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planning in tactical information management means planning projects and all the
 resources needed for them.</Definition_EN>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">243 </Definition_EN_Page>
@@ -47587,7 +47431,6 @@ resources needed for them.</Definition_EN>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en">One part of information management. Deals with particular enterprise functions or application components that are introduced, removed, or changed. Usually these activities are done in the form of projects.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">243, 323</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147</ID>
@@ -48271,7 +48114,6 @@ a public institution. This can be on a regional or nationwide level.</Definition
         <rdfs:subClassOf rdf:resource="Patient_Care_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -48597,7 +48439,6 @@ referring doctor and reasons for referring</Definition_EN>
         <rdfs:subClassOf rdf:resource="Diagnosis"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</ID>
@@ -48898,7 +48739,6 @@ topology networks by connecting the central physical data processing systems</De
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</ID>
@@ -49262,7 +49102,6 @@ methods of a set of similar entities.</Definition_EN>
         <rdfs:subClassOf rdf:resource="Law"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1556</ID>
@@ -49370,7 +49209,6 @@ methods of a set of similar entities.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</ID>
@@ -49464,7 +49302,6 @@ focus on the interaction between an IT component and its users</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</ID>
@@ -49487,7 +49324,6 @@ focus on the interaction between an IT component and its users</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</ID>
@@ -49556,7 +49392,6 @@ focus on the interaction between an IT component and its users</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</ID>
@@ -49793,7 +49628,6 @@ one vendor as “V 1 .”</Definition_EN>
         <rdfs:subClassOf rdf:resource="Communication_Network"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="en">Provides an exclusively used, secure, and trustworthy communication network, based on Internet and encryption technologies. Can be established and used by health care networks.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">325 </Definition_EN_Page>
@@ -51816,7 +51650,7 @@ component which supports the enterprise function</Definition_EN>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="supports"/>
-                <owl:someValuesFrom rdf:resource="Information_Management"/>
+                <owl:someValuesFrom rdf:resource=/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -51859,7 +51693,7 @@ component which supports the enterprise function</Definition_EN>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="supports"/>
-                <owl:someValuesFrom rdf:resource="Information_Management"/>
+                <owl:someValuesFrom rdf:resource=/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</Tripel_Page>
@@ -52694,7 +52528,6 @@ each level</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1935</ID>
