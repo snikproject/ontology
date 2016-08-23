@@ -17179,7 +17179,8 @@ Methode zur Modellierung von Geschäftsprozessen, welche auf der Darstellung von
     <!-- http://www.snik.eu/ontology/ob/Process_Reference_Model -->
 
     <owl:Class rdf:about="http://www.snik.eu/ontology/ob/Process_Reference_Model">
-<rdfs:label xml:lang="en">Process Reference Model</rdfs:label>
+	<rdfs:label xml:lang="en">Process Reference Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/ob/Reference_Model"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
@@ -24572,7 +24573,8 @@ c) Was könnte besser gemacht werden?
     <!-- http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_System -->
 
     <owl:Class rdf:about="http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_System">
-<rdfs:label xml:lang="en">Reference Model for Tactical Management of Information System</rdfs:label>
+	<rdfs:label xml:lang="en">Reference Model for Tactical Management of Information System</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/ob/Reference_Model"/>
         <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
     </owl:Class>
 
@@ -24581,7 +24583,8 @@ c) Was könnte besser gemacht werden?
     <!-- http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_Systems -->
 
     <owl:Class rdf:about="http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_Systems">
-<rdfs:label xml:lang="en">Reference Model for Tactical Management of Information Systems</rdfs:label>
+	<rdfs:label xml:lang="en">Reference Model for Tactical Management of Information Systems</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/ob/Reference_Model"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.snik.eu/ontology/ob/isDecomposedIn"/>
@@ -24615,7 +24618,8 @@ c) Was könnte besser gemacht werden?
     <!-- http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_Systems_3 -->
 
     <owl:Class rdf:about="http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_Systems_3">
-<rdfs:label xml:lang="en">Reference Model for Tactical Management of Information Systems 3</rdfs:label>
+	<rdfs:label xml:lang="en">Reference Model for Tactical Management of Information Systems 3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/ob/Reference_Model"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.snik.eu/ontology/ob/isDecomposedIn"/>
