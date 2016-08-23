@@ -10,7 +10,6 @@
     <!ENTITY ob "http://www.snik.eu/ontology/ob/" >
 ]>
 
-
 <rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.w3.org/2002/07/owl"
      xmlns:ob="http://www.snik.eu/ontology/ob/"
@@ -22,10 +21,10 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:schema="http://schema.org/"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:snik="http://www.snik.eu/ontology/snik/"
+     xmlns:ciox="http://www.snik.eu/ontology/ciox/"
 >
 
-    <Ontology rdf:about="http://www.snik.eu/ontology/snik/">
+    <Ontology rdf:about="http://www.snik.eu/ontology/snik">
     </Ontology>
   
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -53,30 +52,6 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-
-    <!-- http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_System -->
-
-    <rdf:Description rdf:about="&ob;Reference_Model_for_Tactical_Management_of_Information_System">
-        <rdfs:subClassOf rdf:resource="&ob;Reference_Model"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_Systems -->
-
-    <rdf:Description rdf:about="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems">
-        <rdfs:subClassOf rdf:resource="&ob;Reference_Model"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_Systems_3 -->
-
-    <rdf:Description rdf:about="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems_3">
-        <rdfs:subClassOf rdf:resource="&ob;Reference_Model"/>
-    </rdf:Description>
-    
-
 
     <!-- http://www.snik.eu/ontology/bb/Application_Component -->
 
@@ -169,10 +144,9 @@
     </Class>
     
 
+    <!-- http://www.snik.eu/ontology/ciox/Angebot -->
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Angebot -->
-
-    <rdf:Description rdf:about="&snik;Angebot">
+    <rdf:Description rdf:about="&ciox;Angebot">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -186,9 +160,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Anwendungssytem -->
+    <!-- http://www.snik.eu/ontology/ciox/Anwendungssytem -->
 
-    <rdf:Description rdf:about="&snik;Anwendungssytem">
+    <rdf:Description rdf:about="&ciox;Anwendungssytem">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -203,9 +177,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Bereich_Informationsmanagement -->
+    <!-- http://www.snik.eu/ontology/ciox/Bereich_Informationsmanagement -->
 
-    <rdf:Description rdf:about="&snik;Bereich_Informationsmanagement">
+    <rdf:Description rdf:about="&ciox;Bereich_Informationsmanagement">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -220,9 +194,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Betriebskonzept -->
+    <!-- http://www.snik.eu/ontology/ciox/Betriebskonzept -->
 
-    <rdf:Description rdf:about="&snik;Betriebskonzept">
+    <rdf:Description rdf:about="&ciox;Betriebskonzept">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -237,9 +211,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Change_Antrag -->
+    <!-- http://www.snik.eu/ontology/ciox/Change_Antrag -->
 
-    <rdf:Description rdf:about="&snik;Change_Antrag">
+    <rdf:Description rdf:about="&ciox;Change_Antrag">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -254,9 +228,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Change_Management -->
+    <!-- http://www.snik.eu/ontology/ciox/Change_Management -->
 
-    <rdf:Description rdf:about="&snik;Change_Management">
+    <rdf:Description rdf:about="&ciox;Change_Management">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -277,9 +251,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Computerbasiertes_Anwendungssystem -->
+    <!-- http://www.snik.eu/ontology/ciox/Computerbasiertes_Anwendungssystem -->
 
-    <rdf:Description rdf:about="&snik;Computerbasiertes_Anwendungssystem">
+    <rdf:Description rdf:about="&ciox;Computerbasiertes_Anwendungssystem">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -293,9 +267,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Incident_Management -->
+    <!-- http://www.snik.eu/ontology/ciox/Incident_Management -->
 
-    <rdf:Description rdf:about="&snik;Incident_Management">
+    <rdf:Description rdf:about="&ciox;Incident_Management">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -310,9 +284,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projekt -->
+    <!-- http://www.snik.eu/ontology/ciox/Projekt -->
 
-    <rdf:Description rdf:about="&snik;Projekt">
+    <rdf:Description rdf:about="&ciox;Projekt">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -332,9 +306,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektauftrag -->
+    <!-- http://www.snik.eu/ontology/ciox/Projektauftrag -->
 
-    <rdf:Description rdf:about="&snik;Projektauftrag">
+    <rdf:Description rdf:about="&ciox;Projektauftrag">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -349,9 +323,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektbudget -->
+    <!-- http://www.snik.eu/ontology/ciox/Projektbudget -->
 
-    <rdf:Description rdf:about="&snik;Projektbudget">
+    <rdf:Description rdf:about="&ciox;Projektbudget">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -366,9 +340,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektdurchführung -->
+    <!-- http://www.snik.eu/ontology/ciox/Projektdurchführung -->
 
-    <rdf:Description rdf:about="&snik;Projektdurchführung">
+    <rdf:Description rdf:about="&ciox;Projektdurchführung">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -389,9 +363,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektmanagement -->
+    <!-- http://www.snik.eu/ontology/ciox/Projektmanagement -->
 
-    <rdf:Description rdf:about="&snik;Projektmanagement">
+    <rdf:Description rdf:about="&ciox;Projektmanagement">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -406,9 +380,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektplan -->
+    <!-- http://www.snik.eu/ontology/ciox/Projektplan -->
 
-    <rdf:Description rdf:about="&snik;Projektplan">
+    <rdf:Description rdf:about="&ciox;Projektplan">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -429,9 +403,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektplanung -->
+    <!-- http://www.snik.eu/ontology/ciox/Projektplanung -->
 
-    <rdf:Description rdf:about="&snik;Projektplanung">
+    <rdf:Description rdf:about="&ciox;Projektplanung">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -452,9 +426,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Projektüberwachung -->
+    <!-- http://www.snik.eu/ontology/ciox/Projektüberwachung -->
 
-    <rdf:Description rdf:about="&snik;Projektüberwachung">
+    <rdf:Description rdf:about="&ciox;Projektüberwachung">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -475,9 +449,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Rechnung -->
+    <!-- http://www.snik.eu/ontology/ciox/Rechnung -->
 
-    <rdf:Description rdf:about="&snik;Rechnung">
+    <rdf:Description rdf:about="&ciox;Rechnung">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -492,9 +466,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Ressource -->
+    <!-- http://www.snik.eu/ontology/ciox/Ressource -->
 
-    <rdf:Description rdf:about="&snik;Ressource">
+    <rdf:Description rdf:about="&ciox;Ressource">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -509,9 +483,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Ressourcenplan -->
+    <!-- http://www.snik.eu/ontology/ciox/Ressourcenplan -->
 
-    <rdf:Description rdf:about="&snik;Ressourcenplan">
+    <rdf:Description rdf:about="&ciox;Ressourcenplan">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -526,9 +500,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Service_Desk -->
+    <!-- http://www.snik.eu/ontology/ciox/Service_Desk -->
 
-    <rdf:Description rdf:about="&snik;Service_Desk">
+    <rdf:Description rdf:about="&ciox;Service_Desk">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -543,9 +517,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Softwareprodukt -->
+    <!-- http://www.snik.eu/ontology/ciox/Softwareprodukt -->
 
-    <rdf:Description rdf:about="&snik;Softwareprodukt">
+    <rdf:Description rdf:about="&ciox;Softwareprodukt">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -565,9 +539,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2015/5/untitled-ontology-20#Wartungsvertrag -->
+    <!-- http://www.snik.eu/ontology/ciox/Wartungsvertrag -->
 
-    <rdf:Description rdf:about="&snik;Wartungsvertrag">
+    <rdf:Description rdf:about="&ciox;Wartungsvertrag">
         <rdfs:subClassOf>
             <Restriction>
                 <onProperty rdf:resource="http://www.snik.eu/snik.owl#IOR_Synonym"/>
@@ -590,112 +564,112 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="&snik;Tabellenkalkulationssystem">
+    <rdf:Description rdf:about="&ciox;Tabellenkalkulationssystem">
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CionX 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektewarteliste">
+    <rdf:Description rdf:about="&ciox;Projektewarteliste">
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de">Grundlage für jährliche Projektplanung</skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Geplanter_Personalaufwand">
+    <rdf:Description rdf:about="&ciox;Geplanter_Personalaufwand">
         <ob:Synonym>Planned Personnel Costs</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Textverarbeitungssoftware">
+    <rdf:Description rdf:about="&ciox;Textverarbeitungssoftware">
         <ob:Source>Interview CionX 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Sachkonto">
+    <rdf:Description rdf:about="&ciox;Sachkonto">
         <ob:Synonym></ob:Synonym>
         <ob:Concept_Domain>Entity Type</ob:Concept_Domain>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Durchführung_Wartungsfenster">
+    <rdf:Description rdf:about="&ciox;Durchführung_Wartungsfenster">
         <ob:Synonym>Maintenance Window Execution</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;SAP_xFlow">
+    <rdf:Description rdf:about="&ciox;SAP_xFlow">
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Bestellungsbearbeitung">
+    <rdf:Description rdf:about="&ciox;Bestellungsbearbeitung">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Purchase Order Processing</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Polypoint_PEP">
+    <rdf:Description rdf:about="&ciox;Polypoint_PEP">
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Change_Request_Prüfung">
+    <rdf:Description rdf:about="&ciox;Change_Request_Prüfung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>Change Request Check</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Krankenhausverwaltung">
+    <rdf:Description rdf:about="&ciox;Krankenhausverwaltung">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <ob:Synonym>Hospital Administration</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Ticket">
+    <rdf:Description rdf:about="&ciox;Ticket">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Kostenrechnungssystem">
+    <rdf:Description rdf:about="&ciox;Kostenrechnungssystem">
         <skos:definition xml:lang="de">Interview CionX 2015</skos:definition>
         <Concept_Type></Concept_Type>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Exchange_Server">
+    <rdf:Description rdf:about="&ciox;MS_Exchange_Server">
         <skos:definition xml:lang="de"></skos:definition>
         <Concept_Type></Concept_Type>
         <ob:Source></ob:Source>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;SAP_FI">
+    <rdf:Description rdf:about="&ciox;SAP_FI">
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektportfolio">
+    <rdf:Description rdf:about="&ciox;Projektportfolio">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Project Portfolio</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projekteliste">
+    <rdf:Description rdf:about="&ciox;Projekteliste">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="en">Entity Type</skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Beschaffungsfreigabe">
+    <rdf:Description rdf:about="&ciox;Beschaffungsfreigabe">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projekteplanung">
+    <rdf:Description rdf:about="&ciox;Projekteplanung">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Porjects Planning</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
@@ -710,513 +684,513 @@
         <ob:Synonym></ob:Synonym>
         <ob:Concept_Domain></ob:Concept_Domain>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_SharePoint">
+    <rdf:Description rdf:about="&ciox;MS_SharePoint">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source></ob:Source>
         <ob:Synonym></ob:Synonym>
         <ob:Concept_Domain></ob:Concept_Domain>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Active_Directory">
+    <rdf:Description rdf:about="&ciox;MS_Active_Directory">
         <ob:Source></ob:Source>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <Concept_Type></Concept_Type>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Wartungsfenster_Freigabe">
+    <rdf:Description rdf:about="&ciox;Wartungsfenster_Freigabe">
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektfreigabe">
+    <rdf:Description rdf:about="&ciox;Projektfreigabe">
         <ob:Synonym>Project Release</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektstatusbericht">
+    <rdf:Description rdf:about="&ciox;Projektstatusbericht">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Change_Request_Entscheidung">
+    <rdf:Description rdf:about="&ciox;Change_Request_Entscheidung">
         <ob:Synonym>Change Request Decision</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektportfolioplanung">
+    <rdf:Description rdf:about="&ciox;Projektportfolioplanung">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Project Portfolio Planning</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Microsoft">
+    <rdf:Description rdf:about="&ciox;Microsoft">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym>MS</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Wirtschaftsplanung">
+    <rdf:Description rdf:about="&ciox;Wirtschaftsplanung">
         <skos:definition xml:lang="de">Schätzung des Budgets für die Sachkonten des B1</skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>Economic Planning</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;SAP_MM">
+    <rdf:Description rdf:about="&ciox;SAP_MM">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>SAP Material Management</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektdefinition">
+    <rdf:Description rdf:about="&ciox;Projektdefinition">
         <ob:Synonym>Project Definition</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <Concept_Type>Project Definition</Concept_Type>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Ticketauswertung">
+    <rdf:Description rdf:about="&ciox;Ticketauswertung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Ticket Evaluation</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Plansumme_Fremdmittel">
+    <rdf:Description rdf:about="&ciox;Plansumme_Fremdmittel">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Fremdmittel">
+    <rdf:Description rdf:about="&ciox;Fremdmittel">
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Sachkonto_Hardwarereparaturen">
+    <rdf:Description rdf:about="&ciox;Sachkonto_Hardwarereparaturen">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektreview">
+    <rdf:Description rdf:about="&ciox;Projektreview">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>Project Review</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Sachkonto_IT-Dienstleistungen">
+    <rdf:Description rdf:about="&ciox;Sachkonto_IT-Dienstleistungen">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Instant_Messaging_System">
+    <rdf:Description rdf:about="&ciox;Instant_Messaging_System">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CionX 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektmanagementsystem">
+    <rdf:Description rdf:about="&ciox;Projektmanagementsystem">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CionX 2015</ob:Source>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;E-Mail-Transport-Server-System">
+    <rdf:Description rdf:about="&ciox;E-Mail-Transport-Server-System">
         <skos:definition xml:lang="de"></skos:definition>
         <Concept_Type></Concept_Type>
         <ob:Synonym></ob:Synonym>
         <ob:Source></ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Durchführung_Jour-fixe">
+    <rdf:Description rdf:about="&ciox;Durchführung_Jour-fixe">
         <ob:Synonym>Joure-fice Execution</ob:Synonym>
         <Concept_Type></Concept_Type>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de">Statusabfrage der Projekte, 1x wöchentlich Projektleiter Jour fixe zur Besprechung laufender Projekte</skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Plansumme_Dienstleistungsmittel">
+    <rdf:Description rdf:about="&ciox;Plansumme_Dienstleistungsmittel">
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Ticketklassifikation">
+    <rdf:Description rdf:about="&ciox;Ticketklassifikation">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>Ticket Classification</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Geplante_Aktivierbare_Dienstleistungsmittel">
+    <rdf:Description rdf:about="&ciox;Geplante_Aktivierbare_Dienstleistungsmittel">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Ticketbearbeitungszuweisung">
+    <rdf:Description rdf:about="&ciox;Ticketbearbeitungszuweisung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Ticket Processing Assesment</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;SAP">
+    <rdf:Description rdf:about="&ciox;SAP">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym>Systemanalyse und Programmentwicklung</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;CAB_Durchführung">
+    <rdf:Description rdf:about="&ciox;CAB_Durchführung">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>CAB Execution</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Ticketüberwachung">
+    <rdf:Description rdf:about="&ciox;Ticketüberwachung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>Ticket Monitoring</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Kostenmanagement">
+    <rdf:Description rdf:about="&ciox;Kostenmanagement">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Cost Management</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projekteskalation">
+    <rdf:Description rdf:about="&ciox;Projekteskalation">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>Project Escalation</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Project">
+    <rdf:Description rdf:about="&ciox;MS_Project">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Information_Management_Function">
+    <rdf:Description rdf:about="&ciox;Information_Management_Function">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>CionX2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Materialbestellung">
+    <rdf:Description rdf:about="&ciox;Materialbestellung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Verzeichnisdienstsystem">
+    <rdf:Description rdf:about="&ciox;Verzeichnisdienstsystem">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CionX 2015</ob:Source>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Jour-fixe_Protokoll">
+    <rdf:Description rdf:about="&ciox;Jour-fixe_Protokoll">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CionX 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Jour-fixe Protocol</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Dienstanweisung">
+    <rdf:Description rdf:about="&ciox;Dienstanweisung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CionX 2015</ob:Source>
         <ob:Synonym>Organisation Instruction</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Investitionsmittel">
+    <rdf:Description rdf:about="&ciox;Investitionsmittel">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Kollaborationsplattform">
+    <rdf:Description rdf:about="&ciox;Kollaborationsplattform">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CionX 2015</ob:Source>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Wartungsvertragsentscheidung">
+    <rdf:Description rdf:about="&ciox;Wartungsvertragsentscheidung">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;SAP_HR_PEP">
+    <rdf:Description rdf:about="&ciox;SAP_HR_PEP">
         <ob:Synonym>SAP Human Resource -  Personaleinsatzplanung</ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Plansumme_Investitionsmittel">
+    <rdf:Description rdf:about="&ciox;Plansumme_Investitionsmittel">
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Arbeitsablaufsystem">
+    <rdf:Description rdf:about="&ciox;Arbeitsablaufsystem">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CionX 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Powerpoint">
+    <rdf:Description rdf:about="&ciox;MS_Powerpoint">
         <Concept_Type></Concept_Type>
         <ob:Source></ob:Source>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Change_Antrag_Protokoll">
+    <rdf:Description rdf:about="&ciox;Change_Antrag_Protokoll">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CionX 2015</ob:Source>
         <ob:Synonym>Change Request Protocol</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_SCSM">
+    <rdf:Description rdf:about="&ciox;MS_SCSM">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym>System Center Service Manager</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Investitionsmanagementsystem+">
+    <rdf:Description rdf:about="&ciox;Investitionsmanagementsystem+">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CionX 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Wartungsvertragfreigabe">
+    <rdf:Description rdf:about="&ciox;Wartungsvertragfreigabe">
         <skos:definition xml:lang="de">Wenn Vertragsbetrag &lt; 25.000 Euro und Vertragslaufzeit begrenzt. Die Bereichsassistenz trägt die Kosten des Wartungsvertrags in den Wirtschaftsplan ein.</skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>Maintenance Contract Release</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Sytem_Center">
+    <rdf:Description rdf:about="&ciox;MS_Sytem_Center">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektpriorisierung">
+    <rdf:Description rdf:about="&ciox;Projektpriorisierung">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Project Priorisation</ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Wartungsaktivitätsprotokoll">
+    <rdf:Description rdf:about="&ciox;Wartungsaktivitätsprotokoll">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;FAMOS">
+    <rdf:Description rdf:about="&ciox;FAMOS">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Fast Analysis And Monitoring Of Signals</ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Enterprise_Resource_Planning_System">
+    <rdf:Description rdf:about="&ciox;Enterprise_Resource_Planning_System">
         <ob:Concept_Domain>Entity Type</ob:Concept_Domain>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CionX 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Personaleinsatzplanung">
+    <rdf:Description rdf:about="&ciox;Personaleinsatzplanung">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Personnel Management</ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektleiterzuweisung">
+    <rdf:Description rdf:about="&ciox;Projektleiterzuweisung">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Project Manager Assignment</ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektrisiko">
+    <rdf:Description rdf:about="&ciox;Projektrisiko">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym>Project Risk</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Personalmanagement">
+    <rdf:Description rdf:about="&ciox;Personalmanagement">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Sachkonto_IT-Investitionen">
+    <rdf:Description rdf:about="&ciox;Sachkonto_IT-Investitionen">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Change_Request_Überwachung">
+    <rdf:Description rdf:about="&ciox;Change_Request_Überwachung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Change Request Monitoring</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;IT_Strategieentwicklung">
+    <rdf:Description rdf:about="&ciox;IT_Strategieentwicklung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Bestellung">
+    <rdf:Description rdf:about="&ciox;Bestellung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CionX 2015</ob:Source>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektübergabeprotokoll">
+    <rdf:Description rdf:about="&ciox;Projektübergabeprotokoll">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Ticket_Bearbeitung">
+    <rdf:Description rdf:about="&ciox;Ticket_Bearbeitung">
         <Concept_Type></Concept_Type>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Ticket Processing</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Exchange">
+    <rdf:Description rdf:about="&ciox;MS_Exchange">
         <ob:Synonym></ob:Synonym>
         <Concept_Type></Concept_Type>
         <ob:Source></ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;SAP_Cats">
+    <rdf:Description rdf:about="&ciox;SAP_Cats">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Officepaket">
+    <rdf:Description rdf:about="&ciox;Officepaket">
         <ob:Source>Interview CionX 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;PDF_Viewer">
+    <rdf:Description rdf:about="&ciox;PDF_Viewer">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CionX 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektpriorität">
+    <rdf:Description rdf:about="&ciox;Projektpriorität">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Project Priority</ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Kostenart">
+    <rdf:Description rdf:about="&ciox;Kostenart">
         <ob:Synonym>Cost Type</ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CionX 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;SAP_IM">
+    <rdf:Description rdf:about="&ciox;SAP_IM">
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Anlagenmanagementsystem">
+    <rdf:Description rdf:about="&ciox;Anlagenmanagementsystem">
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CionX 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Budgetplanung">
+    <rdf:Description rdf:about="&ciox;Budgetplanung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;SAP_CO">
+    <rdf:Description rdf:about="&ciox;SAP_CO">
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym>SAP Controlling</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;IT-Strategie">
+    <rdf:Description rdf:about="&ciox;IT-Strategie">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CionX 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>IT-Strategy</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;IT_Service_Management_System">
+    <rdf:Description rdf:about="&ciox;IT_Service_Management_System">
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CionX 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Server">
+    <rdf:Description rdf:about="&ciox;MS_Server">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Durchführung_Jour-fixe_CEO">
+    <rdf:Description rdf:about="&ciox;Durchführung_Jour-fixe_CEO">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Joure-fixe Execution CEO</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;SAP_ERP">
+    <rdf:Description rdf:about="&ciox;SAP_ERP">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>SAP Enterprise Resource Planning</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Vertragsmanagement">
+    <rdf:Description rdf:about="&ciox;Vertragsmanagement">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>Contract Management</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Finanzwesensystem">
+    <rdf:Description rdf:about="&ciox;Finanzwesensystem">
         <ob:Concept_Domain>Entity Type</ob:Concept_Domain>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CionX 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektdarstellung">
+    <rdf:Description rdf:about="&ciox;Projektdarstellung">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Project Presentation</ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Materialwirtschaftssystem">
+    <rdf:Description rdf:about="&ciox;Materialwirtschaftssystem">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CionX 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Dienstleistungsmittel">
+    <rdf:Description rdf:about="&ciox;Dienstleistungsmittel">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Wirtschaftsplan">
+    <rdf:Description rdf:about="&ciox;Wirtschaftsplan">
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektwebsite">
+    <rdf:Description rdf:about="&ciox;Projektwebsite">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;IT-Sachkontenplanung">
+    <rdf:Description rdf:about="&ciox;IT-Sachkontenplanung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de">Sachkonten werden einmal jährlich geplant auf Grundlage des Vorjahrs.</skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>IT General Ledger Account Planning</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Excel">
+    <rdf:Description rdf:about="&ciox;MS_Excel">
         <ob:Source></ob:Source>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
@@ -1231,85 +1205,85 @@
         <skos:definition xml:lang="en"></skos:definition>
         <definition_EN_Page></definition_EN_Page>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Change_Request_Erfassung">
+    <rdf:Description rdf:about="&ciox;Change_Request_Erfassung">
         <ob:Synonym>Change Request Aquisition</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <Concept_Type></Concept_Type>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Bereich_Finanzen,_Planung_und_Controlling">
+    <rdf:Description rdf:about="&ciox;Bereich_Finanzen,_Planung_und_Controlling">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Störungserfassung">
+    <rdf:Description rdf:about="&ciox;Störungserfassung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Fault Entry</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Rechnungsfreigabe">
+    <rdf:Description rdf:about="&ciox;Rechnungsfreigabe">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Invoice Release</ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Anlegen_Hardwarereparatur">
+    <rdf:Description rdf:about="&ciox;Anlegen_Hardwarereparatur">
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Beschaffungsbeauftragung">
+    <rdf:Description rdf:about="&ciox;Beschaffungsbeauftragung">
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de">Die Beschaffung wird beauftragt und auf das entsprechende Budget geschaut. Anschließend geht ein Auftrag aus SAP raus und eine Rückmeldung geht an den Auftraggeber zurück.</skos:definition>
         <Concept_Type></Concept_Type>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Outlook">
+    <rdf:Description rdf:about="&ciox;MS_Outlook">
         <Concept_Type></Concept_Type>
         <ob:Source></ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Personaleinsatzplanungsystem">
+    <rdf:Description rdf:about="&ciox;Personaleinsatzplanungsystem">
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym></ob:Synonym>
         <bb:Source>Interview CionX 2015</bb:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Emailverwaltungssystem">
+    <rdf:Description rdf:about="&ciox;Emailverwaltungssystem">
         <ob:Source>Interview CionX 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Sachkonto_Softwarereparaturen">
+    <rdf:Description rdf:about="&ciox;Sachkonto_Softwarereparaturen">
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Aktiverbare_Dienstleistungsmittel">
+    <rdf:Description rdf:about="&ciox;Aktiverbare_Dienstleistungsmittel">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Investitionen</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Wartungsvertagserstellung">
+    <rdf:Description rdf:about="&ciox;Wartungsvertagserstellung">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>Maintenance Contract Creation</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Anlegen_Softwarereparatur">
+    <rdf:Description rdf:about="&ciox;Anlegen_Softwarereparatur">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Lync">
+    <rdf:Description rdf:about="&ciox;MS_Lync">
         <ob:Synonym></ob:Synonym>
         <ob:Source></ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
@@ -1324,56 +1298,51 @@
         <ob:Source></ob:Source>
         <ob:Chapter></ob:Chapter>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektabschlussbericht">
+    <rdf:Description rdf:about="&ciox;Projektabschlussbericht">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <Concept_Type>Concept Type</Concept_Type>
         <ob:Synonym>Project Completition Report</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;MS_Word">
+    <rdf:Description rdf:about="&ciox;MS_Word">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym></ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Bereich_Materialwirtschaft/Dienstleistungen">
+    <rdf:Description rdf:about="&ciox;Bereich_Materialwirtschaft/Dienstleistungen">
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Etat">
+    <rdf:Description rdf:about="&ciox;Etat">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Budget</ob:Synonym>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
         <skos:definition xml:lang="de">Geldmittel für Dienstleistungen, Softwarewartung, Hardwarewartung, Reparatur, Ersatzteile und Investitionsmittel</skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Interne_Budgetkontierung">
+    <rdf:Description rdf:about="&ciox;Interne_Budgetkontierung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Internal Budget Account Assignment</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;IT-Finanzcontrolling">
+    <rdf:Description rdf:about="&ciox;IT-Finanzcontrolling">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <ob:Synonym>IT Financial Controlling</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Projektbudgetverwaltung">
+    <rdf:Description rdf:about="&ciox;Projektbudgetverwaltung">
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Project Budget Administration</ob:Synonym>
     </rdf:Description>
-    <rdf:Description rdf:about="&snik;Beschaffungsmanagement">
+    <rdf:Description rdf:about="&ciox;Beschaffungsmanagement">
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Function"/>
     </rdf:Description>
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
-
