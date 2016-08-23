@@ -410,7 +410,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ID>
@@ -539,7 +539,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">249</ID>
@@ -653,7 +653,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">402</ID>
@@ -753,7 +753,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -1089,7 +1089,7 @@ Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Be
 <rdfs:label xml:lang="en">Application System Maintenance</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1697</ID>
@@ -1365,7 +1365,7 @@ Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Be
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</ID>
@@ -1571,7 +1571,7 @@ Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Be
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</ID>
@@ -1743,7 +1743,7 @@ Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Be
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ID>
@@ -2093,7 +2093,7 @@ Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Be
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Management Function</Concept_Type>
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <skos:definition xml:lang="de">Modellierung von Geschäftsprozessen auf Basis eines Metamodells. Typische Methoden zur Geschäftsprozessmodellierung sind Vorgangsketten, Ereignisgesteuerte Prozessketten, UML-Aktivitätsdiagramme sowie die Business Process Modeling Notation.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">326 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -6604,7 +6604,6 @@ mina möglich.
 <rdfs:label xml:lang="en">Earliest Project End Date</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1493</ID>
@@ -6620,7 +6619,6 @@ mina möglich.
 <rdfs:label xml:lang="en">Earliest Project Start Date</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <Concept_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Type>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1492</ID>
