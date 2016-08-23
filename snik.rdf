@@ -20,7 +20,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:winter="http://www.imise.uni-leipzig.de/winter.owl#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schema="http://schema.org/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
     <Ontology rdf:about="http://www.snik.eu/snik.owl">
         <imports rdf:resource="http://www.imise.uni-leipzig.de/ammenwerth.owl"/>
         <imports rdf:resource="http://www.imise.uni-leipzig.de/winter.owl"/>
