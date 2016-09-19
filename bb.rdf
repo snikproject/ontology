@@ -1338,7 +1338,7 @@
         <ov:defines rdf:resource="Organize_patient_transport"/>
         <ov:defines rdf:resource="General_Practice"/>
         <ov:defines rdf:resource="Financing_of_Health_Care"/>
-        <ov:defines rdf:resource=/>
+        <ov:defines rdf:resource=""/>
         <ov:defines rdf:resource="Software_Quality"/>
         <ov:defines rdf:resource="Temporal_Development_stage"/>
         <ov:defines rdf:resource="Standard"/>
@@ -1375,7 +1375,7 @@
 
 <bibo:Book rdf:about="BlueBook" dc:date="2011">
 	<dc:title xml:lang="en">Health Information Systems</dc:title>
-	<dc:publisher rdf:resource="http://dbpedia.org/resource/Springer_Science+Business_Media"/>.
+	<dc:publisher rdf:resource="http://dbpedia.org/resource/Springer_Science+Business_Media"/>
 	<bibo:doi>10.1007/978-1-84996-441-8_4</bibo:doi>
 	<bibo:isbn>978-1-84996-440-1</bibo:isbn>
   <bibo:authorList>
@@ -1403,7 +1403,7 @@
     <!-- http://www.snik.eu/ontology/bb/Concept_Domain -->
 
     <owl:AnnotationProperty rdf:about="http://www.snik.eu/ontology/bb/Concept_Domain"/>
-    
+
 <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -6025,12 +6025,6 @@ Object Workgroup Standard</Synonym>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource=/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="Information_Management_Department"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6182,18 +6176,6 @@ Object Workgroup Standard</Synonym>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">249</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">569</Tripel_RowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource=/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">249</Tripel_Page>
-        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">568</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CIO"/>
@@ -18951,27 +18933,23 @@ Examples are physicians and nurses.
     <owl:Class rdf:about="http://www.snik.eu/ontology/bb/Health_Information_System">
 <rdfs:label xml:lang="en">Health Information System</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_System"/>
-        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Model"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
-                <owl:someValuesFrom rdf:resource="Architecture_of_an_Information_System"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1, Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
-        <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the information processing and information storing subsystem of a health care organization, which may be a single institution, e.g. a hospital, or a group of health care institutions like a health care network.
-------------------
- Information system dealing with processing data, information, and knowledge in health care environments. They have a computer-based part and a non-computer-based part. Health information systems can be differentiated into institutional information systems (such as hospital information systems) and transinstitutional health information systems.</Definition_EN>
+        <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The information processing and information storing subsystem
+           of a health care organization, which may be a single institution, e.g. a hospital, or a group of health care institutions like a health care network.
+           ------------------
+           Information system dealing with processing data, information, and knowledge in health care environments. They have a computer-based part and
+           a non-computer-based part. Health information systems can be differentiated into institutional information systems (such as hospital information systems)
+           and transinstitutional health information systems.</Definition_EN>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1, 304</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">516</ID>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informationssystem des Gesundheitswesens </Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informationssystem des Gesundheitswesens</Synonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Health_Information_System"/>
@@ -23113,6 +23091,18 @@ If the information management department also cares of strategic information man
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="Architecture_of_an_Information_System"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="isDecomposedIn"/>
                 <owl:someValuesFrom rdf:resource="Business_Process"/>
             </owl:Restriction>
@@ -25601,8 +25591,11 @@ reach their destination</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> In the 3LGM2, the logical tool layer
+          describes the set of application components used in a health care institution to support its enterprise
+          functions. On this layer, application components communicate representations of entity types as messages via
+          comunication links and store them as data.</Definition_EN>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">310</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2160</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Synonym>
     </owl:Class>
@@ -36444,7 +36437,12 @@ hospital</Definition_EN>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
-        <skos:definition xml:lang="en">A physically touchable object or a simulated physically touchable object being able to receive, store, forward, or purposefully manipulate data. We denote receiving, storing, forwarding, and purposeful manipulation of data as data processing. This data processing is controlled by rules. Physical data processing systems are used to implement computer-based as well as paper-based application components. They can be human actors (such as the person delivering mail), non-computer-based physical tools (such as forms for nursing documentation, paper-based patient records, or telephones), or computer systems. Physical data processing systems are also called physical tools.</skos:definition>
+
+        <skos:definition xml:lang="en">A physically touchable object or a simulated physically touchable object being able to receive, store, forward, or purposefully manipulate data.
+          We denote receiving, storing, forwarding, and purposeful manipulation of data as data processing. This data processing is controlled by rules.
+          Physical data processing systems are used to implement computer-based as well as paper-based application components.
+          They can be human actors (such as the person delivering mail), non-computer-based physical tools (such as forms for nursing documentation,
+          paper-based patient records, or telephones), or computer systems. Physical data processing systems are also called physical tools.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">316 </Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">529</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Tool, Physisches Werkzeug</Synonym>
@@ -38454,7 +38452,7 @@ board.</Definition_EN>
         <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <skos:definition xml:lang="en"></skos:definition>
+        <skos:definition xml:lang="en"> </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
