@@ -34,6 +34,9 @@
 		<ov:defines rdf:resource="uses"/>
 		<ov:defines rdf:resource="increases"/>
 		<ov:defines rdf:resource="decreases"/>
+		<ov:defines rdf:resource="updates"/>
+		<ov:defines rdf:resource="isAssociatedWith"/>
+		<ov:defines rdf:resource="isDecomposedIn"/>
 		<ov:defines rdf:resource="communicatesWith"/>
 		<ov:defines rdf:resource="supports"/>
 		<ov:defines rdf:resource="isBasedOn"/>
