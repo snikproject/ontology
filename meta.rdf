@@ -10,6 +10,7 @@
 	xmlns:ov="http://open.vocab.org/terms/"
 	xmlns:vann="http://purl.org/vocab/vann/"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	xmlns:dc="http://purl.org/dc/terms">
 
 	<owl:Ontology rdf:about="http://www.snik.eu/meta">

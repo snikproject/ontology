@@ -1292,7 +1292,7 @@
     <rdf:Description rdf:about="&ob;3LGM²_Information_Process">
         <Concept_Type></Concept_Type>
         <definition_EN_Page></definition_EN_Page>
-        <bb:Definition_EN></bb:Definition_EN>
+        <skos:definition xml:lang=en></skos:definition>
         <ob:Synonym></ob:Synonym>
         <ob:Concept_Domain></ob:Concept_Domain>
         <ob:Source></ob:Source>
