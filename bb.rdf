@@ -25587,10 +25587,7 @@ reach their destination</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="http://snik.eu/meta/EntityType"/>
-        <Definition_EN rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> In the 3LGM2, the logical tool layer
-          describes the set of application components used in a health care institution to support its enterprise
-          functions. On this layer, application components communicate representations of entity types as messages via
-          comunication links and store them as data.</Definition_EN>
+        <skos:definition xml:lang="en">In the 3LGM2, the logical tool layer describes the set of application components used in a health care institution to support its enterprise functions. On this layer, application components communicate representations of entity types as messages via comunication links and store them as data.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">310</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2160</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Synonym>
