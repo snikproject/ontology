@@ -14,7 +14,7 @@
 	xmlns:dc="http://purl.org/dc/terms">
 
 	<owl:Ontology rdf:about="http://www.snik.eu/meta">
-		<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-08-08</dc:modified>
+		<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-19</dc:modified>
 		<ov:defines rdf:resource="Function"/>
 		<ov:defines rdf:resource="InformationManagement"/>
 		<ov:defines rdf:resource="Administration"/>
@@ -44,8 +44,6 @@
 		<ov:defines rdf:resource="representationType"/>
 		<ov:defines rdf:resource="isResponsibleForEntityType"/>
 		<ov:defines rdf:resource="isResponsibleForFunction"/>
-		<ov:defines rdf:resource="subFunction"/>
-		<ov:defines rdf:resource="subEntityType"/>
 		<foaf:homepage rdf:resource="http://www.snik.eu"/>
 		<dc:source rdf:resource="http://www.snik.eu/mapping"/>
 		<vann:preferredNamespacePrefix>snik-meta</vann:preferredNamespacePrefix>
@@ -171,18 +169,6 @@
 		<rdfs:label xml:lang="en">is responsible for function</rdfs:label>
 		<rdfs:domain rdf:resource="Role"/>
 		<rdfs:range rdf:resource="Function"/>
-	</owl:ObjectProperty>
-
-	<owl:ObjectProperty rdf:about="subFunction">
-		<rdfs:label xml:lang="en">sub function</rdfs:label>
-		<rdfs:domain rdf:resource="Function"/>
-		<rdfs:range rdf:resource="Function"/>
-	</owl:ObjectProperty>
-
-	<owl:ObjectProperty rdf:about="subEntityType">
-		<rdfs:label xml:lang="en">sub entity type</rdfs:label>
-		<rdfs:domain rdf:resource="EntityType"/>
-		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
 
 <!-- Classes -->
