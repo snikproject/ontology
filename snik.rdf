@@ -27,10 +27,19 @@
      xmlns:ciox="http://www.snik.eu/ontology/ciox/"
 >
 
-    <Ontology rdf:about="http://www.snik.eu/ontology/snik">
-    </Ontology>
+<Ontology rdf:about="http://www.snik.eu/ontology/snik">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-20</dc:modified>
+    <rdfs:label xml:lang="de"></rdfs:label>
+    <rdfs:comment xml:lang="de"></rdfs:comment>
+    <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
+    <dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>
+    <vann:preferredNamespacePrefix>snik-snik</vann:preferredNamespacePrefix>
+    <vann:preferredNamespaceUri>http://www.snik.eu/ontology/snik/</vann:preferredNamespaceUri>
+    <foaf:homepage rdf:resource="http://www.snik.eu"/>
+    <dc:source rdf:resource="http://www.snik.eu/mapping"/>
+</Ontology>
   
-    ///////////////////////////////////////////////////////////////////////////////////////
+<!--///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
     //
@@ -39,7 +48,7 @@
 
 
     <!-- http://www.snik.eu/snik.owl#IOR_Synonym -->
-
+// ???
     <ObjectProperty rdf:about="&snik;IOR_Synonym">
         <ob:Source>Interview CionX 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -56,24 +65,11 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <!-- http://www.snik.eu/ontology/bb/Application_Component -->
-
-    <Class rdf:about="&bb;Application_Component">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Application_Component"/>
-            </Restriction>
-        </rdfs:subClassOf>
-    </Class>
-    
-
 
     <!-- http://www.snik.eu/ontology/bb/Bill -->
 
     <Class rdf:about="&bb;Bill"/>
     
-
 
     <!-- http://www.snik.eu/ontology/bb/Change_Management -->
 
