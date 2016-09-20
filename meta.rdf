@@ -202,6 +202,8 @@ im Krankenhaus und der Patientenbehandlung anzutreffen sind.</rdfs:comment>
 	<owl:Class rdf:about="InformationManagement">
 		<rdfs:label xml:lang="en">information management</rdfs:label>
 		<rdfs:label xml:lang="de">Informationsmanagement</rdfs:label>
+		<rdfs:comment xml:lang="de">Die Aufgabe des Informationsmanagements</rdfs:comment>
+		<rdfs:comment xml:lang="en">The task of information management</rdfs:comment>
 		<rdfs:subClassOf rdf:resource="Function"/>
 	</owl:Class>
 
