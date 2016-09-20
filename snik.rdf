@@ -9,6 +9,8 @@
     <!ENTITY meta "http://www.snik.eu/ontology/meta/" >
     <!ENTITY bb "http://www.snik.eu/ontology/bb/" >
     <!ENTITY ob "http://www.snik.eu/ontology/ob/" >
+    <!ENTITY ciox "http://www.snik.eu/ontology/ciox/" >
+    <!ENTITY snik "http://www.snik.eu/ontology/snik/" >
 ]>
 
 <rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
