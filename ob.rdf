@@ -35914,7 +35914,6 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <skos:definition xml:lang="de">Schriftliche Befragungen ermöglichen die gleichartige Befragung einer größeren Personenzahl.
 ------------------
  Einsatzbereiche schriftlicher Befragungen sind die strukturierte Erhe-bung von Informationen, die die Befragten haben (sollten), das Erfra-gen von Einstellung und Meinungen von Betroffenen, die Sammlung von Stärken und Schwachstellen einer Situation, eines Ablaufs oder einer Komponente sowie die Sammlung von Wünschen und Verbes-serungsvorschlägen.
