@@ -11,6 +11,7 @@
     <!ENTITY ob "http://www.snik.eu/ontology/ob/" >
     <!ENTITY ciox "http://www.snik.eu/ontology/ciox/" >
     <!ENTITY snik "http://www.snik.eu/ontology/snik/" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
 ]>
 
 <rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
@@ -27,26 +28,18 @@
      xmlns:ciox="http://www.snik.eu/ontology/ciox/"
 >
 
-    <Ontology rdf:about="http://www.snik.eu/ontology/snik">
-    </Ontology>
+<Ontology rdf:about="http://www.snik.eu/ontology/links">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-20</dc:modified>
+    <rdfs:label xml:lang="de"></rdfs:label>
+    <rdfs:comment xml:lang="de"></rdfs:comment>
+    <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
+    <dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>
+    <vann:preferredNamespacePrefix>snik-snik</vann:preferredNamespacePrefix>
+    <vann:preferredNamespaceUri>http://www.snik.eu/ontology/snik/</vann:preferredNamespaceUri>
+    <foaf:homepage rdf:resource="http://www.snik.eu"/>
+    <dc:source rdf:resource="http://www.snik.eu/mapping"/>
+</Ontology>
   
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    <!-- http://www.snik.eu/snik.owl#IOR_Synonym -->
-
-    <ObjectProperty rdf:about="&snik;IOR_Synonym">
-        <ob:Source>Interview CionX 2015</ob:Source>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de"></skos:definition>
-        <ob:Synonym></ob:Synonym>
-    </ObjectProperty>
-    
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -56,122 +49,18 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <!-- http://www.snik.eu/ontology/bb/Application_Component -->
-
-    <Class rdf:about="&bb;Application_Component">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Application_Component"/>
-            </Restriction>
-        </rdfs:subClassOf>
-    </Class>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Bill -->
-
-    <Class rdf:about="&bb;Bill"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Change_Management -->
-
-    <Class rdf:about="&bb;Change_Management"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Computer-Based_Application_Component -->
-
-    <Class rdf:about="&bb;Computer-Based_Application_Component"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Department_of_Information_Management -->
-
-    <Class rdf:about="&bb;Department_of_Information_Management"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Incident_Management -->
-
-    <Class rdf:about="&bb;Incident_Management"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Project_2 -->
-
-    <Class rdf:about="&bb;Project_2"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Project_Execution -->
-
-    <Class rdf:about="&bb;Project_Execution"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Project_Monitoring -->
-
-    <Class rdf:about="&bb;Project_Monitoring"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Project_Plan -->
-
-    <Class rdf:about="&bb;Project_Plan"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Project_Planning -->
-
-    <Class rdf:about="&bb;Project_Planning"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Service_Desk_Management -->
-
-    <Class rdf:about="&bb;Service_Desk_Management"/>
-    
-
-
-    <!-- http://www.snik.eu/ontology/bb/Software_Product -->
-
-    <Class rdf:about="&bb;Software_Product">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Software_Product"/>
-            </Restriction>
-        </rdfs:subClassOf>
-    </Class>
-    
-
     <!-- http://www.snik.eu/ontology/ciox/Angebot -->
 
     <rdf:Description rdf:about="&ciox;Angebot">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Bid"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Bid"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
     </rdf:Description>
-    
-
 
     <!-- http://www.snik.eu/ontology/ciox/Anwendungssytem -->
 
     <rdf:Description rdf:about="&ciox;Anwendungssytem">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Application_System"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Application_System"/>
         <ob:Synonym>Application System</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -183,12 +72,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Bereich_Informationsmanagement -->
 
     <rdf:Description rdf:about="&ciox;Bereich_Informationsmanagement">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Department_of_Information_Management"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&bb;Department_of_Information_Management"/>
         <rdfs:subClassOf rdf:resource="&meta;Role"/>
         <ob:Synonym></ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
@@ -200,12 +84,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Betriebskonzept -->
 
     <rdf:Description rdf:about="&ciox;Betriebskonzept">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Operational_Concept"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Operational_Concept"/>
         <ob:Source>Interview CionX 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
@@ -217,12 +96,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Change_Antrag -->
 
     <rdf:Description rdf:about="&ciox;Change_Antrag">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Change_Request"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Change_Request"/>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <ob:Source>Interview CionX 2015</ob:Source>
         <skos:definition xml:lang="de">Ein Change Antrag kommt per Email und (papierbasiert) per Hauspost. Für den B1 ist nur der unterschriebene RfC relevant.</skos:definition>
@@ -234,18 +108,8 @@
     <!-- http://www.snik.eu/ontology/ciox/Change_Management -->
 
     <rdf:Description rdf:about="&ciox;Change_Management">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Change_Management"/>
-            </Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Change_Management"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Change_Management"/>
+        <skos:closeMatch rdf:resource="&bb;Change_Management"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Änderungsverwaltung</ob:Synonym>
         <skos:definition xml:lang="de">Change-Management ist ein Themengebiet aus der IT Infrastructure Library (ITIL) und wird dort im Buch Service Transition als Prozess definiert, der das Ziel hat, dass alle Anpassungen an der IT-Infrastruktur kontrolliert, effizient und unter Minimierung von Risiken für den Betrieb bestehender Business-Services durchgeführt werden.</skos:definition>
@@ -257,12 +121,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Computerbasiertes_Anwendungssystem -->
 
     <rdf:Description rdf:about="&ciox;Computerbasiertes_Anwendungssystem">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Computer-Based_Application_Component"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&bb;Computer-Based_Application_Component"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CionX 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -273,12 +132,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Incident_Management -->
 
     <rdf:Description rdf:about="&ciox;Incident_Management">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Incident_Management"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&bb;Incident_Management"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
@@ -290,18 +144,8 @@
     <!-- http://www.snik.eu/ontology/ciox/Projekt -->
 
     <rdf:Description rdf:about="&ciox;Projekt">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Project"/>
-            </Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Project_2"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Project"/>
+        <skos:closeMatch rdf:resource="&bb;Project_2"/>
         <Concept_Type>Concept Type</Concept_Type>
         <skos:definition xml:lang="de">Projekte werden definiert als Tätigkeiten, die länger als 5 Personentage dauern und das eigene Budget beanspruchen</skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
@@ -312,12 +156,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Projektauftrag -->
 
     <rdf:Description rdf:about="&ciox;Projektauftrag">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Project_Order"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Project_Order"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -329,12 +168,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Projektbudget -->
 
     <rdf:Description rdf:about="&ciox;Projektbudget">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Project_Budget"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Project_Budget"/>
         <ob:Synonym>Project Budget</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -346,18 +180,8 @@
     <!-- http://www.snik.eu/ontology/ciox/Projektdurchführung -->
 
     <rdf:Description rdf:about="&ciox;Projektdurchführung">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Project_Execution"/>
-            </Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Project_Execution"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Project_Execution"/>
+        <skos:closeMatch rdf:resource="&bb;Project_Execution"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Project Execution</ob:Synonym>
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
@@ -369,12 +193,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Projektmanagement -->
 
     <rdf:Description rdf:about="&ciox;Projektmanagement">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Project_Management"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Project_Management"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Project Management</ob:Synonym>
@@ -386,18 +205,8 @@
     <!-- http://www.snik.eu/ontology/ciox/Projektplan -->
 
     <rdf:Description rdf:about="&ciox;Projektplan">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Project_Plan"/>
-            </Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Project_Plan"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&bb;Project_Plan"/>
+        <skos:closeMatch rdf:resource="&ob;Project_Plan"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Porject Plan</ob:Synonym>
@@ -409,18 +218,8 @@
     <!-- http://www.snik.eu/ontology/ciox/Projektplanung -->
 
     <rdf:Description rdf:about="&ciox;Projektplanung">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Project_Planning"/>
-            </Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Project_Planning"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&bb;Project_Planning"/>
+        <skos:closeMatch rdf:resource="&ob;Project_Planning"/>
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <ob:Synonym>Project Planning</ob:Synonym>
@@ -432,18 +231,8 @@
     <!-- http://www.snik.eu/ontology/ciox/Projektüberwachung -->
 
     <rdf:Description rdf:about="&ciox;Projektüberwachung">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Project_Monitoring"/>
-            </Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Project_Monitoring"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&bb;Project_Monitoring"/>
+        <skos:closeMatch rdf:resource="&ob;Project_Monitoring"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Synonym>Project Monitoring</ob:Synonym>
@@ -455,12 +244,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Rechnung -->
 
     <rdf:Description rdf:about="&ciox;Rechnung">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Bill"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&bb;Bill"/>
         <ob:Synonym>Bill</ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <skos:definition xml:lang="de"></skos:definition>
@@ -472,12 +256,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Ressource -->
 
     <rdf:Description rdf:about="&ciox;Ressource">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Resource"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Resource"/>
         <ob:Synonym>Resource</ob:Synonym>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <ob:Source>Interview CIOx 2015</ob:Source>
@@ -489,12 +268,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Ressourcenplan -->
 
     <rdf:Description rdf:about="&ciox;Ressourcenplan">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Resource_Plan"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Resource_Plan"/>
         <ob:Synonym>Resource Plan</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -506,12 +280,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Service_Desk -->
 
     <rdf:Description rdf:about="&ciox;Service_Desk">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Service_Desk_Management"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&bb;Service_Desk_Management"/>
         <ob:Synonym></ob:Synonym>
         <ob:Source>Interview CIOx 2015</ob:Source>
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
@@ -523,18 +292,8 @@
     <!-- http://www.snik.eu/ontology/ciox/Softwareprodukt -->
 
     <rdf:Description rdf:about="&ciox;Softwareprodukt">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Software_Product"/>
-            </Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&bb;Software_Product"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Software_Product"/>
+        <skos:closeMatch rdf:resource="&bb;Software_Product"/>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="de"></skos:definition>
         <ob:Source>Interview CIOx 2015</ob:Source>
@@ -545,12 +304,7 @@
     <!-- http://www.snik.eu/ontology/ciox/Wartungsvertrag -->
 
     <rdf:Description rdf:about="&ciox;Wartungsvertrag">
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="&snik;IOR_Synonym"/>
-                <someValuesFrom rdf:resource="&ob;Maintenance_Contract"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <skos:closeMatch rdf:resource="&ob;Maintenance_Contract"/>
         <ob:Synonym>Maintenance Contract</ob:Synonym>
         <skos:definition xml:lang="de"></skos:definition>
         <Concept_Type></Concept_Type>
