@@ -55,7 +55,6 @@ bb:Project_Monitoring	skos:closeMatch	ob:Project_Monitoring.
 bb:Project_Plan	skos:closeMatch	ob:Project_Plan.
 bb:Project_Planning	skos:closeMatch	ob:Project_Planning.
 bb:Resource	skos:closeMatch	ob:Resource.
-bb:Role	skos:closeMatch	ob:Role.
 bb:Second_Level_Support	skos:closeMatch ob:Second_Level_Support.
 bb:Software_Product	skos:closeMatch	ob:Software_Product.
 bb:HIS_Stakeholder	skos:closeMatch	ob:Stakeholder.
@@ -64,7 +63,7 @@ bb:Strategic_HIS_Monitoring	skos:closeMatch	ob:Strategic_HIS_Monitoring.
 bb:Strategic_HIS_Planning	skos:closeMatch	ob:Strategic_HIS_Planning.
 bb:Strategic_Information_Management_Plan	skos:closeMatch	ob:Strategic_Information_Management_Plan.
 bb:Strategic_Information_Management	skos:closeMatch	ob:Strategic_Management_of_Information_Systems.
-bb:Study_Design	skos:closeMatch	ob:Study.
+bb:Study_Design	skos:closeMatch	ob:Study_Design.
 bb:Study_Objective	skos:closeMatch	ob:Study_Objective.
 bb:Sustainability	skos:closeMatch	ob:Sustainability.
 bb:SWOT_Analysis	skos:closeMatch	ob:SWOT_Analysis.
