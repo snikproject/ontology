@@ -38,7 +38,7 @@
 				<rdf:Seq>
 					<rdf:li>Elske Ammenwerth</rdf:li>
 					<rdf:li>Reinhold Haux</rdf:li>
-					<rdf:li>Petra Knap-Gregori</rdf:li>
+					<rdf:li>Petra Knaup-Gregori</rdf:li>
 					<rdf:li>Alfred Winter</rdf:li>
 				</rdf:Seq>
 			</bibo:authorList>
@@ -6602,7 +6602,7 @@ mina möglich.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1492</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frühester Anfangstermin</Synonym>
     </owl:Class>
 
 
@@ -6746,7 +6746,7 @@ Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Han
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1092</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unternehmensaufgabe</Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unternehmensaufgabe, Aufgabe, Function</Synonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Enterprise_Function"/>
@@ -9507,22 +9507,6 @@ den Second-Level-Support weiter.
 
 
 
-    <!-- http://www.snik.eu/ontology/ob/Function -->
-
-    <owl:Class rdf:about="&meta;Function">
-<rdfs:label xml:lang="en">Function</rdfs:label>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</ID>
-        <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
-    </owl:Class>
-
-
-
     <!-- http://www.snik.eu/ontology/ob/Function_Analysis -->
 
     <owl:Class rdf:about="&ob;Function_Analysis">
@@ -10206,8 +10190,11 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <skos:definition xml:lang="de">In einem Übergabeprotokoll wird festgelegt, wer
+künftig die Verantwortung für den Betrieb übernimmt. Die relevante
+Dokumentation muss vom Projektleiter an diesen Verantwortlichen
+übergeben werden.</skos:definition>
+        <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">252</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1657</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Übergabeprotokoll</Synonym>
@@ -11044,8 +11031,12 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <skos:definition xml:lang="de">Der Analyseplanung folgt die Informationsbeschaffung, in der je nach
+Fragestellung Methoden wie Befragung, Beobachtung oder Dokumentenanalyse
+eingesetzt werden. Die Informationsbeschaffung erfolgt
+durch das Analyseteam in der Regel unter Einbeziehung von Mitarbeitern
+des betrachteten Bereichs.</skos:definition>
+        <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">384</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informationsbeschaffung</Synonym>
@@ -13538,8 +13529,8 @@ Vergleich vorgenommen wird.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <skos:definition xml:lang="de">minimal mögliche Gesamtdauer des Projekts</skos:definition>
+        <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minimal mögliche Gesamtdauer des Projekts</Synonym>
@@ -17422,8 +17413,14 @@ seines Produktes präsentiert.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <skos:definition xml:lang="de">Die Verlaufsdokumentation hält den Verlauf des Projekts fest, ohne
+auf die Ergebnisse der einzelnen Arbeitspakete im Detail einzugehen.
+Zur Verlaufsdokumentation gehören insbesondere die Ergebnisse der
+Überwachung, die z. B. in Form von Statusberichten (vgl. Kapitel 6.3)
+dokumentiert werden. Weiterhin fallen im Verlauf der Projektdurchführung
+auch Protokolle, Erledigungslisten, Schriftwechsel, Richtlinien
+oder Literatur an, welche entsprechend aufzubewahren sind.</skos:definition>
+        <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">779</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
@@ -18608,19 +18605,19 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Execution_Documentation"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Execution_Document"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Initiation_Documentation"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Initiation_Document"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Planning_Documentation"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Planning_Document"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -18652,7 +18649,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Execution_Documentation"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Execution_Document"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Tripel_Page>
@@ -18664,7 +18661,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Initiation_Documentation"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Initiation_Document"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Tripel_Page>
@@ -18676,7 +18673,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Planning_Documentation"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Planning_Document"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Tripel_Page>
@@ -19265,10 +19262,10 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
 
 
 
-    <!-- http://www.snik.eu/ontology/ob/Project_Execution_Documentation -->
+    <!-- http://www.snik.eu/ontology/ob/Project_Execution_Document -->
 
-    <owl:Class rdf:about="&ob;Project_Execution_Documentation">
-<rdfs:label xml:lang="en">Project Execution Documentation</rdfs:label>
+    <owl:Class rdf:about="&ob;Project_Execution_Document">
+<rdfs:label xml:lang="en">Project Execution Document</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -19291,7 +19288,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Projektdurchführungsdokumentation</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Project_Execution_Documentation"/>
+        <owl:annotatedSource rdf:resource="&ob;Project_Execution_Document"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -19303,7 +19300,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">979</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Project_Execution_Documentation"/>
+        <owl:annotatedSource rdf:resource="&ob;Project_Execution_Document"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -19793,10 +19790,10 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
 
 
 
-    <!-- http://www.snik.eu/ontology/ob/Project_Initiation_Documentation -->
+    <!-- http://www.snik.eu/ontology/ob/Project_Initiation_Document -->
 
-    <owl:Class rdf:about="&ob;Project_Initiation_Documentation">
-<rdfs:label xml:lang="en">Project Initiation Documentation</rdfs:label>
+    <owl:Class rdf:about="&ob;Project_Initiation_Document">
+<rdfs:label xml:lang="en">Project Initiation Document</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -19962,7 +19959,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_System"/>
+                <owl:someValuesFrom rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -20080,7 +20077,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_System"/>
+                <owl:someValuesFrom rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Tripel_Page>
@@ -21061,7 +21058,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="de">Zusammenfassung wiederkehrender Gruppen typischer Aktivitäten in Projekten. Typische Projektmodule in Projekten des taktischen Managements von Informationssystemen sind: Systemanalyse und -bewertung, Systemspezifikation, Systemauswahl, Systemeinführung und Systemevaluation.</skos:definition>
-        <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">336 </Definition_DE_Page>
+        <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">336</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">692</ID>
@@ -21628,7 +21625,7 @@ Rollen und Regelungen zur Abwicklung eines bestimmten Projekts.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1805</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Projektphase</Synonym>
     </owl:Class>
 
 
@@ -22231,7 +22228,7 @@ Rollen und Regelungen zur Abwicklung eines bestimmten Projekts.
                 <owl:someValuesFrom rdf:resource="&ob;Project_Plan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <skos:definition xml:lang="de">Projektphase, in der das Projektziel, wie es im Projektauftrag definiert ist, schrittweise in sinnvolle Arbeitspakete gegliedert wird, welche dann einem Verantwortlichen (Arbeitspaket-Leiter) zugeordnet und in einer sinnvollen Reihenfolge geplant werden. Typische Aktivitäten der Projektplanung sind Strukturplanung, Ablaufplanung, Ressourcenplanung und Risikoanalyse. Das Ergebnis der Projektplanung ist der verabschiedete Projektplan.</skos:definition>
@@ -22454,10 +22451,10 @@ Rollen und Regelungen zur Abwicklung eines bestimmten Projekts.
 
 
 
-    <!-- http://www.snik.eu/ontology/ob/Project_Planning_Documentation -->
+    <!-- http://www.snik.eu/ontology/ob/Project_Planning_Document -->
 
-    <owl:Class rdf:about="&ob;Project_Planning_Documentation">
-<rdfs:label xml:lang="en">Project Planning Documentation</rdfs:label>
+    <owl:Class rdf:about="&ob;Project_Planning_Document">
+<rdfs:label xml:lang="en">Project Planning Document</rdfs:label>
         <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
     </owl:Class>
 
@@ -24552,20 +24549,11 @@ c) Was könnte besser gemacht werden?
 
 
 
-    <!-- http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_System -->
-
-    <owl:Class rdf:about="&ob;Reference_Model_for_Tactical_Management_of_Information_System">
-	<rdfs:label xml:lang="en">Reference Model for Tactical Management of Information System</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;Reference_Model"/>
-        <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
-    </owl:Class>
-
-
-
     <!-- http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_Systems -->
 
     <owl:Class rdf:about="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems">
 	<rdfs:label xml:lang="en">Reference Model for Tactical Management of Information Systems</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob;Process_Reference_Model"/>
         <rdfs:subClassOf rdf:resource="&ob;Reference_Model"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -24573,16 +24561,30 @@ c) Was könnte besser gemacht werden?
                 <owl:someValuesFrom rdf:resource="&ob;Project_Module"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Phase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <skos:definition xml:lang="de">Vorgehens-Referenzmodell für Projekte des taktischen Managements von Informationssystemen,
+          welches als Würfel dargestellt wird. Das Referenzmodell beschreibt die Projektphase, welche jedes Projekt durchläuft, sowie die typischen Projektmodule.</skos:definition>
+        <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">996</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
+      owl:Axiom>
+          <owl:annotatedSource rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems"/>
+          <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+          <owl:annotatedTarget rdf:resource="&ob;Process_Reference_Model"/>
+          <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Tripel_Page>
+          <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1287</Tripel_RowNr>
+      </owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -24594,31 +24596,8 @@ c) Was könnte besser gemacht werden?
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">996</Tripel_RowNr>
     </owl:Axiom>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_Systems_3 -->
-
-    <owl:Class rdf:about="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems_3">
-	<rdfs:label xml:lang="en">Reference Model for Tactical Management of Information Systems 3</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;Reference_Model"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Phase"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
-        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">997</ID>
-        <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
-    </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems_3"/>
+        <owl:annotatedSource rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -24628,32 +24607,6 @@ c) Was könnte besser gemacht werden?
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">997</Tripel_RowNr>
-    </owl:Axiom>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Reference_Model_for_Tactical_Management_of_Information_Systems_4 -->
-
-    <owl:Class rdf:about="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems_4">
-<rdfs:label xml:lang="en">Reference Model for Tactical Management of Information Systems 4</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;Process_Reference_Model"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
-        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Vorgehens-Referenzmodell für Projekte des taktischen Managements von Informationssystemen, welches als Würfel dargestellt wird. Das Referenzmodell beschreibt die Projektphase, welche jedes Projekt durchläuft, sowie die typischen Projektmodule.</skos:definition>
-        <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339 </Definition_DE_Page>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1287</ID>
-        <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Referenzmodell für das taktische Management von Informationssystemen</Synonym>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems_4"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;Process_Reference_Model"/>
-        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Tripel_Page>
-        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1287</Tripel_RowNr>
     </owl:Axiom>
 
 
@@ -25318,8 +25271,9 @@ c) Was könnte besser gemacht werden?
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <skos:definition xml:lang="en">Die Ergebnisdokumentation enthält die Ergebnisse der einzelnen Arbeitspakete.
+Die Art der Dokumente, die hier entstehen, hängt vom Projekt selber ab (z. B. Analyseberichte, Pflichtenhefte, Schulungskonzepte oder Evaluationsberichte).</skos:definition>
+        <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1788</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ergebnisdokumentation</Synonym>
@@ -26721,7 +26675,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Abgeschlossenes, erworbenes oder eigenentwiclceltes Programm oder Programmpaket, das auf Rechnersystemen installiert werden kann. Im Gegensatz zu einem Anwendungssystem ist ein Softwareprodukt noch nicht in einem bestimmten Unternehmen installiert und für dieses adaptiert (siehe Adaptierung).</skos:definition>
+        <skos:definition xml:lang="de">Abgeschlossenes, erworbenes oder eigenentwickeltes Programm oder Programmpaket, das auf Rechnersystemen installiert werden kann. Im Gegensatz zu einem Anwendungssystem ist ein Softwareprodukt noch nicht in einem bestimmten Unternehmen installiert und für dieses adaptiert (siehe Adaptierung).</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">342 </Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -26747,6 +26701,26 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1052</Tripel_RowNr>
+    </owl:Axiom>
+
+    <!-- http://www.snik.eu/ontology/ob/Self_Development -->
+
+    <owl:Class rdf:about="&ob;Self_Development">
+<rdfs:label xml:lang="en">Self Development</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ob;Software_Product"/>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
+        <skos:definition xml:lang="en"></skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1267</ID>
+        <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eigenentwicklung</Synonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&ob;Self_Development"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="&ob;Software_Product"/>
+        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
     </owl:Axiom>
 
 
@@ -32476,7 +32450,7 @@ Informationskomponente.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_System"/>
+                <owl:someValuesFrom rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -32593,7 +32567,7 @@ Informationskomponente.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_System"/>
+                <owl:someValuesFrom rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Tripel_Page>
@@ -33735,7 +33709,7 @@ also nicht zulässig.</skos:definition>
 
 
 
-    <!-- http://www.snik.eu/ontology/ob/Tendering -->
+    <!-- http://www.snik.eu/ontology/ob/ -->
 
     <owl:Class rdf:about="&ob;Tendering">
 <rdfs:label xml:lang="en">Tendering</rdfs:label>
@@ -35913,7 +35887,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
         <skos:definition xml:lang="de">Schriftliche Befragungen ermöglichen die gleichartige Befragung einer größeren Personenzahl.
 ------------------
  Einsatzbereiche schriftlicher Befragungen sind die strukturierte Erhe-bung von Informationen, die die Befragten haben (sollten), das Erfra-gen von Einstellung und Meinungen von Betroffenen, die Sammlung von Stärken und Schwachstellen einer Situation, eines Ablaufs oder einer Komponente sowie die Sammlung von Wünschen und Verbes-serungsvorschlägen.

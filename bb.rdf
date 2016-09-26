@@ -713,6 +713,7 @@
         <ov:defines rdf:resource="Usability_Study"/>
         <ov:defines rdf:resource="Saturation"/>
         <ov:defines rdf:resource="Management_of_User_Accounts"/>
+        <ov:defines rdf:resource="Self_Developed_Software"/>
         <ov:defines rdf:resource="Operational_Information_Management_Staff"/>
         <ov:defines rdf:resource="Management_of_Non-Clinical_Department"/>
         <ov:defines rdf:resource="Electronic_Health_Record"/>
@@ -818,7 +819,6 @@
         <ov:defines rdf:resource="Hospital_Administration_Department"/>
         <ov:defines rdf:resource="Assign_patients_to_rooms_and_beds"/>
         <ov:defines rdf:resource="Provide_forms_for_documenting_nursing_aims"/>
-        <ov:defines rdf:resource="Project_Module_2"/>
         <ov:defines rdf:resource="Quality_of_Processes"/>
         <ov:defines rdf:resource="Security_of_Data"/>
         <ov:defines rdf:resource="Statistical_Evaluation_of_Patient_Data"/>
@@ -969,7 +969,6 @@
         <ov:defines rdf:resource="Assign_order_and_blood_samples_to_devices"/>
         <ov:defines rdf:resource="Timeslot"/>
         <ov:defines rdf:resource="Order_Entry"/>
-        <ov:defines rdf:resource="Project_2"/>
         <ov:defines rdf:resource="Socio-Technical_System"/>
         <ov:defines rdf:resource="Software_Vendor"/>
         <ov:defines rdf:resource="Medical_Admission"/>
@@ -1120,7 +1119,7 @@
         <ov:defines rdf:resource="Provide_means_for_preparing_ward-related_statistics"/>
         <ov:defines rdf:resource="CIN"/>
         <ov:defines rdf:resource="Integrated_HIS"/>
-        <ov:defines rdf:resource="CIO"/>
+        <ov:defines rdf:resource="Chief_Information_Officer"/>
         <ov:defines rdf:resource="Router"/>
         <ov:defines rdf:resource="Portability"/>
         <ov:defines rdf:resource="Work_scheduling"/>
@@ -1152,7 +1151,6 @@
         <ov:defines rdf:resource="Controlling"/>
         <ov:defines rdf:resource="Paper-Based_Patient_Chart"/>
         <ov:defines rdf:resource="Radiological_Examination"/>
-        <ov:defines rdf:resource="Department_of_Information_Management"/>
         <ov:defines rdf:resource="Consistency"/>
         <ov:defines rdf:resource="Nursing_Guideline"/>
         <ov:defines rdf:resource="Functional_Metamodel"/>
@@ -1377,6 +1375,7 @@
         <ov:defines rdf:resource="Self-Descriptiveness"/>
         <ov:defines rdf:resource="Semantic_Integration"/>
         <ov:defines rdf:resource="Qualitative_Content_Analysis"/>
+        <ov:defines rdf_resource="Self_Development"/>
     </owl:Ontology>
 
 <bibo:Book rdf:about="BlueBook" dc:date="2011">
@@ -4129,10 +4128,10 @@ relationship.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <skos:definition xml:lang="en">However, there are significant differences in hospital information systems architectures with respect to the types and relationships of information processing tools used and the way they are integrated.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">138</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2044</ID>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taxononmy of Architecture at the Logical Tool Layer</Synonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Architectural_Style_of_the_Logical_Tool_Layer"/>
@@ -5957,10 +5956,10 @@ Object Workgroup Standard</Synonym>
 
 
 
-    <!-- http://www.snik.eu/ontology/bb/CIO -->
+    <!-- http://www.snik.eu/ontology/bb/Chief_Information_Officer -->
 
-    <owl:Class rdf:about="CIO">
-<rdfs:label xml:lang="en">CIO</rdfs:label>
+    <owl:Class rdf:about="Chief_Information_Officer">
+<rdfs:label xml:lang="en">Chief_Information_Officer</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Management_Staff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6084,17 +6083,17 @@ Object Workgroup Standard</Synonym>
  Responsible for the strategic, tactical, and operational information management and the related budgets in an enterprise. The CIO usually has the authority for all employees concerned with information management. The specific position of the CIO demands dedicated professional skills.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">249, 296</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">568</ID>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chief Information Officer, President of Information Systems, Director of Information Systems, Chief of Information Services, Information Technology Director, Leiter des Informationsmanagements</Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CIO, President of Information Systems, Director of Information Systems, Chief of Information Services, Information Technology Director, Leiter des Informationsmanagements</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Information_Management_Staff"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1687</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6106,7 +6105,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1078</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6118,7 +6117,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1079</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6130,7 +6129,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">576</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6142,7 +6141,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">569</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6154,7 +6153,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">583</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6166,7 +6165,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">571</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6178,7 +6177,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">572</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6190,7 +6189,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">570</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6202,7 +6201,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">581</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6214,7 +6213,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">575</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6226,7 +6225,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">593</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6238,7 +6237,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">580</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6250,7 +6249,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">573</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6262,7 +6261,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">586</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6274,7 +6273,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">577</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6286,7 +6285,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">579</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6298,7 +6297,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">578</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6310,7 +6309,7 @@ Object Workgroup Standard</Synonym>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">574</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIO"/>
+        <owl:annotatedSource rdf:resource="Chief_Information_Officer"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -9174,12 +9173,7 @@ characteristics of the user (e.g., his knowledge, skills, and expectations)?</sk
     <owl:Class rdf:about="Consistency">
 <rdfs:label xml:lang="en">Consistency</rdfs:label>
         <rdfs:subClassOf rdf:resource="Quality_of_Data"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="Integrity_of_Data"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf> rdf:resource="Integrity_of_Data"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -9202,12 +9196,7 @@ this type of integrity consistency .</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Consistency"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="Integrity_of_Data"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
+        <owl:annotatedTarget> rdf:resource="Integrity_of_Data"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">144</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1038</Tripel_RowNr>
     </owl:Axiom>
@@ -11804,28 +11793,6 @@ judgment in the next round.  </skos:definition>
 
 
 
-    <!-- http://www.snik.eu/ontology/bb/Department_of_Information_Management -->
-
-    <owl:Class rdf:about="Department_of_Information_Management">
-<rdfs:label xml:lang="en">Department of Information Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Hospital_Administration_Department"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
-        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"> </skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1132</ID>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Synonym>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Department_of_Information_Management"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Hospital_Administration_Department"/>
-        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</Tripel_Page>
-        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1132</Tripel_RowNr>
-    </owl:Axiom>
-
-
 
     <!-- http://www.snik.eu/ontology/bb/Department_of_Quality_Management -->
 
@@ -13736,10 +13703,11 @@ a RIS has a good response rate of less than 1 s for most of the functionalities.
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">Is a representation of an object class and of the data describing the objects of this class, if these data are stored or could/should be stored in the information system.</skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">303 </Definition_EN_Page>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">303</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2713</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Objekttyp </Synonym>
     </owl:Class>
+
 
 
 
@@ -14094,10 +14062,9 @@ user, with either little or no effort to correct it?</skos:definition>
 
     <owl:Class rdf:about="Event">
 <rdfs:label xml:lang="en">Event</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;InformationEntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1734</ID>
@@ -14106,7 +14073,7 @@ user, with either little or no effort to correct it?</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Event"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Information_Management_Entity_Type"/>
+        <owl:annotatedTarget rdf:resource="&meta;InformationManagementEntityType"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1734</Tripel_RowNr>
     </owl:Axiom>
@@ -18509,7 +18476,8 @@ the patient or the clinical user by electric hazards.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">A group of two or more legally separated health care institutions that have temporarily and voluntarily joined together to achieve a common purpose. The information system of a health care network is called a transinstitutional health information system.</skos:definition>
+        <skos:definition xml:lang="en">A group of two or more legally separated health care institutions that have temporarily and voluntarily joined together to achieve a common purpose.
+          The information system of a health care network is called a transinstitutional health information system.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36, 304</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">629</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gesundheitsversorgungsnetzwerk </Synonym>
@@ -22401,7 +22369,7 @@ In general, information management should contribute to fulfill strategic enterp
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="CIO"/>
+                <owl:someValuesFrom rdf:resource="Chief_Information_Officer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
@@ -22444,7 +22412,7 @@ can be regarded as the CIO of the hospital.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="CIO"/>
+                <owl:someValuesFrom rdf:resource="Chief_Information_Officer"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">250</Tripel_Page>
@@ -22511,7 +22479,7 @@ If the information management department also cares of strategic information man
  This unit takes care of at least the tactical and operational information management of those parts of the HIS with hospital-wide relevance (e.g., the enterprise resource planning system, the clinical information system, and the computer network). If the department for information management also takes care of strategic information management, the head of this department is typically the CIO.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">251, 306</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">947</ID>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abteilung Informationsmanagement , IT-Abteilung </Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abteilung Informationsmanagement , IT-Abteilung, Department of Information management </Synonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Information_Management_Department"/>
@@ -23327,7 +23295,7 @@ system.
  Model that comprises several models such as a functional model, technical model, organizational model, data model, and business process model. Beyond this, information system models consider the dependencies of these models. An example of a metamodel for creating information system models is the 3LGM².</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78, 307</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2137</ID>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informationssystemmodell </Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informationssystemmodell</Synonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Information_System_Model"/>
@@ -24913,7 +24881,7 @@ resource KPI).
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
         <skos:definition xml:lang="en">Application component supporting the management of analysis in a laboratory: the receipt of the order and the sample , the distribution of the sample and the order to the different analysis tools, the collection of the results, the validation of results, the communication of the findings back to the ordering department, as well as general quality management procedures.</skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">309 </Definition_EN_Page>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">127, 309</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">485</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIS, Labor-Informationssystem </Synonym>
         <meta:typicalFeature rdf:resource="Feature_Assign_order_and_blood_samples_to_devices"/>
@@ -34610,7 +34578,7 @@ case identifi er must be assigned.</skos:definition>
 
     <owl:Class rdf:about="Patient_Data_Management_System">
 <rdfs:label xml:lang="en">Patient Data Management System</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Computer-Based_Application_Component"/>
+        <rdfs:subClassOf rdf:resource="&meta;ComputerBasedApplicationComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
@@ -35189,7 +35157,7 @@ for decision support and various statistical analyses.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">The patient history conatins all clinical data about a paient, including mdical and nursing anamnesis, finding discharge summery etc.</skos:definition>
+        <skos:definition xml:lang="en">The patient history contains all clinical data about a patient, including medical and nursing anamnesis, finding discharge summery etc.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">64 </Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">720</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
@@ -35860,10 +35828,9 @@ and how he or she is to be transported there</skos:definition>
 
     <owl:Class rdf:about="Patient_Visit_Information">
 <rdfs:label xml:lang="en">Patient Visit Information</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Patient_Care_Entity_Type"/>
+        <rdfs:subClassOf rdf:resource="&meta;PatientCareEntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>s
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1879</ID>
@@ -35872,7 +35839,7 @@ and how he or she is to be transported there</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Patient_Visit_Information"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Patient_Care_Entity_Type"/>
+        <owl:annotatedTarget rdf:resource="&meta;PatientCareEntityType"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1879</Tripel_RowNr>
     </owl:Axiom>
@@ -37845,39 +37812,6 @@ resources, and by a specifi c project organization (DIN 69901)</skos:definition>
 
 
 
-    <!-- http://www.snik.eu/ontology/bb/Project_2 -->
-
-    <owl:Class rdf:about="Project_2">
-<rdfs:label xml:lang="en">Project 2</rdfs:label>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Project_Module_2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">948</ID>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Project_2"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Project_Module_2"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
-        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">948</Tripel_RowNr>
-    </owl:Axiom>
-
-
-
     <!-- http://www.snik.eu/ontology/bb/Project_Completion -->
 
     <owl:Class rdf:about="Project_Completion">
@@ -38345,14 +38279,6 @@ board.</skos:definition>
 
 
 
-    <!-- http://www.snik.eu/ontology/bb/Project_Module_2 -->
-
-    <owl:Class	rdf:about="Project_Module_2"
-		schema:title="Annotation fehlt, Konzept kommt nur als Objekt vor.">
-	<rdfs:label xml:lang="en">Project Module 2</rdfs:label>
-    </owl:Class>
-
-
 
     <!-- http://www.snik.eu/ontology/bb/Project_Monitoring -->
 
@@ -38406,8 +38332,8 @@ board.</skos:definition>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <skos:definition xml:lang="en"> </skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <skos:definition xml:lang="en">Planning in tactical information management means planning projects and all the resources needed for them.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">243</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
@@ -39620,7 +39546,7 @@ get insight into a situation.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">the ability to meet all the expectations of the purchaser of goods or services, or in other words, as the degree to which a set of inherent characteristics fulfi lls requirements, where “requirements”
+        <skos:definition xml:lang="en">The ability to meet all the expectations of the purchaser of goods or services, or in other words, as the degree to which a set of inherent characteristics fulfi lls requirements, where “requirements”
 means need or expectation.
 ------------------
  Degree to which a set of inherent characteristics fulfills requirements. We can typically distinguish three major approaches to quality assessment: quality of structures, quality of processes, and quality of outcome.</skos:definition>
@@ -39955,11 +39881,8 @@ a maximum quality of information processing.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.1</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">Quality of outcome describes whether
-the goals of information management have been reached, or, in a broader sense, to what
-extent, for example, a hospital information system contributes to the goals of the
-hospital.</skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201 </Definition_EN_Page>
+        <skos:definition xml:lang="en">Whether the goals of information management have been reached, or, in a broader sense, to what extent a hospital information system contributed to the goals of the hospital and to the expectations of different stakeholders, and how it fulfils information management laws.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">319</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1065</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
@@ -39999,11 +39922,10 @@ hospital.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.1</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">Quality of processes deals with the quality of the information processes
-that are necessary to meet the user’s needs.</skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201 </Definition_EN_Page>
+        <skos:definition xml:lang="en">Quality of the information processes that are necessary to meet the user's needs, such as single recording and multiple usability of data, no transcription of data, leanness of information processing tools, efficiency of information logistics, and patient-centred information processing.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">319</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1062</ID>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prozessqualität</Synonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Quality_of_HIS_Processes"/>
@@ -40039,7 +39961,7 @@ that are necessary to meet the user’s needs.</skos:definition>
         <skos:definition xml:lang="en">Availability of technical or human resources needed for information processing. It comprises quality of data, quality of computer-based application components, quality of physical data processing systems, and quality of HIS architectures.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201, 319</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1475</ID>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strukturqualität </Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strukturqualität</Synonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Quality_of_HIS_Structures"/>
@@ -40199,8 +40121,8 @@ within 2 h)</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">Whether the goals of information management have been reached, or, in a broader sense, to what extent a hospital information system contributes to the goals of the hospital and to the expectations of different stakeholders, and how it fulfills information management laws.</skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">319 </Definition_EN_Page>
+        <skos:definition xml:lang="en">Finally, quality of outcome describes the effects of patient care, that is, the changes in the health status of the patient (e.g., mortality, morbidity, costs).</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1476</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ergebnisqualität </Synonym>
     </owl:Class>
@@ -40280,8 +40202,8 @@ within 2 h)</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">Quality of the information processes that are necessary to meet the user’s needs, such as single recording and multiple usability of data, no transcription of data, leanness of information processing tools, efficiency of information logistics, and patient-centered information processing.</skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">319 </Definition_EN_Page>
+        <skos:definition xml:lang="en">In medicine, quality of processes describes the quality of activities carried out by care providers (e.g., adherence to professional standards, appropriateness of care).</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">208</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1058</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prozessqualität </Synonym>
     </owl:Class>
@@ -40334,10 +40256,8 @@ within 2 h)</skos:definition>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">In the context of health care, the concept of quality of structures applies to the human, physical,
-and fi nancial resources that are needed to provide medical care (e.g., educational level
-of staff, availability of medical equipment).</skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201 </Definition_EN_Page>
+        <skos:definition xml:lang="en">In the context of health care, the concept of quality of structures applies to the human, physical, and financial resources that are needed to provide medical care (e.g., educational level of staff, availability of medical equipment).</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1059</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
@@ -42949,7 +42869,7 @@ based tools still in use.</skos:definition>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <skos:definition xml:lang="en">specially trained informatics staff in the central information management department who are
+        <skos:definition xml:lang="en">Specially trained informatics staff in the central information management department who are
 usually responsible for the operation of the specifi c application components.
 ------------------
  User support unit addressing information processing problems that cannot be solved by first-level support. It may consist, for example, of specially trained informatics staff in the central information management department who are usually responsible for the operation of specific application components. When the second-level support cannot solve the problems, they are handed over to the third-level support.</skos:definition>
@@ -44162,6 +44082,24 @@ when the user has logged in at an involved application component</skos:definitio
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">607</Tripel_RowNr>
     </owl:Axiom>
 
+    <!-- http://www.snik.eu/ontology/bb/Self_Developed_Software -->
+
+    <owl:Class rdf:about="Self_Developed_Software">
+  <rdfs:label xml:lang="en">Self Developed Software</rdfs:label>
+        <rdfs:subClassOf rdf:resource="Software_Product"/>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
+        <skos:definition xml:lang="en"></skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></ID>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Self_Developed_Software"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="Software_Product"/>
+        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
+    </owl:Axiom>
 
 
     <!-- http://www.snik.eu/ontology/bb/Specialization -->
@@ -46688,6 +46626,12 @@ as long as response data from the partner are not obtained.
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2761</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="System"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="&meta;EntityType"/>
+        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
+    </owl:Axiom>
 
 
 
@@ -46805,11 +46749,6 @@ as long as response data from the partner are not obtained.
 <rdfs:label xml:lang="en">System Selection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf rdf:resource="Project_Execution_Module"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Software_Development"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -46832,19 +46771,6 @@ as long as response data from the partner are not obtained.
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">243</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1590</Tripel_RowNr>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="System_Selection"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Software_Development"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
-        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">949</Tripel_RowNr>
-    </owl:Axiom>
-
 
 
     <!-- http://www.snik.eu/ontology/bb/System_Specification -->
@@ -50891,7 +50817,7 @@ Similar to an activity, an enterprise function is said to interpret entity types
 entity types.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55/56</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ID>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Synonym>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Function</Synonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="3LGM2_Enterprise_Function"/>
