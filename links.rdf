@@ -307,8 +307,6 @@
     <rdf:Description rdf:about="&ciox;Kostenrechnungssystem">
         <skos:definition xml:lang="de">Interview CionX 2015</skos:definition>
     </rdf:Description>
-    <rdf:Description rdf:about="&ciox;MS_Exchange_Server">
-    </rdf:Description>
     <rdf:Description rdf:about="&ciox;SAP_FI">
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
     </rdf:Description>
@@ -325,12 +323,6 @@
     <rdf:Description rdf:about="&ciox;Projekteplanung">
         <rdfs:label xml:lang="en">Projects Planning</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ob;3LGM²_Organizational_System">
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;MS_SharePoint">
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;MS_Active_Directory">
     </rdf:Description>
     <rdf:Description rdf:about="&ciox;Wartungsfenster_Freigabe">
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
@@ -392,8 +384,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="&ciox;Projektmanagementsystem">
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;E-Mail-Transport-Server-System">
     </rdf:Description>
     <rdf:Description rdf:about="&ciox;Durchführung_Jour-fixe">
         <rdfs:label xml:lang="en">Jour Fixe Execution</rdfs:label>
@@ -472,8 +462,6 @@
     <rdf:Description rdf:about="&ciox;Arbeitsablaufsystem">
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&ciox;MS_Powerpoint">
-    </rdf:Description>
     <rdf:Description rdf:about="&ciox;Change_Antrag_Protokoll">
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <rdfs:label xml:lang="en">Change Request Protocol</rdfs:label>
@@ -540,8 +528,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="&ciox;Ticket_Bearbeitung">
         <rdfs:label xml:lang="en">Ticket Processing</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;MS_Exchange">
     </rdf:Description>
     <rdf:Description rdf:about="&ciox;SAP_Cats">
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -619,10 +605,6 @@
         <skos:definition xml:lang="de">Sachkonten werden einmal jährlich geplant auf Grundlage des Vorjahrs.</skos:definition>
         <rdfs:label xml:lang="en">IT General Ledger Account Planning</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&ciox;MS_Excel">
-    </rdf:Description>
-    <rdf:Description rdf:about="&ob;Certification">
-    </rdf:Description>
     <rdf:Description rdf:about="&ciox;Change_Request_Erfassung">
         <rdfs:label xml:lang="en">Change Request Aquisition</rdfs:label>
     </rdf:Description>
@@ -642,8 +624,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="&ciox;Beschaffungsbeauftragung">
         <skos:definition xml:lang="de">Die Beschaffung wird beauftragt und auf das entsprechende Budget geschaut. Anschließend geht ein Auftrag aus SAP raus und eine Rückmeldung geht an den Auftraggeber zurück.</skos:definition>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;MS_Outlook">
     </rdf:Description>
     <rdf:Description rdf:about="&ciox;Personaleinsatzplanungsystem">
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -665,10 +645,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="&ciox;Anlegen_Softwarereparatur">
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;MS_Lync">
-    </rdf:Description>
-    <rdf:Description rdf:about="&ob;3LGM²_Information_Process">
     </rdf:Description>
     <rdf:Description rdf:about="&ciox;Projektabschlussbericht">
         <Concept_Type>Concept Type</Concept_Type>
