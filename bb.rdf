@@ -1375,7 +1375,14 @@
         <ov:defines rdf:resource="Self-Descriptiveness"/>
         <ov:defines rdf:resource="Semantic_Integration"/>
         <ov:defines rdf:resource="Qualitative_Content_Analysis"/>
-        <ov:defines rdf_resource="Self_Development"/>
+        <ov:defines rdf:resource="Self_Development"/>
+        <ov:defines rdf:resource="Data_Integration"/>
+        <ov:defines rdf:resource="Semantic_Integration"/>
+        <ov:defines rdf:resource="Access_Integration"/>
+        <ov:defines rdf:resource="Presentation_Integration"/>
+        <ov:defines rdf:resource="Contextual_Integration"/>
+        <ov:defines rdf:resource="Functional_Integration"/>
+        <ov:defines rdf:resource="Process_Integration"/>
     </owl:Ontology>
 
 <bibo:Book rdf:about="BlueBook" dc:date="2011">
@@ -9173,7 +9180,7 @@ characteristics of the user (e.g., his knowledge, skills, and expectations)?</sk
     <owl:Class rdf:about="Consistency">
 <rdfs:label xml:lang="en">Consistency</rdfs:label>
         <rdfs:subClassOf rdf:resource="Quality_of_Data"/>
-        <rdfs:subClassOf> rdf:resource="Integrity_of_Data"/>
+        <rdfs:subClassOf rdf:resource="Integrity_of_Data"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -9181,7 +9188,7 @@ characteristics of the user (e.g., his knowledge, skills, and expectations)?</sk
 redundantly, that is, there are copies of data representing the same information about one
 particular object. Obviously these copies are supposed to be identical at all sites where
 they are stored. In other words, even redundant data must not be contradictory. We denote
-this type of integrity consistency .</skos:definition>
+this type of integrity consistency.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">145 </Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1038</ID>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
@@ -9196,7 +9203,7 @@ this type of integrity consistency .</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Consistency"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget> rdf:resource="Integrity_of_Data"/>
+        <owl:annotatedTarget rdf:resource="Integrity_of_Data"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">144</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1038</Tripel_RowNr>
     </owl:Axiom>
@@ -23906,6 +23913,170 @@ quality.
     </owl:Axiom>
 
 
+    <!-- http://www.snik.eu/ontology/bb/Data_Integration -->
+
+    <owl:Class rdf:about="Data_Integration">
+    <rdfs:label xml:lang="en">Data Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="Integration"/>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
+        <skos:definition xml:lang="en">Data integration is obtained in a hospital information system when data that have been recorded
+          are available wherever they are needed, without having to be reentered. Thus, each data item needs to be recorded, changed,
+          deleted, or otherwise edited just once – even if it is used in several application components.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">146</Definition_EN_Page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></ID>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Data_Integration"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="Integration"/>
+        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Tripel_Page>
+        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></Tripel_RowNr>
+    </owl:Axiom>
+
+
+    <!-- http://www.snik.eu/ontology/bb/Semantic_Integration -->
+
+    <owl:Class rdf:about="Semantic_Integration">
+    <rdfs:label xml:lang="en">Semantic Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="Integration"/>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
+        <skos:definition xml:lang="en">Like data integration, semantic integration is concerned with data. Semantic integration is
+          guaranteed if different application components use the same system of concepts, i.e. they interpret data the same way.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">146</Definition_EN_Page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></ID>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Semantic_Integration"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="Integration"/>
+        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Tripel_Page>
+        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></Tripel_RowNr>
+    </owl:Axiom>
+
+
+
+
+
+    <!-- http://www.snik.eu/ontology/bb/Access_Integration -->
+
+    <owl:Class rdf:about="Access_Integration">
+    <rdfs:label xml:lang="en">Access Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="Integration"/>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
+        <skos:definition xml:lang="en">Access integration is guaranteed when the application components needed for the
+          completion of a certain task can be used where they are needed.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">147</Definition_EN_Page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></ID>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Access_Integration"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="Integration"/>
+        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Tripel_Page>
+        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></Tripel_RowNr>
+    </owl:Axiom>
+
+
+
+    <!-- http://www.snik.eu/ontology/bb/Presentation_Integration -->
+
+    <owl:Class rdf:about="Presentation_Integration">
+    <rdfs:label xml:lang="en">Presentation Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="Integration"/>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
+        <skos:definition xml:lang="en">Presentation integration is guaranteed when different application components represent data as well as user interfaces in a unified way.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">147</Definition_EN_Page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></ID>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Presentation_Integration"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="Integration"/>
+        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Tripel_Page>
+        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></Tripel_RowNr>
+    </owl:Axiom>
+
+
+
+    <!-- http://www.snik.eu/ontology/bb/Contextual_Integration -->
+
+    <owl:Class rdf:about="Contextual_Integration">
+    <rdfs:label xml:lang="en">Contextual Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="Integration"/>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
+        <skos:definition xml:lang="en">Contextual integration means that the context is preserved when the application component
+          is changed. Or, more generally, the aim is that a task that has already been executed once for a certain purpose,
+          such as login to a component, or selecting a patient, needs not be repeated again in the information system,
+          in order to achieve the same purpose.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">148</Definition_EN_Page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></ID>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Contextual_Integration"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="Integration"/>
+        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Tripel_Page>
+        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></Tripel_RowNr>
+    </owl:Axiom>
+
+
+
+    <!-- http://www.snik.eu/ontology/bb/Functional_Integration -->
+
+    <owl:Class rdf:about="Functional_Integration">
+    <rdfs:label xml:lang="en">Functional Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="Integration"/>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
+        <skos:definition xml:lang="en">Functional integration means that features needed in several application components are
+          implemented only once and can be invoked by other application components.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">148</Definition_EN_Page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></ID>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Functional_Integration"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="Integration"/>
+        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Tripel_Page>
+        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></Tripel_RowNr>
+    </owl:Axiom>
+
+
+
+    <!-- http://www.snik.eu/ontology/bb/Process_Integration -->
+
+    <owl:Class rdf:about="Process_Integration">
+    <rdfs:label xml:lang="en">Process Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="Integration"/>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
+        <skos:definition xml:lang="en">Process integration is guaranteed when business processes are effectively supported
+          by a set of interacting application components.</skos:definition>
+        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">148</Definition_EN_Page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></ID>
+        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Process_Integration"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="Integration"/>
+        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Tripel_Page>
+        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></Tripel_RowNr>
+    </owl:Axiom>
+
+
+
 
     <!-- http://www.snik.eu/ontology/bb/Integration_Platform -->
 
@@ -35830,7 +36001,7 @@ and how he or she is to be transported there</skos:definition>
 <rdfs:label xml:lang="en">Patient Visit Information</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;PatientCareEntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>s
+        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1879</ID>
@@ -46749,7 +46920,6 @@ as long as response data from the partner are not obtained.
 <rdfs:label xml:lang="en">System Selection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf rdf:resource="Project_Execution_Module"/>
-        </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <skos:definition xml:lang="en"></skos:definition>

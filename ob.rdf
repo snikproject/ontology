@@ -9,6 +9,7 @@
     <!ENTITY meta "http://www.snik.eu/ontology/meta/" >
     <!ENTITY bb "http://www.snik.eu/ontology/bb/" >
     <!ENTITY ob "http://www.snik.eu/ontology/ob/" >
+    <!ENTITY ov "http://open.vocab.org/terms/" >
 ]>
 
 <rdf:RDF xmlns="http://www.snik.eu/ontology/ob/"
@@ -18,6 +19,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:ov="http://open.vocab.org/terms/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://open.vocab.org/terms/"
@@ -488,7 +490,6 @@
 <ov:defines rdf:resource="Proficiency_Testing_of_Vendors"/>
 <ov:defines rdf:resource="Program"/>
 <ov:defines rdf:resource="Progress_Document"/>
-<ov:defines rdf:resource="Project"/>
 <ov:defines rdf:resource="Project_Approval"/>
 <ov:defines rdf:resource="Project_Background_and_Goal"/>
 <ov:defines rdf:resource="Project_Budget"/>
@@ -531,7 +532,6 @@
 <ov:defines rdf:resource="Project_Manager_Data"/>
 <ov:defines rdf:resource="Project_Marketing"/>
 <ov:defines rdf:resource="Project_Member"/>
-<ov:defines rdf:resource="Project_Module"/>
 <ov:defines rdf:resource="Project_Monitoring"/>
 <ov:defines rdf:resource="Project_Monitoring_Method"/>
 <ov:defines rdf:resource="Project_Motivation"/>
@@ -609,10 +609,7 @@
 <ov:defines rdf:resource="Record_Analysis"/>
 <ov:defines rdf:resource="Redundancy_of_Centralized_Technical_System"/>
 <ov:defines rdf:resource="Reference_Model"/>
-<ov:defines rdf:resource="Reference_Model_for_Tactical_Management_of_Information_System"/>
 <ov:defines rdf:resource="Reference_Model_for_Tactical_Management_of_Information_Systems"/>
-<ov:defines rdf:resource="Reference_Model_for_Tactical_Management_of_Information_Systems_3"/>
-<ov:defines rdf:resource="Reference_Model_for_Tactical_Management_of_Information_Systems_4"/>
 <ov:defines rdf:resource="Reference_Requirements_Catalogue"/>
 <ov:defines rdf:resource="Reference_Visit"/>
 <ov:defines rdf:resource="Relation"/>
@@ -25411,13 +25408,13 @@ c) Was könnte besser gemacht werden?
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-      owl:Axiom>
           <owl:annotatedSource rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems"/>
           <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
           <owl:annotatedTarget rdf:resource="&ob;Process_Reference_Model"/>
           <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Tripel_Page>
           <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1287</Tripel_RowNr>
-      </owl:Axiom>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Reference_Model_for_Tactical_Management_of_Information_Systems"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
@@ -25441,8 +25438,6 @@ c) Was könnte besser gemacht werden?
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">997</Tripel_RowNr>
     </owl:Axiom>
-
-
 
     <!-- http://www.snik.eu/ontology/ob/Reference_Requirements_Catalogue -->
 
