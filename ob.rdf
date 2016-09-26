@@ -490,6 +490,7 @@
 <ov:defines rdf:resource="Proficiency_Testing_of_Vendors"/>
 <ov:defines rdf:resource="Program"/>
 <ov:defines rdf:resource="Progress_Document"/>
+<ov:defines rdf:resource="Project"/>
 <ov:defines rdf:resource="Project_Approval"/>
 <ov:defines rdf:resource="Project_Background_and_Goal"/>
 <ov:defines rdf:resource="Project_Budget"/>
@@ -532,6 +533,7 @@
 <ov:defines rdf:resource="Project_Manager_Data"/>
 <ov:defines rdf:resource="Project_Marketing"/>
 <ov:defines rdf:resource="Project_Member"/>
+<ov:defines rdf:resource="Project_Module"/>
 <ov:defines rdf:resource="Project_Monitoring"/>
 <ov:defines rdf:resource="Project_Monitoring_Method"/>
 <ov:defines rdf:resource="Project_Motivation"/>
