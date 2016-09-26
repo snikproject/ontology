@@ -1692,7 +1692,7 @@
 
     <!-- http://www.snik.eu/ontology/bb/Up-to-Dateness -->
 
-    <owl:DatatypeProperty rdf:about="Up-to-Dateness"/>
+    <owl:DatatypeProperty rdf:about="Up_to_Dateness"/>
 
 
 
@@ -3317,7 +3317,7 @@ easily extendable to match increasing volume of communication.</skos:definition>
 
     <owl:Class rdf:about="Administrative_Sticker">
 <rdfs:label xml:lang="en">Administrative Sticker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -3329,7 +3329,7 @@ easily extendable to match increasing volume of communication.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Administrative_Sticker"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1212</Tripel_RowNr>
     </owl:Axiom>
@@ -4728,7 +4728,7 @@ message</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Balance_of_Computer-Based_and_Non-Computer-Based_Tools -->
 
-    <owl:Class rdf:about="Balance_of_Computer-Based_and_Non-Computer-Based_Tools">
+    <owl:Class rdf:about="Balance_of_Computer_Based_and_Non_Computer_Based_Tools">
 <rdfs:label xml:lang="en">Balance of Computer-Based and Non-Computer-Based Tools</rdfs:label>
         <rdfs:subClassOf rdf:resource="Quality_of_HIS_Architecture"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -4743,7 +4743,7 @@ use of technology and especially computers for all immediate physician-patient c
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Balance_of_Computer-Based_and_Non-Computer_Based_Tools"/>
+        <owl:annotatedSource rdf:resource="Balance_of_Computer_Based_and_Non_Computer_Based_Tools"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Quality_of_HIS_Architecture"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">217</Tripel_Page>
@@ -4963,7 +4963,7 @@ users easier and thus leads to reduced costs for the HIS.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Best-Practice-Benchmark -->
 
-    <owl:Class rdf:about="Best-Practice-Benchmark">
+    <owl:Class rdf:about="Best_Practice_Benchmark">
 <rdfs:label xml:lang="en">Best-Practice-Benchmark</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -4975,7 +4975,7 @@ users easier and thus leads to reduced costs for the HIS.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Best-Practice_Benchmark"/>
+        <owl:annotatedSource rdf:resource="Best_Practice_Benchmark"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Information_Management_Entity_Type"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
@@ -4986,7 +4986,7 @@ users easier and thus leads to reduced costs for the HIS.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Best-of-Breed-Architecture -->
 
-    <owl:Class rdf:about="Best-of-Breed-Architecture">
+    <owl:Class rdf:about="Best_of_Breed_Architecture">
 <rdfs:label xml:lang="en">Best-of-Breed-Architecture</rdfs:label>
         <rdfs:subClassOf rdf:resource="Architectural_Style_of_the_Logical_Tool_Layer"/>
         <rdfs:subClassOf>
@@ -5018,14 +5018,14 @@ fact that the hospital combines the “best” software products from different 
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Best-of-Breed_Architecture"/>
+        <owl:annotatedSource rdf:resource="Best_of_Breed_Architecture"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Architectural_Style_of_the_Logical_Tool_Layer"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1678</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Best-of-Breed_Architecture"/>
+        <owl:annotatedSource rdf:resource="Best_of_Breed_Architecture"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -5037,7 +5037,7 @@ fact that the hospital combines the “best” software products from different 
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1028</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Best-of-Breed_Architecture"/>
+        <owl:annotatedSource rdf:resource="Best_of_Breed_Architecture"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -5049,7 +5049,7 @@ fact that the hospital combines the “best” software products from different 
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1030</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Best-of-Breed_Architecture"/>
+        <owl:annotatedSource rdf:resource="Best_of_Breed_Architecture"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -5183,7 +5183,7 @@ blood bottles</skos:definition>
 
     <owl:Class rdf:about="Book">
 <rdfs:label xml:lang="en">Book</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -5195,7 +5195,7 @@ blood bottles</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Book"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1213</Tripel_RowNr>
     </owl:Axiom>
@@ -5718,7 +5718,7 @@ chronological and logical order;</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="Single-Sign_On"/>
+                <owl:someValuesFrom rdf:resource="Single_Sign_On"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
@@ -5767,7 +5767,7 @@ Object Workgroup Standard</Synonym>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="Single-Sign_On"/>
+                <owl:someValuesFrom rdf:resource="Single_Sign_On"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">153</Tripel_Page>
@@ -5778,9 +5778,9 @@ Object Workgroup Standard</Synonym>
 
     <!-- http://www.snik.eu/ontology/bb/CD-ROM -->
 
-    <owl:Class rdf:about="CD-ROM">
+    <owl:Class rdf:about="CD_ROM">
 <rdfs:label xml:lang="en">CD-ROM</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Signal_Based_Transmitting_Medium"/>
+        <rdfs:subClassOf rdf:resource="Non_Signal_Based_Transmitting_Medium"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -5792,7 +5792,7 @@ Object Workgroup Standard</Synonym>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CD_ROM"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Signal_Based_Transmitting_Medium"/>
+        <owl:annotatedTarget rdf:resource="Non_Signal_Based_Transmitting_Medium"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1214</Tripel_RowNr>
     </owl:Axiom>
@@ -6555,7 +6555,7 @@ will lead to an increasing number of bidirectional communication interfaces.</sk
 
     <owl:Class rdf:about="Car">
 <rdfs:label xml:lang="en">Car</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -6567,7 +6567,7 @@ will lead to an increasing number of bidirectional communication interfaces.</sk
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Car"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">170</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1427</Tripel_RowNr>
     </owl:Axiom>
@@ -7155,7 +7155,7 @@ user groups within a hospital</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Client-Server_Architecture -->
 
-    <owl:Class rdf:about="Client-Server_Architecture">
+    <owl:Class rdf:about="Client_Server_Architecture">
 <rdfs:label xml:lang="en">Client-Server Architecture</rdfs:label>
         <rdfs:subClassOf rdf:resource="2_tier_Architecture"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
@@ -7511,7 +7511,7 @@ for trials</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Close-to-Hierarchy_Network -->
 
-    <owl:Class rdf:about="Close-to-Hierarchy_Network">
+    <owl:Class rdf:about="Close_to_Hierarchy_Network">
 <rdfs:label xml:lang="en">Close-to-Hierarchy Network</rdfs:label>
         <rdfs:subClassOf rdf:resource="Health_Care_Network"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.4</Chapter>
@@ -7526,7 +7526,7 @@ by one large institution, such as a hospital.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Close-to_Hierarchy_Network"/>
+        <owl:annotatedSource rdf:resource="Close_to_Hierarchy_Network"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Health_Care_Network"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">287</Tripel_Page>
@@ -8355,7 +8355,7 @@ respect to their mutual alignment.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Computer-Based_Application_Component -->
 
-    <owl:Class rdf:about="Computer-Based_Application_Component">
+    <owl:Class rdf:about="Computer_Based_Application_Component">
 <rdfs:label xml:lang="en">Computer-Based Application Component</rdfs:label>
         <rdfs:subClassOf rdf:resource="Application_Component"/>
         <rdfs:subClassOf>
@@ -8415,7 +8415,7 @@ respect to their mutual alignment.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Computer-Based_Information_Processing -->
 
-    <owl:Class rdf:about="Computer-Based_Information_Processing">
+    <owl:Class rdf:about="Computer_Based_Information_Processing">
 <rdfs:label xml:lang="en">Computer-Based Information Processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Processing"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -8438,7 +8438,7 @@ respect to their mutual alignment.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Computer-Based_Information_System -->
 
-    <owl:Class rdf:about="Computer-Based_Information_System">
+    <owl:Class rdf:about="Computer_Based_Information_System">
 <rdfs:label xml:lang="en">Computer-Based Information System</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -8453,7 +8453,7 @@ respect to their mutual alignment.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Computer-Based_Nursing_Form -->
 
-    <owl:Class rdf:about="Computer-Based_Nursing_Form">
+    <owl:Class rdf:about="Computer_Based_Nursing_Form">
 <rdfs:label xml:lang="en">Computer-Based Nursing Form</rdfs:label>
         <rdfs:subClassOf rdf:resource="Patient_Care_Entity_Type"/>
         <rdfs:subClassOf>
@@ -8638,7 +8638,7 @@ respect to their mutual alignment.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Computer-Based_Physical_Data_Processing_System -->
 
-    <owl:Class rdf:about="Computer-Based_Physical_Data_Processing_System">
+    <owl:Class rdf:about="Computer_Based_Physical_Data_Processing_System">
 <rdfs:label xml:lang="en">Computer-Based Physical Data Processing System</rdfs:label>
         <rdfs:subClassOf rdf:resource="Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
@@ -8661,7 +8661,7 @@ respect to their mutual alignment.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Computer-Based_Tool -->
 
-    <owl:Class rdf:about="Computer-Based_Tool">
+    <owl:Class rdf:about="Computer_Based_Tool">
 <rdfs:label xml:lang="en">Computer-Based Tool</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4</Chapter>
@@ -8684,7 +8684,7 @@ respect to their mutual alignment.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Computer-Supported_Information_System -->
 
-    <owl:Class rdf:about="Computer-Supported_Information_System">
+    <owl:Class rdf:about="Computer_Supported_Information_System">
 <rdfs:label xml:lang="en">Computer-Supported Information System</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <rdfs:subClassOf>
@@ -9265,7 +9265,7 @@ this type of integrity consistency.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="Single-Sign_On"/>
+                <owl:someValuesFrom rdf:resource="Single_Sign_On"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
@@ -9302,7 +9302,7 @@ this type of integrity consistency.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="Single-Sign_On"/>
+                <owl:someValuesFrom rdf:resource="Single_Sign_On"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">148</Tripel_Page>
@@ -9849,7 +9849,7 @@ between medical devices and Health Information Technology.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Cost-Effectiveness_Analysis -->
 
-    <owl:Class rdf:about="Cost-Effectiveness_Analysis">
+    <owl:Class rdf:about="Cost_Effectiveness_Analysis">
 <rdfs:label xml:lang="en">Cost-Effectiveness Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="Economic_Analysis"/>
         <rdfs:subClassOf rdf:resource="Quantitative_Evaluation_Method"/>
@@ -10139,7 +10139,7 @@ provided</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Cross-Enterprise_Document_Sharing -->
 
-    <owl:Class rdf:about="Cross-Enterprise_Document_Sharing">
+    <owl:Class rdf:about="Cross_Enterprise_Document_Sharing">
 <rdfs:label xml:lang="en">Cross-Enterprise Document Sharing</rdfs:label>
         <rdfs:subClassOf rdf:resource="IHE_Integration_Profile"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
@@ -11723,7 +11723,7 @@ right diagnosis or treatment for a specifi c patient</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Delivering_of_Customer-Centered_Services -->
 
-    <owl:Class rdf:about="Delivering_of_Customer-Centered_Services">
+    <owl:Class rdf:about="Delivering_of_Customer_Centered_Services">
 <rdfs:label xml:lang="en">Delivering of Customer-Centered Services</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -11935,7 +11935,7 @@ judgment in the next round.  </skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Designing_Customer-Centered_Services -->
 
-    <owl:Class rdf:about="Designing_Customer-Centered_Services">
+    <owl:Class rdf:about="Designing_Customer_Centered_Services">
 <rdfs:label xml:lang="en">Designing Customer-Centered Services</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -12203,7 +12203,7 @@ of a dialysis department, has interfaces to hemodialysis machines</skos:definiti
 
     <!-- http://www.snik.eu/ontology/bb/Digital_X-Ray -->
 
-    <owl:Class rdf:about="Digital_X-Ray">
+    <owl:Class rdf:about="Digital_X_Ray">
 <rdfs:label xml:lang="en">Digital X-Ray</rdfs:label>
         <rdfs:subClassOf rdf:resource="Imaging_Modality"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
@@ -12722,7 +12722,7 @@ diagnosis , or prevention</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/E-Mail_Communication -->
 
-    <owl:Class rdf:about="E-Mail_Communication">
+    <owl:Class rdf:about="E_Mail_Communication">
 <rdfs:label xml:lang="en">E-Mail Communication</rdfs:label>
         <rdfs:subClassOf rdf:resource="Asynchronous_Communication"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3</Chapter>
@@ -14089,7 +14089,7 @@ user, with either little or no effort to correct it?</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Event-Driven_Process_Chain -->
 
-    <owl:Class rdf:about="Event-Driven_Process_Chain">
+    <owl:Class rdf:about="Event_Driven_Process_Chain">
 <rdfs:label xml:lang="en">Event-Driven Process Chain</rdfs:label>
         <rdfs:subClassOf rdf:resource="Business_Process_Model"/>
         <rdfs:subClassOf>
@@ -15522,7 +15522,7 @@ hospital and also influences KPIs</skos:definition>
 
     <owl:Class rdf:about="Fax_Machine">
 <rdfs:label xml:lang="en">Fax Machine</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -15534,7 +15534,7 @@ hospital and also influences KPIs</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Fax_Machine"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1438</Tripel_RowNr>
     </owl:Axiom>
@@ -16014,7 +16014,7 @@ x-ray examinations</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/First-Level_Support -->
 
-    <owl:Class rdf:about="First-Level_Support">
+    <owl:Class rdf:about="First_Level_Support">
 <rdfs:label xml:lang="en">First-Level Support</rdfs:label>
         <rdfs:subClassOf rdf:resource="IT_Support"/>
         <rdfs:subClassOf>
@@ -16231,7 +16231,7 @@ patients , e.g., normal diet and light diet</skos:definition>
 
     <owl:Class rdf:about="Fork_Lift">
 <rdfs:label xml:lang="en">Fork Lift</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -16243,7 +16243,7 @@ patients , e.g., normal diet and light diet</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Fork_Lift"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1439</Tripel_RowNr>
     </owl:Axiom>
@@ -17045,7 +17045,7 @@ output when searching for a patient , and it guarantees security of stored data.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Non-Computer_Based_Information_Processing_Tool"/>
+                <owl:someValuesFrom rdf:resource="Non_Computer_Based_Information_Processing_Tool"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -17093,7 +17093,7 @@ output when searching for a patient , and it guarantees security of stored data.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Non-Computer_Based_Information_Processing_Tool"/>
+                <owl:someValuesFrom rdf:resource="Non_Computer_Based_Information_Processing_Tool"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206</Tripel_Page>
@@ -17124,7 +17124,7 @@ output when searching for a patient , and it guarantees security of stored data.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="Best-Practice_Benchmark"/>
+                <owl:someValuesFrom rdf:resource="Best_Practice_Benchmark"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -17219,7 +17219,7 @@ in which organizations measure and then steadily improve their performance.</sko
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="Best-Practice_Benchmark"/>
+                <owl:someValuesFrom rdf:resource="Best_Practice_Benchmark"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">267</Tripel_Page>
@@ -20089,7 +20089,7 @@ budget , investments, and key treatments).</skos:definition>
 
     <owl:Class rdf:about="Human_Actor">
 <rdfs:label xml:lang="en">Human Actor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -20101,7 +20101,7 @@ budget , investments, and key treatments).</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Human_Actor"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1217</Tripel_RowNr>
     </owl:Axiom>
@@ -20498,7 +20498,7 @@ interoperability of application components in health care (in particular within 
 
     <!-- http://www.snik.eu/ontology/bb/IHE_Connect-a-thon -->
 
-    <owl:Class rdf:about="IHE_Connect-a-thon">
+    <owl:Class rdf:about="IHE_Connect_a_thon">
 <rdfs:label xml:lang="en">IHE Connect-a-thon</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <rdfs:subClassOf>
@@ -20519,14 +20519,14 @@ connect-a-thon” (from “connection” and “marathon”).</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="IHE_Connect-a_thon"/>
+        <owl:annotatedSource rdf:resource="IHE_Connect_a_thon"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Information_Management_Entity_Type"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2130</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="IHE_Connect-a_thon"/>
+        <owl:annotatedSource rdf:resource="IHE_Connect_a_thon"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -20565,7 +20565,7 @@ connect-a-thon” (from “connection” and “marathon”).</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/IHE_Cross-Enterprise_Document_Sharing -->
 
-    <owl:Class rdf:about="IHE_Cross-Enterprise_Document_Sharing">
+    <owl:Class rdf:about="IHE_Cross_Enterprise_Document_Sharing">
 <rdfs:label xml:lang="en">IHE Cross-Enterprise Document Sharing</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <rdfs:subClassOf>
@@ -21019,7 +21019,7 @@ patient name, a patient ID, date of birth, age range, or bed ID.</skos:definitio
 
     <!-- http://www.snik.eu/ontology/bb/ISO_9241-109 -->
 
-    <owl:Class rdf:about="ISO_9241-109">
+    <owl:Class rdf:about="ISO_9241_109">
 <rdfs:label xml:lang="en">ISO 9241-109</rdfs:label>
         <rdfs:subClassOf rdf:resource="ISO_Standard"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -21042,7 +21042,7 @@ patient name, a patient ID, date of birth, age range, or bed ID.</skos:definitio
 
     <!-- http://www.snik.eu/ontology/bb/ISO_9241-110 -->
 
-    <owl:Class rdf:about="ISO_9241-110">
+    <owl:Class rdf:about="ISO_9241_110">
 <rdfs:label xml:lang="en">ISO 9241-110</rdfs:label>
         <rdfs:subClassOf rdf:resource="ISO_Standard"/>
         <rdfs:subClassOf>
@@ -21084,7 +21084,7 @@ user interface design</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/ISO_9241-110_User_Interface_Design_Quality -->
 
-    <owl:Class rdf:about="ISO_9241-110_User_Interface_Design_Quality">
+    <owl:Class rdf:about="ISO_9241_110_User_Interface_Design_Quality">
 <rdfs:label xml:lang="en">ISO 9241-110 User Interface Design Quality</rdfs:label>
         <rdfs:subClassOf rdf:resource="Quality_of_Computer_Based_Application_Components_and_Their_Integration"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
@@ -21892,7 +21892,7 @@ It comprises all measures and methods that are necessary to support the business
 
     <!-- http://www.snik.eu/ontology/bb/Improving_Customer-Centered_Services -->
 
-    <owl:Class rdf:about="Improving_Customer-Centered_Services">
+    <owl:Class rdf:about="Improving_Customer_Centered_Services">
 <rdfs:label xml:lang="en">Improving Customer-Centered Services</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -22077,7 +22077,7 @@ It comprises all measures and methods that are necessary to support the business
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Up-to_Dateness"/>
+                <owl:onProperty rdf:resource="Up_to_Dateness"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -22138,7 +22138,7 @@ It comprises all measures and methods that are necessary to support the business
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Up-to_Dateness"/>
+                <owl:onProperty rdf:resource="Up_to_Dateness"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -22874,7 +22874,7 @@ If the information management department also cares of strategic information man
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Non-Computer_Based_Information_Processing"/>
+                <owl:someValuesFrom rdf:resource="Non_Computer_Based_Information_Processing"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
@@ -22911,7 +22911,7 @@ If the information management department also cares of strategic information man
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Non-Computer_Based_Information_Processing"/>
+                <owl:someValuesFrom rdf:resource="Non_Computer_Based_Information_Processing"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</Tripel_Page>
@@ -25729,7 +25729,7 @@ reach their destination</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Long-Term_HIS_Planning -->
 
-    <owl:Class rdf:about="Long-Term_HIS_Planning">
+    <owl:Class rdf:about="Long_Term_HIS_Planning">
 <rdfs:label xml:lang="en">Long-Term HIS Planning</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf>
@@ -26197,7 +26197,7 @@ overall application component’s stability.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Man-Made_System -->
 
-    <owl:Class rdf:about="Man-Made_System">
+    <owl:Class rdf:about="Man_Made_System">
 <rdfs:label xml:lang="en">Man-Made System</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -26567,7 +26567,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Management_of_Non-Clinical_Department -->
 
-    <owl:Class rdf:about="Management_of_Non-Clinical_Department">
+    <owl:Class rdf:about="Management_of_Non_Clinical_Department">
 <rdfs:label xml:lang="en">Management of Non-Clinical Department</rdfs:label>
         <rdfs:subClassOf rdf:resource="Management_Department"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
@@ -27965,7 +27965,7 @@ available media</skos:definition>
 
     <owl:Class rdf:about="Memory_Stick">
 <rdfs:label xml:lang="en">Memory Stick</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Signal_Based_Transmitting_Medium"/>
+        <rdfs:subClassOf rdf:resource="Non_Signal_Based_Transmitting_Medium"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -27977,7 +27977,7 @@ available media</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Memory_Stick"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Signal_Based_Transmitting_Medium"/>
+        <owl:annotatedTarget rdf:resource="Non_Signal_Based_Transmitting_Medium"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1218</Tripel_RowNr>
     </owl:Axiom>
@@ -28275,7 +28275,7 @@ information system that serve for the communication between application componen
 
     <!-- http://www.snik.eu/ontology/bb/Mixed_DB1-DBn_Style -->
 
-    <owl:Class rdf:about="Mixed_DB1-DBn_Style">
+    <owl:Class rdf:about="Mixed_DB1_DBn_Style">
 <rdfs:label xml:lang="en">Mixed DB1-DBn Style</rdfs:label>
         <rdfs:subClassOf rdf:resource="Database_Style"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
@@ -29181,7 +29181,7 @@ for the international classifi cation of nursing diagnoses</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Non-Computer-Based_Application_Component -->
 
-    <owl:Class rdf:about="Non-Computer-Based_Application_Component">
+    <owl:Class rdf:about="Non_Computer_Based_Application_Component">
 <rdfs:label xml:lang="en">Non-Computer-Based Application Component</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -29196,7 +29196,7 @@ for the international classifi cation of nursing diagnoses</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Non-Computer-Based_Information_Processing -->
 
-    <owl:Class rdf:about="Non-Computer-Based_Information_Processing">
+    <owl:Class rdf:about="Non_Computer_Based_Information_Processing">
 <rdfs:label xml:lang="en">Non-Computer-Based Information Processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Processing"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -29208,7 +29208,7 @@ for the international classifi cation of nursing diagnoses</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Non-Computer_Based_Information_Processing"/>
+        <owl:annotatedSource rdf:resource="Non_Computer_Based_Information_Processing"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Information_Processing"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
@@ -29219,7 +29219,7 @@ for the international classifi cation of nursing diagnoses</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Non-Computer-Based_Information_Processing_Tool -->
 
-    <owl:Class rdf:about="Non-Computer-Based_Information_Processing_Tool">
+    <owl:Class rdf:about="Non_Computer_Based_Information_Processing_Tool">
 <rdfs:label xml:lang="en">Non-Computer-Based Information Processing Tool</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -29231,7 +29231,7 @@ for the international classifi cation of nursing diagnoses</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Non-Computer_Based_Information_Processing_Tool"/>
+        <owl:annotatedSource rdf:resource="Non_Computer_Based_Information_Processing_Tool"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Information_Management_Entity_Type"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
@@ -29242,9 +29242,9 @@ for the international classifi cation of nursing diagnoses</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Non-Computer-Based_Physical_Data_Processing_System -->
 
-    <owl:Class rdf:about="Non-Computer-Based_Physical_Data_Processing_System">
+    <owl:Class rdf:about="Non_Computer_Based_Physical_Data_Processing_System">
 <rdfs:label xml:lang="en">Non-Computer-Based Physical Data Processing System</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Information_Processing_Tool"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Information_Processing_Tool"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -29254,9 +29254,9 @@ for the international classifi cation of nursing diagnoses</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedSource rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Information_Processing_Tool"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Information_Processing_Tool"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2169</Tripel_RowNr>
     </owl:Axiom>
@@ -29265,7 +29265,7 @@ for the international classifi cation of nursing diagnoses</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Non-Signal-Based_Transmitting_Medium -->
 
-    <owl:Class rdf:about="Non-Signal-Based_Transmitting_Medium">
+    <owl:Class rdf:about="Non_Signal_Based_Transmitting_Medium">
 <rdfs:label xml:lang="en">Non-Signal-Based Transmitting Medium</rdfs:label>
         <rdfs:subClassOf rdf:resource="Transmitting_Medium"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -29277,7 +29277,7 @@ for the international classifi cation of nursing diagnoses</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Non-Signal_Based_Transmitting_Medium"/>
+        <owl:annotatedSource rdf:resource="Non_Signal_Based_Transmitting_Medium"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Transmitting_Medium"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</Tripel_Page>
@@ -32757,7 +32757,7 @@ of HIS</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+                <owl:someValuesFrom rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -32781,7 +32781,7 @@ of HIS</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+                <owl:someValuesFrom rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59</Tripel_Page>
@@ -33354,7 +33354,7 @@ of an orthopedics department, can include a computer-aided design
 
     <owl:Class rdf:about="Pager">
 <rdfs:label xml:lang="en">Pager</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -33366,7 +33366,7 @@ of an orthopedics department, can include a computer-aided design
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Pager"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">170</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1431</Tripel_RowNr>
     </owl:Axiom>
@@ -33375,7 +33375,7 @@ of an orthopedics department, can include a computer-aided design
 
     <!-- http://www.snik.eu/ontology/bb/Paper-Based_Application_Component -->
 
-    <owl:Class rdf:about="Paper-Based_Application_Component">
+    <owl:Class rdf:about="Paper_Based_Application_Component">
 <rdfs:label xml:lang="en">Paper-Based Application Component</rdfs:label>
         <rdfs:subClassOf rdf:resource="Application_Component"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -33398,7 +33398,7 @@ of an orthopedics department, can include a computer-aided design
 
     <!-- http://www.snik.eu/ontology/bb/Paper-Based_Patient_Chart -->
 
-    <owl:Class rdf:about="Paper-Based_Patient_Chart">
+    <owl:Class rdf:about="Paper_Based_Patient_Chart">
 <rdfs:label xml:lang="en">Paper-Based Patient Chart</rdfs:label>
         <rdfs:subClassOf rdf:resource="Paper_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
@@ -33421,7 +33421,7 @@ of an orthopedics department, can include a computer-aided design
 
     <!-- http://www.snik.eu/ontology/bb/Paper-Based_Patient_Record -->
 
-    <owl:Class rdf:about="Paper-Based_Patient_Record">
+    <owl:Class rdf:about="Paper_Based_Patient_Record">
 <rdfs:label xml:lang="en">Paper-Based Patient Record</rdfs:label>
         <rdfs:subClassOf rdf:resource="Paper_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
@@ -33444,9 +33444,9 @@ of an orthopedics department, can include a computer-aided design
 
     <!-- http://www.snik.eu/ontology/bb/Paper-Based_Physical_Data_Processing_System -->
 
-    <owl:Class rdf:about="Paper-Based_Physical_Data_Processing_System">
+    <owl:Class rdf:about="Paper_Based_Physical_Data_Processing_System">
 <rdfs:label xml:lang="en">Paper-Based Physical Data Processing System</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -33458,7 +33458,7 @@ of an orthopedics department, can include a computer-aided design
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Paper_Based_Physical_Data_Processing_System"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1440</Tripel_RowNr>
     </owl:Axiom>
@@ -33758,7 +33758,7 @@ includes the patient identifi cation number (PIN)</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Patient-Centered_Information_Processing -->
 
-    <owl:Class rdf:about="Patient-Centered_Information_Processing">
+    <owl:Class rdf:about="Patient_Centered_Information_Processing">
 <rdfs:label xml:lang="en">Patient-Centered Information Processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="Quality_of_HIS_Processes"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
@@ -33782,7 +33782,7 @@ includes the patient identifi cation number (PIN)</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Patient-Centric_Strategy -->
 
-    <owl:Class rdf:about="Patient-Centric_Strategy">
+    <owl:Class rdf:about="Patient_Centric_Strategy">
 <rdfs:label xml:lang="en">Patient-Centric Strategy</rdfs:label>
         <rdfs:subClassOf rdf:resource="EHR_Strategy"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
@@ -36098,7 +36098,7 @@ and how he or she is to be transported there</skos:definition>
 
     <owl:Class rdf:about="Pencil">
 <rdfs:label xml:lang="en">Pencil</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -36110,7 +36110,7 @@ and how he or she is to be transported there</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Pencil"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">170</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1434</Tripel_RowNr>
     </owl:Axiom>
@@ -38710,7 +38710,7 @@ board.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Provide_catalogs_and_other_means_for_coding_patient-related_procedures -->
 
-    <owl:Class rdf:about="Provide_catalogs_and_other_means_for_coding_patient-related_procedures">
+    <owl:Class rdf:about="Provide_catalogs_and_other_means_for_coding_patient_related_procedures">
 <rdfs:label xml:lang="en">Provide catalogs and other means for coding patient-related procedures</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -38737,7 +38737,7 @@ board.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Provide_context-related_medical_knowledge -->
 
-    <owl:Class rdf:about="Provide_context-related_medical_knowledge">
+    <owl:Class rdf:about="Provide_context_related_medical_knowledge">
 <rdfs:label xml:lang="en">Provide context-related medical knowledge</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -38998,7 +38998,7 @@ board.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Provide_means_for_check-in_of_patient -->
 
-    <owl:Class rdf:about="Provide_means_for_check-in_of_patient">
+    <owl:Class rdf:about="Provide_means_for_check_in_of_patient">
 <rdfs:label xml:lang="en">Provide means for check-in of patient</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -39331,7 +39331,7 @@ board.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Provide_means_for_preparing_hospital-wide_statistics -->
 
-    <owl:Class rdf:about="Provide_means_for_preparing_hospital-wide_statistics">
+    <owl:Class rdf:about="Provide_means_for_preparing_hospital_wide_statistics">
 <rdfs:label xml:lang="en">Provide means for preparing hospital-wide statistics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -39349,7 +39349,7 @@ board.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Provide_means_for_preparing_ward-related_statistics -->
 
-    <owl:Class rdf:about="Provide_means_for_preparing_ward-related_statistics">
+    <owl:Class rdf:about="Provide_means_for_preparing_ward_related_statistics">
 <rdfs:label xml:lang="en">Provide means for preparing ward-related statistics</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -39412,7 +39412,7 @@ board.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Provide_orders_for_patient-related_drugs -->
 
-    <owl:Class rdf:about="Provide_orders_for_patient-related_drugs">
+    <owl:Class rdf:about="Provide_orders_for_patient_related_drugs">
 <rdfs:label xml:lang="en">Provide orders for patient-related drugs</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -39421,7 +39421,7 @@ board.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Provide_orders_for_patient-related_examinations -->
 
-    <owl:Class rdf:about="Provide_orders_for_patient-related_examinations">
+    <owl:Class rdf:about="Provide_orders_for_patient_related_examinations">
 <rdfs:label xml:lang="en">Provide orders for patient-related examinations</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -39448,7 +39448,7 @@ board.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Providing_Customer-Centered_Services -->
 
-    <owl:Class rdf:about="Providing_Customer-Centered_Services">
+    <owl:Class rdf:about="Providing_Customer_Centered_Services">
 <rdfs:label xml:lang="en">Providing Customer-Centered Services</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -39969,7 +39969,7 @@ means need or expectation.
 
     <!-- http://www.snik.eu/ontology/bb/Quality_of_Computer-Based_Application_Components_and_Their_Integration -->
 
-    <owl:Class rdf:about="Quality_of_Computer-Based_Application_Components_and_Their_Integration">
+    <owl:Class rdf:about="Quality_of_Computer_Based_Application_Components_and_Their_Integration">
 <rdfs:label xml:lang="en">Quality of Computer-Based Application Components and Their Integration</rdfs:label>
         <rdfs:subClassOf rdf:resource="Quality_of_HIS_Structures"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
@@ -40526,7 +40526,7 @@ IT projects)</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Quasi-Experimental_Study_Design -->
 
-    <owl:Class rdf:about="Quasi-Experimental_Study_Design">
+    <owl:Class rdf:about="Quasi_Experimental_Study_Design">
 <rdfs:label xml:lang="en">Quasi-Experimental Study Design</rdfs:label>
         <rdfs:subClassOf rdf:resource="Study_Design"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.6</Chapter>
@@ -40597,7 +40597,7 @@ from the sender to the receiver and the distribution of a single message to nume
 
     <!-- http://www.snik.eu/ontology/bb/R01-ORU -->
 
-    <owl:Class rdf:about="R01-ORU">
+    <owl:Class rdf:about="R01_ORU">
 <rdfs:label xml:lang="en">R01-ORU</rdfs:label>
         <rdfs:subClassOf rdf:resource="HL7_Message_Type_Event_Type_Combination"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
@@ -42059,7 +42059,7 @@ doctor.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Return-on-Investment_Study -->
 
-    <owl:Class rdf:about="Return-on-Investment_Study">
+    <owl:Class rdf:about="Return_on_Investment_Study">
 <rdfs:label xml:lang="en">Return-on-Investment Study</rdfs:label>
         <rdfs:subClassOf rdf:resource="Economic_Analysis"/>
         <rdfs:subClassOf rdf:resource="Quantitative_Evaluation_Method"/>
@@ -42072,14 +42072,14 @@ doctor.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Return-on_Investment_Study"/>
+        <owl:annotatedSource rdf:resource="Return_on_Investment_Study"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Economic_Analysis"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">327</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1639</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Return-on_Investment_Study"/>
+        <owl:annotatedSource rdf:resource="Return_on_Investment_Study"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Quantitative_Evaluation_Method"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">327</Tripel_Page>
@@ -42268,7 +42268,7 @@ form a ring. Data are passed from one system to the other in the same direction 
 
     <owl:Class rdf:about="Rotary_Phone">
 <rdfs:label xml:lang="en">Rotary Phone</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -42280,7 +42280,7 @@ form a ring. Data are passed from one system to the other in the same direction 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Rotary_Phone"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">170</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1435</Tripel_RowNr>
     </owl:Axiom>
@@ -43017,7 +43017,7 @@ based tools still in use.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Second-Level_Support -->
 
-    <owl:Class rdf:about="Second-Level_Support">
+    <owl:Class rdf:about="Second_Level_Support">
 <rdfs:label xml:lang="en">Second-Level Support</rdfs:label>
         <rdfs:subClassOf rdf:resource="IT_Support"/>
         <rdfs:subClassOf>
@@ -43175,7 +43175,7 @@ safety. There exist standards such as ISO27001 3 that focus on these safety aspe
 
     <!-- http://www.snik.eu/ontology/bb/Self-Descriptiveness -->
 
-    <owl:Class rdf:about="Self-Descriptiveness">
+    <owl:Class rdf:about="Self_Descriptiveness">
 <rdfs:label xml:lang="en">Self-Descriptiveness</rdfs:label>
         <rdfs:subClassOf rdf:resource="ISO_9241_110_User_Interface_Design_Quality"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
@@ -43828,7 +43828,7 @@ interpret data the same way.
 
     <owl:Class rdf:about="Sheet_of_Paper">
 <rdfs:label xml:lang="en">Sheet of Paper</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Signal_Based_Transmitting_Medium"/>
+        <rdfs:subClassOf rdf:resource="Non_Signal_Based_Transmitting_Medium"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -43840,7 +43840,7 @@ interpret data the same way.
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Sheet_of_Paper"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Signal_Based_Transmitting_Medium"/>
+        <owl:annotatedTarget rdf:resource="Non_Signal_Based_Transmitting_Medium"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1225</Tripel_RowNr>
     </owl:Axiom>
@@ -43849,7 +43849,7 @@ interpret data the same way.
 
     <!-- http://www.snik.eu/ontology/bb/Short-Term_HIS_Planning -->
 
-    <owl:Class rdf:about="Short-Term_HIS_Planning">
+    <owl:Class rdf:about="Short_Term_HIS_Planning">
 <rdfs:label xml:lang="en">Short-Term HIS Planning</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf>
@@ -43935,7 +43935,7 @@ interpret data the same way.
 
     <!-- http://www.snik.eu/ontology/bb/Single-Sign-On -->
 
-    <owl:Class rdf:about="Single-Sign-On">
+    <owl:Class rdf:about="Single_Sign_On">
 <rdfs:label xml:lang="en">Single-Sign-On</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
@@ -43949,7 +43949,7 @@ when the user has logged in at an involved application component</skos:definitio
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Single-Sign_On"/>
+        <owl:annotatedSource rdf:resource="Single_Sign_On"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Information_Management_Entity_Type"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
@@ -44029,7 +44029,7 @@ when the user has logged in at an involved application component</skos:definitio
 
     <!-- http://www.snik.eu/ontology/bb/Socio-Technical_System -->
 
-    <owl:Class rdf:about="Socio-Technical_System">
+    <owl:Class rdf:about="Socio_Technical_System">
 <rdfs:label xml:lang="en">Socio-Technical System</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information_Management_Entity_Type"/>
         <rdfs:subClassOf>
@@ -46431,7 +46431,7 @@ and development of a hospital’s information system.
 
     <!-- http://www.snik.eu/ontology/bb/Sub-Information_System -->
 
-    <owl:Class rdf:about="Sub-Information_System">
+    <owl:Class rdf:about="Sub_Information_System">
 <rdfs:label xml:lang="en">Sub-Information System</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -46736,7 +46736,7 @@ developed.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="2-Phase-Commit_Protocol"/>
+                <owl:someValuesFrom rdf:resource="2_Phase_Commit_Protocol"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
@@ -46765,7 +46765,7 @@ as long as response data from the partner are not obtained.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="2-Phase-Commit_Protocol"/>
+                <owl:someValuesFrom rdf:resource="2_Phase_Commit_Protocol"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">156</Tripel_Page>
@@ -48017,7 +48017,7 @@ part of application software, which traditionally has been implemented on and ru
 
     <!-- http://www.snik.eu/ontology/bb/The_Provider-Centric_Strategy -->
 
-    <owl:Class rdf:about="The_Provider-Centric_Strategy">
+    <owl:Class rdf:about="The_Provider_Centric_Strategy">
 <rdfs:label xml:lang="en">The Provider-Centric Strategy</rdfs:label>
         <rdfs:subClassOf rdf:resource="EHR_Strategy"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
@@ -48041,7 +48041,7 @@ them and are made available to other organizations on request.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/The_Regional-_or_National-Centric_Strategy -->
 
-    <owl:Class rdf:about="The_Regional-_or_National-Centric_Strategy">
+    <owl:Class rdf:about="The_Regional__or_National_Centric_Strategy">
 <rdfs:label xml:lang="en">The Regional- or National-Centric Strategy</rdfs:label>
         <rdfs:subClassOf rdf:resource="EHR_Strategy"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
@@ -48054,7 +48054,7 @@ a public institution. This can be on a regional or nationwide level.</skos:defin
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="The_Regional-_or_National_Centric_Strategy"/>
+        <owl:annotatedSource rdf:resource="The_Regional__or_National_Centric_Strategy"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="EHR_Strategy"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192</Tripel_Page>
@@ -48180,7 +48180,7 @@ a public institution. This can be on a regional or nationwide level.</skos:defin
 
     <!-- http://www.snik.eu/ontology/bb/Third-Level_Support -->
 
-    <owl:Class rdf:about="Third-Level_Support">
+    <owl:Class rdf:about="Third_Level_Support">
 <rdfs:label xml:lang="en">Third-Level Support</rdfs:label>
         <rdfs:subClassOf rdf:resource="IT_Support"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
@@ -48204,7 +48204,7 @@ support. It can consist, for example, of specialists from the software vendor</s
 
     <!-- http://www.snik.eu/ontology/bb/Third-Party_Fund -->
 
-    <owl:Class rdf:about="Third-Party_Fund">
+    <owl:Class rdf:about="Third_Party_Fund">
 <rdfs:label xml:lang="en">Third-Party Fund</rdfs:label>
         <rdfs:subClassOf rdf:resource="Administrative_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
@@ -48250,7 +48250,7 @@ support. It can consist, for example, of specialists from the software vendor</s
 
     <!-- http://www.snik.eu/ontology/bb/Time-Motion_Analysis -->
 
-    <owl:Class rdf:about="Time-Motion_Analysis">
+    <owl:Class rdf:about="Time_Motion_Analysis">
 <rdfs:label xml:lang="en">Time-Motion Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="Time_Measurement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.6</Chapter>
@@ -48806,7 +48806,7 @@ topology networks by connecting the central physical data processing systems</sk
 
     <owl:Class rdf:about="Typewriter">
 <rdfs:label xml:lang="en">Typewriter</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <rdfs:subClassOf rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -48818,7 +48818,7 @@ topology networks by connecting the central physical data processing systems</sk
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Typewriter"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Non-Computer_Based_Physical_Data_Processing_System"/>
+        <owl:annotatedTarget rdf:resource="Non_Computer_Based_Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1441</Tripel_RowNr>
     </owl:Axiom>
@@ -49236,12 +49236,12 @@ methods of a set of similar entities.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Up-to-Dateness -->
 
-    <owl:Class rdf:about="Up-to-Dateness">
+    <owl:Class rdf:about="Up_to_Dateness">
 <rdfs:label xml:lang="en">Up-to-Dateness</rdfs:label>
         <rdfs:subClassOf rdf:resource="Quality_of_Physical_Data_Processing_Systems"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Up-to_Dateness"/>
+        <owl:annotatedSource rdf:resource="Up_to_Dateness"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Quality_of_Physical_Data_Processing_Systems"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205</Tripel_Page>
@@ -49662,7 +49662,7 @@ one vendor as “V 1 .”</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/View_patient-related_appointments -->
 
-    <owl:Class rdf:about="View_patient-related_appointments">
+    <owl:Class rdf:about="View_patient_related_appointments">
 <rdfs:label xml:lang="en">View patient-related appointments</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -50219,7 +50219,7 @@ data processing systems (virtual machine).</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/1-tier_Architecture -->
 
-    <owl:Class rdf:about="1-tier_Architecture">
+    <owl:Class rdf:about="1_tier_Architecture">
 <rdfs:label xml:lang="en">1-tier Architecture</rdfs:label>
         <rdfs:subClassOf rdf:resource="Architectural_Style_of_The_Physical_Tool_Layer"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.7.1.1</Chapter>
@@ -50301,7 +50301,7 @@ data processing systems (virtual machine).</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/2-Phase-Commit-Protocol -->
 
-    <owl:Class rdf:about="2-Phase-Commit-Protocol">
+    <owl:Class rdf:about="2_Phase_Commit_Protocol">
 <rdfs:label xml:lang="en">2-Phase-Commit-Protocol</rdfs:label>
         <rdfs:subClassOf rdf:resource="Communication_Protocol"/>
         <rdfs:subClassOf>
@@ -50322,14 +50322,14 @@ actually carried out in a second phase in all database systems.</skos:definition
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="2-Phase-Commit_Protocol"/>
+        <owl:annotatedSource rdf:resource="2_Phase_Commit_Protocol"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Communication_Protocol"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1655</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="2-Phase-Commit_Protocol"/>
+        <owl:annotatedSource rdf:resource="2_Phase_Commit_Protocol"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -50345,7 +50345,7 @@ actually carried out in a second phase in all database systems.</skos:definition
 
     <!-- http://www.snik.eu/ontology/bb/2-tier_Architecture -->
 
-    <owl:Class rdf:about="2-tier_Architecture">
+    <owl:Class rdf:about="2_tier_Architecture">
 <rdfs:label xml:lang="en">2-tier Architecture</rdfs:label>
         <rdfs:subClassOf rdf:resource="Architectural_Style_of_The_Physical_Tool_Layer"/>
         <rdfs:subClassOf>
@@ -50406,7 +50406,7 @@ refer to these architectures as “T 2 .”</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/3-tier_Architecture -->
 
-    <owl:Class rdf:about="3-tier_Architecture">
+    <owl:Class rdf:about="3_tier_Architecture">
 <rdfs:label xml:lang="en">3-tier Architecture</rdfs:label>
         <rdfs:subClassOf rdf:resource="Architectural_Style_of_The_Physical_Tool_Layer"/>
         <rdfs:subClassOf>
@@ -50791,7 +50791,7 @@ computer-based application component. Otherwise it is called non-computer-based.
 
     <!-- http://www.snik.eu/ontology/bb/3LGM2_Computer-Based_Application_Component -->
 
-    <owl:Class rdf:about="3LGM2_Computer-Based_Application_Component">
+    <owl:Class rdf:about="3LGM2_Computer_Based_Application_Component">
 <rdfs:label xml:lang="en">3LGM² Computer-Based Application Component</rdfs:label>
         <rdfs:subClassOf rdf:resource="3LGM2_Application_Component"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -51835,7 +51835,7 @@ supporting the activities regarding an enterprise function</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/3LGM2-B -->
 
-    <owl:Class rdf:about="3LGM2-B">
+    <owl:Class rdf:about="3LGM2_B">
 <rdfs:label xml:lang="en">3LGM²-B</rdfs:label>
         <rdfs:subClassOf rdf:resource="3LGM2"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -51860,7 +51860,7 @@ of a HIS architecture.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/3LGM2-M -->
 
-    <owl:Class rdf:about="3LGM2-M">
+    <owl:Class rdf:about="3LGM2_M">
 <rdfs:label xml:lang="en">3LGM²-M</rdfs:label>
         <rdfs:subClassOf rdf:resource="3LGM2"/>
         <rdfs:subClassOf>
@@ -51938,7 +51938,7 @@ based communication.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/3LGM2-M_Communication_Standard -->
 
-    <owl:Class rdf:about="3LGM2-M_Communication_Standard">
+    <owl:Class rdf:about="3LGM2_M_Communication_Standard">
 <rdfs:label xml:lang="en">3LGM²-M Communication Standard</rdfs:label>
         <rdfs:subClassOf rdf:resource="UML_Class"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -51962,7 +51962,7 @@ messages of a certain data format are communicated when a certain event occurs</
 
     <!-- http://www.snik.eu/ontology/bb/3LGM2-M_Message_Type -->
 
-    <owl:Class rdf:about="3LGM2-M_Message_Type">
+    <owl:Class rdf:about="3LGM2_M_Message_Type">
 <rdfs:label xml:lang="en">3LGM²-M Message Type</rdfs:label>
         <rdfs:subClassOf rdf:resource="UML_Class"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -51987,7 +51987,7 @@ to this message type.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/3LGM2-S -->
 
-    <owl:Class rdf:about="3LGM2-S">
+    <owl:Class rdf:about="3LGM2_S">
 <rdfs:label xml:lang="en">3LGM²-S</rdfs:label>
         <rdfs:subClassOf rdf:resource="3LGM2"/>
         <rdfs:subClassOf>
@@ -52101,7 +52101,7 @@ to this message type.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/3LGM2-S_Invoking_Interface -->
 
-    <owl:Class rdf:about="3LGM2-S_Invoking_Interface">
+    <owl:Class rdf:about="3LGM2_S_Invoking_Interface">
 <rdfs:label xml:lang="en">3LGM²-S Invoking Interface</rdfs:label>
         <rdfs:subClassOf rdf:resource="3LGM2_Communication_Interface"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -52124,7 +52124,7 @@ to this message type.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/3LGM2-S_Providing_Interface -->
 
-    <owl:Class rdf:about="3LGM2-S_Providing_Interface">
+    <owl:Class rdf:about="3LGM2_S_Providing_Interface">
 <rdfs:label xml:lang="en">3LGM²-S Providing Interface</rdfs:label>
         <rdfs:subClassOf rdf:resource="3LGM2_Communication_Interface"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -52147,7 +52147,7 @@ to this message type.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/3LGM2-S_Service -->
 
-    <owl:Class rdf:about="3LGM2-S_Service">
+    <owl:Class rdf:about="3LGM2_S_Service">
 <rdfs:label xml:lang="en">3LGM²-S Service</rdfs:label>
         <rdfs:subClassOf rdf:resource="UML_Class"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -52171,7 +52171,7 @@ other application components.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/3LGM2-S_Service_Class -->
 
-    <owl:Class rdf:about="3LGM2-S_Service_Class">
+    <owl:Class rdf:about="3LGM2_S_Service_Class">
 <rdfs:label xml:lang="en">3LGM²-S Service Class</rdfs:label>
         <rdfs:subClassOf rdf:resource="UML_Class"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -52517,7 +52517,7 @@ each level</skos:definition>
 
     <!-- http://www.snik.eu/ontology/bb/Provide_forms_for_entering_clinical_data_(free-text_or_structured) -->
 
-    <owl:Class rdf:about="Provide_forms_for_entering_clinical_data_(free-text_or_structured)">
+    <owl:Class rdf:about="Provide_forms_for_entering_clinical_data_(free_text_or_structured)">
 <rdfs:label xml:lang="en">Provide forms for entering clinical data (free-text or structured)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -52694,7 +52694,7 @@ approach that first identifies factors critical to the hospital’s success or f
         <skos:definition xml:lang="en">For example, a server has no down-times.</skos:definition>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
     </rdf:Description>
-    <rdf:Description rdf:about="Up-to-Dateness">
+    <rdf:Description rdf:about="Up_to_Dateness">
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205 </Definition_EN_Page>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
@@ -52704,7 +52704,5 @@ approach that first identifies factors critical to the hospital’s success or f
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
     </rdf:Description>
 </rdf:RDF>
-
-
 
 <!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->

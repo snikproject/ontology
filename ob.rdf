@@ -46,7 +46,7 @@
 <ov:defines rdf:resource="3LGM2_Organizational_System"/>
 <ov:defines rdf:resource="3LGM2_Organizational_Unit"/>
 <ov:defines rdf:resource="3LGM2_Physical_Tool_Layer"/>
-<ov:defines rdf:resource="5-Level-Method_for_Systematic_Structural_Planning"/>
+<ov:defines rdf:resource="5_Level_Method_for_Systematic_Structural_Planning"/>
 <ov:defines rdf:resource="Acceptance_Protocol"/>
 <ov:defines rdf:resource="Acceptance_Report"/>
 <ov:defines rdf:resource="Accepting_a_Project_Order"/>
@@ -80,7 +80,7 @@
 <ov:defines rdf:resource="Bidding_Type"/>
 <ov:defines rdf:resource="Bid_Prioritization"/>
 <ov:defines rdf:resource="Binding_Character"/>
-<ov:defines rdf:resource="Bottom-up_Approach"/>
+<ov:defines rdf:resource="Bottom_up_Approach"/>
 <ov:defines rdf:resource="Brainstorming"/>
 <ov:defines rdf:resource="Budget_Compliance"/>
 <ov:defines rdf:resource="Buffer_Time"/>
@@ -117,12 +117,12 @@
 <ov:defines rdf:resource="Complete_Survey"/>
 <ov:defines rdf:resource="Completion_of_Project_Documentation"/>
 <ov:defines rdf:resource="Component_of_an_Information_System_1"/>
-<ov:defines rdf:resource="Computer-Based_Application_System"/>
-<ov:defines rdf:resource="Computer-Based_Application_System_Operation"/>
-<ov:defines rdf:resource="Computer-Based_Elicitation_Form"/>
-<ov:defines rdf:resource="Computer-Based_Information_System"/>
-<ov:defines rdf:resource="Computer-Based_Information_System_1"/>
-<ov:defines rdf:resource="Computer-Based_Part_of_Information_System"/>
+<ov:defines rdf:resource="Computer_Based_Application_System"/>
+<ov:defines rdf:resource="Computer_Based_Application_System_Operation"/>
+<ov:defines rdf:resource="Computer_Based_Elicitation_Form"/>
+<ov:defines rdf:resource="Computer_Based_Information_System"/>
+<ov:defines rdf:resource="Computer_Based_Information_System_1"/>
+<ov:defines rdf:resource="Computer_Based_Part_of_Information_System"/>
 <ov:defines rdf:resource="Computer_System"/>
 <ov:defines rdf:resource="Computing_Center"/>
 <ov:defines rdf:resource="Confidentiality_Provision"/>
@@ -139,9 +139,9 @@
 <ov:defines rdf:resource="Correctness"/>
 <ov:defines rdf:resource="Cost"/>
 <ov:defines rdf:resource="Cost_Analysis"/>
-<ov:defines rdf:resource="Cost-Benefit_Analysis"/>
+<ov:defines rdf:resource="Cost_Benefit_Analysis"/>
 <ov:defines rdf:resource="Cost_Comparison"/>
-<ov:defines rdf:resource="Cost-Effectiveness_Analysis"/>
+<ov:defines rdf:resource="Cost_Effectiveness_Analysis"/>
 <ov:defines rdf:resource="Cost_Estimation_Method"/>
 <ov:defines rdf:resource="Costumization_Report"/>
 <ov:defines rdf:resource="Creation_of_Final_Report"/>
@@ -149,7 +149,7 @@
 <ov:defines rdf:resource="Creativity_Technique"/>
 <ov:defines rdf:resource="Critical_Path"/>
 <ov:defines rdf:resource="Critical_Path_Calculation"/>
-<ov:defines rdf:resource="Cross-linked_Gantt_Chart"/>
+<ov:defines rdf:resource="Cross_linked_Gantt_Chart"/>
 <ov:defines rdf:resource="Current_State"/>
 <ov:defines rdf:resource="Current_State_Model"/>
 <ov:defines rdf:resource="Customer_Obligation"/>
@@ -209,8 +209,8 @@
 <ov:defines rdf:resource="End_Date"/>
 <ov:defines rdf:resource="Enterprise_Function"/>
 <ov:defines rdf:resource="Enterprise_Modelling"/>
-<ov:defines rdf:resource="Entity-Relationship_Model"/>
-<ov:defines rdf:resource="Entity-Relationship-Model"/>
+<ov:defines rdf:resource="Entity_Relationship_Model"/>
+<ov:defines rdf:resource="Entity_Relationship_Model"/>
 <ov:defines rdf:resource="Entity_Type"/>
 <ov:defines rdf:resource="Environment_Analysis"/>
 <ov:defines rdf:resource="Equipment_Analysis"/>
@@ -226,22 +226,22 @@
 <ov:defines rdf:resource="Evaluation_Planning"/>
 <ov:defines rdf:resource="Evaluation_Report"/>
 <ov:defines rdf:resource="Evaluation_Team"/>
-<ov:defines rdf:resource="EVB-IT"/>
+<ov:defines rdf:resource="EVB_IT"/>
 <ov:defines rdf:resource="Event"/>
-<ov:defines rdf:resource="Event-Driven_Process_Chain"/>
-<ov:defines rdf:resource="Execution_of_a_Kick-Off-Meeting"/>
+<ov:defines rdf:resource="Event_Driven_Process_Chain"/>
+<ov:defines rdf:resource="Execution_of_a_Kick_Off_Meeting"/>
 <ov:defines rdf:resource="Execution_of_a_Project_Organization_Form"/>
 <ov:defines rdf:resource="Execution_of_a_Stakeholder_Analysis"/>
 <ov:defines rdf:resource="Execution_of_Final_Report_Presentation"/>
 <ov:defines rdf:resource="Execution_of_Market_Analysis"/>
 <ov:defines rdf:resource="Execution_of_Product_Presentation"/>
 <ov:defines rdf:resource="Execution_of_Project_Review"/>
-<ov:defines rdf:resource="Execution_of_Target-Performance_Comparison"/>
+<ov:defines rdf:resource="Execution_of_Target_Performance_Comparison"/>
 <ov:defines rdf:resource="Execution_of_Training_Course"/>
 <ov:defines rdf:resource="Execution_of_Verification_Meeting"/>
 <ov:defines rdf:resource="Expected_Project_Benefit"/>
 <ov:defines rdf:resource="Exploratory_Discussion"/>
-<ov:defines rdf:resource="Extended_Event-Driven_Process_Chain"/>
+<ov:defines rdf:resource="Extended_Event_Driven_Process_Chain"/>
 <ov:defines rdf:resource="Failure_Concept"/>
 <ov:defines rdf:resource="Failure_Safety"/>
 <ov:defines rdf:resource="Fallback_Concept"/>
@@ -252,7 +252,7 @@
 <ov:defines rdf:resource="Final_Report_Presentation"/>
 <ov:defines rdf:resource="Final_Report_Structure"/>
 <ov:defines rdf:resource="Financial_Resource"/>
-<ov:defines rdf:resource="First-Level_Support"/>
+<ov:defines rdf:resource="First_Level_Support"/>
 <ov:defines rdf:resource="Formal_Modeling_Technique"/>
 <ov:defines rdf:resource="Forming_Phase"/>
 <ov:defines rdf:resource="Formulation_of_a_Project_Idea"/>
@@ -265,7 +265,7 @@
 <ov:defines rdf:resource="Gantt_Chart_Analysis"/>
 <ov:defines rdf:resource="Goal"/>
 <ov:defines rdf:resource="Goal_Definition"/>
-<ov:defines rdf:resource="Go-Live"/>
+<ov:defines rdf:resource="Go_Live"/>
 <ov:defines rdf:resource="Group_Interview"/>
 <ov:defines rdf:resource="Guideline"/>
 <ov:defines rdf:resource="Handover_Certificate"/>
@@ -339,7 +339,7 @@
 <ov:defines rdf:resource="Jour_Fixe"/>
 <ov:defines rdf:resource="Key_Performance_Indicator"/>
 <ov:defines rdf:resource="Key_User"/>
-<ov:defines rdf:resource="Kick-Off-Meeting"/>
+<ov:defines rdf:resource="Kick_Off_Meeting"/>
 <ov:defines rdf:resource="Killer_Phrase"/>
 <ov:defines rdf:resource="Knowledge"/>
 <ov:defines rdf:resource="Law"/>
@@ -391,8 +391,8 @@
 <ov:defines rdf:resource="Minute_Taker"/>
 <ov:defines rdf:resource="Model"/>
 <ov:defines rdf:resource="Modeling_Method"/>
-<ov:defines rdf:resource="Modul-_and_Organization-Specific_Gradual_Transition"/>
-<ov:defines rdf:resource="Modul-Specific_Gradual_Transition"/>
+<ov:defines rdf:resource="Modul__and_Organization_Specific_Gradual_Transition"/>
+<ov:defines rdf:resource="Modul_Specific_Gradual_Transition"/>
 <ov:defines rdf:resource="Monitoring_of_Defect_Fixes"/>
 <ov:defines rdf:resource="Must_Criterion"/>
 <ov:defines rdf:resource="Name_and_Address_of_Contractor"/>
@@ -404,12 +404,12 @@
 <ov:defines rdf:resource="Net_Plan"/>
 <ov:defines rdf:resource="Net_Plan_Analysis"/>
 <ov:defines rdf:resource="Network_Management"/>
-<ov:defines rdf:resource="Non-Computer-Based_Application_Component_1"/>
-<ov:defines rdf:resource="Non-Computer-Based_Application_System"/>
-<ov:defines rdf:resource="Non-Computer-Based_Physical_Tool"/>
-<ov:defines rdf:resource="Non-Computer-Based_Tool"/>
-<ov:defines rdf:resource="Non-Functional_Requirement"/>
-<ov:defines rdf:resource="Non-Standardized_Observation"/>
+<ov:defines rdf:resource="Non_Computer_Based_Application_Component_1"/>
+<ov:defines rdf:resource="Non_Computer_Based_Application_System"/>
+<ov:defines rdf:resource="Non_Computer_Based_Physical_Tool"/>
+<ov:defines rdf:resource="Non_Computer_Based_Tool"/>
+<ov:defines rdf:resource="Non_Functional_Requirement"/>
+<ov:defines rdf:resource="Non_Standardized_Observation"/>
 <ov:defines rdf:resource="Norming_Phase"/>
 <ov:defines rdf:resource="Notice_Periods_and_Conditions"/>
 <ov:defines rdf:resource="Objective_of_Analysis"/>
@@ -439,7 +439,7 @@
 <ov:defines rdf:resource="Organizational_Unit_1"/>
 <ov:defines rdf:resource="Organizational_View"/>
 <ov:defines rdf:resource="Organization_Chart"/>
-<ov:defines rdf:resource="Organization-Specific_Gradual_Transition"/>
+<ov:defines rdf:resource="Organization_Specific_Gradual_Transition"/>
 <ov:defines rdf:resource="Outpatient_Department"/>
 <ov:defines rdf:resource="Outsider_Observation"/>
 <ov:defines rdf:resource="Outsourcing"/>
@@ -517,7 +517,7 @@
 <ov:defines rdf:resource="Project_Experience"/>
 <ov:defines rdf:resource="Project_Goal"/>
 <ov:defines rdf:resource="Project_Handbook"/>
-<ov:defines rdf:resource="Project_Hand-Over"/>
+<ov:defines rdf:resource="Project_Hand_Over"/>
 <ov:defines rdf:resource="Project_Idea"/>
 <ov:defines rdf:resource="Project_Initiation"/>
 <ov:defines rdf:resource="Project_Initiation_Documentation"/>
@@ -567,7 +567,7 @@
 <ov:defines rdf:resource="Project_Review_Planning_Section"/>
 <ov:defines rdf:resource="Project_Review_Preparation_Section"/>
 <ov:defines rdf:resource="Project_Review_Report"/>
-<ov:defines rdf:resource="Project_Review_Wrap-Up_Section"/>
+<ov:defines rdf:resource="Project_Review_Wrap_Up_Section"/>
 <ov:defines rdf:resource="Project_Rule"/>
 <ov:defines rdf:resource="Project_Schedule"/>
 <ov:defines rdf:resource="Project_Specification"/>
@@ -636,25 +636,25 @@
 <ov:defines rdf:resource="Result_of_Stakeholder_Analysis"/>
 <ov:defines rdf:resource="Result_Verification"/>
 <ov:defines rdf:resource="Retrolective_Information_Acquisition_Method"/>
-<ov:defines rdf:resource="Return-on-Investment_Analysis"/>
+<ov:defines rdf:resource="Return_on_Investment_Analysis"/>
 <ov:defines rdf:resource="Review_of_Project_Results"/>
 <ov:defines rdf:resource="Risk_Analysis"/>
 <ov:defines rdf:resource="Risk_Analysis_Factor"/>
 <ov:defines rdf:resource="Risk_Manager"/>
 <ov:defines rdf:resource="Risk_Plan"/>
 <ov:defines rdf:resource="Roll_Out"/>
-<ov:defines rdf:resource="Roll-Out"/>
+<ov:defines rdf:resource="Roll_Out"/>
 <ov:defines rdf:resource="Sample_Size"/>
 <ov:defines rdf:resource="Scenario"/>
 <ov:defines rdf:resource="Schedule_for_Elicitation"/>
 <ov:defines rdf:resource="Schedule_Representation_Method"/>
 <ov:defines rdf:resource="Scheduling"/>
 <ov:defines rdf:resource="Scope_of_Maintenance"/>
-<ov:defines rdf:resource="Second-Level_Support"/>
+<ov:defines rdf:resource="Second_Level_Support"/>
 <ov:defines rdf:resource="Selection_Team"/>
-<ov:defines rdf:resource="Semi-Formal_Modeling_Technique"/>
+<ov:defines rdf:resource="Semi_Formal_Modeling_Technique"/>
 <ov:defines rdf:resource="Sensitivity_Analysis"/>
-<ov:defines rdf:resource="Sensor-Based_Observation"/>
+<ov:defines rdf:resource="Sensor_Based_Observation"/>
 <ov:defines rdf:resource="Sequence_Diagram"/>
 <ov:defines rdf:resource="Server_Administration"/>
 <ov:defines rdf:resource="Service_Contract"/>
@@ -665,7 +665,7 @@
 <ov:defines rdf:resource="Simulation"/>
 <ov:defines rdf:resource="Single_Interview"/>
 <ov:defines rdf:resource="SMART"/>
-<ov:defines rdf:resource="Socio-Technical_System"/>
+<ov:defines rdf:resource="Socio_Technical_System"/>
 <ov:defines rdf:resource="Software_Distribution"/>
 <ov:defines rdf:resource="Software_Lot"/>
 <ov:defines rdf:resource="Software_Product"/>
@@ -719,7 +719,7 @@
 <ov:defines rdf:resource="Study_Planning_Section"/>
 <ov:defines rdf:resource="Study_Question"/>
 <ov:defines rdf:resource="Study_Timing"/>
-<ov:defines rdf:resource="Sub-Information_System_1"/>
+<ov:defines rdf:resource="Sub_Information_System_1"/>
 <ov:defines rdf:resource="Subject"/>
 <ov:defines rdf:resource="Subsequent_Cost_Management"/>
 <ov:defines rdf:resource="Subsystem"/>
@@ -769,7 +769,7 @@
 <ov:defines rdf:resource="Target_Concept"/>
 <ov:defines rdf:resource="Target_Definition"/>
 <ov:defines rdf:resource="Targeted_Selection"/>
-<ov:defines rdf:resource="Target-Performance_Comparison"/>
+<ov:defines rdf:resource="Target_Performance_Comparison"/>
 <ov:defines rdf:resource="Target_State"/>
 <ov:defines rdf:resource="Target_State_Model"/>
 <ov:defines rdf:resource="Target_Value"/>
@@ -794,17 +794,17 @@
 <ov:defines rdf:resource="Test_Operation"/>
 <ov:defines rdf:resource="Test_Operation_Specification"/>
 <ov:defines rdf:resource="Test_Scenario"/>
-<ov:defines rdf:resource="Third-Level_Support"/>
-<ov:defines rdf:resource="Three_Layer_Graph-Based_Metamodel"/>
+<ov:defines rdf:resource="Third_Level_Support"/>
+<ov:defines rdf:resource="Three_Layer_Graph_Based_Metamodel"/>
 <ov:defines rdf:resource="Time"/>
 <ov:defines rdf:resource="Time_Measurement"/>
 <ov:defines rdf:resource="Time_to_Run"/>
 <ov:defines rdf:resource="Time_to_Run_Calculation"/>
 <ov:defines rdf:resource="Timing_Diagram"/>
-<ov:defines rdf:resource="To-do_List"/>
+<ov:defines rdf:resource="To_do_List"/>
 <ov:defines rdf:resource="Todo_List"/>
 <ov:defines rdf:resource="Tool"/>
-<ov:defines rdf:resource="Top-down_Approach"/>
+<ov:defines rdf:resource="Top_down_Approach"/>
 <ov:defines rdf:resource="Top_Management"/>
 <ov:defines rdf:resource="Traffic_Light_Model"/>
 <ov:defines rdf:resource="Training_Concept"/>
@@ -824,7 +824,7 @@
 <ov:defines rdf:resource="Usability"/>
 <ov:defines rdf:resource="Usability_Test"/>
 <ov:defines rdf:resource="Use_Case"/>
-<ov:defines rdf:resource="Use-Case-Diagram"/>
+<ov:defines rdf:resource="Use_Case_Diagram"/>
 <ov:defines rdf:resource="Use_Case_Driven_Requirements_Engineering"/>
 <ov:defines rdf:resource="User"/>
 <ov:defines rdf:resource="User_Administration"/>
@@ -843,9 +843,9 @@
 <ov:defines rdf:resource="Verification_Test"/>
 <ov:defines rdf:resource="Version_Management"/>
 <ov:defines rdf:resource="Visit"/>
-<ov:defines rdf:resource="V-Model"/>
+<ov:defines rdf:resource="V_Model"/>
 <ov:defines rdf:resource="Waterfall_Model"/>
-<ov:defines rdf:resource="Win-Win_Situation"/>
+<ov:defines rdf:resource="Win_Win_Situation"/>
 <ov:defines rdf:resource="Workflow_Management"/>
 <ov:defines rdf:resource="Work_Package"/>
 <ov:defines rdf:resource="Work_Package_Description"/>
@@ -1046,7 +1046,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="&ob;Event-Driven_Process_Chain"/>
+                <owl:someValuesFrom rdf:resource="&ob;Event_Driven_Process_Chain"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1156,7 +1156,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="&ob;Event-Driven_Process_Chain"/>
+                <owl:someValuesFrom rdf:resource="&ob;Event_Driven_Process_Chain"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">321</Tripel_Page>
@@ -2446,7 +2446,7 @@ Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Be
 
     <!-- http://www.snik.eu/ontology/ob/Bottom-up_Approach -->
 
-    <owl:Class rdf:about="&ob;Bottom-up_Approach">
+    <owl:Class rdf:about="&ob;Bottom_up_Approach">
 <rdfs:label xml:lang="en">Bottom-up Approach</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -2543,7 +2543,7 @@ Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Be
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2567,7 +2567,7 @@ Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Be
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72</Tripel_Page>
@@ -3220,7 +3220,7 @@ und gemeinsam ausgewertet.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Review_Wrap-Up_Section"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Review_Wrap_Up_Section"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
@@ -3274,7 +3274,7 @@ und gemeinsam ausgewertet.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Review_Wrap-Up_Section"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Review_Wrap_Up_Section"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</Tripel_Page>
@@ -3743,7 +3743,7 @@ und gemeinsam ausgewertet.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Computer-Based_Application_System -->
 
-    <owl:Class rdf:about="&ob;Computer-Based_Application_System">
+    <owl:Class rdf:about="&ob;Computer_Based_Application_System">
 <rdfs:label xml:lang="en">Computer-Based Application System</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Application_System"/>
         <rdfs:subClassOf>
@@ -3765,21 +3765,21 @@ und gemeinsam ausgewertet.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rechnerbasiertes Anwendungssystem</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Computer-Based_Application_System"/>
+        <owl:annotatedSource rdf:resource="&ob;Computer_Based_Application_System"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Application_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1255</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Computer-Based_Application_System"/>
+        <owl:annotatedSource rdf:resource="&ob;Computer_Based_Application_System"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Application_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1286</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Computer-Based_Application_System"/>
+        <owl:annotatedSource rdf:resource="&ob;Computer_Based_Application_System"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -3795,7 +3795,7 @@ und gemeinsam ausgewertet.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Computer-Based_Application_System_Operation -->
 
-    <owl:Class rdf:about="&ob;Computer-Based_Application_System_Operation">
+    <owl:Class rdf:about="&ob;Computer_Based_Application_System_Operation">
 <rdfs:label xml:lang="en">Computer-Based Application System Operation</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3812,7 +3812,7 @@ und gemeinsam ausgewertet.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betrieb rechnerbasierter Anwendungssysteme</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Computer-Based_Application_System_Operation"/>
+        <owl:annotatedSource rdf:resource="&ob;Computer_Based_Application_System_Operation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -3828,7 +3828,7 @@ und gemeinsam ausgewertet.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Computer-Based_Elicitation_Form -->
 
-    <owl:Class rdf:about="&ob;Computer-Based_Elicitation_Form">
+    <owl:Class rdf:about="&ob;Computer_Based_Elicitation_Form">
 <rdfs:label xml:lang="en">Computer-Based Elicitation Form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Elicitation_Form"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
@@ -3841,7 +3841,7 @@ und gemeinsam ausgewertet.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rechnerbasiertes Erhebungsformular</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Computer-Based_Elicitation_Form"/>
+        <owl:annotatedSource rdf:resource="&ob;Computer_Based_Elicitation_Form"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Elicitation_Form"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">134</Tripel_Page>
@@ -3852,7 +3852,7 @@ und gemeinsam ausgewertet.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Computer-Based_Information_System -->
 
-    <owl:Class rdf:about="&ob;Computer-Based_Information_System">
+    <owl:Class rdf:about="&ob;Computer_Based_Information_System">
 <rdfs:label xml:lang="en">Computer-Based Information System</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Information_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -3867,7 +3867,7 @@ und gemeinsam ausgewertet.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rechnerunterstütztes Informationssystem</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Computer-Based_Information_System"/>
+        <owl:annotatedSource rdf:resource="&ob;Computer_Based_Information_System"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Information_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</Tripel_Page>
@@ -3878,7 +3878,7 @@ und gemeinsam ausgewertet.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Computer-Based_Information_System_1 -->
 
-    <owl:Class rdf:about="&ob;Computer-Based_Information_System_1">
+    <owl:Class rdf:about="&ob;Computer_Based_Information_System_1">
 <rdfs:label xml:lang="en">Computer-Based Information System 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Information_System_1"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -3891,7 +3891,7 @@ und gemeinsam ausgewertet.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Computer-Based_Information_System_1"/>
+        <owl:annotatedSource rdf:resource="&ob;Computer_Based_Information_System_1"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Information_System_1"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
@@ -3902,7 +3902,7 @@ und gemeinsam ausgewertet.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Computer-Based_Part_of_Information_System -->
 
-    <owl:Class rdf:about="&ob;Computer-Based_Part_of_Information_System">
+    <owl:Class rdf:about="&ob;Computer_Based_Part_of_Information_System">
 <rdfs:label xml:lang="en">Computer-Based Part of Information System</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -4447,9 +4447,9 @@ Aktivitäts- und Sequenzdiagramme) sowie die BPMN-Diagrammtypen.</skos:definitio
 
 
 
-    <!-- http://www.snik.eu/ontology/ob/Cost-Benefit_Analysis -->
+    <!-- http://www.snik.eu/ontology/ob/Cost_Benefit_Analysis -->
 
-    <owl:Class rdf:about="&ob;Cost-Benefit_Analysis">
+    <owl:Class rdf:about="&ob;Cost_Benefit_Analysis">
 <rdfs:label xml:lang="en">Cost-Benefit Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Cost_Analysis"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3, 16</Chapter>
@@ -4465,7 +4465,7 @@ erfolgen.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Cost-Benefit_Analysis"/>
+        <owl:annotatedSource rdf:resource="&ob;Cost_Benefit_Analysis"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Cost_Analysis"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">228, 328</Tripel_Page>
@@ -4476,7 +4476,7 @@ erfolgen.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Cost-Effectiveness_Analysis -->
 
-    <owl:Class rdf:about="&ob;Cost-Effectiveness_Analysis">
+    <owl:Class rdf:about="&ob;Cost_Effectiveness_Analysis">
 <rdfs:label xml:lang="en">Cost-Effectiveness Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Cost_Analysis"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3, 16</Chapter>
@@ -4495,7 +4495,7 @@ des Nutzwertes in einer Nutzwertanalyse erfolgen.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kosten-Effektivitäts-Analyse</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Cost-Effectiveness_Analysis"/>
+        <owl:annotatedSource rdf:resource="&ob;Cost_Effectiveness_Analysis"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Cost_Analysis"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">228, 328</Tripel_Page>
@@ -4714,7 +4714,7 @@ anfallen, direkt gegenüber stellt.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4767,7 +4767,7 @@ anfallen, direkt gegenüber stellt.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56</Tripel_Page>
@@ -4888,7 +4888,7 @@ Projektüberwachung).</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4947,7 +4947,7 @@ Projektüberwachung).</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73</Tripel_Page>
@@ -4970,7 +4970,7 @@ Projektüberwachung).</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Cross-linked_Gantt_Chart -->
 
-    <owl:Class rdf:about="&ob;Cross-linked_Gantt_Chart">
+    <owl:Class rdf:about="&ob;Cross_linked_Gantt_Chart">
 <rdfs:label xml:lang="en">Cross-linked Gantt Chart</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Gantt_Chart"/>
         <rdfs:subClassOf rdf:resource="&ob;Project_Planning_Method"/>
@@ -4999,28 +4999,28 @@ Projektüberwachung).</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vernetzter Balkenplan</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+        <owl:annotatedSource rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Gantt_Chart"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1140</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+        <owl:annotatedSource rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Project_Planning_Method"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1119</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+        <owl:annotatedSource rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Schedule_Representation_Method"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1135</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+        <owl:annotatedSource rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -5032,7 +5032,7 @@ Projektüberwachung).</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">768</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+        <owl:annotatedSource rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -5955,7 +5955,7 @@ Abb. 8.11 auf S. 148) und mittlerweile auch UML-Klassendiagramme.</skos:definiti
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;EVB-IT"/>
+                <owl:someValuesFrom rdf:resource="&ob;EVB_IT"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6027,7 +6027,7 @@ Abb. 8.11 auf S. 148) und mittlerweile auch UML-Klassendiagramme.</skos:definiti
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;EVB-IT"/>
+                <owl:someValuesFrom rdf:resource="&ob;EVB_IT"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">218</Tripel_Page>
@@ -7395,7 +7395,7 @@ mina möglich.
 
     <!-- http://www.snik.eu/ontology/ob/EVB-IT -->
 
-    <owl:Class rdf:about="&ob;EVB-IT">
+    <owl:Class rdf:about="&ob;EVB_IT">
 <rdfs:label xml:lang="en">EVB-IT</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -7646,7 +7646,7 @@ Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Han
 
     <!-- http://www.snik.eu/ontology/ob/Entity-Relationship-Model -->
 
-    <owl:Class rdf:about="&ob;Entity-Relationship-Model">
+    <owl:Class rdf:about="&ob;Entity_Relationship_Model">
 <rdfs:label xml:lang="en">Entity-Relationship-Model</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Data_Modeling_Method"/>
         <rdfs:subClassOf>
@@ -7669,14 +7669,14 @@ Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Han
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Entity-Relationship-Model"/>
+        <owl:annotatedSource rdf:resource="&ob;Entity_Relationship_Model"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Data_Modeling_Method"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136, 324</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1313</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Entity-Relationship-Model"/>
+        <owl:annotatedSource rdf:resource="&ob;Entity_Relationship_Model"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -7692,7 +7692,7 @@ Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Han
 
     <!-- http://www.snik.eu/ontology/ob/Entity-Relationship_Model -->
 
-    <owl:Class rdf:about="&ob;Entity-Relationship_Model">
+    <owl:Class rdf:about="&ob;Entity_Relationship_Model">
 <rdfs:label xml:lang="en">Entity-Relationship Model</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Metamodel"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -7705,7 +7705,7 @@ Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Han
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entity-Relationship-Modell, ER-Modell, Objekt-Beziehungs-Modell, ERM</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Entity-Relationship_Model"/>
+        <owl:annotatedSource rdf:resource="&ob;Entity_Relationship_Model"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Metamodel"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">325</Tripel_Page>
@@ -8256,7 +8256,7 @@ Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Han
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Target-Performance_Comparison"/>
+                <owl:someValuesFrom rdf:resource="&ob;Target_Performance_Comparison"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.2</Chapter>
@@ -8425,7 +8425,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Target-Performance_Comparison"/>
+                <owl:someValuesFrom rdf:resource="&ob;Target_Performance_Comparison"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">276</Tripel_Page>
@@ -8690,7 +8690,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
 
     <!-- http://www.snik.eu/ontology/ob/Event-Driven_Process_Chain -->
 
-    <owl:Class rdf:about="&ob;Event-Driven_Process_Chain">
+    <owl:Class rdf:about="&ob;Event_Driven_Process_Chain">
 <rdfs:label xml:lang="en">Event-Driven Process Chain</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Business_Process_Metamodel"/>
         <rdfs:subClassOf rdf:resource="&ob;Business_Process_Modeling_Method"/>
@@ -8718,21 +8718,21 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ereignisgesteuerte Prozesskette, EPK, EPC</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Event-Driven_Process_Chain"/>
+        <owl:annotatedSource rdf:resource="&ob;Event_Driven_Process_Chain"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Business_Process_Metamodel"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">326</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1262</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Event-Driven_Process_Chain"/>
+        <owl:annotatedSource rdf:resource="&ob;Event_Driven_Process_Chain"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Business_Process_Modeling_Method"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136, 325</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1314</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Event-Driven_Process_Chain"/>
+        <owl:annotatedSource rdf:resource="&ob;Event_Driven_Process_Chain"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -8744,7 +8744,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">947</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Event-Driven_Process_Chain"/>
+        <owl:annotatedSource rdf:resource="&ob;Event_Driven_Process_Chain"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -9204,7 +9204,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
 
     <!-- http://www.snik.eu/ontology/ob/Execution_of_Target-Performance_Comparison -->
 
-    <owl:Class rdf:about="&ob;Execution_of_Target-Performance_Comparison">
+    <owl:Class rdf:about="&ob;Execution_of_Target_Performance_Comparison">
 <rdfs:label xml:lang="en">Execution of Target-Performance Comparison</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9215,7 +9215,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Target-Performance_Comparison"/>
+                <owl:someValuesFrom rdf:resource="&ob;Target_Performance_Comparison"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3</Chapter>
@@ -9228,7 +9228,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durchführung des Ist-Soll-Vergleichs</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Execution_of_Target-Performance_Comparison"/>
+        <owl:annotatedSource rdf:resource="&ob;Execution_of_Target_Performance_Comparison"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -9240,12 +9240,12 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Execution_of_Target-Performance_Comparison"/>
+        <owl:annotatedSource rdf:resource="&ob;Execution_of_Target_Performance_Comparison"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Target-Performance_Comparison"/>
+                <owl:someValuesFrom rdf:resource="&ob;Target_Performance_Comparison"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90</Tripel_Page>
@@ -9362,7 +9362,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
 
     <!-- http://www.snik.eu/ontology/ob/Execution_of_a_Kick-Off-Meeting -->
 
-    <owl:Class rdf:about="&ob;Execution_of_a_Kick-Off-Meeting">
+    <owl:Class rdf:about="&ob;Execution_of_a_Kick_Off_Meeting">
 <rdfs:label xml:lang="en">Execution of a Kick-Off-Meeting</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9380,7 +9380,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Execution_of_a_Kick-Off-Meeting"/>
+        <owl:annotatedSource rdf:resource="&ob;Execution_of_a_Kick_Off_Meeting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -9624,7 +9624,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
 
     <!-- http://www.snik.eu/ontology/ob/Extended_Event-Driven_Process_Chain -->
 
-    <owl:Class rdf:about="&ob;Extended_Event-Driven_Process_Chain">
+    <owl:Class rdf:about="&ob;Extended_Event_Driven_Process_Chain">
 <rdfs:label xml:lang="en">Extended Event-Driven Process Chain</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9666,7 +9666,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erweiterte EPK, eEPK</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Extended_Event-Driven_Process_Chain"/>
+        <owl:annotatedSource rdf:resource="&ob;Extended_Event_Driven_Process_Chain"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -9678,7 +9678,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">949</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Extended_Event-Driven_Process_Chain"/>
+        <owl:annotatedSource rdf:resource="&ob;Extended_Event_Driven_Process_Chain"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -9690,7 +9690,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">950</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Extended_Event-Driven_Process_Chain"/>
+        <owl:annotatedSource rdf:resource="&ob;Extended_Event_Driven_Process_Chain"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -9702,7 +9702,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">952</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Extended_Event-Driven_Process_Chain"/>
+        <owl:annotatedSource rdf:resource="&ob;Extended_Event_Driven_Process_Chain"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -9714,7 +9714,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">951</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Extended_Event-Driven_Process_Chain"/>
+        <owl:annotatedSource rdf:resource="&ob;Extended_Event_Driven_Process_Chain"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10103,7 +10103,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
 
     <!-- http://www.snik.eu/ontology/ob/First-Level_Support -->
 
-    <owl:Class rdf:about="&ob;First-Level_Support">
+    <owl:Class rdf:about="&ob;First_Level_Support">
 <rdfs:label xml:lang="en">First-Level Support</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -10560,7 +10560,7 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
 
     <owl:Class rdf:about="&ob;Gantt_Chart_Analysis">
 <rdfs:label xml:lang="en">Gantt Chart Analysis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;Target-Performance_Comparison"/>
+        <rdfs:subClassOf rdf:resource="&ob;Target_Performance_Comparison"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
@@ -10581,14 +10581,14 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Gantt_Chart_Analysis"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;Target-Performance_Comparison"/>
+        <owl:annotatedTarget rdf:resource="&ob;Target_Performance_Comparison"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1283</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Gantt_Chart_Analysis"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;Target-Performance_Comparison"/>
+        <owl:annotatedTarget rdf:resource="&ob;Target_Performance_Comparison"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1145</Tripel_RowNr>
     </owl:Axiom>
@@ -10609,7 +10609,7 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Go-Live -->
 
-    <owl:Class rdf:about="&ob;Go-Live">
+    <owl:Class rdf:about="&ob;Go_Live">
 <rdfs:label xml:lang="en">Go-Live</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10649,7 +10649,7 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbetriebnahme</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Go-Live"/>
+        <owl:annotatedSource rdf:resource="&ob;Go_Live"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10661,7 +10661,7 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">445</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Go-Live"/>
+        <owl:annotatedSource rdf:resource="&ob;Go_Live"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10673,7 +10673,7 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Go-Live"/>
+        <owl:annotatedSource rdf:resource="&ob;Go_Live"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10685,7 +10685,7 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Go-Live"/>
+        <owl:annotatedSource rdf:resource="&ob;Go_Live"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -11089,7 +11089,7 @@ Dokumentation muss vom Projektleiter an diesen Verantwortlichen
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="&ob;First-Level_Support"/>
+                <owl:someValuesFrom rdf:resource="&ob;First_Level_Support"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -11107,7 +11107,7 @@ Dokumentation muss vom Projektleiter an diesen Verantwortlichen
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="&ob;First-Level_Support"/>
+                <owl:someValuesFrom rdf:resource="&ob;First_Level_Support"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">326</Tripel_Page>
@@ -12071,7 +12071,7 @@ des betrachteten Bereichs.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Computer-Based_Part_of_Information_System"/>
+                <owl:someValuesFrom rdf:resource="&ob;Computer_Based_Part_of_Information_System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12153,7 +12153,7 @@ Informationen als auch Wissen darstellen können.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Computer-Based_Part_of_Information_System"/>
+                <owl:someValuesFrom rdf:resource="&ob;Computer_Based_Part_of_Information_System"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
@@ -13127,7 +13127,7 @@ sollte er ausreichend Platz lassen.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Kick-Off-Meeting -->
 
-    <owl:Class rdf:about="&ob;Kick-Off-Meeting">
+    <owl:Class rdf:about="&ob;Kick_Off_Meeting">
 <rdfs:label xml:lang="en">Kick-Off-Meeting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Milestone"/>
         <rdfs:subClassOf>
@@ -13151,14 +13151,14 @@ statt. Es dient vor allem der Teambildung.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kick-Off-Meeting</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Kick-Off-Meeting"/>
+        <owl:annotatedSource rdf:resource="&ob;Kick_Off_Meeting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Milestone"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1122</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Kick-Off-Meeting"/>
+        <owl:annotatedSource rdf:resource="&ob;Kick_Off_Meeting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -14287,7 +14287,7 @@ Ablaufplanung in der Projektplanung festgelegt.</skos:definition>
 
     <owl:Class rdf:about="&ob;Milestone_Trend_Analysis">
 <rdfs:label xml:lang="en">Milestone Trend Analysis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;Target-Performance_Comparison"/>
+        <rdfs:subClassOf rdf:resource="&ob;Target_Performance_Comparison"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
@@ -14309,7 +14309,7 @@ Vergleich vorgenommen wird.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Milestone_Trend_Analysis"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;Target-Performance_Comparison"/>
+        <owl:annotatedTarget rdf:resource="&ob;Target_Performance_Comparison"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93, 338</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1344</Tripel_RowNr>
     </owl:Axiom>
@@ -14383,7 +14383,7 @@ Vergleich vorgenommen wird.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -14413,7 +14413,7 @@ Vergleich vorgenommen wird.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71</Tripel_Page>
@@ -14525,7 +14525,7 @@ kann ein Aufnahmegerät verwendet werden</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Modul-Specific_Gradual_Transition -->
 
-    <owl:Class rdf:about="&ob;Modul-Specific_Gradual_Transition">
+    <owl:Class rdf:about="&ob;Modul_Specific_Gradual_Transition">
 <rdfs:label xml:lang="en">Modul-Specific Gradual Transition</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Introduction_Strategy"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
@@ -14540,7 +14540,7 @@ kann ein Aufnahmegerät verwendet werden</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modulspezifisches Stufenkonzept</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Modul-Specific_Gradual_Transition"/>
+        <owl:annotatedSource rdf:resource="&ob;Modul_Specific_Gradual_Transition"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Introduction_Strategy"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239</Tripel_Page>
@@ -14551,7 +14551,7 @@ kann ein Aufnahmegerät verwendet werden</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Modul-_and_Organization-Specific_Gradual_Transition -->
 
-    <owl:Class rdf:about="&ob;Modul-_and_Organization-Specific_Gradual_Transition">
+    <owl:Class rdf:about="&ob;Modul__and_Organization_Specific_Gradual_Transition">
 <rdfs:label xml:lang="en">Modul- and Organization-Specific Gradual Transition</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Introduction_Strategy"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
@@ -14566,7 +14566,7 @@ kann ein Aufnahmegerät verwendet werden</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Modul-_and_Organization-Specific_Gradual_Transition"/>
+        <owl:annotatedSource rdf:resource="&ob;Modul__and_Organization_Specific_Gradual_Transition"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Introduction_Strategy"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239</Tripel_Page>
@@ -14822,7 +14822,7 @@ handelbare Mindestanforderungen vorgegeben werden.</skos:definition>
     <owl:Class rdf:about="&ob;Net_Plan_Analysis">
 <rdfs:label xml:lang="en">Net Plan Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Project_Monitoring_Method"/>
-        <rdfs:subClassOf rdf:resource="&ob;Target-Performance_Comparison"/>
+        <rdfs:subClassOf rdf:resource="&ob;Target_Performance_Comparison"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
@@ -14850,7 +14850,7 @@ handelbare Mindestanforderungen vorgegeben werden.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Net_Plan_Analysis"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;Target-Performance_Comparison"/>
+        <owl:annotatedTarget rdf:resource="&ob;Target_Performance_Comparison"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91, 338</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1343</Tripel_RowNr>
     </owl:Axiom>
@@ -14887,7 +14887,7 @@ handelbare Mindestanforderungen vorgegeben werden.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Non-Computer-Based_Application_Component_1 -->
 
-    <owl:Class rdf:about="&ob;Non-Computer-Based_Application_Component_1">
+    <owl:Class rdf:about="&ob;Non_Computer_Based_Application_Component_1">
 <rdfs:label xml:lang="en">Non-Computer-Based Application Component 1</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -14905,7 +14905,7 @@ handelbare Mindestanforderungen vorgegeben werden.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Non-Computer-Based_Application_Component_1"/>
+        <owl:annotatedSource rdf:resource="&ob;Non_Computer_Based_Application_Component_1"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -14921,7 +14921,7 @@ handelbare Mindestanforderungen vorgegeben werden.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Non-Computer-Based_Application_System -->
 
-    <owl:Class rdf:about="&ob;Non-Computer-Based_Application_System">
+    <owl:Class rdf:about="&ob;Non_Computer_Based_Application_System">
 <rdfs:label xml:lang="en">Non-Computer-Based Application System</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Application_System"/>
         <rdfs:subClassOf>
@@ -14946,14 +14946,14 @@ einzusetzen hat.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicht-rechnerbasiertes Anwendungssystem</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Non-Computer-Based_Application_System"/>
+        <owl:annotatedSource rdf:resource="&ob;Non_Computer_Based_Application_System"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Application_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1256</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Non-Computer-Based_Application_System"/>
+        <owl:annotatedSource rdf:resource="&ob;Non_Computer_Based_Application_System"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -14969,9 +14969,9 @@ einzusetzen hat.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Non-Computer-Based_Physical_Tool -->
 
-    <owl:Class rdf:about="&ob;Non-Computer-Based_Physical_Tool">
+    <owl:Class rdf:about="&ob;Non_Computer_Based_Physical_Tool">
 <rdfs:label xml:lang="en">Non-Computer-Based Physical Tool</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;Non-Computer-Based_Tool"/>
+        <rdfs:subClassOf rdf:resource="&ob;Non_Computer_Based_Tool"/>
         <rdfs:subClassOf rdf:resource="&ob;Physical_Data_Processing_System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -14984,14 +14984,14 @@ einzusetzen hat.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicht-rechnerbasiertes Physisches Datenverarbeitungssystem</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Non-Computer-Based_Physical_Tool"/>
+        <owl:annotatedSource rdf:resource="&ob;Non_Computer_Based_Physical_Tool"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;Non-Computer-Based_Tool"/>
+        <owl:annotatedTarget rdf:resource="&ob;Non_Computer_Based_Tool"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2027</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Non-Computer-Based_Physical_Tool"/>
+        <owl:annotatedSource rdf:resource="&ob;Non_Computer_Based_Physical_Tool"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Physical_Data_Processing_System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Tripel_Page>
@@ -15002,7 +15002,7 @@ einzusetzen hat.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Non-Computer-Based_Tool -->
 
-    <owl:Class rdf:about="&ob;Non-Computer-Based_Tool">
+    <owl:Class rdf:about="&ob;Non_Computer_Based_Tool">
 <rdfs:label xml:lang="en">Non-Computer-Based Tool</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -15018,7 +15018,7 @@ einzusetzen hat.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Non-Functional_Requirement -->
 
-    <owl:Class rdf:about="&ob;Non-Functional_Requirement">
+    <owl:Class rdf:about="&ob;Non_Functional_Requirement">
 <rdfs:label xml:lang="en">Non-Functional Requirement</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Requirement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
@@ -15033,7 +15033,7 @@ einzusetzen hat.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicht-Funktionale Anforderung</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Non-Functional_Requirement"/>
+        <owl:annotatedSource rdf:resource="&ob;Non_Functional_Requirement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Requirement"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">194</Tripel_Page>
@@ -15044,7 +15044,7 @@ einzusetzen hat.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Non-Standardized_Observation -->
 
-    <owl:Class rdf:about="&ob;Non-Standardized_Observation">
+    <owl:Class rdf:about="&ob;Non_Standardized_Observation">
 <rdfs:label xml:lang="en">Non-Standardized Observation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Observation"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
@@ -15059,7 +15059,7 @@ einzusetzen hat.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Non-Standardized_Observation"/>
+        <owl:annotatedSource rdf:resource="&ob;Non_Standardized_Observation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Observation"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">145</Tripel_Page>
@@ -15834,7 +15834,7 @@ verwendende Abkürzungen) auf dem Bogen enthalten sind.
 
     <!-- http://www.snik.eu/ontology/ob/Organization-Specific_Gradual_Transition -->
 
-    <owl:Class rdf:about="&ob;Organization-Specific_Gradual_Transition">
+    <owl:Class rdf:about="&ob;Organization_Specific_Gradual_Transition">
 <rdfs:label xml:lang="en">Organization-Specific Gradual Transition</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Introduction_Strategy"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
@@ -15849,7 +15849,7 @@ verwendende Abkürzungen) auf dem Bogen enthalten sind.
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Organization-Specific_Gradual_Transition"/>
+        <owl:annotatedSource rdf:resource="&ob;Organization_Specific_Gradual_Transition"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Introduction_Strategy"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239</Tripel_Page>
@@ -16196,7 +16196,7 @@ werden.</skos:definition>
 
     <owl:Class rdf:about="&ob;Organizational_System_1">
 <rdfs:label xml:lang="en">Organizational System 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;Non-Computer-Based_Application_Component_1"/>
+        <rdfs:subClassOf rdf:resource="&ob;Non_Computer_Based_Application_Component_1"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -16209,7 +16209,7 @@ werden.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Organizational_System_1"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;Non-Computer-Based_Application_Component_1"/>
+        <owl:annotatedTarget rdf:resource="&ob;Non_Computer_Based_Application_Component_1"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2030</Tripel_RowNr>
     </owl:Axiom>
@@ -17418,13 +17418,13 @@ Fehlinterpretationen zu erhalten.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cost-Benefit_Analysis"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cost_Benefit_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cost-Effectiveness_Analysis"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cost_Effectiveness_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -17502,7 +17502,7 @@ Fehlinterpretationen zu erhalten.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cost-Benefit_Analysis"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cost_Benefit_Analysis"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">276</Tripel_Page>
@@ -17514,7 +17514,7 @@ Fehlinterpretationen zu erhalten.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cost-Effectiveness_Analysis"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cost_Effectiveness_Analysis"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">276</Tripel_Page>
@@ -18444,7 +18444,7 @@ in ihrer Gesamtheit gekennzeichnet ist, wie z. B.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Hand-Over"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Hand_Over"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -18532,7 +18532,7 @@ in ihrer Gesamtheit gekennzeichnet ist, wie z. B.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Project_Hand-Over"/>
+                <owl:someValuesFrom rdf:resource="&ob;Project_Hand_Over"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">111</Tripel_Page>
@@ -20290,7 +20290,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Project_Hand-Over -->
 
-    <owl:Class rdf:about="&ob;Project_Hand-Over">
+    <owl:Class rdf:about="&ob;Project_Hand_Over">
 <rdfs:label xml:lang="en">Project Hand-Over</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -20385,7 +20385,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Execution_of_a_Kick-Off-Meeting"/>
+                <owl:someValuesFrom rdf:resource="&ob;Execution_of_a_Kick_Off_Meeting"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -20409,7 +20409,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="&ob;Kick-Off-Meeting"/>
+                <owl:someValuesFrom rdf:resource="&ob;Kick_Off_Meeting"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -20481,7 +20481,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Execution_of_a_Kick-Off-Meeting"/>
+                <owl:someValuesFrom rdf:resource="&ob;Execution_of_a_Kick_Off_Meeting"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39, 328</Tripel_Page>
@@ -20529,7 +20529,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="&ob;Kick-Off-Meeting"/>
+                <owl:someValuesFrom rdf:resource="&ob;Kick_Off_Meeting"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</Tripel_Page>
@@ -21137,7 +21137,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="&ob;Execution_of_a_Kick-Off-Meeting"/>
+                <owl:someValuesFrom rdf:resource="&ob;Execution_of_a_Kick_Off_Meeting"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21405,7 +21405,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="&ob;Execution_of_a_Kick-Off-Meeting"/>
+                <owl:someValuesFrom rdf:resource="&ob;Execution_of_a_Kick_Off_Meeting"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</Tripel_Page>
@@ -21938,7 +21938,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Execution_of_Target-Performance_Comparison"/>
+                <owl:someValuesFrom rdf:resource="&ob;Execution_of_Target_Performance_Comparison"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21992,7 +21992,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Target-Performance_Comparison"/>
+                <owl:someValuesFrom rdf:resource="&ob;Target_Performance_Comparison"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -22012,7 +22012,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Execution_of_Target-Performance_Comparison"/>
+                <owl:someValuesFrom rdf:resource="&ob;Execution_of_Target_Performance_Comparison"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</Tripel_Page>
@@ -22132,7 +22132,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Target-Performance_Comparison"/>
+                <owl:someValuesFrom rdf:resource="&ob;Target_Performance_Comparison"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338</Tripel_Page>
@@ -23039,7 +23039,7 @@ Rollen und Regelungen zur Abwicklung eines bestimmten Projekts.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="&ob;To-do_List"/>
+                <owl:someValuesFrom rdf:resource="&ob;To_do_List"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -23222,7 +23222,7 @@ Rollen und Regelungen zur Abwicklung eines bestimmten Projekts.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="&ob;To-do_List"/>
+                <owl:someValuesFrom rdf:resource="&ob;To_do_List"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74</Tripel_Page>
@@ -23903,7 +23903,7 @@ c) Was könnte besser gemacht werden?
 
     <!-- http://www.snik.eu/ontology/ob/Project_Review_Wrap-Up_Section -->
 
-    <owl:Class rdf:about="&ob;Project_Review_Wrap-Up_Section">
+    <owl:Class rdf:about="&ob;Project_Review_Wrap_Up_Section">
 <rdfs:label xml:lang="en">Project Review Wrap-Up Section</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -24483,7 +24483,7 @@ c) Was könnte besser gemacht werden?
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="&ob;Win-Win_Situation"/>
+                <owl:someValuesFrom rdf:resource="&ob;Win_Win_Situation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -24519,7 +24519,7 @@ c) Was könnte besser gemacht werden?
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="&ob;Win-Win_Situation"/>
+                <owl:someValuesFrom rdf:resource="&ob;Win_Win_Situation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89</Tripel_Page>
@@ -26225,9 +26225,9 @@ Die Art der Dokumente, die hier entstehen, hängt vom Projekt selber ab (z. B. A
 
     <!-- http://www.snik.eu/ontology/ob/Return-on-Investment_Analysis -->
 
-    <owl:Class rdf:about="&ob;Return-on-Investment_Analysis">
+    <owl:Class rdf:about="&ob;Return_on_Investment_Analysis">
 <rdfs:label xml:lang="en">Return-on-Investment Analysis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;Cost-Benefit_Analysis"/>
+        <rdfs:subClassOf rdf:resource="&ob;Cost_Benefit_Analysis"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
@@ -26240,9 +26240,9 @@ Die Art der Dokumente, die hier entstehen, hängt vom Projekt selber ab (z. B. A
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Return-on-Investment-Analse, ROI-Analyse</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Return-on-Investment_Analysis"/>
+        <owl:annotatedSource rdf:resource="&ob;Return_on_Investment_Analysis"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;Cost-Benefit_Analysis"/>
+        <owl:annotatedTarget rdf:resource="&ob;Cost_Benefit_Analysis"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">228, 340</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1334</Tripel_RowNr>
     </owl:Axiom>
@@ -26403,51 +26403,9 @@ Die Art der Dokumente, die hier entstehen, hängt vom Projekt selber ab (z. B. A
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risikoplan</Synonym>
     </owl:Class>
 
-
-
-    <!-- http://www.snik.eu/ontology/ob/Role -->
-
-    <owl:Class rdf:about="&meta;Role">
-<rdfs:label xml:lang="en">Role</rdfs:label>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;Access_Right"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4, 16</Chapter>
-        <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;Role"/>
-        <skos:definition xml:lang="de">Unter einer Rolle verstehen wir die Summe von Erwartungen, die
-an eine Person gerichtet werden. Sie beschreibt ein Bündel von zu
-erfüllenden Aufgaben und den daraus abgeleiteten Pflichten und
-den hierfür notwendigen Rechten.</skos:definition>
-        <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20, 340</Definition_DE_Page>
-        <skos:definition xml:lang="en"></skos:definition>
-        <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1836</ID>
-        <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolle</Synonym>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&meta;Role"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;Access_Right"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">340</Tripel_Page>
-        <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1836</Tripel_RowNr>
-    </owl:Axiom>
-
-
-
     <!-- http://www.snik.eu/ontology/ob/Roll-Out -->
 
-    <owl:Class rdf:about="&ob;Roll-Out">
+    <owl:Class rdf:about="&ob;Roll_Out">
 <rdfs:label xml:lang="en">Roll-Out</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -26472,7 +26430,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Roll-Out"/>
+        <owl:annotatedSource rdf:resource="&ob;Roll_Out"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -27046,7 +27004,7 @@ so wie es in der Einführungsstrategie geplant ist.
 
     <!-- http://www.snik.eu/ontology/ob/Second-Level_Support -->
 
-    <owl:Class rdf:about="&ob;Second-Level_Support">
+    <owl:Class rdf:about="&ob;Second_Level_Support">
 <rdfs:label xml:lang="en">Second-Level Support</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -27071,7 +27029,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Second-Level-Support</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Second-Level_Support"/>
+        <owl:annotatedSource rdf:resource="&ob;Second_Level_Support"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -27121,7 +27079,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
 
     <!-- http://www.snik.eu/ontology/ob/Semi-Formal_Modeling_Technique -->
 
-    <owl:Class rdf:about="&ob;Semi-Formal_Modeling_Technique">
+    <owl:Class rdf:about="&ob;Semi_Formal_Modeling_Technique">
 <rdfs:label xml:lang="en">Semi-Formal Modeling Technique</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Modeling_Method"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
@@ -27134,7 +27092,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Semi-Formal_Modeling_Technique"/>
+        <owl:annotatedSource rdf:resource="&ob;Semi_Formal_Modeling_Technique"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Modeling_Method"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</Tripel_Page>
@@ -27173,7 +27131,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
 
     <!-- http://www.snik.eu/ontology/ob/Sensor-Based_Observation -->
 
-    <owl:Class rdf:about="&ob;Sensor-Based_Observation">
+    <owl:Class rdf:about="&ob;Sensor_Based_Observation">
 <rdfs:label xml:lang="en">Sensor-Based Observation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Automated_Observation"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
@@ -27188,7 +27146,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensorgestützte Beobachtung</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Sensor-Based_Observation"/>
+        <owl:annotatedSource rdf:resource="&ob;Sensor_Based_Observation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Automated_Observation"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">145</Tripel_Page>
@@ -27419,7 +27377,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
 
     <!-- http://www.snik.eu/ontology/ob/Socio-Technical_System -->
 
-    <owl:Class rdf:about="&ob;Socio-Technical_System">
+    <owl:Class rdf:about="&ob;Socio_Technical_System">
 <rdfs:label xml:lang="en">Socio-Technical System</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;System"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -27434,7 +27392,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sozio-technisches System</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Socio-Technical_System"/>
+        <owl:annotatedSource rdf:resource="&ob;Socio_Technical_System"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;System"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</Tripel_Page>
@@ -29659,7 +29617,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Bottom-up_Approach"/>
+                <owl:someValuesFrom rdf:resource="&ob;Bottom_up_Approach"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -29677,13 +29635,13 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Top-down_Approach"/>
+                <owl:someValuesFrom rdf:resource="&ob;Top_down_Approach"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;5-Level-Method_for_Systematic_Structural_Planning"/>
+                <owl:someValuesFrom rdf:resource="&ob;5_Level_Method_for_Systematic_Structural_Planning"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -29763,7 +29721,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Bottom-up_Approach"/>
+                <owl:someValuesFrom rdf:resource="&ob;Bottom_up_Approach"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52</Tripel_Page>
@@ -29811,7 +29769,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Top-down_Approach"/>
+                <owl:someValuesFrom rdf:resource="&ob;Top_down_Approach"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52</Tripel_Page>
@@ -29823,7 +29781,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;5-Level-Method_for_Systematic_Structural_Planning"/>
+                <owl:someValuesFrom rdf:resource="&ob;5_Level_Method_for_Systematic_Structural_Planning"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53, 65, 319, 343</Tripel_Page>
@@ -30044,7 +30002,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
 
     <!-- http://www.snik.eu/ontology/ob/Sub-Information_System_1 -->
 
-    <owl:Class rdf:about="&ob;Sub-Information_System_1">
+    <owl:Class rdf:about="&ob;Sub_Information_System_1">
 <rdfs:label xml:lang="en">Sub-Information System 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Information_System_1"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -30057,7 +30015,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Sub-Information_System_1"/>
+        <owl:annotatedSource rdf:resource="&ob;Sub_Information_System_1"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Information_System_1"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</Tripel_Page>
@@ -30163,7 +30121,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="&ob;Second-Level_Support"/>
+                <owl:someValuesFrom rdf:resource="&ob;Second_Level_Support"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -30181,7 +30139,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="&ob;Second-Level_Support"/>
+                <owl:someValuesFrom rdf:resource="&ob;Second_Level_Support"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">341</Tripel_Page>
@@ -31578,7 +31536,7 @@ z. B. sein, ob eine Verbesserung oder ein Austausch einer Komponente notwendig i
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Go-Live"/>
+                <owl:someValuesFrom rdf:resource="&ob;Go_Live"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -31726,7 +31684,7 @@ z. B. sein, ob eine Verbesserung oder ein Austausch einer Komponente notwendig i
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Go-Live"/>
+                <owl:someValuesFrom rdf:resource="&ob;Go_Live"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239</Tripel_Page>
@@ -33250,7 +33208,7 @@ Informationskomponente.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="&ob;Computer-Based_Application_System"/>
+                <owl:someValuesFrom rdf:resource="&ob;Computer_Based_Application_System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -33337,7 +33295,7 @@ Informationskomponente.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="&ob;Computer-Based_Application_System"/>
+                <owl:someValuesFrom rdf:resource="&ob;Computer_Based_Application_System"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28</Tripel_Page>
@@ -33408,7 +33366,7 @@ Informationskomponente.
 
     <!-- http://www.snik.eu/ontology/ob/Target-Performance_Comparison -->
 
-    <owl:Class rdf:about="&ob;Target-Performance_Comparison">
+    <owl:Class rdf:about="&ob;Target_Performance_Comparison">
 <rdfs:label xml:lang="en">Target-Performance Comparison</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Method_of_Project_Execution"/>
         <rdfs:subClassOf>
@@ -33427,14 +33385,14 @@ Informationskomponente.
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ist-Soll-Vergleich, Vorher-Nachher-Vergleich</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Target-Performance_Comparison"/>
+        <owl:annotatedSource rdf:resource="&ob;Target_Performance_Comparison"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Method_of_Project_Execution"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1144</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Target-Performance_Comparison"/>
+        <owl:annotatedSource rdf:resource="&ob;Target_Performance_Comparison"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -33762,7 +33720,7 @@ Informationskomponente.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;To-do_List"/>
+                <owl:someValuesFrom rdf:resource="&ob;To_do_List"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
@@ -33792,7 +33750,7 @@ Informationskomponente.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;To-do_List"/>
+                <owl:someValuesFrom rdf:resource="&ob;To_do_List"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74</Tripel_Page>
@@ -34842,7 +34800,7 @@ also nicht zulässig.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Third-Level_Support -->
 
-    <owl:Class rdf:about="&ob;Third-Level_Support">
+    <owl:Class rdf:about="&ob;Third_Level_Support">
 <rdfs:label xml:lang="en">Third-Level Support</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -34862,7 +34820,7 @@ also nicht zulässig.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Third-Level_Support"/>
+        <owl:annotatedSource rdf:resource="&ob;Third_Level_Support"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -34878,7 +34836,7 @@ also nicht zulässig.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Three_Layer_Graph-Based_Metamodel -->
 
-    <owl:Class rdf:about="&ob;Three_Layer_Graph-Based_Metamodel">
+    <owl:Class rdf:about="&ob;Three_Layer_Graph_Based_Metamodel">
 <rdfs:label xml:lang="en">Three Layer Graph-Based Metamodel</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Information_System_Modeling_Method"/>
         <rdfs:subClassOf>
@@ -34911,14 +34869,14 @@ also nicht zulässig.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3LGM², Drei-Ebenen-Metamodell</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Three_Layer_Graph-Based_Metamodel"/>
+        <owl:annotatedSource rdf:resource="&ob;Three_Layer_Graph_Based_Metamodel"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Information_System_Modeling_Method"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1176</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Three_Layer_Graph-Based_Metamodel"/>
+        <owl:annotatedSource rdf:resource="&ob;Three_Layer_Graph_Based_Metamodel"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -34930,7 +34888,7 @@ also nicht zulässig.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">839</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Three_Layer_Graph-Based_Metamodel"/>
+        <owl:annotatedSource rdf:resource="&ob;Three_Layer_Graph_Based_Metamodel"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -34942,7 +34900,7 @@ also nicht zulässig.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Three_Layer_Graph-Based_Metamodel"/>
+        <owl:annotatedSource rdf:resource="&ob;Three_Layer_Graph_Based_Metamodel"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -35022,7 +34980,7 @@ werden.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35046,7 +35004,7 @@ werden.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="&ob;Cross-linked_Gantt_Chart"/>
+                <owl:someValuesFrom rdf:resource="&ob;Cross_linked_Gantt_Chart"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</Tripel_Page>
@@ -35095,7 +35053,7 @@ werden.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/To-do_List -->
 
-    <owl:Class rdf:about="&ob;To-do_List">
+    <owl:Class rdf:about="&ob;To_do_List">
 <rdfs:label xml:lang="en">To-do List</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -35145,7 +35103,7 @@ werden.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Top-down_Approach -->
 
-    <owl:Class rdf:about="&ob;Top-down_Approach">
+    <owl:Class rdf:about="&ob;Top_down_Approach">
 <rdfs:label xml:lang="en">Top-down Approach</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -35197,7 +35155,7 @@ werden.</skos:definition>
 
     <owl:Class rdf:about="&ob;Traffic_Light_Model">
 <rdfs:label xml:lang="en">Traffic Light Model</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;Target-Performance_Comparison"/>
+        <rdfs:subClassOf rdf:resource="&ob;Target_Performance_Comparison"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -35218,7 +35176,7 @@ werden.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Traffic_Light_Model"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;Target-Performance_Comparison"/>
+        <owl:annotatedTarget rdf:resource="&ob;Target_Performance_Comparison"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1146</Tripel_RowNr>
     </owl:Axiom>
@@ -35621,7 +35579,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Use-Case-Diagram -->
 
-    <owl:Class rdf:about="&ob;Use-Case-Diagram">
+    <owl:Class rdf:about="&ob;Use_Case_Diagram">
 <rdfs:label xml:lang="en">Use-Case-Diagram</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;UML_Diagram"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
@@ -35636,7 +35594,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UML-Anwendungsfall-Diagramm</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Use-Case-Diagram"/>
+        <owl:annotatedSource rdf:resource="&ob;Use_Case_Diagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;UML_Diagram"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">153</Tripel_Page>
@@ -35790,19 +35748,19 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;First-Level_Support"/>
+                <owl:someValuesFrom rdf:resource="&ob;First_Level_Support"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Second-Level_Support"/>
+                <owl:someValuesFrom rdf:resource="&ob;Second_Level_Support"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Third-Level_Support"/>
+                <owl:someValuesFrom rdf:resource="&ob;Third_Level_Support"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35826,7 +35784,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;First-Level_Support"/>
+                <owl:someValuesFrom rdf:resource="&ob;First_Level_Support"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284</Tripel_Page>
@@ -35838,7 +35796,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Second-Level_Support"/>
+                <owl:someValuesFrom rdf:resource="&ob;Second_Level_Support"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284</Tripel_Page>
@@ -35850,7 +35808,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;Third-Level_Support"/>
+                <owl:someValuesFrom rdf:resource="&ob;Third_Level_Support"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284</Tripel_Page>
@@ -35939,7 +35897,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/V-Model -->
 
-    <owl:Class rdf:about="&ob;V-Model">
+    <owl:Class rdf:about="&ob;V_Model">
 <rdfs:label xml:lang="en">V-Model</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Project_Process_Model"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2</Chapter>
@@ -35952,7 +35910,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V-Modell</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;V-Model"/>
+        <owl:annotatedSource rdf:resource="&ob;V_Model"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Project_Process_Model"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55</Tripel_Page>
@@ -36300,7 +36258,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/Win-Win_Situation -->
 
-    <owl:Class rdf:about="&ob;Win-Win_Situation">
+    <owl:Class rdf:about="&ob;Win_Win_Situation">
 <rdfs:label xml:lang="en">Win-Win Situation</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
@@ -36999,7 +36957,7 @@ eines (Sub-)Informationssystems.</skos:definition>
 
     <!-- http://www.snik.eu/ontology/ob/5-Level-Method_for_Systematic_Structural_Planning -->
 
-    <owl:Class rdf:about="&ob;5-Level-Method_for_Systematic_Structural_Planning">
+    <owl:Class rdf:about="&ob;5_Level_Method_for_Systematic_Structural_Planning">
 <rdfs:label xml:lang="en">5-Level-Method for Systematic Structural Planning</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Method_for_Structural_Planning"/>
         <rdfs:subClassOf>
@@ -37050,14 +37008,14 @@ eines (Sub-)Informationssystems.</skos:definition>
         <Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-Stufen-Methode zur systematischen Strukturplanung</Synonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;5-Level-Method_for_Systematic_Structural_Planning"/>
+        <owl:annotatedSource rdf:resource="&ob;5_Level_Method_for_Systematic_Structural_Planning"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Method_for_Structural_Planning"/>
         <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1114</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;5-Level-Method_for_Systematic_Structural_Planning"/>
+        <owl:annotatedSource rdf:resource="&ob;5_Level_Method_for_Systematic_Structural_Planning"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -37069,7 +37027,7 @@ eines (Sub-)Informationssystems.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">764</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;5-Level-Method_for_Systematic_Structural_Planning"/>
+        <owl:annotatedSource rdf:resource="&ob;5_Level_Method_for_Systematic_Structural_Planning"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -37081,7 +37039,7 @@ eines (Sub-)Informationssystems.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">763</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;5-Level-Method_for_Systematic_Structural_Planning"/>
+        <owl:annotatedSource rdf:resource="&ob;5_Level_Method_for_Systematic_Structural_Planning"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -37093,7 +37051,7 @@ eines (Sub-)Informationssystems.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">762</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;5-Level-Method_for_Systematic_Structural_Planning"/>
+        <owl:annotatedSource rdf:resource="&ob;5_Level_Method_for_Systematic_Structural_Planning"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -37105,7 +37063,7 @@ eines (Sub-)Informationssystems.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">761</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;5-Level-Method_for_Systematic_Structural_Planning"/>
+        <owl:annotatedSource rdf:resource="&ob;5_Level_Method_for_Systematic_Structural_Planning"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -37117,7 +37075,7 @@ eines (Sub-)Informationssystems.</skos:definition>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">765</Tripel_RowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;5-Level-Method_for_Systematic_Structural_Planning"/>
+        <owl:annotatedSource rdf:resource="&ob;5_Level_Method_for_Systematic_Structural_Planning"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
