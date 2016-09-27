@@ -48,17 +48,13 @@
 
     <rdf:Description rdf:about="&ciox;Anwendungssytem">
         <skos:closeMatch rdf:resource="&ob;Application_System"/>
-        <rdfs:label xml:lang="en">Application System</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    
+     </rdf:Description>
 
 
     <!-- http://www.snik.eu/ontology/ciox/Bereich_Informationsmanagement -->
 
     <rdf:Description rdf:about="&ciox;Bereich_Informationsmanagement">
         <skos:closeMatch rdf:resource="&bb;Department_of_Information_Management"/>
-        <rdfs:subClassOf rdf:resource="&meta;Role"/>
     </rdf:Description>
     
 
@@ -67,8 +63,6 @@
 
     <rdf:Description rdf:about="&ciox;Betriebskonzept">
         <skos:closeMatch rdf:resource="&ob;Operational_Concept"/>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:label xml:lang="en">Operational Concept</rdfs:label>
     </rdf:Description>
     
 
@@ -79,25 +73,17 @@
         <skos:closeMatch rdf:resource="&ob;Change_Request"/>
      </rdf:Description>
     
-
-
     <!-- http://www.snik.eu/ontology/ciox/Change_Management -->
 
     <rdf:Description rdf:about="&ciox;Change_Management">
         <skos:closeMatch rdf:resource="&ob;Change_Management"/>
         <skos:closeMatch rdf:resource="&bb;Change_Management"/>
-        <rdfs:label xml:lang="en">Änderungsverwaltung</rdfs:label>
-        <skos:definition xml:lang="de">Change-Management ist ein Themengebiet aus der IT Infrastructure Library (ITIL) und wird dort im Buch Service Transition als Prozess definiert, der das Ziel hat, dass alle Anpassungen an der IT-Infrastruktur kontrolliert, effizient und unter Minimierung von Risiken für den Betrieb bestehender Business-Services durchgeführt werden.</skos:definition>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
     </rdf:Description>
-    
-
 
     <!-- http://www.snik.eu/ontology/ciox/Computerbasiertes_Anwendungssystem -->
 
     <rdf:Description rdf:about="&ciox;Computerbasiertes_Anwendungssystem">
         <skos:closeMatch rdf:resource="&bb;Computer-Based_Application_Component"/>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
     </rdf:Description>
     
 
@@ -106,7 +92,6 @@
 
     <rdf:Description rdf:about="&ciox;Incident_Management">
         <skos:closeMatch rdf:resource="&bb;Incident_Management"/>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
     </rdf:Description>
     
 
@@ -115,9 +100,7 @@
 
     <rdf:Description rdf:about="&ciox;Projekt">
         <skos:closeMatch rdf:resource="&ob;Project"/>
-        <skos:closeMatch rdf:resource="&bb;Project_2"/>
-        <Concept_Type>Concept Type</Concept_Type>
-        <skos:definition xml:lang="de">Projekte werden definiert als Tätigkeiten, die länger als 5 Personentage dauern und das eigene Budget beanspruchen</skos:definition>
+        <skos:closeMatch rdf:resource="&bb;Project"/>
     </rdf:Description>
     
 
@@ -126,8 +109,6 @@
 
     <rdf:Description rdf:about="&ciox;Projektauftrag">
         <skos:closeMatch rdf:resource="&ob;Project_Order"/>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:label xml:lang="en">Project Order</rdfs:label>
     </rdf:Description>
     
 
@@ -136,8 +117,6 @@
 
     <rdf:Description rdf:about="&ciox;Projektbudget">
         <skos:closeMatch rdf:resource="&ob;Project_Budget"/>
-        <rdfs:label xml:lang="en">Project Budget</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
     </rdf:Description>
     
 
@@ -147,8 +126,6 @@
     <rdf:Description rdf:about="&ciox;Projektdurchführung">
         <skos:closeMatch rdf:resource="&ob;Project_Execution"/>
         <skos:closeMatch rdf:resource="&bb;Project_Execution"/>
-        <rdfs:label xml:lang="en">Project Execution</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
     </rdf:Description>
     
 
@@ -157,8 +134,6 @@
 
     <rdf:Description rdf:about="&ciox;Projektmanagement">
         <skos:closeMatch rdf:resource="&ob;Project_Management"/>
-        <rdfs:label xml:lang="en">Project Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
     </rdf:Description>
     
 
@@ -168,8 +143,6 @@
     <rdf:Description rdf:about="&ciox;Projektplan">
         <skos:closeMatch rdf:resource="&bb;Project_Plan"/>
         <skos:closeMatch rdf:resource="&ob;Project_Plan"/>
-        <rdfs:label xml:lang="en">Project Plan</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
     </rdf:Description>
     
 
@@ -179,9 +152,6 @@
     <rdf:Description rdf:about="&ciox;Projektplanung">
         <skos:closeMatch rdf:resource="&bb;Project_Planning"/>
         <skos:closeMatch rdf:resource="&ob;Project_Planning"/>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-        <rdfs:label xml:lang="en">Project Planning</rdfs:label>
-        <skos:definition xml:lang="de">Zeitplanung, Priorisieren, Aufgaben zuweisen, Berechtigungen einstellen u.a.</skos:definition>
     </rdf:Description>
     
 
@@ -191,8 +161,6 @@
     <rdf:Description rdf:about="&ciox;Projektüberwachung">
         <skos:closeMatch rdf:resource="&bb;Project_Monitoring"/>
         <skos:closeMatch rdf:resource="&ob;Project_Monitoring"/>
-        <rdfs:label xml:lang="en">Project Monitoring</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
     </rdf:Description>
     
 
@@ -201,8 +169,6 @@
 
     <rdf:Description rdf:about="&ciox;Rechnung">
         <skos:closeMatch rdf:resource="&bb;Bill"/>
-        <rdfs:label xml:lang="en">Bill</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
     </rdf:Description>
     
 
@@ -211,8 +177,6 @@
 
     <rdf:Description rdf:about="&ciox;Ressource">
         <skos:closeMatch rdf:resource="&ob;Resource"/>
-        <rdfs:label xml:lang="en">Resource</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
     </rdf:Description>
     
 
@@ -221,7 +185,6 @@
 
     <rdf:Description rdf:about="&ciox;Ressourcenplan">
         <skos:closeMatch rdf:resource="&ob;Resource_Plan"/>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
     </rdf:Description>
     
 
@@ -230,7 +193,6 @@
 
     <rdf:Description rdf:about="&ciox;Service_Desk">
         <skos:closeMatch rdf:resource="&bb;Service_Desk_Management"/>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
     </rdf:Description>
     
 
@@ -240,7 +202,6 @@
     <rdf:Description rdf:about="&ciox;Softwareprodukt">
         <skos:closeMatch rdf:resource="&ob;Software_Product"/>
         <skos:closeMatch rdf:resource="&bb;Software_Product"/>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
     </rdf:Description>
     
 
@@ -249,7 +210,6 @@
 
     <rdf:Description rdf:about="&ciox;Wartungsvertrag">
         <skos:closeMatch rdf:resource="&ob;Maintenance_Contract"/>
-        <rdfs:label xml:lang="en">Maintenance Contract</rdfs:label>
     </rdf:Description>
     
 
@@ -262,103 +222,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="&ciox;Tabellenkalkulationssystem">
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Projektewarteliste">
-        <skos:definition xml:lang="de">Grundlage für jährliche Projektplanung</skos:definition>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Geplanter_Personalaufwand">
-        <rdfs:label xml:lang="en">Planned Personnel Costs</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Textverarbeitungssoftware">
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Sachkonto">
-        <ob:Concept_Domain>Entity Type</ob:Concept_Domain>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Durchführung_Wartungsfenster">
-        <rdfs:label xml:lang="en">Maintenance Window Execution</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;SAP_xFlow">
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Bestellungsbearbeitung">
-        <rdfs:label xml:lang="en">Purchase Order Processing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Polypoint_PEP">
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Change_Request_Prüfung">
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-        <rdfs:label xml:lang="en">Change Request Check</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Krankenhausverwaltung">
-        <rdfs:subClassOf rdf:resource="&meta;Role"/>
-        <rdfs:label xml:lang="en">Hospital Administration</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Ticket">
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Kostenrechnungssystem">
-        <skos:definition xml:lang="de">Interview CionX 2015</skos:definition>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;SAP_FI">
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Projektportfolio">
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:label xml:lang="en">Project Portfolio</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Projekteliste">
-        <skos:definition xml:lang="en">Entity Type</skos:definition>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Beschaffungsfreigabe">
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Projekteplanung">
-        <rdfs:label xml:lang="en">Projects Planning</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Wartungsfenster_Freigabe">
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Projektfreigabe">
-        <rdfs:label xml:lang="en">Project Release</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Projektstatusbericht">
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Change_Request_Entscheidung">
-        <rdfs:label xml:lang="en">Change Request Decision</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Projektportfolioplanung">
-        <rdfs:label xml:lang="en">Project Portfolio Planning</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Microsoft">
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:altLabel xml:lang="en">MS</skos:altLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Wirtschaftsplanung">
-        <skos:definition xml:lang="de">Schätzung des Budgets für die Sachkonten des B1</skos:definition>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
-        <rdfs:label xml:lang="en">Economic Planning</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;SAP_MM">
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:label xml:lang="en">SAP Material Management</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="&ciox;Projektdefinition">
-        <rdfs:label xml:lang="en">Project Definition</rdfs:label>
-        <Concept_Type>Project Definition</Concept_Type>
-    </rdf:Description>
     <rdf:Description rdf:about="&ciox;Ticketauswertung">
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
         <rdfs:label xml:lang="en">Ticket Evaluation</rdfs:label>
