@@ -1082,7 +1082,8 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">844</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Architecture of Integrated Information Systems Architektur integrierter Informationssysteme</skos:altLabel>
+        <skos:altLabel xml:lang="en">Architecture of Integrated Information Systems</skos:altLabel>
+        <rdfs:label xml:lang="de">Architektur integrierter Informationssysteme</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;ARIS"/>
@@ -1199,7 +1200,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1656</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Abnahmeprotokoll</skos:altLabel>
+        <rdfs:label xml:lang="de">Abnahmeprotokoll</rdfs:label>
     </owl:Class>
 
 
@@ -1221,7 +1222,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Annahme eines Projektauftrags</skos:altLabel>
+        <rdfs:label xml:lang="de">Annahme eines Projektauftrags</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Accepting_a_Project_Order"/>
@@ -1249,7 +1250,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1423</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Zugriffs- und Nutzungsinformation</skos:altLabel>
+        <rdfs:label xml:lang="de">Zugriffs- und Nutzungsinformation</rdfs:label>
     </owl:Class>
 
 
@@ -1322,7 +1323,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1748</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Handlungsträger</skos:altLabel>
+        <rdfs:label xml:lang="de">Handlungsträger</rdfs:label>
     </owl:Class>
 
 
@@ -1555,7 +1556,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">564</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Untersucher</skos:altLabel>
+        <rdfs:label xml:lang="de">Untersucher</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Analyst_Team"/>
@@ -1741,7 +1742,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">578</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Anwendungsbetreuer</skos:altLabel>
+        <rdfs:label xml:lang="de">Anwendungsbetreuer</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Application_Administrator"/>
@@ -1838,9 +1839,9 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">532</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Anwendungssystem</skos:altLabel>
-	<Synonym>Anwendungsbaustein</skos:altLabel>
-	<Synonym>Anwendungskomponente</skos:altLabel>
+        <rdfs:label xml:lang="de">Anwendungssystem</rdfs:label>
+	<skos:altLabel xml:lang="de">Anwendungsbaustein</skos:altLabel>
+<skos:altLabel xml:lang="de">Anwendungskomponente</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Application_System"/>
@@ -1875,7 +1876,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1651</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systemschnittstelle</skos:altLabel>
+        <rdfs:label xml:lang="de">Systemschnittstelle</rdfs:label>
     </owl:Class>
 
 
@@ -1891,7 +1892,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1697</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Wartung des Anwendungssystems</skos:altLabel>
+        <rdfs:label xml:lang="de">Wartung des Anwendungssystems</rdfs:label>
     </owl:Class>
 
 
@@ -1915,7 +1916,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">534</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Bereich (eines Unternehmens)</skos:altLabel>
+        <rdfs:label xml:lang="de">Bereich (eines Unternehmens)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Area_of_an_Enterprise"/>
@@ -1945,7 +1946,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1571</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Bericht zur Systembewertung</skos:altLabel>
+        <rdfs:label xml:lang="de">Bericht zur Systembewertung</rdfs:label>
     </owl:Class>
 
 
@@ -1961,7 +1962,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1424</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Berechtigungskonzept</skos:altLabel>
+        <rdfs:label xml:lang="de">Berechtigungskonzept</rdfs:label>
     </owl:Class>
 
 
@@ -1980,7 +1981,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1184</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Automatisierte Beobachtung</skos:altLabel>
+        <rdfs:label xml:lang="de">Automatisierte Beobachtung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Automated_Observation"/>
@@ -2003,7 +2004,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1610</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Zuschlagskriterium</skos:altLabel>
+        <rdfs:label xml:lang="de">Zuschlagskriterium</rdfs:label>
     </owl:Class>
 
 
@@ -2337,7 +2338,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1611</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Abgabefrist</skos:altLabel>
+        <rdfs:label xml:lang="de">Abgabefrist</rdfs:label>
     </owl:Class>
 
 
@@ -2371,7 +2372,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Bewertung und Reihung der Angebote</skos:altLabel>
+        <rdfs:label xml:lang="de">Bewertung und Reihung der Angebote</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Bid_Prioritization"/>
@@ -2423,7 +2424,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1612</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Art des Angebots</skos:altLabel>
+        <rdfs:label xml:lang="de">Art des Angebots</rdfs:label>
     </owl:Class>
 
 
@@ -2439,7 +2440,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1472</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Bottom-up-Ansatz</skos:altLabel>
+        <rdfs:label xml:lang="de">Bottom-up-Ansatz</rdfs:label>
     </owl:Class>
 
 
@@ -2501,7 +2502,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1072</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Pufferzeit</skos:altLabel>
+        <rdfs:label xml:lang="de">Pufferzeit</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Buffer_Time"/>
@@ -2541,8 +2542,8 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Pufferzeitberechnung</skos:altLabel>
-	<Synonym>Rückwärtsrechnung</skos:altLabel>
+        <rdfs:label xml:lang="de">Pufferzeitberechnung</rdfs:label>
+	<skos:altLabel xml:lang="de">Rückwärtsrechnung</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Buffer_Time_Calculation"/>
@@ -2740,7 +2741,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1218</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Geschäftsprozessgetriebenen Anforderungsermittlung</skos:altLabel>
+        <rdfs:label xml:lang="de">Geschäftsprozessgetriebenen Anforderungsermittlung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Business_Process_Driven_Requirements_Engineering"/>
@@ -2764,7 +2765,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1202</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>BPEL</skos:altLabel>
+        <rdfs:label xml:lang="de">BPEL</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Business_Process_Execution_Langugage"/>
@@ -2803,8 +2804,8 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1312</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Business Process Model and Notation</skos:altLabel>
-	<Synonym>BPMN</skos:altLabel>
+        <rdfs:label xml:lang="de">Business Process Model and Notation</rdfs:label>
+	<skos:altLabel xml:lang="de">BPMN</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Business_Process_Model_and_Notation"/>
@@ -2828,7 +2829,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1345</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Methode zur Modellierung der Ablauforganisation</skos:altLabel>
+        <rdfs:label xml:lang="de">Methode zur Modellierung der Ablauforganisation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Business_Process_Modeling_Method"/>
@@ -2890,7 +2891,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Geschäftsprozessmodellierung</skos:altLabel>
+        <rdfs:label xml:lang="de">Geschäftsprozessmodellierung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Business_Process_Modelling"/>
@@ -2956,7 +2957,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1130</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Kärtchenmethode</skos:altLabel>
+        <rdfs:label xml:lang="de">Kärtchenmethode</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Card_Technique"/>
@@ -2998,7 +2999,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">589</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>CCTA</skos:altLabel>
+        <rdfs:label xml:lang="de">CCTA</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Central_Computer_and_Telecommunications_Agency"/>
@@ -3069,8 +3070,8 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">211</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Management von Änderungswünschen</skos:altLabel>
-	<Synonym>Changemanagement</skos:altLabel>
+        <rdfs:label xml:lang="de">Management von Änderungswünschen</rdfs:label>
+	<skos:altLabel xml:lang="de"Changemanagement</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Change_Management"/>
@@ -3149,7 +3150,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1660</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Change-Request-Liste</skos:altLabel>
+        <rdfs:label xml:lang="de">Change-Request-Liste</rdfs:label>
     </owl:Class>
 
 
@@ -3165,7 +3166,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1624</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Erhebungsform für Marktanalyse</skos:altLabel>
+        <rdfs:label xml:lang="de">Erhebungsform für Marktanalyse</rdfs:label>
     </owl:Class>
 
 
@@ -3205,7 +3206,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">817</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Checkliste für Projekt Review</skos:altLabel>
+        <rdfs:label xml:lang="de">Checkliste für Projekt Review</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Checklist_for_Project_Review"/>
@@ -3283,10 +3284,10 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">545</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>CIO</skos:altLabel>
-	<Synonym>Direktor des Geschäftsbereiches Informationsverarbeitung</skos:altLabel>
-	<Synonym>Leiter der Abteilung Informationsmanagement</skos:altLabel>
-	<Synonym>Leiter des Rechenzentrums</skos:altLabel>
+        <rdfs:label xml:lang="de">CIO</rdfs:label>
+	<skos:altLabel xml:lang="de">Direktor des Geschäftsbereiches Informationsverarbeitung</skos:altLabel>
+	<rdfs:label xml:lang="de">Leiter der Abteilung Informationsmanagement</rdfs:label>
+	<skos:altLabel xml:lang="de">Leiter des Rechenzentrums</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Chief_Information_Officer"/>
@@ -3364,7 +3365,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1630</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>kommissionelle Bewertung</skos:altLabel>
+        <rdfs:label xml:lang="de">kommissionelle Bewertung</rdfs:label>
     </owl:Class>
 
 
@@ -3411,7 +3412,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systemabnahme</skos:altLabel>
+        <rdfs:label xml:lang="de">Systemabnahme</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Commissioning"/>
@@ -3491,7 +3492,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1158</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Kommunikationsanalyse</skos:altLabel>
+        <rdfs:label xml:lang="de">Kommunikationsanalyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Communication_Analysis"/>
@@ -3524,7 +3525,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1198</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Kommunikationsdiagramm</skos:altLabel>
+        <rdfs:label xml:lang="de">Kommunikationsdiagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Communication_Diagram"/>
@@ -3634,7 +3635,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1362</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Vollerhebung</skos:altLabel>
+        <rdfs:label xml:lang="de">Vollerhebung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Complete_Survey"/>
@@ -3663,7 +3664,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1306</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Vollständigkeit</skos:altLabel>
+        <rdfs:label xml:lang="de">Vollständigkeit</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Completeness"/>
@@ -3685,7 +3686,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1522</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Abschluss der Projektdokumentation</skos:altLabel>
+        <rdfs:label xml:lang="de">Abschluss der Projektdokumentation</rdfs:label>
     </owl:Class>
 
 
@@ -3733,7 +3734,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1057</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Rechnerbasiertes Anwendungssystem</skos:altLabel>
+        <rdfs:label xml:lang="de">Rechnerbasiertes Anwendungssystem</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Computer_Based_Application_System"/>
@@ -3780,7 +3781,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Betrieb rechnerbasierter Anwendungssysteme</skos:altLabel>
+        <rdfs:label xml:lang="de">Betrieb rechnerbasierter Anwendungssysteme</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Computer_Based_Application_System_Operation"/>
@@ -3809,7 +3810,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1169</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Rechnerbasiertes Erhebungsformular</skos:altLabel>
+        <rdfs:label xml:lang="de">Rechnerbasiertes Erhebungsformular</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Computer_Based_Elicitation_Form"/>
@@ -3835,7 +3836,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1091</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Rechnerunterstütztes Informationssystem</skos:altLabel>
+        <rdfs:label xml:lang="de">Rechnerunterstütztes Informationssystem</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Computer_Based_Information_System"/>
@@ -3883,7 +3884,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1822</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Computerunterstützter Teil eines Informationssystems</skos:altLabel>
+        <rdfs:label xml:lang="de">Computerunterstützter Teil eines Informationssystems</rdfs:label>
     </owl:Class>
 
 
@@ -25304,7 +25305,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1832</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ressource</skos:altLabel>
+        <rdfs:label xml:lang="de">Ressource</rdfs:label>
     </owl:Class>
 
 
@@ -25320,7 +25321,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1501</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Koordination der Ressourcen</skos:altLabel>
+        <rdfs:label xml:lang="de">Koordination der Ressourcen</rdfs:label>
     </owl:Class>
 
 
@@ -25351,7 +25352,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1484</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ressourcenplan</skos:altLabel>
+        <rdfs:label xml:lang="de">Ressourcenplan</rdfs:label>
     </owl:Class>
 
 
@@ -25435,7 +25436,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ressourcenplanung</skos:altLabel>
+        <rdfs:label xml:lang="de">Ressourcenplanung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Resource_Planning"/>
@@ -25595,7 +25596,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1810</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ergebnisse der Ressourcenplanung</skos:altLabel>
+        <rdfs:label xml:lang="de">Ergebnisse der Ressourcenplanung</rdfs:label>
     </owl:Class>
 
 
@@ -25620,7 +25621,7 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1686</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Source>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Rücklaufquote</skos:altLabel>
+        <rdfs:label xml:lang="de">Rücklaufquote</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Response_Rate"/>
@@ -25663,7 +25664,7 @@
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1788</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ergebnisdokumentation</skos:altLabel>
+        <rdfs:label xml:lang="de">Ergebnisdokumentation</rdfs:label>
     </owl:Class>
 
 
@@ -25697,7 +25698,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Verifikation der Ergebnisse</skos:altLabel>
+        <rdfs:label xml:lang="de">Verifikation der Ergebnisse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Result_Verification"/>
@@ -25749,7 +25750,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1471</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ergebnis einer Projektumfeldanalyse</skos:altLabel>
+        <rdfs:label xml:lang="de">Ergebnis einer Projektumfeldanalyse</rdfs:label>
     </owl:Class>
 
 
@@ -25762,7 +25763,7 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Vorgehen, bei dem das Untersuchungskollektiv sowie Art und Umfang der interessierenden Informationen erst festgelegt wird, nachdem zumindest ein Teil der Daten aufezeichnet wurde. In Hinblick auf eine höhere Aussagekraft der Ergebnisse ist eine prolektive Datenerhebung in der Regel einer retrolektiven Datenerhebung vorzuziehen.</skos:definition>
+        <skos:definition xml:lang="de">Vorgehen, bei dem das Untersuchungskollektiv sowie Art und Umfang der interessierenden Informationen erst festgelegt wird, nachdem zumindest ein Teil der Daten aufgezeichnet wurde. In Hinblick auf eine höhere Aussagekraft der Ergebnisse ist eine prolektive Datenerhebung in der Regel einer retrolektiven Datenerhebung vorzuziehen.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">340</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -25794,8 +25795,8 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1334</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Return-on-Investment-Analse</skos:altLabel>
-	<Synonym>ROI-Analyse</skos:altLabel>
+        <rdfs:label xml:lang="de">Return-on-Investment-Analse</rdfs:label>
+	<rdfs:label xml:lang="de">ROI-Analyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Return_on_Investment_Analysis"/>
@@ -25818,8 +25819,8 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1526</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Begutachtung der Projektergebnisse</skos:altLabel>
-	<Synonym>Überprüfung auf Zielerreichung</skos:altLabel>
+        <rdfs:label xml:lang="de">Begutachtung der Projektergebnisse</rdfs:label>
+	      <skos:altLabel xml:lang="de">Überprüfung auf Zielerreichung</skos:altLabel>
     </owl:Class>
 
 
@@ -25855,7 +25856,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Risikoanalyse</skos:altLabel>
+        <rdfs:label xml:lang="de">Risikoanalyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Risk_Analysis"/>
@@ -25930,7 +25931,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">557</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Risikobeauftragter</skos:altLabel>
+        <rdfs:label xml:lang="de">Risikobeauftragter</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Risk_Manager"/>
@@ -25958,7 +25959,7 @@
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1485</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Risikoplan</skos:altLabel>
+        <rdfs:label xml:lang="de">Risikoplan</rdfs:label>
     </owl:Class>
 
     <!-- http://www.snik.eu/ontology/ob/Roll-Out -->
@@ -26048,7 +26049,6 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Roll-Out</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Roll_Out"/>
@@ -26182,8 +26182,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1307</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>SWOT-Analyse</skos:altLabel>
-	<Synonym>Stark- und Schwachstellenanalyse</skos:altLabel>
+        <skos:altLabel xml:lang="de">SWOT-Analyse</skos:altLabel>
+	       <rdfs:label xml:lang="de">Stark- und Schwachstellenanalyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;SWOT_Analysis"/>
@@ -26206,7 +26206,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1670</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Fallzahl</skos:altLabel>
+        <rdfs:label xml:lang="de">Fallzahl</rdfs:label>
     </owl:Class>
 
 
@@ -26222,7 +26222,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1631</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Szenario</skos:altLabel>
+        <rdfs:label xml:lang="de">Szenario</rdfs:label>
     </owl:Class>
 
 
@@ -26239,7 +26239,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1139</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Darstellung des Ablaufplans</skos:altLabel>
+        <rdfs:label xml:lang="de">Darstellung des Ablaufplans</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Schedule_Representation_Method"/>
@@ -26363,7 +26363,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ablaufplanung</skos:altLabel>
+        <rdfs:label xml:lang="de">Ablaufplanung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Scheduling"/>
@@ -26570,7 +26570,6 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">490</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Second-Level-Support</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Second_Level_Support"/>
@@ -26657,7 +26656,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1230</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Sensitivitätsanalyse</skos:altLabel>
+        <rdfs:label xml:lang="de">Sensitivitätsanalyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Sensitivity_Analysis"/>
@@ -26683,7 +26682,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1191</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Sensorgestützte Beobachtung</skos:altLabel>
+        <rdfs:label xml:lang="de">Sensorgestützte Beobachtung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Sensor_Based_Observation"/>
@@ -26709,7 +26708,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1197</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Sequenzdiagram</skos:altLabel>
+        <rdfs:label xml:lang="de">Sequenzdiagram</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Sequence_Diagram"/>
@@ -26782,7 +26781,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1708</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>SLA</skos:altLabel>
+        <rdfs:label xml:lang="de">SLA</rdfs:label>
     </owl:Class>
 
 
@@ -26853,7 +26852,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1067</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Simulation</skos:altLabel>
+        <rdfs:label xml:lang="de">Simulation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Simulation"/>
@@ -26896,7 +26895,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1182</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Einzelinterview</skos:altLabel>
+        <rdfs:label xml:lang="de">Einzelinterview</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Single_Interview"/>
@@ -26922,7 +26921,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1088</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Sozio-technisches System</skos:altLabel>
+        <rdfs:label xml:lang="de">Sozio-technisches System</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Socio_Technical_System"/>
@@ -26984,6 +26983,7 @@ so wie es in der Einführungsstrategie geplant ist.
 
     <owl:Class rdf:about="&ob;Software_Product">
 	<rdfs:label xml:lang="en">Software Product</rdfs:label>
+  <rdfs:label xml:lang="de">Softwareprodukt</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Product"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -27000,9 +27000,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1052</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Softwareprodukt</skos:altLabel>
-	<Synonym>(Computer-)Programm</skos:altLabel>
-	<Synonym>Software</skos:altLabel>
+	<skos:altLabel xml:lang="de">(Computer-)Programm</skos:altLabel>
+	<skos:altLabel xml:lang="de">Software</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Software_Product"/>
@@ -27035,7 +27034,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1267</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Eigenentwicklung</skos:altLabel>
+        <rdfs:label xml:lang="de">Eigenentwicklung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Self_Development"/>
@@ -27102,7 +27101,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1127</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Software-Ressource</skos:altLabel>
+        <rdfs:label xml:lang="de">Software-Ressource</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Software_Resource"/>
@@ -27128,7 +27127,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1248</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Softwaretest</skos:altLabel>
+        <rdfs:label xml:lang="de">Softwaretest</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Software_Test"/>
@@ -27152,7 +27151,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1128</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Räumliche Ressource</skos:altLabel>
+        <rdfs:label xml:lang="de">Räumliche Ressource</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Spatial_Resource"/>
@@ -27326,6 +27325,7 @@ so wie es in der Einführungsstrategie geplant ist.
 
     <owl:Class rdf:about="&ob;Spider_Chart">
 	<rdfs:label xml:lang="en">Spider Chart</rdfs:label>
+  	<rdfs:label xml:lang="de">Spinnendiagramm</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;System_Selection_Method"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -27348,9 +27348,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">536</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Spinnendiagramm</skos:altLabel>
-	<Synonym>Radarprofil</skos:altLabel>
-	<Synonym>Radar Chart</skos:altLabel>
+	<skos:altLabel xml:lang="de">Radarprofil</skos:altLabel>
+	<skos:altLabel xml:lang="en">Radar Chart</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Spider_Chart"/>
@@ -27403,7 +27402,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Erstellung eines Spinnendiagramms</skos:altLabel>
+        <rdfs:label xml:lang="de">Erstellung eines Spinnendiagramms</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Spider_Chart_Creation"/>
@@ -27664,7 +27663,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">544</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Auftraggeber</skos:altLabel>
+        <rdfs:label xml:lang="de">Auftraggeber</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Sponsor"/>
@@ -28165,7 +28164,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">999</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Personal</skos:altLabel>
+        <rdfs:label xml:lang="de">Personal</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Staff"/>
@@ -28212,8 +28211,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">653</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Personalrat</skos:altLabel>
-	<Synonym>Betriebsrat</skos:altLabel>
+        <rdfs:label xml:lang="de">Personalrat</rdfs:label>
+	      <skos:altLabel xml:lang="de">Betriebsrat</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Staff_Council"/>
@@ -28289,7 +28288,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">628</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Interessengruppe</skos:altLabel>
+        <rdfs:label xml:lang="de">Interessengruppe</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Stakeholder"/>
@@ -28332,7 +28331,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1108</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Projektumfeldanalyse</skos:altLabel>
+        <rdfs:label xml:lang="de">Projektumfeldanalyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Stakeholder_Analysis"/>
@@ -28358,9 +28357,9 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1298</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Standardsoftwareprodukt</skos:altLabel>
-	<Synonym>Standardsoftware</skos:altLabel>
-	<Synonym>Standard Software</skos:altLabel>
+        <rdfs:label xml:lang="de">Standardsoftwareprodukt</rdfs:label>
+	<skos:altLabel xml:lang="de">Standardsoftware</skos:altLabel>
+	<skos:altLabel xml:lang="de">Standard Software</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Standard_Software_Product"/>
@@ -28386,7 +28385,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1297</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Standardisierte Datenerhebung</skos:altLabel>
+        <rdfs:label xml:lang="de">Standardisierte Datenerhebung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Standardised_Collection_of_Data"/>
@@ -28476,7 +28475,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Zustandsdiagramm</skos:altLabel>
+        <rdfs:label xml:lang="de">Zustandsdiagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;State_Chart"/>
@@ -28500,7 +28499,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1089</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Statisches System</skos:altLabel>
+        <rdfs:label xml:lang="de">Statisches System</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Static_System"/>
@@ -28523,7 +28522,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1644</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Stop-or-Go-Entscheidung</skos:altLabel>
+        <rdfs:label xml:lang="de">Stop-or-Go-Entscheidung</rdfs:label>
     </owl:Class>
 
 
@@ -28539,7 +28538,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1466</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Konfliktphase</skos:altLabel>
+        <rdfs:label xml:lang="de">Konfliktphase</rdfs:label>
     </owl:Class>
 
 
@@ -28555,7 +28554,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1811</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Strategisches Ziel</skos:altLabel>
+        <rdfs:label xml:lang="de">Strategisches Ziel</rdfs:label>
     </owl:Class>
 
 
@@ -28577,7 +28576,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Strategische Steuerung des Informationssystems</skos:altLabel>
+        <rdfs:label xml:lang="de">Strategische Steuerung des Informationssystems</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Strategic_HIS_Directing"/>
@@ -28617,7 +28616,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Strategische Überwachung des Informationssystems</skos:altLabel>
+        <rdfs:label xml:lang="de">Strategische Überwachung des Informationssystems</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Strategic_HIS_Monitoring"/>
@@ -28675,8 +28674,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Rahmenplanung</skos:altLabel>
-	<Synonym>Strategische Planung des Informationssystems</skos:altLabel>
+        <rdfs:label xml:lang="de">Rahmenplanung</rdfs:label>
+	<skos:altLabel xml_lang="de">Strategische Planung des Informationssystems</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Strategic_HIS_Planning"/>
@@ -28742,9 +28741,9 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">994</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Rahmenplan</skos:altLabel>
-	<Synonym>Rahmenkonzept</skos:altLabel>
-	<Synonym>IT-Strategie</skos:altLabel>
+        <rdfs:label xml:lang="de">Rahmenplan</rdfs:label>
+	<skos:altLabel xml:lang="de">Rahmenkonzept</skos:altLabel>
+<skos:altLabel xml:lang="de">IT-Strategie</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Strategic_Information_Management_Plan"/>
@@ -28798,7 +28797,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">244</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Rahmenplanung von Informationssystemen</skos:altLabel>
+        <rdfs:label xml:lang="de">Rahmenplanung von Informationssystemen</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Strategic_Information_Management_Planning"/>
@@ -28877,7 +28876,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">254</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Strategisches Management von Informationssystemen</skos:altLabel>
+        <rdfs:label xml:lang="de">Strategisches Management von Informationssystemen</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Strategic_Management_of_Information_Systems"/>
@@ -28968,7 +28967,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1165</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Strukturanalyse</skos:altLabel>
+        <rdfs:label xml:lang="de">Strukturanalyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Structural_Analysis"/>
@@ -28993,7 +28992,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1902</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Strukturgleichheit</skos:altLabel>
+        <rdfs:label xml:lang="de">Strukturgleichheit</rdfs:label>
     </owl:Class>
 
 
@@ -29176,7 +29175,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Strukturplanung</skos:altLabel>
+        <rdfs:label xml:lang="de">Strukturplanung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Structural_Planning"/>
@@ -29360,7 +29359,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1401</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Studienleiter</skos:altLabel>
+        <rdfs:label xml:lang="de">Studienleiter</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Study_Director"/>
@@ -29546,7 +29545,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1490</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Gegenstand</skos:altLabel>
+        <rdfs:label xml:lang="de">Gegenstand</rdfs:label>
     </owl:Class>
 
 
@@ -29562,8 +29561,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1527</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Nachkalkulation der Aufwände und Kosten im Projekt</skos:altLabel>
-	<Synonym>Veranlassung von Restzahlungen</skos:altLabel>
+        <rdfs:label xml:lang="de">Nachkalkulation der Aufwände und Kosten im Projekt</rdfs:label>
+	<skos:altLabel xml:lang="de">Veranlassung von Restzahlungen</skos:altLabel>
     </owl:Class>
 
 
@@ -29581,7 +29580,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Teilsystem</skos:altLabel>
+        <rdfs:label xml:lang="de">Teilsystem</rdfs:label>
     </owl:Class>
 
 
@@ -29641,7 +29640,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">610</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Betreuer</skos:altLabel>
+        <rdfs:label xml:lang="de">Betreuer</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Supervisor"/>
@@ -29669,7 +29668,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1661</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Betreuungskonzept</skos:altLabel>
+        <rdfs:label xml:lang="de">Betreuungskonzept</rdfs:label>
     </owl:Class>
 
 
@@ -29688,7 +29687,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1249</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Standardisierte Umfrage</skos:altLabel>
+        <rdfs:label xml:lang="de">Standardisierte Umfrage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Survey"/>
@@ -29712,7 +29711,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1208</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Angemessenheit</skos:altLabel>
+        <rdfs:label xml:lang="de">Angemessenheit</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Sustainability"/>
@@ -29819,7 +29818,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">583</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systembetreuer</skos:altLabel>
+        <rdfs:label xml:lang="de">Systembetreuer</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Administrator"/>
@@ -29921,7 +29920,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systemanalyse</skos:altLabel>
+        <rdfs:label xml:lang="de">Systemanalyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Analysis"/>
@@ -30316,7 +30315,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">213</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systemanalyse und -bewertung</skos:altLabel>
+        <rdfs:label xml:lang="de">Systemanalyse und -bewertung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Analysis_and_Assessment"/>
@@ -30545,7 +30544,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Bewertung von Informationssystemen</skos:altLabel>
+        <rdfs:label xml:lang="de">Bewertung von Informationssystemen</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Assessment"/>
@@ -30618,7 +30617,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">251</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systementwicklung</skos:altLabel>
+        <rdfs:label xml:lang="de">Systementwicklung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Development"/>
@@ -30714,7 +30713,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systemevaluation</skos:altLabel>
+        <rdfs:label xml:lang="de">Systemevaluation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Evaluation"/>
@@ -30918,7 +30917,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1431</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ausfallkonzept</skos:altLabel>
+        <rdfs:label xml:lang="de">Ausfallkonzept</rdfs:label>
     </owl:Class>
 
 
@@ -30954,7 +30953,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">284</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systemübergabe</skos:altLabel>
+        <rdfs:label xml:lang="de">Systemübergabe</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Handover"/>
@@ -31122,7 +31121,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systemeinführung</skos:altLabel>
+        <rdfs:label xml:lang="de">Systemeinführung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Introduction"/>
@@ -31524,7 +31523,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systembetrieb</skos:altLabel>
+        <rdfs:label xml:lang="de">Systembetrieb</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Operation"/>
@@ -31812,7 +31811,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systemauswahl</skos:altLabel>
+        <rdfs:label xml:lang="de">Systemauswahl</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Selection"/>
@@ -32032,7 +32031,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1619</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Methode der Systemauswahl</skos:altLabel>
+        <rdfs:label xml:lang="de">Methode der Systemauswahl</rdfs:label>
     </owl:Class>
 
 
@@ -32498,7 +32497,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1396</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systemverantwortlicher</skos:altLabel>
+        <rdfs:label xml:lang="de">Systemverantwortlicher</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;System_Supervisor"/>
@@ -32526,7 +32525,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1432</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systembetreuungskonzept</skos:altLabel>
+        <rdfs:label xml:lang="de">Systembetreuungskonzept</rdfs:label>
     </owl:Class>
 
 
@@ -32542,7 +32541,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1481</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Systematisches Festhalten der inhaltlichen Abhängigkeiten der Arbeitspakete</skos:altLabel>
+        <rdfs:label xml:lang="de">Systematisches Festhalten der inhaltlichen Abhängigkeiten der Arbeitspakete</rdfs:label>
     </owl:Class>
 
 
@@ -32564,7 +32563,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">309</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Taktische Steuerung von Informationssystemen</skos:altLabel>
+        <rdfs:label xml:lang="de">Taktische Steuerung von Informationssystemen</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tactical_HIS_Directing"/>
@@ -32598,7 +32597,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Taktische Überwachung von Informationssystemen</skos:altLabel>
+        <rdfs:label xml:lang="de">Taktische Überwachung von Informationssystemen</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tactical_HIS_Monitoring"/>
@@ -32632,7 +32631,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Taktische Planung von Informationssystemen</skos:altLabel>
+        <rdfs:label xml:lang="de">Taktische Planung von Informationssystemen</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tactical_HIS_Planning"/>
@@ -32717,7 +32716,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">246</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Taktisches Management von Informationssystemen</skos:altLabel>
+        <rdfs:label xml:lang="de">Taktisches Management von Informationssystemen</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tactical_Management_of_Information_Systems"/>
@@ -32848,8 +32847,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1144</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ist-Soll-Vergleich</skos:altLabel>
-	<Synonym>Vorher-Nachher-Vergleich</skos:altLabel>
+        <rdfs:label xml:lang="de">Ist-Soll-Vergleich</rdfs:label>
+	<skos:altLabel xml:lang="de">Vorher-Nachher-Vergleich</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Target_Performance_Comparison"/>
@@ -32918,7 +32917,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Sollkonzept</skos:altLabel>
+        <rdfs:label xml:lang="de">Sollkonzept</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Target_Concept"/>
@@ -33028,7 +33027,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1055</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Zieldefinition</skos:altLabel>
+        <rdfs:label xml:lang="de">Zieldefinition</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Target_Definition"/>
@@ -33064,7 +33063,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1054</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Soll-Zustand</skos:altLabel>
+        <rdfs:label xml:lang="de">Soll-Zustand</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Target_State"/>
@@ -33119,7 +33118,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1366</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Gezielte Auswahl</skos:altLabel>
+        <rdfs:label xml:lang="de">Gezielte Auswahl</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Targeted_Selection"/>
@@ -33154,7 +33153,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">731</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Aufgabe</skos:altLabel>
+        <rdfs:label xml:lang="de">Aufgabe</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Task"/>
@@ -33194,7 +33193,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Aufgabenverteilung</skos:altLabel>
+        <rdfs:label xml:lang="de">Aufgabenverteilung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Task_Allocation"/>
@@ -33283,7 +33282,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">723</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Teambildung</skos:altLabel>
+        <rdfs:label xml:lang="de">Teambildung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Team_Formation"/>
@@ -33380,7 +33379,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Teammanagement</skos:altLabel>
+        <rdfs:label xml:lang="de">Teammanagement</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Team_Management"/>
@@ -33421,7 +33420,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1320</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Arbeitsgruppensitzung</skos:altLabel>
+        <rdfs:label xml:lang="de">Arbeitsgruppensitzung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Team_Meeting"/>
@@ -33486,7 +33485,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Technische Vorbereitung</skos:altLabel>
+        <rdfs:label xml:lang="de">Technische Vorbereitung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Technical_Preparation"/>
@@ -33586,7 +33585,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1445</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Technische Innovation</skos:altLabel>
+        <rdfs:label xml:lang="de">Technische Innovation</rdfs:label>
     </owl:Class>
 
 
@@ -33629,7 +33628,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">861</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Öffentliche Ausschreibung</skos:altLabel>
+        <rdfs:label xml:lang="de">Öffentliche Ausschreibung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tender"/>
@@ -33724,7 +33723,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">863</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ausschreibungsmodalität</skos:altLabel>
+        <rdfs:label xml:lang="de">Ausschreibungsmodalität</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tender_Arrangement"/>
@@ -33794,7 +33793,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Eröffnung der Angebote</skos:altLabel>
+        <rdfs:label xml:lang="de">Eröffnung der Angebote</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tender_Opening"/>
@@ -33822,7 +33821,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1613</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Aufbau der Ausschreibung</skos:altLabel>
+        <rdfs:label xml:lang="de">Aufbau der Ausschreibung</rdfs:label>
     </owl:Class>
 
 
@@ -33838,7 +33837,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1614</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Art der Ausschreibung</skos:altLabel>
+        <rdfs:label xml:lang="de">Art der Ausschreibung</rdfs:label>
     </owl:Class>
 
 
@@ -33866,7 +33865,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Formale Prüfung der Angebote</skos:altLabel>
+        <rdfs:label xml:lang="de">Formale Prüfung der Angebote</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tender_Vetting"/>
@@ -33907,7 +33906,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1223</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ausschreibung mit Losen</skos:altLabel>
+        <rdfs:label xml:lang="de">Ausschreibung mit Losen</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tender_with_Lots"/>
@@ -33931,7 +33930,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1224</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ausschreibung ohne Lose</skos:altLabel>
+        <rdfs:label xml:lang="de">Ausschreibung ohne Lose</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tender_without_Lots"/>
@@ -33992,7 +33991,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Durchführung einer Ausschreibung</skos:altLabel>
+        <rdfs:label xml:lang="de">Durchführung einer Ausschreibung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Tendering"/>
@@ -34095,7 +34094,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Testinstallation</skos:altLabel>
+        <rdfs:label xml:lang="de">Testinstallation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Test_Installation"/>
@@ -34164,7 +34163,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">277</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Testbetrieb</skos:altLabel>
+        <rdfs:label xml:lang="de">Testbetrieb</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Test_Operation"/>
@@ -34238,7 +34237,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1648</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Testszenario</skos:altLabel>
+        <rdfs:label xml:lang="de">Testszenario</rdfs:label>
     </owl:Class>
 
 
@@ -34310,8 +34309,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">839</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>3LGM²</skos:altLabel>
-	<Synonym>Drei-Ebenen-Metamodell</skos:altLabel>
+        <rdfs:label xml:lang="de">3LGM²</rdfs:label>
+	<skos:altLabel xml:lang="de">Drei-Ebenen-Metamodell</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Three_Layer_Graph_Based_Metamodel"/>
@@ -34370,7 +34369,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1801</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Zeit</skos:altLabel>
+        <rdfs:label xml:lang="de">Zeit</rdfs:label>
     </owl:Class>
 
 
@@ -34389,7 +34388,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1316</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Zeitmessung</skos:altLabel>
+        <rdfs:label xml:lang="de">Zeitmessung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Time_Measurement"/>
@@ -34439,7 +34438,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Laufzeitberechnung</skos:altLabel>
+        <rdfs:label xml:lang="de">Laufzeitberechnung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Time_to_Run_Calculation"/>
@@ -34482,7 +34481,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1201</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Zeitverlaufsdiagramm</skos:altLabel>
+        <rdfs:label xml:lang="de">Zeitverlaufsdiagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Timing_Diagram"/>
@@ -34507,7 +34506,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1495</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Aufgabenliste</skos:altLabel>
+        <rdfs:label xml:lang="de">Aufgabenliste</rdfs:label>
     </owl:Class>
 
 
@@ -34538,7 +34537,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1586</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Werkzeug</skos:altLabel>
+        <rdfs:label xml:lang="de">Werkzeug</rdfs:label>
     </owl:Class>
 
 
@@ -34554,7 +34553,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1474</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Top-down-Ansatz</skos:altLabel>
+        <rdfs:label xml:lang="de">Top-down-Ansatz</rdfs:label>
     </owl:Class>
 
 
@@ -34576,7 +34575,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">597</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Unternehmensleitung</skos:altLabel>
+        <rdfs:label xml:lang="de">Unternehmensleitung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Top_Management"/>
@@ -34613,7 +34612,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">787</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ampelmodell</skos:altLabel>
+        <rdfs:label xml:lang="de">Ampelmodell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Traffic_Light_Model"/>
@@ -34686,7 +34685,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1802</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Transparenz</skos:altLabel>
+        <rdfs:label xml:lang="de">Transparenz</rdfs:label>
     </owl:Class>
 
 
@@ -34702,7 +34701,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1502</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Behebung von Störungen</skos:altLabel>
+        <rdfs:label xml:lang="de">Behebung von Störungen</rdfs:label>
     </owl:Class>
 
 
@@ -34721,7 +34720,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1315</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>UML-Aktivitätsdiagramm</skos:altLabel>
+        <rdfs:label xml:lang="de">UML-Aktivitätsdiagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;UML_Activity_Diagram"/>
@@ -34760,7 +34759,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1004</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Source>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>UML-Klassendiagramm</skos:altLabel>
+        <rdfs:label xml:lang="de">UML-Klassendiagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;UML_Class_Diagram"/>
@@ -34832,9 +34831,9 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Objekt</skos:altLabel>
-	<Synonym>Entität</skos:altLabel>
-	<Synonym>Object</skos:altLabel>
+        <rdfs:label xml:lang="de">Objekt</rdfs:label>
+	<skos:altLabel xml:lang="de">Entität</skos:altLabel>
+	<skos:altLabel xml:lang="en">Object</skos:altLabel>
     </owl:Class>
 
 
@@ -34859,7 +34858,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1005</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>UML-Sequenzdiagramm</skos:altLabel>
+        <rdfs:label xml:lang="de">UML-Sequenzdiagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;UML_Sequence_Diagram"/>
@@ -34909,7 +34908,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1006</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>UML-Anwendungsfall-Diagramm</skos:altLabel>
+        <rdfs:label xml:lang="de">UML-Anwendungsfall-Diagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;UML_Use_Case_Diagram"/>
@@ -34958,7 +34957,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1863</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>UML</skos:altLabel>
+        <rdfs:label xml:lang="de">UML</rdfs:label>
     </owl:Class>
 
 
@@ -34975,7 +34974,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1209</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Verwendbarkeit</skos:altLabel>
+        <rdfs:label xml:lang="de">Verwendbarkeit</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Usability"/>
@@ -34999,7 +34998,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1250</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Test der Gebrauchstauglichkeit der Software</skos:altLabel>
+        <rdfs:label xml:lang="de">Test der Gebrauchstauglichkeit der Software</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Usability_Test"/>
@@ -35025,7 +35024,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1196</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>UML-Anwendungsfall-Diagramm</skos:altLabel>
+        <rdfs:label xml:lang="de">UML-Anwendungsfall-Diagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Use_Case_Diagram"/>
@@ -35050,7 +35049,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1731</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Anwendungsfall</skos:altLabel>
+        <rdfs:label xml:lang="de">Anwendungsfall</rdfs:label>
     </owl:Class>
 
 
@@ -35069,7 +35068,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1216</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Anwendungsfallgetriebene Anforderungsermittlung</skos:altLabel>
+        <rdfs:label xml:lang="de">Anwendungsfallgetriebene Anforderungsermittlung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Use_Case_Driven_Requirements_Engineering"/>
@@ -35104,7 +35103,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">655</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Anwender</skos:altLabel>
+        <rdfs:label xml:lang="de">Anwender</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;User"/>
@@ -35144,7 +35143,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1695</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Benutzerverwaltung</skos:altLabel>
+        <rdfs:label xml:lang="de">Benutzerverwaltung</rdfs:label>
     </owl:Class>
 
 
@@ -35163,7 +35162,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1251</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Benutzer-Wissenstest</skos:altLabel>
+        <rdfs:label xml:lang="de">Benutzer-Wissenstest</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;User_Knowledge_Test"/>
@@ -35210,7 +35209,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Nutzerbetreuung</skos:altLabel>
+        <rdfs:label xml:lang="de">Nutzerbetreuung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;User_Support"/>
@@ -35274,7 +35273,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1433</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Benutzerbetreuungskonzept</skos:altLabel>
+        <rdfs:label xml:lang="de">Benutzerbetreuungskonzept</rdfs:label>
     </owl:Class>
 
 
@@ -35290,7 +35289,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1434</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Nutzerschulungsplan</skos:altLabel>
+        <rdfs:label xml:lang="de">Nutzerschulungsplan</rdfs:label>
     </owl:Class>
 
 
@@ -35310,8 +35309,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1271</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Nutzwertanalyse</skos:altLabel>
-	<Synonym>Utility Analysis</skos:altLabel>
+        <rdfs:label xml:lang="de">Nutzwertanalyse</rdfs:label>
+	<skos:altLabel xml:lang="en">Utility Analysis</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Utility_Analysis"/>
@@ -35342,7 +35341,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1117</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>V-Modell</skos:altLabel>
+        <rdfs:label xml:lang="de">V-Modell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;V_Model"/>
@@ -35426,7 +35425,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">577</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Anbieter</skos:altLabel>
+        <rdfs:label xml:lang="de">Anbieter</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Vendor"/>
@@ -35562,7 +35561,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1720</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Gerichtsstand</skos:altLabel>
+        <rdfs:label xml:lang="de">Gerichtsstand</rdfs:label>
     </owl:Class>
 
 
@@ -35580,7 +35579,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1864</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Verifikation</skos:altLabel>
+        <rdfs:label xml:lang="de">Verifikation</rdfs:label>
     </owl:Class>
 
 
@@ -35614,7 +35613,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1252</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Verifikationstest</skos:altLabel>
+        <rdfs:label xml:lang="de">Verifikationstest</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Verification_Test"/>
@@ -35637,7 +35636,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1702</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Versionsmanagement</skos:altLabel>
+        <rdfs:label xml:lang="de">Versionsmanagement</rdfs:label>
     </owl:Class>
 
 
@@ -35677,7 +35676,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1118</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Wasserfallmodell</skos:altLabel>
+        <rdfs:label xml:lang="de">Wasserfallmodell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Waterfall_Model"/>
@@ -35702,7 +35701,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1866</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Win-win-Situation</skos:altLabel>
+        <rdfs:label xml:lang="de">Win-win-Situation</rdfs:label>
     </owl:Class>
 
 
@@ -35756,7 +35755,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">732</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Arbeitspaket</skos:altLabel>
+        <rdfs:label xml:lang="de">Arbeitspaket</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Work_Package"/>
@@ -35846,7 +35845,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1475</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Arbeitspaket-Beschreibung</skos:altLabel>
+        <rdfs:label xml:lang="de">Arbeitspaket-Beschreibung</rdfs:label>
     </owl:Class>
 
 
@@ -35909,7 +35908,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">552</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Arbeitspaket-Leiter</skos:altLabel>
+        <rdfs:label xml:lang="de">Arbeitspaket-Leiter</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Work_Package_Manager"/>
@@ -35955,7 +35954,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">789</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Statusbericht für das Arbeitspaket</skos:altLabel>
+        <rdfs:label xml:lang="de">Statusbericht für das Arbeitspaket</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Work_Package_Status_Report"/>
@@ -35983,7 +35982,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Abschätzen der geplanten benötigten zeitlichen Dauer für jedes Arbeitspaket</skos:altLabel>
+        <rdfs:label xml:lang="de">Abschätzen der geplanten benötigten zeitlichen Dauer für jedes Arbeitspaket</rdfs:label>
     </owl:Class>
 
 
@@ -35999,7 +35998,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1435</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Dienstplan</skos:altLabel>
+        <rdfs:label xml:lang="de">Dienstplan</rdfs:label>
     </owl:Class>
 
 
@@ -36017,7 +36016,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1729</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Ablauforganisation</skos:altLabel>
+        <rdfs:label xml:lang="de">Ablauforganisation</rdfs:label>
     </owl:Class>
 
 
@@ -36036,8 +36035,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1253</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Zeitmessung</skos:altLabel>
-	<Synonym>Multimomentaufnahme</skos:altLabel>
+        <rdfs:label xml:lang="de">Zeitmessung</rdfs:label>
+	<skos:altLabel xml:lang="de">Multimomentaufnahme</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Worksampling"/>
@@ -36060,7 +36059,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1842</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Schriftliche Vereinbarung</skos:altLabel>
+        <rdfs:label xml:lang="de">Schriftliche Vereinbarung</rdfs:label>
     </owl:Class>
 
 
@@ -36077,7 +36076,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1148</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Schriftliche Präsentation</skos:altLabel>
+        <rdfs:label xml:lang="de">Schriftliche Präsentation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Written_Presentation"/>
@@ -36115,7 +36114,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1308</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Schriftliche Befragung</skos:altLabel>
+        <rdfs:label xml:lang="de">Schriftliche Befragung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Written_Survey"/>
@@ -36346,7 +36345,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">971</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Physische Werkzeugebene</skos:altLabel>
+        <rdfs:label xml:lang="de">Physische Werkzeugebene</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;3LGM2_Physical_Tool_Layer"/>
@@ -36425,7 +36424,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">761</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>5-Stufen-Methode zur systematischen Strukturplanung</skos:altLabel>
+        <rdfs:label xml:lang="de">5-Stufen-Methode zur systematischen Strukturplanung</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;5_Level_Method_for_Systematic_Structural_Planning"/>
@@ -36821,7 +36820,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Informationsbeschaffung (Systemanalyse)</skos:altLabel>
+        <rdfs:label xml:lang="de">Informationsbeschaffung (Systemanalyse)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Information_Acquisition_(System_Analysis)"/>
@@ -37075,7 +37074,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1353</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Verifikation (Evaluation)</skos:altLabel>
+        <rdfs:label xml:lang="de">Verifikation (Evaluation)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Verification_(Evaluation)Verification_(Evaluation)"/>
@@ -37141,7 +37140,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Verifikation (Spezifikation)</skos:altLabel>
+        <rdfs:label xml:lang="de">Verifikation (Spezifikation)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Verification_(Specification)"/>
@@ -37288,7 +37287,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Source>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Verifikation (Systemanalyse)</skos:altLabel>
+        <rdfs:label xml:lang="de">Verifikation (Systemanalyse)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Verification_(System_Analysis)"/>
