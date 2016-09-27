@@ -193,8 +193,8 @@
 	<owl:Class rdf:about="Role">
 		<rdfs:label xml:lang="en">role</rdfs:label>
 		<rdfs:label xml:lang="de">Rolle</rdfs:label>
-		<rdfs:comment xml:lang="de">Rollen beschreiben Personen und Personengruppen, die im Rahmen des Informationsmanagements
-im Krankenhaus und der Patientenbehandlung anzutreffen sind.</rdfs:comment>
+		<rdfs:comment xml:lang="de">Rollen beschreiben Personen und Personengruppen, die im Rahmen des Informationsmanagements im Krankenhaus und der Patientenbehandlung anzutreffen sind.</rdfs:comment>
+		<skos:definition xml:lang="de">Unter einer Rolle verstehen wir die Summe von Erwartungen, die an eine Person gerichtet werden. Sie beschreibt ein Bündel von zu erfüllenden Aufgaben und den daraus abgeleiteten Pflichten und den hierfür notwendigen Rechten.</skos:definition>
 		<owl:disjointWith rdf:resource="Function"/>
 		<owl:disjointWith rdf:resource="EntityType"/>
 	</owl:Class>
