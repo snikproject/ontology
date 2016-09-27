@@ -1076,17 +1076,13 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Der ARIS-Ansatz dient der Abbildung der betriebswirtschaftlichen Struktur einer Einrichtung und der dort eingesetzten Anwendungs-systeme. Zu diesem Zweck kombiniert die ARIS-Methode verschie-dene Modellierungsmethoden, wobei im Zentrum der Betrachtung und als verbindendes Element die Geschäftsprozesse der betrachteten Ein-richtung stehen.
-------------------
- Methode zur Unternehmensmodellierung. ARIS kombiniert einzelne Modellierungsmethoden, wobei im Zentrum der Betrachung and als verbindendes Element die Geschäftsprozesse (dargestellt als Ereignisgesteuerte Prozessketten) stehen.</skos:definition>
+        <skos:definition xml:lang="de">Der ARIS-Ansatz dient der Abbildung der betriebswirtschaftlichen Struktur einer Einrichtung und der dort eingesetzten Anwendungs-systeme. Zu diesem Zweck kombiniert die ARIS-Methode verschie-dene Modellierungsmethoden, wobei im Zentrum der Betrachtung und als verbindendes Element die Geschäftsprozesse der betrachteten Ein-richtung stehen. ------------------  Methode zur Unternehmensmodellierung. ARIS kombiniert einzelne Modellierungsmethoden, wobei im Zentrum der Betrachung and als verbindendes Element die Geschäftsprozesse (dargestellt als Ereignisgesteuerte Prozessketten) stehen.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">170, 321</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">844</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Architecture of Integrated Information Systems
-------------------
- Architektur integrierter Informationssysteme</skos:altLabel>
+        <Synonym>Architecture of Integrated Information Systems Architektur integrierter Informationssysteme</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;ARIS"/>
@@ -1296,10 +1292,7 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Ein Aktivitätsdiagramm dient der Modellierung des Verhaltens eines dynamischen Systems durch Beschreibung von Folgen logisch zusammen gehöriger Aktivitäten. In der Regel wird mit einem Aktivi-tätsdiagramm der Ablauf innerhalb eines Anwendungsfalls beschrieben.
-------------------
- Aktivitätsdiagramme sind als Teil der UML (siehe Kapitel 8.2) zur Beschreibung von Prozessen vor allem im Bereich der Softwareentwicklung hilfreich. Sie enthalten als Konstrukte Aktivitäten, Sequenzen, bedingte Verzweigungen, Schleifen, Parallelisierung und Synchronisation, Hierarchisierung und Partitionierung der Aktivitäten sowie Objektflüsse zwischen Aktivitäten.
-</skos:definition>
+        <skos:definition xml:lang="de">Ein Aktivitätsdiagramm dient der Modellierung des Verhaltens eines dynamischen Systems durch Beschreibung von Folgen logisch zusammen gehöriger Aktivitäten. In der Regel wird mit einem Aktivi-tätsdiagramm der Ablauf innerhalb eines Anwendungsfalls beschrieben. ------------------  Aktivitätsdiagramme sind als Teil der UML (siehe Kapitel 8.2) zur Beschreibung von Prozessen vor allem im Bereich der Softwareentwicklung hilfreich. Sie enthalten als Konstrukte Aktivitäten, Sequenzen, bedingte Verzweigungen, Schleifen, Parallelisierung und Synchronisation, Hierarchisierung und Partitionierung der Aktivitäten sowie Objektflüsse zwischen Aktivitäten. </skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">155, 164</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -1742,8 +1735,7 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;Role"/>
-        <skos:definition xml:lang="de">Konzentriert sich auf die Aufgaben, welche direkt die
-Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Benutzerbetreuung, Organisationsentwicklung.</skos:definition>
+        <skos:definition xml:lang="de">Konzentriert sich auf die Aufgaben, welche direkt die Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Benutzerbetreuung, Organisationsentwicklung.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">282</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -2856,9 +2848,7 @@ Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Be
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Die BPMN wird seit 2006 ebenso wie die UML als Standard von der Object Management Group (OMG) herausgegeben. Sie bietet Be-schreibungsmittel zur Modellierung von Geschäftsprozessen aus meh-reren Perspektiven bzw. mit mehreren Diagrammtypen und verfügt seit Version 2.0 auch über ein XML-basiertes Austauschformat für Geschäftsprozesssmodelle. Dadurch wird die Übernahme der Modelle in andere Modellierungswerkzeuge vereinfacht. BPMN-Diagramme ähneln zunächst den UML-Aktivitätsdiagrammen und bieten entspre-chend Konstrukte wie Swimlanes, Beginn- und Ende-Ereignisse, Akti-vitäten, Sequenzen, bedingte und parallele Verzweigungen sowie Informationsobjekte.
-------------------
- Methode zur Modellierung von Geschäftsprozessen, welche auf der Darstellung von Aktivitäten, Ereignissen, Informationsobjekten und Kontrollstrukturen beruht.</skos:definition>
+        <skos:definition xml:lang="de">Die BPMN wird seit 2006 ebenso wie die UML als Standard von der Object Management Group (OMG) herausgegeben. Sie bietet Be-schreibungsmittel zur Modellierung von Geschäftsprozessen aus meh-reren Perspektiven bzw. mit mehreren Diagrammtypen und verfügt seit Version 2.0 auch über ein XML-basiertes Austauschformat für Geschäftsprozesssmodelle. Dadurch wird die Übernahme der Modelle in andere Modellierungswerkzeuge vereinfacht. BPMN-Diagramme ähneln zunächst den UML-Aktivitätsdiagrammen und bieten entspre-chend Konstrukte wie Swimlanes, Beginn- und Ende-Ereignisse, Akti-vitäten, Sequenzen, bedingte und parallele Verzweigungen sowie Informationsobjekte. ------------------  Methode zur Modellierung von Geschäftsprozessen, welche auf der Darstellung von Aktivitäten, Ereignissen, Informationsobjekten und Kontrollstrukturen beruht.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">165, 323</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -2960,10 +2950,7 @@ Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Be
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Kreativitätsmethode, die auf schriftlich niedergelegten Ideen basiert.
-Die Teilnehmer notieren Ideen zu einem vorgegebenen Thema
-auf Kärtchen. Die Kärtchen werden eingesammelt, vorgelesen, sortiert
-und gemeinsam ausgewertet.</skos:definition>
+        <skos:definition xml:lang="de">Kreativitätsmethode, die auf schriftlich niedergelegten Ideen basiert. Die Teilnehmer notieren Ideen zu einem vorgegebenen Thema auf Kärtchen. Die Kärtchen werden eingesammelt, vorgelesen, sortiert und gemeinsam ausgewertet.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">328</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -3740,8 +3727,7 @@ und gemeinsam ausgewertet.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Rechnerbasierte Anwendungssysteme basieren auf Softwareprodukten, welche abgeschlossene, erworbene oder eigenentwickelte Programme darstellen, die auf einem Rechnersystem installiert sind.
-</skos:definition>
+        <skos:definition xml:lang="de">Rechnerbasierte Anwendungssysteme basieren auf Softwareprodukten, welche abgeschlossene, erworbene oder eigenentwickelte Programme darstellen, die auf einem Rechnersystem installiert sind. </skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12, 342</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -4331,15 +4317,7 @@ und gemeinsam ausgewertet.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Die Steuerungs- oder Prozesssicht dient der Modellierung von Geschäftsprozessen
-als verbindendes Element der restlichen drei Sichten.
-Die verwendete Modellierungsmethoden hierfür sind vor allem die
-eEPKs, welche Funktionen und Anwendungssysteme der Funktionssicht
-mit Organisationseinheiten der Organisationssicht und den jeweils
-relevanten Informationsobjekten der Datensicht verknüpfen.
-Mittlerweile integriert ARIS im Kontext der Steuerungssicht auch
-UML-Diagramme zur Verhaltensmodellierung (z. B. Anwendungsfall-,
-Aktivitäts- und Sequenzdiagramme) sowie die BPMN-Diagrammtypen.</skos:definition>
+        <skos:definition xml:lang="de">Die Steuerungs- oder Prozesssicht dient der Modellierung von Geschäftsprozessen als verbindendes Element der restlichen drei Sichten. Die verwendete Modellierungsmethoden hierfür sind vor allem die eEPKs, welche Funktionen und Anwendungssysteme der Funktionssicht mit Organisationseinheiten der Organisationssicht und den jeweils relevanten Informationsobjekten der Datensicht verknüpfen. Mittlerweile integriert ARIS im Kontext der Steuerungssicht auch UML-Diagramme zur Verhaltensmodellierung (z. B. Anwendungsfall-, Aktivitäts- und Sequenzdiagramme) sowie die BPMN-Diagrammtypen.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -4436,8 +4414,7 @@ Aktivitäts- und Sequenzdiagramme) sowie die BPMN-Diagrammtypen.</skos:definitio
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Methode zur Kostenanalyse, welche die Kosten verschiedener Altemativen in Beziehung zu ihrem monetär quantifizierten Nutzen stellt. Die jeweiligen Kosten ergeben sich durch eine Kostenvergleichsrechnung, die Quantifizierung des Nutzens muss hier monetär
-erfolgen.</skos:definition>
+        <skos:definition xml:lang="de">Methode zur Kostenanalyse, welche die Kosten verschiedener Altemativen in Beziehung zu ihrem monetär quantifizierten Nutzen stellt. Die jeweiligen Kosten ergeben sich durch eine Kostenvergleichsrechnung, die Quantifizierung des Nutzens muss hier monetär erfolgen.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">228, 328</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -4462,11 +4439,7 @@ erfolgen.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Methode zur Kostenanalyse, welche die Kosten verschiedener
-Alternativen in Beziehung zu ihrem quantifizierten Nutzen stellt. Die
-jeweiligen Kosten ergeben sich durch eine Kostenvergleichsrechnung,
-die Quantifizienmg des Nutzens kann z. B. über die Ermittlung
-des Nutzwertes in einer Nutzwertanalyse erfolgen.</skos:definition>
+        <skos:definition xml:lang="de">Methode zur Kostenanalyse, welche die Kosten verschiedener Alternativen in Beziehung zu ihrem quantifizierten Nutzen stellt. Die jeweiligen Kosten ergeben sich durch eine Kostenvergleichsrechnung, die Quantifizienmg des Nutzens kann z. B. über die Ermittlung des Nutzwertes in einer Nutzwertanalyse erfolgen.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">228, 328</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -4526,11 +4499,7 @@ des Nutzwertes in einer Nutzwertanalyse erfolgen.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Bei der Kostenvergleichsrechnung werden die Kosten verschiedener Alternativen direkt gegenüber gestellt. Sinnvollerweise wählt man da-bei vergleichbare Kostenkategorien. Als Kostenarten können zumin-dest Investitionskosten, Personalkosten sowie Sachkosten betrachtet werden.
-------------------
- Methode zur Kostenanalyse, welche die Kosten verschiedener
-Alternativen, welche in einer bestimmten Periode oder pro Leistungseinheit
-anfallen, direkt gegenüber stellt.</skos:definition>
+        <skos:definition xml:lang="de">Bei der Kostenvergleichsrechnung werden die Kosten verschiedener Alternativen direkt gegenüber gestellt. Sinnvollerweise wählt man da-bei vergleichbare Kostenkategorien. Als Kostenarten können zumin-dest Investitionskosten, Personalkosten sowie Sachkosten betrachtet werden. ------------------  Methode zur Kostenanalyse, welche die Kosten verschiedener Alternativen, welche in einer bestimmten Periode oder pro Leistungseinheit anfallen, direkt gegenüber stellt.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">228, 328</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -4816,8 +4785,7 @@ anfallen, direkt gegenüber stellt.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Folge von Arbeitspaketen in einem Netzplan, welche keine Pufferzeit aufweisen. Verzögerungen bei diesen Arbeitspaketen führen zu einer Verzögerung des Gesamtprojekts. Arbeitspakete auf dem kritischen Pfad sind daher engmaschig zu überwachen (siehe
-Projektüberwachung).</skos:definition>
+        <skos:definition xml:lang="de">Folge von Arbeitspaketen in einem Netzplan, welche keine Pufferzeit aufweisen. Verzögerungen bei diesen Arbeitspaketen führen zu einer Verzögerung des Gesamtprojekts. Arbeitspakete auf dem kritischen Pfad sind daher engmaschig zu überwachen (siehe Projektüberwachung).</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">329</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -5243,9 +5211,7 @@ Projektüberwachung).</skos:definition>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>        <skos:definition xml:lang="de">Unter Adaptierung verstehen wir die Anpassung eines Produkts an den Bereich, in dem es eingeführt werden soll.
-------------------
- Anpassung eines Softwareproduktes an die Gegebenheiten eines Bereichs im Rahmen einer Systemeinführung. Das bedeutet, dass nicht der Programmcode geändert wird, sondern dass das Softwareprodukt entsprechend den Möglichkeiten an die jeweils bereichsspezifischen Anforderungen angepasst ist.</skos:definition>
+	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>        <skos:definition xml:lang="de">Unter Adaptierung verstehen wir die Anpassung eines Produkts an den Bereich, in dem es eingeführt werden soll. ------------------  Anpassung eines Softwareproduktes an die Gegebenheiten eines Bereichs im Rahmen einer Systemeinführung. Das bedeutet, dass nicht der Programmcode geändert wird, sondern dass das Softwareprodukt entsprechend den Möglichkeiten an die jeweils bereichsspezifischen Anforderungen angepasst ist.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">241, 320</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -5491,10 +5457,7 @@ Projektüberwachung).</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Daten (lat. datum: das Gegebene) sind Gebilde aus Zeichen oder kontinuierliche Funktionen (z. B. Tonsignale), die aufgrund bekannter oder unterstellter Abmachungen Informationen und Wissen darstellen können. Daten sind die Grundlage oder das Ergebnis eines Verarbeitungsschrittes.
-Nachrichten sind Daten.
-------------------
- Gebilde aus Zeichen oder kontinuierlichen Funktionen, die aufgrund bekannter oder unterstellter Abmachungen Informationen und Wissen darstellen können.</skos:definition>
+        <skos:definition xml:lang="de">Daten (lat. datum: das Gegebene) sind Gebilde aus Zeichen oder kontinuierliche Funktionen (z. B. Tonsignale), die aufgrund bekannter oder unterstellter Abmachungen Informationen und Wissen darstellen können. Daten sind die Grundlage oder das Ergebnis eines Verarbeitungsschrittes. Nachrichten sind Daten. ------------------  Gebilde aus Zeichen oder kontinuierlichen Funktionen, die aufgrund bekannter oder unterstellter Abmachungen Informationen und Wissen darstellen können.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6, 324</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -5753,9 +5716,7 @@ Nachrichten sind Daten.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Datenbestandsanalysen werden zur retrolektiven Nutzung bereits vorhandener Daten oder anderer Dokumente, z. B. von Dienstanwei-sungen, Raumplänen oder Inventarlisten, eingesetzt. So können aus Inventarlisten zum Beispiel Informationen zum Umfang der einge-setzten physischen Datenverarbeitungssysteme auf einer Station ent-nommen werden. Aus Dienstanweisungen können Informationen zu bestimmten Arbeitsabläufen extrahiert werden.
-------------------
- Methode zur Informationsbeschaffung, die auf der retroelektiven Nutzung bereits schriftlich vorliegender Daten beruht.</skos:definition>
+        <skos:definition xml:lang="de">Datenbestandsanalysen werden zur retrolektiven Nutzung bereits vorhandener Daten oder anderer Dokumente, z. B. von Dienstanwei-sungen, Raumplänen oder Inventarlisten, eingesetzt. So können aus Inventarlisten zum Beispiel Informationen zum Umfang der einge-setzten physischen Datenverarbeitungssysteme auf einer Station ent-nommen werden. Aus Dienstanweisungen können Informationen zu bestimmten Arbeitsabläufen extrahiert werden. ------------------  Methode zur Informationsbeschaffung, die auf der retroelektiven Nutzung bereits schriftlich vorliegender Daten beruht.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">148</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -5801,10 +5762,7 @@ Nachrichten sind Daten.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Die Datensicht umfasst Daten- und Informationsmodelle. Verwendet
-werden hier an das ER-Modell angelehnte Modellierungsmethoden
-(insbesondere das erweiterte Entity-Relationship-Modell, eERM) (vgl.
-Abb. 8.11 auf S. 148) und mittlerweile auch UML-Klassendiagramme.</skos:definition>
+        <skos:definition xml:lang="de">Die Datensicht umfasst Daten- und Informationsmodelle. Verwendet werden hier an das ER-Modell angelehnte Modellierungsmethoden (insbesondere das erweiterte Entity-Relationship-Modell, eERM) (vgl. Abb. 8.11 auf S. 148) und mittlerweile auch UML-Klassendiagramme.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -7060,12 +7018,7 @@ Abb. 8.11 auf S. 148) und mittlerweile auch UML-Klassendiagramme.</skos:definiti
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Hier werden direkt, ohne verpflichtende
-Ausschreibung, von einem frei gewählten Unternehmen Leistun-
-gen bezogen. Dies ist in der Regel nur bei kleinen Auftragsvolu-
-mina möglich.
-------------------
- Mögliche Art einer Ausschreibung. Eine Leistung wird direkt von einem frei gewählten Unternehmen bezogen.</skos:definition>
+        <skos:definition xml:lang="de">Hier werden direkt, ohne verpflichtende Ausschreibung, von einem frei gewählten Unternehmen Leistun- gen bezogen. Dies ist in der Regel nur bei kleinen Auftragsvolu- mina möglich. ------------------  Mögliche Art einer Ausschreibung. Eine Leistung wird direkt von einem frei gewählten Unternehmen bezogen.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">220, 324</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -7291,9 +7244,7 @@ mina möglich.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Die Fachliche Ebene beschreibt die vom Informationssystem unterstützten Unternehmensaufgaben sowie die von ihnen jeweils interpretierten bzw. bearbeiteten Informationsobjekte in Form von Objekttypen.
-------------------
- Darstellung von Unternehmensaufgaben und den von ihnen interpretierten bzw. bearbeiteten Informationsobjekten in Form von Objekttypen. Vgl. Drei-Ebenen-Metamodell eines (Sub-) Informationssystems.</skos:definition>
+        <skos:definition xml:lang="de">Die Fachliche Ebene beschreibt die vom Informationssystem unterstützten Unternehmensaufgaben sowie die von ihnen jeweils interpretierten bzw. bearbeiteten Informationsobjekte in Form von Objekttypen. ------------------  Darstellung von Unternehmensaufgaben und den von ihnen interpretierten bzw. bearbeiteten Informationsobjekten in Form von Objekttypen. Vgl. Drei-Ebenen-Metamodell eines (Sub-) Informationssystems.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">168, 326</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -7458,9 +7409,7 @@ mina möglich.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Ein Erhebungsformular trägt dazu bei, dass die Datenerhebung in standardisierter Weise durchgeführt und die gewonnenen Daten ein-heitlich und vollständig dokumentiert werden – auch wenn verschie-dene Untersucher die Erhebung vornehmen.
-------------------
- Rechner- oder papierbasiertes Formular für die Aufzeichnugn erhobener Daten auf Basis einer Methode zur Informationsbeschaffung. Beispiele sind Fragebögen (bei schriftlichen Befragungen), Interviewleitfäden (bei mündlichen Befragungen) sowie Beobachtungsbögen (bei Beobachtungen).</skos:definition>
+        <skos:definition xml:lang="de">Ein Erhebungsformular trägt dazu bei, dass die Datenerhebung in standardisierter Weise durchgeführt und die gewonnenen Daten ein-heitlich und vollständig dokumentiert werden – auch wenn verschie-dene Untersucher die Erhebung vornehmen. ------------------  Rechner- oder papierbasiertes Formular für die Aufzeichnugn erhobener Daten auf Basis einer Methode zur Informationsbeschaffung. Beispiele sind Fragebögen (bei schriftlichen Befragungen), Interviewleitfäden (bei mündlichen Befragungen) sowie Beobachtungsbögen (bei Beobachtungen).</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">134, 325</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -7531,10 +7480,7 @@ mina möglich.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
-        <skos:definition xml:lang="de">Eine Unternehmensaufgabe steht für eine oder mehrere Handlun-gen, die notwendig sind, um eines oder mehrere Ziele einer Einrichtung zu erreichen.
-Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Handlungsträger – oder im Zusammenwirken beider bearbeitet. Unternehmensaufgaben haben keinen definierten Anfang und kein definiertes Ende. Sie lassen sich in Teilaufgaben gliedern. Unternehmensaufgaben beschreiben, was zu tun ist, aber nicht wie.
-------------------
- Handlungen, die notwendig sind, um eines oder mehrere Ziele einer Einrichtung zu erreichen. Wird durch menschliche oder maschinelle Handlungsträger oder im Zusammenwirken beider bearbeitet. Unternehmensaufgaben haben keinen definierten Anfang und kein definiertes Ende. Sie lassen sich in Teilaufgaben gliedern.</skos:definition>
+        <skos:definition xml:lang="de">Eine Unternehmensaufgabe steht für eine oder mehrere Handlun-gen, die notwendig sind, um eines oder mehrere Ziele einer Einrichtung zu erreichen. Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Handlungsträger – oder im Zusammenwirken beider bearbeitet. Unternehmensaufgaben haben keinen definierten Anfang und kein definiertes Ende. Sie lassen sich in Teilaufgaben gliedern. Unternehmensaufgaben beschreiben, was zu tun ist, aber nicht wie. ------------------  Handlungen, die notwendig sind, um eines oder mehrere Ziele einer Einrichtung zu erreichen. Wird durch menschliche oder maschinelle Handlungsträger oder im Zusammenwirken beider bearbeitet. Unternehmensaufgaben haben keinen definierten Anfang und kein definiertes Ende. Sie lassen sich in Teilaufgaben gliedern.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11, 347</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -7623,9 +7569,7 @@ Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Han
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16, 8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Methode zur Datenmodellierung, welche auf der Darstellung von Objekten und ihrer Beziehungen beruht.
-------------------
- ER-Modelle verstehen die Welt als miteinander in vielfältiger Bezie-hung (Relationships) stehende Objekte (Entitäten). Entitäten wie z. B. die Entität Patient Peter Aegrotus haben Eigenschaften (Attribute) wie z. B. eine Patienten-ID (z. B. 12141988PA1) und ein Geburtsdatum (14.12.1988). Attribute, die eine Entität eineindeutig beschreiben (z. B. die Patienten-ID), werden als Schlüsselattribute bezeichnet. Entitäten mit vergleichbaren Eigenschaften werden zu Entitätsklassen (z. B. Arzt, Patient, Diagnose), auch Entitätstypen genannt, zusammengefasst. Entitäten gehen mit anderen Entitäten Beziehungen ein, so wie z. B. der Patient Peter Aegrotus mit einem Arzt Dr. Klaus Medicus eine Behandlungsbeziehung vom 01.02.2014 bis zum 14.02.2014 eingegangen ist. Diese Beziehung trägt eine Bezeichnung „Behandlung“ und kann zwischen einem Arzt Dr. Medicus und poten-ziell beliebig vielen Patienten bestehen. Unterschieden wird auch hier die konkrete Beziehung von der Beziehungsklasse (auch Beziehungs-typ genannt). Die Angabe, wie viele Entitäten an einer Beziehung beteiligt sein können, wird als Kardinalität der Beziehungsklasse be-zeichnet. Kardinalitäten werden an die Beziehungslinien in der Nähe der betreffenden Entitätsklasse gezeichnet.</skos:definition>
+        <skos:definition xml:lang="de">Methode zur Datenmodellierung, welche auf der Darstellung von Objekten und ihrer Beziehungen beruht. ------------------  ER-Modelle verstehen die Welt als miteinander in vielfältiger Bezie-hung (Relationships) stehende Objekte (Entitäten). Entitäten wie z. B. die Entität Patient Peter Aegrotus haben Eigenschaften (Attribute) wie z. B. eine Patienten-ID (z. B. 12141988PA1) und ein Geburtsdatum (14.12.1988). Attribute, die eine Entität eineindeutig beschreiben (z. B. die Patienten-ID), werden als Schlüsselattribute bezeichnet. Entitäten mit vergleichbaren Eigenschaften werden zu Entitätsklassen (z. B. Arzt, Patient, Diagnose), auch Entitätstypen genannt, zusammengefasst. Entitäten gehen mit anderen Entitäten Beziehungen ein, so wie z. B. der Patient Peter Aegrotus mit einem Arzt Dr. Klaus Medicus eine Behandlungsbeziehung vom 01.02.2014 bis zum 14.02.2014 eingegangen ist. Diese Beziehung trägt eine Bezeichnung „Behandlung“ und kann zwischen einem Arzt Dr. Medicus und poten-ziell beliebig vielen Patienten bestehen. Unterschieden wird auch hier die konkrete Beziehung von der Beziehungsklasse (auch Beziehungs-typ genannt). Die Angabe, wie viele Entitäten an einer Beziehung beteiligt sein können, wird als Kardinalität der Beziehungsklasse be-zeichnet. Kardinalitäten werden an die Beziehungslinien in der Nähe der betreffenden Entitätsklasse gezeichnet.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">325, 152</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -7819,12 +7763,7 @@ Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Han
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Bewertungskriterien müssen geeignet sein, die zugrunde liegende Fragestellung der Untersuchung auch tatsächlich zu beantworten. Soll zum Beispiel die Datenqualität von Dokumenten, welche mit einem bestimmten Anwendungssystem erfasst wurden, bewertet werden, macht eine Erhebung der Häufigkeit fehlerhafter Doku-mente und der Zahl der Fehler in einem Dokument mehr Sinn als eine alleinige Befragung der Anwender zur subjektiven Wahr-nehmung fehlerhafter Dokumente.
- Bewertungskriterien sollten, soweit möglich und sinnvoll, quanti-fizierbar sein. Messbare Kriterien wie „Zeitaufwände“ und „Kos-ten“ sind z. B. gut quantifizierbar, andere Kriterien wie z. B. „subjektiv empfundene Probleme bei der Handhabung einer Komponente“ etwas schwieriger.
- Bewertungskriterien müssen in der geplanten Systemanalyse auch tatsächlich ermittelt werden können. Zur genauen Beurteilung von Zeitaufwänden für die Dokumentation sind z. B. relativ aufwän-dige Zeitmessungen notwendig.
- Bewertungskriterien müssen so formuliert sein, dass das Ergebnis der Bewertung für Außenstehende nachvollziehbar ist.
-------------------
- Merkmal zur Beurteilung eines (Sub-) Informationssystems im Rahmen einer Systemanalyse und -bewertung. Zweckmäßig ist es, wenn Bewertungskriterien qualifizierbar sind. Es werden Muss-, Soll- und Kann-Kriterien unterschieden.</skos:definition>
+        <skos:definition xml:lang="de">Bewertungskriterien müssen geeignet sein, die zugrunde liegende Fragestellung der Untersuchung auch tatsächlich zu beantworten. Soll zum Beispiel die Datenqualität von Dokumenten, welche mit einem bestimmten Anwendungssystem erfasst wurden, bewertet werden, macht eine Erhebung der Häufigkeit fehlerhafter Doku-mente und der Zahl der Fehler in einem Dokument mehr Sinn als eine alleinige Befragung der Anwender zur subjektiven Wahr-nehmung fehlerhafter Dokumente.  Bewertungskriterien sollten, soweit möglich und sinnvoll, quanti-fizierbar sein. Messbare Kriterien wie „Zeitaufwände“ und „Kos-ten“ sind z. B. gut quantifizierbar, andere Kriterien wie z. B. „subjektiv empfundene Probleme bei der Handhabung einer Komponente“ etwas schwieriger.  Bewertungskriterien müssen in der geplanten Systemanalyse auch tatsächlich ermittelt werden können. Zur genauen Beurteilung von Zeitaufwänden für die Dokumentation sind z. B. relativ aufwän-dige Zeitmessungen notwendig.  Bewertungskriterien müssen so formuliert sein, dass das Ergebnis der Bewertung für Außenstehende nachvollziehbar ist. ------------------  Merkmal zur Beurteilung eines (Sub-) Informationssystems im Rahmen einer Systemanalyse und -bewertung. Zweckmäßig ist es, wenn Bewertungskriterien qualifizierbar sind. Es werden Muss-, Soll- und Kann-Kriterien unterschieden.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128, 323</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -8231,11 +8170,7 @@ Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Han
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">In der Evaluationsplanung werden zunächst Motivation und Kontext
-der Systemevaluation geklärt und insbesondere die zu evaluierten
-Komponente und die Ziele ihrer Einführung festgehalten. Anschlie-
-ßend werden die Ziele der Systemevaluation abgeleitet. Schließlich
-wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Methoden zur Informationsbeschaffung und Datenauswertung festlegt.</skos:definition>
+        <skos:definition xml:lang="de">In der Evaluationsplanung werden zunächst Motivation und Kontext der Systemevaluation geklärt und insbesondere die zu evaluierten Komponente und die Ziele ihrer Einführung festgehalten. Anschlie- ßend werden die Ziele der Systemevaluation abgeleitet. Schließlich wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Methoden zur Informationsbeschaffung und Datenauswertung festlegt.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">262</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -9847,9 +9782,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Inhaltlich baut der Abschlussbericht auf dem Projektplan auf und stellt ihn daher zunächst (in der Regel in deutlich gekürzter Form) noch ein-mal dar. Dabei sind die im Projektverlauf aufgetretenen notwendigen Änderungen zum Projektplan darzustellen. Der Hauptteil des Ab-schlussberichts ist die Darstellung der Ergebnisse. Die Darstellung sollte knapp, aber vollständig sein und sich an der Zielsetzung des Projekts orientieren. Bei größerem Umfang der Projektergebnisse können diese im Abschlussbericht auch nur überblicksartig dargestellt werden, um dann auf eigenständige Dokumente zu verweisen, welche wir später z. B. als Analysebericht (Kapitel 8.2, S. 132), als Sollkon-zept (Kapitel 9.2, S. 191), als Schulungskonzept (Kapitel 11.6, S. 247) oder als Evaluationsbericht (Kapitel 12.2, S. 260) kennen lernen wer-den. Der Abschlussbericht schließt mit einer kurzen Diskussion und einem Ausblick auf sinnvolle Folgeprojekte. Der Anhang kann z. B. Verträge oder Abnahme- und Übergabeprotokolle enthalten. Der Ab-schlussbericht hilft, Ergebnisse auch nach längerer Zeit noch reprodu-zierbar zu machen. Der Abschlussbericht fasst die wichtigsten Inhalte der Verlaufs- und Ergebnisdokumentation zusammen. Je sorgfältiger die Projektdoku-mentation geführt wurde und je systematischer bereits im Projekt-verlauf Zwischenberichte erstellt wurden (vgl. Kapitel 6.2), desto einfacher und schneller kann der Abschlussbericht erstellt werden.
-------------------
- Fasst die Ziele und die wichtigsten Inhalte der Verlaufs- und Ergebnisdokumentation eines Projekts zusammen. Der Abschlussbericht wird in der Phase des Projektabschlusses erstellt.</skos:definition>
+        <skos:definition xml:lang="de">Inhaltlich baut der Abschlussbericht auf dem Projektplan auf und stellt ihn daher zunächst (in der Regel in deutlich gekürzter Form) noch ein-mal dar. Dabei sind die im Projektverlauf aufgetretenen notwendigen Änderungen zum Projektplan darzustellen. Der Hauptteil des Ab-schlussberichts ist die Darstellung der Ergebnisse. Die Darstellung sollte knapp, aber vollständig sein und sich an der Zielsetzung des Projekts orientieren. Bei größerem Umfang der Projektergebnisse können diese im Abschlussbericht auch nur überblicksartig dargestellt werden, um dann auf eigenständige Dokumente zu verweisen, welche wir später z. B. als Analysebericht (Kapitel 8.2, S. 132), als Sollkon-zept (Kapitel 9.2, S. 191), als Schulungskonzept (Kapitel 11.6, S. 247) oder als Evaluationsbericht (Kapitel 12.2, S. 260) kennen lernen wer-den. Der Abschlussbericht schließt mit einer kurzen Diskussion und einem Ausblick auf sinnvolle Folgeprojekte. Der Anhang kann z. B. Verträge oder Abnahme- und Übergabeprotokolle enthalten. Der Ab-schlussbericht hilft, Ergebnisse auch nach längerer Zeit noch reprodu-zierbar zu machen. Der Abschlussbericht fasst die wichtigsten Inhalte der Verlaufs- und Ergebnisdokumentation zusammen. Je sorgfältiger die Projektdoku-mentation geführt wurde und je systematischer bereits im Projekt-verlauf Zwischenberichte erstellt wurden (vgl. Kapitel 6.2), desto einfacher und schneller kann der Abschlussbericht erstellt werden. ------------------  Fasst die Ziele und die wichtigsten Inhalte der Verlaufs- und Ergebnisdokumentation eines Projekts zusammen. Der Abschlussbericht wird in der Phase des Projektabschlusses erstellt.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">108, 319</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -10068,11 +10001,7 @@ wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Me
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Auf der ersten Ebene gibt es einen definierten ersten Ansprechpartner, der sich um alle Arbeiten und Probleme der Benutzer kümmert, ggf. auch für mehrere in einem Bereich eingesetzte Anwendungssysteme. Dies kann z. B. ein Anwendungsbetreuer sein, der dem Bereich zugeordnet ist, ein speziell geschulter Benutzer vor Ort (Key User) oder auch eine zentrale Benutzer-Hotline. Falls es Probleme oder Fragen gibt, die der
-First-Level-Support als Generalist nicht lösen kann, gibt er sie an
-den Second-Level-Support weiter.
-------------------
- Erste Ebene der Anwendungsbetreuung im Rahmen des Systembetriebs, bei der ein klar definierter Ansprechpartner sich um Routinearbeiten sowie um alle Probleme der Benutzer kümmert, ggf. auch für mehrere in einem Bereich eingesetzten Anwendungssysteme.</skos:definition>
+        <skos:definition xml:lang="de">Auf der ersten Ebene gibt es einen definierten ersten Ansprechpartner, der sich um alle Arbeiten und Probleme der Benutzer kümmert, ggf. auch für mehrere in einem Bereich eingesetzte Anwendungssysteme. Dies kann z. B. ein Anwendungsbetreuer sein, der dem Bereich zugeordnet ist, ein speziell geschulter Benutzer vor Ort (Key User) oder auch eine zentrale Benutzer-Hotline. Falls es Probleme oder Fragen gibt, die der First-Level-Support als Generalist nicht lösen kann, gibt er sie an den Second-Level-Support weiter. ------------------  Erste Ebene der Anwendungsbetreuung im Rahmen des Systembetriebs, bei der ein klar definierter Ansprechpartner sich um Routinearbeiten sowie um alle Probleme der Benutzer kümmert, ggf. auch für mehrere in einem Bereich eingesetzten Anwendungssysteme.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284, 326</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -10369,13 +10298,7 @@ den Second-Level-Support weiter.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">ein wichtiger Teil des Sollkonzepts. Ein Pflichtenheft beschreibt vor dem Hintergrund des Soll-Modells die Anforderungen an ein neues Pro-dukt. Je nachdem, ob das Sollkonzept definiert, ob ein fertiges Soft-wareprodukt gekauft oder erst entwickelt werden muss, dient das Pflichtenheft als Basis für eine Systemauswahl (vgl. Kapitel 10) oder als grundlegendes Dokument für die Systementwicklung.
-------------------
- Sammlung, Gruppierung und Priorisierung aller Anforderungen, die
-an ein Produkt gestellt werden. Pflichtenhefte werden in der Regel
-vor allem bei der Auswahl rechnerbasierter Anwendungssysteme
-eingesetzt sowie als Grundlage für deren Entwicklung. Sie stellen ein
-Ergebnis einer Systemspezifikation dar.</skos:definition>
+        <skos:definition xml:lang="de">ein wichtiger Teil des Sollkonzepts. Ein Pflichtenheft beschreibt vor dem Hintergrund des Soll-Modells die Anforderungen an ein neues Pro-dukt. Je nachdem, ob das Sollkonzept definiert, ob ein fertiges Soft-wareprodukt gekauft oder erst entwickelt werden muss, dient das Pflichtenheft als Basis für eine Systemauswahl (vgl. Kapitel 10) oder als grundlegendes Dokument für die Systementwicklung. ------------------  Sammlung, Gruppierung und Priorisierung aller Anforderungen, die an ein Produkt gestellt werden. Pflichtenhefte werden in der Regel vor allem bei der Auswahl rechnerbasierter Anwendungssysteme eingesetzt sowie als Grundlage für deren Entwicklung. Sie stellen ein Ergebnis einer Systemspezifikation dar.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">185, 333</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -10427,16 +10350,7 @@ Ergebnis einer Systemspezifikation dar.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Die Funktionssicht ermöglicht die Darstellung der für die Einrichtung
-relevanten Funktionen (Aktivitäten) und ihrer Attribute (Zeitbedarf,
-Kosten etc.). Zur Modellierung werden z. B. Funktionsbäume verwendet,
-um Funktionen in ihrer hierarchischen Unterteilung in Unterfunktionen
-darstellen zu können. Aber auch Anwendungssysteme werden
-in dieser Sicht modelliert, wobei diese ausgehend vom Anwendungssystem-
-Typ (z. B. Patientenverwaltungssystem) über das konkrete
-Anwendungssystem (z. B. Patientenverwaltungssystem SAP IS-H) bis
-auf die Ebene der Benutzerschnittstellen (z. B. Dialog zur administrativen
-Patientenaufnahme) beschrieben werden können.</skos:definition>
+        <skos:definition xml:lang="de">Die Funktionssicht ermöglicht die Darstellung der für die Einrichtung relevanten Funktionen (Aktivitäten) und ihrer Attribute (Zeitbedarf, Kosten etc.). Zur Modellierung werden z. B. Funktionsbäume verwendet, um Funktionen in ihrer hierarchischen Unterteilung in Unterfunktionen darstellen zu können. Aber auch Anwendungssysteme werden in dieser Sicht modelliert, wobei diese ausgehend vom Anwendungssystem- Typ (z. B. Patientenverwaltungssystem) über das konkrete Anwendungssystem (z. B. Patientenverwaltungssystem SAP IS-H) bis auf die Ebene der Benutzerschnittstellen (z. B. Dialog zur administrativen Patientenaufnahme) beschrieben werden können.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -10601,9 +10515,7 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Nachdem alle organisatorischen und technischen Vorbereitungen ab-geschlossen und die Schulungen durchgeführt sind, erfolgt die eigent-liche Inbetriebnahme („Go-Live“) entsprechend der vorher festgeleg-ten Einführungsstrategie. Es ist wichtig, alle Betroffenen mehrmals über Zeitpunkt und Zeitraum der Inbetriebnahme zu informieren, um alle noch offenen Fragen im Vorfeld abklären zu können. Falls so vereinbart, können der eigentlichen Inbetriebnahme eine definierte Testphase und/oder eine Pilotierung (siehe weiter oben) vorausgehen.
-------------------
- Zeitpunkt, an dem entsprechend der festgelegten Einführungsstrategie der Echtbetrieb eines Anwendungssystems beginnt. Die Inbetriebnahme stellt einen wichtigen Meilenstein jeder Systemeinführung dar.</skos:definition>
+        <skos:definition xml:lang="de">Nachdem alle organisatorischen und technischen Vorbereitungen ab-geschlossen und die Schulungen durchgeführt sind, erfolgt die eigent-liche Inbetriebnahme („Go-Live“) entsprechend der vorher festgeleg-ten Einführungsstrategie. Es ist wichtig, alle Betroffenen mehrmals über Zeitpunkt und Zeitraum der Inbetriebnahme zu informieren, um alle noch offenen Fragen im Vorfeld abklären zu können. Falls so vereinbart, können der eigentlichen Inbetriebnahme eine definierte Testphase und/oder eine Pilotierung (siehe weiter oben) vorausgehen. ------------------  Zeitpunkt, an dem entsprechend der festgelegten Einführungsstrategie der Echtbetrieb eines Anwendungssystems beginnt. Die Inbetriebnahme stellt einen wichtigen Meilenstein jeder Systemeinführung dar.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">249, 326</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -10981,10 +10893,7 @@ Patientenaufnahme) beschrieben werden können.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">In einem Übergabeprotokoll wird festgelegt, wer
-künftig die Verantwortung für den Betrieb übernimmt. Die relevante
-Dokumentation muss vom Projektleiter an diesen Verantwortlichen
-übergeben werden.</skos:definition>
+        <skos:definition xml:lang="de">In einem Übergabeprotokoll wird festgelegt, wer künftig die Verantwortung für den Betrieb übernimmt. Die relevante Dokumentation muss vom Projektleiter an diesen Verantwortlichen übergeben werden.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">252</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1657</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
@@ -11813,11 +11722,7 @@ Dokumentation muss vom Projektleiter an diesen Verantwortlichen
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Der Analyseplanung folgt die Informationsbeschaffung, in der je nach
-Fragestellung Methoden wie Befragung, Beobachtung oder Dokumentenanalyse
-eingesetzt werden. Die Informationsbeschaffung erfolgt
-durch das Analyseteam in der Regel unter Einbeziehung von Mitarbeitern
-des betrachteten Bereichs.</skos:definition>
+        <skos:definition xml:lang="de">Der Analyseplanung folgt die Informationsbeschaffung, in der je nach Fragestellung Methoden wie Befragung, Beobachtung oder Dokumentenanalyse eingesetzt werden. Die Informationsbeschaffung erfolgt durch das Analyseteam in der Regel unter Einbeziehung von Mitarbeitern des betrachteten Bereichs.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">384</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
@@ -12035,14 +11940,7 @@ des betrachteten Bereichs.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Ein Informationssystem ist das (sozio-technische) Teilsystem einer
-Einrichtung, das aus den informationsverarbeitenden Prozessen und
-den an ihnen beteiligten menschlichen und maschinellen Handlungsträgern
-besteht. Es ist damit das gesamte informationsverarbeitende
-und informationsspeichernde Teilsystem einer Einrichtung.
-------------------
- Sozio-technisches Teilsystem einer Einrichtung, das aus den informationsverarbeitenden Prozessen und den an ihnen beteiligten menschlichen und maschinellen Handlungsträgern besteht. Informationssysteme verarbeiten Daten und Nachrichten, welche sowohl
-Informationen als auch Wissen darstellen können.</skos:definition>
+        <skos:definition xml:lang="de">Ein Informationssystem ist das (sozio-technische) Teilsystem einer Einrichtung, das aus den informationsverarbeitenden Prozessen und den an ihnen beteiligten menschlichen und maschinellen Handlungsträgern besteht. Es ist damit das gesamte informationsverarbeitende und informationsspeichernde Teilsystem einer Einrichtung. ------------------  Sozio-technisches Teilsystem einer Einrichtung, das aus den informationsverarbeitenden Prozessen und den an ihnen beteiligten menschlichen und maschinellen Handlungsträgern besteht. Informationssysteme verarbeiten Daten und Nachrichten, welche sowohl Informationen als auch Wissen darstellen können.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9, 327</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -12298,13 +12196,7 @@ Informationen als auch Wissen darstellen können.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Informations- und Wissenslogistik umfasst das Bereitstellen
-- der richtigen Information und des richtigen Wissens
-- zum richtigen Zeitpunkt
-- am richtigen Ort
-- in der richtigen Form
-- für die richtigen Personen
-so, dass die richtigen Entscheidungen getroffen werden können.</skos:definition>
+        <skos:definition xml:lang="de">Informations- und Wissenslogistik umfasst das Bereitstellen - der richtigen Information und des richtigen Wissens - zum richtigen Zeitpunkt - am richtigen Ort - in der richtigen Form - für die richtigen Personen so, dass die richtigen Entscheidungen getroffen werden können.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16, 327</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -12830,14 +12722,7 @@ so, dass die richtigen Entscheidungen getroffen werden können.</skos:definition
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Als Erhebungsformular wird ein Interviewleitfaden eingesetzt, der bei
-standardisierten Interviews die genauen Fragen und ggf. die Antwortmöglichkeiten,
-bei nicht standardisierten Interviews die Fragethemen
-und die Einstiegsfrage vorgibt. Der Leitfaden hat zwei Funktionen:
- Er enthält Anweisungen an den Interviewer, z. B. allgemeiner Ablauf,
-Einstieg und Schluss, Fragen, ggf. Antwortmöglichkeiten.
- Er dient der Dokumentation der Antworten. Zu diesem Zweck
-sollte er ausreichend Platz lassen.</skos:definition>
+        <skos:definition xml:lang="de">Als Erhebungsformular wird ein Interviewleitfaden eingesetzt, der bei standardisierten Interviews die genauen Fragen und ggf. die Antwortmöglichkeiten, bei nicht standardisierten Interviews die Fragethemen und die Einstiegsfrage vorgibt. Der Leitfaden hat zwei Funktionen:  Er enthält Anweisungen an den Interviewer, z. B. allgemeiner Ablauf, Einstieg und Schluss, Fragen, ggf. Antwortmöglichkeiten.  Er dient der Dokumentation der Antworten. Zu diesem Zweck sollte er ausreichend Platz lassen.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">139</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -13071,10 +12956,7 @@ sollte er ausreichend Platz lassen.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Erstes gemeinsames Treffen des Projektteams eines Projekts. Das
-Kick-Off-Meeting stellt den Startschuss für die gemeinsame Projektarbeit
-dar und findet in der Regel am Ende der Projektinitiierung
-statt. Es dient vor allem der Teambildung.</skos:definition>
+        <skos:definition xml:lang="de">Erstes gemeinsames Treffen des Projektteams eines Projekts. Das Kick-Off-Meeting stellt den Startschuss für die gemeinsame Projektarbeit dar und findet in der Regel am Ende der Projektinitiierung statt. Es dient vor allem der Teambildung.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">328</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -13133,12 +13015,7 @@ statt. Es dient vor allem der Teambildung.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1; 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Wissen (lat. videre: sehen) ist eine Feststellung über Begriffe eines Fachgebiets zu gegebener Zeit.
-          Solche Feststellungen führen zu Terminologien und beschreiben regelhafte Zusammenhänge und Handlungsrichtlinien.
-          Wissen ist demnach auch Information im weiteren Sinne, bezieht sich aber nicht auf einzelne Objekte, sondern in der Regel auf Mengen
-          von Objekten, d. h. auf Begriffe, und die für sie geltende Zusammenhänge und Gesetzmäßigkeiten.
-------------------
- Feststellung über Begriffe eines Fachgebiets zu gegebener Zeit. Wissen ist auch Informationen im weiteren Sinne.</skos:definition>
+        <skos:definition xml:lang="de">Wissen (lat. videre: sehen) ist eine Feststellung über Begriffe eines Fachgebiets zu gegebener Zeit.           Solche Feststellungen führen zu Terminologien und beschreiben regelhafte Zusammenhänge und Handlungsrichtlinien.           Wissen ist demnach auch Information im weiteren Sinne, bezieht sich aber nicht auf einzelne Objekte, sondern in der Regel auf Mengen           von Objekten, d. h. auf Begriffe, und die für sie geltende Zusammenhänge und Gesetzmäßigkeiten. ------------------  Feststellung über Begriffe eines Fachgebiets zu gegebener Zeit. Wissen ist auch Informationen im weiteren Sinne.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6, 348</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -13300,15 +13177,7 @@ statt. Es dient vor allem der Teambildung.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Nach-
-dem eine unbeschränkte Zahl von Unternehmen öffentlich zur
-Abgabe von Teilnahmeanträgen aufgefordert wurde (1. Stufe),
-werden aufgrund ihrer Eignung ausgewählte Bewerber (mindes-
-tens fünf) zur Abgabe eines detaillierten Angebots aufgefordert
-(2. Stufe). Die Auswahl der Bewerber erfolgt nach vorher festge-
-legten Kriterien. Das weitere Verfahren ist wie beim offenen Ver-
-fahren. Diese Verfahrensart ist neben dem offenen Verfahren un-
-beschränkt zulässig.</skos:definition>
+        <skos:definition xml:lang="de">Nach- dem eine unbeschränkte Zahl von Unternehmen öffentlich zur Abgabe von Teilnahmeanträgen aufgefordert wurde (1. Stufe), werden aufgrund ihrer Eignung ausgewählte Bewerber (mindes- tens fünf) zur Abgabe eines detaillierten Angebots aufgefordert (2. Stufe). Die Auswahl der Bewerber erfolgt nach vorher festge- legten Kriterien. Das weitere Verfahren ist wie beim offenen Ver- fahren. Diese Verfahrensart ist neben dem offenen Verfahren un- beschränkt zulässig.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">219, 322</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -13334,25 +13203,19 @@ beschränkt zulässig.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Nicht offenes Verfahren ohne vorherige Bekanntmachung: Eine
-beschränkte Zahl von Unternehmen (mindestens fünf) wird ge-
-zielt zur Angebotsabgabe aufgefordert. Das weitere Verfahren ist
-wie beim offenen Verfahren. Diese Verfahrensart ist nur in be-
-stimmen Fällen möglich, z. B. wenn die ausgeschriebene Leistung
-nur ein beschränkter Kreis von Firmen erbringen kann.</skos:definition>
+        <skos:definition xml:lang="de">Nicht offenes Verfahren ohne vorherige Bekanntmachung: Eine beschränkte Zahl von Unternehmen (mindestens fünf) wird ge- zielt zur Angebotsabgabe aufgefordert. Das weitere Verfahren ist wie beim offenen Verfahren. Diese Verfahrensart ist nur in be- stimmen Fällen möglich, z. B. wenn die ausgeschriebene Leistung nur ein beschränkter Kreis von Firmen erbringen kann.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">219, 322</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1327</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
-        <Synonym>Nicht offenes Verfahren ohne
-Bekanntmachung</skos:altLabel>
+        <Synonym>Nicht offenes Verfahren ohne Bekanntmachung</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Limited_Tender_without_Public_Announcement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Tender"/>
-        <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">219, 322</Tripel_Page>
+      <Tripel_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">219, 322</Tripel_Page>
         <Tripel_RowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1327</Tripel_RowNr>
     </owl:Axiom>
 
@@ -13708,9 +13571,7 @@ Bekanntmachung</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.1</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Management von Informationssystemen bedeutet, Informationssysteme zu planen, auf der Grundlage dieser Planungen den Aufbau und die Weiterentwicklung ihrer Architektur und ihren Betrieb zu
-steuern und die Einhaltung der Planvorgaben und den Betrieb zu
-überwachen.</skos:definition>
+        <skos:definition xml:lang="de">Management von Informationssystemen bedeutet, Informationssysteme zu planen, auf der Grundlage dieser Planungen den Aufbau und die Weiterentwicklung ihrer Architektur und ihren Betrieb zu steuern und die Einhaltung der Planvorgaben und den Betrieb zu überwachen.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -13875,10 +13736,7 @@ steuern und die Einhaltung der Planvorgaben und den Betrieb zu
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Form der Projektorganisation, in der die Projektmitarbeiter disziplinarisch
-gesehen in ihren bisherigen Positionen in der Einrichtung
-verbleiben, aber fachlich dem Projekt zugeordnet und auch zeitlich
-in unterschiedlichem Umfang für das Projekt freigestellt werden.</skos:definition>
+        <skos:definition xml:lang="de">Form der Projektorganisation, in der die Projektmitarbeiter disziplinarisch gesehen in ihren bisherigen Positionen in der Einrichtung verbleiben, aber fachlich dem Projekt zugeordnet und auch zeitlich in unterschiedlichem Umfang für das Projekt freigestellt werden.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">330</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -13904,8 +13762,7 @@ in unterschiedlichem Umfang für das Projekt freigestellt werden.</skos:definiti
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Spezielle, hoch standardisierte Art der Beobachtung, bei der Kennzahlen
-mit Hilfe von Messinstrumenten quantitativ erhoben werden (z.B. Zeitmessung).</skos:definition>
+        <skos:definition xml:lang="de">Spezielle, hoch standardisierte Art der Beobachtung, bei der Kennzahlen mit Hilfe von Messinstrumenten quantitativ erhoben werden (z.B. Zeitmessung).</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">330</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -13948,8 +13805,7 @@ mit Hilfe von Messinstrumenten quantitativ erhoben werden (z.B. Zeitmessung).</s
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Daten, die zum Zweck ihrer Weitergabe zusammengestellt und als
-Einheit betrachtet werden.</skos:definition>
+        <skos:definition xml:lang="de">Daten, die zum Zweck ihrer Weitergabe zusammengestellt und als Einheit betrachtet werden.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6, 331</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -13967,8 +13823,7 @@ Einheit betrachtet werden.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Die für ein Modell verwendete Modelierungssprache, also die für
-das Beschreiben verwendeten Symbole, Worte oder grafischen Zeichen.</skos:definition>
+        <skos:definition xml:lang="de">Die für ein Modell verwendete Modelierungssprache, also die für das Beschreiben verwendeten Symbole, Worte oder grafischen Zeichen.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8, 330</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -14165,9 +14020,7 @@ das Beschreiben verwendeten Symbole, Worte oder grafischen Zeichen.</skos:defini
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Beschreibt, welche Maßnahmen notwendig sind, um von einem Ist-Zustand
-zu einem gewünschten Soll-Zustand zu gelangen. Der Migrationsplan
-ist Teil des Sollkonzepts bei einer Systemspezifikation.</skos:definition>
+        <skos:definition xml:lang="de">Beschreibt, welche Maßnahmen notwendig sind, um von einem Ist-Zustand zu einem gewünschten Soll-Zustand zu gelangen. Der Migrationsplan ist Teil des Sollkonzepts bei einer Systemspezifikation.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">331</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -14187,8 +14040,7 @@ ist Teil des Sollkonzepts bei einer Systemspezifikation.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Wichtiges termingebundenes Ereignis im Verlauf eines Projekts. Meilensteine unterstützen die Projektüberwachung, also die Überprüfung, ob das Projekt inhaltlich und terminlich noch entsprechend dem Projektplan abläuft. Meilensteine werden als Ergebnis der
-Ablaufplanung in der Projektplanung festgelegt.</skos:definition>
+        <skos:definition xml:lang="de">Wichtiges termingebundenes Ereignis im Verlauf eines Projekts. Meilensteine unterstützen die Projektüberwachung, also die Überprüfung, ob das Projekt inhaltlich und terminlich noch entsprechend dem Projektplan abläuft. Meilensteine werden als Ergebnis der Ablaufplanung in der Projektplanung festgelegt.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">330</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -14219,8 +14071,7 @@ Ablaufplanung in der Projektplanung festgelegt.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Methode der Projektüberwachung, bei der auf Basis der Informationen über die Erreichung geplanter Meilensteine ein zeitlicher IstSOLL-
-Vergleich vorgenommen wird.</skos:definition>
+        <skos:definition xml:lang="de">Methode der Projektüberwachung, bei der auf Basis der Informationen über die Erreichung geplanter Meilensteine ein zeitlicher IstSOLL- Vergleich vorgenommen wird.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">330</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -14359,10 +14210,7 @@ Vergleich vorgenommen wird.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;Role"/>
-        <skos:definition xml:lang="de">Bei offenen Fragen ist es empfehlenswert, neben einem Gesprächsführer
-auch einen Protokollführer zu haben, welcher die Antworten
-notiert und bei Verständnisproblemen nachfragt. Ist der Befragte einverstanden,
-kann ein Aufnahmegerät verwendet werden</skos:definition>
+        <skos:definition xml:lang="de">Bei offenen Fragen ist es empfehlenswert, neben einem Gesprächsführer auch einen Protokollführer zu haben, welcher die Antworten notiert und bei Verständnisproblemen nachfragt. Ist der Befragte einverstanden, kann ein Aufnahmegerät verwendet werden</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">140</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -14398,9 +14246,7 @@ kann ein Aufnahmegerät verwendet werden</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Ein Modell (ital. modello: Muster, Vorbild) ist die Beschreibung ei-nes Systems mit Hilfe einer Sprache (Modellierungssprache). Ein Modell ist ausgerichtet auf bestimmte, für eine Fragestellung wesentliche Aspekte des Systems bzw. des Teilsystems. Modelle sollen Fragen über ein System gezielt beantworten oder bestimmte Aufgaben im Zusammenhang mit dem modellierten System unter-stützen.
-------------------
- Beschreibung eines Systems mit Hilfe einer Sprache (Modellierungssprache). Ein Modell ist ausgerichtet auf bestimmte, für eine Fragestellung wesentliche Aspekte eines Systems. Die verwendete ModelIierungssprache wird auch als Metamodell bezeichnet.</skos:definition>
+        <skos:definition xml:lang="de">Ein Modell (ital. modello: Muster, Vorbild) ist die Beschreibung ei-nes Systems mit Hilfe einer Sprache (Modellierungssprache). Ein Modell ist ausgerichtet auf bestimmte, für eine Fragestellung wesentliche Aspekte des Systems bzw. des Teilsystems. Modelle sollen Fragen über ein System gezielt beantworten oder bestimmte Aufgaben im Zusammenhang mit dem modellierten System unter-stützen. ------------------  Beschreibung eines Systems mit Hilfe einer Sprache (Modellierungssprache). Ein Modell ist ausgerichtet auf bestimmte, für eine Fragestellung wesentliche Aspekte eines Systems. Die verwendete ModelIierungssprache wird auch als Metamodell bezeichnet.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8, 331</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -14626,17 +14472,7 @@ kann ein Aufnahmegerät verwendet werden</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Eine
-unbeschränkte Zahl von Bewerbern wird zur Abgabe von Teilnahmeanträgen
-eingeladen ( 1. Stufe). Dabei werden vordefinierte
-Eignungskriterien überprüft. Ausgewählte Bewerber (mindestens
-drei) werden zur Abgabe von detaillierten Angeboten eingeladen
-(2. Stufe). Danach kann über den gesamten Auftragsinhalt verhandelt
-werden. Das Verhandlungsverfahren mit vorheriger Bekanntmachung
-ist nur beim Vorliegen ganz bestimmter im Gesetz
-definierter Voraussetzungen möglich, z. B. wenn es sich um Aufträge
-handelt, bei denen die genaue inhaltliche Spezifikation nicht
-möglich ist.</skos:definition>
+        <skos:definition xml:lang="de">Eine unbeschränkte Zahl von Bewerbern wird zur Abgabe von Teilnahmeanträgen eingeladen ( 1. Stufe). Dabei werden vordefinierte Eignungskriterien überprüft. Ausgewählte Bewerber (mindestens drei) werden zur Abgabe von detaillierten Angeboten eingeladen (2. Stufe). Danach kann über den gesamten Auftragsinhalt verhandelt werden. Das Verhandlungsverfahren mit vorheriger Bekanntmachung ist nur beim Vorliegen ganz bestimmter im Gesetz definierter Voraussetzungen möglich, z. B. wenn es sich um Aufträge handelt, bei denen die genaue inhaltliche Spezifikation nicht möglich ist.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">220, 322</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -14662,13 +14498,7 @@ möglich ist.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Verhandlungsverfahren ohne vorherige Bekanntmachung: Eine
-beschränkte Zahl von geeigneten Unternehmen (mindestens drei)
-wird direkt zur Abgabe von Angeboten eingeladen. Dabei kann mit den Unternehmen individuell über den gesamten Auftrags-
-inhalt verhandelt werden, eine vorherige verbindliche Festlegung
-der zu erbringenden Leistungen und der Eignungs- und Zu-
-schlagskriterien ist nicht erforderlich. Es können aber nicht ver-
-handelbare Mindestanforderungen vorgegeben werden.</skos:definition>
+        <skos:definition xml:lang="de">Verhandlungsverfahren ohne vorherige Bekanntmachung: Eine beschränkte Zahl von geeigneten Unternehmen (mindestens drei) wird direkt zur Abgabe von Angeboten eingeladen. Dabei kann mit den Unternehmen individuell über den gesamten Auftrags- inhalt verhandelt werden, eine vorherige verbindliche Festlegung der zu erbringenden Leistungen und der Eignungs- und Zu- schlagskriterien ist nicht erforderlich. Es können aber nicht ver- handelbare Mindestanforderungen vorgegeben werden.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">220, 322</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -14853,11 +14683,7 @@ handelbare Mindestanforderungen vorgegeben werden.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Anwendungssystem, welches auf Organisationsvorschriften basiert,
-welche von Menschen umgesetzt werden und beschreiben, wer in
-welcher Reihenfolge welche nicht-rechnerbasierten Werkzeuge der
-Informationsverarbeitung zur Erledigung einer Unternehmensaufgabe
-einzusetzen hat.</skos:definition>
+        <skos:definition xml:lang="de">Anwendungssystem, welches auf Organisationsvorschriften basiert, welche von Menschen umgesetzt werden und beschreiben, wer in welcher Reihenfolge welche nicht-rechnerbasierten Werkzeuge der Informationsverarbeitung zur Erledigung einer Unternehmensaufgabe einzusetzen hat.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12, 332</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -15057,9 +14883,7 @@ einzusetzen hat.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Beobachtungen sind sinnvoll, wenn die zu erhebenden Daten nicht auf andere Weise dokumentiert sind und auch nicht erfragt werden können oder sollen. Mit Beobachtungen werden zum Beispiel Abläufe ermittelt oder Wartezeiten gemessen.
-------------------
- Methode zur Informationsbeschaffung, bei der bestimmte Situationen oder Abläufe gezielt beobachtet werden, ohne in sie einzugreifen. Eine Beobachtung dient dazu, Strukturen, Abläufe und Kennzahlen in einem zu untersuchenden Bereich zu ermitteln. Als Erhebungsformular wird ein Beobachtungsbogen verwendet, der Hinweise zur Beobachtung gibt und in dem die Beobachtungsergebnisse notiert werden. Beobachtungen können einen unterschiedlichen Grad der Standardisierung (standardisierte Datenerhebung) besitzen. Messungen sind eine spezielle, hoch standartisierte Art der Beobachtung.</skos:definition>
+        <skos:definition xml:lang="de">Beobachtungen sind sinnvoll, wenn die zu erhebenden Daten nicht auf andere Weise dokumentiert sind und auch nicht erfragt werden können oder sollen. Mit Beobachtungen werden zum Beispiel Abläufe ermittelt oder Wartezeiten gemessen. ------------------  Methode zur Informationsbeschaffung, bei der bestimmte Situationen oder Abläufe gezielt beobachtet werden, ohne in sie einzugreifen. Eine Beobachtung dient dazu, Strukturen, Abläufe und Kennzahlen in einem zu untersuchenden Bereich zu ermitteln. Als Erhebungsformular wird ein Beobachtungsbogen verwendet, der Hinweise zur Beobachtung gibt und in dem die Beobachtungsergebnisse notiert werden. Beobachtungen können einen unterschiedlichen Grad der Standardisierung (standardisierte Datenerhebung) besitzen. Messungen sind eine spezielle, hoch standartisierte Art der Beobachtung.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">132, 322</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -15109,19 +14933,7 @@ einzusetzen hat.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Für (teil-)standardisierte Beobachtungen wird ein Beobachtungsbogen
-erstellt, auf dem der Beobachter seine Beobachtungen dokumentieren
-kann (vgl. Abb. 8.7 und Abb. 8.8). Bei nicht standardisierten
-Beobachtungen (z. B. Beobachtung der Abläufe einer Visite) werden
-dagegen in der Regel nur Kurznotizen gemacht und später zu einem
-Beobachtungsprotokoll ergänzt. Bei der Erstellung von Erhebungsbögen
-beachten Sie die Hinweise in Tab. 8.3 auf S. 129 und insbesondere
-folgende Hinweise:
- Geben Sie eine klare Beobachtungsinstruktion vor.
- Geben Sie intuitiv verwendbare Abkürzungen vor.
- Achten Sie darauf, dass alle notwendigen Informationen (z. B. zu
-verwendende Abkürzungen) auf dem Bogen enthalten sind.
- Sorgen Sie für ausreichend Platz in den jeweiligen Feldern.</skos:definition>
+        <skos:definition xml:lang="de">Für (teil-)standardisierte Beobachtungen wird ein Beobachtungsbogen erstellt, auf dem der Beobachter seine Beobachtungen dokumentieren kann (vgl. Abb. 8.7 und Abb. 8.8). Bei nicht standardisierten Beobachtungen (z. B. Beobachtung der Abläufe einer Visite) werden dagegen in der Regel nur Kurznotizen gemacht und später zu einem Beobachtungsprotokoll ergänzt. Bei der Erstellung von Erhebungsbögen beachten Sie die Hinweise in Tab. 8.3 auf S. 129 und insbesondere folgende Hinweise:  Geben Sie eine klare Beobachtungsinstruktion vor.  Geben Sie intuitiv verwendbare Abkürzungen vor.  Achten Sie darauf, dass alle notwendigen Informationen (z. B. zu verwendende Abkürzungen) auf dem Bogen enthalten sind.  Sorgen Sie für ausreichend Platz in den jeweiligen Feldern.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">145</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -15798,10 +15610,7 @@ verwendende Abkürzungen) auf dem Bogen enthalten sind.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Grafische Darstellung der Aufbauorganisation in einem Bereich.
-In einem Organigramm können z. B. 0rganisationseinheiten,
-Stellen, Rollen und Personen mit ihren Beziehungen beschrieben
-werden.</skos:definition>
+        <skos:definition xml:lang="de">Grafische Darstellung der Aufbauorganisation in einem Bereich. In einem Organigramm können z. B. 0rganisationseinheiten, Stellen, Rollen und Personen mit ihren Beziehungen beschrieben werden.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -16165,9 +15974,7 @@ werden.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Die Organisationssicht erlaubt auf Grundlage von Organigrammen
-(vgl. Abb. 8.10 auf S. 146) die Organisationseinheiten einer Einrichtung
-bis auf Ebene der einzelnen Personen zu modellieren</skos:definition>
+        <skos:definition xml:lang="de">Die Organisationssicht erlaubt auf Grundlage von Organigrammen (vgl. Abb. 8.10 auf S. 146) die Organisationseinheiten einer Einrichtung bis auf Ebene der einzelnen Personen zu modellieren</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -16967,9 +16774,7 @@ bis auf Ebene der einzelnen Personen zu modellieren</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Während der Aufbereitung und Modellierung werden die Ergebnisse der Informationsbeschaffung geeignet zusammengestellt. Hierfür können informelle, semi-formale oder formale Modellierungsmetho-den eingesetzt werden. Die Modellierung erfolgt durch das Analy-seteam. Außerdem wird ggf. die Systembewertung durch die Analyse von Stärken und Schwächen anhand von definierten Bewertungs-kriterien durchgeführt.
-------------------
- In diesem Schritt werden die Ergebnisse der Informationsbeschaffung aufbereitet und bei Bedarf in formalen Modellen dargestellt. Ziel ist es, die Vielfalt an Informationen, welche sich in den Befragungen, Beobachtungen und Datenbestandsanalysen ergeben hat, in Hinblick auf die Fragestellungen der Systemanalyse prägnant zusammen zu fas-sen. So müssen eine Vielzahl an einzelnen Zeitmessungen bei der Arztbriefschreibung zu einem Gesamtwert für die mittlere Prozess-dauer oder eine Vielzahl an Einzel-Beobachtungen zusammengeführt werden, um ein Gesamtbild des Ablaufs der Arztbriefschreibung zu erhalten. Wie in Kapitel 0 dargestellt, verstehen wir unter einem Modell die vereinfachte Repräsentation der Wirklichkeit oder eines Ausschnitts davon. Dabei gibt das Metamodell die zu verwendende Modellierungssprache vor.</skos:definition>
+        <skos:definition xml:lang="de">Während der Aufbereitung und Modellierung werden die Ergebnisse der Informationsbeschaffung geeignet zusammengestellt. Hierfür können informelle, semi-formale oder formale Modellierungsmetho-den eingesetzt werden. Die Modellierung erfolgt durch das Analy-seteam. Außerdem wird ggf. die Systembewertung durch die Analyse von Stärken und Schwächen anhand von definierten Bewertungs-kriterien durchgeführt. ------------------  In diesem Schritt werden die Ergebnisse der Informationsbeschaffung aufbereitet und bei Bedarf in formalen Modellen dargestellt. Ziel ist es, die Vielfalt an Informationen, welche sich in den Befragungen, Beobachtungen und Datenbestandsanalysen ergeben hat, in Hinblick auf die Fragestellungen der Systemanalyse prägnant zusammen zu fas-sen. So müssen eine Vielzahl an einzelnen Zeitmessungen bei der Arztbriefschreibung zu einem Gesamtwert für die mittlere Prozess-dauer oder eine Vielzahl an Einzel-Beobachtungen zusammengeführt werden, um ein Gesamtbild des Ablaufs der Arztbriefschreibung zu erhalten. Wie in Kapitel 0 dargestellt, verstehen wir unter einem Modell die vereinfachte Repräsentation der Wirklichkeit oder eines Ausschnitts davon. Dabei gibt das Metamodell die zu verwendende Modellierungssprache vor.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125, 135</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -17133,19 +16938,7 @@ bis auf Ebene der einzelnen Personen zu modellieren</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Bereiten Sie Ihr Interview sorgfältig vor, auch dadurch, dass Sie sich in Sondierungsgesprächen und Vor-Ort-Besuchen einen ersten Ein-druck von einem Bereich machen.
- Erproben Sie den Interviewleitfaden vor dem ersten Einsatz möglichst realitätsnah. Erproben Sie dabei auch unbedingt die geplanten Aus-wertungsverfahren.
- Holen Sie rechtzeitig die Genehmigung für die Befragung ein und ma-chen Sie frühzeitig Termine für das Interview aus (z. B. während einer Informationsveranstaltung zur Systemanalyse). Achten Sie darauf, dass Ihr geplanter Gesprächspartner auch wirklich Aussagen zu den Sie interessierenden Fragen machen kann.
- Beginnen Sie mit einer Vorstellung Ihrer Person und der Ziel des Interviews.
- Sichern Sie, soweit möglich, Anonymität zu.
- Die Länge eines Interviews sollte 60 Minuten nicht überschreiten, in Ausnahmefällen (z. B. bei der Erhebung komplexer Arbeitsabläufe) kann ein Interview auch länger dauern. Achten Sie aufmerksam auf Ermüdungserscheinungen Ihres Interviewpartners und verschieben Sie offene Fragen ggf. auf einen weiteren Termin nach dem Motto: Lieber vertagen als verflachen.
- Schaffen Sie eine angenehme und ruhige Umgebung für das Interview, vermeiden Sie Störungen.
- Mit Einverständnis des Befragten können Sie ggf. das Interview auf-zeichnen, dies erleichtert die Auswertung. Ansonsten sollten Sie das Interview zu zweit durchführen – die zweite Person kann sich dann auf die Dokumentation der Antworten konzentrieren.
- Seien Sie bei der Beantwortung der Fragen beharrlich und fragen Sie so lange nach, bis Sie die betreffenden Zusammenhänge genau ver-standen haben. Es liegt in der Natur der Sache, dass der Interviewer in der Regel nur wenig über den zu analysierenden Bereich weiß. Der Befragte dagegen hält häufig vieles (z. B. die Routinetätigkeiten) für selbstverständlich, so dass er nicht ohne Nachfragen darauf eingeht (vgl. Abb. 8.2 auf S. 118). Zudem wird der Befragte selten seine Er-klärungen auf den Kenntnisstand des Interviewers abstimmen. Haben Sie also keine Angst vor so genannten „dummen“ Fragen.
- Seien Sie diplomatisch. Es kommt immer wieder vor, dass die Gesprä-che von den Befragten genutzt werden, um „ihre“ Sicht auf Miss-stände, Probleme und die dafür Verantwortlichen zu platzieren. Neh-men Sie derartige Informationen auf, ohne selbst zu bewerten.
- Wenn Sie mit Missverständnissen bezüglich der Zielsetzung der Ana-lyse konfrontiert werden: Reagieren Sie sachlich unter Wiederholung der Zielsetzung.
- Fragen Sie am Ende des Interviews, ob der Befragte aus seiner Sicht noch relevante Informationen ergänzen möchte.
- Bedanken Sie sich am Ende für die Teilnahme und beantworten Sie bei Bedarf noch Fragen des Teilnehmers.</skos:definition>
+        <skos:definition xml:lang="de">Bereiten Sie Ihr Interview sorgfältig vor, auch dadurch, dass Sie sich in Sondierungsgesprächen und Vor-Ort-Besuchen einen ersten Ein-druck von einem Bereich machen.  Erproben Sie den Interviewleitfaden vor dem ersten Einsatz möglichst realitätsnah. Erproben Sie dabei auch unbedingt die geplanten Aus-wertungsverfahren.  Holen Sie rechtzeitig die Genehmigung für die Befragung ein und ma-chen Sie frühzeitig Termine für das Interview aus (z. B. während einer Informationsveranstaltung zur Systemanalyse). Achten Sie darauf, dass Ihr geplanter Gesprächspartner auch wirklich Aussagen zu den Sie interessierenden Fragen machen kann.  Beginnen Sie mit einer Vorstellung Ihrer Person und der Ziel des Interviews.  Sichern Sie, soweit möglich, Anonymität zu.  Die Länge eines Interviews sollte 60 Minuten nicht überschreiten, in Ausnahmefällen (z. B. bei der Erhebung komplexer Arbeitsabläufe) kann ein Interview auch länger dauern. Achten Sie aufmerksam auf Ermüdungserscheinungen Ihres Interviewpartners und verschieben Sie offene Fragen ggf. auf einen weiteren Termin nach dem Motto: Lieber vertagen als verflachen.  Schaffen Sie eine angenehme und ruhige Umgebung für das Interview, vermeiden Sie Störungen.  Mit Einverständnis des Befragten können Sie ggf. das Interview auf-zeichnen, dies erleichtert die Auswertung. Ansonsten sollten Sie das Interview zu zweit durchführen – die zweite Person kann sich dann auf die Dokumentation der Antworten konzentrieren.  Seien Sie bei der Beantwortung der Fragen beharrlich und fragen Sie so lange nach, bis Sie die betreffenden Zusammenhänge genau ver-standen haben. Es liegt in der Natur der Sache, dass der Interviewer in der Regel nur wenig über den zu analysierenden Bereich weiß. Der Befragte dagegen hält häufig vieles (z. B. die Routinetätigkeiten) für selbstverständlich, so dass er nicht ohne Nachfragen darauf eingeht (vgl. Abb. 8.2 auf S. 118). Zudem wird der Befragte selten seine Er-klärungen auf den Kenntnisstand des Interviewers abstimmen. Haben Sie also keine Angst vor so genannten „dummen“ Fragen.  Seien Sie diplomatisch. Es kommt immer wieder vor, dass die Gesprä-che von den Befragten genutzt werden, um „ihre“ Sicht auf Miss-stände, Probleme und die dafür Verantwortlichen zu platzieren. Neh-men Sie derartige Informationen auf, ohne selbst zu bewerten.  Wenn Sie mit Missverständnissen bezüglich der Zielsetzung der Ana-lyse konfrontiert werden: Reagieren Sie sachlich unter Wiederholung der Zielsetzung.  Fragen Sie am Ende des Interviews, ob der Befragte aus seiner Sicht noch relevante Informationen ergänzen möchte.  Bedanken Sie sich am Ende für die Teilnahme und beantworten Sie bei Bedarf noch Fragen des Teilnehmers.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">141</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -17180,30 +16973,7 @@ bis auf Ebene der einzelnen Personen zu modellieren</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Holen Sie rechtzeitig die Genehmigung für die Beobachtung ein und
-machen Sie frühzeitig Termine aus (z. B. während einer Informationsveranstaltung
-über die Systemanalyse).
- Informieren Sie den betroffenen Bereich rechtzeitig über die geplante
-Beobachtung.
- Führen Sie mehrere Testläufe im realen Umfeld durch, um Erhebungsformular
-und Erhebungsvorgehen zu prüfen und zu verbessern. Erproben
-Sie dabei unbedingt auch die geplanten Auswerteverfahren.
- Wenn mehrere Beobachter eingesetzt werden, achten Sie auf eine gute
-Schulung der Beobachter und führen Sie Trainingsläufe durch, um
-eine einheitlichen Ablauf der Beobachtung zu gewährleisten.
- Sorgen Sie dafür, dass die normalen Arbeitsabläufe der Beobachteten
-möglichst wenig gestört werden.
- Planen Sie besonders sorgfältig Ort und Zeitraum der Erhebung, um
-zu gewährleisten, dass die Ergebnisse später möglichst repräsentativ
-und aussagefähig sind. Hierzu sind in der Regel mehrere Vor-Ort-Besuche
-und Gespräche vor Beginn der eigentlichen Erhebung notwendig.
- Erläutern Sie zu Beginn einer Beobachtung noch einmal das Ziel und
-sichern Sie, soweit möglich, Anonymität zu.
- Kombinieren Sie die Beobachtung mit informellen Gesprächen mit
-den Betroffenen, um so Hintergrundinformationen zu erlangen.
- Besprechen Sie, soweit möglich, mit Betroffenen wichtige Beobachtungsergebnisse,
-um Hintergrundinformationen und Hinweise auf
-Fehlinterpretationen zu erhalten.</skos:definition>
+        <skos:definition xml:lang="de">Holen Sie rechtzeitig die Genehmigung für die Beobachtung ein und machen Sie frühzeitig Termine aus (z. B. während einer Informationsveranstaltung über die Systemanalyse).  Informieren Sie den betroffenen Bereich rechtzeitig über die geplante Beobachtung.  Führen Sie mehrere Testläufe im realen Umfeld durch, um Erhebungsformular und Erhebungsvorgehen zu prüfen und zu verbessern. Erproben Sie dabei unbedingt auch die geplanten Auswerteverfahren.  Wenn mehrere Beobachter eingesetzt werden, achten Sie auf eine gute Schulung der Beobachter und führen Sie Trainingsläufe durch, um eine einheitlichen Ablauf der Beobachtung zu gewährleisten.  Sorgen Sie dafür, dass die normalen Arbeitsabläufe der Beobachteten möglichst wenig gestört werden.  Planen Sie besonders sorgfältig Ort und Zeitraum der Erhebung, um zu gewährleisten, dass die Ergebnisse später möglichst repräsentativ und aussagefähig sind. Hierzu sind in der Regel mehrere Vor-Ort-Besuche und Gespräche vor Beginn der eigentlichen Erhebung notwendig.  Erläutern Sie zu Beginn einer Beobachtung noch einmal das Ziel und sichern Sie, soweit möglich, Anonymität zu.  Kombinieren Sie die Beobachtung mit informellen Gesprächen mit den Betroffenen, um so Hintergrundinformationen zu erlangen.  Besprechen Sie, soweit möglich, mit Betroffenen wichtige Beobachtungsergebnisse, um Hintergrundinformationen und Hinweise auf Fehlinterpretationen zu erhalten.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">145</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -17678,19 +17448,7 @@ Fehlinterpretationen zu erhalten.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Bereiten Sie Ihren Fragebogen sorgfältig vor, auch dadurch, dass Sie sich in Sondierungsgesprächen und Vor-Ort-Besuchen einen ersten Eindruck von einem Bereich machen.
- Testen Sie Ihren Fragebogen vor dem ersten Einsatz an einigen reprä-sentativen Vertretern des betrachteten Bereichs. Erproben Sie dabei unbedingt auch die geplanten Auswertungsverfahren.
- Verwenden Sie wenn möglich elektronisch auszuwertende Papierfragebögen oder rein elektronische (z. B. webbasierte) Fragebö-gen. Dies erleichtert die Auswertung.
- Holen Sie rechtzeitig die Genehmigung für die Befragung ein und ma-chen Sie frühzeitig Termine für die Befragung aus (z. B. während ei-ner Informationsveranstaltung zur Systemanalyse).
- Die Länge des Fragebogens sollte in der Regel nicht mehr als 3 bis 5 Seiten betragen, das Ausfüllen sollte nicht mehr als 30 Minuten dau-ern.
- Das Layout ist ansprechend und übersichtlich zu gestalten.
- Erläutern Sie zu Beginn des Fragebogens knapp Auftraggeber, Durch-führenden und Ziel der Befragung. Erläutern Sie die geplante Aus-wertung und sichern Sie Anonymität zu.
- Ergänzen Sie immer (auch bei überwiegend geschlossenen Fragen) am Ende einige offene Fragen („Was möchten Sie uns zu diesem Thema sonst noch sagen?“ oder „Was sind aus Ihrer Sicht weitere Stärken bzw. Schwächen von …?“). Dadurch erhalten Sie ggf. interessante Hintergrundinformationen.
- Geben Sie die Frist vor, bis wann der Fragebogen ausgefüllt werden soll.
- Geben Sie klar an, wie und wo der Fragebogen zurückgegeben werden soll. Wählen Sie die für die Teilnehmer einfachste Art und Weise, bieten Sie ggf. auch mehrere Alternativen an (z. B. Abholung, Brief-kasten, per Fax, per E-Mail).
- Überlegen Sie sich Maßnahmen zur Sicherstellung einer ausreichen-den Rücklaufquote – Details hierzu finden sich in Kapitel 12.3.
- Nach Ablauf der vorgegebenen Frist für die Abgabe können Sie ggf. bei den Betroffenen ein- bis zweimal nachfragen. Manchmal ist eine persönliche Nachfrage angemessen. Respektieren Sie aber, wenn Sie z. B. aus Zeitmangel eine Absage erhalten.
- Besprechen Sie, soweit möglich, mit Betroffenen die Fragebogen-ergebnisse, um Hintergrundinformationen und Hinweise auf Fehl-interpretationen zu erhalten.</skos:definition>
+        <skos:definition xml:lang="de">Bereiten Sie Ihren Fragebogen sorgfältig vor, auch dadurch, dass Sie sich in Sondierungsgesprächen und Vor-Ort-Besuchen einen ersten Eindruck von einem Bereich machen.  Testen Sie Ihren Fragebogen vor dem ersten Einsatz an einigen reprä-sentativen Vertretern des betrachteten Bereichs. Erproben Sie dabei unbedingt auch die geplanten Auswertungsverfahren.  Verwenden Sie wenn möglich elektronisch auszuwertende Papierfragebögen oder rein elektronische (z. B. webbasierte) Fragebö-gen. Dies erleichtert die Auswertung.  Holen Sie rechtzeitig die Genehmigung für die Befragung ein und ma-chen Sie frühzeitig Termine für die Befragung aus (z. B. während ei-ner Informationsveranstaltung zur Systemanalyse).  Die Länge des Fragebogens sollte in der Regel nicht mehr als 3 bis 5 Seiten betragen, das Ausfüllen sollte nicht mehr als 30 Minuten dau-ern.  Das Layout ist ansprechend und übersichtlich zu gestalten.  Erläutern Sie zu Beginn des Fragebogens knapp Auftraggeber, Durch-führenden und Ziel der Befragung. Erläutern Sie die geplante Aus-wertung und sichern Sie Anonymität zu.  Ergänzen Sie immer (auch bei überwiegend geschlossenen Fragen) am Ende einige offene Fragen („Was möchten Sie uns zu diesem Thema sonst noch sagen?“ oder „Was sind aus Ihrer Sicht weitere Stärken bzw. Schwächen von …?“). Dadurch erhalten Sie ggf. interessante Hintergrundinformationen.  Geben Sie die Frist vor, bis wann der Fragebogen ausgefüllt werden soll.  Geben Sie klar an, wie und wo der Fragebogen zurückgegeben werden soll. Wählen Sie die für die Teilnehmer einfachste Art und Weise, bieten Sie ggf. auch mehrere Alternativen an (z. B. Abholung, Brief-kasten, per Fax, per E-Mail).  Überlegen Sie sich Maßnahmen zur Sicherstellung einer ausreichen-den Rücklaufquote – Details hierzu finden sich in Kapitel 12.3.  Nach Ablauf der vorgegebenen Frist für die Abgabe können Sie ggf. bei den Betroffenen ein- bis zweimal nachfragen. Manchmal ist eine persönliche Nachfrage angemessen. Respektieren Sie aber, wenn Sie z. B. aus Zeitmangel eine Absage erhalten.  Besprechen Sie, soweit möglich, mit Betroffenen die Fragebogen-ergebnisse, um Hintergrundinformationen und Hinweise auf Fehl-interpretationen zu erhalten.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">142</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -17830,9 +17588,7 @@ Fehlinterpretationen zu erhalten.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Vorgangsketten sind grafische Modellierungsmethoden zur Beschreibung der Aktivitäten, der auslösenden und resultierenden Ereignisse, der ausführenden Rollen (bzw. Organisationseinheiten) sowie der verwendeten Werkzeuge bzw. Anwendungssysteme.
-------------------
-Methode zur Modellierung von Geschäftsprozessen, welche auf der Darstellung von Aktivitäten, Ereignissen, Rollen bzw. Organisationseinheiten sowie Werkzeugen der Informationsverarbeitung beruht.</skos:definition>
+        <skos:definition xml:lang="de">Vorgangsketten sind grafische Modellierungsmethoden zur Beschreibung der Aktivitäten, der auslösenden und resultierenden Ereignisse, der ausführenden Rollen (bzw. Organisationseinheiten) sowie der verwendeten Werkzeuge bzw. Anwendungssysteme. ------------------ Methode zur Modellierung von Geschäftsprozessen, welche auf der Darstellung von Aktivitäten, Ereignissen, Rollen bzw. Organisationseinheiten sowie Werkzeugen der Informationsverarbeitung beruht.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">159, 347</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -18005,9 +17761,7 @@ Methode zur Modellierung von Geschäftsprozessen, welche auf der Darstellung von
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Aktivität im Rahmen einer Systemauswahl, bei der ein Anbieter in
-Form einer Informationsveranstaltung Funktionalität und Stärken
-seines Produktes präsentiert.</skos:definition>
+        <skos:definition xml:lang="de">Aktivität im Rahmen einer Systemauswahl, bei der ein Anbieter in Form einer Informationsveranstaltung Funktionalität und Stärken seines Produktes präsentiert.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -18135,13 +17889,7 @@ seines Produktes präsentiert.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Die Verlaufsdokumentation hält den Verlauf des Projekts fest, ohne
-auf die Ergebnisse der einzelnen Arbeitspakete im Detail einzugehen.
-Zur Verlaufsdokumentation gehören insbesondere die Ergebnisse der
-Überwachung, die z. B. in Form von Statusberichten (vgl. Kapitel 6.3)
-dokumentiert werden. Weiterhin fallen im Verlauf der Projektdurchführung
-auch Protokolle, Erledigungslisten, Schriftwechsel, Richtlinien
-oder Literatur an, welche entsprechend aufzubewahren sind.</skos:definition>
+        <skos:definition xml:lang="de">Die Verlaufsdokumentation hält den Verlauf des Projekts fest, ohne auf die Ergebnisse der einzelnen Arbeitspakete im Detail einzugehen. Zur Verlaufsdokumentation gehören insbesondere die Ergebnisse der Überwachung, die z. B. in Form von Statusberichten (vgl. Kapitel 6.3) dokumentiert werden. Weiterhin fallen im Verlauf der Projektdurchführung auch Protokolle, Erledigungslisten, Schriftwechsel, Richtlinien oder Literatur an, welche entsprechend aufzubewahren sind.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">779</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
@@ -18234,16 +17982,7 @@ oder Literatur an, welche entsprechend aufzubewahren sind.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Ein Projekt (lat. proiectum: das vorwärts Geworfene) ist ein Vorhaben, das im Wesentlichen durch die Einmaligkeit der Bedingungen
-in ihrer Gesamtheit gekennzeichnet ist, wie z. B.
-- klare Zielvorgabe;
-- zeitliche Begrenzung;
-- personelle und finanzielle Begrenzungen;
-- Abgrenzung gegenüber anderen Vorhaben; und
-- projektspezifische Organisation.
-(nach DIN 69901)
-------------------
- Vorhaben, das im Wesentlichen durch Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist, wie z. B. die Vorgabe eines Projektziels, zeitliche, personell oder finanzielle Begrenzungen, die Abgrenzung gegenüber anderen Vorhaben und die spezifische Projektorganisation. Projekte lassen sich in typische Projektphasen gliedern, typische Inhalte können als Projektmodule beschrieben werden.</skos:definition>
+        <skos:definition xml:lang="de">Ein Projekt (lat. proiectum: das vorwärts Geworfene) ist ein Vorhaben, das im Wesentlichen durch die Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist, wie z. B. - klare Zielvorgabe; - zeitliche Begrenzung; - personelle und finanzielle Begrenzungen; - Abgrenzung gegenüber anderen Vorhaben; und - projektspezifische Organisation. (nach DIN 69901) ------------------  Vorhaben, das im Wesentlichen durch Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist, wie z. B. die Vorgabe eines Projektziels, zeitliche, personell oder finanzielle Begrenzungen, die Abgrenzung gegenüber anderen Vorhaben und die spezifische Projektorganisation. Projekte lassen sich in typische Projektphasen gliedern, typische Inhalte können als Projektmodule beschrieben werden.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18, 334</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -18381,9 +18120,7 @@ in ihrer Gesamtheit gekennzeichnet ist, wie z. B.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Wenn alle offenen Fragen in der Abschlusspräsentation geklärt wer-den konnten und der Abschlussbericht vom Auftraggeber akzeptiert ist, kann das Projekt formal abgenommen werden. Dies kann durch die Unterschrift des Auftraggebers unter dem Abschlussbericht doku-mentiert werden.
-------------------
- Aktivität im Rahmen des Projektabschlusses, in der ein Projektergebnis formal durch den Auftraggeber angenommen wird. Die Projektabnahme kann durch die Unterschrift des Auftraggebers auf dem Aubschlussbericht dokumentiert werden. Mit der Abnahme des Projekts durch den Auftraggeber wird der Projektleiter entlastet.</skos:definition>
+        <skos:definition xml:lang="de">Wenn alle offenen Fragen in der Abschlusspräsentation geklärt wer-den konnten und der Abschlussbericht vom Auftraggeber akzeptiert ist, kann das Projekt formal abgenommen werden. Dies kann durch die Unterschrift des Auftraggebers unter dem Abschlussbericht doku-mentiert werden. ------------------  Aktivität im Rahmen des Projektabschlusses, in der ein Projektergebnis formal durch den Auftraggeber angenommen wird. Die Projektabnahme kann durch die Unterschrift des Auftraggebers auf dem Aubschlussbericht dokumentiert werden. Mit der Abnahme des Projekts durch den Auftraggeber wird der Projektleiter entlastet.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">111, 335</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -19303,8 +19040,7 @@ in ihrer Gesamtheit gekennzeichnet ist, wie z. B.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Festhalten, welche Ziele definitiv nicht Bestandteil eines Projekts
-sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
+        <skos:definition xml:lang="de">Festhalten, welche Ziele definitiv nicht Bestandteil eines Projekts sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -20689,9 +20425,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Unter Projektmanagement versteht man die aufgabenbezogene Koordination aller Aktivitäten, um ein Projekt in einer bestimmten Zeit und mit bestimmten Ressourcen zu einem bestimmten Ergebnis zu bringen. (vgl. DIN 69901).
-------------------
- Aufgabenbezogene Koordination aller Aktivitäten, um ein Projekt in einer bestimmten Zeit und mit bestimmten Ressourcen zu einem bestimmten Ereignis zu bringen. Projektmanagement umfasst Projektplanung, Projektsteuerung und Projektüberwachung.</skos:definition>
+        <skos:definition xml:lang="de">Unter Projektmanagement versteht man die aufgabenbezogene Koordination aller Aktivitäten, um ein Projekt in einer bestimmten Zeit und mit bestimmten Ressourcen zu einem bestimmten Ergebnis zu bringen. (vgl. DIN 69901). ------------------  Aufgabenbezogene Koordination aller Aktivitäten, um ein Projekt in einer bestimmten Zeit und mit bestimmten Ressourcen zu einem bestimmten Ereignis zu bringen. Projektmanagement umfasst Projektplanung, Projektsteuerung und Projektüberwachung.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18, 336</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -21659,9 +21393,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf rdf:resource="&meta;Role"/>
-        <skos:definition xml:lang="de">Hierunter versteht man alle Aktivitäten, die Interessierte und Betroffene über Projektziele und Projektablauf informieren.
-------------------
- Alle Aktivitäten, die Interessierte und Betroffene eines Projekts über Projektziele und Projektablauf informieren. Ein gutes Projektmarketing schafft ein Klima der Offenheit und Transparenz nach außen in Bezug auf das Projekt, es stellt die kontinuierliche Unterstützung durch den Auftraggeber bzw. durch andere Interessengruppen sicher und hilft dabei , dass die Projektergebnisse am Projektende auch von Betroffenen akzeptiert werden.</skos:definition>
+        <skos:definition xml:lang="de">Hierunter versteht man alle Aktivitäten, die Interessierte und Betroffene über Projektziele und Projektablauf informieren. ------------------  Alle Aktivitäten, die Interessierte und Betroffene eines Projekts über Projektziele und Projektablauf informieren. Ein gutes Projektmarketing schafft ein Klima der Offenheit und Transparenz nach außen in Bezug auf das Projekt, es stellt die kontinuierliche Unterstützung durch den Auftraggeber bzw. durch andere Interessengruppen sicher und hilft dabei , dass die Projektergebnisse am Projektende auch von Betroffenen akzeptiert werden.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86, 336</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -22232,11 +21964,7 @@ sind. Ist Teil der Zieldefinition eines Projekts.</skos:definition>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;Role"/>
-        <skos:definition xml:lang="de">Unter einer Projektorganisation verstehen wir die Gesamtheit der
-Rollen und Regelungen zur Abwicklung eines bestimmten Projekts.
-(vgl. DIN 69901).
-------------------
- Gesamtheit der Rollen und Regelungen zur Abwicklung eines bestimmten Projekts. Typische Formen der Projektorganisation sind die Reine Projektorganisation, die Matrix-Projektorganisation und die Einfluss-Organisation.</skos:definition>
+        <skos:definition xml:lang="de">Unter einer Projektorganisation verstehen wir die Gesamtheit der Rollen und Regelungen zur Abwicklung eines bestimmten Projekts. (vgl. DIN 69901). ------------------  Gesamtheit der Rollen und Regelungen zur Abwicklung eines bestimmten Projekts. Typische Formen der Projektorganisation sind die Reine Projektorganisation, die Matrix-Projektorganisation und die Einfluss-Organisation.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">337</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -23698,12 +23426,7 @@ Rollen und Regelungen zur Abwicklung eines bestimmten Projekts.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">1. Wie lief das Projekt insgesamt? Leitfragen, die bearbeitet werden, sind: a) Was ist gut gelaufen?
-b) Was ist nicht so gut gelaufen?
-c) Was könnte besser gemacht werden?
-2. Welche Leistungen (von Einzelnen oder Gruppen) haben das Projekt besonders vorangebracht?
-3. Was nimmt jeder Teilnehmer persönlich aus dem Projekt mit?
-4. Welche Erkenntnisse und Empfehlungen können zusammenfassend für zukünftige Projekte abgeleitet werden?</skos:definition>
+        <skos:definition xml:lang="de">1. Wie lief das Projekt insgesamt? Leitfragen, die bearbeitet werden, sind: a) Was ist gut gelaufen? b) Was ist nicht so gut gelaufen? c) Was könnte besser gemacht werden? 2. Welche Leistungen (von Einzelnen oder Gruppen) haben das Projekt besonders vorangebracht? 3. Was nimmt jeder Teilnehmer persönlich aus dem Projekt mit? 4. Welche Erkenntnisse und Empfehlungen können zusammenfassend für zukünftige Projekte abgeleitet werden?</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -23735,11 +23458,7 @@ c) Was könnte besser gemacht werden?
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">1. Was ist Ziel des Projektreviews? Wer ist Adressat der Ergebnisse?
-2. Welche Personen sollten am Projektreview teilnehmen? Typischerweise sollten zumindest das vollständige Projektteam und der Auftraggeber teilnehmen.
-3. Wer moderiert den Projektreview?
-4. Ist sichergestellt, dass beim Projektreview eine vertrauensvolle und offene Atmosphäre herrscht?
-5. Welche Unterlagen aus der Projektdokumentation sollten zum Projekt-review vorliegen (z. B. Projektplan, Soll-Ist-Vergleiche, Zwischen- und Abschlussberichte, Protokolle)</skos:definition>
+        <skos:definition xml:lang="de">1. Was ist Ziel des Projektreviews? Wer ist Adressat der Ergebnisse? 2. Welche Personen sollten am Projektreview teilnehmen? Typischerweise sollten zumindest das vollständige Projektteam und der Auftraggeber teilnehmen. 3. Wer moderiert den Projektreview? 4. Ist sichergestellt, dass beim Projektreview eine vertrauensvolle und offene Atmosphäre herrscht? 5. Welche Unterlagen aus der Projektdokumentation sollten zum Projekt-review vorliegen (z. B. Projektplan, Soll-Ist-Vergleiche, Zwischen- und Abschlussberichte, Protokolle)</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -23771,8 +23490,7 @@ c) Was könnte besser gemacht werden?
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">1. An wen werden die Erkenntnisse und Empfehlungen kommuniziert?
-2. Wie wird sichergestellt, dass die Ergebnisse des Projektreviews in zukünftigen Projekten Berücksichtigung finden?</skos:definition>
+        <skos:definition xml:lang="de">1. An wen werden die Erkenntnisse und Empfehlungen kommuniziert? 2. Wie wird sichergestellt, dass die Ergebnisse des Projektreviews in zukünftigen Projekten Berücksichtigung finden?</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -24755,9 +24473,7 @@ c) Was könnte besser gemacht werden?
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">In der so genannten reinen Projektorganisation [..] wird ein eigenständiges Projektteam aufgebaut. Die Projektmitarbeiter werden aus ihren bisherigen Tätigkeiten weitgehend herausgelöst und dem Projekt zugeordnet.
-------------------
- Form der Projektorganisation, in der ein eigenständiges Projektteam aufgebaut wird. Die Projektmitarbeiter werden aus ihren bisherigen Tätigkeitern weitgehend herausgelöst und vollständig einem Projekt zugeordnet.</skos:definition>
+        <skos:definition xml:lang="de">In der so genannten reinen Projektorganisation [..] wird ein eigenständiges Projektteam aufgebaut. Die Projektmitarbeiter werden aus ihren bisherigen Tätigkeiten weitgehend herausgelöst und dem Projekt zugeordnet. ------------------  Form der Projektorganisation, in der ein eigenständiges Projektteam aufgebaut wird. Die Projektmitarbeiter werden aus ihren bisherigen Tätigkeitern weitgehend herausgelöst und vollständig einem Projekt zugeordnet.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42, 339</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -24996,12 +24712,7 @@ c) Was könnte besser gemacht werden?
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2, 8.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Als Erhebungsformular dient bei schriftlichen Befragungen ein Frage-bogen, ein Beispiel ist in Abb. 8.6 dargestellt. Beachten Sie bei der Erstellung die Hinweise in Tab. 8.3 (auf S. 129) zur Erstellung von Erhebungsformularen. Besonders wichtig zu beachten ist:
- Die Fragen müssen möglichst eindeutig und für alle Teilnehmer verständlich sein. Abkürzungen und Fachjargon sind zu vermei-den.
- Die Fragen sollten in einer sinnvollen Reihenfolge gegliedert sein.
- Die vorgegebenen Antwortmöglichkeiten müssen genau zu den Fragen passen.
- Es sollte immer ein Feld „keine Angabe“ enthalten sein. Dies kann vermeiden, dass Teilnehmer, die nicht antworten können oder wollen, gar nicht antworten oder beliebig etwas ankreuzen.
- Bei geschlossenen Fragen müssen die vorgegebenen Antwort-möglichkeiten die Frage vollständig abdecken, sie sollten sich nicht überlappen und sie sollten in der Regel etwa die gleiche „Breite“ haben.</skos:definition>
+        <skos:definition xml:lang="de">Als Erhebungsformular dient bei schriftlichen Befragungen ein Frage-bogen, ein Beispiel ist in Abb. 8.6 dargestellt. Beachten Sie bei der Erstellung die Hinweise in Tab. 8.3 (auf S. 129) zur Erstellung von Erhebungsformularen. Besonders wichtig zu beachten ist:  Die Fragen müssen möglichst eindeutig und für alle Teilnehmer verständlich sein. Abkürzungen und Fachjargon sind zu vermei-den.  Die Fragen sollten in einer sinnvollen Reihenfolge gegliedert sein.  Die vorgegebenen Antwortmöglichkeiten müssen genau zu den Fragen passen.  Es sollte immer ein Feld „keine Angabe“ enthalten sein. Dies kann vermeiden, dass Teilnehmer, die nicht antworten können oder wollen, gar nicht antworten oder beliebig etwas ankreuzen.  Bei geschlossenen Fragen müssen die vorgegebenen Antwort-möglichkeiten die Frage vollständig abdecken, sie sollten sich nicht überlappen und sie sollten in der Regel etwa die gleiche „Breite“ haben.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">142</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -25033,9 +24744,7 @@ c) Was könnte besser gemacht werden?
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">RACI = Responsible, Accountable, Consulted, Informed
-------------------
- Strukturierte tabellarische Darstellung der Zuständigkeiten verschiedener Rollen bzw. Personen in Bezug auf einzelne Arbeitspakete in einem Projekt.</skos:definition>
+        <skos:definition xml:lang="de">RACI = Responsible, Accountable, Consulted, Informed ------------------  Strukturierte tabellarische Darstellung der Zuständigkeiten verschiedener Rollen bzw. Personen in Bezug auf einzelne Arbeitspakete in einem Projekt.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75, 347</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -25256,8 +24965,7 @@ c) Was könnte besser gemacht werden?
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Vorgehens-Referenzmodell für Projekte des taktischen Managements von Informationssystemen,
-          welches als Würfel dargestellt wird. Das Referenzmodell beschreibt die Projektphase, welche jedes Projekt durchläuft, sowie die typischen Projektmodule.</skos:definition>
+        <skos:definition xml:lang="de">Vorgehens-Referenzmodell für Projekte des taktischen Managements von Informationssystemen,           welches als Würfel dargestellt wird. Das Referenzmodell beschreibt die Projektphase, welche jedes Projekt durchläuft, sowie die typischen Projektmodule.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">996</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
@@ -25951,8 +25659,7 @@ c) Was könnte besser gemacht werden?
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">Die Ergebnisdokumentation enthält die Ergebnisse der einzelnen Arbeitspakete.
-Die Art der Dokumente, die hier entstehen, hängt vom Projekt selber ab (z. B. Analyseberichte, Pflichtenhefte, Schulungskonzepte oder Evaluationsberichte).</skos:definition>
+        <skos:definition xml:lang="en">Die Ergebnisdokumentation enthält die Ergebnisse der einzelnen Arbeitspakete. Die Art der Dokumente, die hier entstehen, hängt vom Projekt selber ab (z. B. Analyseberichte, Pflichtenhefte, Schulungskonzepte oder Evaluationsberichte).</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</Definition_DE_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1788</ID>
         <Source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammenwerth, E; Haux, R; Knaup-Gregori, P; Winter, A. IT-Projektmanagement im Gesundheitswesen. Stuttgart: Schattauer, 2015.</Source>
@@ -26469,13 +26176,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Die SWOT-Analyse ist ein Verfahren, um Stärken und Schwachstel-len einer Komponente oder Situation systematisch darzustellen. Sie fasst dabei die gesamten Erkenntnisse einer Systembewertung in vier Bereiche zusammen:
-1. Stärken (engl. S = Strengths): Vorhandene Stärken der betrach-teten Situation, z. B. eine Komponente wird häufig genutzt, die Benutzer sind zufrieden, die Zeitaufwände sind gering.
-2. Schwachstellen (engl. W = Weaknesses): Vorhandene Schwächen der betrachteten Situation, z. B. die Qualität der dokumentierten Diagnosen ist unzureichend, die Komponente ist unzureichend integriert mit anderen Komponenten, die Rechnerausstattung ist ungenügend.
-3. Chancen (engl. O = Opportunities): Noch nicht realisierte Stär-ken, z. B. die gewünschte Funktionalität ist vorhanden, wird aber noch nicht genutzt.
-4. Risiken (engl. T = Threats): Potenzielle Schwächen, z. B. bei wei-terer Zunahme der Benutzerzahlen wird die Netzwerkkapazität nicht mehr ausreichen; die erwarteten neuen gesetzlichen Anfor-derungen wird die Komponente nicht mehr erfüllen können.
-------------------
- Methode der Systembewertung zur systematischen Darstellung der Stärken (Strenghts) und Schachstellen (Weaknesses) eines (Sub-) Informationssystems. Außerdem werden auch potenzielle Stärken (Opportunities) sowie potentielle Schächen (Threats) dargestellt.</skos:definition>
+        <skos:definition xml:lang="de">Die SWOT-Analyse ist ein Verfahren, um Stärken und Schwachstel-len einer Komponente oder Situation systematisch darzustellen. Sie fasst dabei die gesamten Erkenntnisse einer Systembewertung in vier Bereiche zusammen: 1. Stärken (engl. S = Strengths): Vorhandene Stärken der betrach-teten Situation, z. B. eine Komponente wird häufig genutzt, die Benutzer sind zufrieden, die Zeitaufwände sind gering. 2. Schwachstellen (engl. W = Weaknesses): Vorhandene Schwächen der betrachteten Situation, z. B. die Qualität der dokumentierten Diagnosen ist unzureichend, die Komponente ist unzureichend integriert mit anderen Komponenten, die Rechnerausstattung ist ungenügend. 3. Chancen (engl. O = Opportunities): Noch nicht realisierte Stär-ken, z. B. die gewünschte Funktionalität ist vorhanden, wird aber noch nicht genutzt. 4. Risiken (engl. T = Threats): Potenzielle Schwächen, z. B. bei wei-terer Zunahme der Benutzerzahlen wird die Netzwerkkapazität nicht mehr ausreichen; die erwarteten neuen gesetzlichen Anfor-derungen wird die Komponente nicht mehr erfüllen können. ------------------  Methode der Systembewertung zur systematischen Darstellung der Stärken (Strenghts) und Schachstellen (Weaknesses) eines (Sub-) Informationssystems. Außerdem werden auch potenzielle Stärken (Opportunities) sowie potentielle Schächen (Threats) dargestellt.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">173, 344</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -26863,12 +26564,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Second-Level-Support: Auf dieser zweiten Ebene gibt es für die
-einzelnen Anwendungssysteme jeweils Spezialisten. Dies können
-z. B. Systembetreuer sein, die entweder vor Ort in den betroffenen Bereichen oder in der IT-Abteilung lokalisiert sind. Der Second-Level-Support kann in der Regel auch kompliziertere technische Fragen und Probleme lösen. Er wird hierzu ausschließlich
-vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht lösbaren Fragen greift er auf die dritte Betreuungsebene zurück.
-------------------
- Zweite Ebene der Anwendungsbetreuung im Rahmen des Systembetriebs, bei der für jedes Anwendungssystem ein Betreuer benannt ist, der erst dann kontaktiert wird, wenn der First-Level-Support ein Problem nicht lösen kann.</skos:definition>
+        <skos:definition xml:lang="de">Second-Level-Support: Auf dieser zweiten Ebene gibt es für die einzelnen Anwendungssysteme jeweils Spezialisten. Dies können z. B. Systembetreuer sein, die entweder vor Ort in den betroffenen Bereichen oder in der IT-Abteilung lokalisiert sind. Der Second-Level-Support kann in der Regel auch kompliziertere technische Fragen und Probleme lösen. Er wird hierzu ausschließlich vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht lösbaren Fragen greift er auf die dritte Betreuungsebene zurück. ------------------  Zweite Ebene der Anwendungsbetreuung im Rahmen des Systembetriebs, bei der für jedes Anwendungssystem ein Betreuer benannt ist, der erst dann kontaktiert wird, wenn der First-Level-Support ein Problem nicht lösen kann.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284, 341</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -26955,9 +26651,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Eine Sensitivitätsanalyse dient dazu, die Stabilität eines Ergebnisses zu überprüfen. Sie untersucht, wie stark einzelne Parameter verändert werden können, ohne dass sich das Ergebnis verändert. Dies ermög-licht die Überprüfung der Stabilität des Gesamtergebnisses.
-------------------
- Methode zur Überprüfung der Stabilität eines Ergebnisses beim Vergleich von Varianten. Die Sensitivitätsanalyse untersucht, wie stark einzelne Parameter z. B. bei einer Nutzwertanalyse oder bei Kostenanalysen verändert werden können, ohne dass sich das Gesamtergebnis verändert.</skos:definition>
+        <skos:definition xml:lang="de">Eine Sensitivitätsanalyse dient dazu, die Stabilität eines Ergebnisses zu überprüfen. Sie untersucht, wie stark einzelne Parameter verändert werden können, ohne dass sich das Ergebnis verändert. Dies ermög-licht die Überprüfung der Stabilität des Gesamtergebnisses. ------------------  Methode zur Überprüfung der Stabilität eines Ergebnisses beim Vergleich von Varianten. Die Sensitivitätsanalyse untersucht, wie stark einzelne Parameter z. B. bei einer Nutzwertanalyse oder bei Kostenanalysen verändert werden können, ohne dass sich das Gesamtergebnis verändert.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230, 341</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -27153,9 +26847,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Das Durchspielen von Ist- oder Soll-Prozessen mit den zukünftigen Anwendern in einer Simulation kann ebenfalls eine Methode sein, Lösungsideen zu entwickeln und Anforderungen zu identifi-zieren.
-------------------
- Methode im Rahmen der Systemanalyse und -bewertung oder der Systemspezifikation. Bei der Simulation wird in der Regel rechnerunterstützt ein Ausschnitt eines Informationssystems in einem Modell nachgebildet. Durch die Variation von Parametern können dann verschiedene Zustände dargestellt werden. Hierdurch erhofft man sich Erkenntnisse in Bezug auf das betrachtete (Sub-) Informationssystem.</skos:definition>
+        <skos:definition xml:lang="de">Das Durchspielen von Ist- oder Soll-Prozessen mit den zukünftigen Anwendern in einer Simulation kann ebenfalls eine Methode sein, Lösungsideen zu entwickeln und Anforderungen zu identifi-zieren. ------------------  Methode im Rahmen der Systemanalyse und -bewertung oder der Systemspezifikation. Bei der Simulation wird in der Regel rechnerunterstützt ein Ausschnitt eines Informationssystems in einem Modell nachgebildet. Durch die Variation von Parametern können dann verschiedene Zustände dargestellt werden. Hierdurch erhofft man sich Erkenntnisse in Bezug auf das betrachtete (Sub-) Informationssystem.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202, 341</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -27368,9 +27060,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Ein Softwarereferenzmodell beschreibt für ein bestimmtes Produkt Funktionen, abbildbare Prozesse, Datenstrukturen und organisatorische Voraussetzungen für seine Einführung.
-------------------
- Hilfsmittel für die Adaptierung von Softwareprodukten. Beschreibt die Funktionen, abbildbaren Prozesse, Datenstrukturen und die organisatorischen Vorraussetzungen eines Softwareprodukts.</skos:definition>
+        <skos:definition xml:lang="de">Ein Softwarereferenzmodell beschreibt für ein bestimmtes Produkt Funktionen, abbildbare Prozesse, Datenstrukturen und organisatorische Voraussetzungen für seine Einführung. ------------------  Hilfsmittel für die Adaptierung von Softwareprodukten. Beschreibt die Funktionen, abbildbaren Prozesse, Datenstrukturen und die organisatorischen Vorraussetzungen eines Softwareprodukts.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">243, 342</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -27968,11 +27658,7 @@ vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht 
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf rdf:resource="&meta;Role"/>
-        <skos:definition xml:lang="de">Projektauftraggeber: Er initiiert das Projekt, erteilt den Projektauftrag, genehmigt den Projektplan, stellt Projektressourcen zur
-Verfügung, begleitet und unterstützt die Projektdurchführung und
-nimmt das Projekt am Ende ab.
-------------------
- Person oder Einrichtung, die ein Projekt in Aufrag gibt, Der Projektauftraggeber initiiert das Projekt, erteilt den Projektauftrag , genehmigt die den Projektplan, stellt Ressourcen zur Verfügung, begleitet und unterstützt die Projektdurchführung und nimmt das Projekt am Ende ab (Projektabnahme).</skos:definition>
+        <skos:definition xml:lang="de">Projektauftraggeber: Er initiiert das Projekt, erteilt den Projektauftrag, genehmigt den Projektplan, stellt Projektressourcen zur Verfügung, begleitet und unterstützt die Projektdurchführung und nimmt das Projekt am Ende ab. ------------------  Person oder Einrichtung, die ein Projekt in Aufrag gibt, Der Projektauftraggeber initiiert das Projekt, erteilt den Projektauftrag , genehmigt die den Projektplan, stellt Ressourcen zur Verfügung, begleitet und unterstützt die Projektdurchführung und nimmt das Projekt am Ende ab (Projektabnahme).</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20, 321</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -29185,11 +28871,7 @@ nimmt das Projekt am Ende ab.
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Im Vordergrund des strategischen Managements von Informationssystemen
-stehen das Informationssystem als Ganzes oder in wesentlichen
-Teilen und seine grundsätzliche zukünftige Entwicklung.
-------------------
- Perspektive des Managements eines Informationssystems, welches sich mit dem Informationssystem als Ganzes bzw. in wesentlichen Teilen und mit seiner grundsätzlichen zukünftigen Entwicklung befasst. Wichtige Aufgaben umfassen die Rahmenplanung, die Umsetzung der Vorgaben des Rahmenplans (in der Regel in Form von Projekten) und die laufende Überprüfung, ob die Projekte mit dem gewünschten Erfolg durchgeführt werden und ob das Informationssystem entsprechend dem Rahmenplan strukturiert ist und die zugewiesenen Aufgaben erfüllt.</skos:definition>
+        <skos:definition xml:lang="de">Im Vordergrund des strategischen Managements von Informationssystemen stehen das Informationssystem als Ganzes oder in wesentlichen Teilen und seine grundsätzliche zukünftige Entwicklung. ------------------  Perspektive des Managements eines Informationssystems, welches sich mit dem Informationssystem als Ganzes bzw. in wesentlichen Teilen und mit seiner grundsätzlichen zukünftigen Entwicklung befasst. Wichtige Aufgaben umfassen die Rahmenplanung, die Umsetzung der Vorgaben des Rahmenplans (in der Regel in Form von Projekten) und die laufende Überprüfung, ob die Projekte mit dem gewünschten Erfolg durchgeführt werden und ob das Informationssystem entsprechend dem Rahmenplan strukturiert ist und die zugewiesenen Aufgaben erfüllt.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27, 343</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -30055,9 +29737,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Ein System ist eine Menge von Elementen (z. B. Personen, Dinge) mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Das System ist ein Ganzes, das mehr ist als die Summe seiner Teile. Jedes System hat eine Systemgrenze, die es von seiner Umwelt trennt.Systeme liegen entweder in der Natur als gegeben vor (natürliche Systeme) oder werden vom Men-schen geschaffen (künstliche Systeme).
-------------------
- Menge von Elementen mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Systeme lassen sich in Teilsysteme untergliedern.</skos:definition>
+        <skos:definition xml:lang="de">Ein System ist eine Menge von Elementen (z. B. Personen, Dinge) mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Das System ist ein Ganzes, das mehr ist als die Summe seiner Teile. Jedes System hat eine Systemgrenze, die es von seiner Umwelt trennt.Systeme liegen entweder in der Natur als gegeben vor (natürliche Systeme) oder werden vom Men-schen geschaffen (künstliche Systeme). ------------------  Menge von Elementen mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Systeme lassen sich in Teilsysteme untergliedern.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7, 344</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -30133,8 +29813,7 @@ Teilen und seine grundsätzliche zukünftige Entwicklung.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;Role"/>
-        <skos:definition xml:lang="de">Zuständig für alle technischen Aspekte, wie z. B. Serverund Datenbankadministration, Schnittstellenmanagement und
-Pflege der technischen Komponenten, Netzwerkmanagement.</skos:definition>
+        <skos:definition xml:lang="de">Zuständig für alle technischen Aspekte, wie z. B. Serverund Datenbankadministration, Schnittstellenmanagement und Pflege der technischen Komponenten, Netzwerkmanagement.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">282</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -30401,11 +30080,7 @@ Pflege der technischen Komponenten, Netzwerkmanagement.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Das Vorgehensmodell beginnt mit dem Schritt der Analyseplanung. In
-diesem Schritt werden ausgehend vom konkreten Informationsbedarf
-Zielsetzung und Fragestellungen der Systemanalyse und -bewertung
-konkretisiert, der zu analysierende Problembereich genauer definiert
-und die Durchführung der Systemanalyse geplant. Hierzu gehört auch die Festlegung der Bewertungskriterien für eine eventuell folgende Systembewertung. Die Analyseplanung erfolgt in der Regel durch die mit der Systemanalyse betrauten Personen (im Folgenden als Analy-seteam bezeichnet) unter Mitarbeit des Auftraggebers und von Mit-arbeitern des betrachteten Bereichs (Fachabteilung genannt).</skos:definition>
+        <skos:definition xml:lang="de">Das Vorgehensmodell beginnt mit dem Schritt der Analyseplanung. In diesem Schritt werden ausgehend vom konkreten Informationsbedarf Zielsetzung und Fragestellungen der Systemanalyse und -bewertung konkretisiert, der zu analysierende Problembereich genauer definiert und die Durchführung der Systemanalyse geplant. Hierzu gehört auch die Festlegung der Bewertungskriterien für eine eventuell folgende Systembewertung. Die Analyseplanung erfolgt in der Regel durch die mit der Systemanalyse betrauten Personen (im Folgenden als Analy-seteam bezeichnet) unter Mitarbeit des Auftraggebers und von Mit-arbeitern des betrachteten Bereichs (Fachabteilung genannt).</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">124</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -30635,8 +30310,7 @@ und die Durchführung der Systemanalyse geplant. Hierzu gehört auch die Festleg
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Analyse von Informationssystemen bzw. Informationssystemkomponenten mit dem Ziel der genauen Beschreibung des Ist-Zustandes und seiner zielgerichteten
-Bewertung -- Projektmodul zur Analyse von Informationssystemen bzw. Informationssystemkomponenten mit dem Ziel ihrer genauen Beschreibung und zielgerichteten Bewertungen. Aktivitäten umfassen Analyseplanung, Informaionsbeschaffung mit speziellen Methoden der Informaionsbeschaffung, Aufbereitung und Modellierung sowie Verifikation. Als Ergebnis liegt ein Analysebericht vor.</skos:definition>
+        <skos:definition xml:lang="de">Analyse von Informationssystemen bzw. Informationssystemkomponenten mit dem Ziel der genauen Beschreibung des Ist-Zustandes und seiner zielgerichteten Bewertung -- Projektmodul zur Analyse von Informationssystemen bzw. Informationssystemkomponenten mit dem Ziel ihrer genauen Beschreibung und zielgerichteten Bewertungen. Aktivitäten umfassen Analyseplanung, Informaionsbeschaffung mit speziellen Methoden der Informaionsbeschaffung, Aufbereitung und Modellierung sowie Verifikation. Als Ergebnis liegt ein Analysebericht vor.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28, 344</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -31034,16 +30708,7 @@ Bewertung -- Projektmodul zur Analyse von Informationssystemen bzw. Informations
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3, 12.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Systematische Überprüfung, ob mit der Einführung von Werkzeugen der Informationsverarbeitung die in der
-Systemspezifikation definierten Ziele erreicht wurden und welche
-Probleme und Schwachstellen bestehen.
-------------------
- Unter Systemevaluation verstehen wir
-die zielbezogene Beurteilung von (Sub-)Informationssystemen zur
-Unterstützung von Entscheidungen. Eine solche Entscheidung kann
-z. B. sein, ob eine Verbesserung oder ein Austausch einer Komponente notwendig ist, was dann zur Initiierung weiterer Projekte führt.
-------------------
- Projektmodul zur zielbezogenen Beurteilung von (Sub-)Informationssystemen zur Unterstützung von Entscheidungen, Aktivitäten umfassen Evaluationsplanung, Informationsbeschaffung, Aufbereitung der Ergebnisse, Verifikation und Erstllung des Evaluationsberichts.</skos:definition>
+        <skos:definition xml:lang="de">Systematische Überprüfung, ob mit der Einführung von Werkzeugen der Informationsverarbeitung die in der Systemspezifikation definierten Ziele erreicht wurden und welche Probleme und Schwachstellen bestehen. ------------------  Unter Systemevaluation verstehen wir die zielbezogene Beurteilung von (Sub-)Informationssystemen zur Unterstützung von Entscheidungen. Eine solche Entscheidung kann z. B. sein, ob eine Verbesserung oder ein Austausch einer Komponente notwendig ist, was dann zur Initiierung weiterer Projekte führt. ------------------  Projektmodul zur zielbezogenen Beurteilung von (Sub-)Informationssystemen zur Unterstützung von Entscheidungen, Aktivitäten umfassen Evaluationsplanung, Informationsbeschaffung, Aufbereitung der Ergebnisse, Verifikation und Erstllung des Evaluationsberichts.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28, 259, 345</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -31451,9 +31116,7 @@ z. B. sein, ob eine Verbesserung oder ein Austausch einer Komponente notwendig i
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Vorbereitung und Durchführung der Einführung von neuen oder geänderten Anwendungssystemen und physischen Datenverarbeitungssystemen.
-------------------
- Projektmodul zur Einführung einzelner Informationssystemkokmponenten in einem Bereich. Aktivitäten der Systemeinführung umfassen Festlegungen der Einführungsstrategie, Adaptierung des Produkts, organisatiorische und technische Vorbereitungen, Vorbereitung der Schulung, Management von Änderungswünschen (Change Management), Inbetriebnahme sowie Systemabnahme und Systemübergabe.</skos:definition>
+        <skos:definition xml:lang="de">Vorbereitung und Durchführung der Einführung von neuen oder geänderten Anwendungssystemen und physischen Datenverarbeitungssystemen. ------------------  Projektmodul zur Einführung einzelner Informationssystemkokmponenten in einem Bereich. Aktivitäten der Systemeinführung umfassen Festlegungen der Einführungsstrategie, Adaptierung des Produkts, organisatiorische und technische Vorbereitungen, Vorbereitung der Schulung, Management von Änderungswünschen (Change Management), Inbetriebnahme sowie Systemabnahme und Systemübergabe.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28, 345</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -32143,10 +31806,7 @@ z. B. sein, ob eine Verbesserung oder ein Austausch einer Komponente notwendig i
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Auswahl geeigneter Software- oder anderer Produkte und Vorbereitung ihrer Einführung (z. B. Adaptierung) als
-Werkzeuge der Informationsverarbeitung.
-------------------
- Projektmodul zur Auswahl geeigneter Softwareprodukte, basierend auf einer vorherigen Systemspezifikation. Aktivitäten umfassen Markterkundung, Durchführung der Ausschreibung, Vergleich der Angebote und Entscheidung für ein Produkt mit Vertragsabschluss. Für die Entscheidung sind Eignungskriterien und Zuschlagskriterien relevant.</skos:definition>
+        <skos:definition xml:lang="de">Auswahl geeigneter Software- oder anderer Produkte und Vorbereitung ihrer Einführung (z. B. Adaptierung) als Werkzeuge der Informationsverarbeitung. ------------------  Projektmodul zur Auswahl geeigneter Softwareprodukte, basierend auf einer vorherigen Systemspezifikation. Aktivitäten umfassen Markterkundung, Durchführung der Ausschreibung, Vergleich der Angebote und Entscheidung für ein Produkt mit Vertragsabschluss. Für die Entscheidung sind Eignungskriterien und Zuschlagskriterien relevant.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28, 344</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -32536,12 +32196,7 @@ Werkzeuge der Informationsverarbeitung.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3, 9.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Möglichst genaue und umsetzbare Beschreibung des Soll-Zustandes eines Informationssystems bzw. einer
-Informationskomponente.
-------------------
- Im Rahmen einer Systemspezifikation wird be-schrieben, welche (technischen und/oder organisatorischen) Verände-rungen an einem (Sub-)Informationssystem vorgenommen werden sollen.
-------------------
- Projektmodul zur genauen und umsetzbaren Beschreibung des Soll-Zustandes eines (Sub-)Informationssystems bzw. einer Informationssystemkomponente. Aktivitäten der Systemspezifikation umfassen Zieldefinition, Informationsbeschaffung, Aufbereitung und Modellierung sowie Vertifikation. Als Ergebnis liegt ein Sollkonzept sowie ggf. ein Pflichtenheft vor.</skos:definition>
+        <skos:definition xml:lang="de">Möglichst genaue und umsetzbare Beschreibung des Soll-Zustandes eines Informationssystems bzw. einer Informationskomponente. ------------------  Im Rahmen einer Systemspezifikation wird be-schrieben, welche (technischen und/oder organisatorischen) Verände-rungen an einem (Sub-)Informationssystem vorgenommen werden sollen. ------------------  Projektmodul zur genauen und umsetzbaren Beschreibung des Soll-Zustandes eines (Sub-)Informationssystems bzw. einer Informationssystemkomponente. Aktivitäten der Systemspezifikation umfassen Zieldefinition, Informationsbeschaffung, Aufbereitung und Modellierung sowie Vertifikation. Als Ergebnis liegt ein Sollkonzept sowie ggf. ein Pflichtenheft vor.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28, 185, 345</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -33257,9 +32912,7 @@ Informationskomponente.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.1, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Das wesentliche Ergebnis des Moduls der Systemspezifikation ist das Sollkonzept (vgl. Abb. 9.1), welches geplante technische und organi-satorische Veränderungen an einem Informationssystem (Soll-Zu-stand) sowie den Migrationsplan zu ihrer Erreichung beschreibt. Das Sollkonzept geht damit weit über eine reine Systembeschreibung hinaus.
-------------------
- Ergebnis der Systemspezifikation. Ein Sollkonzept umfasst neben Problembereich und Zieldefinition vor allem die Beschreibung des Soll-Zustandes für ein (Sub- ) Informationssystem sowie einen Migrationsplan, wie man vom Ist-Zustand zum Soll-Zustand kommen kann. Ist eine Systemauswahl oder Systementwicklung geplant, enthält das Sollkonzept auch ein detailliertes Pflichtenheft für ein zu beschaffendes oder zu entwickelndes Produkt.</skos:definition>
+        <skos:definition xml:lang="de">Das wesentliche Ergebnis des Moduls der Systemspezifikation ist das Sollkonzept (vgl. Abb. 9.1), welches geplante technische und organi-satorische Veränderungen an einem Informationssystem (Soll-Zu-stand) sowie den Migrationsplan zu ihrer Erreichung beschreibt. Das Sollkonzept geht damit weit über eine reine Systembeschreibung hinaus. ------------------  Ergebnis der Systemspezifikation. Ein Sollkonzept umfasst neben Problembereich und Zieldefinition vor allem die Beschreibung des Soll-Zustandes für ein (Sub- ) Informationssystem sowie einen Migrationsplan, wie man vom Ist-Zustand zum Soll-Zustand kommen kann. Ist eine Systemauswahl oder Systementwicklung geplant, enthält das Sollkonzept auch ein detailliertes Pflichtenheft für ein zu beschaffendes oder zu entwickelndes Produkt.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">187, 342</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -33970,24 +33623,7 @@ Informationskomponente.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2, 10.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Eine Ausschreibung ist die Aufforderung zur Abgabe eines Angebots.
-------------------
- Durch öffentliche Bekanntmachung wird eine
-unbeschränkte Zahl von Unternehmen zur Angebotsabgabe ein-
-geladen. Bei Auftragsvolumen oberhalb bestimmter Schwellen-
-werte muss EU-weit ausgeschrieben werden, ansonsten genügt
-eine nationale Bekanntmachung. Die geforderte Leistung muss
-eindeutig und umfassend beschrieben sein. Die Ermittlung des
-„Bestbieters“ unterliegt dann klaren Regeln: Zunächst werden die
-Angebote formell geprüft, dann werden die Bieter anhand der ge-
-forderten Eignungskriterien beurteilt, und schließlich erfolgt die
-inhaltliche Bewertung und Reihung der Angebote anhand der
-aufgestellten Zuschlagskriterien (vgl. Kapitel 10.2). Um das Dis-
-kriminierungsverbot gegenüber anderen Bietern zu erfüllen, müs-
-sen bereits vor der Ausschreibung Eignungs- und Zuschlagskrite-
-rien definiert werden, die später nicht geändert werden dürfen.
-Eine Nachverhandlung über Inhalt und Preis eines Angebots ist
-also nicht zulässig.</skos:definition>
+        <skos:definition xml:lang="de">Eine Ausschreibung ist die Aufforderung zur Abgabe eines Angebots. ------------------  Durch öffentliche Bekanntmachung wird eine unbeschränkte Zahl von Unternehmen zur Angebotsabgabe ein- geladen. Bei Auftragsvolumen oberhalb bestimmter Schwellen- werte muss EU-weit ausgeschrieben werden, ansonsten genügt eine nationale Bekanntmachung. Die geforderte Leistung muss eindeutig und umfassend beschrieben sein. Die Ermittlung des „Bestbieters“ unterliegt dann klaren Regeln: Zunächst werden die Angebote formell geprüft, dann werden die Bieter anhand der ge- forderten Eignungskriterien beurteilt, und schließlich erfolgt die inhaltliche Bewertung und Reihung der Angebote anhand der aufgestellten Zuschlagskriterien (vgl. Kapitel 10.2). Um das Dis- kriminierungsverbot gegenüber anderen Bietern zu erfüllen, müs- sen bereits vor der Ausschreibung Eignungs- und Zuschlagskrite- rien definiert werden, die später nicht geändert werden dürfen. Eine Nachverhandlung über Inhalt und Preis eines Angebots ist also nicht zulässig.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">213, 218</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -34747,8 +34383,7 @@ also nicht zulässig.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Bei Zeitmessungen unterscheidet man die direkte Zeitmessung, in der Beginn und Ende einer Tätigkeit dokumentiert werden, und das Work-Sampling, bei dem über einen längeren Zeitraum zu festgelegten regelmäßigen Zeitpunkten die jeweils zu diesem Zeitpunkt durchge-führten Tätigkeiten jedes einzelnen Mitarbeiters dokumentiert werden. Dadurch kann ebenfalls der mittlere Zeitaufwand pro Tätigkeit abgeschätzt
-werden.</skos:definition>
+        <skos:definition xml:lang="de">Bei Zeitmessungen unterscheidet man die direkte Zeitmessung, in der Beginn und Ende einer Tätigkeit dokumentiert werden, und das Work-Sampling, bei dem über einen längeren Zeitraum zu festgelegten regelmäßigen Zeitpunkten die jeweils zu diesem Zeitpunkt durchge-führten Tätigkeiten jedes einzelnen Mitarbeiters dokumentiert werden. Dadurch kann ebenfalls der mittlere Zeitaufwand pro Tätigkeit abgeschätzt werden.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">145</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -35118,9 +34753,7 @@ werden.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Ein Klassendiagramm erlaubt die statische Beschreibung von Syste-men von Objekten, genauso wie bei der vorgestellten ER-Modellie-rung. Die Bezeichnung ‚Entität‘ kann dabei durch die Bezeichnung ‚Objekt‘ und die Bezeichnung ‚Entitätsklasse‘ durch ‚Objektklasse‘ oder einfach ‚Klasse‘ ersetzt werden. Zusätzlich kann die Beschrei-bung von Objekt(klass)en unter anderem um Verhaltensbeschreibun-gen ergänzt werden im Sinne definierter Schnittstellen zu Operatio-nen, die ein Objekt der jeweiligen Klasse ausführen kann.
-------------------
- Methode zur Datenmodellierung, welche auf der Darstellung von Objekten und Klassen beruht.</skos:definition>
+        <skos:definition xml:lang="de">Ein Klassendiagramm erlaubt die statische Beschreibung von Syste-men von Objekten, genauso wie bei der vorgestellten ER-Modellie-rung. Die Bezeichnung ‚Entität‘ kann dabei durch die Bezeichnung ‚Objekt‘ und die Bezeichnung ‚Entitätsklasse‘ durch ‚Objektklasse‘ oder einfach ‚Klasse‘ ersetzt werden. Zusätzlich kann die Beschrei-bung von Objekt(klass)en unter anderem um Verhaltensbeschreibun-gen ergänzt werden im Sinne definierter Schnittstellen zu Operatio-nen, die ein Objekt der jeweiligen Klasse ausführen kann. ------------------  Methode zur Datenmodellierung, welche auf der Darstellung von Objekten und Klassen beruht.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">153, 346</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -35193,12 +34826,7 @@ werden.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Ein Objekt stellt einen beliebigen Ausschnitt aus der wahrnehmba
-ren oder vorstellbaren Welt dar. Jedes einzelne Objekt weist eine
-Menge von Eigenschaften (Attribute) auf. Durch die Ermittlung ge
-meinsamer Eigenschaften lässt sich mittels Abstraktion eine Menge
-gleichartiger Objekte zu einer Denkeinheit zusammenfassen, die als
-Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
+        <skos:definition xml:lang="de">Ein Objekt stellt einen beliebigen Ausschnitt aus der wahrnehmba ren oder vorstellbaren Welt dar. Jedes einzelne Objekt weist eine Menge von Eigenschaften (Attribute) auf. Durch die Ermittlung ge meinsamer Eigenschaften lässt sich mittels Abstraktion eine Menge gleichartiger Objekte zu einer Denkeinheit zusammenfassen, die als Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11, 332</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -36481,12 +36109,7 @@ Objekttyp (oder Klasse) bezeichnet wird.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
-        <skos:definition xml:lang="de">Schriftliche Befragungen ermöglichen die gleichartige Befragung einer größeren Personenzahl.
-------------------
- Einsatzbereiche schriftlicher Befragungen sind die strukturierte Erhe-bung von Informationen, die die Befragten haben (sollten), das Erfra-gen von Einstellung und Meinungen von Betroffenen, die Sammlung von Stärken und Schwachstellen einer Situation, eines Ablaufs oder einer Komponente sowie die Sammlung von Wünschen und Verbes-serungsvorschlägen.
-Schriftliche Befragungen sind immer standardisiert, da die Fragen not-wendigerweise fest vorgegeben sind. Die Fragen können dabei offen (Freitext-Fragen) oder geschlossen (in der Regel „Ankreuz-Fragen“) sein.
-------------------
- Methode zur Informationsbeschaffung, bei der bestimmte Personen eigenständig schriftlich gestellte Fragen beantworten. Eine schriftliche Befragung dient dazu, Informationen, Einstellungen und Meinungen von Personen in einem zu untersuchenden Bereich zu erheben. Als Erhebungsformular wird ein Fragebogen verwendet. Von besonderer Bedeutung ist hier die Rücklaufquote. Schriftliche Befragungen besitzen in der Regel einen hohen Grad an Standardisierung (siehe standardisierte Datenerhebung).</skos:definition>
+        <skos:definition xml:lang="de">Schriftliche Befragungen ermöglichen die gleichartige Befragung einer größeren Personenzahl. ------------------  Einsatzbereiche schriftlicher Befragungen sind die strukturierte Erhe-bung von Informationen, die die Befragten haben (sollten), das Erfra-gen von Einstellung und Meinungen von Betroffenen, die Sammlung von Stärken und Schwachstellen einer Situation, eines Ablaufs oder einer Komponente sowie die Sammlung von Wünschen und Verbes-serungsvorschlägen. Schriftliche Befragungen sind immer standardisiert, da die Fragen not-wendigerweise fest vorgegeben sind. Die Fragen können dabei offen (Freitext-Fragen) oder geschlossen (in der Regel „Ankreuz-Fragen“) sein. ------------------  Methode zur Informationsbeschaffung, bei der bestimmte Personen eigenständig schriftlich gestellte Fragen beantworten. Eine schriftliche Befragung dient dazu, Informationen, Einstellungen und Meinungen von Personen in einem zu untersuchenden Bereich zu erheben. Als Erhebungsformular wird ein Fragebogen verwendet. Von besonderer Bedeutung ist hier die Rücklaufquote. Schriftliche Befragungen besitzen in der Regel einen hohen Grad an Standardisierung (siehe standardisierte Datenerhebung).</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">132, 142, 340</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -36610,8 +36233,7 @@ Schriftliche Befragungen sind immer standardisiert, da die Fragen not-wendigerwe
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Darstellung von Anwendungssystemen und ihrer Kommunikationsverbindungen.
-Vgl. Drei-Ebenen-Metamodell eines (Sub-)Informationssystems.</skos:definition>
+        <skos:definition xml:lang="de">Darstellung von Anwendungssystemen und ihrer Kommunikationsverbindungen. Vgl. Drei-Ebenen-Metamodell eines (Sub-)Informationssystems.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">329</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -36718,9 +36340,7 @@ Vgl. Drei-Ebenen-Metamodell eines (Sub-)Informationssystems.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Darstellung von Physischen Datenverarbeitungssystemen und ihrer
-Datenübertragungsverbindungen. Vgl. Drei-Ebenen-Metamodell
-eines (Sub-)Informationssystems.</skos:definition>
+        <skos:definition xml:lang="de">Darstellung von Physischen Datenverarbeitungssystemen und ihrer Datenübertragungsverbindungen. Vgl. Drei-Ebenen-Metamodell eines (Sub-)Informationssystems.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
@@ -37661,9 +37281,7 @@ eines (Sub-)Informationssystems.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
-        <skos:definition xml:lang="de">Im nachfolgenden Verifikationsschritt werden die Ergebnisse der Systemanalyse verifiziert, also z. B. überprüft, ob die erhobenen Da-ten und die daraus gewonnenen Modelle und Erkenntnisse „wahr“ sind. Hierzu gehört die Überprüfung der Korrektheit, Vollständigkeit und Angemessenheit der erstellten Modelle. Diese Prüfung erfolgt unter Einbeziehung von Mitarbeitern des betrachteten Bereichs und/oder Fachexperten. Wir verwenden den Begriff der Verifikation hier also im Sinne der Systemanalyse. In anderen Bereichen der In-formatik kann der Begriff auch etwas anders verstanden werden.
-------------------
- Die Korrektheit, Vollständigkeit und Angemessenheit der aufbereite-ten und ggf. modellierten Ergebnisse der Informationsbeschaffung ist durch Versäumnisse oder Missverständnisse während der Informa-tionsbeschaffung (vgl. auch Abb. 8.2 auf S. 118) sowie durch Auf-bereitungs- und Modellierungsfehler gefährdet. Zur Erkennung und Korrektur dieser potenziellen Fehler ist daher eine systematische Veri-fikation der aufbereiteten und ggf. modellierten Ergebnisse durch Mitarbeiter des betroffenen Bereichs und/oder durch Fachexperten zu empfehlen.</skos:definition>
+        <skos:definition xml:lang="de">Im nachfolgenden Verifikationsschritt werden die Ergebnisse der Systemanalyse verifiziert, also z. B. überprüft, ob die erhobenen Da-ten und die daraus gewonnenen Modelle und Erkenntnisse „wahr“ sind. Hierzu gehört die Überprüfung der Korrektheit, Vollständigkeit und Angemessenheit der erstellten Modelle. Diese Prüfung erfolgt unter Einbeziehung von Mitarbeitern des betrachteten Bereichs und/oder Fachexperten. Wir verwenden den Begriff der Verifikation hier also im Sinne der Systemanalyse. In anderen Bereichen der In-formatik kann der Begriff auch etwas anders verstanden werden. ------------------  Die Korrektheit, Vollständigkeit und Angemessenheit der aufbereite-ten und ggf. modellierten Ergebnisse der Informationsbeschaffung ist durch Versäumnisse oder Missverständnisse während der Informa-tionsbeschaffung (vgl. auch Abb. 8.2 auf S. 118) sowie durch Auf-bereitungs- und Modellierungsfehler gefährdet. Zur Erkennung und Korrektur dieser potenziellen Fehler ist daher eine systematische Veri-fikation der aufbereiteten und ggf. modellierten Ergebnisse durch Mitarbeiter des betroffenen Bereichs und/oder durch Fachexperten zu empfehlen.</skos:definition>
         <Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125, 136</Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
