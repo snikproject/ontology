@@ -15,6 +15,10 @@
 
 	<owl:Ontology rdf:about="http://www.snik.eu/meta">
 		<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-19</dc:modified>
+		<foaf:homepage rdf:resource="http://www.snik.eu"/>
+		<dc:source rdf:resource="http://www.snik.eu/mapping"/>
+		<vann:preferredNamespacePrefix>snik-meta</vann:preferredNamespacePrefix>
+		<vann:preferredNamespaceUri rdf:resource="&bb;"/>
 		<ov:defines rdf:resource="Function"/>
 		<ov:defines rdf:resource="InformationManagement"/>
 		<ov:defines rdf:resource="Administration"/>
@@ -47,10 +51,6 @@
 		<ov:defines rdf:resource="representationType"/>
 		<ov:defines rdf:resource="isResponsibleForEntityType"/>
 		<ov:defines rdf:resource="isResponsibleForFunction"/>
-		<foaf:homepage rdf:resource="http://www.snik.eu"/>
-		<dc:source rdf:resource="http://www.snik.eu/mapping"/>
-		<vann:preferredNamespacePrefix>snik-meta</vann:preferredNamespacePrefix>
-		<vann:preferredNamespaceUri rdf:resource="&bb;"/>
 	</owl:Ontology>
 
 	<owl:ObjectProperty rdf:about="typicalFeature">
