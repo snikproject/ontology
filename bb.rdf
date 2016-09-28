@@ -36,6 +36,15 @@
 
 <owl:Ontology rdf:about="http://www.snik.eu/ontology/bb">
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-28</dc:modified>
+        <rdfs:label xml:lang="en">Health Information Systems Ontology</rdfs:label>
+        <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
+        <vann:preferredNamespacePrefix>snik-bb</vann:preferredNamespacePrefix>
+        <rdfs:comment xml:lang="en">The Ontology extracted from &quot;Health Information Systems&quot;, the &quot;blue book&quot;.</rdfs:comment>
+        <foaf:homepage rdf:resource="http://www.snik.eu"/>
+        <vann:preferredNamespaceUri>http://www.snik.eu/ontology/bb/</vann:preferredNamespaceUri>
+        <dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>
+        <dc:source rdf:resource="http://www.snik.eu/mapping"/>
         <ov:defines rdf:resource="Provide_means_for_creating_statistics"/>
         <ov:defines rdf:resource="3LGM2_Data_Transmission_Connection"/>
         <ov:defines rdf:resource="IsRedundant"/>
@@ -54,7 +63,6 @@
         <ov:defines rdf:resource="Malcolm_Baldrige_National_Quality_Award"/>
         <ov:defines rdf:resource="3_tier_Architecture"/>
         <ov:defines rdf:resource="Use_of_Strategic_Information_Management_Plan"/>
-        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-08-15</dc:modified>
         <ov:defines rdf:resource="HL7_Reference_Information_Model"/>
         <ov:defines rdf:resource="Artificial_System"/>
         <ov:defines rdf:resource="3LGM2_Physical_Tool_Layer"/>
@@ -205,7 +213,6 @@
         <ov:defines rdf:resource="Information_Storage"/>
         <ov:defines rdf:resource="HL7_Version_3_Message"/>
         <ov:defines rdf:resource="Clinical_Information_System"/>
-        <rdfs:label xml:lang="en">Health Information Systems Ontology</rdfs:label>
         <ov:defines rdf:resource="Mobile_Phone"/>
         <ov:defines rdf:resource="Patient_Care"/>
         <ov:defines rdf:resource="IT_Service_Management_Staff"/>
@@ -338,7 +345,6 @@
         <ov:defines rdf:resource="Quality_Management"/>
         <ov:defines rdf:resource="isResponsibleFor"/>
         <ov:defines rdf:resource="Description_of_the_Current_HIS_State"/>
-        <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
         <ov:defines rdf:resource="HL7_Message_Type_Event_Type_Combination"/>
         <ov:defines rdf:resource="Integrate_data_from_different_application_components"/>
         <ov:defines rdf:resource="Planning_of_Buildings"/>
@@ -412,7 +418,6 @@
         <ov:defines rdf:resource="Assign_staff_to_patients_or_rooms"/>
         <ov:defines rdf:resource="Provide_forms_for_writing_the_discharge_report"/>
         <ov:defines rdf:resource="Enterprise_Resource_Planning_System"/>
-        <vann:preferredNamespacePrefix>snik-bb</vann:preferredNamespacePrefix>
         <ov:defines rdf:resource="Goal_of_Medical_Education"/>
         <ov:defines rdf:resource="Quality_of_Structures"/>
         <ov:defines rdf:resource="Standardization_Of_Computer_Systems"/>
@@ -511,7 +516,6 @@
         <ov:defines rdf:resource="Configuration_Management"/>
         <ov:defines rdf:resource="Import_documents"/>
         <ov:defines rdf:resource="Resource"/>
-        <rdfs:comment xml:lang="en">The Ontology extracted from &quot;Health Information Systems&quot;, the &quot;blue book&quot;.</rdfs:comment>
         <ov:defines rdf:resource="Support_creation_of_a_nursing_care_plan"/>
         <ov:defines rdf:resource="Description_of_the_Planned_HIS_State"/>
         <ov:defines rdf:resource="Provision_of_Patient_Data_and_Examination_Parameters"/>
@@ -570,8 +574,6 @@
         <ov:defines rdf:resource="Provide_means_for_organizing_career_development"/>
         <ov:defines rdf:resource="Outpatient_Management_System"/>
         <ov:defines rdf:resource="Patient_Administration_Department"/>
-        <foaf:homepage rdf:resource="http://www.snik.eu"/>
-        <ov:defines rdf:resource="Document_Archiving_System"/>
         <ov:defines rdf:resource="Diet"/>
         <ov:defines rdf:resource="User_Requirements_Analysis"/>
         <ov:defines rdf:resource="Administrative_Discharge_and_Billing"/>
@@ -723,11 +725,10 @@
         <ov:defines rdf:resource="Evaluation_Method"/>
         <ov:defines rdf:resource="Modify_presentation_of_pictures"/>
         <ov:defines rdf:resource="Location"/>
-        <vann:preferredNamespaceUri>http://www.snik.eu/ontology/bb/</vann:preferredNamespaceUri>
+        <ov:defines rdf:resource="Document_Archiving_System"/>
         <ov:defines rdf:resource="SAPS"/>
         <ov:defines rdf:resource="Cluster"/>
         <ov:defines rdf:resource="University_Medical_Center"/>
-        <dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>
         <ov:defines rdf:resource="Case_Study"/>
         <ov:defines rdf:resource="Rehabilitation_Center"/>
         <ov:defines rdf:resource="Provide_means_for_managing_logistics"/>
@@ -1348,7 +1349,6 @@
         <ov:defines rdf:resource="COBIT"/>
         <ov:defines rdf:resource="Provide_means_for_asset_accounting"/>
         <ov:defines rdf:resource="3LGM2_S_Invoking_Interface"/>
-        <dc:source rdf:resource="http://www.snik.eu/mapping"/>
         <ov:defines rdf:resource="ISO_25000_Software_Quality"/>
         <ov:defines rdf:resource="OfficialUserGroup"/>
         <ov:defines rdf:resource="Room"/>
