@@ -337,7 +337,6 @@
         <ov:defines rdf:resource="Health_Care_Regulation"/>
         <ov:defines rdf:resource="Performance_of_the_Application_Component"/>
         <ov:defines rdf:resource="Patient_Identification_and_Checking_for_Recurrent"/>
-        <ov:defines rdf:resource="Synonym"/>
         <ov:defines rdf:resource="ISO_Standard"/>
         <ov:defines rdf:resource="Information_Management_Goal"/>
         <ov:defines rdf:resource="Funding_Institution"/>
@@ -7116,7 +7115,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="Clinical_Information_System">
 	<rdfs:label xml:lang="en">Clinical Information System</rdfs:label>
-        <rdfs:label xml:lang="de">Klinisches Informationssystem</skos:altLabel>
+        <rdfs:label xml:lang="de">Klinisches Informationssystem</rdfs:label>
         <skos:altLabel xml:lang="de">Klinisches Arbeitsplatzsystem</skos:altLabel>
         <skos:altLabel xml:lang="en">Electronic Patient Record System</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Computer_Based_Application_Component"/>
@@ -9604,7 +9603,7 @@ Object Workgroup Standard</skos:altLabel>
         <skos:definition xml:lang="en">An  economic  analysis  to  compare  the  costs  and  consequences of an information system component. It does not require that all important effects and beneﬁ ts are expressed in monetary terms. An economic analysis to compare the costs and consequences of a component of an information system. It does not require that all important effects be expressed in monetary terms.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">227, 300</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1581</ID>
-        <rdfs:label xml:lang"de">Kostenwirksamkeitsanalyse</rdfs:label>
+        <rdfs:label xml:lang="de">Kostenwirksamkeitsanalyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Cost_Effectiveness_Analysis"/>
@@ -42620,7 +42619,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="SigG">
         <rdfs:label xml:lang="de">Signaturgesetz</rdfs:label>
-	<skos:altLabel xml:lang="de">SigG</rdfs:label>
+	<skos:altLabel xml:lang="de">SigG</skos:altLabel>
         <rdfs:subClassOf rdf:resource="German_Law"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
