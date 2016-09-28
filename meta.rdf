@@ -18,7 +18,7 @@
 		<foaf:homepage rdf:resource="http://www.snik.eu"/>
 		<dc:source rdf:resource="http://www.snik.eu/mapping"/>
 		<vann:preferredNamespacePrefix>snik-meta</vann:preferredNamespacePrefix>
-		<vann:preferredNamespaceUri rdf:resource="&bb;"/>
+		<vann:preferredNamespaceUri rdf:resource="http://www.snik.eu/ontology/meta/"/>
 		<ov:defines rdf:resource="Function"/>
 		<ov:defines rdf:resource="InformationManagement"/>
 		<ov:defines rdf:resource="Administration"/>

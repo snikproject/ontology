@@ -37,6 +37,8 @@
 <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
 <dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>
 <foaf:homepage rdf:resource="http://www.snik.eu"/>
+<vann:preferredNamespacePrefix>snik-ob</vann:preferredNamespacePrefix>
+<vann:preferredNamespaceUri>http://www.snik.eu/ontology/ob/</vann:preferredNamespaceUri>
 <dc:source rdf:resource="http://www.snik.eu/mapping"/>
 <ov:defines rdf:resource="3LGM2_Application_Component"/>
 <ov:defines rdf:resource="3LGM2_Communication_Interface"/>

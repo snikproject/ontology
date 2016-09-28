@@ -40,9 +40,9 @@
         <rdfs:label xml:lang="en">Health Information Systems Ontology</rdfs:label>
         <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
         <vann:preferredNamespacePrefix>snik-bb</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://www.snik.eu/ontology/bb/</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="en">The Ontology extracted from &quot;Health Information Systems&quot;, the &quot;blue book&quot;.</rdfs:comment>
         <foaf:homepage rdf:resource="http://www.snik.eu"/>
-        <vann:preferredNamespaceUri>http://www.snik.eu/ontology/bb/</vann:preferredNamespaceUri>
         <dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>
         <dc:source rdf:resource="http://www.snik.eu/mapping"/>
         <ov:defines rdf:resource="Provide_means_for_creating_statistics"/>
