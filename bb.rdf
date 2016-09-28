@@ -343,7 +343,6 @@
         <ov:defines rdf:resource="Funding_Institution"/>
         <ov:defines rdf:resource="Provide_forms_for_documenting_patient’s_informed_consent"/>
         <ov:defines rdf:resource="Quality_Management"/>
-        <ov:defines rdf:resource="isResponsibleFor"/>
         <ov:defines rdf:resource="Description_of_the_Current_HIS_State"/>
         <ov:defines rdf:resource="HL7_Message_Type_Event_Type_Combination"/>
         <ov:defines rdf:resource="Integrate_data_from_different_application_components"/>
@@ -1735,7 +1734,6 @@
         <rdfs:subClassOf rdf:resource="HL7_Event_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">A01 describes the event “admission of a patient</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1376</ID>
@@ -1757,7 +1755,6 @@
         <rdfs:subClassOf rdf:resource="HL7_Event_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">A02 describes the “transfer to another organizational unit&quot;.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1377</ID>
@@ -1779,7 +1776,6 @@
         <rdfs:subClassOf rdf:resource="HL7_Event_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">A03 describes “discharge of a patient.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1378</ID>
@@ -1808,7 +1804,6 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">In the simplest case, the overall HIS consists of only one computer-based application component, which supports most of the enterprise functions.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">140</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1027</ID>
@@ -1866,7 +1861,6 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">833</ID>
@@ -1936,7 +1930,6 @@
         <rdfs:subClassOf rdf:resource="Application_Component_Style"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">architectures with a multiplicity of application components</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">141</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1352</ID>
@@ -1983,7 +1976,6 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">ADT stands for messages related to admission, discharge, and transfer of a patient. Admission, discharge, and transfer of a patient, as part of patient administration.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150, 294</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">821</ID>
@@ -2053,7 +2045,6 @@
         <rdfs:subClassOf rdf:resource="Document_Standard"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1324</ID>
@@ -2076,7 +2067,6 @@
         <rdfs:subClassOf rdf:resource="Classification"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1361</ID>
@@ -2127,7 +2117,6 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512</ID>
@@ -2163,7 +2152,6 @@
         <rdfs:subClassOf rdf:resource="Quality_of_Computer_Based_Application_Components_and_Their_Integration"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5, Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">Condition of an information system where the application components needed for the completion of a certain task can be used where they are needed.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">147, 293</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1360</ID>
@@ -2191,7 +2179,6 @@
         <rdfs:subClassOf rdf:resource="Quality_of_Data"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">Describes that data should be free from mistakes. For example, patient laboratory findings are free of measurement or transcription errors.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1479</ID>
@@ -2250,7 +2237,6 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">An activity interprets data about certain entity types and updates data of certain entity types. Instantiation of an enterprise function. Different from enterprise functions, activities have a definite beginning and end.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55, 293</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">982</ID>
@@ -2285,7 +2271,6 @@
         <rdfs:subClassOf rdf:resource="Research_and_Education_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1665</ID>
@@ -2383,7 +2368,6 @@
         <rdfs:subClassOf rdf:resource="Software_Quality"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">Can a software product be easily adapted to the working context? For example, functionality of a RIS software can be adapted to the particular workflow in a specific radiology.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">204</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1496</ID>
@@ -2405,7 +2389,6 @@
         <rdfs:subClassOf rdf:resource="Quality_of_HIS_Architecture"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">In general, the hospital information system should be sufficiently flexible to adapt to the changing needs of the hospital. For example, it should be easy to add new computer-based application components to the information system, and application components should be easily replaceable by other (more advanced) application components. A star-based architecture (CP 1 architecture) with a communication server (see Sect. 6.5.1.3 ) supports exchanging or adding of new computer-based application components. Additionally, the available bandwidth of the network infrastructure should be easily extendable to match increasing volume of communication.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1530</ID>
@@ -2427,7 +2410,6 @@
         <rdfs:subClassOf rdf:resource="Information_Management_Cost"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1160</ID>
@@ -2449,7 +2431,6 @@
         <rdfs:subClassOf rdf:resource="Management_Department"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1129</ID>
@@ -3089,7 +3070,6 @@
         <rdfs:subClassOf rdf:resource="Passive_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1668</ID>
@@ -3133,7 +3113,6 @@
         <rdfs:subClassOf rdf:resource="Patient_Care_Entity_Type"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1300</ID>
@@ -3179,7 +3158,6 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">723</ID>
