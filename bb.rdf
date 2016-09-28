@@ -11427,7 +11427,7 @@ Object Workgroup Standard</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.6</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">Consensus method for the prediction of the future. A panel of experts is  • surveyed on a given topic in several iterative rounds. The result of each round is pre- sented to each expert in anonymized form; the experts are then invited to modify their judgment in the next round.  </skos:definition>
+        <skos:definition xml:lang="en">Consensus method for the prediction of the future. A panel of experts is  • surveyed on a given topic in several iterative rounds. The result of each round is presented to each expert in anonymized form; the experts are then invited to modify their judgment in the next round.  </skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">227</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1583</ID>
     </owl:Class>
@@ -16102,7 +16102,7 @@ Object Workgroup Standard</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">functional coverage of the application components (e.g., level of saturation of the over- all HIS architecture, see Sect. 8.2.2 , or percentage of documents primarily created in computer-based form);</skos:definition>
+        <skos:definition xml:lang="en">functional coverage of the application components (e.g., level of saturation of the overall HIS architecture, see Sect. 8.2.2 , or percentage of documents primarily created in computer-based form);</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">265</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1607</ID>
     </owl:Class>
@@ -18518,7 +18518,7 @@ Object Workgroup Standard</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.5</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"> diverse software prod- ucts from different manufacturers lead to very heteroge- neous (DB  n  , AC  n  , V  n  ) architectures. At the physical tool layer, heterogeneity is often the consequence of the evolution of the HIS, comprising different generations of computer systems.</skos:definition>
+        <skos:definition xml:lang="en"> diverse software products from different manufacturers lead to very heterogeneous (DB  n  , AC  n  , V  n  ) architectures. At the physical tool layer, heterogeneity is often the consequence of the evolution of the HIS, comprising different generations of computer systems.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">217</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1557</ID>
     </owl:Class>
@@ -21056,7 +21056,7 @@ Object Workgroup Standard</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
 
-        <skos:definition xml:lang="en">IT service management (ITSM) is information management centered on the customer’s per- spective of IT’s contribution to the business, in contrast to technology-centered approaches. It comprises all measures and methods that are necessary to support the business processes. Information management that is centered on the customer’s perspective of the contribution of a HIS to a business, in contrast to more technology-centered approaches. The IT Infrastructure Library (ITIL) is the de-facto standard framework for IT service management.</skos:definition>
+        <skos:definition xml:lang="en">IT service management (ITSM) is information management centered on the customer’s perspective of IT’s contribution to the business, in contrast to technology-centered approaches. It comprises all measures and methods that are necessary to support the business processes. Information management that is centered on the customer’s perspective of the contribution of a HIS to a business, in contrast to more technology-centered approaches. The IT Infrastructure Library (ITIL) is the de-facto standard framework for IT service management.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">246, 309</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</ID>
     </owl:Class>
@@ -30380,7 +30380,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <skos:definition xml:lang="en">Directing means the sum of all management activities that are necessary to ensure proper responses to operating problems of components of the hospital information sys- tem, that is, to provide backup facilities, to operate a service desk, to maintain servers, and to keep task forces available for repairing network components, servers, personal computers, printers, etc. Directing in this context deals with engaging the resources planned by the strategic information management plan in such a way that faultless opera- tion of the hospital information system is ensured.</skos:definition>
+        <skos:definition xml:lang="en">Directing means the sum of all management activities that are necessary to ensure proper responses to operating problems of components of the hospital information system, that is, to provide backup facilities, to operate a service desk, to maintain servers, and to keep task forces available for repairing network components, servers, personal computers, printers, etc. Directing in this context deals with engaging the resources planned by the strategic information management plan in such a way that faultless operation of the hospital information system is ensured.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">244</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1859</ID>
     </owl:Class>
@@ -30407,7 +30407,7 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
-        <skos:definition xml:lang="en">Monitoring deals with caring for the verification of the proper working and effective- ness of components of the hospital information system</skos:definition>
+        <skos:definition xml:lang="en">Monitoring deals with caring for the verification of the proper working and effectiveness of components of the hospital information system</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">244</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">196</ID>
     </owl:Class>
@@ -32782,7 +32782,7 @@ goals, structures, and behaviors.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">In this strategy, the patient is perceived as the primary owner of his data. A patient can set up a record on an internet portal or on other appropriate media. The record is filled by the patient and practitioners or other physicians may support him or her. The patient decides which infor- mation should be included and which persons can access the record. This type of patient- owned electronic record is also called Personal Health Record (PHR).</skos:definition>
+        <skos:definition xml:lang="en">In this strategy, the patient is perceived as the primary owner of his data. A patient can set up a record on an internet portal or on other appropriate media. The record is filled by the patient and practitioners or other physicians may support him or her. The patient decides which information should be included and which persons can access the record. This type of patientowned electronic record is also called Personal Health Record (PHR).</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">191</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1466</ID>
     </owl:Class>
@@ -36086,7 +36086,7 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <skos:definition xml:lang="en">An important instrument for information management strategic planning is portfolio man- agement. Originally coming from the field of finance to acquire a well-balanced securities portfolio, today the term portfolio management is used to refer to multiple strategic man- agement problems. Portfolio management concerning information management categorizes certain components of an information system, like application components or physical data processing systems, but also projects, using certain criteria to assess the value of these components for the enterprise and to balance risks and returns. Categorizes certain components of an information system, using criteria to assess the value of these components for the enterprise and to balance risks and returns. Important instrument for strategic planning of a hospital information system. Comprises, for example, application portfolio management and project portfolio management.</skos:definition>
+        <skos:definition xml:lang="en">An important instrument for information management strategic planning is portfolio management. Originally coming from the field of finance to acquire a well-balanced securities portfolio, today the term portfolio management is used to refer to multiple strategic management problems. Portfolio management concerning information management categorizes certain components of an information system, like application components or physical data processing systems, but also projects, using certain criteria to assess the value of these components for the enterprise and to balance risks and returns. Categorizes certain components of an information system, using criteria to assess the value of these components for the enterprise and to balance risks and returns. Important instrument for strategic planning of a hospital information system. Comprises, for example, application portfolio management and project portfolio management.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">256, 317</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</ID>
         <rdfs:label xml:lang="de">Portfolio-Management</rdfs:label>
@@ -50335,7 +50335,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">3LGM²-M extends 3LGM²-B by concepts for modeling m essage- based communication.</skos:definition>
+        <skos:definition xml:lang="en">3LGM²-M extends 3LGM²-B by concepts for modeling message- based communication.</skos:definition>
         <Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52</Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">684</ID>
     </owl:Class>
