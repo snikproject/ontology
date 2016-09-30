@@ -1,0 +1,89 @@
+PREFIX meta: <http://www.snik.eu/ontology/meta/>
+
+select
+ ?resource
+ ?type
+ ?super
+ ?source
+ group_concat(distinct ?Label;separator="; ") as ?Labels 
+ group_concat(distinct ?altLabel;separator="; ") as ?Alt_Labels
+ group_concat(distinct ?comment;separator="; ") as ?Comments
+ group_concat(distinct ?Chapter;separator="; ") as ?Chapters 
+ group_concat(distinct ?Concept_Domain;separator="; ") as ?Concept_Domains 
+ group_concat(distinct ?Concept_Type;separator="; ") as ?Concept_Types 
+ group_concat(distinct ?definition;separator="; ") as ?definitions 
+ group_concat(distinct ?Definition_DE_Page;separator="; ") as ?Definition_DE_Pages 
+ group_concat(distinct ?Definition_EN_Page;separator="; ") as ?Definition_EN_Pages 
+ group_concat(distinct ?Error;separator="; ") as ?Errors 
+{
+?resource a ?type.
+filter not exists {?resource a owl:Restriction.}
+filter not exists {?resource a owl:Axiom.}
+OPTIONAL
+{
+{
+ ?resource rdfs:subClassOf ?super.
+ filter not exists {?super a owl:Restriction.}
+ filter not exists {?super a owl:Axiom.}
+}
+UNION
+{
+ ?resource rdfs:subPropertyOf ?super.
+}
+}
+OPTIONAL 
+{ 
+ ?resource rdfs:label ?Label. 
+ filter(str(?Label)!=""). 
+} 
+OPTIONAL 
+{ 
+ ?resource skos:altLabel ?altLabel. 
+ filter(str(?altLabel)!=""). 
+} 
+OPTIONAL 
+{ 
+ ?resource rdfs:comment ?comment. 
+ filter(str(?comment)!=""). 
+} 
+OPTIONAL 
+{ 
+ ?resource meta:Chapter ?Chapter. 
+ filter(str(?Chapter)!=""). 
+} 
+OPTIONAL 
+{ 
+ ?resource meta:Concept_Domain ?Concept_Domain. 
+ filter(str(?Concept_Domain)!=""). 
+} 
+OPTIONAL 
+{ 
+ ?resource meta:Concept_Type ?Concept_Type. 
+ filter(str(?Concept_Type)!=""). 
+} 
+OPTIONAL 
+{ 
+ ?resource skos:definition ?definition. 
+ filter(str(?definition)!=""). 
+} 
+OPTIONAL 
+{ 
+ ?resource meta:Definition_DE_Page ?Definition_DE_Page. 
+ filter(str(?Definition_DE_Page)!=""). 
+} 
+OPTIONAL 
+{ 
+ ?resource meta:Definition_EN_Page ?Definition_EN_Page. 
+ filter(str(?Definition_EN_Page)!=""). 
+} 
+OPTIONAL 
+{ 
+ ?resource schema:Error ?Error. 
+ filter(str(?Error)!=""). 
+} 
+OPTIONAL 
+{ 
+ ?source a owl:Ontology.
+ ?source ov:defines ?resource. 
+} 
+}
