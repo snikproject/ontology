@@ -1,0 +1,6 @@
+select ?resource replace(str(?p),".*#","") as ?interaction ?targetNode
+{
+ ?resource ?p ?targetNode.
+ ?resource a owl:Class.
+ ?targetNode a owl:Class.
+}

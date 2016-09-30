@@ -1,0 +1,9 @@
+select ?resource replace(str(?p),".*#","") as ?interaction ?targetNode
+{
+ ?resource a owl:Class.
+ ?resource rdfs:subClassOf ?restriction.
+ ?restriction a owl:Restriction.
+ ?restriction owl:onProperty ?p.
+ ?restriction owl:someValuesFrom ?targetNode.
+ ?targetNode a owl:Class.
+}

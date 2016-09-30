@@ -1,36 +1,28 @@
-PREFIX meta: <http://www.snik.eu/ontology/meta/>
-
 select
  ?resource
+ ?interaction
+ ?targetNode
+ ?query
  ?type
- ?super
  ?source
- group_concat(distinct ?Label;separator="; ") as ?Labels 
- group_concat(distinct ?altLabel;separator="; ") as ?Alt_Labels
- group_concat(distinct ?comment;separator="; ") as ?Comments
- group_concat(distinct ?Chapter;separator="; ") as ?Chapters 
- group_concat(distinct ?Concept_Domain;separator="; ") as ?Concept_Domains 
- group_concat(distinct ?Concept_Type;separator="; ") as ?Concept_Types 
- group_concat(distinct ?definition;separator="; ") as ?definitions 
- group_concat(distinct ?Definition_DE_Page;separator="; ") as ?Definition_DE_Pages 
- group_concat(distinct ?Definition_EN_Page;separator="; ") as ?Definition_EN_Pages 
- group_concat(distinct ?Error;separator="; ") as ?Errors 
+ group_concat(distinct ?Label;separator="|") as ?Labels 
+ group_concat(distinct ?altLabel;separator="|") as ?Alt_Labels
+ group_concat(distinct ?comment;separator="|") as ?Comments
+ group_concat(distinct ?Chapter;separator="|") as ?Chapters 
+ group_concat(distinct ?Concept_Domain;separator="|") as ?Concept_Domains 
+ group_concat(distinct ?Concept_Type;separator="|") as ?Concept_Types 
+ group_concat(distinct ?definition;separator="|") as ?definitions 
+ group_concat(distinct ?Definition_DE_Page;separator="|") as ?Definition_DE_Pages 
+ group_concat(distinct ?Definition_EN_Page;separator="|") as ?Definition_EN_Pages 
+ group_concat(distinct ?Error;separator="|") as ?Errors 
 {
 ?resource a ?type.
 filter not exists {?resource a owl:Restriction.}
 filter not exists {?resource a owl:Axiom.}
-OPTIONAL
-{
-{
- ?resource rdfs:subClassOf ?super.
- filter not exists {?super a owl:Restriction.}
- filter not exists {?super a owl:Axiom.}
-}
-UNION
-{
- ?resource rdfs:subPropertyOf ?super.
-}
-}
+
+OPTIONAL {?resource rdfs:dummy ?interaction.}
+OPTIONAL {?resource rdfs:dummy ?targetNode}
+
 OPTIONAL 
 { 
  ?resource rdfs:label ?Label. 
