@@ -57,6 +57,7 @@
         <ov:defines rdf:resource="Quality_of_Tactical_Information_Management"/>
         <ov:defines rdf:resource="Teleconsultation"/>
         <ov:defines rdf:resource="Information_Management_Board"/>
+        <ov:defines rdf:resource="InformationManagement"/>
         <ov:defines rdf:resource="Book"/>
         <ov:defines rdf:resource="Hospital_Business_Plan"/>
         <ov:defines rdf:resource="Computer_Based_Tool"/>
@@ -18685,7 +18686,7 @@ Object Workgroup Standard</skos:altLabel>
 	<rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Information_Management"/>
+                <owl:someValuesFrom rdf:resource="InformationManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
 	<rdfs:subClassOf>
@@ -21553,9 +21554,9 @@ Object Workgroup Standard</skos:altLabel>
 
     <!-- http://www.snik.eu/ontology/bb/Information_Management -->
 
-    <owl:Class rdf:about="Information_Management">
-	<rdfs:label xml:lang="en">Information Management</rdfs:label>
-	<rdfs:label xml:lang="de">Informationsmanagement</rdfs:label>
+    <owl:Class rdf:about="InformationManagement">
+	    <rdfs:label xml:lang="en">Information Management</rdfs:label>
+	    <rdfs:label xml:lang="de">Informationsmanagement</rdfs:label>
         <skos:altLabel xml:lang="en">Management of Information Systems</skos:altLabel>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf>

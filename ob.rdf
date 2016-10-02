@@ -512,7 +512,7 @@
 <ov:defines rdf:resource="Project_Duration"/>
 <ov:defines rdf:resource="Project_Duration_Calculation"/>
 <ov:defines rdf:resource="Project_Execution"/>
-<ov:defines rdf:resource="Project_Execution_Documentation"/>
+<ov:defines rdf:resource="Project_Execution_Document"/>
 <ov:defines rdf:resource="Project_Execution_Phase"/>
 <ov:defines rdf:resource="Project_Execution_Progress_Document"/>
 <ov:defines rdf:resource="Project_Execution_Result_Document"/>
@@ -522,7 +522,7 @@
 <ov:defines rdf:resource="Project_Hand_Over"/>
 <ov:defines rdf:resource="Project_Idea"/>
 <ov:defines rdf:resource="Project_Initiation"/>
-<ov:defines rdf:resource="Project_Initiation_Documentation"/>
+<ov:defines rdf:resource="Project_Initiation_Document"/>
 <ov:defines rdf:resource="Project_Initiation_Method"/>
 <ov:defines rdf:resource="Project_Initiation_Phase"/>
 <ov:defines rdf:resource="Project_Initiation_Progress_Document"/>
@@ -654,6 +654,7 @@
 <ov:defines rdf:resource="Scope_of_Maintenance"/>
 <ov:defines rdf:resource="Second_Level_Support"/>
 <ov:defines rdf:resource="Selection_Team"/>
+<ov:defines rdf:resource="Self_Development"/>
 <ov:defines rdf:resource="Semi_Formal_Modeling_Technique"/>
 <ov:defines rdf:resource="Sensitivity_Analysis"/>
 <ov:defines rdf:resource="Sensor_Based_Observation"/>

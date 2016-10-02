@@ -26,6 +26,7 @@
 		<ov:defines rdf:resource="Management"/>
 		<ov:defines rdf:resource="EducationResearch"/>
 		<ov:defines rdf:resource="Role"/>
+		<ov:defines rdf:resource="Feature"/>
 		<ov:defines rdf:resource="HisStakeholder"/>
 		<ov:defines rdf:resource="EntityType"/>
 		<ov:defines rdf:resource="PassiveEntityType"/>
@@ -54,6 +55,13 @@
 		<!--Definitions will be reworked using language tags and the bibo ontology.-->
 		<ov:defines rdf:resource="Definition_DE_Page"/>
 		<ov:defines rdf:resource="Definition_EN_Page"/>
+		<ov:defines rdf:resource="AdministrativeEntityType"/>
+		<ov:defines rdf:resource="PatientCareEntityType"/>
+		<ov:defines rdf:resource="InformationManagementEntityType"/>
+		<ov:defines rdf:resource="ComputerBasedApplicationComponent"/>
+		<ov:defines rdf:resource="ApplicationComponent"/>
+		<ov:defines rdf:resource="ManagementEntityType"/>
+		<ov:defines rdf:resource="EducationResearchEntityType"/>
 	</owl:Ontology>
 
 	<owl:ObjectProperty rdf:about="typicalFeature">
