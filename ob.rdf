@@ -7326,9 +7326,9 @@
     <owl:Class rdf:about="&ob;Enterprise_Function">
 	<rdfs:label xml:lang="en">Enterprise Function</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
+        <meta:topClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.2, 16</Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
         <skos:definition xml:lang="de">Eine Unternehmensaufgabe steht für eine oder mehrere Handlun-gen, die notwendig sind, um eines oder mehrere Ziele einer Einrichtung zu erreichen. Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Handlungsträger – oder im Zusammenwirken beider bearbeitet. Unternehmensaufgaben haben keinen definierten Anfang und kein definiertes Ende. Sie lassen sich in Teilaufgaben gliedern. Unternehmensaufgaben beschreiben, was zu tun ist, aber nicht wie. Handlungen, die notwendig sind, um eines oder mehrere Ziele einer Einrichtung zu erreichen. Wird durch menschliche oder maschinelle Handlungsträger oder im Zusammenwirken beider bearbeitet. Unternehmensaufgaben haben keinen definierten Anfang und kein definiertes Ende. Sie lassen sich in Teilaufgaben gliedern.</skos:definition>
         <meta:Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11, 347</meta:Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -15759,7 +15759,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <Concept_Domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Concept_Domain>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
+        <meta:topClass rdf:resource="&meta;Function"/>
         <skos:definition xml:lang="en"></skos:definition>
         <meta:Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></meta:Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</ID>
