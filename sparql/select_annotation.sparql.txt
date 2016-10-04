@@ -2,10 +2,12 @@ select
  ?resource
  ?interaction
  ?targetNode
- ?query
  ?type
+ ?topClass
  ?source
  group_concat(distinct ?Label;separator="|") as ?Labels 
+ group_concat(distinct ?Label_DE;separator="|") as ?Labels_DE 
+ group_concat(distinct ?Label_EN;separator="|") as ?Labels_EN 
  group_concat(distinct ?altLabel;separator="|") as ?Alt_Labels
  group_concat(distinct ?comment;separator="|") as ?Comments
  group_concat(distinct ?Chapter;separator="|") as ?Chapters 
@@ -22,12 +24,24 @@ filter not exists {?resource a owl:Axiom.}
 
 OPTIONAL {?resource rdfs:dummy ?interaction.}
 OPTIONAL {?resource rdfs:dummy ?targetNode}
+OPTIONAL {?resource meta:topClass ?topClass}
 
 OPTIONAL 
 { 
  ?resource rdfs:label ?Label. 
  filter(str(?Label)!=""). 
 } 
+OPTIONAL 
+{ 
+ ?resource rdfs:label ?Label_DE. 
+ filter(str(?Label_DE)!="" && lang(?Label_DE)="de"). 
+} 
+OPTIONAL 
+{ 
+ ?resource rdfs:label ?Label_EN. 
+ filter(str(?Label_EN)!="" && lang(?Label_EN)="en"). 
+} 
+
 OPTIONAL 
 { 
  ?resource skos:altLabel ?altLabel. 

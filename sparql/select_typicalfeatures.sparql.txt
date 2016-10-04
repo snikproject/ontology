@@ -1,0 +1,5 @@
+select distinct ?resource ?interaction ?targetNode
+{
+ ?resource	meta:typicalFeature ?targetNode.
+ bind ("typicalFeature" as ?interaction).
+}
