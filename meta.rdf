@@ -38,6 +38,7 @@
 		<ov:defines rdf:resource="isInvolvedIn"/>
 		<ov:defines rdf:resource="uses"/>
 		<ov:defines rdf:resource="increases"/>
+		<ov:defines rdf:resource="topClass"/>
 		<ov:defines rdf:resource="decreases"/>
 		<ov:defines rdf:resource="updates"/>
 		<ov:defines rdf:resource="isAssociatedWith"/>
@@ -164,6 +165,11 @@
 		<rdfs:label xml:lang="de">Basisobjekttyp</rdfs:label>
 		<rdfs:domain rdf:resource="EntityType"/>
 		<rdfs:range rdf:resource="EntityType"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="topClass">
+		<rdfs:label xml:lang="en">top class</rdfs:label>
+		<rdfs:comment xml:lang="en">either function, role or entity type.</rdfs:comment>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="representationType">
