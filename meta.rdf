@@ -13,7 +13,7 @@
      	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	xmlns:dc="http://purl.org/dc/terms">
 
-	<owl:Ontology rdf:about="http://www.snik.eu/meta">
+	<owl:Ontology rdf:about="http://www.snik.eu/ontology/meta">
 		<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-19</dc:modified>
 		<foaf:homepage rdf:resource="http://www.snik.eu"/>
 		<dc:source rdf:resource="http://www.snik.eu/mapping"/>

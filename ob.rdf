@@ -30,7 +30,7 @@
      xmlns:schema="http://schema.org/"
 >
 
-<owl:Ontology rdf:about="http://www.snik.eu/ob">
+<owl:Ontology rdf:about="http://www.snik.eu/ontology/ob">
 <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-20</dc:modified>
 <rdfs:label xml:lang="de">IT-Projektmanagement im Gesundheitswesen</rdfs:label>
 <rdfs:comment xml:lang="de">extrahiert aus dem Buch "IT-Projektmanagement im Gesundheitswesen"</rdfs:comment>
