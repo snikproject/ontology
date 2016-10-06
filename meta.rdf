@@ -38,7 +38,7 @@
 		<ov:defines rdf:resource="isInvolvedIn"/>
 		<ov:defines rdf:resource="uses"/>
 		<ov:defines rdf:resource="increases"/>
-		<ov:defines rdf:resource="topClass"/>
+		<ov:defines rdf:resource="subTopClass"/>
 		<ov:defines rdf:resource="decreases"/>
 		<ov:defines rdf:resource="updates"/>
 		<ov:defines rdf:resource="isAssociatedWith"/>
@@ -67,7 +67,7 @@
 
 	<owl:ObjectProperty rdf:about="typicalFeature">
 		<rdfs:label xml:lang="en">typical feature</rdfs:label>
-		<rdfs:domain rdf:resource=""/>
+		<rdfs:domain rdf:resource="owl:Class"/>
 		<rdfs:range rdf:resource="Feature"/>
 	</owl:ObjectProperty>
 
@@ -167,9 +167,9 @@
 		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
 
-	<owl:ObjectProperty rdf:about="topClass">
+	<owl:ObjectProperty rdf:about="subTopClass">
 		<rdfs:label xml:lang="en">top class</rdfs:label>
-		<rdfs:comment xml:lang="en">either function, role or entity type.</rdfs:comment>
+		<rdfs:comment xml:lang="en">Next to last class in the class hierarchy up to Top. Either Role, EntityType or Function.</rdfs:comment>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="representationType">
@@ -192,8 +192,14 @@
 	</owl:ObjectProperty>
 
 <!-- Classes -->
+	<owl:Class rdf:about="Top">
+		<rdfs:subClassOf "&owl;Thing"/>
+		<rdfs:label xml:lang="en">top class</rdfs:label>
+		<rdfs:comment xml:lang="en">Superclass of entity type, role and function.</rdfs:comment>
+	</owl:Class>
 
 	<owl:Class rdf:about="EntityType">
+		<rdfs:subClassOf "Top"/>
 		<rdfs:label xml:lang="en">entity type</rdfs:label>
 		<rdfs:label xml:lang="de">Objekttyp</rdfs:label>
 		<owl:disjointWith rdf:resource="Function"/>
@@ -201,6 +207,7 @@
 	</owl:Class>
 
 	<owl:Class rdf:about="Function">
+		<rdfs:subClassOf "Top"/>
 		<rdfs:label xml:lang="en">Function</rdfs:label>
 		<rdfs:label xml:lang="de">Aufgabe</rdfs:label>
 		<owl:disjointWith rdf:resource="EntityType"/>
@@ -208,6 +215,7 @@
 	</owl:Class>
 
 	<owl:Class rdf:about="Role">
+		<rdfs:subClassOf "Top"/>
 		<rdfs:label xml:lang="en">role</rdfs:label>
 		<rdfs:label xml:lang="de">Rolle</rdfs:label>
 		<rdfs:comment xml:lang="de">Rollen beschreiben Personen und Personengruppen, die im Rahmen des Informationsmanagements im Krankenhaus und der Patientenbehandlung anzutreffen sind.</rdfs:comment>
