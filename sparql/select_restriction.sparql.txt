@@ -1,4 +1,4 @@
-select distinct ?resource replace(str(?p),".*#","") as ?interaction ?targetNode
+select distinct ?resource replace(str(?p),".*[#/]","") as ?interaction ?targetNode
 {
  ?resource	a owl:Class;
  		rdfs:subClassOf ?restriction.

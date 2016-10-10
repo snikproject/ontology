@@ -1,4 +1,4 @@
-select ?resource replace(str(?p),".*#","") as ?interaction ?targetNode
+select ?resource replace(str(?p),".*[#/]","") as ?interaction ?targetNode
 {
  ?resource ?p ?targetNode.
  filter(?p!=meta:topClass).
