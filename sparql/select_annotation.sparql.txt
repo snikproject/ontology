@@ -2,6 +2,7 @@ select
  ?resource
  ?interaction
  ?targetNode
+ count(distinct(?connected)) as ?degree
  ?type
  ?topClass
  ?source
@@ -24,6 +25,10 @@ filter not exists {?resource a owl:Axiom.}
 
 OPTIONAL {?resource rdfs:dummy ?interaction.}
 OPTIONAL {?resource rdfs:dummy ?targetNode}
+
+{?resource ?p ?connected.} UNION {?connected ?p ?resource.} 
+?connected a owl:Class.
+
 OPTIONAL {?resource meta:topClass ?topClass}
 
 OPTIONAL 
@@ -92,4 +97,4 @@ OPTIONAL
  ?source a owl:Ontology.
  ?source ov:defines ?resource. 
 } 
-}
+} order by desc(count(distinct(?connected)))
