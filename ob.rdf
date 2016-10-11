@@ -879,149 +879,77 @@
 			</bibo:authorList>
 		</bibo:Book>
 
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    <!-- http://www.snik.eu/ontology/ob/Chapter -->
-
-    <owl:AnnotationProperty rdf:about="&ob;Chapter"/>
-
-
-    <!-- http://www.snik.eu/ontology/ob/Tripel_Page -->
-
-    <owl:AnnotationProperty rdf:about="&ob;Tripel_Page"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Tripel_RowNr -->
-
-    <owl:AnnotationProperty rdf:about="&ob;Tripel_RowNr"/>
-
-
-
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/approves -->
-
-    <owl:ObjectProperty rdf:about="&ob;approves"/>
-
-    <!-- http://www.snik.eu/ontology/ob/isResponsibleFor -->
-
-    <owl:ObjectProperty rdf:about="&ob;isResponsibleFor"/>
-
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Access_Right -->
-
-    <owl:DatatypeProperty rdf:about="&ob;Access_Right"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Actual_Value -->
-
-    <owl:DatatypeProperty rdf:about="&ob;Actual_Value"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Binding_Character -->
-
-    <owl:DatatypeProperty rdf:about="&ob;Binding_Character"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/End_Date -->
-
-    <owl:DatatypeProperty rdf:about="&ob;End_Date"/>
-
-
-    <!-- http://www.snik.eu/ontology/ob/IsObjective -->
-
-    <owl:DatatypeProperty rdf:about="&ob;IsObjective"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/IsProlective -->
-
-    <owl:DatatypeProperty rdf:about="&ob;IsProlective"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/IsRetrolective -->
-
-    <owl:DatatypeProperty rdf:about="&ob;IsRetrolective"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/IsSubjective -->
-
-    <owl:DatatypeProperty rdf:about="&ob;IsSubjective"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Measurability -->
-
-    <owl:DatatypeProperty rdf:about="&ob;Measurability"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Quantifiability -->
-
-    <owl:DatatypeProperty rdf:about="&ob;Quantifiability"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Relevancy -->
-
-    <owl:DatatypeProperty rdf:about="&ob;Relevancy"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Start_Date -->
-
-    <owl:DatatypeProperty rdf:about="&ob;Start_Date"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Start_Event -->
-
-    <owl:DatatypeProperty rdf:about="&ob;Start_Event"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Target_Value -->
-
-    <owl:DatatypeProperty rdf:about="&ob;Target_Value"/>
-
-
-
-    <!-- http://www.snik.eu/ontology/ob/Understandability -->
-
-    <owl:DatatypeProperty rdf:about="&ob;Understandability"/>
-
+  <owl:AnnotationProperty rdf:about="&ob;Chapter">
+    <rdfs:label xml:lang="en">Chapter</rdfs:label>
+  </owl:AnnotationProperty>
+
+  <owl:ObjectProperty rdf:about="&ob;approves">
+    <rdfs:label xml:lang="en">approves</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&ob;isResponsibleFor">
+    <rdfs:label xml:lang="en">isResponsibleFor</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;Access_Right">
+    <rdfs:label xml:lang="en">access right</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;Actual_Value">
+    <rdfs:label xml:lang="en">actual value</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;Binding_Character">
+    <rdfs:label xml:lang="en">binding character</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;End_Date">
+    <rdfs:label xml:lang="en">end date</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;IsObjective">
+    <rdfs:label xml:lang="en">Is objective</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;IsProlective">
+    <rdfs:label xml:lang="en">Is prolective</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;IsRetrolective">
+    <rdfs:label xml:lang="en">Is retrolective</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;IsSubjective">
+    <rdfs:label xml:lang="en">Is subjective</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;Measurability">
+    <rdfs:label xml:lang="en">Measurability</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;Quantifiability">
+    <rdfs:label xml:lang="en">Quantifiability</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;Relevancy">
+    <rdfs:label xml:lang="en">Relevancy</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;Start_Date">
+    <rdfs:label xml:lang="en">Start date</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;Start_Event">
+    <rdfs:label xml:lang="en">Start event</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;Target_Value">
+    <rdfs:label xml:lang="en">Target value</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ob;Understandability">
+    <rdfs:label xml:lang="en">Understandability</rdfs:label>
+  </owl:DatatypeProperty>
 
 
     <!--
@@ -24917,7 +24845,7 @@
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="de">&quot;ein Erfordernis oder eine Erwartung, das oder die festgelegt, überlicherweise voraugesetzt oder verpflichtend ist&quot; (DIN EN ISO 9000:2005)
- 
+
  Erfordernis oder Erwartung, das oder die für ein Produkt oder eine Informationssystemkomponente festgelegt, üblicherweise vorrausgesetzt oder verpflichtend ist.</skos:definition>
         <meta:Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">193, 320</meta:Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -25670,7 +25598,7 @@
 so genannte „Roll-Out“ freigegeben werden, also die flächendeckende
 Ausbreitung des pilotierten Anwendungssystems in weiteren Organisationseinheiten,
 so wie es in der Einführungsstrategie geplant ist.
- 
+
  Flächendeckende Ausbreitung eines rechnerbasierten Anwendungssystems in weiteren Organisationseinheiten, so wie es im Einführungskonzept vorgegeben ist. Ein Roll-Out folgt häufig einem vorherigen Testbetrieb bzw. einer Pilotierung.</skos:definition>
         <meta:Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">241, 340</meta:Definition_DE_Page>
         <skos:definition xml:lang="en"></skos:definition>
@@ -28327,7 +28255,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <meta:Definition_EN_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></meta:Definition_EN_Page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ID>
         <rdfs:label xml:lang="de">Rahmenplanung</rdfs:label>
-	<skos:altLabel xml_lang="de">Strategische Planung des Informationssystems</skos:altLabel>
+	<skos:altLabel xml:lang="de">Strategische Planung des Informationssystems</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;Strategic_HIS_Planning"/>
