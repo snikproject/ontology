@@ -54,8 +54,8 @@
 		<ov:defines rdf:resource="isResponsibleForEntityType"/>
 		<ov:defines rdf:resource="isResponsibleForFunction"/>
 		<!--Definitions will be reworked using language tags and the bibo ontology.-->
-		<ov:defines rdf:resource="Definition_DE_Page"/>
-		<ov:defines rdf:resource="Definition_EN_Page"/>
+		<ov:defines rdf:resource="DefinitionDEPage"/>
+		<ov:defines rdf:resource="DefinitionENPage"/>
 		<ov:defines rdf:resource="AdministrativeEntityType"/>
 		<ov:defines rdf:resource="PatientCareEntityType"/>
 		<ov:defines rdf:resource="InformationManagementEntityType"/>

@@ -34164,7 +34164,7 @@ so wie es in der Einführungsstrategie geplant ist.
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="&ob;VerificationEvaluation)Verification_(Evaluation">
+    <owl:Class rdf:about="&ob;VerificationEvaluation">
 	<rdfs:label xml:lang="en">Verification (Evaluation)Verification (Evaluation)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ob;Verification"/>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
@@ -34176,7 +34176,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <rdfs:label xml:lang="de">Verifikation (Evaluation)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;VerificationEvaluation)Verification_(Evaluation"/>
+        <owl:annotatedSource rdf:resource="&ob;VerificationEvaluation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="&ob;Verification"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>

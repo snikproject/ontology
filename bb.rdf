@@ -470,8 +470,8 @@
         <ov:defines rdf:resource="SemistructuredInterview"/>
         <ov:defines rdf:resource="ExecutionOfProphylaxis"/>
         <ov:defines rdf:resource="MedicalDataDictionary"/>
-        <ov:defines rdf:resource="AdministrateTheMasterPatientIndex_(MPI)"/>
-        <ov:defines rdf:resource="ProvideFormsForEnteringClinicalData_(free_text_or_structured)"/>
+        <ov:defines rdf:resource="AdministrateTheMasterPatientIndex"/>
+        <ov:defines rdf:resource="ProvideFormsForEnteringClinicalData"/>
         <ov:defines rdf:resource="DataModel"/>
         <ov:defines rdf:resource="Study"/>
         <ov:defines rdf:resource="ManagementFinancingForm"/>
@@ -766,7 +766,7 @@
         <ov:defines rdf:resource="NursingReport"/>
         <ov:defines rdf:resource="InpatientCareInstitution"/>
         <ov:defines rdf:resource="ORM"/>
-        <ov:defines rdf:resource="Hospital&apos;s_Service"/>
+        <ov:defines rdf:resource="HospitalService"/>
         <ov:defines rdf:resource="PatientsRelatives"/>
         <ov:defines rdf:resource="CommunicationProtocol"/>
         <ov:defines rdf:resource="DatabaseServer"/>
@@ -885,7 +885,7 @@
         <ov:defines rdf:resource="HealthcareServicesSpecificationProject"/>
         <ov:defines rdf:resource="HospitalCost"/>
         <ov:defines rdf:resource="DigitalDictationSystem"/>
-        <ov:defines rdf:resource="ProvideCatalogsAndOtherMeansForCodingPatients’_diagnoses"/>
+        <ov:defines rdf:resource="ProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses"/>
         <ov:defines rdf:resource="XML"/>
         <ov:defines rdf:resource="QuantitativeEvaluationMethod"/>
         <ov:defines rdf:resource="BDSG"/>
@@ -1029,7 +1029,7 @@
         <ov:defines rdf:resource="HealthCareNetwork"/>
         <ov:defines rdf:resource="HospitalService"/>
         <ov:defines rdf:resource="DICOMStandard"/>
-        <ov:defines rdf:resource="ScoringOfThePatient_(eg_TISS_SAPSII)"/>
+        <ov:defines rdf:resource="ScoringOfThePatient"/>
         <ov:defines rdf:resource="ClinicalResearch"/>
         <ov:defines rdf:resource="FunctionalRedundancy"/>
         <ov:defines rdf:resource="DB1Style"/>
@@ -1249,7 +1249,7 @@
         <ov:defines rdf:resource="MessageQueuing"/>
         <ov:defines rdf:resource="EntityTypeModelingElement"/>
         <ov:defines rdf:resource="AssignStaffToPatientsOrOutpatientUnits"/>
-        <ov:defines rdf:resource="in_€"/>
+        <ov:defines rdf:resource="inEuro"/>
         <ov:defines rdf:resource="MemoryStick"/>
         <ov:defines rdf:resource="Adaptability"/>
         <ov:defines rdf:resource="ProvideMeansForOrderingTransportServices"/>
@@ -1399,11 +1399,7 @@
 
 
 
-
-
     <owl:AnnotationProperty rdf:about="ConceptDomain"/>
-
-
 
 
     <owl:ObjectProperty rdf:about="isNeededFor">
@@ -1415,8 +1411,6 @@
 	<rdfs:label xml:lang="en">page</rdfs:label>
 	<rdfs:label xml:lang="de">Seite</rdfs:label>
     </owl:ObjectProperty>
-
-
 
 
   <owl:DatatypeProperty rdf:about="Acceptance">
@@ -1595,7 +1589,7 @@
     <rdfs:label xml:lang="en">usage description</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="in_€">
+  <owl:DatatypeProperty rdf:about="inEuro">
     <rdfs:label xml:lang="en">in €</rdfs:label>
   </owl:DatatypeProperty>
 
@@ -1643,8 +1637,6 @@
     </owl:Axiom>
 
 
-
-
     <owl:Class rdf:about="A03">
 	<rdfs:label>A03</rdfs:label>
         <rdfs:subClassOf rdf:resource="HL7EventType"/>
@@ -1661,8 +1653,6 @@
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1378</TripelRowNr>
     </owl:Axiom>
-
-
 
 
     <owl:Class rdf:about="AC1Style">
@@ -1700,8 +1690,6 @@
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">140</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1027</TripelRowNr>
     </owl:Axiom>
-
-
 
 
     <owl:Class rdf:about="ACID">
@@ -1794,8 +1782,6 @@
     </owl:Axiom>
 
 
-
-
     <owl:Class rdf:about="ACnStyle">
 	<rdfs:label xml:lang="en">ACn Style</rdfs:label>
         <rdfs:subClassOf rdf:resource="ApplicationComponentStyle"/>
@@ -1813,8 +1799,6 @@
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">141</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1352</TripelRowNr>
     </owl:Axiom>
-
-
 
 
     <owl:Class rdf:about="ADT">
@@ -1907,8 +1891,6 @@
     </owl:Axiom>
 
 
-
-
     <owl:Class rdf:about="ASCII">
 	<rdfs:label xml:lang="en">ASCII</rdfs:label>
         <rdfs:subClassOf rdf:resource="DocumentStandard"/>
@@ -1928,8 +1910,6 @@
     </owl:Axiom>
 
 
-
-
     <owl:Class rdf:about="ATC">
 	<rdfs:label xml:lang="en">ATC</rdfs:label>
         <rdfs:subClassOf rdf:resource="Classification"/>
@@ -1947,8 +1927,6 @@
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">147</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1361</TripelRowNr>
     </owl:Axiom>
-
-
 
 
     <owl:Class rdf:about="AccessControl">
@@ -2304,7 +2282,7 @@
 
     <owl:Class rdf:about="AdministrationAndAllocationOfPatientRecords">
 	<rdfs:label xml:lang="en">Administration and Allocation of Patient Records</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&bb;Patient_Administration"/>
+        <rdfs:subClassOf rdf:resource="&bb;PatientAdministration"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -7102,8 +7080,8 @@ Object Workgroup Standard</skos:altLabel>
         <meta:typicalFeature rdf:resource="FeatureProvideFormsForPreparingABillForThePatientInsurance"/>
         <meta:typicalFeature rdf:resource="FeatureProvideMeansForCreatingStatistics"/>
         <meta:typicalFeature rdf:resource="FeatureProvideMeansForVerifyingCodingDoneInDepartments"/>
-        <meta:typicalFeature rdf:resource="FeatureProvideCatalogsAndOtherMeansForCodingPatients’_diagnoses"/>
-        <meta:typicalFeature rdf:resource="FeatureScoringOfThePatient_(eg_TISS_SAPSII)"/>
+        <meta:typicalFeature rdf:resource="FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses"/>
+        <meta:typicalFeature rdf:resource="FeatureScoringOfThePatient"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
@@ -7171,14 +7149,14 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
         <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
-        <owl:annotatedTarget rdf:resource="FeatureProvideCatalogsAndOtherMeansForCodingPatients’_diagnoses"/>
+        <owl:annotatedTarget rdf:resource="FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2396</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
         <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
-        <owl:annotatedTarget rdf:resource="FeatureScoringOfThePatient_(eg_TISS_SAPSII)"/>
+        <owl:annotatedTarget rdf:resource="FeatureScoringOfThePatient"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2470</TripelRowNr>
     </owl:Axiom>
@@ -18305,7 +18283,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="in_€"/>
+                <owl:onProperty rdf:resource="inEuro"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -18353,7 +18331,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="in_€"/>
+                <owl:onProperty rdf:resource="inEuro"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -22112,7 +22090,7 @@ Object Workgroup Standard</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en">When hospital information systems make available  the right information and knowledge at the right time at the right place  to the right people in the right form, so that these people can make the right decisions, this is also described as information and knowledge logistics. • the right information and knowledge • at the right time • at the right place • to the right people • in the right form,</skos:definition>
-        <meta:Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</meta:Definition_DE_Page>
+        <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35</meta:DefinitionDEPage>
         <skos:definition xml:lang="en">To make available the right information and knowledge at the right time, at the right place, to the right people, in the right form, so that people can make the right decisions.</skos:definition>
         <bb:page>305</bb:page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1781</ID>
@@ -22340,7 +22318,7 @@ Object Workgroup Standard</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <skos:definition xml:lang="en">to organize health care in a patient-centric way, such that all participating in- or outpatient care institutions cooperate very closely</skos:definition>
-        <meta:Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</meta:Definition_DE_Page>
+        <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
         <bb:page></bb:page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1121</ID>
@@ -22525,7 +22503,7 @@ Object Workgroup Standard</skos:altLabel>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">These are systems of health care institutions that join together to consolidate their roles, resources, and operations to deliver a coordinated range of services and to enhance effectiveness and efficiency of patient care.</skos:definition>
-        <meta:Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</meta:Definition_DE_Page>
+        <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</meta:DefinitionDEPage>
         <skos:definition xml:lang="en">One form of a health care network where health care institutions join together to consolidate their roles, resources, and operations in order to deliver a coordinated range of services and to enhance effectiveness and efficiency of patient care.</skos:definition>
         <bb:page>307</bb:page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">530</ID>
@@ -25732,7 +25710,7 @@ goals, structures, and behaviors.</skos:definition>
         <meta:typicalFeature rdf:resource="FeatureScanningDocumentsFromReferringPhysicianAndOtherSources"/>
         <meta:typicalFeature rdf:resource="FeatureProvideFormsForDocumentingPatientsInformedConsent"/>
         <meta:typicalFeature rdf:resource="FeatureProvideFormsForDocumentingPatientsInformedConsent"/>
-        <meta:typicalFeature rdf:resource="FeatureProvideFormsForEnteringClinicalData_(free_text_or_structured)"/>
+        <meta:typicalFeature rdf:resource="FeatureProvideFormsForEnteringClinicalData"/>
         <meta:typicalFeature rdf:resource="FeatureProvideFormsForPatientsInformedConsent"/>
     </owl:Class>
     <owl:Axiom>
@@ -25915,7 +25893,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
         <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
-        <owl:annotatedTarget rdf:resource="FeatureProvideFormsForEnteringClinicalData_(free_text_or_structured)"/>
+        <owl:annotatedTarget rdf:resource="FeatureProvideFormsForEnteringClinicalData"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2420</TripelRowNr>
     </owl:Axiom>
@@ -29899,7 +29877,7 @@ goals, structures, and behaviors.</skos:definition>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en">Operational information management , finally, is responsible for operating the components of the information system</skos:definition>
-        <meta:Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</meta:Definition_DE_Page>
+        <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</meta:DefinitionDEPage>
         <skos:definition xml:lang="en">Operational information management is responsible for operating the components of the hospital information system. It has to care for its operation in accordance with the strategic information management plan.</skos:definition>
         <bb:page>103, 244</bb:page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139</ID>
@@ -31238,7 +31216,7 @@ goals, structures, and behaviors.</skos:definition>
         <meta:typicalFeature rdf:resource="FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment"/>
         <meta:typicalFeature rdf:resource="FeatureProvideMeansForPreparingWardRelatedStatistics"/>
         <meta:typicalFeature rdf:resource="FeatureProvideReminderForFulfillingOfLegalReportingRequirements"/>
-        <meta:typicalFeature rdf:resource="FeatureProvideFormsForEnteringClinicalData_(free_text_or_structured)"/>
+        <meta:typicalFeature rdf:resource="FeatureProvideFormsForEnteringClinicalData"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
@@ -31423,7 +31401,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
         <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
-        <owl:annotatedTarget rdf:resource="FeatureProvideFormsForEnteringClinicalData_(free_text_or_structured)"/>
+        <owl:annotatedTarget rdf:resource="FeatureProvideFormsForEnteringClinicalData"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2449</TripelRowNr>
     </owl:Axiom>
@@ -32136,7 +32114,7 @@ goals, structures, and behaviors.</skos:definition>
         <meta:typicalFeature rdf:resource="FeatureProvideRelativesWithInformationOnTheLocationOfAPatient"/>
         <meta:typicalFeature rdf:resource="FeatureProvideReminderForFulfillingOfLegalReportingRequirements"/>
         <meta:typicalFeature rdf:resource="FeatureRetrievePatient"/>
-        <meta:typicalFeature rdf:resource="FeatureAdministrateTheMasterPatientIndex_(MPI)"/>
+        <meta:typicalFeature rdf:resource="FeatureAdministrateTheMasterPatientIndex"/>
         <meta:typicalFeature rdf:resource="FeatureProvideMeansForSchedulingPatientsAppointments"/>
     </owl:Class>
     <owl:Axiom>
@@ -32310,7 +32288,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
         <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
-        <owl:annotatedTarget rdf:resource="FeatureAdministrateTheMasterPatientIndex_(MPI)"/>
+        <owl:annotatedTarget rdf:resource="FeatureAdministrateTheMasterPatientIndex"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2409</TripelRowNr>
     </owl:Axiom>
@@ -45857,7 +45835,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en">The information system of a health care network is called a transinstitutional health information system</skos:definition>
-        <meta:Definition_DE_Page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</meta:Definition_DE_Page>
+        <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</meta:DefinitionDEPage>
         <skos:definition xml:lang="en">Information system of a health care network.</skos:definition>
         <bb:page>324</bb:page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417</ID>
@@ -47416,7 +47394,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="1999/93/EG">
+    <owl:Class rdf:about="199993EG">
 	<rdfs:label xml:lang="en">1999/93/EG</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagementGuideline"/>
         <rdfs:subClassOf>
@@ -49258,7 +49236,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="AdministrateTheMasterPatientIndex_(MPI)">
+    <owl:Class rdf:about="AdministrateTheMasterPatientIndex">
 	<rdfs:label xml:lang="en">Administrate the master patient index (MPI)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -49296,7 +49274,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="Hospital&apos;s_Service">
+    <owl:Class rdf:about="HospitalService">
 	<rdfs:label xml:lang="en">Hospital&apos;s Service</rdfs:label>
         <rdfs:subClassOf rdf:resource="ManagementEntityType"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -49307,7 +49285,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1775</ID>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Hospital&apos;s_Service"/>
+        <owl:annotatedSource rdf:resource="HospitalService"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="ManagementEntityType"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
@@ -49317,7 +49295,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="HospitalsBoard_of_Directors">
+    <owl:Class rdf:about="HospitalsBoardOfDirectors">
 	<rdfs:label xml:lang="en">Hospital’s Board of Directors</rdfs:label>
         <rdfs:subClassOf rdf:resource="HospitalStaff"/>
         <rdfs:subClassOf>
@@ -49374,7 +49352,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ISO/IEEE_11073_Family_of_Standards">
+    <owl:Class rdf:about="ISOIEEE11073FamilyOfStandards">
 	<rdfs:label xml:lang="en">ISO/IEEE 11073 Family of Standards</rdfs:label>
         <rdfs:subClassOf rdf:resource="CommunicationStandard"/>
         <rdfs:subClassOf rdf:resource="ISOStandard"/>
@@ -49421,7 +49399,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ISO/OSI_Reference_Model">
+    <owl:Class rdf:about="ISOOSIReferenceModel">
 	<rdfs:label xml:lang="en">ISO/OSI Reference Model</rdfs:label>
         <rdfs:subClassOf rdf:resource="ReferenceModel"/>
         <rdfs:subClassOf>
@@ -49460,7 +49438,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="JointCommissionsCertification_Program">
+    <owl:Class rdf:about="JointCommissionsCertificationProgram">
 	<rdfs:label xml:lang="en">Joint Commission’s Certification Program</rdfs:label>
         <rdfs:subClassOf rdf:resource="HISCertificate"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -49481,7 +49459,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="PDF/A">
+    <owl:Class rdf:about="PDFA">
 	<rdfs:label xml:lang="en">PDF/A</rdfs:label>
         <rdfs:subClassOf rdf:resource="DocumentStandard"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -49523,7 +49501,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ProvideCatalogsAndOtherMeansForCodingPatients’_diagnoses">
+    <owl:Class rdf:about="ProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses">
 	<rdfs:label xml:lang="en">Provide catalogs and other means for coding patients’ diagnoses</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -49531,7 +49509,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingPatientsInformed_consent">
+    <owl:Class rdf:about="ProvideFormsForDocumentingPatientsInformedConsent">
 	<rdfs:label xml:lang="en">Provide forms for documenting patients ’ informed consent</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -49539,7 +49517,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingPatientsInformed_consent">
+    <owl:Class rdf:about="ProvideFormsForDocumentingPatientsInformedConsent">
 	<rdfs:label xml:lang="en">Provide forms for documenting patient’s informed consent</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -49547,7 +49525,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ProvideFormsForEnteringClinicalData_(free_text_or_structured)">
+    <owl:Class rdf:about="ProvideFormsForEnteringClinicalData">
 	<rdfs:label xml:lang="en">Provide forms for entering clinical data (free-text or structured)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -49555,7 +49533,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ProvideFormsForPatientsInformed_consent">
+    <owl:Class rdf:about="ProvideFormsForPatientsInformedConsent">
 	<rdfs:label xml:lang="en">Provide forms for patients ’ informed consent</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -49579,7 +49557,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ProvideMeansForSchedulingAPatient_sAppointment">
+    <owl:Class rdf:about="ProvideMeansForSchedulingAPatientSAppointment">
 	<rdfs:label xml:lang="en">Provide means for scheduling a patient ’s appointment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -49595,7 +49573,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ReportToTheHospitalsBoard_of_Directors">
+    <owl:Class rdf:about="ReportToTheHospitalsBoardOfDirectors">
 	<rdfs:label xml:lang="en">Report to the Hospital’s Board of Directors</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -49615,7 +49593,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ScoringOfThePatient_(eg_TISS_SAPSII)">
+    <owl:Class rdf:about="ScoringOfThePatient">
 	<rdfs:label xml:lang="en">Scoring of the patient (eg TISS SAPSII)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;Feature"/>
     </owl:Class>
@@ -49623,7 +49601,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="TansCritical_Success_Factor_Approach">
+    <owl:Class rdf:about="TansCriticalSuccessFactorApproach">
 	<rdfs:label xml:lang="en">Tan’s Critical Success Factor Approach</rdfs:label>
         <rdfs:subClassOf rdf:resource="StrategicAlignmentModel"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
