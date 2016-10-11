@@ -2444,7 +2444,7 @@
 
     <owl:Class rdf:about="Administration_and_Allocation_of_Patient_Records">
 	<rdfs:label xml:lang="en">Administration and Allocation of Patient Records</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="&bb;Patient_Administration"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
