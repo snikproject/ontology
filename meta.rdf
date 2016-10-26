@@ -32,7 +32,18 @@
 		<ov:defines rdf:resource="PassiveEntityType"/>
 		<ov:defines rdf:resource="SoftwareProduct"/>
 		<ov:defines rdf:resource="RepresentationType"/>
+		<!--Definitions will be reworked using language tags and the bibo ontology.-->
+		<ov:defines rdf:resource="DefinitionDEPage"/>
+		<ov:defines rdf:resource="DefinitionENPage"/>
+		<ov:defines rdf:resource="AdministrativeEntityType"/>
+		<ov:defines rdf:resource="PatientCareEntityType"/>
+		<ov:defines rdf:resource="InformationManagementEntityType"/>
+		<ov:defines rdf:resource="ComputerBasedApplicationComponent"/>
+		<ov:defines rdf:resource="ApplicationComponent"/>
+		<ov:defines rdf:resource="ManagementEntityType"/>
+		<ov:defines rdf:resource="EducationResearchEntityType"/>
 		<ov:defines rdf:resource="DataSetType"/>
+		<!--Properties-->
 		<ov:defines rdf:resource="approvesEntityType"/>
 		<ov:defines rdf:resource="approvesFunction"/>
 		<ov:defines rdf:resource="isInvolvedIn"/>
@@ -53,16 +64,6 @@
 		<ov:defines rdf:resource="representationType"/>
 		<ov:defines rdf:resource="isResponsibleForEntityType"/>
 		<ov:defines rdf:resource="isResponsibleForFunction"/>
-		<!--Definitions will be reworked using language tags and the bibo ontology.-->
-		<ov:defines rdf:resource="DefinitionDEPage"/>
-		<ov:defines rdf:resource="DefinitionENPage"/>
-		<ov:defines rdf:resource="AdministrativeEntityType"/>
-		<ov:defines rdf:resource="PatientCareEntityType"/>
-		<ov:defines rdf:resource="InformationManagementEntityType"/>
-		<ov:defines rdf:resource="ComputerBasedApplicationComponent"/>
-		<ov:defines rdf:resource="ApplicationComponent"/>
-		<ov:defines rdf:resource="ManagementEntityType"/>
-		<ov:defines rdf:resource="EducationResearchEntityType"/>
 	</owl:Ontology>
 
 	<owl:ObjectProperty rdf:about="typicalFeature">

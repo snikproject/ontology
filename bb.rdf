@@ -3306,7 +3306,6 @@
         <rdfs:subClassOf rdf:resource="ManagementEntityType"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.2</Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
         <bb:page></bb:page>
