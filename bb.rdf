@@ -962,7 +962,6 @@
         <ov:defines rdf:resource="ApplicationComponentStyle"/>
         <ov:defines rdf:resource="TechnicalMetamodel"/>
         <ov:defines rdf:resource="AssignOrderAndBloodSamplesToDevices"/>
-        <ov:defines rdf:resource="Timeslot"/>
         <ov:defines rdf:resource="OrderEntry"/>
         <ov:defines rdf:resource="SocioTechnicalSystem"/>
         <ov:defines rdf:resource="SoftwareVendor"/>
@@ -1286,7 +1285,6 @@
         <ov:defines rdf:resource="IndexDocumentContent"/>
         <ov:defines rdf:resource="DatabaseStyle"/>
         <ov:defines rdf:resource="ObjectIdentity"/>
-        <ov:defines rdf:resource="Place"/>
         <ov:defines rdf:resource="HL7MessageHeader"/>
         <ov:defines rdf:resource="Mobility"/>
         <ov:defines rdf:resource="PreparationOfAnOrder"/>
@@ -1513,10 +1511,6 @@
     <rdfs:label xml:lang="en">pertinency</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Place">
-    <rdfs:label xml:lang="en">place</rdfs:label>
-  </owl:DatatypeProperty>
-
   <owl:DatatypeProperty rdf:about="Priority">
     <rdfs:label xml:lang="en">priority</rdfs:label>
   </owl:DatatypeProperty>
@@ -1559,10 +1553,6 @@
 
   <owl:DatatypeProperty rdf:about="TemporalLifeSpan">
     <rdfs:label xml:lang="en">temporal life span</rdfs:label>
-  </owl:DatatypeProperty>
-
-  <owl:DatatypeProperty rdf:about="Timeslot">
-    <rdfs:label xml:lang="en">timeslot</rdfs:label>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="TransferDiagnosis">
@@ -3470,23 +3460,10 @@
 
 
 
-
     <owl:Class rdf:about="Appointment">
 	<rdfs:label xml:lang="en">Appointment</rdfs:label>
 	<rdfs:label xml:lang="de">Termin</rdfs:label>
         <rdfs:subClassOf rdf:resource="Resource"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="Place"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="Timeslot"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -3501,32 +3478,6 @@
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80, 105</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1651</TripelRowNr>
     </owl:Axiom>
-     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Appointment"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="Place"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2356</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Appointment"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="Timeslot"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2357</TripelRowNr>
-    </owl:Axiom>
-
-
 
 
     <owl:Class rdf:about="AppointmentScheduling">
