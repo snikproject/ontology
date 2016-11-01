@@ -162,7 +162,7 @@
         <ov:defines rdf:resource="Client"/>
         <ov:defines rdf:resource="ObservationProtocol"/>
         <ov:defines rdf:resource="ManagementOfClinicalDepartment"/>
-        <ov:defines rdf:resource="Priority"/>
+        <ov:defines rdf:resource="priority"/>
         <ov:defines rdf:resource="Bus"/>
         <ov:defines rdf:resource="CertificationByISO"/>
         <ov:defines rdf:resource="Tree"/>
@@ -584,10 +584,11 @@
         <ov:defines rdf:resource="ProvideFormsForDocumentingDiagnosisAndProblems"/>
         <ov:defines rdf:resource="StorageMedium"/>
         <ov:defines rdf:resource="ExecutionOfClinicalTrialsAndExperiments"/>
+        <ov:defines rdf:resource="relative"/>
         <ov:defines rdf:resource="Relative"/>
         <ov:defines rdf:resource="Framework"/>
         <ov:defines rdf:resource="AvailabilityOfApplicationComponents"/>
-        <ov:defines rdf:resource="Redundancy"/>
+        <ov:defines rdf:resource="redundancy"/>
         <ov:defines rdf:resource="AdaptabilityOfTheHIS"/>
         <ov:defines rdf:resource="PersonalHygiene"/>
         <ov:defines rdf:resource="ExecutionOfRadiologicalProcedures"/>
@@ -1511,17 +1512,14 @@
     <rdfs:label xml:lang="en">pertinency</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Priority">
+  <owl:DatatypeProperty rdf:about="priority">
     <rdfs:label xml:lang="en">priority</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Redundancy">
+  <owl:DatatypeProperty rdf:about="redundancy">
     <rdfs:label xml:lang="en">redundancy</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Relative">
-    <rdfs:label xml:lang="en">relative</rdfs:label>
-  </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="ResponsiblePerson">
     <rdfs:label xml:lang="en">responsible person</rdfs:label>
@@ -31568,12 +31566,6 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Relative"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="TransferDiagnosis"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
@@ -31664,18 +31656,6 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Relative"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2379</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Patient"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="TransferDiagnosis"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
@@ -31683,7 +31663,6 @@ goals, structures, and behaviors.</skos:definition>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2381</TripelRowNr>
     </owl:Axiom>
-
 
 
 
@@ -35628,7 +35607,7 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Priority"/>
+                <owl:onProperty rdf:resource="priority"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -35711,7 +35690,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Priority"/>
+                <owl:onProperty rdf:resource="priority"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -38832,21 +38811,6 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="Relative">
-	<rdfs:label xml:lang="en">Relative</rdfs:label>
-        <rdfs:subClassOf rdf:resource="HISStakeholder"/>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Relative"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="HISStakeholder"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">214</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1544</TripelRowNr>
-    </owl:Axiom>
-
-
-
-
     <owl:Class rdf:about="Relevancy">
 	<rdfs:label xml:lang="en">Relevancy</rdfs:label>
         <rdfs:subClassOf rdf:resource="QualityOfData"/>
@@ -40672,7 +40636,7 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Redundancy"/>
+                <owl:onProperty rdf:resource="redundancy"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -40738,7 +40702,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Redundancy"/>
+                <owl:onProperty rdf:resource="redundancy"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -49444,14 +49408,26 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
     </rdf:Description>
 
-    <rdf:Description rdf:about="Relative">
-        <bb:page></bb:page>
+  <owl:DatatypeProperty rdf:about="relative">
+    <rdfs:label xml:lang="en">relative</rdfs:label>
+    <rdfs:domain rdf:resource="Patient"/>
+    <rdfs:range rdf:resource="Relative"/>
+  </owl:DatatypeProperty>
+
+    <owl:Class rdf:about="Relative">
+	<rdfs:label xml:lang="en">relative</rdfs:label>
+        <rdfs:subClassOf rdf:resource="HISStakeholder"/>
         <meta:subTopClass rdf:resource="&meta;Role"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1544</ID>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.4</Chapter>
-        <skos:definition xml:lang="en"></skos:definition>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-    </rdf:Description>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Relative"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="HISStakeholder"/>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">214</TripelPage>
+        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1544</TripelRowNr>
+    </owl:Axiom>
 
     <rdf:Description rdf:about="Stability">
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1526</ID>
