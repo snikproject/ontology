@@ -47,7 +47,7 @@
         <dc:source rdf:resource="http://www.snik.eu/mapping"/>
         <ov:defines rdf:resource="ProvideMeansForCreatingStatistics"/>
         <ov:defines rdf:resource="3LGM2DataTransmissionConnection"/>
-        <ov:defines rdf:resource="IsRedundant"/>
+        <ov:defines rdf:resource="isRedundant"/>
         <ov:defines rdf:resource="Security"/>
         <ov:defines rdf:resource="Switch"/>
         <ov:defines rdf:resource="AccessIntegration"/>
@@ -140,7 +140,7 @@
         <ov:defines rdf:resource="DefinitionEN"/>
         <ov:defines rdf:resource="ISO9241110UserInterfaceDesignQuality"/>
         <ov:defines rdf:resource="ClinicalTrial"/>
-        <ov:defines rdf:resource="DegreeOfNormativity"/>
+        <ov:defines rdf:resource="degreeOfNormativity"/>
         <ov:defines rdf:resource="CalculateDosageOfDrugs"/>
         <ov:defines rdf:resource="Laundry"/>
         <ov:defines rdf:resource="SWOTAnalysis"/>
@@ -176,7 +176,7 @@
         <ov:defines rdf:resource="USLaw"/>
         <ov:defines rdf:resource="InformationSystemSafety"/>
         <ov:defines rdf:resource="InternalReportingSystem"/>
-        <ov:defines rdf:resource="ManagementCentralityOfNetworkManagement"/>
+        <ov:defines rdf:resource="managementCentralityOfNetworkManagement"/>
         <ov:defines rdf:resource="Middleware"/>
         <ov:defines rdf:resource="LongTermArchiving"/>
         <ov:defines rdf:resource="UserSurvey"/>
@@ -186,7 +186,7 @@
         <ov:defines rdf:resource="EntityType"/>
         <ov:defines rdf:resource="Atomicity"/>
         <ov:defines rdf:resource="AssetAccounting"/>
-        <ov:defines rdf:resource="ManagementLegalForm"/>
+        <ov:defines rdf:resource="managementLegalForm"/>
         <ov:defines rdf:resource="StaffControlling"/>
         <ov:defines rdf:resource="HospitalRevenue"/>
         <ov:defines rdf:resource="ServiceDeskManagement"/>
@@ -259,7 +259,7 @@
         <ov:defines rdf:resource="ModelingInformationSystems"/>
         <ov:defines rdf:resource="BAR"/>
         <ov:defines rdf:resource="Telemicroscopy"/>
-        <ov:defines rdf:resource="CareComprisedGroupsOfPatients"/>
+        <ov:defines rdf:resource="careComprisedGroupsOfPatients"/>
         <ov:defines rdf:resource="ProvideMeansForManagingWardStaff"/>
         <ov:defines rdf:resource="isSimilarTo"/>
         <ov:defines rdf:resource="ProvideCatalogsAndOtherMeansForCodingOfNursingProcedures"/>
@@ -271,8 +271,8 @@
         <ov:defines rdf:resource="ProvideFormsForDocumentingPatientsInformedConsent"/>
         <ov:defines rdf:resource="RecommendationsForFurtherTreatment"/>
         <ov:defines rdf:resource="ReturnOnInvestmentStudy"/>
-        <ov:defines rdf:resource="AdmittingPhysician"/>
-        <ov:defines rdf:resource="CareCoordinationOfCareProcess"/>
+        <ov:defines rdf:resource="admittingPhysician"/>
+        <ov:defines rdf:resource="careCoordinationOfCareProcess"/>
         <ov:defines rdf:resource="WebServer"/>
         <ov:defines rdf:resource="MakingABackup"/>
         <ov:defines rdf:resource="T3DatabaseServer"/>
@@ -283,7 +283,7 @@
         <ov:defines rdf:resource="UMLS"/>
         <ov:defines rdf:resource="HomeOfThePatient"/>
         <ov:defines rdf:resource="Planning"/>
-        <ov:defines rdf:resource="IsCentralized"/>
+        <ov:defines rdf:resource="isCentralized"/>
         <ov:defines rdf:resource="ReferenceModelForTheDomainLayerOfHospitalInformationSystems"/>
         <ov:defines rdf:resource="Consultant"/>
         <ov:defines rdf:resource="PreliminaryOutlineOfAStudy"/>
@@ -474,7 +474,7 @@
         <ov:defines rdf:resource="ProvideFormsForEnteringClinicalData"/>
         <ov:defines rdf:resource="DataModel"/>
         <ov:defines rdf:resource="Study"/>
-        <ov:defines rdf:resource="ManagementFinancingForm"/>
+        <ov:defines rdf:resource="managementFinancingForm"/>
         <ov:defines rdf:resource="PreparingStatistics"/>
         <ov:defines rdf:resource="TransinstitutionalHealthCareFunction"/>
         <ov:defines rdf:resource="ProvideMeansForManagingMedicalDevices"/>
@@ -503,7 +503,7 @@
         <ov:defines rdf:resource="IHEActor"/>
         <ov:defines rdf:resource="ComputedTomography"/>
         <ov:defines rdf:resource="ProvideMeansForMinimizingAdverseDrugEvents"/>
-        <ov:defines rdf:resource="Deadline"/>
+        <ov:defines rdf:resource="deadline"/>
         <ov:defines rdf:resource="DigitalImage"/>
         <ov:defines rdf:resource="ManageStorageFormats"/>
         <ov:defines rdf:resource="MonitoringOfNationalLegislation"/>
@@ -716,11 +716,11 @@
         <ov:defines rdf:resource="ElectronicHealthRecord"/>
         <ov:defines rdf:resource="ProjectResourceAllocation"/>
         <ov:defines rdf:resource="ReportAndPublicationOfStudy"/>
-        <ov:defines rdf:resource="AdmittingPhysician"/>
+        <ov:defines rdf:resource="admittingPhysician"/>
         <ov:defines rdf:resource="SystemIntroduction"/>
         <ov:defines rdf:resource="EvaluationMethod"/>
         <ov:defines rdf:resource="ModifyPresentationOfPictures"/>
-        <ov:defines rdf:resource="Location"/>
+        <ov:defines rdf:resource="location"/>
         <ov:defines rdf:resource="DocumentArchivingSystem"/>
         <ov:defines rdf:resource="SAPS"/>
         <ov:defines rdf:resource="Cluster"/>
@@ -797,12 +797,12 @@
         <ov:defines rdf:resource="DebtorAccounting"/>
         <ov:defines rdf:resource="ChangeManagement"/>
         <ov:defines rdf:resource="CPnStyle"/>
-        <ov:defines rdf:resource="Correctness"/>
+        <ov:defines rdf:resource="correctness"/>
         <ov:defines rdf:resource="HL7Version3"/>
         <ov:defines rdf:resource="BestPracticeBenchmark"/>
         <ov:defines rdf:resource="Pencil"/>
         <ov:defines rdf:resource="MonitoringTheProjectProgress"/>
-        <ov:defines rdf:resource="Insurance"/>
+        <ov:defines rdf:resource="insurance"/>
         <ov:defines rdf:resource="FieldStudy"/>
         <ov:defines rdf:resource="TherapeuticService"/>
         <ov:defines rdf:resource="KHG"/>
@@ -818,7 +818,7 @@
         <ov:defines rdf:resource="SecurityOfData"/>
         <ov:defines rdf:resource="StatisticalEvaluationOfPatientData"/>
         <ov:defines rdf:resource="3LGM2Use"/>
-        <ov:defines rdf:resource="Availibility"/>
+        <ov:defines rdf:resource="availability"/>
         <ov:defines rdf:resource="3LGM2InformationProcess"/>
         <ov:defines rdf:resource="LogicalNetworkTopology"/>
         <ov:defines rdf:resource="ITIL"/>
@@ -893,7 +893,7 @@
         <ov:defines rdf:resource="UsabilityOfPhysicalDataProcessingSystems"/>
         <ov:defines rdf:resource="AdaptationCost"/>
         <ov:defines rdf:resource="WorkingList"/>
-        <ov:defines rdf:resource="ICDCode"/>
+        <ov:defines rdf:resource="icdCode"/>
         <ov:defines rdf:resource="ICD10"/>
         <ov:defines rdf:resource="3LGM2DomainLayer"/>
         <ov:defines rdf:resource="TherapeuticStandard"/>
@@ -918,7 +918,7 @@
         <ov:defines rdf:resource="ComputerBasedPhysicalDataProcessingSystem"/>
         <ov:defines rdf:resource="MonolithicArchitecture"/>
         <ov:defines rdf:resource="BedOccupation"/>
-        <ov:defines rdf:resource="ManagementOpenness"/>
+        <ov:defines rdf:resource="managementOpenness"/>
         <ov:defines rdf:resource="System"/>
         <ov:defines rdf:resource="IntegrityOfData"/>
         <ov:defines rdf:resource="HISBudgetPlanning"/>
@@ -1111,7 +1111,7 @@
         <ov:defines rdf:resource="IHEConnectAThon"/>
         <ov:defines rdf:resource="ExternalFinding"/>
         <ov:defines rdf:resource="ProvideMeansForPreparingWardRelatedStatistics"/>
-        <ov:defines rdf:resource="CIN"/>
+        <ov:defines rdf:resource="cin"/>
         <ov:defines rdf:resource="IntegratedHIS"/>
         <ov:defines rdf:resource="ChiefInformationOfficer"/>
         <ov:defines rdf:resource="Router"/>
@@ -1139,7 +1139,7 @@
         <ov:defines rdf:resource="HealthInsuranceCompany"/>
         <ov:defines rdf:resource="PDFA"/>
         <ov:defines rdf:resource="PatientDischargeAndTransferToOtherInstitutions"/>
-        <ov:defines rdf:resource="ManagementCentralityOfInformationManagement"/>
+        <ov:defines rdf:resource="managementCentralityOfInformationManagement"/>
         <ov:defines rdf:resource="ProvideMeansForOverheadCostManagement"/>
         <ov:defines rdf:resource="ProjectMonitoring"/>
         <ov:defines rdf:resource="Controlling"/>
@@ -1185,11 +1185,11 @@
         <ov:defines rdf:resource="ProvideMeansForCheckInOfPatient"/>
         <ov:defines rdf:resource="TransactionManagementTechnology"/>
         <ov:defines rdf:resource="PlanAndOrganize"/>
-        <ov:defines rdf:resource="Acceptance"/>
+        <ov:defines rdf:resource="acceptance"/>
         <ov:defines rdf:resource="PatientRecord"/>
         <ov:defines rdf:resource="CommunicateDocumentsToOtherApplications"/>
         <ov:defines rdf:resource="ProvideMeansForManagingOutpatientUnitsStaff"/>
-        <ov:defines rdf:resource="Maintainability"/>
+        <ov:defines rdf:resource="maintainability"/>
         <ov:defines rdf:resource="CEN"/>
         <ov:defines rdf:resource="CEO"/>
         <ov:defines rdf:resource="DICOMNetworkProtocol"/>
@@ -1300,7 +1300,7 @@
         <ov:defines rdf:resource="BPflV"/>
         <ov:defines rdf:resource="ProvideMeansForDataMining"/>
         <ov:defines rdf:resource="ProvideMeansForProductCosting"/>
-        <ov:defines rdf:resource="PIN"/>
+        <ov:defines rdf:resource="pin"/>
         <ov:defines rdf:resource="ICPM"/>
         <ov:defines rdf:resource="UMLAssociationClass"/>
         <ov:defines rdf:resource="UMLMethod"/>
@@ -1344,7 +1344,7 @@
         <ov:defines rdf:resource="ProvideMeansForAssetAccounting"/>
         <ov:defines rdf:resource="3LGM2SInvokingInterface"/>
         <ov:defines rdf:resource="ISO25000SoftwareQuality"/>
-        <ov:defines rdf:resource="OfficialUserGroup"/>
+        <ov:defines rdf:resource="officialUserGroup"/>
         <ov:defines rdf:resource="Room"/>
         <ov:defines rdf:resource="ArchitecturalStyleOfThePhysicalToolLayer"/>
         <ov:defines rdf:resource="StrategicHISMonitoringResult"/>
@@ -1413,39 +1413,39 @@
     </owl:ObjectProperty>
 
 
-  <owl:DatatypeProperty rdf:about="Acceptance">
+  <owl:DatatypeProperty rdf:about="acceptance">
     <rdfs:label xml:lang="en">acceptance</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="AdmittingPhysician">
+  <owl:DatatypeProperty rdf:about="admittingPhysician">
     <rdfs:label xml:lang="en">admitting physician</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Availibility">
+  <owl:DatatypeProperty rdf:about="availability">
     <rdfs:label xml:lang="en">availibility</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="CIN">
+  <owl:DatatypeProperty rdf:about="cin">
     <rdfs:label xml:lang="en">CIN</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="CareComprisedGroupsOfPatients">
+  <owl:DatatypeProperty rdf:about="careComprisedGroupsOfPatients">
     <rdfs:label xml:lang="en">care comprised groups of patients</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="CareCoordinationOfCareProcess">
+  <owl:DatatypeProperty rdf:about="careCoordinationOfCareProcess">
     <rdfs:label xml:lang="en">care coordination of care process</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Correctness">
+  <owl:DatatypeProperty rdf:about="correctness">
     <rdfs:label xml:lang="en">correctness</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Deadline">
+  <owl:DatatypeProperty rdf:about="deadline">
     <rdfs:label xml:lang="en">deadline</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="DegreeOfNormativity">
+  <owl:DatatypeProperty rdf:about="degreeOfNormativity">
     <rdfs:label xml:lang="en">degree of normativity</rdfs:label>
   </owl:DatatypeProperty>
 
@@ -1457,55 +1457,55 @@
     <rdfs:label xml:lang="en">extent</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="ICDCode">
+  <owl:DatatypeProperty rdf:about="icdCode">
     <rdfs:label xml:lang="en">ICD code</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Insurance">
+  <owl:DatatypeProperty rdf:about="insurance">
     <rdfs:label xml:lang="en">insurance</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="IsCentralized">
+  <owl:DatatypeProperty rdf:about="isCentralized">
     <rdfs:label xml:lang="en">is centralized</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="IsRedundant">
+  <owl:DatatypeProperty rdf:about="isRedundant">
     <rdfs:label xml:lang="en">is redundant</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Location">
+  <owl:DatatypeProperty rdf:about="location">
     <rdfs:label xml:lang="en">location</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Maintainability">
+  <owl:DatatypeProperty rdf:about="maintainability">
     <rdfs:label xml:lang="en">maintainability</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="ManagementCentralityOfNetworkManagement">
+  <owl:DatatypeProperty rdf:about="managementCentralityOfNetworkManagement">
     <rdfs:label xml:lang="en">management centrality of network management</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="ManagementCentralityOfInformationManagement">
+  <owl:DatatypeProperty rdf:about="managementCentralityOfInformationManagement">
     <rdfs:label xml:lang="en">management centrality of information management</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="ManagementFinancingForm">
+  <owl:DatatypeProperty rdf:about="managementFinancingForm">
     <rdfs:label xml:lang="en">management financing form</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="ManagementLegalForm">
+  <owl:DatatypeProperty rdf:about="managementLegalForm">
     <rdfs:label xml:lang="en">management legal form</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="ManagementOpenness">
+  <owl:DatatypeProperty rdf:about="managementOpenness">
     <rdfs:label xml:lang="en">management openness</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="OfficialUserGroup">
+  <owl:DatatypeProperty rdf:about="officialUserGroup">
     <rdfs:label xml:lang="en">official user group</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="PIN">
+  <owl:DatatypeProperty rdf:about="pin">
     <rdfs:label xml:lang="en">PIN</rdfs:label>
   </owl:DatatypeProperty>
 
@@ -2960,7 +2960,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="AdmittingPhysician"/>
+                <owl:someValuesFrom rdf:resource="admittingPhysician"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3001,7 +3001,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="AdmittingPhysician"/>
+                <owl:someValuesFrom rdf:resource="admittingPhysician"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</TripelPage>
@@ -3095,7 +3095,7 @@
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ICDCode"/>
+                <owl:onProperty rdf:resource="icdCode"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3117,7 +3117,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ICDCode"/>
+                <owl:onProperty rdf:resource="icdCode"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3136,7 +3136,7 @@
 
 
 
-    <owl:Class rdf:about="AdmittingPhysician">
+    <owl:Class rdf:about="admittingPhysician">
 	<rdfs:label xml:lang="en">Admitting Physician</rdfs:label>
         <rdfs:subClassOf rdf:resource="Physician"/>
         <meta:subTopClass rdf:resource="&meta;Role"/>
@@ -3147,7 +3147,7 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2042</ID>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="AdmittingPhysician"/>
+        <owl:annotatedSource rdf:resource="admittingPhysician"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="Physician"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
@@ -5519,7 +5519,7 @@ Object Workgroup Standard</skos:altLabel>
 
 
 
-    <owl:Class rdf:about="CIN">
+    <owl:Class rdf:about="cin">
 	<rdfs:label xml:lang="en">CIN</rdfs:label>
         <rdfs:subClassOf rdf:resource="PatientCareEntityType"/>
         <rdfs:subClassOf>
@@ -5530,14 +5530,14 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIN"/>
+        <owl:annotatedSource rdf:resource="cin"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="PatientCareEntityType"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2061</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CIN"/>
+        <owl:annotatedSource rdf:resource="cin"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -6176,12 +6176,12 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
-                <owl:someValuesFrom rdf:resource="CIN"/>
+                <owl:someValuesFrom rdf:resource="cin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="CIN"/>
+                <owl:onProperty rdf:resource="cin"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6205,7 +6205,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
-                <owl:someValuesFrom rdf:resource="CIN"/>
+                <owl:someValuesFrom rdf:resource="cin"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76</TripelPage>
@@ -6216,7 +6216,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="CIN"/>
+                <owl:onProperty rdf:resource="cin"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8371,13 +8371,13 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="IsCentralized"/>
+                <owl:onProperty rdf:resource="isCentralized"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="IsRedundant"/>
+                <owl:onProperty rdf:resource="isRedundant"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8412,7 +8412,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="IsCentralized"/>
+                <owl:onProperty rdf:resource="isCentralized"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8424,7 +8424,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="IsRedundant"/>
+                <owl:onProperty rdf:resource="isRedundant"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17338,43 +17338,43 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="CareComprisedGroupsOfPatients"/>
+                <owl:onProperty rdf:resource="careComprisedGroupsOfPatients"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="CareCoordinationOfCareProcess"/>
+                <owl:onProperty rdf:resource="careCoordinationOfCareProcess"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ManagementCentralityOfNetworkManagement"/>
+                <owl:onProperty rdf:resource="managementCentralityOfNetworkManagement"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ManagementCentralityOfInformationManagement"/>
+                <owl:onProperty rdf:resource="managementCentralityOfInformationManagement"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ManagementFinancingForm"/>
+                <owl:onProperty rdf:resource="managementFinancingForm"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ManagementLegalForm"/>
+                <owl:onProperty rdf:resource="managementLegalForm"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ManagementOpenness"/>
+                <owl:onProperty rdf:resource="managementOpenness"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -17522,7 +17522,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="CareComprisedGroupsOfPatients"/>
+                <owl:onProperty rdf:resource="careComprisedGroupsOfPatients"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17534,7 +17534,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="CareCoordinationOfCareProcess"/>
+                <owl:onProperty rdf:resource="careCoordinationOfCareProcess"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17546,7 +17546,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ManagementCentralityOfNetworkManagement"/>
+                <owl:onProperty rdf:resource="managementCentralityOfNetworkManagement"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17558,7 +17558,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ManagementCentralityOfInformationManagement"/>
+                <owl:onProperty rdf:resource="managementCentralityOfInformationManagement"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17570,7 +17570,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ManagementFinancingForm"/>
+                <owl:onProperty rdf:resource="managementFinancingForm"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17582,7 +17582,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ManagementLegalForm"/>
+                <owl:onProperty rdf:resource="managementLegalForm"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17594,7 +17594,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ManagementOpenness"/>
+                <owl:onProperty rdf:resource="managementOpenness"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20818,7 +20818,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Correctness"/>
+                <owl:onProperty rdf:resource="correctness"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -20866,7 +20866,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Correctness"/>
+                <owl:onProperty rdf:resource="correctness"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -30489,7 +30489,7 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="CIN"/>
+                <owl:onProperty rdf:resource="cin"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -30542,7 +30542,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="CIN"/>
+                <owl:onProperty rdf:resource="cin"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -31718,25 +31718,25 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="AdmittingPhysician"/>
+                <owl:onProperty rdf:resource="admittingPhysician"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="CIN"/>
+                <owl:onProperty rdf:resource="cin"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Insurance"/>
+                <owl:onProperty rdf:resource="insurance"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="PIN"/>
+                <owl:onProperty rdf:resource="pin"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -31802,7 +31802,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="AdmittingPhysician"/>
+                <owl:onProperty rdf:resource="admittingPhysician"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -31814,7 +31814,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="CIN"/>
+                <owl:onProperty rdf:resource="cin"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -31826,7 +31826,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Insurance"/>
+                <owl:onProperty rdf:resource="insurance"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -31838,7 +31838,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="PIN"/>
+                <owl:onProperty rdf:resource="pin"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -32344,7 +32344,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="CIN"/>
+                <owl:someValuesFrom rdf:resource="cin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
@@ -32440,7 +32440,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="CIN"/>
+                <owl:someValuesFrom rdf:resource="cin"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</TripelPage>
@@ -34326,7 +34326,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="ComputerSystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Location"/>
+                <owl:onProperty rdf:resource="location"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -34356,7 +34356,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Location"/>
+                <owl:onProperty rdf:resource="location"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -35808,7 +35808,7 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Deadline"/>
+                <owl:onProperty rdf:resource="deadline"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -35885,7 +35885,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Deadline"/>
+                <owl:onProperty rdf:resource="deadline"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -38748,19 +38748,19 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Acceptance"/>
+                <owl:onProperty rdf:resource="acceptance"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="DegreeOfNormativity"/>
+                <owl:onProperty rdf:resource="degreeOfNormativity"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="OfficialUserGroup"/>
+                <owl:onProperty rdf:resource="officialUserGroup"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -38809,7 +38809,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Acceptance"/>
+                <owl:onProperty rdf:resource="acceptance"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -38821,7 +38821,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="DegreeOfNormativity"/>
+                <owl:onProperty rdf:resource="degreeOfNormativity"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -38833,7 +38833,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="OfficialUserGroup"/>
+                <owl:onProperty rdf:resource="officialUserGroup"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -40840,13 +40840,13 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="ComputerSystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Availibility"/>
+                <owl:onProperty rdf:resource="availability"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Maintainability"/>
+                <owl:onProperty rdf:resource="maintainability"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -40888,7 +40888,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Availibility"/>
+                <owl:onProperty rdf:resource="availability"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -40900,7 +40900,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Maintainability"/>
+                <owl:onProperty rdf:resource="maintainability"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -49611,6 +49611,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1601</ID>
         <skos:altLabel xml:lang="en">CSF</skos:altLabel>
     </owl:Class>
+
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="TansCriticalSuccessFactorApproach"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
@@ -49619,7 +49620,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1601</TripelRowNr>
     </owl:Axiom>
 
-    <rdf:Description rdf:about="CIN">
+    <rdf:Description rdf:about="cin">
         <bb:page></bb:page>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
@@ -49630,6 +49631,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <skos:definition xml:lang="en"></skos:definition>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1037</ID>
     </rdf:Description>
+
     <rdf:Description rdf:about="Performance">
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -49638,6 +49640,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <bb:page>205</bb:page>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
     </rdf:Description>
+
     <rdf:Description rdf:about="Relative">
         <bb:page></bb:page>
         <meta:subTopClass rdf:resource="&meta;Role"/>
@@ -49646,6 +49649,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <skos:definition xml:lang="en"></skos:definition>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
     </rdf:Description>
+
     <rdf:Description rdf:about="Stability">
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1526</ID>
         <bb:page>205</bb:page>
@@ -49654,6 +49658,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <skos:definition xml:lang="en">For example, a server has no down-times.</skos:definition>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
     </rdf:Description>
+
     <rdf:Description rdf:about="UpToDateness">
         <bb:page>205</bb:page>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
