@@ -1080,7 +1080,6 @@
         <ov:defines rdf:resource="ApprovalToAStudy"/>
         <ov:defines rdf:resource="SheetOfPaper"/>
         <ov:defines rdf:resource="OrganizationalPerspective"/>
-        <ov:defines rdf:resource="Person"/>
         <ov:defines rdf:resource="ThirdPartyFund"/>
         <ov:defines rdf:resource="Directing"/>
         <ov:defines rdf:resource="EstablishAndPromoteTheStrategicInformationManagementPlan"/>
@@ -1508,10 +1507,6 @@
 
   <owl:DatatypeProperty rdf:about="Performance">
     <rdfs:label xml:lang="en">performance</rdfs:label>
-  </owl:DatatypeProperty>
-
-  <owl:DatatypeProperty rdf:about="Person">
-    <rdfs:label xml:lang="en">person</rdfs:label>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="Pertinency">
@@ -3482,12 +3477,6 @@
         <rdfs:subClassOf rdf:resource="Resource"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="Person"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="Place"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
@@ -3512,19 +3501,7 @@
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80, 105</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1651</TripelRowNr>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Appointment"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="Person"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2355</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
+     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Appointment"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
