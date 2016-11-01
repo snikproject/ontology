@@ -1425,9 +1425,6 @@
     <rdfs:label xml:lang="en">availibility</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="cin">
-    <rdfs:label xml:lang="en">CIN</rdfs:label>
-  </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="careComprisedGroupsOfPatients">
     <rdfs:label xml:lang="en">care comprised groups of patients</rdfs:label>
@@ -5516,35 +5513,21 @@ Object Workgroup Standard</skos:altLabel>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1685</TripelRowNr>
     </owl:Axiom>
 
-
-
-
-    <owl:Class rdf:about="cin">
-	<rdfs:label xml:lang="en">CIN</rdfs:label>
+    <owl:DatatypeProperty rdf:about="cin">
+        <rdfs:label xml:lang="en">Case Identification Number</rdfs:label>
+    	<skos:altLabel xml:lang="en">CIN</skos:altLabel>
+        <bb:page></bb:page>
+        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</Chapter>
+        <skos:definition xml:lang="en"></skos:definition>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1037</ID>
         <rdfs:subClassOf rdf:resource="PatientCareEntityType"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
-                <owl:someValuesFrom rdf:resource="ObjectIdentity"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    <owl:Axiom>
+        <meta:isAssociatedWith rdf:resource="ObjectIdentity"/>
+    </owl:DatatypeProperty>
+      <owl:Axiom>
         <owl:annotatedSource rdf:resource="cin"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="PatientCareEntityType"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2061</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="cin"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
-                <owl:someValuesFrom rdf:resource="ObjectIdentity"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="&meta;isAssociatedWith"/>
+        <owl:annotatedTarget rdf:resource="ObjectIdentity"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">144</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1037</TripelRowNr>
     </owl:Axiom>
@@ -6168,21 +6151,13 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Axiom>
 
 
-
-
     <owl:Class rdf:about="Case">
 	<rdfs:label xml:lang="en">Case</rdfs:label>
         <rdfs:subClassOf rdf:resource="PatientCareEntityType"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
-                <owl:someValuesFrom rdf:resource="cin"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
+          <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="cin"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
+		<owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3</Chapter>
@@ -6204,27 +6179,12 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
-                <owl:someValuesFrom rdf:resource="cin"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1005</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Case"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="cin"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
+		<owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2377</TripelRowNr>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">144</TripelPage>
     </owl:Axiom>
-
-
 
 
     <owl:Class rdf:about="CaseMixIndex">
@@ -28567,12 +28527,6 @@ goals, structures, and behaviors.</skos:definition>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="Type"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -28622,18 +28576,6 @@ goals, structures, and behaviors.</skos:definition>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2387</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="NursingProcedure"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="Type"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2384</TripelRowNr>
     </owl:Axiom>
 
 
@@ -30487,18 +30429,6 @@ goals, structures, and behaviors.</skos:definition>
                 <owl:someValuesFrom rdf:resource="Sample"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="cin"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="Type"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -30537,32 +30467,6 @@ goals, structures, and behaviors.</skos:definition>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">754</TripelRowNr>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Order"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="cin"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2389</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Order"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="Type"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2388</TripelRowNr>
-    </owl:Axiom>
-
-
 
 
     <owl:Class rdf:about="OrderCatalog">
@@ -31724,12 +31628,6 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="cin"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="insurance"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
@@ -31808,18 +31706,6 @@ goals, structures, and behaviors.</skos:definition>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2380</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Patient"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="cin"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">144</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2578</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Patient"/>
@@ -32344,7 +32230,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="cin"/>
+                <owl:someValuesFrom rdf:resource="Case"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
@@ -32440,7 +32326,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="cin"/>
+                <owl:someValuesFrom rdf:resource="Case"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</TripelPage>
@@ -49620,17 +49506,6 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1601</TripelRowNr>
     </owl:Axiom>
 
-    <rdf:Description rdf:about="cin">
-        <bb:page></bb:page>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
-        <rdfs:label xml:lang="en">Case Identification Number</rdfs:label>
-        <skos:altLabel xml:lang="en">CIN</skos:altLabel>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <skos:definition xml:lang="en"></skos:definition>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1037</ID>
-    </rdf:Description>
 
     <rdf:Description rdf:about="Performance">
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
