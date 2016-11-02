@@ -1420,7 +1420,7 @@
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="availability">
-    <rdfs:label xml:lang="en">availibility</rdfs:label>
+    <rdfs:label xml:lang="en">availability</rdfs:label>
   </owl:DatatypeProperty>
 
 
@@ -1641,7 +1641,7 @@
         <rdfs:subClassOf rdf:resource="ApplicationComponentStyle"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DB1Style"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1663,7 +1663,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DB1Style"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -2050,7 +2050,7 @@
         <rdfs:subClassOf rdf:resource="ResearchAndEducationEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="EnterpriseFunction"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2074,7 +2074,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="EnterpriseFunction"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3307,13 +3307,13 @@
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HeterogeneityOfTheHISArchitecture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HomogeneityOfTheHISArchitecture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3349,7 +3349,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HeterogeneityOfTheHISArchitecture"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3361,7 +3361,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HomogeneityOfTheHISArchitecture"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4054,7 +4054,7 @@
         <rdfs:subClassOf rdf:resource="Communication"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="MasterApplicationComponent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4078,7 +4078,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="MasterApplicationComponent"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4546,19 +4546,19 @@
         <rdfs:subClassOf rdf:resource="ArchitecturalStyleOfTheLogicalToolLayer"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ACnStyle"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DBnStyle"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="VnStyle"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4581,7 +4581,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ACnStyle"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4593,7 +4593,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DBnStyle"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4605,7 +4605,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="VnStyle"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4851,19 +4851,19 @@
         <rdfs:subClassOf rdf:resource="Model"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="BehavioralPerspective"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="FunctionalPerspective"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="OrganizationalPerspective"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4888,7 +4888,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="BehavioralPerspective"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4900,7 +4900,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="FunctionalPerspective"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4912,7 +4912,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="OrganizationalPerspective"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5163,7 +5163,7 @@
         <rdfs:subClassOf rdf:resource="Organization"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HL7Standard"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5193,7 +5193,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HL7Standard"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5227,13 +5227,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="PatientLink"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SingleSignOn"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5270,7 +5270,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="PatientLink"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5282,7 +5282,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SingleSignOn"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5472,13 +5472,13 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementStaff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="CEO"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="CFO"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5603,7 +5603,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="CEO"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5615,7 +5615,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="CFO"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5835,7 +5835,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Framework"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="KeyPerformanceIndicator"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5864,7 +5864,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="KeyPerformanceIndicator"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5913,13 +5913,13 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="CommunicationPattern"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ACnStyle"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SOA"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5943,7 +5943,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ACnStyle"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5955,7 +5955,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SOA"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7568,7 +7568,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Standard"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2MCommunicationStandard"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7593,7 +7593,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2MCommunicationStandard"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7714,7 +7714,7 @@ Object Workgroup Standard</skos:altLabel>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualityOfComputerBasedApplicationComponentsAndTheirIntegration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7743,7 +7743,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualityOfComputerBasedApplicationComponentsAndTheirIntegration"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8578,7 +8578,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SingleSignOn"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8614,7 +8614,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SingleSignOn"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -9451,7 +9451,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="DatabaseStyle"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="V1Style"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9474,7 +9474,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="V1Style"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -9490,19 +9490,19 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="DatabaseStyle"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ACnStyle"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="CommunicationServer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="VnStyle"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9525,7 +9525,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ACnStyle"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -9537,7 +9537,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="CommunicationServer"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -9549,7 +9549,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="VnStyle"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -10142,7 +10142,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="LegalRequirement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -10165,7 +10165,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="LegalRequirement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -11537,25 +11537,25 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="ComputerBasedApplicationComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="AuthenticityOfData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="AvailabilityOfData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DocumentStandard"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="IntegrityOfData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11593,7 +11593,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="AuthenticityOfData"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -11605,7 +11605,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="AvailabilityOfData"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -11617,7 +11617,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DocumentStandard"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -11629,7 +11629,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="IntegrityOfData"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -11859,7 +11859,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="TransinstitutionalHealthInformationSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11901,7 +11901,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="TransinstitutionalHealthInformationSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -12281,7 +12281,7 @@ Object Workgroup Standard</skos:altLabel>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Activity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12306,7 +12306,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Activity"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -13079,7 +13079,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="ResearchAndEducationEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HISQuality"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -13102,7 +13102,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HISQuality"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -14542,7 +14542,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SoftwareProduct"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -14566,7 +14566,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SoftwareProduct"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -15927,7 +15927,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="ArchitectureOfAnInformationSystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualityOfHISArchitecture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -15962,7 +15962,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualityOfHISArchitecture"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -16493,7 +16493,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualityOfPatientCare"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -16516,7 +16516,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualityOfPatientCare"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -16941,7 +16941,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="HL7Standard"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="TransinstitutionalHealthInformationSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -16982,7 +16982,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="TransinstitutionalHealthInformationSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17684,7 +17684,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationSystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Model"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -17708,7 +17708,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Model"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19069,7 +19069,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="ClassificationOfDiagnoses"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SemanticIntegration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -19093,7 +19093,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SemanticIntegration"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19151,13 +19151,13 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Organization"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DICOMStandard"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HL7Standard"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -19180,7 +19180,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DICOMStandard"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19192,7 +19192,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HL7Standard"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19229,7 +19229,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="IHE"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -19252,7 +19252,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="IHE"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19289,7 +19289,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="TransinstitutionalHealthInformationSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -19312,7 +19312,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="TransinstitutionalHealthInformationSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19481,7 +19481,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Framework"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="IHEDomain"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -19504,7 +19504,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="IHEDomain"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19541,13 +19541,13 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="ISOStandard"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DocumentArchivingSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="OAIS3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -19570,7 +19570,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DocumentArchivingSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19582,7 +19582,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="OAIS3"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19820,7 +19820,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="ISOStandard"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ClinicalDataWarehouse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -19843,7 +19843,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ClinicalDataWarehouse"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19901,7 +19901,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ITIL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -19954,7 +19954,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ITIL"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20030,25 +20030,25 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ITInvestmentJustification"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="InformationSystemEffectiveness"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="InformationSystemImprovement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="InformationSystemSafety"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -20077,7 +20077,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ITInvestmentJustification"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20089,7 +20089,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="InformationSystemEffectiveness"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20101,7 +20101,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="InformationSystemImprovement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20113,7 +20113,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="InformationSystemSafety"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20330,7 +20330,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="OperationalInformationManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -20359,7 +20359,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="OperationalInformationManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20698,7 +20698,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Data"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -20740,7 +20740,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Data"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20835,7 +20835,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="EnterpriseFunction"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -20899,7 +20899,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="EnterpriseFunction"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -21424,7 +21424,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Information Management"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HospitalManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -21446,7 +21446,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HospitalManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -21611,13 +21611,13 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Data"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ArchitectureOfAnInformationSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -21772,25 +21772,25 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Metamodel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="BusinessProcessModel"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DataModel"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="FunctionalModel"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="OrganizationalModel"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -21821,7 +21821,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="BusinessProcessModel"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -21833,7 +21833,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DataModel"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -21845,7 +21845,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="FunctionalModel"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -21857,7 +21857,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="OrganizationalModel"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -22335,7 +22335,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Integration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -22358,7 +22358,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Integration"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -23340,7 +23340,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="ResearchAndEducationEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Information"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -23365,7 +23365,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Information"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -23855,7 +23855,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Law"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -23878,7 +23878,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Law"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25217,7 +25217,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Ward"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -25270,7 +25270,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Ward"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27037,19 +27037,19 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="ArchitecturalStyleOfTheLogicalToolLayer"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="AC1Style"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ACnStyle"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="V1Style"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -27073,7 +27073,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="AC1Style"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27085,7 +27085,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ACnStyle"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27097,7 +27097,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="V1Style"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27625,7 +27625,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Ward"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -27690,7 +27690,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Ward"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -30749,7 +30749,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="NonComputerBasedPhysicalDataProcessingSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -30772,7 +30772,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="NonComputerBasedPhysicalDataProcessingSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -31536,13 +31536,13 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="PatientCareEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Bed"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Ward"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -31596,7 +31596,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Bed"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -31608,7 +31608,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Ward"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -32629,13 +32629,13 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="&meta;ComputerBasedApplicationComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SAPS"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="TISS"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -32728,7 +32728,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SAPS"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -32740,7 +32740,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="TISS"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -33461,7 +33461,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="PatientCareEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ObjectIdentity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -33484,7 +33484,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ObjectIdentity"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -34911,7 +34911,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ITInvestmentPlanning"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -34958,7 +34958,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ITInvestmentPlanning"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -37597,7 +37597,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="HISQuality"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="StrategicInformationManagementGoal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -37620,7 +37620,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="StrategicInformationManagementGoal"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -37636,7 +37636,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="HISQuality"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2InformationProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -37660,7 +37660,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2InformationProcess"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -37889,13 +37889,13 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="Quality"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ProcessIntegration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualityOfOutcome"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -37919,7 +37919,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ProcessIntegration"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -37931,7 +37931,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualityOfOutcome"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -37947,7 +37947,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="Quality"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualityOfProcesses"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -37971,7 +37971,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualityOfProcesses"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -38654,7 +38654,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="ReferenceModel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2DomainLayer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -38695,7 +38695,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2DomainLayer"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -38900,7 +38900,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="IntegrationTechnology"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Middleware"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -38938,7 +38938,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Middleware"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -39839,7 +39839,7 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DB1Style"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -39923,7 +39923,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DB1Style"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -39984,7 +39984,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="EvaluationMethod"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HISQuality"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -40008,7 +40008,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="HISQuality"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -40024,7 +40024,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="PatientCareEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Patient"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -40047,7 +40047,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Patient"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -41414,7 +41414,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="QualityOfComputerBasedApplicationComponentsAndTheirIntegration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ISO9241"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -41438,7 +41438,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ISO9241"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -41454,7 +41454,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SoftwareVendor"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -41478,7 +41478,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SoftwareVendor"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -43891,7 +43891,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="Communication"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="2PhaseCommitProtocol"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -43915,7 +43915,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="2PhaseCommitProtocol"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -43927,7 +43927,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="MasterApplicationComponent"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -44160,7 +44160,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="StrategicGoalOfTheInstitution"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -44182,7 +44182,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="StrategicGoalOfTheInstitution"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -44494,7 +44494,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="EnterpriseFunction"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -44607,7 +44607,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="EnterpriseFunction"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -45472,7 +45472,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="MediaCrack"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -45496,7 +45496,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="MediaCrack"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -45574,7 +45574,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="HealthInformationSystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="FunctionalRedundancyRate"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -45630,7 +45630,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="FunctionalRedundancyRate"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -45727,7 +45727,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="QualityOfHISArchitecture"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -45751,7 +45751,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -47176,13 +47176,13 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="InformationManagementGuideline"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DocumentArchivingSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualifiedElectronicSignature"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -47206,7 +47206,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="DocumentArchivingSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -47218,7 +47218,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="QualifiedElectronicSignature"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -47234,7 +47234,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="CommunicationProtocol"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="TransactionManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -47257,7 +47257,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="TransactionManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -47546,7 +47546,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="UMLAbstractClass"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2CommunicationInterface"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -47575,7 +47575,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2CommunicationInterface"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -47603,7 +47603,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="UMLAbstractClass"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2EntityType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -47626,7 +47626,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2EntityType"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -47642,13 +47642,13 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="3LGM2IntralayerRelationship"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2CommunicationInterface"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2EntityType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -47671,7 +47671,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2CommunicationInterface"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -47683,7 +47683,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2EntityType"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -47721,7 +47721,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="3LGM2IntralayerRelationship"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2TransmittingMedium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -47751,7 +47751,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2TransmittingMedium"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -47920,7 +47920,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="UMLClass"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ObjectClass"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -47944,7 +47944,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="ObjectClass"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -48171,13 +48171,13 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="UMLClass"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Message"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2EntityType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -48200,7 +48200,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Message"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -48212,7 +48212,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2EntityType"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -48228,7 +48228,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="3LGM2ApplicationComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="OrganizationalPlan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -48251,7 +48251,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="OrganizationalPlan"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -48484,7 +48484,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="UMLClass"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2ApplicationComponent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -48507,7 +48507,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="3LGM2ApplicationComponent"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -48822,7 +48822,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="3LGM2"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SOA"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -48870,7 +48870,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="SOA"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -49181,7 +49181,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="ReferenceModel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="NetworkStandard"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -49204,7 +49204,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssocoiatedWith"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="NetworkStandard"/>
             </owl:Restriction>
         </owl:annotatedTarget>
