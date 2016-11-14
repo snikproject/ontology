@@ -194,13 +194,13 @@
 
 <!-- Classes -->
 	<owl:Class rdf:about="Top">
-		<rdfs:subClassOf "&owl;Thing"/>
+		<rdfs:subClassOf rdf:resource="&owl;Thing"/>
 		<rdfs:label xml:lang="en">top class</rdfs:label>
 		<rdfs:comment xml:lang="en">Superclass of entity type, role and function.</rdfs:comment>
 	</owl:Class>
 
 	<owl:Class rdf:about="EntityType">
-		<rdfs:subClassOf "Top"/>
+		<rdfs:subClassOf rdf:resource="Top"/>
 		<rdfs:label xml:lang="en">entity type</rdfs:label>
 		<rdfs:label xml:lang="de">Objekttyp</rdfs:label>
 		<owl:disjointWith rdf:resource="Function"/>
@@ -208,7 +208,7 @@
 	</owl:Class>
 
 	<owl:Class rdf:about="Function">
-		<rdfs:subClassOf "Top"/>
+		<rdfs:subClassOf rdf:resource="Top"/>
 		<rdfs:label xml:lang="en">Function</rdfs:label>
 		<rdfs:label xml:lang="de">Aufgabe</rdfs:label>
 		<owl:disjointWith rdf:resource="EntityType"/>
@@ -216,7 +216,7 @@
 	</owl:Class>
 
 	<owl:Class rdf:about="Role">
-		<rdfs:subClassOf "Top"/>
+		<rdfs:subClassOf rdf:resource="Top"/>
 		<rdfs:label xml:lang="en">role</rdfs:label>
 		<rdfs:label xml:lang="de">Rolle</rdfs:label>
 		<rdfs:comment xml:lang="de">Rollen beschreiben Personen und Personengruppen, die im Rahmen des Informationsmanagements im Krankenhaus und der Patientenbehandlung anzutreffen sind.</rdfs:comment>
