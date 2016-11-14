@@ -40250,31 +40250,31 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="AvailableServer">
         <rdfs:label xml:lang="en">available server</rdfs:label>
-        <rdfs:subClassOf rdf:about="Server"/>
+        <rdfs:subClassOf rdf:resource="Server"/>
         <page>61</page>
     </owl:Class>
 
     <owl:Class rdf:about="MaintainableServer">
         <rdfs:label xml:lang="en">maintainable server</rdfs:label>
-        <rdfs:subClassOf rdf:about="Server"/>
+        <rdfs:subClassOf rdf:resource="Server"/>
         <page>175</page>
     </owl:Class>
 
     <owl:Class rdf:about="PerformantServer">
         <rdfs:label xml:lang="en">performant server</rdfs:label>
-        <rdfs:subClassOf rdf:about="Server"/>
+        <rdfs:subClassOf rdf:resource="Server"/>
         <page>175</page>
     </owl:Class>
 
     <owl:Class rdf:about="RedundantServer">
         <rdfs:label xml:lang="en">redundant server</rdfs:label>
-        <rdfs:subClassOf rdf:about="Server"/>
+        <rdfs:subClassOf rdf:resource="Server"/>
         <page>175</page>
     </owl:Class>
 
     <owl:Class rdf:about="StableServer">
         <rdfs:label xml:lang="en">stable server</rdfs:label>
-        <rdfs:subClassOf rdf:about="Server"/>
+        <rdfs:subClassOf rdf:resource="Server"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <page>205</page>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
