@@ -48921,5 +48921,774 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1544</TripelRowNr>
     </owl:Axiom>
 
+  <rdf:Description rdf:about="FeatureAdministrateTheMasterPatientIndex">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>administrate the master patient index</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureAdmitPatientsToTheWard">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>admit patients to the ward</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureAnalyzeData">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>analyze data</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureArchivePictures">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>archive pictures</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureAssignDoctorsToPatientsOrRooms">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>assign doctors to patients or rooms</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureAssignOrderAndBloodSamplesToDevices">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>assign order and blood samples to devices</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureAssignOrdersToModalities">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>assign orders to modalities</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureAssignPatientsToModalities">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>assign patients to modalities</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureAssignPatientsToRoomsAndBeds">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>assign patients to rooms and beds</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureAssignStaffToPatientsOrOutpatientUnits">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>assign staff to patients or outpatient units</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureAssignStaffToPatientsOrRooms">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>assign staff to patients or rooms</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureAttachDigitalSignatures">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>attach digital signatures</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureCalculateDosageOfDrugs">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>calculate dosage of drugs</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureCollectResultsFromDevices">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>collect results from devices</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureCommunicateDischargeInformation">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>communicate discharge information</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureCommunicateDocumentsToOtherApplications">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>communicate documents to other applications</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureCommunicatePictures">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>communicate pictures</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureCommunicateReportToOrderingUnit">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>communicate report to ordering unit</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureCreateWorklistForAGroupOfPatients">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>create worklist for a group of patients</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureCreatingARoster">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>creating a roster</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureCreationOfRadiologyReports">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>creation of radiology reports</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureDisplayEarlierLabResultsOfAPatient">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>display earlier lab results of a patient</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureDisplayPictures">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>display pictures</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureDisplayVitalParametersFromMonitoringDevices">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>display vital parameters from monitoring devices</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureDisplayWarningMessages">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>display warning messages</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureImportDocuments">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>import documents</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureIndexDocumentContent">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>index document content</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureIntegrateDataFromDifferentApplicationComponents">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>integrate data from different application components</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureManageModalities">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>manage modalities</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureManageStorageFormats">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>manage storage formats</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureManageStorageMedia">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>manage storage media</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureMergePatientInformationFromTwoRecords">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>merge patient information from two records</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureMessageQueuing">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>message queuing</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureModifyPresentationOfPictures">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>modify presentation of pictures</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureMulticasting">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label> multicasting</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureOfferDecisionSupportForCarePlanning">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>offer decision support for care planning</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureOrganizePatientTransport">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>organize patient transport</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeaturePrepareReport">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>prepare report</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeaturePreparingStatistics">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>preparing statistics</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeaturePrintForms">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>print forms</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeaturePrintReports">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>print reports</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeaturePrintingOfLabels">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>printing of labels</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideACollectionOfInternalProcessesAndRegulations">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide a collection of internal processes and regulations</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideAccessToArchivedInformation">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide access to archived information</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide catalogs and other means for coding of nursing diagnosis</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide catalogs and other means for coding of nursing procedures</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide catalogs and other means for coding patient related procedures</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide catalogs and other means for coding patients diagnoses</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide catalogs and other means for coding radiological diagnoses</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide catalogs and other means for coding radiological procedures</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideContextRelatedMedicalKnowledge">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide context related medical knowledge</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideDrugCatalogs">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide drug catalogs</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForClinicalReports">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for clinical reports</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingClinicalProcedures">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting clinical procedures</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingDiagnosis">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting diagnosis</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingDiagnosisAndProblems">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting diagnosis and problems</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingMedicalAnamnesis">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting medical anamnesis</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingMedications">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting medications</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingNursingAims">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting nursing aims</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingNursingTasks">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting nursing tasks</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingPatientsInformedConsent">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting patients informed consent</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingPerformedTasks">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting performed tasks</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingPlannedTasks">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting planned tasks</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingProceduresAndOutcomes">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting procedures and outcomes</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingTheNursingHistory">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting the nursing history</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for documenting the outcome of nursing tasks</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForEnteringClinicalData">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for entering clinical data</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for entering or updating patient administrative information</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForPatientsInformedConsent">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for patients informed consent</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForPreparingABillForThePatientInsurance">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for preparing a bill for the patient insurance</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForPreparingClinicalReports">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for preparing clinical reports</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForPreparingOperationReports">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for preparing operation reports</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForWritingAReport">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for writing a report</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForWritingATransferLetterOrDischargeReport">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for writing a transfer letter or discharge report</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for writing the discharge letter or discharge report</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForWritingTheDischargeReport">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for writing the discharge report</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideFormsForWritingTheNursingDischargeReport">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide forms for writing the nursing discharge report</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideGuidelinesForCarePlanning">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide guidelines for care planning</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideGuidelinesForTreatmentPlanning">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide guidelines for treatment planning</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForAccountsPayable">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for accounts payable</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForAccountsReceivable">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for accounts receivable</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForAssetAccounting">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for asset accounting</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForCheckInOfPatient">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for check in of patient</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForControlOfSecurityIssues">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for control of security issues</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForCostCenterAccounting">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for cost center accounting</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForCostElementAccounting">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for cost element accounting</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForCreatingARoster">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for creating a roster</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForCreatingOperationPlans">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for creating operation plans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForCreatingStatistics">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for creating statistics</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForDataMining">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for data mining</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provideMeansForEditing and graphically illustrating collections of internal processes and regulations</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForFiNalizingDocumentation">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for fi nalizing documentation</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForFinalizingDocumentation">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for finalizing documentation</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForFinalizingNursingDocumentation">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for finalizing nursing documentation</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForGeneralLedgerAccounting">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for general ledger accounting</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForIncidentTracking">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for incident tracking</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for initiating final billing for outpatient treatment</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForInitiationOfFinalBilling">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for initiation of final billing</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForManagingAndMonitoringDisposal">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for managing and monitoring disposal</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForManagingAppointments">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for managing appointments</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForManagingLogistics">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for managing logistics</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForManagingMedicalDevices">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for managing medical devices</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForManagingOutpatientUnitsStaff">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for managing outpatient units staff</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForManagingRooms">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for managing rooms</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForManagingWardStaff">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for managing ward staff</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForMinimizingAdverseDrugEvents">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for minimizing adverse drug events</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrderManagement">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for order management</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrderingConsumables">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for ordering consumables</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrderingDrugs">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for ordering drugs</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for ordering drugs materials and laundry</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrderingLaundry">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for ordering laundry</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrderingPatientTransferToOtherUnits">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for ordering patient transfer to other units</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrderingPatientTransferToWard">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for ordering patient transfer to ward</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for ordering patient transfer within the institution</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrderingTransportServices">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for ordering transport services</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrganizingCareerDevelopment">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for organizing career development</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrganizingRecruitment">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for organizing recruitment</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOrganizingTraining">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for organizing training</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForOverheadCostManagement">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for overhead cost management</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForPerformanceEvaluation">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for performance evaluation</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForPreparingACarePlan">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for preparing a care plan</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForPreparingHospitalWideStatistics">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for preparing hospital wide statistics</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForPreparingStatistics">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for preparing statistics</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForPreparingWardRelatedStatistics">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for preparing ward related statistics</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForPreparingWorkSchedules">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for preparing work schedules</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForPreventiveMaintenance">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for preventive maintenance</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForProductCosting">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for product costing</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForRecruitingOfPatients">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for recruiting of patients</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForSchedulingAPatientSAppointment">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for scheduling a patient s appointment</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForSchedulingPatientsAppointments">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for scheduling patients appointments</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForStockKeeping">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for stock keeping</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideMeansForVerifyingCodingDoneInDepartments">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide means for verifying coding done in departments</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideOrdersForPatientRelatedDrugs">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide orders for patient related drugs</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideOrdersForPatientRelatedExaminations">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide orders for patient related examinations</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideRelativesWithInformationOnTheLocationOfAPatient">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide relatives with information on the location of a patient</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvideReminderForFulfillingOfLegalReportingRequirements">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provide reminder for fulfilling of legal reporting requirements</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureProvisionOfPatientDataAndExaminationParameters">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>provision of patient data and examination parameters</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureReceiveBloodSamples">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>receive blood samples</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureReceiveOrders">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>receive orders</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureRegisteringPatients">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>registering patients</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureRetrievePatient">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>retrieve patient</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureScanDocuments">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>scan documents</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureScanningDocumentsFromReferringPhysicianAndOtherSources">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>scanning documents from referring physician and other sources</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureScoringOfThePatient">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>scoring of the patient</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureSearchForOldPictures">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>search for old pictures</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureSelectOrdersFromOrderSets">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>select orders from order sets</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureServiceCombination">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>service combination</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureServiceOrchestration">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>service orchestration</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureStructureData">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>structure data</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureSupportCreationOfANursingCarePlan">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>support creation of a nursing care plan</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureValidateResults">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>validate results</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureViewPatientRelatedAppointments">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>view patient related appointments</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureWorkScheduling">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>work scheduling</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="FeatureWorkflowManagement">
+    <rdf:type rdf:resource="&meta;Feature" />
+    <rdfs:label>workflow management</rdfs:label>
+  </rdf:Description>
 
 </rdf:RDF>
