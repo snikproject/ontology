@@ -2749,6 +2749,7 @@
 
     <owl:Class rdf:about="&ob;CentralComputerAndTelecommunicationsAgency">
 	<rdfs:label xml:lang="en">Central Computer and Telecommunications Agency</rdfs:label>
+        <skos:altLabel xml:lang="en">CCTA</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
@@ -2768,7 +2769,6 @@
         <skos:definition xml:lang="en"></skos:definition>
         <meta:DefinitionENPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></meta:DefinitionENPage>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">589</ID>
-        <rdfs:label xml:lang="de">CCTA</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&ob;CentralComputerAndTelecommunicationsAgency"/>
