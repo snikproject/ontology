@@ -289,13 +289,6 @@
 		<rdfs:label xml:lang="en">data set type</rdfs:label>
 	</owl:Class>
 
-	<owl:Class rdf:about="EntityType">
- 		<rdfs:label xml:lang="en">EntityType</rdfs:label>
- 		<rdfs:label xml:lang="de">Objekttyp</rdfs:label>
-		<rdfs:subClassOf rdf:resource="EntityType"/>:label>
-		<rdfs:comment xml:lang="en"></rdfs:comment>
-		<rdfs:comment xml:lang="de"></rdfs:comment>
-	</owl:Class>
 
 	<owl:Class rdf:about="ApplicationComponent">
  		<rdfs:label xml:lang="en">ApplicationComponent</rdfs:label>

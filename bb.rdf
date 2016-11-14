@@ -13520,7 +13520,6 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="ExecutionOfDiagnosticAndTherapeuticProcedures">
 	<rdfs:label xml:lang="en">Execution of Diagnostic and Therapeutic Procedures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="ExecutionOfDiagnosticAndTherapeuticProcedures"/>
         <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
