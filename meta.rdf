@@ -90,6 +90,13 @@
 		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
 
+	<owl:ObjectProperty rdf:about="updates">
+		<rdfs:label xml:lang="en">updates</rdfs:label>
+	  <rdfs:label xml:lang="de">aktualisiert</rdfs:label>
+		<rdfs:domain rdf:resource="Function"/>
+		<rdfs:range rdf:resource="EntityType"/>
+	</owl:ObjectProperty>
+
 	<owl:ObjectProperty rdf:about="increases">
 		<rdfs:label xml:lang="en">increases</rdfs:label>
 	  <rdfs:label xml:lang="de">erhöht</rdfs:label>
