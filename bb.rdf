@@ -826,7 +826,6 @@
         <ov:defines rdf:resource="3LGM2InterlayerRelationship"/>
         <ov:defines rdf:resource="HospitalInformationSystem"/>
         <ov:defines rdf:resource="RadiologyInformationSystem"/>
-        <ov:defines rdf:resource="Type"/>
         <ov:defines rdf:resource="HomogeneityOfTheHISArchitecture"/>
         <ov:defines rdf:resource="HospitalAdministrationDepartment"/>
         <ov:defines rdf:resource="AssignPatientsToRoomsAndBeds"/>
@@ -1592,10 +1591,6 @@
 
   <owl:DatatypeProperty rdf:about="transferDiagnosis">
     <rdfs:label xml:lang="en">transfer diagnosis</rdfs:label>
-  </owl:DatatypeProperty>
-
-  <owl:DatatypeProperty rdf:about="Type">
-    <rdfs:label xml:lang="en">type</rdfs:label>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="UsageDescription">
