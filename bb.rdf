@@ -227,7 +227,7 @@
         <ov:defines rdf:resource="NursingHistory"/>
         <ov:defines rdf:resource="EuropeanNorm"/>
         <ov:defines rdf:resource="ArchivePictures"/>
-        <ov:defines rdf:resource="StructureConfiguration"/>
+        <ov:defines rdf:resource="structureConfiguration"/>
         <ov:defines rdf:resource="ProjectTimeAllocation"/>
         <ov:defines rdf:resource="HealthInsurancePortabilityAndAccountabilityAct"/>
         <ov:defines rdf:resource="PerformanceOfLegalNotificationRequirements"/>
@@ -1565,8 +1565,11 @@
     <rdfs:range rdf:resource="&foaf;Person"/> 
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="StructureConfiguration">
+  <owl:DatatypeProperty rdf:about="structureConfiguration">
     <rdfs:label xml:lang="en">structure configuration</rdfs:label>
+    <rdfs:domain rdf:resource="HealthCareNetwork"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <page>285</page>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="StructureRange">
@@ -17113,12 +17116,6 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="StructureConfiguration"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="StructureRange"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
@@ -17285,18 +17282,6 @@ Object Workgroup Standard</skos:altLabel>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2677</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="HealthCareNetwork"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="StructureConfiguration"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2673</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="HealthCareNetwork"/>
