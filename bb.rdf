@@ -20850,10 +20850,10 @@ Object Workgroup Standard</skos:altLabel>
 
 
     <owl:Class rdf:about="InformationManagementDepartment">
-	<rdfs:label xml:lang="en">Information Management Department</rdfs:label>
+        <rdfs:label xml:lang="en">Department of Information management</rdfs:label>
         <rdfs:label xml:lang="de">Abteilung Informationsmanagement</rdfs:label>
+	<skos:altLabel xml:lang="en">Information Management Department</skos:altLabel>
         <skos:altLabel xml:lang="de">IT-Abteilung</skos:altLabel>
-        <skos:altLabel xml:lang="en">Department of Information management</skos:altLabel>
         <rdfs:subClassOf rdf:resource="HospitalAdministrationDepartment"/>
         <rdfs:subClassOf>
             <owl:Restriction>
