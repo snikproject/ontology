@@ -80,6 +80,10 @@
 		<rdfs:range rdf:resource="Feature"/>
 	</owl:ObjectProperty>
 
+	<owl:Class rdf:about="Feature">
+		<rdfs:label xml:lang="en">feature</rdfs:label>
+	</owl:Class>
+
 	<owl:ObjectProperty rdf:about="isBasedOn">
 		<rdfs:label xml:lang="en">is based on</rdfs:label>
 	  <rdfs:label xml:lang="de">basiert auf</rdfs:label>
