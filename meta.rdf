@@ -43,8 +43,6 @@
 		<ov:defines rdf:resource="SoftwareProduct"/>
 		<ov:defines rdf:resource="RepresentationType"/>
 		<!--Definitions will be reworked using language tags and the bibo ontology.-->
-		<ov:defines rdf:resource="DefinitionDEPage"/>
-		<ov:defines rdf:resource="DefinitionENPage"/>
 		<ov:defines rdf:resource="AdministrativeEntityType"/>
 		<ov:defines rdf:resource="PatientCareEntityType"/>
 		<ov:defines rdf:resource="InformationManagementEntityType"/>
