@@ -80,12 +80,28 @@
 		<rdfs:range rdf:resource="Feature"/>
 	</owl:ObjectProperty>
 
+	<owl:Class rdf:about="Feature">
+		<rdfs:label xml:lang="en">feature</rdfs:label>
+	</owl:Class>
+
 	<owl:ObjectProperty rdf:about="isBasedOn">
 		<rdfs:label xml:lang="en">is based on</rdfs:label>
 	  <rdfs:label xml:lang="de">basiert auf</rdfs:label>
 		<rdfs:comment xml:lang="de">Der Objekttyp wird von einem anderen Objekttyp erzeugt.</rdfs:comment>
 		<rdfs:domain rdf:resource="EntityType"/>
 		<rdfs:range rdf:resource="EntityType"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="isAssociatedWith">
+		<rdfs:label xml:lang="en">is associated with</rdfs:label>
+		<rdfs:domain rdf:resource="Top"/>
+		<rdfs:range rdf:resource="Top"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="isDecomposedIn">
+		<rdfs:label xml:lang="en">is decomposed in</rdfs:label>
+		<rdfs:domain rdf:resource="Top"/>
+		<rdfs:range rdf:resource="Top"/>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="updates">
