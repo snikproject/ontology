@@ -961,7 +961,7 @@
         <ov:defines rdf:resource="CCOW"/>
         <ov:defines rdf:resource="VisitorAndInformationService"/>
         <ov:defines rdf:resource="AdministrationOfBusinessTripsAndFurtherTraining"/>
-        <ov:defines rdf:resource="TransferDiagnosis"/>
+        <ov:defines rdf:resource="transferDiagnosis"/>
         <ov:defines rdf:resource="ProjectPlanningPhase"/>
         <ov:defines rdf:resource="ScanningDocumentsFromReferringPhysicianAndOtherSources"/>
         <ov:defines rdf:resource="InformationSystemImprovement"/>
@@ -1594,7 +1594,7 @@
     <rdfs:label xml:lang="en">temporal life span</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="TransferDiagnosis">
+  <owl:DatatypeProperty rdf:about="transferDiagnosis">
     <rdfs:label xml:lang="en">transfer diagnosis</rdfs:label>
   </owl:DatatypeProperty>
 
