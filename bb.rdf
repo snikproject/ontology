@@ -1566,10 +1566,6 @@
     <rdfs:range rdf:resource="&foaf;Person"/> 
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="Stability">
-    <rdfs:label xml:lang="en">stability</rdfs:label>
-  </owl:DatatypeProperty>
-
   <owl:DatatypeProperty rdf:about="StructureConfiguration">
     <rdfs:label xml:lang="en">structure configuration</rdfs:label>
   </owl:DatatypeProperty>
