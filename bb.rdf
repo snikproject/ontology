@@ -207,7 +207,7 @@
         <ov:defines rdf:resource="OrganizationalUnitModelingElement"/>
         <ov:defines rdf:resource="RadiologyReport"/>
         <ov:defines rdf:resource="COBITDomain"/>
-        <ov:defines rdf:resource="UsageDescription"/>
+        <ov:defines rdf:resource="usageDescription"/>
         <ov:defines rdf:resource="CP1Style"/>
         <ov:defines rdf:resource="ProvideMeansForManagingAndMonitoringDisposal"/>
         <ov:defines rdf:resource="StudyOutline"/>
@@ -1593,8 +1593,11 @@
     <rdfs:label xml:lang="en">transfer diagnosis</rdfs:label>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="UsageDescription">
+  <owl:DatatypeProperty rdf:about="usageDescription">
     <rdfs:label xml:lang="en">usage description</rdfs:label>
+    <rdfs:domain rdf:resource="ReferenceModel"/>
+    <page>69</page>
+    <rdfs:range rdf:resource="&xsd;string"/>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="inEuro">
@@ -38252,12 +38255,6 @@ goals, structures, and behaviors.</skos:definition>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="UsageDescription"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.4</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -38304,20 +38301,6 @@ goals, structures, and behaviors.</skos:definition>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2347</TripelRowNr>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ReferenceModel"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="UsageDescription"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2344</TripelRowNr>
-    </owl:Axiom>
-
-
 
 
     <owl:Class rdf:about="ReferenceModelForTheDomainLayerOfHospitalInformationSystems">
