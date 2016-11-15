@@ -28329,7 +28329,6 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="OpenEHR">
 	<rdfs:label xml:lang="en">OpenEHR</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Organization"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="isResponsibleFor"/>
@@ -28343,13 +28342,6 @@ goals, structures, and behaviors.</skos:definition>
         <page>190</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">591</ID>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="OpenEHR"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Organization"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">190</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1465</TripelRowNr>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OpenEHR"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
