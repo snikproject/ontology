@@ -33232,8 +33232,6 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PatientRecordSystem">
 	<rdfs:label xml:lang="en">Patient Record System</rdfs:label>
-        <skos:altLabel xml:lang="de">Krankenakte</skos:altLabel>
-        <skos:altLabel xml:lang="de">Patientenakte</skos:altLabel>
         <rdfs:subClassOf rdf:resource="PaperBasedApplicationComponent"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
