@@ -28325,9 +28325,8 @@ goals, structures, and behaviors.</skos:definition>
     </owl:Axiom>
 
 
-
-
     <owl:Class rdf:about="OpenEHR">
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
 	<rdfs:label xml:lang="en">OpenEHR</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
