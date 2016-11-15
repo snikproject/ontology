@@ -673,7 +673,7 @@
         <ov:defines rdf:resource="LogicalOperator"/>
         <ov:defines rdf:resource="Law"/>
         <ov:defines rdf:resource="DegreeOfComputerSupport"/>
-        <ov:defines rdf:resource="StructureStability"/>
+        <ov:defines rdf:resource="structureStability"/>
         <ov:defines rdf:resource="DecubitusProphylaxis"/>
         <ov:defines rdf:resource="MedicalAndNursingCarePlanning"/>
         <ov:defines rdf:resource="DRG"/>
@@ -688,7 +688,6 @@
         <ov:defines rdf:resource="QualityOfOutcome"/>
         <ov:defines rdf:resource="ReceiveOrders"/>
         <ov:defines rdf:resource="Procedure"/>
-        <ov:defines rdf:resource="StructureData"/>
         <ov:defines rdf:resource="ITServiceManagement"/>
         <ov:defines rdf:resource="SOA"/>
         <ov:defines rdf:resource="AdHocMonitoring"/>
@@ -808,7 +807,7 @@
         <ov:defines rdf:resource="HL7Version2"/>
         <ov:defines rdf:resource="ExecutionOfClinicalTrials"/>
         <ov:defines rdf:resource="Monitoring"/>
-        <ov:defines rdf:resource="TemporalLifeSpan"/>
+        <ov:defines rdf:resource="temporalLifeSpan"/>
         <ov:defines rdf:resource="HealthCareInstitution"/>
         <ov:defines rdf:resource="ServiceDeskStaff"/>
         <ov:defines rdf:resource="SoftwareDevelopment"/>
@@ -1080,7 +1079,7 @@
         <ov:defines rdf:resource="Network"/>
         <ov:defines rdf:resource="Medication"/>
         <ov:defines rdf:resource="QualityOfHISArchitecture"/>
-        <ov:defines rdf:resource="StructureRange"/>
+        <ov:defines rdf:resource="structureRange"/>
         <ov:defines rdf:resource="FirstLevelSupport"/>
         <ov:defines rdf:resource="HumanResource"/>
         <ov:defines rdf:resource="ISOTR22221"/>
@@ -1351,7 +1350,7 @@
         <ov:defines rdf:resource="FinancingOfHealthCare"/>
         <ov:defines rdf:resource=""/>
         <ov:defines rdf:resource="SoftwareQuality"/>
-        <ov:defines rdf:resource="TemporalDevelopmentStage"/>
+        <ov:defines rdf:resource="temporalDevelopmentStage"/>
         <ov:defines rdf:resource="Standard"/>
         <ov:defines rdf:resource="COBIT"/>
         <ov:defines rdf:resource="ProvideMeansForAssetAccounting"/>
@@ -1371,7 +1370,7 @@
         <ov:defines rdf:resource="NursingManagement"/>
         <ov:defines rdf:resource="OrganizationalInfrastructure"/>
         <ov:defines rdf:resource="CertifiabilityOfSoftware"/>
-        <ov:defines rdf:resource="StructureSize"/>
+        <ov:defines rdf:resource="structureSize"/>
         <ov:defines rdf:resource="FunctionalCoverageOfTheApplicationComponent"/>
         <ov:defines rdf:resource="QualityOfITTraining"/>
         <ov:defines rdf:resource="InformationProcessingToolModelingElement"/>
@@ -1572,24 +1571,39 @@
     <page>285</page>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="StructureRange">
+  <owl:DatatypeProperty rdf:about="structureRange">
     <rdfs:label xml:lang="en">structure range</rdfs:label>
+    <rdfs:domain rdf:resource="HealthCareNetwork"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <page>285</page>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="StructureSize">
+  <owl:DatatypeProperty rdf:about="structureSize">
     <rdfs:label xml:lang="en">structure size</rdfs:label>
+    <rdfs:domain rdf:resource="HealthCareNetwork"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <page>285</page>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="StructureStability">
+  <owl:DatatypeProperty rdf:about="structureStability">
     <rdfs:label xml:lang="en">structure stability</rdfs:label>
+    <rdfs:domain rdf:resource="HealthCareNetwork"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <page>285</page>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="TemporalDevelopmentStage">
+  <owl:DatatypeProperty rdf:about="temporalDevelopmentStage">
     <rdfs:label xml:lang="en">temporal development stage</rdfs:label>
+    <rdfs:domain rdf:resource="HealthCareNetwork"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <page>285</page>
   </owl:DatatypeProperty>
 
-  <owl:DatatypeProperty rdf:about="TemporalLifeSpan">
+  <owl:DatatypeProperty rdf:about="temporalLifeSpan">
     <rdfs:label xml:lang="en">temporal life span</rdfs:label>
+    <rdfs:domain rdf:resource="HealthCareNetwork"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <page>285</page>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="transferDiagnosis">
@@ -17114,36 +17128,6 @@ Object Workgroup Standard</skos:altLabel>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="StructureRange"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="StructureSize"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="StructureStability"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="TemporalDevelopmentStage"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="TemporalLifeSpan"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <skos:definition xml:lang="en">A group of two or more legally separated health care institutions that have temporarily and voluntarily joined together to achieve a common purpose.           The information system of a health care network is called a transinstitutional health information system.</skos:definition>
@@ -17283,69 +17267,6 @@ Object Workgroup Standard</skos:altLabel>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2677</TripelRowNr>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="HealthCareNetwork"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="StructureRange"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2671</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="HealthCareNetwork"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="StructureSize"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2672</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="HealthCareNetwork"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="StructureStability"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2674</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="HealthCareNetwork"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="TemporalDevelopmentStage"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2682</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="HealthCareNetwork"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="TemporalLifeSpan"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2681</TripelRowNr>
-    </owl:Axiom>
-
-
-
 
     <owl:Class rdf:about="HealthCareProfessional">
 	<rdfs:label xml:lang="en">Health Care Professional</rdfs:label>
@@ -42776,17 +42697,6 @@ goals, structures, and behaviors.</skos:definition>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</TripelRowNr>
     </owl:Axiom>
-
-
-
-
-    <owl:Class rdf:about="StructureData">
-	<rdfs:label xml:lang="en">Structure data</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
-
-
-
 
     <owl:Class rdf:about="Study">
 	<rdfs:label xml:lang="en">Study</rdfs:label>
