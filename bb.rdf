@@ -37,7 +37,8 @@
 
 <owl:Ontology rdf:about="http://www.snik.eu/ontology/bb">
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
-        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-28</dc:modified>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-18</dc:modified>
+	<owl:versionInfo>0.3.0</owl:versionInfo>
         <rdfs:label xml:lang="en">Health Information Systems Ontology</rdfs:label>
         <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
         <vann:preferredNamespacePrefix>snik-bb</vann:preferredNamespacePrefix>
