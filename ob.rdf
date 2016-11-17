@@ -1026,7 +1026,7 @@
                 <owl:someValuesFrom rdf:resource="&ob;DataView"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171.321</TripelPage>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171,321</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">845</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
@@ -1038,7 +1038,7 @@
                 <owl:someValuesFrom rdf:resource="&ob;FunctionalView"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171.321</TripelPage>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171,321</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">846</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
@@ -1050,7 +1050,7 @@
                 <owl:someValuesFrom rdf:resource="&ob;OrganizationalView"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171.321</TripelPage>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171,321</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">847</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
@@ -1093,7 +1093,7 @@
                 <owl:someValuesFrom rdf:resource="&ob;ControlView"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171.321</TripelPage>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171,321</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">844</TripelRowNr>
     </owl:Axiom>
 
