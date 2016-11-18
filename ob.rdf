@@ -113,18 +113,18 @@
 <ov:defines rdf:resource="Commissioning"/>
 <ov:defines rdf:resource="CommunicationAnalysis"/>
 <ov:defines rdf:resource="CommunicationDiagram"/>
-<ov:defines rdf:resource="CommunicationInterface1"/>
+<ov:defines rdf:resource="CommunicationInterface"/>
 <ov:defines rdf:resource="CommunicationLink"/>
-<ov:defines rdf:resource="CommunicationLink1"/>
+<ov:defines rdf:resource="CommunicationLink"/>
 <ov:defines rdf:resource="Completeness"/>
 <ov:defines rdf:resource="CompleteSurvey"/>
 <ov:defines rdf:resource="CompletionOfProjectDocumentation"/>
-<ov:defines rdf:resource="ComponentOfAnInformationSystem1"/>
+<ov:defines rdf:resource="ComponentOfAnInformationSystem"/>
 <ov:defines rdf:resource="ComputerBasedApplicationSystem"/>
 <ov:defines rdf:resource="ComputerBasedApplicationSystemOperation"/>
 <ov:defines rdf:resource="ComputerBasedElicitationForm"/>
 <ov:defines rdf:resource="ComputerBasedInformationSystem"/>
-<ov:defines rdf:resource="ComputerBasedInformationSystem1"/>
+<ov:defines rdf:resource="ComputerBasedInformationSystem"/>
 <ov:defines rdf:resource="ComputerBasedPartOfInformationSystem"/>
 <ov:defines rdf:resource="ComputerSystem"/>
 <ov:defines rdf:resource="ComputingCenter"/>
@@ -298,12 +298,12 @@
 <ov:defines rdf:resource="InformationAcquisitionSystemAnalysis"/>
 <ov:defines rdf:resource="InformationAndCommunicationSystem"/>
 <ov:defines rdf:resource="InformationAndKnowledgeLogistics"/>
-<ov:defines rdf:resource="InformationManagementEntityType1"/>
+<ov:defines rdf:resource="InformationManagementEntityType"/>
 <ov:defines rdf:resource="InformationObject"/>
 <ov:defines rdf:resource="InformationProcess"/>
 <ov:defines rdf:resource="InformationProcessingTool"/>
 <ov:defines rdf:resource="InformationSystem"/>
-<ov:defines rdf:resource="InformationSystem1"/>
+<ov:defines rdf:resource="InformationSystem"/>
 <ov:defines rdf:resource="InformationSystemComponent"/>
 <ov:defines rdf:resource="InformationSystemModel"/>
 <ov:defines rdf:resource="InformationSystemModeling"/>
@@ -407,7 +407,7 @@
 <ov:defines rdf:resource="NetPlan"/>
 <ov:defines rdf:resource="NetPlanAnalysis"/>
 <ov:defines rdf:resource="NetworkManagement"/>
-<ov:defines rdf:resource="NonComputerBasedApplicationComponent1"/>
+<ov:defines rdf:resource="NonComputerBasedApplicationComponent"/>
 <ov:defines rdf:resource="NonComputerBasedApplicationSystem"/>
 <ov:defines rdf:resource="NonComputerBasedPhysicalTool"/>
 <ov:defines rdf:resource="NonComputerBasedTool"/>
@@ -437,9 +437,9 @@
 <ov:defines rdf:resource="OrganizationalRule"/>
 <ov:defines rdf:resource="OrganizationalStructure"/>
 <ov:defines rdf:resource="OrganizationalStructureModelingMethod"/>
-<ov:defines rdf:resource="OrganizationalSystem1"/>
+<ov:defines rdf:resource="OrganizationalSystem"/>
 <ov:defines rdf:resource="OrganizationalUnit"/>
-<ov:defines rdf:resource="OrganizationalUnit1"/>
+<ov:defines rdf:resource="OrganizationalUnit"/>
 <ov:defines rdf:resource="OrganizationalView"/>
 <ov:defines rdf:resource="OrganizationChart"/>
 <ov:defines rdf:resource="OrganizationSpecificGradualTransition"/>
@@ -448,8 +448,8 @@
 <ov:defines rdf:resource="Outsourcing"/>
 <ov:defines rdf:resource="P3O"/>
 <ov:defines rdf:resource="PartiallyStandardizedObservation"/>
-<ov:defines rdf:resource="PatientIdentification1"/>
-<ov:defines rdf:resource="PatientIdentificationAndCheckingForRecurrent1"/>
+<ov:defines rdf:resource="PatientIdentification"/>
+<ov:defines rdf:resource="PatientIdentificationAndCheckingForRecurrent"/>
 <ov:defines rdf:resource="PaymentTerms"/>
 <ov:defines rdf:resource="PerformingMilestoneTrendAnalysis"/>
 <ov:defines rdf:resource="PerformingPhase"/>
@@ -598,8 +598,8 @@
 <ov:defines rdf:resource="QualitativeObservation"/>
 <ov:defines rdf:resource="QualitativeTable"/>
 <ov:defines rdf:resource="QualityCriterion"/>
-<ov:defines rdf:resource="QualityOfHISStructures1"/>
-<ov:defines rdf:resource="QualityOfStructures1"/>
+<ov:defines rdf:resource="QualityOfHISStructures"/>
+<ov:defines rdf:resource="QualityOfStructures"/>
 <ov:defines rdf:resource="QualityRequirement"/>
 <ov:defines rdf:resource="Quantifiability"/>
 <ov:defines rdf:resource="QuantitativeEvaluationCriterion"/>
@@ -691,7 +691,7 @@
 <ov:defines rdf:resource="StandardisedCollectionOfData"/>
 <ov:defines rdf:resource="StandardizationDegreeOfAnswer"/>
 <ov:defines rdf:resource="StandardizationDegreeOfQuestion"/>
-<ov:defines rdf:resource="StandardizationOfInterfaces1"/>
+<ov:defines rdf:resource="StandardizationOfInterfaces"/>
 <ov:defines rdf:resource="StandardizedObservation"/>
 <ov:defines rdf:resource="StandardSoftwareProduct"/>
 <ov:defines rdf:resource="StartDate"/>
@@ -723,11 +723,10 @@
 <ov:defines rdf:resource="StudyPlanningSection"/>
 <ov:defines rdf:resource="StudyQuestion"/>
 <ov:defines rdf:resource="StudyTiming"/>
-<ov:defines rdf:resource="SubInformationSystem1"/>
+<ov:defines rdf:resource="SubInformationSystem"/>
 <ov:defines rdf:resource="Subject"/>
 <ov:defines rdf:resource="SubsequentCostManagement"/>
 <ov:defines rdf:resource="Subsystem"/>
-<ov:defines rdf:resource="Subsystem1"/>
 <ov:defines rdf:resource="SuitabilityCriterion"/>
 <ov:defines rdf:resource="Supervisor"/>
 <ov:defines rdf:resource="SupportConcept"/>
@@ -735,7 +734,6 @@
 <ov:defines rdf:resource="Sustainability"/>
 <ov:defines rdf:resource="SWOTAnalysis"/>
 <ov:defines rdf:resource="System"/>
-<ov:defines rdf:resource="System1"/>
 <ov:defines rdf:resource="SystemAdministrator"/>
 <ov:defines rdf:resource="SystemAnalysis"/>
 <ov:defines rdf:resource="SystemAnalysisAndAssessment"/>
@@ -3270,13 +3268,13 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="&ob;CommunicationInterface1">
+    <owl:Class rdf:about="&ob;CommunicationInterface">
 	<rdfs:label xml:lang="en">Communication Interface 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;InformationManagementEntityType1"/>
+        <rdfs:subClassOf rdf:resource="&ob;InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="&ob;StandardizationOfInterfaces1"/>
+                <owl:someValuesFrom rdf:resource="&ob;StandardizationOfInterfaces"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -3288,19 +3286,19 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2025</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;CommunicationInterface1"/>
+        <owl:annotatedSource rdf:resource="&ob;CommunicationInterface"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;InformationManagementEntityType1"/>
+        <owl:annotatedTarget rdf:resource="&ob;InformationManagementEntityType"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2035</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;CommunicationInterface1"/>
+        <owl:annotatedSource rdf:resource="&ob;CommunicationInterface"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="&ob;StandardizationOfInterfaces1"/>
+                <owl:someValuesFrom rdf:resource="&ob;StandardizationOfInterfaces"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
@@ -3311,33 +3309,12 @@
     <owl:Class rdf:about="&ob;CommunicationLink">
 	<rdfs:label xml:lang="en">Communication Link</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&ob;InformationManagementEntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1590</ID>
-            </owl:Class>
-
-
-    <owl:Class rdf:about="&ob;CommunicationLink1">
-	<rdfs:label xml:lang="en">Communication Link 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;InformationManagementEntityType1"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <page></page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2036</ID>
-            </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;CommunicationLink1"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;InformationManagementEntityType1"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2036</TripelRowNr>
-    </owl:Axiom>
-
+    </owl:Class>
 
     <owl:Class rdf:about="&ob;CompleteSurvey">
 	<rdfs:label xml:lang="en">Complete Survey</rdfs:label>
@@ -3402,9 +3379,9 @@
     </owl:Class>
 
 
-    <owl:Class rdf:about="&ob;ComponentOfAnInformationSystem1">
+    <owl:Class rdf:about="&ob;ComponentOfAnInformationSystem">
 	<rdfs:label xml:lang="en">Component of an Information System 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;InformationManagementEntityType1"/>
+        <rdfs:subClassOf rdf:resource="&ob;InformationManagementEntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -3413,9 +3390,9 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2028</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;ComponentOfAnInformationSystem1"/>
+        <owl:annotatedSource rdf:resource="&ob;ComponentOfAnInformationSystem"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;InformationManagementEntityType1"/>
+        <owl:annotatedTarget rdf:resource="&ob;InformationManagementEntityType"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2028</TripelRowNr>
     </owl:Axiom>
@@ -3538,26 +3515,6 @@
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1091</TripelRowNr>
     </owl:Axiom>
-
-
-    <owl:Class rdf:about="&ob;ComputerBasedInformationSystem1">
-	<rdfs:label xml:lang="en">Computer-Based Information System 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;InformationSystem1"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <page></page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2037</ID>
-            </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;ComputerBasedInformationSystem1"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;InformationSystem1"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2037</TripelRowNr>
-    </owl:Axiom>
-
 
     <owl:Class rdf:about="&ob;ComputerBasedPartOfInformationSystem">
 	<rdfs:label xml:lang="en">Computer-Based Part of Information System</rdfs:label>
@@ -10897,7 +10854,7 @@
             </owl:Class>
 
 
-    <owl:Class rdf:about="&ob;InformationManagementEntityType1">
+    <owl:Class rdf:about="&ob;InformationManagementEntityType">
 	<rdfs:label xml:lang="en">Information Management Entity Type 1</rdfs:label>
         <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
     </owl:Class>
@@ -11089,12 +11046,6 @@
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9, 328</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1042</TripelRowNr>
     </owl:Axiom>
-
-
-    <owl:Class rdf:about="&ob;InformationSystem1">
-	<rdfs:label xml:lang="en">Information System 1</rdfs:label>
-        <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
-    </owl:Class>
 
 
     <owl:Class rdf:about="&ob;InformationSystemComponent">
@@ -13360,7 +13311,7 @@
     </owl:Class>
 
 
-    <owl:Class rdf:about="&ob;NonComputerBasedApplicationComponent1">
+    <owl:Class rdf:about="&ob;NonComputerBasedApplicationComponent">
 	<rdfs:label xml:lang="en">Non-Computer-Based Application Component 1</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13377,7 +13328,7 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;NonComputerBasedApplicationComponent1"/>
+        <owl:annotatedSource rdf:resource="&ob;NonComputerBasedApplicationComponent"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -14517,9 +14468,9 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="&ob;OrganizationalSystem1">
+    <owl:Class rdf:about="&ob;OrganizationalSystem">
 	<rdfs:label xml:lang="en">Organizational System 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;NonComputerBasedApplicationComponent1"/>
+        <rdfs:subClassOf rdf:resource="&ob;NonComputerBasedApplicationComponent"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -14528,9 +14479,9 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2030</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;OrganizationalSystem1"/>
+        <owl:annotatedSource rdf:resource="&ob;OrganizationalSystem"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;NonComputerBasedApplicationComponent1"/>
+        <owl:annotatedTarget rdf:resource="&ob;NonComputerBasedApplicationComponent"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2030</TripelRowNr>
     </owl:Axiom>
@@ -14689,18 +14640,18 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="&ob;PatientIdentification1">
+    <owl:Class rdf:about="&ob;PatientIdentification">
 	<rdfs:label xml:lang="en">Patient Identification 1</rdfs:label>
         <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
     </owl:Class>
 
 
-    <owl:Class rdf:about="&ob;PatientIdentificationAndCheckingForRecurrent1">
+    <owl:Class rdf:about="&ob;PatientIdentificationAndCheckingForRecurrent">
 	<rdfs:label xml:lang="en">Patient Identification and Checking for Recurrent 1</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;PatientIdentification1"/>
+                <owl:someValuesFrom rdf:resource="&ob;PatientIdentification"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -14711,12 +14662,12 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;PatientIdentificationAndCheckingForRecurrent1"/>
+        <owl:annotatedSource rdf:resource="&ob;PatientIdentificationAndCheckingForRecurrent"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;PatientIdentification1"/>
+                <owl:someValuesFrom rdf:resource="&ob;PatientIdentification"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
@@ -22668,9 +22619,9 @@
     </owl:Class>
 
 
-    <owl:Class rdf:about="&ob;QualityOfHISStructures1">
+    <owl:Class rdf:about="&ob;QualityOfHISStructures">
 	<rdfs:label xml:lang="en">Quality of HIS Structures 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;QualityOfStructures1"/>
+        <rdfs:subClassOf rdf:resource="&ob;QualityOfStructures"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -22679,15 +22630,15 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2029</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;QualityOfHISStructures1"/>
+        <owl:annotatedSource rdf:resource="&ob;QualityOfHISStructures"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;QualityOfStructures1"/>
+        <owl:annotatedTarget rdf:resource="&ob;QualityOfStructures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2029</TripelRowNr>
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="&ob;QualityOfStructures1">
+    <owl:Class rdf:about="&ob;QualityOfStructures">
 	<rdfs:label xml:lang="en">Quality of Structures 1</rdfs:label>
         <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
     </owl:Class>
@@ -26147,7 +26098,7 @@ so wie es in der Einführungsstrategie geplant ist.
             </owl:Class>
 
 
-    <owl:Class rdf:about="&ob;StandardizationOfInterfaces1">
+    <owl:Class rdf:about="&ob;StandardizationOfInterfaces">
 	<rdfs:label xml:lang="en">Standardization of Interfaces 1</rdfs:label>
         <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
     </owl:Class>
@@ -27135,9 +27086,9 @@ so wie es in der Einführungsstrategie geplant ist.
             </owl:Class>
 
 
-    <owl:Class rdf:about="&ob;SubInformationSystem1">
+    <owl:Class rdf:about="&ob;SubInformationSystem">
 	<rdfs:label xml:lang="en">Sub-Information System 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;InformationSystem1"/>
+        <rdfs:subClassOf rdf:resource="&ob;InformationSystem"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -27146,9 +27097,9 @@ so wie es in der Einführungsstrategie geplant ist.
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2031</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;SubInformationSystem1"/>
+        <owl:annotatedSource rdf:resource="&ob;SubInformationSystem"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;InformationSystem1"/>
+        <owl:annotatedTarget rdf:resource="&ob;InformationSystem"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2031</TripelRowNr>
     </owl:Axiom>
@@ -27185,7 +27136,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&ob;System"/>
         <skos:definition xml:lang="de">Teilmenge der Elemente und Beziehungen eines Systems, welche unter einem gewissen Aspekt interessant ist.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8, 346</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -27193,25 +27144,6 @@ so wie es in der Einführungsstrategie geplant ist.
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</ID>
         <rdfs:label xml:lang="de">Teilsystem</rdfs:label>
     </owl:Class>
-
-
-    <owl:Class rdf:about="&ob;Subsystem1">
-	<rdfs:label xml:lang="en">Subsystem 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;System1"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <page></page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</ID>
-            </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;Subsystem1"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;System1"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</TripelRowNr>
-    </owl:Axiom>
 
 
     <owl:Class rdf:about="&ob;SuitabilityCriterion">
@@ -27323,7 +27255,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&ob;InformationManagementEntityType"/>
         <skos:definition xml:lang="de">Ein System ist eine Menge von Elementen (z. B. Personen, Dinge) mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Das System ist ein Ganzes, das mehr ist als die Summe seiner Teile. Jedes System hat eine Systemgrenze, die es von seiner Umwelt trennt.Systeme liegen entweder in der Natur als gegeben vor (natürliche Systeme) oder werden vom Men-schen geschaffen (künstliche Systeme). Menge von Elementen mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Systeme lassen sich in Teilsysteme untergliedern.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7, 344</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -27341,25 +27273,6 @@ so wie es in der Einführungsstrategie geplant ist.
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">346</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1003</TripelRowNr>
-    </owl:Axiom>
-
-
-    <owl:Class rdf:about="&ob;System1">
-	<rdfs:label xml:lang="en">System 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ob;InformationManagementEntityType1"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <page></page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2033</ID>
-            </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&ob;System1"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&ob;InformationManagementEntityType1"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2033</TripelRowNr>
     </owl:Axiom>
 
 
@@ -33331,7 +33244,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="&ob;CommunicationInterface1"/>
+                <owl:someValuesFrom rdf:resource="&ob;CommunicationInterface"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -33349,7 +33262,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="&ob;CommunicationInterface1"/>
+                <owl:someValuesFrom rdf:resource="&ob;CommunicationInterface"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
@@ -33421,7 +33334,7 @@ so wie es in der Einführungsstrategie geplant ist.
             </owl:Class>
 
 
-    <owl:Class rdf:about="&ob;3LGM2OrganizationalSystem"/>
+    <!--<owl:Class rdf:about="&ob;3LGM2OrganizationalSystem"/>-->
 
 
     <owl:Class rdf:about="&ob;3LGM2OrganizationalUnit">
@@ -33429,7 +33342,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="&ob;OrganizationalUnit1"/>
+                <owl:someValuesFrom rdf:resource="&ob;OrganizationalUnit"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -33446,7 +33359,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="&ob;OrganizationalUnit1"/>
+                <owl:someValuesFrom rdf:resource="&ob;OrganizationalUnit"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
