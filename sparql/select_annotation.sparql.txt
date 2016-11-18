@@ -1,7 +1,5 @@
 select
  ?resource
- ?interaction
- ?targetNode
  count(distinct(?connected)) as ?degree
 # ?type
  ?subTop
@@ -20,9 +18,6 @@ select
 ?resource a owl:Class.
 filter not exists {?resource a owl:Restriction.}
 filter not exists {?resource a owl:Axiom.}
-
-OPTIONAL {?resource rdfs:dummy ?interaction.}
-OPTIONAL {?resource rdfs:dummy ?targetNode}
 
 {?resource ?p ?connected.} UNION {?connected ?p ?resource.} 
 ?connected a owl:Class.
