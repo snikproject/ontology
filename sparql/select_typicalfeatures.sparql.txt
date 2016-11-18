@@ -1,7 +1,5 @@
-select distinct ?resource ?interaction ?interactionLabel ?targetNode ?targetNodeLabel
+select distinct ?resource ?feature ?featureLabel
 {
- ?resource	meta:typicalFeature ?targetNode.
- ?targetNode	rdfs:label ?targetNodeLabel.
- bind (<http://www.snik.eu/ontology/meta/typicalFeature> as ?interaction).
- bind ("typicalFeature" as ?interactionLabel).
+ ?resource	meta:typicalFeature ?feature.
+ ?targetNode	rdfs:label ?featureLabel.
 }
