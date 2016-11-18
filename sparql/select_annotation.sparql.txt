@@ -3,7 +3,7 @@ select
  ?interaction
  ?targetNode
  count(distinct(?connected)) as ?degree
- ?type
+# ?type
  ?subTop
  ?source
  group_concat(distinct ?Label;separator="|") as ?Labels 
@@ -11,12 +11,13 @@ select
  group_concat(distinct ?Label_EN;separator="|") as ?Labels_EN 
  group_concat(distinct ?altLabel;separator="|") as ?Alt_Labels
  group_concat(distinct ?comment;separator="|") as ?Comments
- group_concat(distinct ?Chapter;separator="|") as ?Chapters 
+# group_concat(distinct ?Chapter;separator="|") as ?Chapters 
  group_concat(distinct ?definition;separator="|") as ?definitions 
  group_concat(distinct ?bb_page;separator="|") as ?bb_pages
 #group_concat(distinct ?ob_page;separator="|") as ?ob_pages
 {
-?resource a ?type.
+#?resource a ?type.
+?resource a owl:Class.
 filter not exists {?resource a owl:Restriction.}
 filter not exists {?resource a owl:Axiom.}
 
@@ -54,11 +55,11 @@ OPTIONAL
  ?resource rdfs:comment ?comment. 
  filter(str(?comment)!=""). 
 } 
-OPTIONAL 
-{ 
- ?resource meta:Chapter ?Chapter. 
- filter(str(?Chapter)!=""). 
-} 
+#OPTIONAL 
+#{ 
+# ?resource meta:Chapter ?Chapter. 
+# filter(str(?Chapter)!=""). 
+#} 
 OPTIONAL 
 { 
  ?resource meta:Concept_Domain ?Concept_Domain. 
