@@ -82,6 +82,7 @@
 	</owl:ObjectProperty>
 
 	<owl:Class rdf:about="Feature">
+		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<rdfs:label xml:lang="en">feature</rdfs:label>
 	</owl:Class>
 
