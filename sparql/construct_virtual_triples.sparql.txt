@@ -1,0 +1,16 @@
+construct {?resource ?p ?targetNode.}
+{
+ ?resource      a owl:Class.
+ ?targetNode    a owl:Class.
+ {
+  ?resource     rdfs:subClassOf ?restriction.
+  ?restriction  a owl:Restriction;
+                owl:onProperty ?p.
+  {?restriction owl:someValuesFrom ?targetNode.} UNION {?restriction owl:allValuesFrom ?targetNode.}
+ }
+UNION
+ {
+  ?p            rdfs:domain ?resource.
+  ?p            rdfs:range ?targetNode.
+ }
+}
