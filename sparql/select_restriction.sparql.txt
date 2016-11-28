@@ -1,12 +1,11 @@
-select distinct ?resource replace(str(?p),".*[#/]","") as ?interaction ?targetNode
+select distinct ?resource ?p as ?interaction replace(str(?p),".*[#/]","") as ?interactionLabel ?targetNode
 {
  ?resource	a owl:Class.
  {
   ?resource	rdfs:subClassOf ?restriction.
-
   ?restriction	a owl:Restriction;
-		owl:onProperty ?p;
-		owl:someValuesFrom ?targetNode.
+		owl:onProperty ?p.
+  {?restriction owl:someValuesFrom ?targetNode.} UNION {?restriction owl:allValuesFrom ?targetNode.}
  }
 UNION
  {
@@ -14,6 +13,5 @@ UNION
   ?p		rdfs:range ?targetNode.
  }
  ?targetNode a ?x. # no literal
-
 
 }

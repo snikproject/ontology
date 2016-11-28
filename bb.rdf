@@ -37,7 +37,8 @@
 
 <owl:Ontology rdf:about="http://www.snik.eu/ontology/bb">
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
-        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-28</dc:modified>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-18</dc:modified>
+	<owl:versionInfo>0.3.0</owl:versionInfo>
         <rdfs:label xml:lang="en">Health Information Systems Ontology</rdfs:label>
         <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
         <vann:preferredNamespacePrefix>snik-bb</vann:preferredNamespacePrefix>
@@ -3138,10 +3139,9 @@
  
 
 
-    <owl:Class rdf:about="AdmitPatientsToTheWard">
+    <meta:Feature rdf:about="AdmitPatientsToTheWard">
 	<rdfs:label xml:lang="en">Admit patients to the ward</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -3246,10 +3246,9 @@
 
 
 
-    <owl:Class rdf:about="AnalyzeData">
+    <meta:Feature rdf:about="AnalyzeData">
 	<rdfs:label xml:lang="en">Analyze data</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -3819,10 +3818,9 @@
 
 
 
-    <owl:Class rdf:about="ArchivePictures">
+    <meta:Feature rdf:about="ArchivePictures">
 	<rdfs:label xml:lang="en">Archive pictures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -3984,58 +3982,51 @@
 
 
 
-    <owl:Class rdf:about="AssignDoctorsToPatientsOrRooms">
+    <meta:Feature rdf:about="AssignDoctorsToPatientsOrRooms">
 	<rdfs:label xml:lang="en">Assign doctors to patients or rooms</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="AssignOrderAndBloodSamplesToDevices">
+    <meta:Feature rdf:about="AssignOrderAndBloodSamplesToDevices">
 	<rdfs:label xml:lang="en">Assign order and blood samples to devices</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="AssignOrdersToModalities">
+    <meta:Feature rdf:about="AssignOrdersToModalities">
 	<rdfs:label xml:lang="en">Assign orders to modalities</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="AssignPatientsToModalities">
+    <meta:Feature rdf:about="AssignPatientsToModalities">
 	<rdfs:label xml:lang="en">Assign patients to modalities</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="AssignPatientsToRoomsAndBeds">
+    <meta:Feature rdf:about="AssignPatientsToRoomsAndBeds">
 	<rdfs:label xml:lang="en">Assign patients to rooms and beds</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="AssignStaffToPatientsOrOutpatientUnits">
+    <meta:Feature rdf:about="AssignStaffToPatientsOrOutpatientUnits">
 	<rdfs:label xml:lang="en">Assign staff to patients or outpatient units</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="AssignStaffToPatientsOrRooms">
+    <meta:Feature rdf:about="AssignStaffToPatientsOrRooms">
 	<rdfs:label xml:lang="en">Assign staff to patients or rooms</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -4101,10 +4092,9 @@
 
 
 
-    <owl:Class rdf:about="AttachDigitalSignatures">
+    <meta:Feature rdf:about="AttachDigitalSignatures">
 	<rdfs:label xml:lang="en">Attach digital signatures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -5998,10 +5988,9 @@ Object Workgroup Standard</skos:altLabel>
 
 
 
-    <owl:Class rdf:about="CalculateDosageOfDrugs">
+    <meta:Feature rdf:about="CalculateDosageOfDrugs">
 	<rdfs:label xml:lang="en">Calculate dosage of drugs</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -7263,42 +7252,37 @@ Object Workgroup Standard</skos:altLabel>
 
 
 
-    <owl:Class rdf:about="CollectResultsFromDevices">
+    <meta:Feature rdf:about="CollectResultsFromDevices">
 	<rdfs:label xml:lang="en">Collect results from devices</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="CommunicateDischargeInformation">
+    <meta:Feature rdf:about="CommunicateDischargeInformation">
 	<rdfs:label xml:lang="en">Communicate discharge information</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="CommunicateDocumentsToOtherApplications">
+    <meta:Feature rdf:about="CommunicateDocumentsToOtherApplications">
 	<rdfs:label xml:lang="en">Communicate documents to other applications</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="CommunicatePictures">
+    <meta:Feature rdf:about="CommunicatePictures">
 	<rdfs:label xml:lang="en">Communicate pictures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="CommunicateReportToOrderingUnit">
+    <meta:Feature rdf:about="CommunicateReportToOrderingUnit">
 	<rdfs:label xml:lang="en">Communicate report to ordering unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -9262,26 +9246,23 @@ Object Workgroup Standard</skos:altLabel>
 
 
 
-    <owl:Class rdf:about="CreateWorklistForAGroupOfPatients">
+    <meta:Feature rdf:about="CreateWorklistForAGroupOfPatients">
 	<rdfs:label xml:lang="en">Create worklist for a group of patients</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="CreatingARoster">
+    <meta:Feature rdf:about="CreatingARoster">
 	<rdfs:label xml:lang="en">Creating a roster</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="CreationOfRadiologyReports">
+    <meta:Feature rdf:about="CreationOfRadiologyReports">
 	<rdfs:label xml:lang="en">Creation of Radiology Reports</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -11422,34 +11403,30 @@ Object Workgroup Standard</skos:altLabel>
 
 
 
-    <owl:Class rdf:about="DisplayEarlierLabResultsOfAPatient">
+    <meta:Feature rdf:about="DisplayEarlierLabResultsOfAPatient">
 	<rdfs:label xml:lang="en">Display earlier lab results of a patient</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="DisplayPictures">
+    <meta:Feature rdf:about="DisplayPictures">
 	<rdfs:label xml:lang="en">Display pictures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="DisplayVitalParametersFromMonitoringDevices">
+    <meta:Feature rdf:about="DisplayVitalParametersFromMonitoringDevices">
 	<rdfs:label xml:lang="en">Display vital parameters from monitoring devices</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="DisplayWarningMessages">
+    <meta:Feature rdf:about="DisplayWarningMessages">
 	<rdfs:label xml:lang="en">Display warning messages</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -20241,10 +20218,9 @@ Object Workgroup Standard</skos:altLabel>
 
 
 
-    <owl:Class rdf:about="ImportDocuments">
+    <meta:Feature rdf:about="ImportDocuments">
 	<rdfs:label xml:lang="en">Import documents</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -20370,10 +20346,9 @@ Object Workgroup Standard</skos:altLabel>
 
 
 
-    <owl:Class rdf:about="IndexDocumentContent">
+    <meta:Feature rdf:about="IndexDocumentContent">
 	<rdfs:label xml:lang="en">Index document content</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -21856,10 +21831,9 @@ Object Workgroup Standard</skos:altLabel>
 
 
 
-    <owl:Class rdf:about="IntegrateDataFromDifferentApplicationComponents">
+    <meta:Feature rdf:about="IntegrateDataFromDifferentApplicationComponents">
 	<rdfs:label xml:lang="en">Integrate data from different application components</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -24254,26 +24228,23 @@ Object Workgroup Standard</skos:altLabel>
 
 
 
-    <owl:Class rdf:about="ManageModalities">
+    <meta:Feature rdf:about="ManageModalities">
 	<rdfs:label xml:lang="en">Manage modalities</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ManageStorageFormats">
+    <meta:Feature rdf:about="ManageStorageFormats">
 	<rdfs:label xml:lang="en">Manage storage formats</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ManageStorageMedia">
+    <meta:Feature rdf:about="ManageStorageMedia">
 	<rdfs:label xml:lang="en">Manage storage media</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -25922,10 +25893,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="MergePatientInformationFromTwoRecords">
+    <meta:Feature rdf:about="MergePatientInformationFromTwoRecords">
 	<rdfs:label xml:lang="en">Merge patient information from two records</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -26012,10 +25982,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="MessageQueuing">
+    <meta:Feature rdf:about="MessageQueuing">
 	<rdfs:label xml:lang="en">Message Queuing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -26423,10 +26392,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="ModifyPresentationOfPictures">
+    <meta:Feature rdf:about="ModifyPresentationOfPictures">
 	<rdfs:label xml:lang="en">Modify presentation of pictures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -26732,10 +26700,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="Multicasting">
+    <meta:Feature rdf:about="Multicasting">
 	<rdfs:label xml:lang="en">Multicasting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -28278,10 +28245,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="OfferDecisionSupportForCarePlanning">
+    <meta:Feature rdf:about="OfferDecisionSupportForCarePlanning">
 	<rdfs:label xml:lang="en">Offer decision support for care planning</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -30393,10 +30359,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="OrganizePatientTransport">
+    <meta:Feature rdf:about="OrganizePatientTransport">
 	<rdfs:label xml:lang="en">Organize patient transport</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -34673,18 +34638,16 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="PrepareReport">
+    <meta:Feature rdf:about="PrepareReport">
 	<rdfs:label xml:lang="en">Prepare report</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="PreparingStatistics">
+    <meta:Feature rdf:about="PreparingStatistics">
 	<rdfs:label xml:lang="en">Preparing Statistics</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -34719,18 +34682,16 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="PrintForms">
+    <meta:Feature rdf:about="PrintForms">
 	<rdfs:label xml:lang="en">Print forms</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="PrintReports">
+    <meta:Feature rdf:about="PrintReports">
 	<rdfs:label xml:lang="en">Print reports</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -34777,10 +34738,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="PrintingOfLabels">
+    <meta:Feature rdf:about="PrintingOfLabels">
 	<rdfs:label xml:lang="en">Printing of Labels</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -35795,690 +35755,604 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="ProvideACollectionOfInternalProcessesAndRegulations">
+    <meta:Feature rdf:about="ProvideACollectionOfInternalProcessesAndRegulations">
 	<rdfs:label xml:lang="en">Provide a collection of internal processes and regulations</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideAccessToArchivedInformation">
+    <meta:Feature rdf:about="ProvideAccessToArchivedInformation">
 	<rdfs:label xml:lang="en">Provide access to archived information</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis">
+    <meta:Feature rdf:about="ProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis">
 	<rdfs:label xml:lang="en">Provide catalogs and other means for coding of nursing diagnosis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideCatalogsAndOtherMeansForCodingOfNursingProcedures">
+    <meta:Feature rdf:about="ProvideCatalogsAndOtherMeansForCodingOfNursingProcedures">
 	<rdfs:label xml:lang="en">Provide catalogs and other means for coding of nursing procedures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures">
+    <meta:Feature rdf:about="ProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures">
 	<rdfs:label xml:lang="en">Provide catalogs and other means for coding patient-related procedures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses">
+    <meta:Feature rdf:about="ProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses">
 	<rdfs:label xml:lang="en">Provide catalogs and other means for coding radiological diagnoses</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures">
+    <meta:Feature rdf:about="ProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures">
 	<rdfs:label xml:lang="en">Provide catalogs and other means for coding radiological procedures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideContextRelatedMedicalKnowledge">
+    <meta:Feature rdf:about="ProvideContextRelatedMedicalKnowledge">
 	<rdfs:label xml:lang="en">Provide context-related medical knowledge</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideDrugCatalogs">
+    <meta:Feature rdf:about="ProvideDrugCatalogs">
 	<rdfs:label xml:lang="en">Provide drug catalogs</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForClinicalReports">
+    <meta:Feature rdf:about="ProvideFormsForClinicalReports">
 	<rdfs:label xml:lang="en">Provide forms for clinical reports</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingClinicalProcedures">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingClinicalProcedures">
 	<rdfs:label xml:lang="en">Provide forms for documenting clinical procedures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingDiagnosis">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingDiagnosis">
 	<rdfs:label xml:lang="en">Provide forms for documenting diagnosis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingDiagnosisAndProblems">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingDiagnosisAndProblems">
 	<rdfs:label xml:lang="en">Provide forms for documenting diagnosis and problems</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingMedicalAnamnesis">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingMedicalAnamnesis">
 	<rdfs:label xml:lang="en">Provide forms for documenting medical anamnesis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingMedications">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingMedications">
 	<rdfs:label xml:lang="en">Provide forms for documenting medications</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingNursingAims">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingNursingAims">
 	<rdfs:label xml:lang="en">Provide forms for documenting nursing aims</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingNursingTasks">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingNursingTasks">
 	<rdfs:label xml:lang="en">Provide forms for documenting nursing tasks</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingPerformedTasks">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingPerformedTasks">
 	<rdfs:label xml:lang="en">Provide forms for documenting performed tasks</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingPlannedTasks">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingPlannedTasks">
 	<rdfs:label xml:lang="en">Provide forms for documenting planned tasks</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingProceduresAndOutcomes">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingProceduresAndOutcomes">
 	<rdfs:label xml:lang="en">Provide forms for documenting procedures and outcomes</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingTheNursingHistory">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingTheNursingHistory">
 	<rdfs:label xml:lang="en">Provide forms for documenting the nursing history</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingTheOutcomeOfNursingTasks">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingTheOutcomeOfNursingTasks">
 	<rdfs:label xml:lang="en">Provide forms for documenting the outcome of nursing tasks</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation">
+    <meta:Feature rdf:about="ProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation">
 	<rdfs:label xml:lang="en">Provide forms for entering or updating patient administrative information</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForPreparingABillForThePatientInsurance">
+    <meta:Feature rdf:about="ProvideFormsForPreparingABillForThePatientInsurance">
 	<rdfs:label xml:lang="en">Provide forms for preparing a bill for the patient insurance</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForPreparingClinicalReports">
+    <meta:Feature rdf:about="ProvideFormsForPreparingClinicalReports">
 	<rdfs:label xml:lang="en">Provide forms for preparing clinical reports</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForPreparingOperationReports">
+    <meta:Feature rdf:about="ProvideFormsForPreparingOperationReports">
 	<rdfs:label xml:lang="en">Provide forms for preparing operation reports</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForWritingAReport">
+    <meta:Feature rdf:about="ProvideFormsForWritingAReport">
 	<rdfs:label xml:lang="en">Provide forms for writing a report</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForWritingATransferLetterOrDischargeReport">
+    <meta:Feature rdf:about="ProvideFormsForWritingATransferLetterOrDischargeReport">
 	<rdfs:label xml:lang="en">Provide forms for writing a transfer letter or discharge report</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForWritingTheDischargeLetterOrDischargeReport">
+    <meta:Feature rdf:about="ProvideFormsForWritingTheDischargeLetterOrDischargeReport">
 	<rdfs:label xml:lang="en">Provide forms for writing the discharge letter or discharge report</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForWritingTheDischargeReport">
+    <meta:Feature rdf:about="ProvideFormsForWritingTheDischargeReport">
 	<rdfs:label xml:lang="en">Provide forms for writing the discharge report</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForWritingTheNursingDischargeReport">
+    <meta:Feature rdf:about="ProvideFormsForWritingTheNursingDischargeReport">
 	<rdfs:label xml:lang="en">Provide forms for writing the nursing discharge report</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideGuidelinesForCarePlanning">
+    <meta:Feature rdf:about="ProvideGuidelinesForCarePlanning">
 	<rdfs:label xml:lang="en">Provide guidelines for care planning</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideGuidelinesForTreatmentPlanning">
+    <meta:Feature rdf:about="ProvideGuidelinesForTreatmentPlanning">
 	<rdfs:label xml:lang="en">Provide guidelines for treatment planning</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForAccountsPayable">
+    <meta:Feature rdf:about="ProvideMeansForAccountsPayable">
 	<rdfs:label xml:lang="en">Provide means for accounts payable</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForAccountsReceivable">
+    <meta:Feature rdf:about="ProvideMeansForAccountsReceivable">
 	<rdfs:label xml:lang="en">Provide means for accounts receivable</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForAssetAccounting">
+    <meta:Feature rdf:about="ProvideMeansForAssetAccounting">
 	<rdfs:label xml:lang="en">Provide means for asset accounting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForCheckInOfPatient">
+    <meta:Feature rdf:about="ProvideMeansForCheckInOfPatient">
 	<rdfs:label xml:lang="en">Provide means for check-in of patient</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForControlOfSecurityIssues">
+    <meta:Feature rdf:about="ProvideMeansForControlOfSecurityIssues">
 	<rdfs:label xml:lang="en">Provide means for control of security issues</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForCostCenterAccounting">
+    <meta:Feature rdf:about="ProvideMeansForCostCenterAccounting">
 	<rdfs:label xml:lang="en">Provide means for cost center accounting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForCostElementAccounting">
+    <meta:Feature rdf:about="ProvideMeansForCostElementAccounting">
 	<rdfs:label xml:lang="en">Provide means for cost element accounting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForCreatingARoster">
+    <meta:Feature rdf:about="ProvideMeansForCreatingARoster">
 	<rdfs:label xml:lang="en">Provide means for creating a roster</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForCreatingStatistics">
+    <meta:Feature rdf:about="ProvideMeansForCreatingStatistics">
 	<rdfs:label xml:lang="en">Provide means for creating statistics</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForDataMining">
+    <meta:Feature rdf:about="ProvideMeansForDataMining">
 	<rdfs:label xml:lang="en">Provide means for data mining</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations">
+    <meta:Feature rdf:about="ProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations">
 	<rdfs:label xml:lang="en">Provide means for editing and graphically illustrating collections of internal processes and regulations</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForFiNalizingDocumentation">
+    <meta:Feature rdf:about="ProvideMeansForFiNalizingDocumentation">
 	<rdfs:label xml:lang="en">Provide means for finalizing documentation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForFinalizingDocumentation">
+    <meta:Feature rdf:about="ProvideMeansForFinalizingDocumentation">
 	<rdfs:label xml:lang="en">Provide means for finalizing documentation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForFinalizingNursingDocumentation">
+    <meta:Feature rdf:about="ProvideMeansForFinalizingNursingDocumentation">
 	<rdfs:label xml:lang="en">Provide means for finalizing nursing documentation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForGeneralLedgerAccounting">
+    <meta:Feature rdf:about="ProvideMeansForGeneralLedgerAccounting">
 	<rdfs:label xml:lang="en">Provide means for general ledger accounting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForIncidentTracking">
+    <meta:Feature rdf:about="ProvideMeansForIncidentTracking">
 	<rdfs:label xml:lang="en">Provide means for incident tracking</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForInitiatingFinalBillingForOutpatientTreatment">
+    <meta:Feature rdf:about="ProvideMeansForInitiatingFinalBillingForOutpatientTreatment">
 	<rdfs:label xml:lang="en">Provide means for initiating final billing for outpatient treatment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForInitiationOfFinalBilling">
+    <meta:Feature rdf:about="ProvideMeansForInitiationOfFinalBilling">
 	<rdfs:label xml:lang="en">Provide means for initiation of final billing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForManagingAndMonitoringDisposal">
+    <meta:Feature rdf:about="ProvideMeansForManagingAndMonitoringDisposal">
 	<rdfs:label xml:lang="en">Provide means for managing and monitoring disposal</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForManagingAppointments">
+    <meta:Feature rdf:about="ProvideMeansForManagingAppointments">
 	<rdfs:label xml:lang="en">Provide means for managing appointments</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForManagingLogistics">
+    <meta:Feature rdf:about="ProvideMeansForManagingLogistics">
 	<rdfs:label xml:lang="en">Provide means for managing logistics</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForManagingMedicalDevices">
+    <meta:Feature rdf:about="ProvideMeansForManagingMedicalDevices">
 	<rdfs:label xml:lang="en">Provide means for managing medical devices</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForManagingRooms">
+    <meta:Feature rdf:about="ProvideMeansForManagingRooms">
 	<rdfs:label xml:lang="en">Provide means for managing rooms</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForManagingWardStaff">
+    <meta:Feature rdf:about="ProvideMeansForManagingWardStaff">
 	<rdfs:label xml:lang="en">Provide means for managing ward staff</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForMinimizingAdverseDrugEvents">
+    <meta:Feature rdf:about="ProvideMeansForMinimizingAdverseDrugEvents">
 	<rdfs:label xml:lang="en">Provide means for minimizing adverse drug events</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrderManagement">
+    <meta:Feature rdf:about="ProvideMeansForOrderManagement">
 	<rdfs:label xml:lang="en">Provide means for order management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrderingConsumables">
+    <meta:Feature rdf:about="ProvideMeansForOrderingConsumables">
 	<rdfs:label xml:lang="en">Provide means for ordering consumables</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrderingDrugs">
+    <meta:Feature rdf:about="ProvideMeansForOrderingDrugs">
 	<rdfs:label xml:lang="en">Provide means for ordering drugs</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrderingDrugsMaterialsAndLaundry">
+    <meta:Feature rdf:about="ProvideMeansForOrderingDrugsMaterialsAndLaundry">
 	<rdfs:label xml:lang="en">Provide means for ordering drugs materials and laundry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrderingLaundry">
+    <meta:Feature rdf:about="ProvideMeansForOrderingLaundry">
 	<rdfs:label xml:lang="en">Provide means for ordering laundry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrderingPatientTransferToOtherUnits">
+    <meta:Feature rdf:about="ProvideMeansForOrderingPatientTransferToOtherUnits">
 	<rdfs:label xml:lang="en">Provide means for ordering patient transfer to other units</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrderingPatientTransferToWard">
+    <meta:Feature rdf:about="ProvideMeansForOrderingPatientTransferToWard">
 	<rdfs:label xml:lang="en">Provide means for ordering patient transfer to ward</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrderingPatientTransferWithinTheInstitution">
+    <meta:Feature rdf:about="ProvideMeansForOrderingPatientTransferWithinTheInstitution">
 	<rdfs:label xml:lang="en">Provide means for ordering patient transfer within the institution</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrderingTransportServices">
+    <meta:Feature rdf:about="ProvideMeansForOrderingTransportServices">
 	<rdfs:label xml:lang="en">Provide means for ordering transport services</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrganizingCareerDevelopment">
+    <meta:Feature rdf:about="ProvideMeansForOrganizingCareerDevelopment">
 	<rdfs:label xml:lang="en">Provide means for organizing career development</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrganizingRecruitment">
+    <meta:Feature rdf:about="ProvideMeansForOrganizingRecruitment">
 	<rdfs:label xml:lang="en">Provide means for organizing recruitment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOrganizingTraining">
+    <meta:Feature rdf:about="ProvideMeansForOrganizingTraining">
 	<rdfs:label xml:lang="en">Provide means for organizing training</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForOverheadCostManagement">
+    <meta:Feature rdf:about="ProvideMeansForOverheadCostManagement">
 	<rdfs:label xml:lang="en">Provide means for overhead cost management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForPerformanceEvaluation">
+    <meta:Feature rdf:about="ProvideMeansForPerformanceEvaluation">
 	<rdfs:label xml:lang="en">Provide means for performance evaluation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForPreparingACarePlan">
+    <meta:Feature rdf:about="ProvideMeansForPreparingACarePlan">
 	<rdfs:label xml:lang="en">Provide means for preparing a care plan</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForPreparingHospitalWideStatistics">
+    <meta:Feature rdf:about="ProvideMeansForPreparingHospitalWideStatistics">
 	<rdfs:label xml:lang="en">Provide means for preparing hospital-wide statistics</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForPreparingStatistics">
+    <meta:Feature rdf:about="ProvideMeansForPreparingStatistics">
 	<rdfs:label xml:lang="en">Provide means for preparing statistics</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForPreparingWardRelatedStatistics">
+    <meta:Feature rdf:about="ProvideMeansForPreparingWardRelatedStatistics">
 	<rdfs:label xml:lang="en">Provide means for preparing ward-related statistics</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForPreparingWorkSchedules">
+    <meta:Feature rdf:about="ProvideMeansForPreparingWorkSchedules">
 	<rdfs:label xml:lang="en">Provide means for preparing work schedules</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForPreventiveMaintenance">
+    <meta:Feature rdf:about="ProvideMeansForPreventiveMaintenance">
 	<rdfs:label xml:lang="en">Provide means for preventive maintenance</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForProductCosting">
+    <meta:Feature rdf:about="ProvideMeansForProductCosting">
 	<rdfs:label xml:lang="en">Provide means for product costing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForRecruitingOfPatients">
+    <meta:Feature rdf:about="ProvideMeansForRecruitingOfPatients">
 	<rdfs:label xml:lang="en">Provide means for recruiting of patients</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForStockKeeping">
+    <meta:Feature rdf:about="ProvideMeansForStockKeeping">
 	<rdfs:label xml:lang="en">Provide means for stock keeping</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForVerifyingCodingDoneInDepartments">
+    <meta:Feature rdf:about="ProvideMeansForVerifyingCodingDoneInDepartments">
 	<rdfs:label xml:lang="en">Provide means for verifying coding done in departments</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideOrdersForPatientRelatedDrugs">
+    <meta:Feature rdf:about="ProvideOrdersForPatientRelatedDrugs">
 	<rdfs:label xml:lang="en">Provide orders for patient-related drugs</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideOrdersForPatientRelatedExaminations">
+    <meta:Feature rdf:about="ProvideOrdersForPatientRelatedExaminations">
 	<rdfs:label xml:lang="en">Provide orders for patient-related examinations</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideRelativesWithInformationOnTheLocationOfAPatient">
+    <meta:Feature rdf:about="ProvideRelativesWithInformationOnTheLocationOfAPatient">
 	<rdfs:label xml:lang="en">Provide relatives with information on the location of a patient</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideReminderForFulfillingOfLegalReportingRequirements">
+    <meta:Feature rdf:about="ProvideReminderForFulfillingOfLegalReportingRequirements">
 	<rdfs:label xml:lang="en">Provide reminder for fulfilling of legal reporting requirements</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -36503,10 +36377,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="ProvisionOfPatientDataAndExaminationParameters">
+    <meta:Feature rdf:about="ProvisionOfPatientDataAndExaminationParameters">
 	<rdfs:label xml:lang="en">Provision of Patient Data and Examination Parameters</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -38077,18 +37950,16 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="ReceiveBloodSamples">
+    <meta:Feature rdf:about="ReceiveBloodSamples">
 	<rdfs:label xml:lang="en">Receive blood samples</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ReceiveOrders">
+    <meta:Feature rdf:about="ReceiveOrders">
 	<rdfs:label xml:lang="en">Receive orders</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -38332,10 +38203,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="RegisteringPatients">
+    <meta:Feature rdf:about="RegisteringPatients">
 	<rdfs:label xml:lang="en">Registering Patients</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -39004,10 +38874,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="RetrievePatient">
+    <meta:Feature rdf:about="RetrievePatient">
 	<rdfs:label xml:lang="en">Retrieve patient</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -39608,18 +39477,16 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="ScanDocuments">
+    <meta:Feature rdf:about="ScanDocuments">
 	<rdfs:label xml:lang="en">Scan documents</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ScanningDocumentsFromReferringPhysicianAndOtherSources">
+    <meta:Feature rdf:about="ScanningDocumentsFromReferringPhysicianAndOtherSources">
 	<rdfs:label xml:lang="en">Scanning documents from referring physician and other sources</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -39904,10 +39771,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="SearchForOldPictures">
+    <meta:Feature rdf:about="SearchForOldPictures">
 	<rdfs:label xml:lang="en">Search for old pictures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -40027,10 +39893,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="SelectOrdersFromOrderSets">
+    <meta:Feature rdf:about="SelectOrdersFromOrderSets">
 	<rdfs:label xml:lang="en">Select orders from order sets</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -40286,10 +40151,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="ServiceCombination">
+    <meta:Feature rdf:about="ServiceCombination">
 	<rdfs:label xml:lang="en">Service Combination</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -40483,10 +40347,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="ServiceOrchestration">
+    <meta:Feature rdf:about="ServiceOrchestration">
 	<rdfs:label xml:lang="en">Service Orchestration</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -43212,10 +43075,9 @@ goals, structures, and behaviors.</skos:definition>
 
 
 
-    <owl:Class rdf:about="SupportCreationOfANursingCarePlan">
+    <meta:Feature rdf:about="SupportCreationOfANursingCarePlan">
 	<rdfs:label xml:lang="en">Support creation of a nursing care plan</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -45849,10 +45711,9 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ValidateResults">
+    <meta:Feature rdf:about="ValidateResults">
 	<rdfs:label xml:lang="en">Validate results</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -45992,10 +45853,9 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ViewPatientRelatedAppointments">
+    <meta:Feature rdf:about="ViewPatientRelatedAppointments">
 	<rdfs:label xml:lang="en">View patient-related appointments</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -46349,18 +46209,16 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="WorkScheduling">
+    <meta:Feature rdf:about="WorkScheduling">
 	<rdfs:label xml:lang="en">Work scheduling</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="WorkflowManagement">
+    <meta:Feature rdf:about="WorkflowManagement">
 	<rdfs:label xml:lang="en">Workflow Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -48374,10 +48232,9 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="AdministrateTheMasterPatientIndex">
+    <meta:Feature rdf:about="AdministrateTheMasterPatientIndex">
 	<rdfs:label xml:lang="en">Administrate the master patient index (MPI)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -48639,74 +48496,65 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses">
+    <meta:Feature rdf:about="ProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses">
 	<rdfs:label xml:lang="en">Provide catalogs and other means for coding patients’ diagnoses</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingPatientsInformedConsent">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingPatientsInformedConsent">
 	<rdfs:label xml:lang="en">Provide forms for documenting patients ’ informed consent</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForDocumentingPatientsInformedConsent">
+    <meta:Feature rdf:about="ProvideFormsForDocumentingPatientsInformedConsent">
 	<rdfs:label xml:lang="en">Provide forms for documenting patient’s informed consent</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForEnteringClinicalData">
+    <meta:Feature rdf:about="ProvideFormsForEnteringClinicalData">
 	<rdfs:label xml:lang="en">Provide forms for entering clinical data (free-text or structured)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideFormsForPatientsInformedConsent">
+    <meta:Feature rdf:about="ProvideFormsForPatientsInformedConsent">
 	<rdfs:label xml:lang="en">Provide forms for patients ’ informed consent</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForCreatingOperationPlans">
+    <meta:Feature rdf:about="ProvideMeansForCreatingOperationPlans">
 	<rdfs:label xml:lang="en">Provide means for creating operation plans (daily weekly)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForManagingOutpatientUnitsStaff">
+    <meta:Feature rdf:about="ProvideMeansForManagingOutpatientUnitsStaff">
 	<rdfs:label xml:lang="en">Provide means for managing outpatient unit’s staff</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForSchedulingAPatientSAppointment">
+    <meta:Feature rdf:about="ProvideMeansForSchedulingAPatientSAppointment">
 	<rdfs:label xml:lang="en">Provide means for scheduling a patient ’s appointment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
 
-    <owl:Class rdf:about="ProvideMeansForSchedulingPatientsAppointments">
+    <meta:Feature rdf:about="ProvideMeansForSchedulingPatientsAppointments">
 	<rdfs:label xml:lang="en">Provide means for scheduling patients ’ appointments</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
+    </meta:Feature>
 
 
 
@@ -48731,12 +48579,9 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
 
 
-    <owl:Class rdf:about="ScoringOfThePatient">
+    <meta:Feature rdf:about="ScoringOfThePatient">
 	<rdfs:label xml:lang="en">Scoring of the patient (eg TISS SAPSII)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Feature"/>
-    </owl:Class>
-
-
+    </meta:Feature>
 
 
     <owl:Class rdf:about="TansCriticalSuccessFactorApproach">

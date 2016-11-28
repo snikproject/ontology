@@ -21,10 +21,11 @@
 	xmlns:vann="http://purl.org/vocab/vann/"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/"
      	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-	xmlns:dc="http://purl.org/dc/terms">
+	xmlns:dc="http://purl.org/dc/terms/">
 
 	<owl:Ontology rdf:about="http://www.snik.eu/ontology/meta">
-		<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-19</dc:modified>
+		<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-18</dc:modified>
+		<owl:versionInfo>0.3.0</owl:versionInfo>
 		<foaf:homepage rdf:resource="http://www.snik.eu"/>
 		<dc:source rdf:resource="http://www.snik.eu/mapping"/>
 		<vann:preferredNamespacePrefix>snik-meta</vann:preferredNamespacePrefix>
@@ -81,6 +82,7 @@
 	</owl:ObjectProperty>
 
 	<owl:Class rdf:about="Feature">
+		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<rdfs:label xml:lang="en">feature</rdfs:label>
 	</owl:Class>
 

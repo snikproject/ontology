@@ -1,0 +1,8 @@
+select distinct ?domain ?p as ?interaction replace(str(?p),".*[#/]","") as ?interactionLabel ?range
+{
+ ?domain a owl:Class.
+ ?range a owl:Class.
+
+ ?p rdfs:domain ?domain;
+    rdfs:range  ?range.
+}

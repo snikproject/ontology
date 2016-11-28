@@ -1,35 +1,28 @@
 select
  ?resource
- ?interaction
- ?targetNode
  count(distinct(?connected)) as ?degree
- ?type
- ?topClass
+# ?type
+ ?subTop
  ?source
  group_concat(distinct ?Label;separator="|") as ?Labels 
  group_concat(distinct ?Label_DE;separator="|") as ?Labels_DE 
  group_concat(distinct ?Label_EN;separator="|") as ?Labels_EN 
  group_concat(distinct ?altLabel;separator="|") as ?Alt_Labels
  group_concat(distinct ?comment;separator="|") as ?Comments
- group_concat(distinct ?Chapter;separator="|") as ?Chapters 
- group_concat(distinct ?Concept_Domain;separator="|") as ?Concept_Domains 
- group_concat(distinct ?Concept_Type;separator="|") as ?Concept_Types 
+# group_concat(distinct ?Chapter;separator="|") as ?Chapters 
  group_concat(distinct ?definition;separator="|") as ?definitions 
- group_concat(distinct ?Definition_DE_Page;separator="|") as ?Definition_DE_Pages 
- group_concat(distinct ?Definition_EN_Page;separator="|") as ?Definition_EN_Pages 
- group_concat(distinct ?Error;separator="|") as ?Errors 
+ group_concat(distinct ?bb_page;separator="|") as ?bb_pages
+#group_concat(distinct ?ob_page;separator="|") as ?ob_pages
 {
-?resource a ?type.
+#?resource a ?type.
+?resource a owl:Class.
 filter not exists {?resource a owl:Restriction.}
 filter not exists {?resource a owl:Axiom.}
-
-OPTIONAL {?resource rdfs:dummy ?interaction.}
-OPTIONAL {?resource rdfs:dummy ?targetNode}
 
 {?resource ?p ?connected.} UNION {?connected ?p ?resource.} 
 ?connected a owl:Class.
 
-OPTIONAL {?resource meta:topClass ?topClass}
+OPTIONAL {?resource meta:subTopClass ?subTop}
 
 OPTIONAL 
 { 
@@ -57,11 +50,11 @@ OPTIONAL
  ?resource rdfs:comment ?comment. 
  filter(str(?comment)!=""). 
 } 
-OPTIONAL 
-{ 
- ?resource meta:Chapter ?Chapter. 
- filter(str(?Chapter)!=""). 
-} 
+#OPTIONAL 
+#{ 
+# ?resource meta:Chapter ?Chapter. 
+# filter(str(?Chapter)!=""). 
+#} 
 OPTIONAL 
 { 
  ?resource meta:Concept_Domain ?Concept_Domain. 
@@ -79,19 +72,14 @@ OPTIONAL
 } 
 OPTIONAL 
 { 
- ?resource meta:Definition_DE_Page ?Definition_DE_Page. 
- filter(str(?Definition_DE_Page)!=""). 
+ ?resource bb:page ?bb_page.
+ filter(str(?bb_page)!=""). 
 } 
-OPTIONAL 
-{ 
- ?resource meta:Definition_EN_Page ?Definition_EN_Page. 
- filter(str(?Definition_EN_Page)!=""). 
-} 
-OPTIONAL 
-{ 
- ?resource schema:Error ?Error. 
- filter(str(?Error)!=""). 
-} 
+#OPTIONAL 
+#{ 
+# ?resource ob:page ?ob_page.
+# filter(str(?ob_page)!=""). 
+#} 
 OPTIONAL 
 { 
  ?source a owl:Ontology.

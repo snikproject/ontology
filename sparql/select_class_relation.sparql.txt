@@ -1,7 +1,7 @@
-select ?resource replace(str(?p),".*[#/]","") as ?interaction ?targetNode
+select ?resource ?p as ?interaction replace(str(?p),".*[#/]","") as ?interactionLabel ?targetNode
 {
  ?resource ?p ?targetNode.
- filter(?p!=meta:topClass).
+ filter(?p!=meta:subTopClass).
  ?resource a owl:Class.
  ?targetNode a owl:Class.
 }

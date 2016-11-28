@@ -1,5 +1,5 @@
-select distinct ?resource ?interaction ?targetNode
+select distinct ?resource ?feature ?featureLabel
 {
- ?resource	meta:typicalFeature ?targetNode.
- bind ("typicalFeature" as ?interaction).
+ ?resource	meta:typicalFeature ?feature.
+ ?targetNode	rdfs:label ?featureLabel.
 }
