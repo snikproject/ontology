@@ -1756,7 +1756,7 @@
 	<rdfs:label xml:lang="en">Area of an Enterprise</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="&ob;OrganizationalUnit"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1776,7 +1776,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="&ob;OrganizationalUnit"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -11134,7 +11134,7 @@
 	<rdfs:label xml:lang="en">Information and Communication System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="&ob;InformationSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11152,7 +11152,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="&ob;InformationSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -15079,7 +15079,7 @@
         <rdfs:subClassOf rdf:resource="&ob;SystemSelectionMethod"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="&ob;SpiderChart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -15105,7 +15105,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="&ob;SpiderChart"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -16076,7 +16076,7 @@
 	<rdfs:label xml:lang="en">Product</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="&ob;SoftwareProduct"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -16096,7 +16096,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="&ob;SoftwareProduct"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25049,7 +25049,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="&ob;PolarityProfile"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -25088,7 +25088,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="&ob;PolarityProfile"/>
             </owl:Restriction>
         </owl:annotatedTarget>

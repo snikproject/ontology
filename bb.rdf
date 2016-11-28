@@ -268,7 +268,6 @@
         <ov:defines rdf:resource="Telemicroscopy"/>
         <ov:defines rdf:resource="careComprisedGroupsOfPatients"/>
         <ov:defines rdf:resource="ProvideMeansForManagingWardStaff"/>
-        <ov:defines rdf:resource="isSimilarTo"/>
         <ov:defines rdf:resource="ProvideCatalogsAndOtherMeansForCodingOfNursingProcedures"/>
         <ov:defines rdf:resource="PhysicalDataProcessingSystem"/>
         <ov:defines rdf:resource="AvailablePhysicalDataProcessingSystem"/>
@@ -5279,7 +5278,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="DocumentStandard"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="XML"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5303,7 +5302,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="XML"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -11764,7 +11763,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="HL7Version2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11812,7 +11811,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="HL7Version2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -15880,7 +15879,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="PermanentMonitoring"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="ContinuousQualityImprovementProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -15954,7 +15953,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="ContinuousQualityImprovementProcess"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -16297,7 +16296,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="PhysicalToolLayer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -16332,7 +16331,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="PhysicalToolLayer"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17403,7 +17402,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="ArchitectureOfAnInformationSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19080,7 +19079,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="Standard"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -19127,7 +19126,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="Standard"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -22022,7 +22021,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="IntegratedCareNetwork"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -22060,7 +22059,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="IntegratedCareNetwork"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -22256,7 +22255,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="CommunicationServer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -22317,7 +22316,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="CommunicationServer"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -26087,7 +26086,7 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="ProjectPortfolio"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -26122,7 +26121,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="ProjectPortfolio"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27731,7 +27730,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="ComputerBasedApplicationComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="MedicalDocumentationSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -27808,7 +27807,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="MedicalDocumentationSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -30484,7 +30483,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="ComputerBasedApplicationComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="MedicalDocumentationSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -30562,7 +30561,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="MedicalDocumentationSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -31316,7 +31315,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="ComputerBasedApplicationComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="MasterPatientIndex"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -31389,7 +31388,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="MasterPatientIndex"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -33747,7 +33746,7 @@ goals, structures, and behaviors.</skos:definition>
 	<rdfs:label xml:lang="de">Physisches Werkzeug</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="3LGM2PhysicalDataProcessingSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -33771,7 +33770,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="3LGM2PhysicalDataProcessingSystem"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -40964,7 +40963,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="ReferenceModel"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -40987,7 +40986,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="ReferenceModel"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -44301,7 +44300,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf rdf:resource="ComputerSystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="Workstation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -44332,7 +44331,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isSimilarTo"/>
+                <owl:onProperty rdf:resource="&skos;related"/>
                 <owl:someValuesFrom rdf:resource="Workstation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
