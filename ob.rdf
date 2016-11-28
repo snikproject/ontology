@@ -329,7 +329,6 @@
 <ov:defines rdf:resource="InvestmentPlanning"/>
 <ov:defines rdf:resource="IsObjective"/>
 <ov:defines rdf:resource="IsProlective"/>
-<ov:defines rdf:resource="isResponsibleFor"/>
 <ov:defines rdf:resource="IsRetrolective"/>
 <ov:defines rdf:resource="IsSubjective"/>
 <ov:defines rdf:resource="ITILVersion2"/>
@@ -887,10 +886,6 @@
     <rdfs:label xml:lang="en">approves</rdfs:label>
   </owl:ObjectProperty>
 
-  <owl:ObjectProperty rdf:about="&ob;isResponsibleFor">
-    <rdfs:label xml:lang="en">isResponsibleFor</rdfs:label>
-  </owl:ObjectProperty>
-
   <owl:DatatypeProperty rdf:about="&ob;AccessRight">
     <rdfs:label xml:lang="en">access right</rdfs:label>
   </owl:DatatypeProperty>
@@ -1392,37 +1387,37 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;AnalysisReportCreation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;InformationAcquisition"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;InformationSystemModeling"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;PreparationAndModeling"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;SystemAnalysisPlanning"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;VerificationSystemAnalysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1486,7 +1481,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;AnalysisReportCreation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1498,7 +1493,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;InformationAcquisition"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1510,7 +1505,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;InformationSystemModeling"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1522,7 +1517,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;PreparationAndModeling"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1534,7 +1529,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;SystemAnalysisPlanning"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1546,7 +1541,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;SystemAnalysisPlanning"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1558,7 +1553,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;VerificationSystemAnalysis"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1571,37 +1566,37 @@
 	<rdfs:label xml:lang="en">Application Administrator</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ExecutionOfTrainingCourse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;OrganizationalDevelopment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;SystemOperation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;UserAdministration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;UserSupport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;UserSupportConcept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1621,7 +1616,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ExecutionOfTrainingCourse"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1633,7 +1628,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;OrganizationalDevelopment"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1645,7 +1640,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;SystemOperation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1657,7 +1652,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;UserAdministration"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1669,7 +1664,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;UserSupport"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1681,7 +1676,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;UserSupportConcept"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -2757,13 +2752,13 @@
         <skos:altLabel xml:lang="en">CCTA</skos:altLabel>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ITILVersion2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ITILVersion3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2780,7 +2775,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ITILVersion2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -2792,7 +2787,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ITILVersion3"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3018,13 +3013,13 @@
 	<rdfs:label xml:lang="en">Chief Information Officer</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ComputingCenter"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ManagementOfInformationSystems"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3047,7 +3042,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ComputingCenter"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3059,7 +3054,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ManagementOfInformationSystems"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3628,7 +3623,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FunctionalSpecificationDocument"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3657,7 +3652,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FunctionalSpecificationDocument"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3744,25 +3739,25 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;AcceptingAProjectOrder"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectApproval"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectExecution"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;QualificationCriterion"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3853,7 +3848,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;AcceptingAProjectOrder"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3865,7 +3860,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectApproval"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3877,7 +3872,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectExecution"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3889,7 +3884,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;QualificationCriterion"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -6490,7 +6485,7 @@
 	<rdfs:label xml:lang="en">Documentation Manager</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectDocumentation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6507,7 +6502,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectDocumentation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -10066,7 +10061,7 @@
 	<rdfs:label xml:lang="en">Helpdesk</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FirstLevelSupport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -10083,7 +10078,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FirstLevelSupport"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -10613,7 +10608,7 @@
 	<rdfs:label xml:lang="en">IT Staff</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FunctionalSpecificationDocument"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -10630,7 +10625,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FunctionalSpecificationDocument"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -11679,7 +11674,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;Interview"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11709,7 +11704,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;Interview"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -13624,7 +13619,7 @@
 	<rdfs:label xml:lang="en">Observer</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;Observation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -13642,7 +13637,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;Observation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -18952,175 +18947,175 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;CompletionOfProjectDocumentation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ConflictManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;DefiningAndSchedulingMilestones"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ExecutionOfAKickOffMeeting"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ExecutionOfAStakeholderAnalysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FinalReport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FinalReportCreation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;InterimReport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;InterimReportCreation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;JourFixe"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;MeetingManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;PresentationOfIntermediateResults"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;Project"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectApproval"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectControlling"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectDirecting"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectDocumentation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectMember"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectMonitoring"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectPlanApproval"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectPlanCreation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectPlanning"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectRepresentation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectStatusReport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectTeamCoordination"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectTeamLeading"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;RiskAnalysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;TeamManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -19190,7 +19185,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;CompletionOfProjectDocumentation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19202,7 +19197,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ConflictManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19214,7 +19209,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ConflictManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19226,7 +19221,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;DefiningAndSchedulingMilestones"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19238,7 +19233,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ExecutionOfAKickOffMeeting"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19250,7 +19245,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ExecutionOfAStakeholderAnalysis"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19262,7 +19257,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FinalReport"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19274,7 +19269,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FinalReportCreation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19286,7 +19281,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;InterimReport"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19298,7 +19293,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;InterimReportCreation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19310,7 +19305,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;JourFixe"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19322,7 +19317,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;MeetingManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19334,7 +19329,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;PresentationOfIntermediateResults"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19346,7 +19341,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;Project"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19358,7 +19353,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectApproval"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19370,7 +19365,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectControlling"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19382,7 +19377,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectDirecting"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19394,7 +19389,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectDocumentation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19406,7 +19401,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19418,7 +19413,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19430,7 +19425,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectMember"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19442,7 +19437,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectMonitoring"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19454,7 +19449,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectPlanApproval"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19466,7 +19461,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectPlanCreation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19478,7 +19473,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectPlanning"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19490,7 +19485,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectRepresentation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19502,7 +19497,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectStatusReport"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19514,7 +19509,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectTeamCoordination"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19526,7 +19521,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectTeamLeading"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19538,7 +19533,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;RiskAnalysis"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19550,7 +19545,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;TeamManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20144,7 +20139,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -20205,7 +20200,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -23766,7 +23761,7 @@
 	<rdfs:label xml:lang="en">Risk Manager</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;RiskAnalysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -23786,7 +23781,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;RiskAnalysis"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -24938,13 +24933,13 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FunctionalSpecificationDocument"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;SystemSpecification"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -25021,7 +25016,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;FunctionalSpecificationDocument"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25033,7 +25028,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;SystemSpecification"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25312,55 +25307,55 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;DefiningAndSchedulingMilestones"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;PlacingAProjectOrder"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectApproval"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectExecution"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectInitiation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectOrder"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectTeamCoordination"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectTeamLeading"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;Requirement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -25733,7 +25728,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;DefiningAndSchedulingMilestones"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25745,7 +25740,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;PlacingAProjectOrder"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25757,7 +25752,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectApproval"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25769,7 +25764,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectExecution"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25781,7 +25776,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectInitiation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25793,7 +25788,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectOrder"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25805,7 +25800,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectTeamCoordination"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25817,7 +25812,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ProjectTeamLeading"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -25829,7 +25824,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;Requirement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27162,7 +27157,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Supervisor</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;SecondLevelSupport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -27180,7 +27175,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;SecondLevelSupport"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27280,25 +27275,25 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">System Administrator</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;DatabaseAdministration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;InterfaceManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;NetworkManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ServerAdministration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -27318,7 +27313,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;DatabaseAdministration"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27330,7 +27325,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;InterfaceManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27342,7 +27337,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;NetworkManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27354,7 +27349,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ServerAdministration"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -31799,7 +31794,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Top Management</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;OrganizationalUnit"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -31817,7 +31812,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;OrganizationalUnit"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -32549,13 +32544,13 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ExecutionOfProductPresentation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;MaintenanceContract"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -32667,7 +32662,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;ExecutionOfProductPresentation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -32679,7 +32674,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;MaintenanceContract"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -32986,13 +32981,13 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Work Package Manager</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;WorkPackage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;WorkPackageExecution"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -33012,7 +33007,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;WorkPackage"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -33024,7 +33019,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ob;isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="&ob;WorkPackageExecution"/>
             </owl:Restriction>
         </owl:annotatedTarget>

@@ -71,8 +71,7 @@
 		<ov:defines rdf:resource="isMasterFor"/>
 		<ov:defines rdf:resource="baseEntityType"/>
 		<ov:defines rdf:resource="representationType"/>
-		<ov:defines rdf:resource="isResponsibleForEntityType"/>
-		<ov:defines rdf:resource="isResponsibleForFunction"/>
+		<ov:defines rdf:resource="isResponsibleFor"/>
 	</owl:Ontology>
 
 	<owl:ObjectProperty rdf:about="typicalFeature">
@@ -212,17 +211,13 @@
 		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
 
-	<owl:ObjectProperty rdf:about="isResponsibleForEntityType">
-		<rdfs:label xml:lang="en">is responsible for entity type</rdfs:label>
-		<rdfs:label xml:lang="en">ist verantwortlich für den Objekttyp</rdfs:label>
+	<owl:ObjectProperty rdf:about="isResponsibleFor">
+		<rdfs:label xml:lang="en">is responsible for </rdfs:label>
+		<rdfs:label xml:lang="en">ist verantwortlich für</rdfs:label>
+		<rdfs:comment xml:lang="en">is responsible for a function or an entity type</rdfs:comment>
+		<rdfs:comment xml:lang="de">ist verantwortlich für eine Aufgabe oder einen Objekttyp</rdfs:comment>
 		<rdfs:domain rdf:resource="Role"/>
-		<rdfs:range rdf:resource="EntityType"/>
-	</owl:ObjectProperty>
-
-	<owl:ObjectProperty rdf:about="isResponsibleForFunction">
-		<rdfs:label xml:lang="en">is responsible for function</rdfs:label>
-		<rdfs:domain rdf:resource="Role"/>
-		<rdfs:range rdf:resource="Function"/>
+		<rdfs:range rdf:resource="Top"/>
 	</owl:ObjectProperty>
 
 <!-- Classes -->

@@ -5062,7 +5062,7 @@
         <rdfs:subClassOf rdf:resource="Organization"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="CertificationByCCHIT"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5086,7 +5086,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="CertificationByCCHIT"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5129,7 +5129,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="CCOWStandard"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5165,7 +5165,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="CCOWStandard"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5319,7 +5319,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Organization"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StandardizationByCEN"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5343,7 +5343,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StandardizationByCEN"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5444,103 +5444,103 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="EstablishAndPromoteTheStrategicInformationManagementPlan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="HISBudgetPlanning"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="InformationManagementDepartment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OperationalHISDirecting"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OperationalHISMonitoring"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OperationalHISPlanning"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ReportToTheCEO"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicAlignment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicHISDirecting"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicHISMonitoring"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicHISPlanning"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicInformationManagementPlan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TacticalHISDirecting"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TacticalHISMonitoring"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TacticalHISPlanning"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TacticalInformationManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ReportToTheHospitalsBoardOfDirectors"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5587,7 +5587,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="EstablishAndPromoteTheStrategicInformationManagementPlan"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5599,7 +5599,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="HISBudgetPlanning"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5611,7 +5611,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="InformationManagementDepartment"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5623,7 +5623,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OperationalHISDirecting"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5635,7 +5635,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OperationalHISMonitoring"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5647,7 +5647,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OperationalHISPlanning"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5659,7 +5659,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ReportToTheCEO"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5671,7 +5671,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicAlignment"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5683,7 +5683,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicHISDirecting"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5695,7 +5695,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicHISMonitoring"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5707,7 +5707,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicHISPlanning"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5719,7 +5719,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicInformationManagementPlan"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5731,7 +5731,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TacticalHISDirecting"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5743,7 +5743,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TacticalHISMonitoring"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5755,7 +5755,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TacticalHISPlanning"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5767,7 +5767,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TacticalInformationManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5779,7 +5779,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ReportToTheHospitalsBoardOfDirectors"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8232,25 +8232,25 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementStaff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="AvailabilityOfApplicationComponents"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ComputingCenter"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="PerformanceOfApplicationComponents"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StabilityOfApplicationComponents"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8273,7 +8273,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="AvailabilityOfApplicationComponents"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8285,7 +8285,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ComputingCenter"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8297,7 +8297,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="PerformanceOfApplicationComponents"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8309,7 +8309,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StabilityOfApplicationComponents"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -10145,7 +10145,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="HospitalStaff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DataSecurity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -10168,7 +10168,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DataSecurity"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -10900,7 +10900,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="HospitalStaff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OperationalInformationManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -10923,7 +10923,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OperationalInformationManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -12876,7 +12876,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Organization"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="CertificationByEuroRec"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12899,7 +12899,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="CertificationByEuroRec"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -15681,7 +15681,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="HISStakeholder"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="GeneralPractice"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -15704,7 +15704,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="GeneralPractice"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17269,7 +17269,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="Order"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -17329,7 +17329,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="Order"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -17425,7 +17425,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DiseaseManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -17460,7 +17460,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DiseaseManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -18023,13 +18023,13 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="InformationProcessing"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="InformationStorage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -18070,7 +18070,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="InformationProcessing"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -18082,7 +18082,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="InformationStorage"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -18348,13 +18348,13 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="HospitalStaff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ApprovalToStrategicInformationManagementPlan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="Quality"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -18377,7 +18377,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ApprovalToStrategicInformationManagementPlan"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -18389,7 +18389,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="Quality"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20070,25 +20070,25 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagementStaff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DeliveringOfCustomerCenteredServices"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DesigningCustomerCenteredServices"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ImprovingCustomerCenteredServices"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ProvidingCustomerCenteredServices"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -20111,7 +20111,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DeliveringOfCustomerCenteredServices"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20123,7 +20123,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DesigningCustomerCenteredServices"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20135,7 +20135,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ImprovingCustomerCenteredServices"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20147,7 +20147,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ProvidingCustomerCenteredServices"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20312,7 +20312,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="HealthCareInstitution"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ElectronicHealthRecord"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -20335,7 +20335,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ElectronicHealthRecord"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20435,7 +20435,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="PatientCareEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="VisitorAndInformationService"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -20460,7 +20460,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="VisitorAndInformationService"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20952,19 +20952,19 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="HospitalStaff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OperationalInformationManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicInformationManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TacticalInformationManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -20987,7 +20987,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OperationalInformationManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -20999,7 +20999,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="StrategicInformationManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -21011,7 +21011,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TacticalInformationManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -21776,7 +21776,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="OrganizationalUnitOfAHospital"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="Patient"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -21799,7 +21799,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="Patient"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -22688,7 +22688,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Organization"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DICOMStandard"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -22711,7 +22711,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DICOMStandard"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -22855,7 +22855,7 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Organization"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="JointCommissionsCertificationProgram"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -22878,7 +22878,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="JointCommissionsCertificationProgram"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27119,13 +27119,13 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="HealthCareProfessional"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="NursingAdmission"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="NursingProcedure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -27154,7 +27154,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="NursingAdmission"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -27166,7 +27166,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="NursingProcedure"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -28297,7 +28297,7 @@ goals, structures, and behaviors.</skos:definition>
 	<rdfs:label xml:lang="en">OpenEHR</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OpenEHROntology"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -28313,7 +28313,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="OpenEHROntology"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -29579,19 +29579,19 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="InformationManagementStaff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="AvailabilityOfApplicationComponents"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="AvailabilityOfPhysicalDataProcessingSystems"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ITSupport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -29614,7 +29614,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="AvailabilityOfApplicationComponents"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -29626,7 +29626,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="AvailabilityOfPhysicalDataProcessingSystems"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -29638,7 +29638,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ITSupport"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -30746,7 +30746,7 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="OrganizationalUnitOfAHospital"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="Outpatient"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -30769,7 +30769,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="Outpatient"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -33888,25 +33888,25 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="HealthCareProfessional"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DischargeSummary"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="MedicalAdmission"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="MedicalProcedure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="MedicalAndNursingCarePlanning"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -33929,7 +33929,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="DischargeSummary"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -33941,7 +33941,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="MedicalAdmission"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -33953,7 +33953,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="MedicalProcedure"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -33965,7 +33965,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="MedicalAndNursingCarePlanning"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -35378,13 +35378,13 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ProjectConflictManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ProjectMonitoring"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -35468,7 +35468,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ProjectConflictManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -35480,7 +35480,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ProjectMonitoring"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -39795,7 +39795,7 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="UserTraining"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -39841,7 +39841,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="UserTraining"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -40203,19 +40203,19 @@ goals, structures, and behaviors.</skos:definition>
         <rdfs:subClassOf rdf:resource="InformationManagementStaff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="FirstLevelSupport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ManagementOfUserAccounts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TroubleShooting"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -40238,7 +40238,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="FirstLevelSupport"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -40250,7 +40250,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ManagementOfUserAccounts"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -40262,7 +40262,7 @@ goals, structures, and behaviors.</skos:definition>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="TroubleShooting"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -45729,13 +45729,13 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="SoftwareDevelopment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ThirdLevelSupport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -45770,7 +45770,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="SoftwareDevelopment"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -45782,7 +45782,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isResponsibleFor"/>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="ThirdLevelSupport"/>
             </owl:Restriction>
         </owl:annotatedTarget>
