@@ -1424,6 +1424,7 @@
 	<rdfs:label xml:lang="en">page</rdfs:label>
 	<rdfs:label xml:lang="de">Seite</rdfs:label>
     	<rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+	<rdfs:comment xml:lang="de">Seite in "Health Information Systems"</rdfs:comment>
     </owl:DatatypeProperty>
 
     <owl:ObjectProperty rdf:about="case">

@@ -956,8 +956,8 @@
     <rdfs:label xml:lang="en">page</rdfs:label>
     <rdfs:label xml:lang="de">Seite</rdfs:label>
     <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+    <rdfs:comment xml:lang="de">Seite in "IT-Projektmanagement im Gesundheitswesen"</rdfs:comment>
   </owl:DatatypeProperty>
-
 
     <owl:Class rdf:about="&ob;ARIS">
 	<rdfs:label xml:lang="en">ARIS</rdfs:label>
