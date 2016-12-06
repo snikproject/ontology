@@ -299,6 +299,8 @@
 	<owl:Class rdf:about="PassiveEntityType">
 		<rdfs:label xml:lang="en">passive entity type</rdfs:label>
 		<rdfs:label xml:lang="ce">passiver Objekttyp</rdfs:label>
+		<rdfs:subClassOf rdf:resource="EntityType"/>
+		<subTop rdf:resource="EntityType"/>
 	</owl:Class>
 
 	<owl:Class rdf:about="ComputerBasedApplicationComponent">
@@ -307,14 +309,20 @@
 
 	<owl:Class rdf:about="SoftwareProduct">
 		<rdfs:label xml:lang="en">software product</rdfs:label>
+		<rdfs:label xml:lang="de">Softwareprodukt</rdfs:label>
+		<rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
+		<subTop rdf:resource="EntityType"/>
 	</owl:Class>
 
 	<owl:Class rdf:about="RepresentationType">
 		<rdfs:label xml:lang="en">representation type</rdfs:label>
+		<rdfs:subClassOf rdf:resource="EntityType"/>
+		<subTop rdf:resource="EntityType"/>
 	</owl:Class>
 
 	<owl:Class rdf:about="DataSetType">
 		<rdfs:label xml:lang="en">data set type</rdfs:label>
+		<rdfs:subClassOf rdf:resource="RepresentationType"/>
 	</owl:Class>
 
 
@@ -322,6 +330,7 @@
  		<rdfs:label xml:lang="en">ApplicationComponent</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
+		<subTop rdf:resource="EntityType"/>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<rdfs:comment xml:lang="de"></rdfs:comment>
 	</owl:Class>
@@ -330,6 +339,7 @@
  		<rdfs:label xml:lang="en">ComputerBasedApplicationComponent</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
+		<subTop rdf:resource="EntityType"/>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<rdfs:comment xml:lang="de"></rdfs:comment>
 	</owl:Class>
