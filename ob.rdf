@@ -214,7 +214,6 @@
 <ov:defines rdf:resource="EnterpriseModelling"/>
 <ov:defines rdf:resource="EntityRelationshipModel"/>
 <ov:defines rdf:resource="EntityRelationshipModel"/>
-<ov:defines rdf:resource="EntityType"/>
 <ov:defines rdf:resource="EnvironmentAnalysis"/>
 <ov:defines rdf:resource="EquipmentAnalysis"/>
 <ov:defines rdf:resource="ErrorManagement"/>
@@ -6613,7 +6612,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;EntityType"/>
+                <owl:someValuesFrom rdf:resource="&meta;EntityType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3, 16</Chapter>
@@ -6645,7 +6644,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="&ob;EntityType"/>
+                <owl:someValuesFrom rdf:resource="&meta;EntityType"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">326</TripelPage>
@@ -33265,7 +33264,12 @@ so wie es in der Einführungsstrategie geplant ist.
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="&ob;3LGM2InformationProcess"/>
+    <owl:Class rdf:about="&ob;3LGM2InformationProcess">
+	<rdfs:label xml:lang="en">3LGM² Information Process</rdfs:label>
+	<meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+    </owl:Class>
+  
 
 
     <owl:Class rdf:about="&ob;3LGM2LogicalToolLayer">
