@@ -10,6 +10,7 @@
     <!ENTITY bb "http://www.snik.eu/ontology/bb/" >
     <!ENTITY ob "http://www.snik.eu/ontology/ob/" >
     <!ENTITY ov "http://open.vocab.org/terms/" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
 ]>
 
 <rdf:RDF xmlns="http://www.snik.eu/ontology/ob/"

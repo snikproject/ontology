@@ -10,6 +10,7 @@
     <!ENTITY bb "http://www.snik.eu/ontology/bb/" >
     <!ENTITY ob "http://www.snik.eu/ontology/ob/" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
 ]>
 
 <rdf:RDF xmlns="http://www.snik.eu/ontology/bb/"
@@ -637,7 +638,6 @@
         <ov:defines rdf:resource="OpticalFiber"/>
         <ov:defines rdf:resource="Metamodel"/>
         <ov:defines rdf:resource="ClassificationOfProcedures"/>
-        <ov:defines rdf:resource="ComponentOfAnInformationSystem"/>
         <ov:defines rdf:resource="Communication"/>
         <ov:defines rdf:resource="ProvideFormsForWritingAReport"/>
         <ov:defines rdf:resource="GovernmentalAuthority"/>
@@ -1251,7 +1251,6 @@
         <ov:defines rdf:resource="ISO14721"/>
         <ov:defines rdf:resource="BusinessProcess"/>
         <ov:defines rdf:resource="ProjectPlanning"/>
-        <ov:defines rdf:resource="PassiveEntityType"/>
         <ov:defines rdf:resource="NursingManagementAndDocumentationSystem"/>
         <ov:defines rdf:resource="DesigningCustomerCenteredServices"/>
         <ov:defines rdf:resource="StrategicGoalOfTheNetwork"/>
@@ -2924,21 +2923,15 @@
 
     <owl:Class rdf:about="AdministrativeEntityType">
 	<rdfs:label xml:lang="en">Administrative Entity Type</rdfs:label>
-        <rdfs:subClassOf rdf:resource="PassiveEntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+	<meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1668</ID>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="AdministrativeEntityType"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="PassiveEntityType"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1668</TripelRowNr>
-    </owl:Axiom>
-
+    
 
 
 
@@ -7596,23 +7589,6 @@ Object Workgroup Standard</skos:altLabel>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">256</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1599</TripelRowNr>
     </owl:Axiom>
-
-
-
-
-    <owl:Class rdf:about="ComponentOfAnInformationSystem">
-	<rdfs:label xml:lang="en">Component of an Information System</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <skos:definition xml:lang="en">Typical components of information systems are enterprise functions, business processes, application components, and physical data processing systems.</skos:definition>
-        <page>298</page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2701</ID>
-        <rdfs:label xml:lang="de">Komponente eines Informationssystems</rdfs:label>
-    </owl:Class>
-
-
 
 
     <owl:Class rdf:about="ComputedTomography">
@@ -20768,7 +20744,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="InformationManagementEntityType">
 	<rdfs:label xml:lang="en">Information Management Entity Type</rdfs:label>
-        <rdfs:subClassOf rdf:resource="PassiveEntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -20776,14 +20752,7 @@ Object Workgroup Standard</skos:altLabel>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1784</ID>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="InformationManagementEntityType"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="PassiveEntityType"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1784</TripelRowNr>
-    </owl:Axiom>
-
+    
 
 
 
@@ -24404,7 +24373,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="ManagementEntityType">
 	<rdfs:label xml:lang="en">Management Entity Type</rdfs:label>
-        <rdfs:subClassOf rdf:resource="PassiveEntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -24412,14 +24381,7 @@ goals, structures, and behaviors.</skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1822</ID>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ManagementEntityType"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="PassiveEntityType"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1822</TripelRowNr>
-    </owl:Axiom>
-
+    
 
 
 
@@ -30925,29 +30887,6 @@ goals, structures, and behaviors.</skos:definition>
     </owl:Axiom>
 
 
-
-
-    <owl:Class rdf:about="PassiveEntityType">
-	<rdfs:label xml:lang="en">Passive Entity Type</rdfs:label>
-        <rdfs:subClassOf rdf:resource="ComponentOfAnInformationSystem"/>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <skos:definition xml:lang="en"></skos:definition>
-        <page></page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1870</ID>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="PassiveEntityType"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="ComponentOfAnInformationSystem"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1870</TripelRowNr>
-    </owl:Axiom>
-
-
-
-
     <owl:Class rdf:about="PastMedicalHistory">
 	<rdfs:label xml:lang="en">Past Medical History</rdfs:label>
         <rdfs:subClassOf rdf:resource="PatientCareEntityType"/>
@@ -31973,7 +31912,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PatientCareEntityType">
 	<rdfs:label xml:lang="en">Patient Care Entity Type</rdfs:label>
-        <rdfs:subClassOf rdf:resource="PassiveEntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
@@ -31981,14 +31920,7 @@ goals, structures, and behaviors.</skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2194</ID>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="PatientCareEntityType"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="PassiveEntityType"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2194</TripelRowNr>
-    </owl:Axiom>
-
+    
 
 
 
@@ -38812,7 +38744,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="ResearchAndEducationEntityType">
 	<rdfs:label xml:lang="en">Research and Education Entity Type</rdfs:label>
-        <rdfs:subClassOf rdf:resource="PassiveEntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -38820,16 +38752,6 @@ goals, structures, and behaviors.</skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</ID>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ResearchAndEducationEntityType"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="PassiveEntityType"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</TripelRowNr>
-    </owl:Axiom>
-
-
-
 
     <owl:Class rdf:about="EducationResearch">
 	<rdfs:label xml:lang="en">Research and Education Function</rdfs:label>
