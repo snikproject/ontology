@@ -76,7 +76,7 @@
 
 	<owl:ObjectProperty rdf:about="typicalFeature">
 		<rdfs:label xml:lang="en">typical feature</rdfs:label>
-		<rdfs:domain rdf:resource="owl:Class"/>
+		<rdfs:domain rdf:resource="&owl;Class"/>
 		<rdfs:range rdf:resource="Feature"/>
 	</owl:ObjectProperty>
 
