@@ -87,7 +87,7 @@
 
 	<owl:ObjectProperty rdf:about="isBasedOn">
 		<rdfs:label xml:lang="en">is based on</rdfs:label>
-	  <rdfs:label xml:lang="de">basiert auf</rdfs:label>
+	  	<rdfs:label xml:lang="de">basiert auf</rdfs:label>
 		<rdfs:comment xml:lang="de">Der Objekttyp wird von einem anderen Objekttyp erzeugt.</rdfs:comment>
 		<rdfs:domain rdf:resource="EntityType"/>
 		<rdfs:range rdf:resource="EntityType"/>
@@ -107,21 +107,21 @@
 
 	<owl:ObjectProperty rdf:about="updates">
 		<rdfs:label xml:lang="en">updates</rdfs:label>
-	  <rdfs:label xml:lang="de">aktualisiert</rdfs:label>
+	  	<rdfs:label xml:lang="de">aktualisiert</rdfs:label>
 		<rdfs:domain rdf:resource="Function"/>
 		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="increases">
 		<rdfs:label xml:lang="en">increases</rdfs:label>
-	  <rdfs:label xml:lang="de">erhöht</rdfs:label>
+	  	<rdfs:label xml:lang="de">erhöht</rdfs:label>
 		<rdfs:domain rdf:resource="EntityType"/>
 		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="decreases">
 		<rdfs:label xml:lang="en">decreases</rdfs:label>
-	  <rdfs:label xml:lang="de">senkt</rdfs:label>
+	  	<rdfs:label xml:lang="de">senkt</rdfs:label>
 		<rdfs:domain rdf:resource="EntityType"/>
 		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
