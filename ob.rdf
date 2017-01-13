@@ -866,7 +866,7 @@
 		<bibo:Book rdf:about="OrangeBook" dc:date="2011">
 			<dc:title xml:lang="de">IT-Projektmanagement im Gesundheitswesen</dc:title>
 			<rdfs:comment xml:lang="de">Lehrbuch und Projektleitfaden</rdfs:comment>
-			<dc:publisher rdf:resource="http://www.schattauer.de"/>.
+			<dc:publisher rdf:resource="http://www.schattauer.de"/>
 			<bibo:isbn>978-3-7945-3071-7</bibo:isbn>
 		  <bibo:authorList>
 				<rdf:Seq>
