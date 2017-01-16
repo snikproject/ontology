@@ -645,7 +645,6 @@
 <ov:defines rdf:resource="RiskManager"/>
 <ov:defines rdf:resource="RiskPlan"/>
 <ov:defines rdf:resource="RollOut"/>
-<ov:defines rdf:resource="RollOut"/>
 <ov:defines rdf:resource="SampleSize"/>
 <ov:defines rdf:resource="Scenario"/>
 <ov:defines rdf:resource="ScheduleForElicitation"/>
