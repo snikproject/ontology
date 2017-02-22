@@ -41131,7 +41131,7 @@ goals, structures, and behaviors.</skos:definition>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
-        <page></page>
+        <page>197</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</ID>
     </owl:Class>
     <owl:Axiom>
