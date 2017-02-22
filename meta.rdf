@@ -31,11 +31,8 @@
 		<vann:preferredNamespacePrefix>snik-meta</vann:preferredNamespacePrefix>
 		<vann:preferredNamespaceUri rdf:resource="http://www.snik.eu/ontology/meta/"/>
 		<ov:defines rdf:resource="Function"/>
-		<ov:defines rdf:resource="InformationManagement"/>
 		<ov:defines rdf:resource="Administration"/>
-		<ov:defines rdf:resource="PatientCare"/>
 		<ov:defines rdf:resource="Management"/>
-		<ov:defines rdf:resource="EducationResearch"/>
 		<ov:defines rdf:resource="Role"/>
 		<ov:defines rdf:resource="HisStakeholder"/>
 		<ov:defines rdf:resource="EntityType"/>
@@ -44,12 +41,10 @@
 		<ov:defines rdf:resource="RepresentationType"/>
 		<!--Definitions will be reworked using language tags and the bibo ontology.-->
 		<ov:defines rdf:resource="AdministrativeEntityType"/>
-		<ov:defines rdf:resource="PatientCareEntityType"/>
 		<ov:defines rdf:resource="InformationManagementEntityType"/>
 		<ov:defines rdf:resource="ComputerBasedApplicationComponent"/>
 		<ov:defines rdf:resource="ApplicationComponent"/>
 		<ov:defines rdf:resource="ManagementEntityType"/>
-		<ov:defines rdf:resource="EducationResearchEntityType"/>
 		<ov:defines rdf:resource="DataSetType"/>
 		<!--Properties-->
 		<ov:defines rdf:resource="approvesEntityType"/>
@@ -244,38 +239,6 @@
 		<owl:disjointWith rdf:resource="EntityType"/>
 	</owl:Class>
 
-	<owl:Class rdf:about="InformationManagement">
-		<rdfs:label xml:lang="en">information management</rdfs:label>
-		<rdfs:label xml:lang="de">Informationsmanagement</rdfs:label>
-		<rdfs:comment xml:lang="de">Die Aufgabe des Informationsmanagements</rdfs:comment>
-		<rdfs:comment xml:lang="en">The task of information management</rdfs:comment>
-		<rdfs:subClassOf rdf:resource="Function"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="Administration">
-		<rdfs:label xml:lang="en">administration</rdfs:label>
-		<rdfs:label xml:lang="de">Administration</rdfs:label>
-		<rdfs:subClassOf rdf:resource="Function"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="PatientCare">
-		<rdfs:label xml:lang="en">patient care</rdfs:label>
-		<rdfs:label xml:lang="de">Patientenbehandlung</rdfs:label>
-		<rdfs:subClassOf rdf:resource="Function"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="Management">
-		<rdfs:label xml:lang="en">management</rdfs:label>
-		<rdfs:label xml:lang="en">Verwaltung</rdfs:label>
-		<rdfs:subClassOf rdf:resource="Function"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="EducationResearch">
-		<rdfs:label xml:lang="en">education and research</rdfs:label>
-		<rdfs:label xml:lang="de">Bildung und Forschung</rdfs:label>
-		<rdfs:subClassOf rdf:resource="Function"/>
-	</owl:Class>
-
 	<owl:Class rdf:about="HisStakeholder">
 		<rdfs:label xml:lang="en">HIS stakeholder</rdfs:label>
 		<rdfs:comment xml:lang="en">stakeholder in the hospital information system (HIS)</rdfs:comment>
@@ -351,14 +314,6 @@
 		<rdfs:comment xml:lang="de"></rdfs:comment>
 	</owl:Class>
 
-	<owl:Class rdf:about="PatientCareEntityType">
- 		<rdfs:label xml:lang="en">patient care entity type</rdfs:label>
- 		<rdfs:label xml:lang="de"></rdfs:label>
-		<rdfs:subClassOf rdf:resource="EntityType"/>
-		<rdfs:comment xml:lang="en"></rdfs:comment>
-		<rdfs:comment xml:lang="de"></rdfs:comment>
-	</owl:Class>
-
 	<owl:Class rdf:about="ManagementEntityType">
  		<rdfs:label xml:lang="en">management entity type</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
@@ -366,15 +321,6 @@
 		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<rdfs:comment xml:lang="de"></rdfs:comment>
 	</owl:Class>
-
-	<owl:Class rdf:about="EducationResearchEntityType">
- 		<rdfs:label xml:lang="en">education research entity type</rdfs:label>
- 		<rdfs:label xml:lang="de"></rdfs:label>
-		<rdfs:subClassOf rdf:resource="EntityType"/>
-		<rdfs:comment xml:lang="en"></rdfs:comment>
-		<rdfs:comment xml:lang="de"></rdfs:comment>
-	</owl:Class>
-
 
 
 </rdf:RDF>

@@ -2519,7 +2519,7 @@
 
     <owl:Class rdf:about="AdministrativeAdmission">
 	<rdfs:label xml:lang="en">Administrative Admission</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -2603,7 +2603,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="AdministrativeAdmission"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2040</TripelRowNr>
     </owl:Axiom>
@@ -3686,7 +3686,7 @@
 
     <owl:Class rdf:about="ApprovalToAStudy">
 	<rdfs:label xml:lang="en">Approval to a Study</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;Function"/>
@@ -3697,7 +3697,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ApprovalToAStudy"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1673</TripelRowNr>
     </owl:Axiom>
@@ -6778,7 +6778,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="ClinicalResearch">
 	<rdfs:label xml:lang="en">Clinical Research</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -6795,7 +6795,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ClinicalResearch"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1689</TripelRowNr>
     </owl:Axiom>
@@ -10377,7 +10377,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="DecisionMakingPlanningAndOrganizationOfPatientTreatment">
 	<rdfs:label xml:lang="en">Decision Making Planning and Organization of Patient Treatment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -10400,7 +10400,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DecisionMakingPlanningAndOrganizationOfPatientTreatment"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2082</TripelRowNr>
     </owl:Axiom>
@@ -10434,7 +10434,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="DecisionMakingAndPatientInformation">
 	<rdfs:label xml:lang="en">Decision Making and Patient Information</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -10511,7 +10511,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DecisionMakingAndPatientInformation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2081</TripelRowNr>
     </owl:Axiom>
@@ -11983,7 +11983,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="Education">
 	<rdfs:label xml:lang="en">Education</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -12000,7 +12000,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Education"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1123</TripelRowNr>
     </owl:Axiom>
@@ -13280,7 +13280,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="ExecutionOfClinicalTrialsAndExperiments">
 	<rdfs:label xml:lang="en">Execution of Clinical Trials and Experiments</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13333,7 +13333,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ExecutionOfClinicalTrialsAndExperiments"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2105</TripelRowNr>
     </owl:Axiom>
@@ -13427,7 +13427,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="ExecutionOfDiagnosticTherapeuticAndNursingProcedures">
 	<rdfs:label xml:lang="en">Execution of Diagnostic Therapeutic and Nursing Procedures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -13450,7 +13450,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ExecutionOfDiagnosticTherapeuticAndNursingProcedures"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2107</TripelRowNr>
     </owl:Axiom>
@@ -13484,7 +13484,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="ExecutionOfDiagnosticAndTherapeuticProcedures">
 	<rdfs:label xml:lang="en">Execution of Diagnostic and Therapeutic Procedures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13556,7 +13556,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ExecutionOfDiagnosticAndTherapeuticProcedures"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2106</TripelRowNr>
     </owl:Axiom>
@@ -14937,7 +14937,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="FirstStudyDesign">
 	<rdfs:label xml:lang="en">First Study Design</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -14970,7 +14970,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="FirstStudyDesign"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1747</TripelRowNr>
     </owl:Axiom>
@@ -22992,7 +22992,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="KnowledgeRetrievalAndLiteratureManagement">
 	<rdfs:label xml:lang="en">Knowledge Retrieval and Literature Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -23009,7 +23009,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="KnowledgeRetrievalAndLiteratureManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2158</TripelRowNr>
     </owl:Axiom>
@@ -24796,7 +24796,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="MedicalAdmission">
 	<rdfs:label xml:lang="en">Medical Admission</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
@@ -24843,7 +24843,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalAdmission"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1830</TripelRowNr>
     </owl:Axiom>
@@ -24946,7 +24946,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="MedicalCarePlanning">
 	<rdfs:label xml:lang="en">Medical Care Planning</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;supports"/>
@@ -24963,7 +24963,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalCarePlanning"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1115</TripelRowNr>
     </owl:Axiom>
@@ -25027,7 +25027,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="MedicalDischargeAndMedicalReportWriting">
 	<rdfs:label xml:lang="en">Medical Discharge and Medical Report Writing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -25062,7 +25062,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDischargeAndMedicalReportWriting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1832</TripelRowNr>
     </owl:Axiom>
@@ -25614,7 +25614,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="MedicalAndNursingCarePlanning">
 	<rdfs:label xml:lang="en">Medical and Nursing Care Planning</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -25679,7 +25679,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalAndNursingCarePlanning"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1831</TripelRowNr>
     </owl:Axiom>
@@ -26532,7 +26532,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="MonitoringOfVitalSigns">
 	<rdfs:label xml:lang="en">Monitoring of Vital Signs</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -26549,7 +26549,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MonitoringOfVitalSigns"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1844</TripelRowNr>
     </owl:Axiom>
@@ -27156,7 +27156,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="NursingAdmission">
 	<rdfs:label xml:lang="en">Nursing Admission</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
@@ -27215,7 +27215,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingAdmission"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2170</TripelRowNr>
     </owl:Axiom>
@@ -27417,7 +27417,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="NursingCarePlanning">
 	<rdfs:label xml:lang="en">Nursing Care Planning</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -27446,7 +27446,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingCarePlanning"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1116</TripelRowNr>
     </owl:Axiom>
@@ -27534,7 +27534,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="NursingDischargeAndNursingReportWriting">
 	<rdfs:label xml:lang="en">Nursing Discharge and Nursing Report Writing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -27563,7 +27563,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingDischargeAndNursingReportWriting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2174</TripelRowNr>
     </owl:Axiom>
@@ -28390,7 +28390,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="OpeningAPatientRecord">
 	<rdfs:label xml:lang="en">Opening a Patient Record</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -28419,7 +28419,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OpeningAPatientRecord"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2183</TripelRowNr>
     </owl:Axiom>
@@ -29637,7 +29637,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="OperationalizationOfMethodsAndDetailedStudyPlan">
 	<rdfs:label xml:lang="en">Operationalization of Methods and Detailed Study Plan</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -29678,7 +29678,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationalizationOfMethodsAndDetailedStudyPlan"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2186</TripelRowNr>
     </owl:Axiom>
@@ -29887,7 +29887,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="OrderEntry">
 	<rdfs:label xml:lang="en">Order Entry</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -29929,7 +29929,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OrderEntry"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1272</TripelRowNr>
     </owl:Axiom>
@@ -31507,7 +31507,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PatientAdmission">
 	<rdfs:label xml:lang="en">Patient Admission</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -31561,7 +31561,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdmission"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">79</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1263</TripelRowNr>
     </owl:Axiom>
@@ -31787,7 +31787,8 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PatientCare">
 	<rdfs:label xml:lang="en">Patient Care</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+	<rdfs:label xml:lang="de">Patientenbehandlung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -31834,7 +31835,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientCare"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1128</TripelRowNr>
     </owl:Axiom>
@@ -31939,7 +31940,7 @@ goals, structures, and behaviors.</skos:definition>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1874</ID>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedSource rdf:resource="PatientCare"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="HospitalFunction"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
@@ -32406,7 +32407,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PatientDischargeAndTransferToOtherInstitutions">
 	<rdfs:label xml:lang="en">Patient Discharge and Transfer to Other Institutions</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -32435,7 +32436,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDischargeAndTransferToOtherInstitutions"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1875</TripelRowNr>
     </owl:Axiom>
@@ -33229,7 +33230,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PatientVisitInformation">
 	<rdfs:label xml:lang="en">Patient Visit Information</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCareEntityType"/>
+        <rdfs:subClassOf rdf:resource="PatientCareEntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -33239,7 +33240,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientVisitInformation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCareEntityType"/>
+        <owl:annotatedTarget rdf:resource="PatientCareEntityType"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1879</TripelRowNr>
     </owl:Axiom>
@@ -34428,7 +34429,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PreparationOfAnOrder">
 	<rdfs:label xml:lang="en">Preparation of an Order</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -34481,7 +34482,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PreparationOfAnOrder"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2203</TripelRowNr>
     </owl:Axiom>
@@ -36321,7 +36322,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PublishingAndPresentation">
 	<rdfs:label xml:lang="en">Publishing and Presentation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -36344,7 +36345,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PublishingAndPresentation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1924</TripelRowNr>
     </owl:Axiom>
@@ -36560,7 +36561,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="QualityAssessment">
 	<rdfs:label xml:lang="en">Quality Assessment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -36577,7 +36578,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="QualityAssessment"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1926</TripelRowNr>
     </owl:Axiom>
@@ -37922,7 +37923,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="RecruitmentOfPatients">
 	<rdfs:label xml:lang="en">Recruitment of Patients</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
@@ -37933,7 +37934,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RecruitmentOfPatients"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1931</TripelRowNr>
     </owl:Axiom>
@@ -38309,7 +38310,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="ReportWriting">
 	<rdfs:label xml:lang="en">Report Writing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -38319,7 +38320,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ReportWriting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2206</TripelRowNr>
     </owl:Axiom>
@@ -38329,7 +38330,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="ReportAndPublicationOfStudy">
 	<rdfs:label xml:lang="en">Report and Publication of Study</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -38352,7 +38353,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ReportAndPublicationOfStudy"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1933</TripelRowNr>
     </owl:Axiom>
@@ -38508,7 +38509,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="ResearchManagement">
 	<rdfs:label xml:lang="en">Research Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -38555,7 +38556,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ResearchManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2209</TripelRowNr>
     </owl:Axiom>
@@ -38637,7 +38638,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="ResearchAndEducation">
 	<rdfs:label xml:lang="en">Research and Education</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -38678,7 +38679,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ResearchAndEducation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">104</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1304</TripelRowNr>
     </owl:Axiom>
@@ -38759,6 +38760,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="EducationResearch">
 	<rdfs:label xml:lang="en">Research and Education Function</rdfs:label>
+	<rdfs:label xml:lang="de">Bildung und Forschung</rdfs:label>
         <rdfs:subClassOf rdf:resource="HospitalFunction"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -38768,7 +38770,7 @@ goals, structures, and behaviors.</skos:definition>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1938</ID>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedSource rdf:resource="EducationResearch"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="HospitalFunction"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
@@ -41103,7 +41105,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="StatisticalEvaluationOfPatientData">
 	<rdfs:label xml:lang="en">Statistical Evaluation of Patient Data</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
@@ -41114,7 +41116,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="StatisticalEvaluationOfPatientData"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2219</TripelRowNr>
     </owl:Axiom>
@@ -42592,7 +42594,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="StudyExploration">
 	<rdfs:label xml:lang="en">Study Exploration</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;EducationResearch"/>
+        <rdfs:subClassOf rdf:resource="EducationResearch"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -42615,7 +42617,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="StudyExploration"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;EducationResearch"/>
+        <owl:annotatedTarget rdf:resource="EducationResearch"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1982</TripelRowNr>
     </owl:Axiom>
@@ -45851,7 +45853,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
     <owl:Class rdf:about="VisitorAndInformationService">
 	<rdfs:label xml:lang="en">Visitor and Information Service</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;PatientCare"/>
+        <rdfs:subClassOf rdf:resource="PatientCare"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -45874,7 +45876,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="VisitorAndInformationService"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;PatientCare"/>
+        <owl:annotatedTarget rdf:resource="PatientCare"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2025</TripelRowNr>
     </owl:Axiom>
