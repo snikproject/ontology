@@ -6907,70 +6907,70 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2429</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2430</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2397</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2509</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2510</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForPreparingABillForThePatientInsurance"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2399</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForCreatingStatistics"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2494</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForVerifyingCodingDoneInDepartments"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2398</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2396</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureScoringOfThePatient"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2470</TripelRowNr>
@@ -7472,14 +7472,14 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CommunicationServer"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureMessageQueuing"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">157</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2590</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CommunicationServer"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureMulticasting"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">157</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2591</TripelRowNr>
@@ -8089,63 +8089,63 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ComputerizedPhysicianOrderEntrySystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureCalculateDosageOfDrugs"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2464</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ComputerizedPhysicianOrderEntrySystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeaturePrintingOfLabels"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2469</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ComputerizedPhysicianOrderEntrySystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideDrugCatalogs"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2462</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ComputerizedPhysicianOrderEntrySystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForMinimizingAdverseDrugEvents"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2463</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ComputerizedPhysicianOrderEntrySystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideOrdersForPatientRelatedDrugs"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2461</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ComputerizedPhysicianOrderEntrySystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideOrdersForPatientRelatedExaminations"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2465</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ComputerizedPhysicianOrderEntrySystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureSelectOrdersFromOrderSets"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2466</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ComputerizedPhysicianOrderEntrySystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureViewPatientRelatedAppointments"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2468</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ComputerizedPhysicianOrderEntrySystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForSchedulingAPatientSAppointment"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2467</TripelRowNr>
@@ -10254,35 +10254,35 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DataWarehouseSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAnalyzeData"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">131</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2562</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DataWarehouseSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureIntegrateDataFromDifferentApplicationComponents"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">131</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2560</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DataWarehouseSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForDataMining"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">131</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2563</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DataWarehouseSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForRecruitingOfPatients"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">131</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2564</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DataWarehouseSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureStructureData"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">131</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2561</TripelRowNr>
@@ -11524,56 +11524,56 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DocumentArchivingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAttachDigitalSignatures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">133</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2574</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DocumentArchivingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureCommunicateDocumentsToOtherApplications"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">133</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2575</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DocumentArchivingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureImportDocuments"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">133</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2568</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DocumentArchivingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureIndexDocumentContent"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">133</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2570</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DocumentArchivingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureManageStorageFormats"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">133</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2571</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DocumentArchivingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureManageStorageMedia"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">133</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2572</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DocumentArchivingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideAccessToArchivedInformation"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">133</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2573</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DocumentArchivingSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureScanDocuments"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">133</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2569</TripelRowNr>
@@ -12444,203 +12444,203 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAssignDoctorsToPatientsOrRooms"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2415</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAssignStaffToPatientsOrOutpatientUnits"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2445</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureCreatingARoster"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2414</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideACollectionOfInternalProcessesAndRegulations"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2553</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForAccountsPayable"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2542</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForAccountsReceivable"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2543</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForAssetAccounting"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2545</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForControlOfSecurityIssues"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2547</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForCostCenterAccounting"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2540</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForCostElementAccounting"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2541</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForCreatingARoster"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2432</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2554</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForGeneralLedgerAccounting"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2544</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForIncidentTracking"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2548</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForManagingAndMonitoringDisposal"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2558</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForManagingLogistics"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2555</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForManagingWardStaff"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2413</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForManagingWardStaff"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2431</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrderManagement"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2557</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrganizingCareerDevelopment"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2551</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrganizingRecruitment"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2549</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrganizingTraining"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2550</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOverheadCostManagement"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2538</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForPerformanceEvaluation"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2552</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForPreventiveMaintenance"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2546</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForProductCosting"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2539</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForStockKeeping"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2556</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureWorkScheduling"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2471</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="EnterpriseResourcePlanningSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForManagingOutpatientUnitsStaff"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2444</TripelRowNr>
@@ -14408,7 +14408,11 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Axiom>
 
 
-
+	<owl:ObjectProperty rdf:about="typicalFeature">
+		<rdfs:label xml:lang="en">typical feature</rdfs:label>
+		<rdfs:domain rdf:resource="&owl;Class"/>
+		<rdfs:range rdf:resource="Feature"/>
+	</owl:ObjectProperty>
 
     <owl:Class rdf:about="Feature">
 	<rdfs:label xml:lang="en">Feature</rdfs:label>
@@ -22294,14 +22298,14 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="IntegrationPlatform"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureServiceCombination"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2594</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="IntegrationPlatform"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureServiceOrchestration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2593</TripelRowNr>
@@ -23210,63 +23214,63 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LaboratoryInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAssignOrderAndBloodSamplesToDevices"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2531</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LaboratoryInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureCollectResultsFromDevices"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2532</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LaboratoryInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureCommunicateReportToOrderingUnit"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2536</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LaboratoryInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureDisplayEarlierLabResultsOfAPatient"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2533</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LaboratoryInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeaturePrepareReport"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2535</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LaboratoryInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForPreparingStatistics"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2537</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LaboratoryInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureReceiveBloodSamples"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2530</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LaboratoryInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureReceiveOrders"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2529</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LaboratoryInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureValidateResults"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2534</TripelRowNr>
@@ -25257,112 +25261,112 @@ goals, structures, and behaviors.</skos:definition>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeaturePrintReports"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2422</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideContextRelatedMedicalKnowledge"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2419</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingDiagnosis"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2424</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingMedicalAnamnesis"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2423</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingPlannedTasks"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2417</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingPlannedTasks"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2447</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForPreparingClinicalReports"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2421</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2426</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideGuidelinesForCarePlanning"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2418</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideGuidelinesForTreatmentPlanning"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2448</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForFiNalizingDocumentation"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2427</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureScanningDocumentsFromReferringPhysicianAndOtherSources"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2425</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingPatientsInformedConsent"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2495</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingPatientsInformedConsent"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2416</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForEnteringClinicalData"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2420</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MedicalDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForPatientsInformedConsent"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2446</TripelRowNr>
@@ -27862,77 +27866,77 @@ goals, structures, and behaviors.</skos:definition>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAssignDoctorsToPatientsOrRooms"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2443</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureCommunicateDischargeInformation"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2442</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingDiagnosisAndProblems"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2435</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingNursingAims"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2436</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingNursingTasks"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2437</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingPerformedTasks"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2433</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingTheNursingHistory"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2439</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2434</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForWritingTheNursingDischargeReport"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2440</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForFinalizingNursingDocumentation"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2441</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="NursingManagementAndDocumentationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureSupportCreationOfANursingCarePlan"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2438</TripelRowNr>
@@ -28694,98 +28698,98 @@ goals, structures, and behaviors.</skos:definition>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureDisplayVitalParametersFromMonitoringDevices"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2496</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingDiagnosis"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingMedicalAnamnesis"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2499</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingProceduresAndOutcomes"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2497</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForPreparingOperationReports"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2501</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForCheckInOfPatient"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2498</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForManagingAppointments"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2503</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForManagingMedicalDevices"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2504</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForManagingRooms"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2507</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2505</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrderingPatientTransferToWard"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2502</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForPreparingWorkSchedules"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2508</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForPreparingWorkSchedules"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2511</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForCreatingOperationPlans"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2506</TripelRowNr>
@@ -30616,84 +30620,84 @@ goals, structures, and behaviors.</skos:definition>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeaturePrintForms"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2457</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeaturePrintReports"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2451</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForClinicalReports"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2450</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingDiagnosis"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2454</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingMedicalAnamnesis"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2453</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForWritingTheDischargeReport"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2455</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForCheckInOfPatient"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2452</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForFinalizingDocumentation"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2456</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2459</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForPreparingWardRelatedStatistics"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2458</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideReminderForFulfillingOfLegalReportingRequirements"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2460</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OutpatientManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForEnteringClinicalData"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2449</TripelRowNr>
@@ -31408,91 +31412,91 @@ goals, structures, and behaviors.</skos:definition>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAdmitPatientsToTheWard"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2403</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAssignPatientsToRoomsAndBeds"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2404</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureMergePatientInformationFromTwoRecords"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2401</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2400</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForInitiationOfFinalBilling"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2406</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2402</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrderingTransportServices"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2411</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForPreparingHospitalWideStatistics"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2405</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideRelativesWithInformationOnTheLocationOfAPatient"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2412</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideReminderForFulfillingOfLegalReportingRequirements"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2407</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureRetrievePatient"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2408</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAdministrateTheMasterPatientIndex"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2409</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministrationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForSchedulingPatientsAppointments"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2410</TripelRowNr>
@@ -32244,154 +32248,154 @@ goals, structures, and behaviors.</skos:definition>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAssignStaffToPatientsOrRooms"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2488</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureCommunicateDischargeInformation"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2481</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureCreateWorklistForAGroupOfPatients"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2476</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureDisplayVitalParametersFromMonitoringDevices"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2472</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureDisplayWarningMessages"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2473</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureOfferDecisionSupportForCarePlanning"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2493</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureOrganizePatientTransport"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2487</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeaturePrintForms"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2477</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingClinicalProcedures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2474</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingDiagnosis"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2491</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingMedicalAnamnesis"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2490</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForDocumentingMedications"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2475</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForWritingATransferLetterOrDischargeReport"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2479</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForCheckInOfPatient"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2489</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForCreatingStatistics"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2478</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForFinalizingDocumentation"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2480</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForManagingMedicalDevices"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2486</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrderingConsumables"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2483</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrderingDrugs"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2484</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrderingLaundry"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2485</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForOrderingPatientTransferToOtherUnits"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2482</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientDataManagementSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForPreparingACarePlan"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2492</TripelRowNr>
@@ -34023,35 +34027,35 @@ goals, structures, and behaviors.</skos:definition>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PictureArchivingAndCommunicationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureArchivePictures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">126</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2527</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PictureArchivingAndCommunicationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureCommunicatePictures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">126</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2526</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PictureArchivingAndCommunicationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureDisplayPictures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">126</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2524</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PictureArchivingAndCommunicationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureModifyPresentationOfPictures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">126</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2525</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PictureArchivingAndCommunicationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureSearchForOldPictures"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">126</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2528</TripelRowNr>
@@ -37760,77 +37764,77 @@ goals, structures, and behaviors.</skos:definition>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAssignOrdersToModalities"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2514</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureAssignPatientsToModalities"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2512</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureCreationOfRadiologyReports"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2521</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureManageModalities"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2516</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeaturePreparingStatistics"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2522</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideFormsForWritingAReport"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2515</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvideMeansForCheckInOfPatient"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2517</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureProvisionOfPatientDataAndExaminationParameters"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2520</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureReceiveOrders"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2513</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureRegisteringPatients"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2518</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="RadiologyInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&meta;typicalFeature"/>
+        <owl:annotatedProperty rdf:resource="&bb;typicalFeature"/>
         <owl:annotatedTarget rdf:resource="FeatureWorkflowManagement"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2519</TripelRowNr>

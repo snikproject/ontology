@@ -37,7 +37,6 @@
 		<ov:defines rdf:resource="Management"/>
 		<ov:defines rdf:resource="EducationResearch"/>
 		<ov:defines rdf:resource="Role"/>
-		<ov:defines rdf:resource="Feature"/>
 		<ov:defines rdf:resource="HisStakeholder"/>
 		<ov:defines rdf:resource="EntityType"/>
 		<ov:defines rdf:resource="PassiveEntityType"/>
@@ -74,16 +73,6 @@
 		<ov:defines rdf:resource="isResponsibleFor"/>
 	</owl:Ontology>
 
-	<owl:ObjectProperty rdf:about="typicalFeature">
-		<rdfs:label xml:lang="en">typical feature</rdfs:label>
-		<rdfs:domain rdf:resource="&owl;Class"/>
-		<rdfs:range rdf:resource="Feature"/>
-	</owl:ObjectProperty>
-
-	<owl:Class rdf:about="Feature">
-		<rdfs:subClassOf rdf:resource="EntityType"/>
-		<rdfs:label xml:lang="en">feature</rdfs:label>
-	</owl:Class>
 
 	<owl:ObjectProperty rdf:about="isBasedOn">
 		<rdfs:label xml:lang="en">is based on</rdfs:label>
