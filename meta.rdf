@@ -316,7 +316,7 @@
 
 
 	<owl:Class rdf:about="ApplicationComponent">
- 		<rdfs:label xml:lang="en">ApplicationComponent</rdfs:label>
+ 		<rdfs:label xml:lang="en">application component</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<subTop rdf:resource="EntityType"/>
@@ -325,7 +325,7 @@
 	</owl:Class>
 
 	<owl:Class rdf:about="ComputerBasedApplicationComponent">
- 		<rdfs:label xml:lang="en">ComputerBasedApplicationComponent</rdfs:label>
+ 		<rdfs:label xml:lang="en">computer based application component</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<subTop rdf:resource="EntityType"/>
@@ -334,7 +334,7 @@
 	</owl:Class>
 
 	<owl:Class rdf:about="InformationManagementEntityType">
- 		<rdfs:label xml:lang="en">InformationManagementEntityType</rdfs:label>
+		<rdfs:label xml:lang="en">information management entity type</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -342,7 +342,7 @@
 	</owl:Class>
 
 	<owl:Class rdf:about="AdministrativeEntityType">
- 		<rdfs:label xml:lang="en">AdministrativeEntityType</rdfs:label>
+ 		<rdfs:label xml:lang="en">administrative entity type</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -350,7 +350,7 @@
 	</owl:Class>
 
 	<owl:Class rdf:about="PatientCareEntityType">
- 		<rdfs:label xml:lang="en">PatientCareEntityType</rdfs:label>
+ 		<rdfs:label xml:lang="en">patient care entity type</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -358,7 +358,7 @@
 	</owl:Class>
 
 	<owl:Class rdf:about="ManagementEntityType">
- 		<rdfs:label xml:lang="en">ManagementEntityType</rdfs:label>
+ 		<rdfs:label xml:lang="en">management entity type</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
@@ -366,7 +366,7 @@
 	</owl:Class>
 
 	<owl:Class rdf:about="EducationResearchEntityType">
- 		<rdfs:label xml:lang="en">EducationResearchEntityType</rdfs:label>
+ 		<rdfs:label xml:lang="en">education research entity type</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
