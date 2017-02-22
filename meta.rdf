@@ -220,12 +220,14 @@
 		<rdfs:subClassOf rdf:resource="Top"/>
 		<rdfs:label xml:lang="en">entity type</rdfs:label>
 		<rdfs:label xml:lang="de">Objekttyp</rdfs:label>
+		<rdfs:comment xml:lang="en">An entity type is any kind of information that is consumed, produced or modified by a task. These can be documents, data structures, objects, roles, specified by data types or even paper based artifacts.</rdfs:comment>
 		<owl:disjointWith rdf:resource="Function"/>
 		<owl:disjointWith rdf:resource="Role"/>
 	</owl:Class>
 
 	<owl:Class rdf:about="Function">
 		<rdfs:subClassOf rdf:resource="Top"/>
+		<rdfs:comment xml:lang="en">Functions describe what is to be done in IM departments. They update or use information which is represented by entity.</rdfs:comment>
 		<rdfs:label xml:lang="en">Function</rdfs:label>
 		<rdfs:label xml:lang="de">Aufgabe</rdfs:label>
 		<owl:disjointWith rdf:resource="EntityType"/>
