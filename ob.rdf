@@ -10829,7 +10829,6 @@
         <skos:altLabel xml:lang="en">Management of Information Systems</skos:altLabel>
         <rdfs:subClassOf rdf:resource="&meta;Function"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
-        <rdfs:subClassOf>
     </owl:Class>
 
 
