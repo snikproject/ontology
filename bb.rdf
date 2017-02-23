@@ -959,7 +959,6 @@
         <ov:defines rdf:resource="Ccow"/>
         <ov:defines rdf:resource="VisitorAndInformationService"/>
         <ov:defines rdf:resource="AdministrationOfBusinessTripsAndFurtherTraining"/>
-        <ov:defines rdf:resource="transferDiagnosis"/>
         <ov:defines rdf:resource="ProjectPlanningPhase"/>
         <ov:defines rdf:resource="ScanningDocumentsFromReferringPhysicianAndOtherSources"/>
         <ov:defines rdf:resource="InformationSystemImprovement"/>
@@ -1604,10 +1603,6 @@
     <rdfs:domain rdf:resource="HealthCareNetwork"/>
     <rdfs:range rdf:resource="&xsd;string"/>
     <page>285</page>
-  </owl:DatatypeProperty>
-
-  <owl:DatatypeProperty rdf:about="transferDiagnosis">
-    <rdfs:label xml:lang="en">transfer diagnosis</rdfs:label>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="usageDescription">
