@@ -115,7 +115,6 @@
 <ov:defines rdf:resource="CommunicationDiagram"/>
 <ov:defines rdf:resource="CommunicationInterface"/>
 <ov:defines rdf:resource="CommunicationLink"/>
-<ov:defines rdf:resource="CommunicationLink"/>
 <ov:defines rdf:resource="Completeness"/>
 <ov:defines rdf:resource="CompleteSurvey"/>
 <ov:defines rdf:resource="CompletionOfProjectDocumentation"/>

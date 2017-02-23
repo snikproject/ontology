@@ -12992,6 +12992,7 @@ Object Workgroup Standard</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <rdfs:subClassOf rdf:resource="&meta;InformationEntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1734</ID>
@@ -21041,6 +21042,7 @@ Object Workgroup Standard</skos:altLabel>
 	<rdfs:label xml:lang="en">Information Management in Hospitals</rdfs:label>
         <skos:altLabel xml:lang="en">HIS Management</skos:altLabel>
         <rdfs:subClassOf rdf:resource="Information Management"/>
+        <subTopClass rdf:resource="Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
