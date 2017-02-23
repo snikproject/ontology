@@ -100,7 +100,6 @@
 <ov:defines rdf:resource="CanCriterion"/>
 <ov:defines rdf:resource="CardTechnique"/>
 <ov:defines rdf:resource="CentralComputerAndTelecommunicationsAgency"/>
-<ov:defines rdf:resource="Certification"/>
 <ov:defines rdf:resource="ChangeManagement"/>
 <ov:defines rdf:resource="ChangeRequest"/>
 <ov:defines rdf:resource="ChangeRequestList"/>
@@ -298,7 +297,7 @@
 <ov:defines rdf:resource="InformationAcquisitionSystemAnalysis"/>
 <ov:defines rdf:resource="InformationAndCommunicationSystem"/>
 <ov:defines rdf:resource="InformationAndKnowledgeLogistics"/>
-<ov:defines rdf:resource="InformationManagementEntityType"/>
+<ov:defines rdf:resource="InformationManagement"/>
 <ov:defines rdf:resource="InformationObject"/>
 <ov:defines rdf:resource="InformationProcess"/>
 <ov:defines rdf:resource="InformationProcessingTool"/>
@@ -1125,7 +1124,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.4</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ID>
@@ -1228,7 +1227,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">249</ID>
@@ -1325,7 +1324,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">402</ID>
@@ -1358,7 +1357,7 @@
 
     <owl:Class rdf:about="AnalystTeam">
 	<rdfs:label xml:lang="en">Analyst Team</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <meta:subTopClass rdf:resource="&meta;Role"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1743,7 +1742,7 @@
 	<rdfs:label xml:lang="en">Application System Maintenance</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1697</ID>
@@ -1996,7 +1995,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
@@ -2195,7 +2194,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</ID>
@@ -2346,7 +2345,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ID>
@@ -2665,7 +2664,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Modellierung von Geschäftsprozessen auf Basis eines Metamodells. Typische Methoden zur Geschäftsprozessmodellierung sind Vorgangsketten, Ereignisgesteuerte Prozessketten, UML-Aktivitätsdiagramme sowie die Business Process Modeling Notation.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">326</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -2796,9 +2795,6 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="Certification"/>
-
-
     <owl:Class rdf:about="ChangeManagement">
 	<rdfs:label xml:lang="en">Change Management</rdfs:label>
         <rdfs:subClassOf>
@@ -2827,7 +2823,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Management von Änderungswünschen während einer Systemeinführung oder des Betriebs von Informationssystemen. Hierzu muss festgelegt werden, wie und von wem neue Anforderungen an eine Komponente eines Informationssystems (sog. Change Requests) gesammelt und aufbereitet werden, wer über ihre Umsetzung entscheidet und wer sie schließlich umsetzt.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">323</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -3141,7 +3137,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Vorgang, bei dem ein Auftraggeber ein Anwendungssystem nach seiner Inbetriebnahme als Ereignis einer Systemeinführung akzeptiert. Die Systemabnahme dokumentiert, dass das Anwendungssystem alle im Pflichtenfeld bzw. im Vertrag vereinbarten Kriterien erfüllt. Die Ergebisse der Systemabnahme werden in einem Abnahmeprotokoll festgehalten.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">344</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -3264,8 +3260,8 @@
 
 
     <owl:Class rdf:about="CommunicationInterface">
-	<rdfs:label xml:lang="en">Communication Interface 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
+	<rdfs:label xml:lang="en">Communication Interface</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
@@ -3283,7 +3279,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CommunicationInterface"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="InformationManagementEntityType"/>
+        <owl:annotatedTarget rdf:resource="&meta;InformationManagementEntityType"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2035</TripelRowNr>
     </owl:Axiom>
@@ -3305,7 +3301,7 @@
 	<rdfs:label xml:lang="en">Communication Link</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1590</ID>
@@ -3366,7 +3362,7 @@
 	<rdfs:label xml:lang="en">Completion of Project Documentation</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1522</ID>
@@ -3375,8 +3371,8 @@
 
 
     <owl:Class rdf:about="ComponentOfAnInformationSystem">
-	<rdfs:label xml:lang="en">Component of an Information System 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
+	<rdfs:label xml:lang="en">Component of an Information System</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -3387,7 +3383,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ComponentOfAnInformationSystem"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="InformationManagementEntityType"/>
+        <owl:annotatedTarget rdf:resource="&meta;InformationManagementEntityType"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2028</TripelRowNr>
     </owl:Axiom>
@@ -3450,7 +3446,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248</ID>
@@ -3585,7 +3581,7 @@
 	<rdfs:label xml:lang="en">Conflict Management</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
 	<skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1789</ID>
@@ -3699,7 +3695,7 @@
 
     <owl:Class rdf:about="Contractor">
 	<rdfs:label xml:lang="en">Contractor</rdfs:label>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <meta:subTopClass rdf:resource="&meta;Role"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4149,7 +4145,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</ID>
@@ -4238,7 +4234,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ID>
@@ -4309,7 +4305,7 @@
     <owl:Class rdf:about="CreativityTechnique">
 	<rdfs:label xml:lang="en">Creativity Technique</rdfs:label>
         <rdfs:subClassOf rdf:resource="ProjectPlanningMethod"/>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -4396,7 +4392,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ID>
@@ -4624,7 +4620,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</ID>
@@ -4740,7 +4736,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-	<rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+	<rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Unter Adaptierung verstehen wir die Anpassung eines Produkts an den Bereich, in dem es eingeführt werden soll. Anpassung eines Softwareproduktes an die Gegebenheiten eines Bereichs im Rahmen einer Systemeinführung. Das bedeutet, dass nicht der Programmcode geändert wird, sondern dass das Softwareprodukt entsprechend den Möglichkeiten an die jeweils bereichsspezifischen Anforderungen angepasst ist.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">241, 320</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -5071,7 +5067,7 @@
 	<rdfs:label xml:lang="en">Data Backup</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1698</ID>
@@ -5089,7 +5085,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Modellierung von Objektsystemen auf Basis eines Metamodells. Typische Methoden zur Datenmodellierung sind Entity-Relationship-Modelle und UML-Klassendiagramme.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">324</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -5270,7 +5266,7 @@
 	<rdfs:label xml:lang="en">Database Administration</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1688</ID>
@@ -5376,7 +5372,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</ID>
@@ -5509,7 +5505,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <meta:subTopClass rdf:resource="&meta;Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
@@ -5576,7 +5572,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">344</ID>
@@ -5600,7 +5596,7 @@
 	<rdfs:label xml:lang="en">Definining Project Organization</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1449</ID>
@@ -5623,7 +5619,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">159</ID>
@@ -5694,7 +5690,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Die Einführungsstrategie beschreibt Zeitpunkt und Zeitraum der Um-stellung sowie die gewählte Vorgehensweise. Sie bildet die Basis für das weitere Vorgehen der Systemeinführung</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -5804,7 +5800,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</ID>
@@ -6207,7 +6203,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">394</ID>
@@ -6392,7 +6388,7 @@
     <owl:Class rdf:about="DiffusionOfInnovationTheory">
 	<rdfs:label xml:lang="en">Diffusion of Innovation Theory</rdfs:label>
         <rdfs:subClassOf rdf:resource="MethodOfSystemIntroduction"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -6414,7 +6410,7 @@
     <owl:Class rdf:about="DirectAward">
 	<rdfs:label xml:lang="en">Direct Award</rdfs:label>
         <rdfs:subClassOf rdf:resource="Tender"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -6514,7 +6510,7 @@
     <owl:Class rdf:about="DocumentationAndFormAnalysis">
 	<rdfs:label xml:lang="en">Documentation and Form Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationAcquisitionMethod"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -6690,6 +6686,8 @@
 
     <owl:Class rdf:about="EarliestProjectEndDate">
 	<rdfs:label xml:lang="en">Earliest Project End Date</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -6700,6 +6698,8 @@
 
     <owl:Class rdf:about="EarliestProjectStartDate">
 	<rdfs:label xml:lang="en">Earliest Project Start Date</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -6725,7 +6725,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</ID>
@@ -6856,7 +6856,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Integrierte, umfassende Darstellung des Informationssystems eines Bereichs bzw. eines Unternehmens basierend auf einem Metamodell. Beispiele für Metamodelle zur Unternehmensmodellierung sind ARIS uns 3LGM².</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">347</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -6953,22 +6953,6 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="EntityType">
-	<rdfs:label xml:lang="de">Objekttyp</rdfs:label>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <skos:closeMatch rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="de">Denkeinheit, welche durch die Ermittlung gemeinsamer Eigenschaften eine Menge gleichartiger 0bjekte mittels Abstraktion zusammenfasst.</skos:definition>
-        <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</meta:DefinitionDEPage>
-        <page></page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1768</ID>
-        <skos:altLabel xml:lang="de">Klasse</skos:altLabel>
-	<skos:altLabel xml:lang="de">Begriff</skos:altLabel>
-	<skos:altLabel xml:lang="en">Entity Type</skos:altLabel>
-	<skos:altLabel xml:lang="en">Concept</skos:altLabel>
-    </owl:Class>
-
-
     <owl:Class rdf:about="EnvironmentAnalysis">
 	<rdfs:label xml:lang="en">Environment Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="SystemAnalysisMethod"/>
@@ -7017,7 +7001,7 @@
 	<rdfs:label xml:lang="en">Error Management</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1703</ID>
@@ -7466,7 +7450,7 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">In der Evaluationsplanung werden zunächst Motivation und Kontext der Systemevaluation geklärt und insbesondere die zu evaluierten Komponente und die Ziele ihrer Einführung festgehalten. Anschlie- ßend werden die Ziele der Systemevaluation abgeleitet. Schließlich wird der Evaluationsplan erstellt, welcher ein geeignetes Studiendesign sowie Methoden zur Informationsbeschaffung und Datenauswertung festlegt.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">262</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -7794,7 +7778,7 @@
 	<rdfs:label xml:lang="en">Evaluation of Communication</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Evaluation von Sitzungsmanagement, Protokollen, Projektdokumentation, Kommunikation im Team und nach außen, Einhalten von Vorgaben</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">113</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -7808,7 +7792,7 @@
 	<rdfs:label xml:lang="en">Evaluation of Project Management</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Evaluation von Zieldefinition, Projektbudget, Projektorga-nisation, Kompetenzen aller Teammitglieder, Risikomanagement, Änderungen am Projektplan</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">113</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -7821,7 +7805,7 @@
 	<rdfs:label xml:lang="en">Evaluation of Teamwork</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Evaluation von Teamaufbau, Konflikten im Team, Rolle des Projektleiters, Zusammenarbeit mit Auftraggeber und PLA, Unterstützung durch das Projektumfeld</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">113</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -7835,7 +7819,7 @@
 	<rdfs:label xml:lang="en">Evaluation of Technical Aspects</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Evaluation von technischer Komplexität, technischem Wandel, Akzeptanz bei zukünftigen Anwendern</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">113</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -7942,7 +7926,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</ID>
@@ -8019,7 +8003,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</ID>
@@ -8138,7 +8122,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</ID>
@@ -8245,7 +8229,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Der Projektabschluss umfasst auch ein internes Projektreview im Projektteam, bevor das Projektteam aufgelöst wird. Im Rahmen einer Abschlusssitzung wird hierbei das Projekt inhaltlich und organisato-risch kritisch betrachtet. Was ist gut gelaufen, was hätte man besser machen können? Was hat jeder Einzelne für sich gelernt? Was würde man beim nächsten vergleichbaren Projekt anders machen? Wie kann sichergestellt werden, dass die Projektergebnisse auch umgesetzt oder fortgeführt werden? Gibt es noch zu klärende offene Punkte? Das Projektreview sollte mit einem Lob und Dank an alle Teilnehmer und einer kleinen Abschlussfeier enden. Eine Checkliste für das Projekt-review finden Sie in Kapitel 7.3</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">111</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -8368,7 +8352,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</ID>
@@ -8410,7 +8394,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164</ID>
@@ -8451,7 +8435,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Die Verifikation der Ergebnisse der Systemanalyse und Systembe-wertung erfolgt auf Basis der vorliegenden (mehr oder weniger for-malen) Ist-Beschreibung und Ist-Bewertung. Sind die Ergebnisse selbsterklärend, wurden also einfache, ohne weitere Unterweisung verständliche Darstellungsformen verwendet, und ist die Komplexität des Modells eher gering, dann kann das Modell ausgewählten Betei-ligten zur selbstständigen Durchsicht vorgelegt werden. Ansonsten empfehlen sich geführte Verifikationssitzungen. Hierbei sollten in der Regel Mitarbeiter des Analyseteams ausgewählten Beteiligten die Ergebnisse vorstellen und Anmerkungen zur Korrektheit, Vollstän-digkeit und Angemessenheit einholen. Bei formalen Modellen sollte genügend Raum gegeben werden, die verwendeten Modellierungs-methoden vorzustellen, wobei das Prinzip gelten muss: „So wenig wie möglich, aber so viel wie nötig“. Die Ergebnisse der Verifikations-sitzungen sind in einem Protokoll zusammenzustellen und den Betei-ligten zur Bestätigung zu übermitteln. Eine Verifikationssitzung sollte in der Regel nicht länger als zwei Stunden dauern, um Ermüdungs-effekten und insbesondere dem „Wird schon stimmen“-Effekt vorzu-beugen. Gegebenenfalls sind mehrere Verifikationssitzungen mit unterschiedlichen Beteiligten notwendig.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -8507,7 +8491,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">335</ID>
@@ -8542,7 +8526,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">297</ID>
@@ -8589,7 +8573,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ID>
@@ -8667,7 +8651,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Zur Klärung von Zielsetzung und Fragestellungen sowie zur Defini-tion des Problembereichs ist es notwendig, Sondierungsgespräche mit dem Auftraggeber zu führen und den betroffenen Bereich zu besuchen (vgl. Abb. 8.4). Orientiert sich die Fragestellung an Arbeitsabläufen, so können diese bei den Sondierungsgesprächen grob durchgespielt und Dokumente und Beschreibungen gesammelt werden. Sinnvoll ist die Erstellung eines Ergebnisprotokolls der Sondierungsgespräche</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">127</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -9092,7 +9076,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</ID>
@@ -9123,7 +9107,7 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Neben der Vorlage eines Abschlussberichts sollte dem Auftraggeber und weiteren interessierten Personen mündlich über die wesentlichen Ergebnisse berichtet werden. In einer solchen Präsentation können Fragen und Unklarheiten schneller geklärt und das weitere Vorgehen abschließend diskutiert werden. Eventuelle neue Erkenntnisse oder Klärungen können danach noch in den schriftlichen Abschlussbericht vor seiner endgültigen Verabschiedung eingebaut werden.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -9181,7 +9165,7 @@
 	<rdfs:label xml:lang="en">First-Level Support</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Auf der ersten Ebene gibt es einen definierten ersten Ansprechpartner, der sich um alle Arbeiten und Probleme der Benutzer kümmert, ggf. auch für mehrere in einem Bereich eingesetzte Anwendungssysteme. Dies kann z. B. ein Anwendungsbetreuer sein, der dem Bereich zugeordnet ist, ein speziell geschulter Benutzer vor Ort (Key User) oder auch eine zentrale Benutzer-Hotline. Falls es Probleme oder Fragen gibt, die der First-Level-Support als Generalist nicht lösen kann, gibt er sie an den Second-Level-Support weiter. Erste Ebene der Anwendungsbetreuung im Rahmen des Systembetriebs, bei der ein klar definierter Ansprechpartner sich um Routinearbeiten sowie um alle Probleme der Benutzer kümmert, ggf. auch für mehrere in einem Bereich eingesetzten Anwendungssysteme.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284, 326</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -9244,7 +9228,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ID>
@@ -9322,7 +9306,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ID>
@@ -9393,7 +9377,7 @@
     <owl:Class rdf:about="FunctionAnalysis">
 	<rdfs:label xml:lang="en">Function Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="SystemAnalysisMethod"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="de">Hier sollen die Unternehmensaufgaben eines betrachteten Bereichs analysiert werden, z. B. die besonderen diagnostischen und therapeutischen Aufgaben einer Ambulanz</skos:definition>
@@ -9653,7 +9637,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Nachdem alle organisatorischen und technischen Vorbereitungen ab-geschlossen und die Schulungen durchgeführt sind, erfolgt die eigent-liche Inbetriebnahme („Go-Live“) entsprechend der vorher festgeleg-ten Einführungsstrategie. Es ist wichtig, alle Betroffenen mehrmals über Zeitpunkt und Zeitraum der Inbetriebnahme zu informieren, um alle noch offenen Fragen im Vorfeld abklären zu können. Falls so vereinbart, können der eigentlichen Inbetriebnahme eine definierte Testphase und/oder eine Pilotierung (siehe weiter oben) vorausgehen. Zeitpunkt, an dem entsprechend der festgelegten Einführungsstrategie der Echtbetrieb eines Anwendungssystems beginnt. Die Inbetriebnahme stellt einen wichtigen Meilenstein jeder Systemeinführung dar.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">249, 326</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -9799,7 +9783,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">In der Zieldefinition wird festgehalten, welche Ziele in Zukunft durch die geplante Modifikation erreicht werden sollen, wie z. B. Optimie-rung von Arbeitsabläufen und/oder Auswahl eines neuen Produkts.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">186</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -9988,22 +9972,14 @@
 
     <owl:Class rdf:about="HISCertification">
 	<rdfs:label xml:lang="en">HIS Certification</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Certification"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2034</ID>
-            </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="HISCertification"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Certification"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2034</TripelRowNr>
-    </owl:Axiom>
-
+    </owl:Class>
+  
 
     <owl:Class rdf:about="HandoverCertificate">
 	<rdfs:label xml:lang="en">Handover Certificate</rdfs:label>
@@ -10273,7 +10249,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">212</ID>
@@ -10573,7 +10549,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</ID>
@@ -10707,7 +10683,7 @@
     <owl:Class rdf:about="InformalModelingTechnique">
 	<rdfs:label xml:lang="en">Informal Modeling Technique</rdfs:label>
         <rdfs:subClassOf rdf:resource="ModelingMethod"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -10765,7 +10741,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Der Analyseplanung folgt die Informationsbeschaffung, in der je nach Fragestellung Methoden wie Befragung, Beobachtung oder Dokumentenanalyse eingesetzt werden. Die Informationsbeschaffung erfolgt durch das Analyseteam in der Regel unter Einbeziehung von Mitarbeitern des betrachteten Bereichs.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</meta:DefinitionDEPage>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">384</ID>
@@ -10848,10 +10824,13 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1948</ID>
             </owl:Class>
 
-
-    <owl:Class rdf:about="InformationManagementEntityType">
-	<rdfs:label xml:lang="en">Information Management Entity Type 1</rdfs:label>
-        <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
+    <owl:Class rdf:about="InformationManagement">
+	<rdfs:label xml:lang="en">Information Management</rdfs:label>
+	<rdfs:label xml:lang="de">Informationsmanagement</rdfs:label>
+        <skos:altLabel xml:lang="en">Management of Information Systems</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="&meta;Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
     </owl:Class>
 
 
@@ -11077,7 +11056,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">298</ID>
@@ -11177,7 +11156,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Informations- und Wissenslogistik umfasst das Bereitstellen - der richtigen Information und des richtigen Wissens - zum richtigen Zeitpunkt - am richtigen Ort - in der richtigen Form - für die richtigen Personen so, dass die richtigen Entscheidungen getroffen werden können.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16, 327</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -11266,7 +11245,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</ID>
@@ -11373,7 +11352,7 @@
 	<rdfs:label xml:lang="en">Interface Management</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1689</ID>
@@ -11476,7 +11455,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">525</ID>
@@ -11735,7 +11714,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ID>
@@ -12094,7 +12073,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">390</ID>
@@ -12286,7 +12265,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">468</ID>
@@ -12322,7 +12301,7 @@
 	<rdfs:label xml:lang="en">Maintenance of Centralized Technical Components</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1699</ID>
@@ -12334,7 +12313,7 @@
 	<rdfs:label xml:lang="en">Maintenance of Decentralized Technical Components</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1700</ID>
@@ -12388,7 +12367,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Management von Informationssystemen bedeutet, Informationssysteme zu planen, auf der Grundlage dieser Planungen den Aufbau und die Weiterentwicklung ihrer Architektur und ihren Betrieb zu steuern und die Einhaltung der Planvorgaben und den Betrieb zu überwachen.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -12484,7 +12463,7 @@
 	<rdfs:label xml:lang="en">Market Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="SystemSelectionMethod"/>
         <rdfs:subClassOf rdf:resource="InformationAcquisitionMethodSpecification"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -12580,7 +12559,7 @@
 	<rdfs:label xml:lang="en">Meeting Management</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Organisation von Sitzungen im Projektteam, so dass die Sitzungen effizient und zielgerichtet ablaufen können. Dazu gehört die Vorbereitung, Durchführung und Nachbereitung von Sitzungen. Sitzungsmanagement ist die Aufgabe des Projektleiters.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">341</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -12893,7 +12872,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</ID>
@@ -13059,7 +13038,7 @@
 	<rdfs:label xml:lang="en">Monitoring of Defect Fixes</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1524</ID>
@@ -13298,7 +13277,7 @@
 	<rdfs:label xml:lang="en">Network Management</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1690</ID>
@@ -13307,7 +13286,7 @@
 
 
     <owl:Class rdf:about="NonComputerBasedApplicationComponent">
-	<rdfs:label xml:lang="en">Non-Computer-Based Application Component 1</rdfs:label>
+	<rdfs:label xml:lang="en">Non-Computer-Based Application Component</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
@@ -13490,7 +13469,7 @@
 	<rdfs:label xml:lang="en">Objective of Analysis</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">vor der Durchführung einer Systemanalyse und -bewertung zu klären, welcher Informationsbedarf besteht, welche Zielsetzung verfolgt wird, welche Fragestellungen konkret beantwortet und welche Entschei-dungen auf ihrer Basis getroffen werden sollen.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">126</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -13671,7 +13650,7 @@
     <owl:Class rdf:about="OpenTender">
 	<rdfs:label xml:lang="en">Open Tender</rdfs:label>
         <rdfs:subClassOf rdf:resource="Tender"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -13710,7 +13689,7 @@
 	<rdfs:label xml:lang="en">Operational HIS Directing</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1960</ID>
@@ -13727,7 +13706,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">945</ID>
@@ -13750,7 +13729,7 @@
 	<rdfs:label xml:lang="en">Operational HIS Monitoring</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</ID>
@@ -13845,7 +13824,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.4</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ID>
@@ -14044,7 +14023,7 @@
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Perspektive des Managements eines Informationssystems, welches sich mit der Organisation des Betriebs eines lnformationssystems befasst.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -14243,7 +14222,7 @@
 	<rdfs:label xml:lang="en">Organizational Development</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1691</ID>
@@ -14296,7 +14275,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</ID>
@@ -14464,7 +14443,7 @@
 
 
     <owl:Class rdf:about="OrganizationalSystem">
-	<rdfs:label xml:lang="en">Organizational System 1</rdfs:label>
+	<rdfs:label xml:lang="en">Organizational System</rdfs:label>
         <rdfs:subClassOf rdf:resource="NonComputerBasedApplicationComponent"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -14572,7 +14551,7 @@
 	<rdfs:label xml:lang="en">Outsourcing</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Auslagerung einzelner Aufgaben des Betriebs von Informationssystemen an externe Anbieter.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -14636,13 +14615,16 @@
 
 
     <owl:Class rdf:about="PatientIdentification">
-	<rdfs:label xml:lang="en">Patient Identification 1</rdfs:label>
+	<rdfs:label xml:lang="en">patient identification</rdfs:label>
+	<rdfs:label xml:lang="de">Patientenidentifizierung</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
     </owl:Class>
 
 
     <owl:Class rdf:about="PatientIdentificationAndCheckingForRecurrent">
-	<rdfs:label xml:lang="en">Patient Identification and Checking for Recurrent 1</rdfs:label>
+	<rdfs:label xml:lang="en">Patient Identification and Checking for Recurrent</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -14692,7 +14674,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">219</ID>
@@ -14848,7 +14830,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Initiale Inbetriebnahme eines Anwendungssystems in einem ausgewählten Bereich (dem Pilotbereich). Siehe auch Roll-Out.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">240, 334</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -14916,7 +14898,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ID>
@@ -15007,7 +14989,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</ID>
@@ -15136,7 +15118,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</ID>
@@ -15227,7 +15209,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Während der Aufbereitung und Modellierung werden die Ergebnisse der Informationsbeschaffung geeignet zusammengestellt. Hierfür können informelle, semi-formale oder formale Modellierungsmetho-den eingesetzt werden. Die Modellierung erfolgt durch das Analy-seteam. Außerdem wird ggf. die Systembewertung durch die Analyse von Stärken und Schwächen anhand von definierten Bewertungs-kriterien durchgeführt. In diesem Schritt werden die Ergebnisse der Informationsbeschaffung aufbereitet und bei Bedarf in formalen Modellen dargestellt. Ziel ist es, die Vielfalt an Informationen, welche sich in den Befragungen, Beobachtungen und Datenbestandsanalysen ergeben hat, in Hinblick auf die Fragestellungen der Systemanalyse prägnant zusammen zu fas-sen. So müssen eine Vielzahl an einzelnen Zeitmessungen bei der Arztbriefschreibung zu einem Gesamtwert für die mittlere Prozess-dauer oder eine Vielzahl an Einzel-Beobachtungen zusammengeführt werden, um ein Gesamtbild des Ablaufs der Arztbriefschreibung zu erhalten. Wie in Kapitel 0 dargestellt, verstehen wir unter einem Modell die vereinfachte Repräsentation der Wirklichkeit oder eines Ausschnitts davon. Dabei gibt das Metamodell die zu verwendende Modellierungssprache vor.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125, 135</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -15326,7 +15308,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</ID>
@@ -15379,7 +15361,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Bereiten Sie Ihr Interview sorgfältig vor, auch dadurch, dass Sie sich in Sondierungsgesprächen und Vor-Ort-Besuchen einen ersten Ein-druck von einem Bereich machen.  Erproben Sie den Interviewleitfaden vor dem ersten Einsatz möglichst realitätsnah. Erproben Sie dabei auch unbedingt die geplanten Aus-wertungsverfahren.  Holen Sie rechtzeitig die Genehmigung für die Befragung ein und ma-chen Sie frühzeitig Termine für das Interview aus (z. B. während einer Informationsveranstaltung zur Systemanalyse). Achten Sie darauf, dass Ihr geplanter Gesprächspartner auch wirklich Aussagen zu den Sie interessierenden Fragen machen kann.  Beginnen Sie mit einer Vorstellung Ihrer Person und der Ziel des Interviews.  Sichern Sie, soweit möglich, Anonymität zu.  Die Länge eines Interviews sollte 60 Minuten nicht überschreiten, in Ausnahmefällen (z. B. bei der Erhebung komplexer Arbeitsabläufe) kann ein Interview auch länger dauern. Achten Sie aufmerksam auf Ermüdungserscheinungen Ihres Interviewpartners und verschieben Sie offene Fragen ggf. auf einen weiteren Termin nach dem Motto: Lieber vertagen als verflachen.  Schaffen Sie eine angenehme und ruhige Umgebung für das Interview, vermeiden Sie Störungen.  Mit Einverständnis des Befragten können Sie ggf. das Interview auf-zeichnen, dies erleichtert die Auswertung. Ansonsten sollten Sie das Interview zu zweit durchführen – die zweite Person kann sich dann auf die Dokumentation der Antworten konzentrieren.  Seien Sie bei der Beantwortung der Fragen beharrlich und fragen Sie so lange nach, bis Sie die betreffenden Zusammenhänge genau ver-standen haben. Es liegt in der Natur der Sache, dass der Interviewer in der Regel nur wenig über den zu analysierenden Bereich weiß. Der Befragte dagegen hält häufig vieles (z. B. die Routinetätigkeiten) für selbstverständlich, so dass er nicht ohne Nachfragen darauf eingeht (vgl. Abb. 8.2 auf S. 118). Zudem wird der Befragte selten seine Er-klärungen auf den Kenntnisstand des Interviewers abstimmen. Haben Sie also keine Angst vor so genannten „dummen“ Fragen.  Seien Sie diplomatisch. Es kommt immer wieder vor, dass die Gesprä-che von den Befragten genutzt werden, um „ihre“ Sicht auf Miss-stände, Probleme und die dafür Verantwortlichen zu platzieren. Neh-men Sie derartige Informationen auf, ohne selbst zu bewerten.  Wenn Sie mit Missverständnissen bezüglich der Zielsetzung der Ana-lyse konfrontiert werden: Reagieren Sie sachlich unter Wiederholung der Zielsetzung.  Fragen Sie am Ende des Interviews, ob der Befragte aus seiner Sicht noch relevante Informationen ergänzen möchte.  Bedanken Sie sich am Ende für die Teilnahme und beantworten Sie bei Bedarf noch Fragen des Teilnehmers.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">141</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -15410,7 +15392,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Holen Sie rechtzeitig die Genehmigung für die Beobachtung ein und machen Sie frühzeitig Termine aus (z. B. während einer Informationsveranstaltung über die Systemanalyse).  Informieren Sie den betroffenen Bereich rechtzeitig über die geplante Beobachtung.  Führen Sie mehrere Testläufe im realen Umfeld durch, um Erhebungsformular und Erhebungsvorgehen zu prüfen und zu verbessern. Erproben Sie dabei unbedingt auch die geplanten Auswerteverfahren.  Wenn mehrere Beobachter eingesetzt werden, achten Sie auf eine gute Schulung der Beobachter und führen Sie Trainingsläufe durch, um eine einheitlichen Ablauf der Beobachtung zu gewährleisten.  Sorgen Sie dafür, dass die normalen Arbeitsabläufe der Beobachteten möglichst wenig gestört werden.  Planen Sie besonders sorgfältig Ort und Zeitraum der Erhebung, um zu gewährleisten, dass die Ergebnisse später möglichst repräsentativ und aussagefähig sind. Hierzu sind in der Regel mehrere Vor-Ort-Besuche und Gespräche vor Beginn der eigentlichen Erhebung notwendig.  Erläutern Sie zu Beginn einer Beobachtung noch einmal das Ziel und sichern Sie, soweit möglich, Anonymität zu.  Kombinieren Sie die Beobachtung mit informellen Gesprächen mit den Betroffenen, um so Hintergrundinformationen zu erlangen.  Besprechen Sie, soweit möglich, mit Betroffenen wichtige Beobachtungsergebnisse, um Hintergrundinformationen und Hinweise auf Fehlinterpretationen zu erhalten.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">145</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -15453,7 +15435,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">405</ID>
@@ -15560,7 +15542,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192</ID>
@@ -15721,7 +15703,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">880</ID>
@@ -15811,7 +15793,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">163</ID>
@@ -15865,7 +15847,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Bereiten Sie Ihren Fragebogen sorgfältig vor, auch dadurch, dass Sie sich in Sondierungsgesprächen und Vor-Ort-Besuchen einen ersten Eindruck von einem Bereich machen.  Testen Sie Ihren Fragebogen vor dem ersten Einsatz an einigen reprä-sentativen Vertretern des betrachteten Bereichs. Erproben Sie dabei unbedingt auch die geplanten Auswertungsverfahren.  Verwenden Sie wenn möglich elektronisch auszuwertende Papierfragebögen oder rein elektronische (z. B. webbasierte) Fragebö-gen. Dies erleichtert die Auswertung.  Holen Sie rechtzeitig die Genehmigung für die Befragung ein und ma-chen Sie frühzeitig Termine für die Befragung aus (z. B. während ei-ner Informationsveranstaltung zur Systemanalyse).  Die Länge des Fragebogens sollte in der Regel nicht mehr als 3 bis 5 Seiten betragen, das Ausfüllen sollte nicht mehr als 30 Minuten dau-ern.  Das Layout ist ansprechend und übersichtlich zu gestalten.  Erläutern Sie zu Beginn des Fragebogens knapp Auftraggeber, Durch-führenden und Ziel der Befragung. Erläutern Sie die geplante Aus-wertung und sichern Sie Anonymität zu.  Ergänzen Sie immer (auch bei überwiegend geschlossenen Fragen) am Ende einige offene Fragen („Was möchten Sie uns zu diesem Thema sonst noch sagen?“ oder „Was sind aus Ihrer Sicht weitere Stärken bzw. Schwächen von …?“). Dadurch erhalten Sie ggf. interessante Hintergrundinformationen.  Geben Sie die Frist vor, bis wann der Fragebogen ausgefüllt werden soll.  Geben Sie klar an, wie und wo der Fragebogen zurückgegeben werden soll. Wählen Sie die für die Teilnehmer einfachste Art und Weise, bieten Sie ggf. auch mehrere Alternativen an (z. B. Abholung, Brief-kasten, per Fax, per E-Mail).  Überlegen Sie sich Maßnahmen zur Sicherstellung einer ausreichen-den Rücklaufquote – Details hierzu finden sich in Kapitel 12.3.  Nach Ablauf der vorgegebenen Frist für die Abgabe können Sie ggf. bei den Betroffenen ein- bis zweimal nachfragen. Manchmal ist eine persönliche Nachfrage angemessen. Respektieren Sie aber, wenn Sie z. B. aus Zeitmangel eine Absage erhalten.  Besprechen Sie, soweit möglich, mit Betroffenen die Fragebogen-ergebnisse, um Hintergrundinformationen und Hinweise auf Fehl-interpretationen zu erhalten.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">142</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -15896,7 +15878,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">527</ID>
@@ -15959,7 +15941,7 @@
     <owl:Class rdf:about="ProcessAnalysis">
 	<rdfs:label xml:lang="en">Process Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="SystemAnalysisMethod"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="de">Hierbei wird der Fokus auf die Abläufe in einem Bereich gelegt. Es wird also – in der Regel in Bezug auf eine gegebene Aufgabe, z. B. Pflegedokumentation – beschrieben, wer wann welche Aktivität mit welchen Werkzeugen durchführt.</skos:definition>
@@ -16109,7 +16091,7 @@
 	<rdfs:label xml:lang="en">Product Adaptation</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1640</ID>
@@ -16128,7 +16110,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Aktivität im Rahmen einer Systemauswahl, bei der ein Anbieter in Form einer Informationsveranstaltung Funktionalität und Stärken seines Produktes präsentiert.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">334</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -16174,7 +16156,7 @@
 	<rdfs:label xml:lang="en">Proficiency Testing of Vendors</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1618</ID>
@@ -16467,7 +16449,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Wenn alle offenen Fragen in der Abschlusspräsentation geklärt wer-den konnten und der Abschlussbericht vom Auftraggeber akzeptiert ist, kann das Projekt formal abgenommen werden. Dies kann durch die Unterschrift des Auftraggebers unter dem Abschlussbericht doku-mentiert werden. Aktivität im Rahmen des Projektabschlusses, in der ein Projektergebnis formal durch den Auftraggeber angenommen wird. Die Projektabnahme kann durch die Unterschrift des Auftraggebers auf dem Aubschlussbericht dokumentiert werden. Mit der Abnahme des Projekts durch den Auftraggeber wird der Projektleiter entlastet.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">111, 335</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -16838,7 +16820,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Projektphase, in der ein Projekt abgeschlossen wird. Typische Aktivitäten sind das Erstellen und Präsentieren eines Abschlussberichts, die formale Projektabnahme durch den Auftraggeber, das Projektreview und die Auflösung des Projektteams.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -17053,7 +17035,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</ID>
@@ -17243,7 +17225,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Aktivität der Projektdurchführung, welche die planmäßige Durchführung eines Projekts ermöglicht. Hierzu werden die notwendigen Ressourcen laut Projektplan bereitgestellt und koordiniert. Bei Problemen im Projekt, die durch die Projektüberwachung identifiziert wurden, wird steuernd eingegriffen.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">337</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -17485,7 +17467,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Aufgabe der Projektdokumentation</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -17743,7 +17725,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</ID>
@@ -18176,7 +18158,7 @@
 	<rdfs:label xml:lang="en">Project Hand-Over</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1525</ID>
@@ -18327,7 +18309,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242</ID>
@@ -18649,7 +18631,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Unter Projektmanagement versteht man die aufgabenbezogene Koordination aller Aktivitäten, um ein Projekt in einer bestimmten Zeit und mit bestimmten Ressourcen zu einem bestimmten Ergebnis zu bringen. (vgl. DIN 69901). Aufgabenbezogene Koordination aller Aktivitäten, um ein Projekt in einer bestimmten Zeit und mit bestimmten Ressourcen zu einem bestimmten Ereignis zu bringen. Projektmanagement umfasst Projektplanung, Projektsteuerung und Projektüberwachung.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18, 336</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -18870,7 +18852,7 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Zusammenhang zwischen den Faktoren Ergebnis (= Erreichen des geplanten Projektziels), verfügbarer Zeit und verfügbaren Ressourcen in einem Projekt. Das Magische Dreieck stellt dar, dass Ergebnis, Zeit und Ressourcen eng zusammenhängen. Veränderungen eines Faktors haben in der Regel Auswirkungen auf die anderen Faktoren.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19, 329</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -19568,7 +19550,7 @@
 
     <owl:Class rdf:about="ProjectMarketing">
 	<rdfs:label xml:lang="en">Project Marketing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <meta:subTopClass rdf:resource="&meta;Role"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -19805,7 +19787,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Aktivität der Projektdurchführung, welche die ständige Überwachung des Projektverlaufs im Sinne eines Ist-Soll-Vergleichs, das Erkennen und Behandeln von Problemen und die Sicherstellung der Kommunikation zwischen allen am Projekt Beteiligten umfasst. Der Ist-Soll-Vergleich kann z. B. in Form von Balkenplananalyse, Netzplananalyse, Meilensteintrendanalyse, Statursberichten oder Zwischenberichten erfolgen.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -20558,7 +20540,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ID>
@@ -20635,7 +20617,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">482</ID>
@@ -20821,7 +20803,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Projektphase, in der das Projektziel, wie es im Projektauftrag definiert ist, schrittweise in sinnvolle Arbeitspakete gegliedert wird, welche dann einem Verantwortlichen (Arbeitspaket-Leiter) zugeordnet und in einer sinnvollen Reihenfolge geplant werden. Typische Aktivitäten der Projektplanung sind Strukturplanung, Ablaufplanung, Ressourcenplanung und Risikoanalyse. Das Ergebnis der Projektplanung ist der verabschiedete Projektplan.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">337</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -21037,6 +21019,8 @@
 
     <owl:Class rdf:about="ProjectPlanningDocument">
 	<rdfs:label xml:lang="en">Project Planning Document</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
     </owl:Class>
 
@@ -21354,7 +21338,7 @@
 	<rdfs:label xml:lang="en">Project Representation</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1795</ID>
@@ -21440,7 +21424,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Aktivität im Rahmen des Projektabschlusses, bei der ein Projekt in seinem Verlauf inhaltlich und organisatiorisch kritisch betrachtet wird. Ziel ist das Lernen aus den Erfahrungen für zukünftige Projekte. Das Projektreview kann intern in Form einer Sitzung des Projektteams erfolgen.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">337</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -21526,7 +21510,7 @@
 	<rdfs:label xml:lang="en">Project Review Execution Section</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">1. Wie lief das Projekt insgesamt? Leitfragen, die bearbeitet werden, sind: a) Was ist gut gelaufen? b) Was ist nicht so gut gelaufen? c) Was könnte besser gemacht werden? 2. Welche Leistungen (von Einzelnen oder Gruppen) haben das Projekt besonders vorangebracht? 3. Was nimmt jeder Teilnehmer persönlich aus dem Projekt mit? 4. Welche Erkenntnisse und Empfehlungen können zusammenfassend für zukünftige Projekte abgeleitet werden?</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -21551,7 +21535,7 @@
 	<rdfs:label xml:lang="en">Project Review Preparation Section</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">1. Was ist Ziel des Projektreviews? Wer ist Adressat der Ergebnisse? 2. Welche Personen sollten am Projektreview teilnehmen? Typischerweise sollten zumindest das vollständige Projektteam und der Auftraggeber teilnehmen. 3. Wer moderiert den Projektreview? 4. Ist sichergestellt, dass beim Projektreview eine vertrauensvolle und offene Atmosphäre herrscht? 5. Welche Unterlagen aus der Projektdokumentation sollten zum Projekt-review vorliegen (z. B. Projektplan, Soll-Ist-Vergleiche, Zwischen- und Abschlussberichte, Protokolle)</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -21576,7 +21560,7 @@
 	<rdfs:label xml:lang="en">Project Review Wrap-Up Section</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">1. An wen werden die Erkenntnisse und Empfehlungen kommuniziert? 2. Wie wird sichergestellt, dass die Ergebnisse des Projektreviews in zukünftigen Projekten Berücksichtigung finden?</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -22099,7 +22083,7 @@
 	<rdfs:label xml:lang="en">Project Team Coordination</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1797</ID>
@@ -22129,7 +22113,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ID>
@@ -22274,7 +22258,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">481</ID>
@@ -22334,7 +22318,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Die Projektausführung setzt sich aus Projektinitiierung, Projektplanung, Projektdurchführung und Projektabschluss zusammen.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -22459,7 +22443,7 @@
 	<rdfs:label xml:lang="en">Publication of Tender</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1609</ID>
@@ -22484,7 +22468,7 @@
 	<rdfs:label xml:lang="en">Pure Project Organization</rdfs:label>
         <rdfs:subClassOf rdf:resource="ProjectOrganization"/>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.3, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -22615,10 +22599,10 @@
 
 
     <owl:Class rdf:about="QualityOfHISStructures">
-	<rdfs:label xml:lang="en">Quality of HIS Structures 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="QualityOfStructures"/>
+	<rdfs:label xml:lang="en">Quality of HIS Structures</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
+        <rdfs:subClassOf rdf:resource="QualityOfStructures"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
@@ -22634,7 +22618,9 @@
 
 
     <owl:Class rdf:about="QualityOfStructures">
-	<rdfs:label xml:lang="en">Quality of Structures 1</rdfs:label>
+	<rdfs:label xml:lang="en">Quality of Structures</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
     </owl:Class>
 
@@ -23014,7 +23000,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Zusammenstellung notwendiger Änderungen an einem Anwendungssystem welche gemeinsam getestet und in Betrieb genommen werden.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">339</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -23066,7 +23052,7 @@
 	<rdfs:label xml:lang="en">Reporting</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1701</ID>
@@ -23149,7 +23135,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</ID>
@@ -23212,7 +23198,7 @@
 	<rdfs:label xml:lang="en">Resource Coordination</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1501</ID>
@@ -23315,7 +23301,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Schritt der Projektplanung, bei dem die für die einzelnen Arbeitspakete sowie für das Gesamtprojekt notwendigen Ressourcen festgestellt werden.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">340</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -23562,7 +23548,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</ID>
@@ -23668,7 +23654,7 @@
 	<rdfs:label xml:lang="en">Review of Project Results</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1526</ID>
@@ -23699,7 +23685,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Schritt der Projektplanung, bei der die möglichen Risiken für ein Projekt analysiert, gruppiert und gewichtet sowie geeignete Gegenmaßnahmen definiert werden.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">340</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -23813,7 +23799,7 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de"> Im Anschluss an eine positive Pilotierung kann vom Auftraggeber der
 so genannte „Roll-Out“ freigegeben werden, also die flächendeckende
 Ausbreitung des pilotierten Anwendungssystems in weiteren Organisationseinheiten,
@@ -23879,7 +23865,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</ID>
@@ -24167,7 +24153,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Schritt der Projektplanung, bei der die in der Strukturplanung definierten Arbeitspakete in eine zeitlichen Reihenfolge gebracht werden. Basis dafür ist das Erkennen der inhaltlichen Abhängigkeiten zwischen Arbeitspaketen.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">319</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -24367,7 +24353,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Second-Level-Support: Auf dieser zweiten Ebene gibt es für die einzelnen Anwendungssysteme jeweils Spezialisten. Dies können z. B. Systembetreuer sein, die entweder vor Ort in den betroffenen Bereichen oder in der IT-Abteilung lokalisiert sind. Der Second-Level-Support kann in der Regel auch kompliziertere technische Fragen und Probleme lösen. Er wird hierzu ausschließlich vom First-Level-Support (nicht direkt von den Anwendern) kontaktiert. Bei nicht lösbaren Fragen greift er auf die dritte Betreuungsebene zurück. Zweite Ebene der Anwendungsbetreuung im Rahmen des Systembetriebs, bei der für jedes Anwendungssystem ein Betreuer benannt ist, der erst dann kontaktiert wird, wenn der First-Level-Support ein Problem nicht lösen kann.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284, 341</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -24507,7 +24493,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Server Administration</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1692</ID>
@@ -25107,7 +25093,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</ID>
@@ -25130,7 +25116,7 @@ so wie es in der Einführungsstrategie geplant ist.
     <owl:Class rdf:about="Sponsor">
 	<rdfs:label xml:lang="en">Sponsor</rdfs:label>
         <meta:subTopClass rdf:resource="&meta;Function"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="approves"/>
@@ -25954,7 +25940,7 @@ so wie es in der Einführungsstrategie geplant ist.
 
     <owl:Class rdf:about="Stakeholder">
 	<rdfs:label xml:lang="en">Stakeholder</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -26094,7 +26080,9 @@ so wie es in der Einführungsstrategie geplant ist.
 
 
     <owl:Class rdf:about="StandardizationOfInterfaces">
-	<rdfs:label xml:lang="en">Standardization of Interfaces 1</rdfs:label>
+	<rdfs:label xml:lang="en">Standardization of Interfaces</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <schema:error rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation Fehlt, Konzept nur als Objekt vorkommt</schema:error>
     </owl:Class>
 
@@ -26211,7 +26199,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">krankenhausspezifisch</ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ID>
@@ -26247,7 +26235,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">krankenhausspezifisch</ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ID>
@@ -26301,7 +26289,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">krankenhausspezifisch</ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ID>
@@ -26415,7 +26403,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Planung von Informationssystemen im Rahmen des strategischen Managements von Informationssystemen. Das Ergebnis kann in Form eines Rahmenplans festgelegt werden.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -26491,7 +26479,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Im Vordergrund des strategischen Managements von Informationssystemen stehen das Informationssystem als Ganzes oder in wesentlichen Teilen und seine grundsätzliche zukünftige Entwicklung. Perspektive des Managements eines Informationssystems, welches sich mit dem Informationssystem als Ganzes bzw. in wesentlichen Teilen und mit seiner grundsätzlichen zukünftigen Entwicklung befasst. Wichtige Aufgaben umfassen die Rahmenplanung, die Umsetzung der Vorgaben des Rahmenplans (in der Regel in Form von Projekten) und die laufende Überprüfung, ob die Projekte mit dem gewünschten Erfolg durchgeführt werden und ob das Informationssystem entsprechend dem Rahmenplan strukturiert ist und die zugewiesenen Aufgaben erfüllt.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27, 343</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -26776,7 +26764,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Schritt der Projektplanung, bei der das Projektziel nachvollziehbar und schrittweise in konkret durchführbare Arbeitspakete gegliedert wird. Neben Kreativitätsmethoden kann dabei die 5-Stufen-Methode zur Strukturplanung eingesetzt werden.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">343</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -27082,7 +27070,7 @@ so wie es in der Einführungsstrategie geplant ist.
 
 
     <owl:Class rdf:about="SubInformationSystem">
-	<rdfs:label xml:lang="en">Sub-Information System 1</rdfs:label>
+	<rdfs:label xml:lang="en">Sub-Information System</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationSystem"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -27117,7 +27105,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Subsequent Cost Management</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1527</ID>
@@ -27250,7 +27238,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
         <skos:definition xml:lang="de">Ein System ist eine Menge von Elementen (z. B. Personen, Dinge) mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Das System ist ein Ganzes, das mehr ist als die Summe seiner Teile. Jedes System hat eine Systemgrenze, die es von seiner Umwelt trennt.Systeme liegen entweder in der Natur als gegeben vor (natürliche Systeme) oder werden vom Men-schen geschaffen (künstliche Systeme). Menge von Elementen mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Systeme lassen sich in Teilsysteme untergliedern.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7, 344</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -27398,7 +27386,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Ziel der Systemanalyse im Sinne des Managements von Informationssystemen ist die möglichst exakte Beschreibung von Eigenschaften eines (Sub-)Informationssystems</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">122</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -27556,7 +27544,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Das Vorgehensmodell beginnt mit dem Schritt der Analyseplanung. In diesem Schritt werden ausgehend vom konkreten Informationsbedarf Zielsetzung und Fragestellungen der Systemanalyse und -bewertung konkretisiert, der zu analysierende Problembereich genauer definiert und die Durchführung der Systemanalyse geplant. Hierzu gehört auch die Festlegung der Bewertungskriterien für eine eventuell folgende Systembewertung. Die Analyseplanung erfolgt in der Regel durch die mit der Systemanalyse betrauten Personen (im Folgenden als Analy-seteam bezeichnet) unter Mitarbeit des Auftraggebers und von Mit-arbeitern des betrachteten Bereichs (Fachabteilung genannt).</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">124</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -27779,7 +27767,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Analyse von Informationssystemen bzw. Informationssystemkomponenten mit dem Ziel der genauen Beschreibung des Ist-Zustandes und seiner zielgerichteten Bewertung -- Projektmodul zur Analyse von Informationssystemen bzw. Informationssystemkomponenten mit dem Ziel ihrer genauen Beschreibung und zielgerichteten Bewertungen. Aktivitäten umfassen Analyseplanung, Informaionsbeschaffung mit speziellen Methoden der Informaionsbeschaffung, Aufbereitung und Modellierung sowie Verifikation. Als Ergebnis liegt ein Analysebericht vor.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28, 344</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -28001,7 +27989,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">In einer Systembewertung werden also Stärken und Schwachstellen einer Situation analysiert. Insbesondere Schwachstellen sind Schätze, die es zu heben gilt – nur durch die Kenntnisse von Schwachstellen kann eine Situation verbessert werden!</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">122</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -28051,7 +28039,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">System Assessment Planning</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</ID>
@@ -28068,7 +28056,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">251</ID>
@@ -28158,7 +28146,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3, 12.1, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Systematische Überprüfung, ob mit der Einführung von Werkzeugen der Informationsverarbeitung die in der Systemspezifikation definierten Ziele erreicht wurden und welche Probleme und Schwachstellen bestehen. Unter Systemevaluation verstehen wir die zielbezogene Beurteilung von (Sub-)Informationssystemen zur Unterstützung von Entscheidungen. Eine solche Entscheidung kann z. B. sein, ob eine Verbesserung oder ein Austausch einer Komponente notwendig ist, was dann zur Initiierung weiterer Projekte führt. Projektmodul zur zielbezogenen Beurteilung von (Sub-)Informationssystemen zur Unterstützung von Entscheidungen, Aktivitäten umfassen Evaluationsplanung, Informationsbeschaffung, Aufbereitung der Ergebnisse, Verifikation und Erstllung des Evaluationsberichts.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28, 259, 345</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -28384,7 +28372,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Vorgang, bei dem die Verantwortung für ein Anwendungssystem vom Auftraggeber an den zukünftigen Betreiber übergeben wird. Dazu wird festgelegt, wer künftig die Verantwortung für den Betrieb übernimmt. Alle Vereinbarungen der Systemübergabe werden in einem Übergabeprotokoll festgehalten.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">345</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -28548,7 +28536,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Vorbereitung und Durchführung der Einführung von neuen oder geänderten Anwendungssystemen und physischen Datenverarbeitungssystemen. Projektmodul zur Einführung einzelner Informationssystemkokmponenten in einem Bereich. Aktivitäten der Systemeinführung umfassen Festlegungen der Einführungsstrategie, Adaptierung des Produkts, organisatiorische und technische Vorbereitungen, Vorbereitung der Schulung, Management von Änderungswünschen (Change Management), Inbetriebnahme sowie Systemabnahme und Systemübergabe.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28, 345</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -28941,7 +28929,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</ID>
@@ -29223,7 +29211,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Auswahl geeigneter Software- oder anderer Produkte und Vorbereitung ihrer Einführung (z. B. Adaptierung) als Werkzeuge der Informationsverarbeitung. Projektmodul zur Auswahl geeigneter Softwareprodukte, basierend auf einer vorherigen Systemspezifikation. Aktivitäten umfassen Markterkundung, Durchführung der Ausschreibung, Vergleich der Angebote und Entscheidung für ein Produkt mit Vertragsabschluss. Für die Entscheidung sind Eignungskriterien und Zuschlagskriterien relevant.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28, 344</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -29599,7 +29587,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3, 9.1, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Möglichst genaue und umsetzbare Beschreibung des Soll-Zustandes eines Informationssystems bzw. einer Informationskomponente. Im Rahmen einer Systemspezifikation wird be-schrieben, welche (technischen und/oder organisatorischen) Verände-rungen an einem (Sub-)Informationssystem vorgenommen werden sollen. Projektmodul zur genauen und umsetzbaren Beschreibung des Soll-Zustandes eines (Sub-)Informationssystems bzw. einer Informationssystemkomponente. Aktivitäten der Systemspezifikation umfassen Zieldefinition, Informationsbeschaffung, Aufbereitung und Modellierung sowie Vertifikation. Als Ergebnis liegt ein Sollkonzept sowie ggf. ein Pflichtenheft vor.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28, 185, 345</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -29922,7 +29910,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Systematic Work Package Dependency Determination</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1481</ID>
@@ -29940,7 +29928,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">krankenhausspezifisch</ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">309</ID>
@@ -29970,7 +29958,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">krankenhausspezifisch</ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ID>
@@ -30000,7 +29988,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">krankenhausspezifisch</ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310</ID>
@@ -30079,7 +30067,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Perspektive des Managemnts eines Informationssystems, welches sich mit der Einführung oder Änderung von Informationssystemkomponenten befasst. Die Aufgaben umfassen die Planung, Steuerung und Überwachung von Projekten.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">345</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -30492,7 +30480,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">731</ID>
@@ -30528,7 +30516,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</ID>
@@ -30564,7 +30552,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Team Development</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</ID>
@@ -30608,7 +30596,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Abstimmung der Fähigkeiten, beruflichen Hintergründe und persönlichen Einstellungen von Personen zu einem Projektteam. Folgende typische Phasen der Teambildung können beschrieben werden: Formierungsphase, Konfliktphase, Nomierungphase und produktive Arbeitsphase. Am Projektende erfolgt die Auflösung des Projektteams.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">345</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -30701,7 +30689,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Organisation und Koordination einer Gruppe von Personen in einem Projektteam, so dass die Projektziele möglichst planmäßig erreicht werden. Das Teammanagement ist die Aufgabe des Projektleiters.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">345</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -30801,7 +30789,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</ID>
@@ -31095,7 +31083,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</ID>
@@ -31157,7 +31145,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</ID>
@@ -31270,7 +31258,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Aufforderung zur Abgabe eines Angebots. Als Schritt einer Systemauswahl werden auf der Grundlage eines Pflichtenhefts potenzielle Anbieter aufgefordert, ein Angebot einzureichen. Eine Ausschreibung kann in Lose aufgeteilt werden. Die Vergabegesetze unterscheiden vereinfacht folgende Ausschreibungsarten: Offenes Verfahren, Nicht offenes Verfahren, Verhandlungverfahren sowie Direktvergabe.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">322</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -31369,7 +31357,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Aktivität im Rahmen einer Systemauswahl, bei der ein Produkt in einer Testumgebung installiert wird, um das Produkt unter möglichst realitätsnahen Bedingungen vor einer Produktentscheidung genau zu prüfen. Testinstallationen ermöglichen die Überprüfung von Funktionalität, Benutzerfreundlichkeit, Adaptierbarkeit, Stabilität und Performance.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">346</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -31434,7 +31422,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Aktivität im Rahmen einer Systemeinführung, bei der ein Anwendungssystem vor einem Roll-Out in einem ausgewählten Bereich parallel zum bisherigen Anwendungssystem betrieben wird.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">346</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -31522,7 +31510,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Dritte Ebene der Anwendungsbetreuung im Rahmen des Systembetiebs, bei der Systemspezialisten, ggf. auch von externen Firmen, für einzelne Anwendungssysteme benannt sind, die dann kontaktiert werden, wenn der Second-Level-Support ein Problem nicht lösen kann.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284, 346</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -31658,6 +31646,8 @@ so wie es in der Einführungsstrategie geplant ist.
 
     <owl:Class rdf:about="TimeToRun">
 	<rdfs:label xml:lang="en">Time to Run</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -31683,7 +31673,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ID>
@@ -31909,7 +31899,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Trouble Shooting</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1502</ID>
@@ -32299,7 +32289,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">User Administration</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1695</ID>
@@ -32357,7 +32347,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</ID>
@@ -32492,7 +32482,7 @@ so wie es in der Einführungsstrategie geplant ist.
 
     <owl:Class rdf:about="Vendor">
 	<rdfs:label xml:lang="en">Vendor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -32700,7 +32690,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Verification</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Aktivität zur Überprüfung der Verständlichkeit, Korrektheit, Vollständigkeit und Angemessenheit der Ergebnisse einer Informaitonsbeschaffung und Aufbereitung und Modellierung mit Hilfe von Mitarbeitern des Problembereichs oder Fachexperten. Eine Verifikation wird im Rahmen der Systemanalyse und Systembewertung, der Systemspezifikation oder der Systemevaluation durchgeführt.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">347</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -32748,7 +32738,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Version Management</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.1</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1702</ID>
@@ -32958,7 +32948,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ID>
@@ -33063,7 +33053,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	<rdfs:label xml:lang="en">Work Package Time Estimation</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</ID>
@@ -33602,7 +33592,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</ID>
@@ -33759,7 +33749,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</ID>
@@ -33844,7 +33834,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Der Analyseplanung folgt die Informationsbeschaffung, in der je nach Fragestellung Methoden wie Befragung, Beobachtung oder Dokumentenanalyse eingesetzt werden. Die Informationsbeschaffung erfolgt durch das Analyseteam in der Regel unter Einbeziehung von Mitarbeitern des betrachteten Bereichs</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">124</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -33981,7 +33971,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</ID>
@@ -34087,7 +34077,7 @@ so wie es in der Einführungsstrategie geplant ist.
     <owl:Class rdf:about="VerificationEvaluation">
 	<rdfs:label xml:lang="en">Verification (Evaluation)Verification (Evaluation)</rdfs:label>
         <rdfs:subClassOf rdf:resource="Verification"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -34151,7 +34141,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</ID>
@@ -34291,7 +34281,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Im nachfolgenden Verifikationsschritt werden die Ergebnisse der Systemanalyse verifiziert, also z. B. überprüft, ob die erhobenen Da-ten und die daraus gewonnenen Modelle und Erkenntnisse „wahr“ sind. Hierzu gehört die Überprüfung der Korrektheit, Vollständigkeit und Angemessenheit der erstellten Modelle. Diese Prüfung erfolgt unter Einbeziehung von Mitarbeitern des betrachteten Bereichs und/oder Fachexperten. Wir verwenden den Begriff der Verifikation hier also im Sinne der Systemanalyse. In anderen Bereichen der In-formatik kann der Begriff auch etwas anders verstanden werden. Die Korrektheit, Vollständigkeit und Angemessenheit der aufbereite-ten und ggf. modellierten Ergebnisse der Informationsbeschaffung ist durch Versäumnisse oder Missverständnisse während der Informa-tionsbeschaffung (vgl. auch Abb. 8.2 auf S. 118) sowie durch Auf-bereitungs- und Modellierungsfehler gefährdet. Zur Erkennung und Korrektur dieser potenziellen Fehler ist daher eine systematische Veri-fikation der aufbereiteten und ggf. modellierten Ergebnisse durch Mitarbeiter des betroffenen Bereichs und/oder durch Fachexperten zu empfehlen.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125, 136</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>

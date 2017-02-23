@@ -31,6 +31,7 @@ bb:Functionality	skos:broadMatch	ob:FunctionalRequirement.
 bb:HumanActor	skos:closeMatch	ob:HumanActor.
 bb:InformationSystem	skos:closeMatch	ob:InformationSystem.
 bb:Information	skos:closeMatch	ob:Information.
+bb:InformationManagement	skos:closeMatch	ob:InformationManagement.
 bb:ITIL	skos:closeMatch	ob:InformationTechnologyInfrastructureLibrary.
 bb:Knowledge	skos:closeMatch	ob:Knowledge.
 bb:Law	skos:closeMatch	ob:Law.

@@ -254,7 +254,7 @@
 		<rdfs:label xml:lang="en">software product</rdfs:label>
 		<rdfs:label xml:lang="de">Softwareprodukt</rdfs:label>
 		<rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
-		<subTop rdf:resource="EntityType"/>
+		<subTopClass rdf:resource="EntityType"/>
 	</owl:Class>
 		
 	<owl:ObjectProperty rdf:about="softwareProduct">
@@ -267,12 +267,13 @@
 	<owl:Class rdf:about="RepresentationType">
 		<rdfs:label xml:lang="en">representation type</rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
-		<subTop rdf:resource="EntityType"/>
+		<subTopClass rdf:resource="EntityType"/>
 	</owl:Class>
 
 	<owl:Class rdf:about="DataSetType">
 		<rdfs:label xml:lang="en">data set type</rdfs:label>
 		<rdfs:subClassOf rdf:resource="RepresentationType"/>
+		<subTopClass rdf:resource="EntityType"/>
 	</owl:Class>
 
 
@@ -280,7 +281,7 @@
  		<rdfs:label xml:lang="en">application component</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
-		<subTop rdf:resource="EntityType"/>
+		<subTopClass rdf:resource="EntityType"/>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<rdfs:comment xml:lang="de"></rdfs:comment>
 	</owl:Class>
@@ -289,7 +290,7 @@
  		<rdfs:label xml:lang="en">computer based application component</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
-		<subTop rdf:resource="EntityType"/>
+		<subTopClass rdf:resource="EntityType"/>
 		<rdfs:comment xml:lang="en"></rdfs:comment>
 		<rdfs:comment xml:lang="de"></rdfs:comment>
 	</owl:Class>
