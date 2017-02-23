@@ -73,7 +73,7 @@
 <ov:defines rdf:resource="ApplicationSystemMaintenance"/>
 <ov:defines rdf:resource="approves"/>
 <ov:defines rdf:resource="AreaOfAnEnterprise"/>
-<ov:defines rdf:resource="ARIS"/>
+<ov:defines rdf:resource="Aris"/>
 <ov:defines rdf:resource="AssessmentReport"/>
 <ov:defines rdf:resource="AuthorizationConcept"/>
 <ov:defines rdf:resource="AutomatedObservation"/>
@@ -227,7 +227,7 @@
 <ov:defines rdf:resource="EvaluationPlanning"/>
 <ov:defines rdf:resource="EvaluationReport"/>
 <ov:defines rdf:resource="EvaluationTeam"/>
-<ov:defines rdf:resource="EVBIT"/>
+<ov:defines rdf:resource="Evbit"/>
 <ov:defines rdf:resource="Event"/>
 <ov:defines rdf:resource="EventDrivenProcessChain"/>
 <ov:defines rdf:resource="ExecutionOfAKickOffMeeting"/>
@@ -273,7 +273,7 @@
 <ov:defines rdf:resource="HardwareLot"/>
 <ov:defines rdf:resource="HardwareResource"/>
 <ov:defines rdf:resource="Helpdesk"/>
-<ov:defines rdf:resource="HISCertification"/>
+<ov:defines rdf:resource="HisCertification"/>
 <ov:defines rdf:resource="HospitalGoal"/>
 <ov:defines rdf:resource="HospitalInformationSystem"/>
 <ov:defines rdf:resource="HumanActor"/>
@@ -329,12 +329,12 @@
 <ov:defines rdf:resource="IsProlective"/>
 <ov:defines rdf:resource="IsRetrolective"/>
 <ov:defines rdf:resource="IsSubjective"/>
-<ov:defines rdf:resource="ITILVersion2"/>
-<ov:defines rdf:resource="ITILVersion3"/>
-<ov:defines rdf:resource="ITOperation"/>
-<ov:defines rdf:resource="ITServiceContract"/>
-<ov:defines rdf:resource="ITServiceManagement"/>
-<ov:defines rdf:resource="ITStaff"/>
+<ov:defines rdf:resource="ItilVersion2"/>
+<ov:defines rdf:resource="ItilVersion3"/>
+<ov:defines rdf:resource="ItOperation"/>
+<ov:defines rdf:resource="ItServiceContract"/>
+<ov:defines rdf:resource="ItServiceManagement"/>
+<ov:defines rdf:resource="ItStaff"/>
 <ov:defines rdf:resource="Job"/>
 <ov:defines rdf:resource="JourFixe"/>
 <ov:defines rdf:resource="KeyPerformanceIndicator"/>
@@ -602,7 +602,7 @@
 <ov:defines rdf:resource="QuantitativeEvaluationCriterion"/>
 <ov:defines rdf:resource="QuantitativeTable"/>
 <ov:defines rdf:resource="Questionnaire"/>
-<ov:defines rdf:resource="RACIMatrix"/>
+<ov:defines rdf:resource="RaciMatrix"/>
 <ov:defines rdf:resource="Randomisation"/>
 <ov:defines rdf:resource="RandomSampling"/>
 <ov:defines rdf:resource="ReactionTime"/>
@@ -664,7 +664,7 @@
 <ov:defines rdf:resource="SignatureOfSponsor"/>
 <ov:defines rdf:resource="Simulation"/>
 <ov:defines rdf:resource="SingleInterview"/>
-<ov:defines rdf:resource="SMART"/>
+<ov:defines rdf:resource="Smart"/>
 <ov:defines rdf:resource="SocioTechnicalSystem"/>
 <ov:defines rdf:resource="SoftwareDistribution"/>
 <ov:defines rdf:resource="SoftwareLot"/>
@@ -728,7 +728,7 @@
 <ov:defines rdf:resource="SupportConcept"/>
 <ov:defines rdf:resource="Survey"/>
 <ov:defines rdf:resource="Sustainability"/>
-<ov:defines rdf:resource="SWOTAnalysis"/>
+<ov:defines rdf:resource="SwotAnalysis"/>
 <ov:defines rdf:resource="System"/>
 <ov:defines rdf:resource="SystemAdministrator"/>
 <ov:defines rdf:resource="SystemAnalysis"/>
@@ -811,12 +811,12 @@
 <ov:defines rdf:resource="TripelPage"/>
 <ov:defines rdf:resource="TripelRowNr"/>
 <ov:defines rdf:resource="TroubleShooting"/>
-<ov:defines rdf:resource="UMLActivityDiagram"/>
-<ov:defines rdf:resource="UMLClassDiagram"/>
-<ov:defines rdf:resource="UMLDiagram"/>
-<ov:defines rdf:resource="UMLEntity"/>
-<ov:defines rdf:resource="UMLSequenceDiagram"/>
-<ov:defines rdf:resource="UMLUseCaseDiagram"/>
+<ov:defines rdf:resource="UmlActivityDiagram"/>
+<ov:defines rdf:resource="UmlClassDiagram"/>
+<ov:defines rdf:resource="UmlDiagram"/>
+<ov:defines rdf:resource="UmlEntity"/>
+<ov:defines rdf:resource="UmlSequenceDiagram"/>
+<ov:defines rdf:resource="UmlUseCaseDiagram"/>
 <ov:defines rdf:resource="Understandability"/>
 <ov:defines rdf:resource="UnifiedModelingLanguage"/>
 <ov:defines rdf:resource="Usability"/>
@@ -950,7 +950,7 @@
     <rdfs:comment xml:lang="de">Seite in "IT-Projektmanagement im Gesundheitswesen"</rdfs:comment>
   </owl:DatatypeProperty>
 
-    <owl:Class rdf:about="ARIS">
+    <owl:Class rdf:about="Aris">
 	<rdfs:label xml:lang="en">ARIS</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationSystemModelingMethod"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -1001,14 +1001,14 @@
         <rdfs:label xml:lang="de">Architektur integrierter Informationssysteme</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ARIS"/>
+        <owl:annotatedSource rdf:resource="Aris"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="InformationSystemModelingMethod"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1170</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ARIS"/>
+        <owl:annotatedSource rdf:resource="Aris"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -1020,7 +1020,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">845</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ARIS"/>
+        <owl:annotatedSource rdf:resource="Aris"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -1032,7 +1032,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">846</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ARIS"/>
+        <owl:annotatedSource rdf:resource="Aris"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -1044,14 +1044,14 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">847</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ARIS"/>
+        <owl:annotatedSource rdf:resource="Aris"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="InformationSystemModelingMethod"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">321</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1257</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ARIS"/>
+        <owl:annotatedSource rdf:resource="Aris"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -1063,7 +1063,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1068</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ARIS"/>
+        <owl:annotatedSource rdf:resource="Aris"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -1075,7 +1075,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1069</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ARIS"/>
+        <owl:annotatedSource rdf:resource="Aris"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -1182,7 +1182,7 @@
 
     <owl:Class rdf:about="ActivityDiagram">
 	<rdfs:label xml:lang="en">Activity Diagram</rdfs:label>
-        <rdfs:subClassOf rdf:resource="UMLDiagram"/>
+        <rdfs:subClassOf rdf:resource="UmlDiagram"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -1195,7 +1195,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ActivityDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="UMLDiagram"/>
+        <owl:annotatedTarget rdf:resource="UmlDiagram"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">155, 164</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1318</TripelRowNr>
     </owl:Axiom>
@@ -2751,13 +2751,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="ITILVersion2"/>
+                <owl:someValuesFrom rdf:resource="ItilVersion2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="ITILVersion3"/>
+                <owl:someValuesFrom rdf:resource="ItilVersion3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.3</Chapter>
@@ -2774,7 +2774,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="ITILVersion2"/>
+                <owl:someValuesFrom rdf:resource="ItilVersion2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">288</TripelPage>
@@ -2786,7 +2786,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
-                <owl:someValuesFrom rdf:resource="ITILVersion3"/>
+                <owl:someValuesFrom rdf:resource="ItilVersion3"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">288</TripelPage>
@@ -2817,7 +2817,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="ITILVersion3"/>
+                <owl:someValuesFrom rdf:resource="ItilVersion3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -2873,7 +2873,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="ITILVersion3"/>
+                <owl:someValuesFrom rdf:resource="ItilVersion3"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">323</TripelPage>
@@ -3238,7 +3238,7 @@
 
     <owl:Class rdf:about="CommunicationDiagram">
 	<rdfs:label xml:lang="en">Communication Diagram</rdfs:label>
-        <rdfs:subClassOf rdf:resource="UMLDiagram"/>
+        <rdfs:subClassOf rdf:resource="UmlDiagram"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -3252,7 +3252,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CommunicationDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="UMLDiagram"/>
+        <owl:annotatedTarget rdf:resource="UmlDiagram"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">156</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1198</TripelRowNr>
     </owl:Axiom>
@@ -5348,7 +5348,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="EVBIT"/>
+                <owl:someValuesFrom rdf:resource="Evbit"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5419,7 +5419,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="EVBIT"/>
+                <owl:someValuesFrom rdf:resource="Evbit"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">218</TripelPage>
@@ -6670,7 +6670,7 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="EVBIT">
+    <owl:Class rdf:about="Evbit">
         <rdfs:label xml:lang="de">Ergänzende Vertragsbedingungen für die Beschaffung von IT-Leistungen</rdfs:label>
 	<skos:altLabel xml:lang="de">EVB-IT</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2</Chapter>
@@ -9222,7 +9222,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="SMART"/>
+                <owl:someValuesFrom rdf:resource="Smart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
@@ -9263,7 +9263,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="SMART"/>
+                <owl:someValuesFrom rdf:resource="Smart"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</TripelPage>
@@ -9771,7 +9771,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="SMART"/>
+                <owl:someValuesFrom rdf:resource="Smart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9915,7 +9915,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="SMART"/>
+                <owl:someValuesFrom rdf:resource="Smart"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">181</TripelPage>
@@ -9969,7 +9969,7 @@
             </owl:Class>
 
 
-    <owl:Class rdf:about="HISCertification">
+    <owl:Class rdf:about="HisCertification">
 	<rdfs:label xml:lang="en">HIS Certification</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
@@ -10212,7 +10212,7 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="ITILVersion2">
+    <owl:Class rdf:about="ItilVersion2">
 	<rdfs:label xml:lang="en">ITIL Version 2</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -10224,7 +10224,7 @@
             </owl:Class>
 
 
-    <owl:Class rdf:about="ITILVersion3">
+    <owl:Class rdf:about="ItilVersion3">
 	<rdfs:label xml:lang="en">ITIL Version 3</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -10238,7 +10238,7 @@
             </owl:Class>
 
 
-    <owl:Class rdf:about="ITOperation">
+    <owl:Class rdf:about="ItOperation">
 	<rdfs:label xml:lang="en">IT Operation</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10254,7 +10254,7 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">212</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITOperation"/>
+        <owl:annotatedSource rdf:resource="ItOperation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10267,7 +10267,7 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="ITServiceContract">
+    <owl:Class rdf:about="ItServiceContract">
 	<rdfs:label xml:lang="en">IT Service Contract</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10363,7 +10363,7 @@
         <rdfs:label xml:lang="de">IT-Servicevertrag</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10375,7 +10375,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">931</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10387,7 +10387,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">933</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10399,7 +10399,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">924</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10411,7 +10411,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">922</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10423,7 +10423,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">926</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10435,7 +10435,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">928</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10447,7 +10447,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">934</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10459,7 +10459,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">932</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10471,7 +10471,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">929</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10483,7 +10483,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">930</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10495,7 +10495,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">925</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10507,7 +10507,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">923</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10519,7 +10519,7 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">927</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceContract"/>
+        <owl:annotatedSource rdf:resource="ItServiceContract"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -10532,18 +10532,18 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="ITServiceManagement">
+    <owl:Class rdf:about="ItServiceManagement">
 	<rdfs:label xml:lang="en">IT Service Management</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="ITILVersion2"/>
+                <owl:someValuesFrom rdf:resource="ItilVersion2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="ITILVersion3"/>
+                <owl:someValuesFrom rdf:resource="ItilVersion3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.3</Chapter>
@@ -10554,24 +10554,24 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceManagement"/>
+        <owl:annotatedSource rdf:resource="ItServiceManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="ITILVersion2"/>
+                <owl:someValuesFrom rdf:resource="ItilVersion2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">288</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITServiceManagement"/>
+        <owl:annotatedSource rdf:resource="ItServiceManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="ITILVersion3"/>
+                <owl:someValuesFrom rdf:resource="ItilVersion3"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">288</TripelPage>
@@ -10579,7 +10579,7 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="ITStaff">
+    <owl:Class rdf:about="ItStaff">
 	<rdfs:label xml:lang="en">IT Staff</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10596,7 +10596,7 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">573</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ITStaff"/>
+        <owl:annotatedSource rdf:resource="ItStaff"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -11295,7 +11295,7 @@
 
     <owl:Class rdf:about="InteractionOverviewDiagram">
 	<rdfs:label xml:lang="en">Interaction Overview Diagram</rdfs:label>
-        <rdfs:subClassOf rdf:resource="UMLDiagram"/>
+        <rdfs:subClassOf rdf:resource="UmlDiagram"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -11309,7 +11309,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="InteractionOverviewDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="UMLDiagram"/>
+        <owl:annotatedTarget rdf:resource="UmlDiagram"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">156</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1199</TripelRowNr>
     </owl:Axiom>
@@ -13699,7 +13699,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="ITOperation"/>
+                <owl:someValuesFrom rdf:resource="ItOperation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -13715,7 +13715,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="ITOperation"/>
+                <owl:someValuesFrom rdf:resource="ItOperation"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">323</TripelPage>
@@ -15530,7 +15530,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="SWOTAnalysis"/>
+                <owl:someValuesFrom rdf:resource="SwotAnalysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -15648,7 +15648,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="SWOTAnalysis"/>
+                <owl:someValuesFrom rdf:resource="SwotAnalysis"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">276</TripelPage>
@@ -18125,7 +18125,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="SMART"/>
+                <owl:someValuesFrom rdf:resource="Smart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -18145,7 +18145,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="SMART"/>
+                <owl:someValuesFrom rdf:resource="Smart"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</TripelPage>
@@ -22695,7 +22695,7 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="RACIMatrix">
+    <owl:Class rdf:about="RaciMatrix">
 	<rdfs:label xml:lang="en">RACI Matrix</rdfs:label>
 	<rdfs:label xml:lang="de">Verantwortlichkeitsmatrix</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.3, 16</Chapter>
@@ -23943,7 +23943,7 @@ so wie es in der Einführungsstrategie geplant ist.
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="SMART">
+    <owl:Class rdf:about="Smart">
 	<rdfs:label xml:lang="en">SMART</rdfs:label>
         <rdfs:subClassOf rdf:resource="MethodOfProjectInitiation"/>
         <rdfs:subClassOf>
@@ -23963,14 +23963,14 @@ so wie es in der Einführungsstrategie geplant ist.
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1073</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="SMART"/>
+        <owl:annotatedSource rdf:resource="Smart"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="MethodOfProjectInitiation"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1107</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="SMART"/>
+        <owl:annotatedSource rdf:resource="Smart"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -23983,7 +23983,7 @@ so wie es in der Einführungsstrategie geplant ist.
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="SWOTAnalysis">
+    <owl:Class rdf:about="SwotAnalysis">
 	<rdfs:label xml:lang="en">SWOT Analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="MethodForSystemAssessment"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3, 16</Chapter>
@@ -23998,7 +23998,7 @@ so wie es in der Einführungsstrategie geplant ist.
 	       <rdfs:label xml:lang="de">Stark- und Schwachstellenanalyse</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="SWOTAnalysis"/>
+        <owl:annotatedSource rdf:resource="SwotAnalysis"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="MethodForSystemAssessment"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128, 173</TripelPage>
@@ -24468,7 +24468,7 @@ so wie es in der Einführungsstrategie geplant ist.
 
     <owl:Class rdf:about="SequenceDiagram">
 	<rdfs:label xml:lang="en">Sequence Diagram</rdfs:label>
-        <rdfs:subClassOf rdf:resource="UMLDiagram"/>
+        <rdfs:subClassOf rdf:resource="UmlDiagram"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -24482,7 +24482,7 @@ so wie es in der Einführungsstrategie geplant ist.
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="SequenceDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="UMLDiagram"/>
+        <owl:annotatedTarget rdf:resource="UmlDiagram"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">155</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1197</TripelRowNr>
     </owl:Axiom>
@@ -26109,7 +26109,7 @@ so wie es in der Einführungsstrategie geplant ist.
 
     <owl:Class rdf:about="StateChart">
 	<rdfs:label xml:lang="en">State Chart</rdfs:label>
-        <rdfs:subClassOf rdf:resource="UMLDiagram"/>
+        <rdfs:subClassOf rdf:resource="UmlDiagram"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -26123,7 +26123,7 @@ so wie es in der Einführungsstrategie geplant ist.
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="StateChart"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="UMLDiagram"/>
+        <owl:annotatedTarget rdf:resource="UmlDiagram"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">156</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200</TripelRowNr>
     </owl:Axiom>
@@ -28128,7 +28128,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="SWOTAnalysis"/>
+                <owl:someValuesFrom rdf:resource="SwotAnalysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -28255,7 +28255,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
-                <owl:someValuesFrom rdf:resource="SWOTAnalysis"/>
+                <owl:someValuesFrom rdf:resource="SwotAnalysis"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">344</TripelPage>
@@ -30504,7 +30504,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="RACIMatrix"/>
+                <owl:someValuesFrom rdf:resource="RaciMatrix"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30527,7 +30527,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
-                <owl:someValuesFrom rdf:resource="RACIMatrix"/>
+                <owl:someValuesFrom rdf:resource="RaciMatrix"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74</TripelPage>
@@ -31706,7 +31706,7 @@ so wie es in der Einführungsstrategie geplant ist.
 
     <owl:Class rdf:about="TimingDiagram">
 	<rdfs:label xml:lang="en">Timing Diagram</rdfs:label>
-        <rdfs:subClassOf rdf:resource="UMLDiagram"/>
+        <rdfs:subClassOf rdf:resource="UmlDiagram"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -31720,7 +31720,7 @@ so wie es in der Einführungsstrategie geplant ist.
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="TimingDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="UMLDiagram"/>
+        <owl:annotatedTarget rdf:resource="UmlDiagram"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">156</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1201</TripelRowNr>
     </owl:Axiom>
@@ -31906,7 +31906,7 @@ so wie es in der Einführungsstrategie geplant ist.
     </owl:Class>
 
 
-    <owl:Class rdf:about="UMLActivityDiagram">
+    <owl:Class rdf:about="UmlActivityDiagram">
 	<rdfs:label xml:lang="en">UML Activity Diagram</rdfs:label>
         <rdfs:subClassOf rdf:resource="BusinessProcessModelingMethod"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -31920,7 +31920,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <rdfs:label xml:lang="de">UML-Aktivitätsdiagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="UMLActivityDiagram"/>
+        <owl:annotatedSource rdf:resource="UmlActivityDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="BusinessProcessModelingMethod"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136, 326, 346</TripelPage>
@@ -31928,7 +31928,7 @@ so wie es in der Einführungsstrategie geplant ist.
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="UMLClassDiagram">
+    <owl:Class rdf:about="UmlClassDiagram">
 	<rdfs:label xml:lang="en">UML Class Diagram</rdfs:label>
         <rdfs:subClassOf rdf:resource="DataModelingMethod"/>
         <rdfs:subClassOf>
@@ -31954,14 +31954,14 @@ so wie es in der Einführungsstrategie geplant ist.
         <rdfs:label xml:lang="de">UML-Klassendiagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="UMLClassDiagram"/>
+        <owl:annotatedSource rdf:resource="UmlClassDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="DataModelingMethod"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">153, 324</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1317</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="UMLClassDiagram"/>
+        <owl:annotatedSource rdf:resource="UmlClassDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -31973,7 +31973,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="UMLClassDiagram"/>
+        <owl:annotatedSource rdf:resource="UmlClassDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -31986,7 +31986,7 @@ so wie es in der Einführungsstrategie geplant ist.
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="UMLDiagram">
+    <owl:Class rdf:about="UmlDiagram">
 	<rdfs:label xml:lang="en">UML Diagram</rdfs:label>
         <rdfs:subClassOf rdf:resource="ModelingMethod"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
@@ -31997,7 +31997,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1195</ID>
             </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="UMLDiagram"/>
+        <owl:annotatedSource rdf:resource="UmlDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="ModelingMethod"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">153</TripelPage>
@@ -32005,7 +32005,7 @@ so wie es in der Einführungsstrategie geplant ist.
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="UMLEntity">
+    <owl:Class rdf:about="UmlEntity">
 	<rdfs:label xml:lang="en">UML Entity</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.2, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -32022,13 +32022,13 @@ so wie es in der Einführungsstrategie geplant ist.
     </owl:Class>
 
 
-    <owl:Class rdf:about="UMLSequenceDiagram">
+    <owl:Class rdf:about="UmlSequenceDiagram">
 	<rdfs:label xml:lang="en">UML Sequence Diagram</rdfs:label>
-        <rdfs:subClassOf rdf:resource="UMLDiagram"/>
+        <rdfs:subClassOf rdf:resource="UmlDiagram"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="UMLEntity"/>
+                <owl:someValuesFrom rdf:resource="UmlEntity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
@@ -32043,19 +32043,19 @@ so wie es in der Einführungsstrategie geplant ist.
         <rdfs:label xml:lang="de">UML-Sequenzdiagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="UMLSequenceDiagram"/>
+        <owl:annotatedSource rdf:resource="UmlSequenceDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="UMLDiagram"/>
+        <owl:annotatedTarget rdf:resource="UmlDiagram"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1356</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="UMLSequenceDiagram"/>
+        <owl:annotatedSource rdf:resource="UmlSequenceDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="UMLEntity"/>
+                <owl:someValuesFrom rdf:resource="UmlEntity"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">346</TripelPage>
@@ -32063,9 +32063,9 @@ so wie es in der Einführungsstrategie geplant ist.
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="UMLUseCaseDiagram">
+    <owl:Class rdf:about="UmlUseCaseDiagram">
 	<rdfs:label xml:lang="en">UML Use Case Diagram</rdfs:label>
-        <rdfs:subClassOf rdf:resource="UMLDiagram"/>
+        <rdfs:subClassOf rdf:resource="UmlDiagram"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -32089,14 +32089,14 @@ so wie es in der Einführungsstrategie geplant ist.
         <rdfs:label xml:lang="de">UML-Anwendungsfall-Diagramm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="UMLUseCaseDiagram"/>
+        <owl:annotatedSource rdf:resource="UmlUseCaseDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="UMLDiagram"/>
+        <owl:annotatedTarget rdf:resource="UmlDiagram"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">346</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1299</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="UMLUseCaseDiagram"/>
+        <owl:annotatedSource rdf:resource="UmlUseCaseDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -32108,7 +32108,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1006</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="UMLUseCaseDiagram"/>
+        <owl:annotatedSource rdf:resource="UmlUseCaseDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -32178,7 +32178,7 @@ so wie es in der Einführungsstrategie geplant ist.
 
     <owl:Class rdf:about="UseCaseDiagram">
 	<rdfs:label xml:lang="en">Use-Case-Diagram</rdfs:label>
-        <rdfs:subClassOf rdf:resource="UMLDiagram"/>
+        <rdfs:subClassOf rdf:resource="UmlDiagram"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
@@ -32192,7 +32192,7 @@ so wie es in der Einführungsstrategie geplant ist.
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="UseCaseDiagram"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="UMLDiagram"/>
+        <owl:annotatedTarget rdf:resource="UmlDiagram"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">153</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1196</TripelRowNr>
     </owl:Axiom>
@@ -32821,7 +32821,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ID"/>
+                <owl:onProperty rdf:resource="Id"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -32889,7 +32889,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="ID"/>
+                <owl:onProperty rdf:resource="Id"/>
                 <owl:allValuesFrom rdf:resource="&xsd;string"/>
             </owl:Restriction>
         </owl:annotatedTarget>
