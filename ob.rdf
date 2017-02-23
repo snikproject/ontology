@@ -14633,6 +14633,7 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf rdf:resource="&meta;Function"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</ID>
