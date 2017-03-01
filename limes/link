@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir tmp -p
+if [ ! -f "tmp/bb.nt" ]; then
+rapper -i rdfxml -o ntriples ../bb.rdf > tmp/bb.nt
+fi
+if [ ! -f "tmp/ob.nt" ]; then
+rapper -i rdfxml -o ntriples ../ob.rdf > tmp/ob.nt
+fi
+limes bb-ob.xml
+
