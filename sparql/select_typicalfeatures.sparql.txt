@@ -1,5 +1,0 @@
-select distinct ?resource ?feature ?featureLabel
-{
- ?resource	meta:typicalFeature ?feature.
- ?targetNode	rdfs:label ?featureLabel.
-}
