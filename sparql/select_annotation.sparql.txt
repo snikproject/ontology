@@ -10,7 +10,7 @@ select
  group_concat(distinct ?altLabel;separator="|") as ?Alt_Labels
  group_concat(distinct ?comment;separator="|") as ?Comments
 # group_concat(distinct ?Chapter;separator="|") as ?Chapters 
- group_concat(distinct ?definition;separator="|") as ?definitions 
+# group_concat(distinct ?definition;separator="|") as ?definitions 
  group_concat(distinct ?bb_page;separator="|") as ?bb_pages
 #group_concat(distinct ?ob_page;separator="|") as ?ob_pages
 {
@@ -65,11 +65,11 @@ OPTIONAL
  ?resource meta:Concept_Type ?Concept_Type. 
  filter(str(?Concept_Type)!=""). 
 } 
-OPTIONAL 
-{ 
- ?resource skos:definition ?definition. 
- filter(str(?definition)!=""). 
-} 
+#OPTIONAL 
+#{ 
+# ?resource skos:definition ?definition. 
+# filter(str(?definition)!=""). 
+#} 
 OPTIONAL 
 { 
  ?resource bb:page ?bb_page.
