@@ -87,6 +87,24 @@
 		<rdfs:comment>Use functionComponent, roleComponent, respectively entityTypeComponent instead.</rdfs:comment>
 	</owl:ObjectProperty>
 
+	<owl:ObjectProperty rdf:about="functionComponent">
+		<rdfs:label xml:lang="en">function component</rdfs:label>
+		<rdfs:domain rdf:resource="Function"/>
+		<rdfs:range rdf:resource="Function"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="roleComponent">
+		<rdfs:label xml:lang="en">role component</rdfs:label>
+		<rdfs:domain rdf:resource="Role"/>
+		<rdfs:range rdf:resource="Role"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="entityTypeComponent">
+		<rdfs:label xml:lang="en">entity type component</rdfs:label>
+		<rdfs:domain rdf:resource="EntityType"/>
+		<rdfs:range rdf:resource="EntityType"/>
+	</owl:ObjectProperty>
+
 	<owl:ObjectProperty rdf:about="updates">
 		<rdfs:label xml:lang="en">updates</rdfs:label>
 	  	<rdfs:label xml:lang="de">aktualisiert</rdfs:label>
