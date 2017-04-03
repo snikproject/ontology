@@ -62,9 +62,6 @@
 		<ov:defines rdf:resource="MethodApplication"/>
 		<ov:defines rdf:resource="Subfunction"/>
 		<ov:defines rdf:resource="softwareProduct"/>
-		<ov:defines rdf:resource="specifies"/>
-		<ov:defines rdf:resource="isDeducedFrom"/>
-		<ov:defines rdf:resource="hasPurpose"/>
 	</owl:Ontology>
 
 
@@ -190,27 +187,6 @@
 		<rdfs:comment xml:lang="de">ist verantwortlich für einen Objekttyp</rdfs:comment>
 		<rdfs:domain rdf:resource="Role"/>
 		<rdfs:range rdf:resource="Top"/>
-	</owl:ObjectProperty>
-
-	<owl:ObjectProperty rdf:about="specifies">
-		<rdfs:label xml:lang="en">specifies</rdfs:label>
-		<rdfs:label xml:lang="de">spezifiziert</rdfs:label>
-		<rdfs:domain rdf:resource="EntityType"/>
-		<rdfs:range rdf:resource="EntityType"/>
-	</owl:ObjectProperty>
-
-	<owl:ObjectProperty rdf:about="isDeducedFrom">
-		<rdfs:label xml:lang="en">is deduced from</rdfs:label>
-		<rdfs:label xml:lang="de">ist deduziert von</rdfs:label>
-		<rdfs:domain rdf:resource="EntityType"/>
-		<rdfs:range rdf:resource="EntityType"/>
-	</owl:ObjectProperty>
-
-	<owl:ObjectProperty rdf:about="purpose">
-		<rdfs:label xml:lang="en">purpose</rdfs:label>
-		<rdfs:label xml:lang="de">Zweck</rdfs:label>
-		<rdfs:domain rdf:resource="EntityType"/>
-		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
 
 
