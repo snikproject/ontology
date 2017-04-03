@@ -83,6 +83,8 @@
 		<rdfs:label xml:lang="en">is decomposed in</rdfs:label>
 		<rdfs:domain rdf:resource="Top"/>
 		<rdfs:range rdf:resource="Top"/>
+		<rdf:type rdf:resource="owl:DeprectedProperty"/>
+		<rdfs:comment>Use functionComponent, roleComponent, respectively entityTypeComponent instead.</rdfs:comment>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="updates">
@@ -108,7 +110,7 @@
 
 	<owl:ObjectProperty rdf:about="communicatesWith">
 		<rdfs:label xml:lang="en">communicates with</rdfs:label>
-	  <rdfs:label xml:lang="de">kommuniziert mit</rdfs:label>
+	        <rdfs:label xml:lang="de">kommuniziert mit</rdfs:label>
 		<rdfs:domain rdf:resource="ApplicationComponent"/>
 		<rdfs:range rdf:resource="ApplicationComponent"/>
 	</owl:ObjectProperty>
