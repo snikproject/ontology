@@ -178,7 +178,7 @@
 <ov:defines rdf:resource="DecisionForBid"/>
 <ov:defines rdf:resource="DefiningAndSchedulingMilestones"/>
 <ov:defines rdf:resource="DefiningProjectOrganization"/>
-<ov:defines rdf:resource="DefininingProjectOrganization"/>
+<ov:defines rdf:resource="DefiningProjectOrganization"/>
 <ov:defines rdf:resource="DefinitionOfAuthorizationConcept"/>
 <ov:defines rdf:resource="DefinitionOfIntroductionStrategy"/>
 <ov:defines rdf:resource="DefinitionOfTargetValue"/>
@@ -5591,8 +5591,8 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="DefininingProjectOrganization">
-	<rdfs:label xml:lang="en">Definining Project Organization</rdfs:label>
+    <owl:Class rdf:about="DefiningProjectOrganization">
+	<rdfs:label xml:lang="en">Defining Project Organization</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
@@ -25221,7 +25221,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isInvolvedIn"/>
-                <owl:someValuesFrom rdf:resource="DefininingProjectOrganization"/>
+                <owl:someValuesFrom rdf:resource="DefiningProjectOrganization"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -25570,7 +25570,7 @@ so wie es in der Einführungsstrategie geplant ist.
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isInvolvedIn"/>
-                <owl:someValuesFrom rdf:resource="DefininingProjectOrganization"/>
+                <owl:someValuesFrom rdf:resource="DefiningProjectOrganization"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38</TripelPage>
