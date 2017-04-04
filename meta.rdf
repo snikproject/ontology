@@ -36,7 +36,6 @@
 		<ov:defines rdf:resource="SoftwareProduct"/>
 		<ov:defines rdf:resource="RepresentationType"/>
 		<!--Definitions will be reworked using language tags and the bibo ontology.-->
-		<ov:defines rdf:resource="InformationManagementEntityType"/>
 		<ov:defines rdf:resource="ComputerBasedApplicationComponent"/>
 		<ov:defines rdf:resource="ApplicationComponent"/>
 		<ov:defines rdf:resource="DataSetType"/>
@@ -248,15 +247,15 @@
 	<owl:Class rdf:about="SoftwareProduct">
 		<rdfs:label xml:lang="en">software product</rdfs:label>
 		<rdfs:label xml:lang="de">Softwareprodukt</rdfs:label>
-		<rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
+		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<subTopClass rdf:resource="EntityType"/>
 	</owl:Class>
 		
 	<owl:ObjectProperty rdf:about="softwareProduct">
 		<rdfs:label xml:lang="en">software product</rdfs:label>
 	  	<rdfs:label xml:lang="de">Softwareprodukt</rdfs:label>
-		<rdfs:domain rdf:resource="EntityType"/>
-		<rdfs:range rdf:resource="EntityType"/>
+		<rdfs:domain rdf:resource="ComputerBasedApplicationComponent"/>
+		<rdfs:range rdf:resource="SoftwareProduct"/>
 	</owl:ObjectProperty>
 
 	<owl:Class rdf:about="RepresentationType">
@@ -271,31 +270,22 @@
 		<subTopClass rdf:resource="EntityType"/>
 	</owl:Class>
 
-
 	<owl:Class rdf:about="ApplicationComponent">
  		<rdfs:label xml:lang="en">application component</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<subTopClass rdf:resource="EntityType"/>
-		<rdfs:comment xml:lang="en"></rdfs:comment>
-		<rdfs:comment xml:lang="de"></rdfs:comment>
+<!--		<rdfs:comment xml:lang="en"></rdfs:comment>
+		<rdfs:comment xml:lang="de"></rdfs:comment>-->
 	</owl:Class>
 
 	<owl:Class rdf:about="ComputerBasedApplicationComponent">
  		<rdfs:label xml:lang="en">computer based application component</rdfs:label>
  		<rdfs:label xml:lang="de"></rdfs:label>
-		<rdfs:subClassOf rdf:resource="EntityType"/>
+		<rdfs:subClassOf rdf:resource="ApplicationComponent"/>
 		<subTopClass rdf:resource="EntityType"/>
-		<rdfs:comment xml:lang="en"></rdfs:comment>
-		<rdfs:comment xml:lang="de"></rdfs:comment>
-	</owl:Class>
-
-	<owl:Class rdf:about="InformationManagementEntityType">
-		<rdfs:label xml:lang="en">information management entity type</rdfs:label>
- 		<rdfs:label xml:lang="de"></rdfs:label>
-		<rdfs:subClassOf rdf:resource="EntityType"/>
-		<rdfs:comment xml:lang="en"></rdfs:comment>
-		<rdfs:comment xml:lang="de"></rdfs:comment>
+<!--		<rdfs:comment xml:lang="en"></rdfs:comment>
+		<rdfs:comment xml:lang="de"></rdfs:comment>-->
 	</owl:Class>
 
 	<owl:Class rdf:about="Method">

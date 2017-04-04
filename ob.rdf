@@ -3260,7 +3260,8 @@
 
     <owl:Class rdf:about="CommunicationInterface">
 	<rdfs:label xml:lang="en">Communication Interface</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
+        <skos:broader rdf:resource="&bb;InformationManagementEntityType"/>
+	<rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
@@ -3271,17 +3272,11 @@
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
+	<rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2025</ID>
-            </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="CommunicationInterface"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;InformationManagementEntityType"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2035</TripelRowNr>
-    </owl:Axiom>
+    </owl:Class>    
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CommunicationInterface"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
@@ -3300,7 +3295,8 @@
 	<rdfs:label xml:lang="en">Communication Link</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.3</Chapter>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
+        <skos:broader rdf:resource="&bb;InformationManagementEntityType"/>
+	<rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1590</ID>
@@ -3371,23 +3367,16 @@
 
     <owl:Class rdf:about="ComponentOfAnInformationSystem">
 	<rdfs:label xml:lang="en">Component of an Information System</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
+        <skos:broader rdf:resource="&bb;InformationManagementEntityType"/>
+	<rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2028</ID>
-            </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="ComponentOfAnInformationSystem"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;InformationManagementEntityType"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2028</TripelRowNr>
-    </owl:Axiom>
-
-
+    </owl:Class>
+    
     <owl:Class rdf:about="ComputerBasedApplicationSystem">
 	<rdfs:label xml:lang="en">Computer-Based Application System</rdfs:label>
         <rdfs:subClassOf rdf:resource="ApplicationSystem"/>
@@ -27237,7 +27226,8 @@ so wie es in der Einführungsstrategie geplant ist.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
+        <skos:broader rdf:resource="&bb;InformationManagementEntityType"/>
+	<rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="de">Ein System ist eine Menge von Elementen (z. B. Personen, Dinge) mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Das System ist ein Ganzes, das mehr ist als die Summe seiner Teile. Jedes System hat eine Systemgrenze, die es von seiner Umwelt trennt.Systeme liegen entweder in der Natur als gegeben vor (natürliche Systeme) oder werden vom Men-schen geschaffen (künstliche Systeme). Menge von Elementen mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Systeme lassen sich in Teilsysteme untergliedern.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7, 344</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -33163,7 +33153,8 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationManagementEntityType"/>
+        <skos:broader rdf:resource="&bb;InformationManagementEntityType"/>
+	<rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="de">Schriftliche Befragungen ermöglichen die gleichartige Befragung einer größeren Personenzahl. Einsatzbereiche schriftlicher Befragungen sind die strukturierte Erhe-bung von Informationen, die die Befragten haben (sollten), das Erfra-gen von Einstellung und Meinungen von Betroffenen, die Sammlung von Stärken und Schwachstellen einer Situation, eines Ablaufs oder einer Komponente sowie die Sammlung von Wünschen und Verbes-serungsvorschlägen. Schriftliche Befragungen sind immer standardisiert, da die Fragen not-wendigerweise fest vorgegeben sind. Die Fragen können dabei offen (Freitext-Fragen) oder geschlossen (in der Regel „Ankreuz-Fragen“) sein. Methode zur Informationsbeschaffung, bei der bestimmte Personen eigenständig schriftlich gestellte Fragen beantworten. Eine schriftliche Befragung dient dazu, Informationen, Einstellungen und Meinungen von Personen in einem zu untersuchenden Bereich zu erheben. Als Erhebungsformular wird ein Fragebogen verwendet. Von besonderer Bedeutung ist hier die Rücklaufquote. Schriftliche Befragungen besitzen in der Regel einen hohen Grad an Standardisierung (siehe standardisierte Datenerhebung).</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">132, 142, 340</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>

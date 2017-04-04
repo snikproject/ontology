@@ -12979,14 +12979,11 @@ Object Workgroup Standard</skos:altLabel>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1069</TripelRowNr>
     </owl:Axiom>
 
-
-
-
     <owl:Class rdf:about="Event">
 	<rdfs:label xml:lang="en">Event</rdfs:label>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <rdfs:subClassOf rdf:resource="&meta;InformationEntityType"/>
+        <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
@@ -12995,13 +12992,10 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Event"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;InformationManagementEntityType"/>
+        <owl:annotatedTarget rdf:resource="InformationManagementEntityType"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1734</TripelRowNr>
     </owl:Axiom>
-
-
-
 
     <owl:Class rdf:about="EventDrivenProcessChain">
 	<rdfs:label xml:lang="en">Event-Driven Process Chain</rdfs:label>
@@ -16374,9 +16368,6 @@ Object Workgroup Standard</skos:altLabel>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">981</TripelRowNr>
     </owl:Axiom>
-
-
-
 
     <owl:Class rdf:about="HisStakeholder">
 	<rdfs:label xml:lang="en">HIS Stakeholder</rdfs:label>
@@ -20743,22 +20734,17 @@ Object Workgroup Standard</skos:altLabel>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">947</TripelRowNr>
     </owl:Axiom>
 
-
-
-
     <owl:Class rdf:about="InformationManagementEntityType">
 	<rdfs:label xml:lang="en">Information Management Entity Type</rdfs:label>
         <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
+	<skos:narrowMatch rdf:resource="&meta;SoftwareProduct"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1784</ID>
     </owl:Class>
-    
-
-
 
     <owl:Class rdf:about="InformationManagement">
 	<rdfs:label xml:lang="en">Information Management Function</rdfs:label>
