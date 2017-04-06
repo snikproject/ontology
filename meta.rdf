@@ -30,6 +30,7 @@
 		<dc:source rdf:resource="http://www.snik.eu/mapping"/>
 		<vann:preferredNamespacePrefix>snik-meta</vann:preferredNamespacePrefix>
 		<vann:preferredNamespaceUri rdf:resource="http://www.snik.eu/ontology/meta/"/>
+		<ov:defines rdf:resource="Top"/>
 		<ov:defines rdf:resource="Function"/>
 		<ov:defines rdf:resource="Role"/>
 		<ov:defines rdf:resource="EntityType"/>
@@ -50,6 +51,9 @@
 		<ov:defines rdf:resource="updates"/>
 		<ov:defines rdf:resource="isAssociatedWith"/>
 		<ov:defines rdf:resource="isDecomposedIn"/>
+		<ov:defines rdf:resource="functionComponent"/>
+		<ov:defines rdf:resource="roleComponent"/>
+		<ov:defines rdf:resource="entityTypeComponent"/>
 		<ov:defines rdf:resource="communicatesWith"/>
 		<ov:defines rdf:resource="supports"/>
 		<ov:defines rdf:resource="isBasedOn"/>
