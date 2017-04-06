@@ -57,7 +57,6 @@
 		<ov:defines rdf:resource="communicatesWith"/>
 		<ov:defines rdf:resource="supports"/>
 		<ov:defines rdf:resource="isBasedOn"/>
-		<ov:defines rdf:resource="master"/>
 		<ov:defines rdf:resource="represents"/>
 		<ov:defines rdf:resource="isResponsibleForFunction"/>
 		<ov:defines rdf:resource="isResponsibleForEntityType"/>
@@ -173,13 +172,6 @@
 		<rdfs:label xml:lang="de">unterstützt</rdfs:label>
 		<rdfs:domain rdf:resource="ApplicationComponent"/>
 		<rdfs:range rdf:resource="Function"/>
-	</owl:ObjectProperty>
-
-	<owl:ObjectProperty rdf:about="master">
-		<rdfs:label xml:lang="en">master</rdfs:label>
-		<rdfs:label xml:lang="de">Hauptkomponente</rdfs:label>
-		<rdfs:domain rdf:resource="EntityType"/>
-		<rdfs:range rdf:resource="ApplicationComponent"/>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="subTopClass">
