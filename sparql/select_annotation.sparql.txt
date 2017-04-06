@@ -1,6 +1,7 @@
 select
  ?resource
  count(distinct(?connected)) as ?degree
+ ?consolidated
 # ?type
  ?subTop
  ?source
@@ -13,6 +14,10 @@ select
 # group_concat(distinct ?definition;separator="|") as ?definitions 
  group_concat(distinct ?bb_page;separator="|") as ?bb_pages
 #group_concat(distinct ?ob_page;separator="|") as ?ob_pages
+from <http://www.snik.eu/ontology/meta>
+from <http://www.snik.eu/ontology/bb>
+from <http://www.snik.eu/ontology/ob>
+from <http://www.snik.eu/ontology/he>
 {
 #?resource a ?type.
 ?resource a owl:Class.
@@ -23,7 +28,7 @@ filter not exists {?resource a owl:Axiom.}
 ?connected a owl:Class.
 
 OPTIONAL {?resource meta:subTopClass ?subTop}
-
+OPTIONAL {?resource meta:consolidated ?consolidated.}
 OPTIONAL 
 { 
  ?resource rdfs:label ?Label. 
