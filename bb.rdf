@@ -38919,19 +38919,6 @@ goals, structures, and behaviors.</skos:definition>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">424</TripelRowNr>
     </owl:Axiom>
 
-
-
-    <owl:Class rdf:about="&meta;Role">
-	<rdfs:label xml:lang="en">Role</rdfs:label>
-        <meta:subTopClass rdf:resource="&meta;Role"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <skos:definition xml:lang="en"></skos:definition>
-        <page></page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1943</ID>
-    </owl:Class>
-
-
     <owl:Class rdf:about="RoleModelingElement">
 	<rdfs:label xml:lang="en">Role Modeling Element</rdfs:label>
         <rdfs:subClassOf rdf:resource="ResearchAndEducationEntityType"/>
