@@ -85,7 +85,7 @@
 		<rdfs:label xml:lang="en">is decomposed in</rdfs:label>
 		<rdfs:domain rdf:resource="Top"/>
 		<rdfs:range rdf:resource="Top"/>
-		<rdf:type rdf:resource="owl:DeprectedProperty"/>
+		<rdf:type rdf:resource="owl:DeprecatedProperty"/>
 		<rdfs:comment>Use functionComponent, roleComponent, respectively entityTypeComponent instead.</rdfs:comment>
 	</owl:ObjectProperty>
 
@@ -93,18 +93,21 @@
 		<rdfs:label xml:lang="en">function component</rdfs:label>
 		<rdfs:domain rdf:resource="Function"/>
 		<rdfs:range rdf:resource="Function"/>
+		<rdfs:subPropertyOf rdf:resource="isDecomposedIn"/>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="roleComponent">
 		<rdfs:label xml:lang="en">role component</rdfs:label>
 		<rdfs:domain rdf:resource="Role"/>
 		<rdfs:range rdf:resource="Role"/>
+		<rdfs:subPropertyOf rdf:resource="isDecomposedIn"/>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="entityTypeComponent">
 		<rdfs:label xml:lang="en">entity type component</rdfs:label>
 		<rdfs:domain rdf:resource="EntityType"/>
 		<rdfs:range rdf:resource="EntityType"/>
+		<rdfs:subPropertyOf rdf:resource="isDecomposedIn"/>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="updates">
@@ -184,6 +187,15 @@
 		<rdfs:label xml:lang="de">repräsentiert</rdfs:label>
 		<rdfs:domain rdf:resource="RepresentationType"/>
 		<rdfs:range rdf:resource="EntityType"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="isResponsibleFor">
+		<rdf:type rdf:resource="owl:DeprecatedProperty"/>
+		<rdfs:label xml:lang="en">is responsible for </rdfs:label>
+		<rdfs:label xml:lang="en">ist verantwortlich für</rdfs:label>
+		<rdfs:domain rdf:resource="Role"/>
+		<rdfs:range rdf:resource="Top"/>
+		<rdfs:comment>Use isResponsibleForFunction and isResponsibleForEntityType instead.</rdfs:comment>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="isResponsibleForFunction">
