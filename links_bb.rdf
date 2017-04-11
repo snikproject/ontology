@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:bb="http://www.snik.eu/ontology/bb/" xmlns:ob="http://www.snik.eu/ontology/ob/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/WrittenAgreementOnTheStudyOutline">
+    <skos:broadMatch rdf:resource="http://www.snik.eu/ontology/ob/WrittenAgreement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/NonComputerBasedInformationProcessingTool">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/NonComputerBasedTool"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/BusinessProcessModel">
+    <skos:broadMatch rdf:resource="http://www.snik.eu/ontology/ob/BusinessProcessModelingMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Integrity">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Integrity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/QualitativeInterview">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Interview"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/QualitativeObservation">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/QualitativeObservation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/3LGM2LogicalToolLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/3LGM2">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ThreeLayerGraphBasedMetamodel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Activity">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ApplicationComponent">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ApplicationSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ChangeManagement">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ChangeManagement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ChiefInformationOfficer">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ChiefInformationOfficer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Completeness">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Completeness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ComputerSystem">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ComputerSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Consultant">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Consultant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/CostBenefitAnalysis">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/CostBenefitAnalysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/CostEffectivenessAnalysis">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/CostEffectivenessAnalysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Customizing">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Customizing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Data">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Data"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/DelphiSurvey">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/DelphiStudy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/EnterpriseFunction">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/EnterpriseFunction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/EvaluationMethod">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/SystemEvaluationMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Event">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/EventDrivenProcessChain">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/EventDrivenProcessChain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/FirstLevelSupport">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/FirstLevelSupport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Functionality">
+    <skos:broadMatch rdf:resource="http://www.snik.eu/ontology/ob/FunctionalRequirement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/HumanActor">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/HumanActor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/InformationSystem">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/InformationSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Information">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Information"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/InformationManagement">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/InformationManagement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ITIL">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/InformationTechnologyInfrastructureLibrary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Knowledge">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Knowledge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Law">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/LogicalToolLayer">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/LogicalToolLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Message">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Message"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Metamodel">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Metamodel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Model">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Model"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/NetworkManagement">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/NetworkManagement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ObservationProtocol">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ObservationProtocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/OperationalHISDirecting">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/OperationalHISDirecting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/OperationalHISMonitoring">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/OperationalHISMonitoring"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/OperationalHISPlanning">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/OperationalHISPlanning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/OperationalInformationManagement">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/OperationalManagementOfInformationSystems"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/PhysicalDataProcessingSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ProcessChain">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ProcessChain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ProjectExecution">
+    <skos:broadMatch rdf:resource="http://www.snik.eu/ontology/ob/ProjectExecution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ProjectInitiation">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ProjectInitiation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ProjectManagementBoard">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ProjectSteeringCommittee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ProjectManager">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ProjectManager"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ProjectPortfolio">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ProjectPortfolio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ProjectMonitoring">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ProjectMonitoring"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ProjectPlan">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ProjectPlan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ProjectPlanning">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ProjectPlanning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Resource">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/SecondLevelSupport">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/SecondLevelSupport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/SoftwareProduct">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/SoftwareProduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/HISStakeholder">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Stakeholder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/StrategicHISDirecting">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/StrategicHISDirecting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/StrategicHISMonitoring">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/StrategicHISMonitoring"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/StrategicHISPlanning">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/StrategicHISPlanning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/StrategicInformationManagementPlan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/StrategicInformationManagement">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/StrategicManagementOfInformationSystems"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/StudyDesign">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/StudyDesign"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/StudyObjective">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/StudyObjective"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Sustainability">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Sustainability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/SWOTAnalysis">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/SWOTAnalysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/SystemAnalysis">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/SystemAnalysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/SystemEvaluation">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/SystemEvaluation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/SystemIntroduction">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/SystemIntroduction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/SystemSelection">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/SystemSelection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/SystemSpecification">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/SystemSpecification"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/TacticalHISDirecting">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/TacticalHISDirecting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/TacticalHISMonitoring">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/TacticalHISMonitoring"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/TacticalHISPlanning">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/TacticalHISPlanning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/TacticalInformationManagement">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/TacticalManagementOfInformationSystems"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/ThirdLevelSupport">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/ThirdLevelSupport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/TimeMeasurement">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/TimeMeasurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/UMLClassDiagram">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/UMLClassDiagram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/UtilityAnalysis">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/UtilityAnalysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snik.eu/ontology/bb/Vendor">
+    <skos:closeMatch rdf:resource="http://www.snik.eu/ontology/ob/Vendor"/>
+  </rdf:Description>
+</rdf:RDF>
