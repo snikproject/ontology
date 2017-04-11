@@ -20411,7 +20411,6 @@ Object Workgroup Standard</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <meta:subTopClass rdf:resource="&meta;Role"/>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
@@ -23118,7 +23117,6 @@ Object Workgroup Standard</skos:altLabel>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <meta:subTopClass rdf:resource="&meta;Function"/>
         <skos:definition xml:lang="en">Application component supporting the management of analysis in a laboratory: the receipt of the order and the sample , the distribution of the sample and the order to the different analysis tools, the collection of the results, the validation of results, the communication of the findings back to the ordering department, as well as general quality management procedures.</skos:definition>
         <page>127, 309</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">485</ID>
@@ -28537,7 +28535,6 @@ goals, structures, and behaviors.</skos:definition>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <meta:subTopClass rdf:resource="&meta;Function"/>
         <skos:definition xml:lang="en">The operation management system supports operation planning and operation documentation as a specialization of execution of diagnositc and therapeutic procedures. Application component that supports planning and documentation within operation rooms.</skos:definition>
         <page>313</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">462</ID>
@@ -35313,7 +35310,6 @@ goals, structures, and behaviors.</skos:definition>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.6</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <meta:subTopClass rdf:resource="&meta;Role"/>
         <skos:definition xml:lang="en">Such a project management board supports the project manager by providing an interface between the project manager, future user groups, vendors involved in the project, and strategic information management authorities like CIO and information management board.</skos:definition>
         <page>273</page>
@@ -44557,7 +44553,6 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <skos:definition xml:lang="en">Ensures that every update of data which have been consistent will lead to another state in which data are consistent again.</skos:definition>
         <page>324</page>
@@ -44599,7 +44594,6 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <meta:subTopClass rdf:resource="&meta;Function"/>
         <skos:definition xml:lang="en">Transaction management in databases but also in sets of distributed databases ensures that every update of data, which are consistent, will lead to another state in which data are consistent again.</skos:definition>
         <page>155</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">499</ID>

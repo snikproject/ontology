@@ -17064,82 +17064,6 @@
     </owl:Axiom>
 
 
-    <owl:Class rdf:about="Sponsor">
-	<rdfs:label xml:lang="en">Sponsor</rdfs:label>
-        <rdfs:label xml:lang="de">Auftraggeber</rdfs:label>
-	<skos:altLabel xml:lang="en">Client</skos:altLabel>
-        <meta:subTopClass rdf:resource="&meta;Role"/>
-        <rdfs:subClassOf rdf:resource="&meta;Role"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="approves"/>
-                <owl:someValuesFrom rdf:resource="Project"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="approves"/>
-                <owl:someValuesFrom rdf:resource="ProjectPlan"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="approves"/>
-                <owl:someValuesFrom rdf:resource="ServiceLevelAgreement"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <meta:subTopClass rdf:resource="&meta;Role"/>
-        <rdfs:subClassOf rdf:resource="&meta;Role"/>
-        <skos:definition xml:lang="en"></skos:definition>
-        <page></page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1293</ID>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Sponsor"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Role"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">340</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1293</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Sponsor"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="approves"/>
-                <owl:someValuesFrom rdf:resource="Project"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1403</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Sponsor"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="approves"/>
-                <owl:someValuesFrom rdf:resource="ProjectPlan"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">337</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1405</TripelRowNr>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Sponsor"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="approves"/>
-                <owl:someValuesFrom rdf:resource="ServiceLevelAgreement"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">341</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1407</TripelRowNr>
-    </owl:Axiom>
-
 
     <owl:Class rdf:about="ProjectDeadline">
 	<rdfs:label xml:lang="en">Project Deadline</rdfs:label>
@@ -21793,8 +21717,6 @@
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
         <skos:definition xml:lang="de">Oberstes Steuerungs- und Entscheidungsprogramm eines Projekts. Wird vor allem in Großprojekten oder bei interdisziplinär ausgerichteten Projekten eingesetzt. Wird aus hochrangigen Vertretern aller in ein Projekt involvierten Gruppen zusammengesetzt (Auftraggeber, Auftragnehmer, Vertreter zukünftiger Benutergruppen etc.)</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">336</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
@@ -25100,11 +25022,35 @@ so wie es in der Einführungsstrategie geplant ist.
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</TripelRowNr>
     </owl:Axiom>
 
-
     <owl:Class rdf:about="Sponsor">
 	<rdfs:label xml:lang="en">Sponsor</rdfs:label>
-        <meta:subTopClass rdf:resource="&meta;Function"/>
-        <rdfs:subClassOf rdf:resource="InformationManagement"/>
+        <rdfs:label xml:lang="de">Auftraggeber</rdfs:label>
+	<skos:altLabel xml:lang="en">Client</skos:altLabel>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="approves"/>
+                <owl:someValuesFrom rdf:resource="Project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="approves"/>
+                <owl:someValuesFrom rdf:resource="ProjectPlan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="approves"/>
+                <owl:someValuesFrom rdf:resource="ServiceLevelAgreement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
+        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
+        <skos:definition xml:lang="en"></skos:definition>
+        <page></page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1293</ID>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="approves"/>
@@ -25804,6 +25750,49 @@ so wie es in der Einführungsstrategie geplant ist.
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">575</TripelRowNr>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Sponsor"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="&meta;Role"/>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">340</TripelPage>
+        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1293</TripelRowNr>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Sponsor"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="approves"/>
+                <owl:someValuesFrom rdf:resource="Project"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</TripelPage>
+        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1403</TripelRowNr>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Sponsor"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="approves"/>
+                <owl:someValuesFrom rdf:resource="ProjectPlan"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">337</TripelPage>
+        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1405</TripelRowNr>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="Sponsor"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="approves"/>
+                <owl:someValuesFrom rdf:resource="ServiceLevelAgreement"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">341</TripelPage>
+        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1407</TripelRowNr>
     </owl:Axiom>
 
 
