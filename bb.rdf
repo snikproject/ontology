@@ -5409,7 +5409,7 @@ Object Workgroup Standard</skos:altLabel>
 
 
     <owl:Class rdf:about="ChiefInformationOfficer">
-	<rdfs:label xml:lang="en">Chief Informations Officer</rdfs:label>
+	<rdfs:label xml:lang="en">Chief Information Officer</rdfs:label>
         <skos:altLabel xml:lang="en">CIO</skos:altLabel>
         <skos:altLabel xml:lang="en">President of Information Systems</skos:altLabel>
         <skos:altLabel xml:lang="en">Director of Information Systems</skos:altLabel>

@@ -3027,7 +3027,7 @@
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">545</ID>
-        <rdfs:label xml:lang="de">CIO</rdfs:label>
+        <skos:altLabel xml:lang="en">CIO</skos:altLabel>
 	<skos:altLabel xml:lang="de">Direktor des Geschäftsbereiches Informationsverarbeitung</skos:altLabel>
 	<rdfs:label xml:lang="de">Leiter der Abteilung Informationsmanagement</rdfs:label>
 	<skos:altLabel xml:lang="de">Leiter des Rechenzentrums</skos:altLabel>
