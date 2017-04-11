@@ -81,6 +81,14 @@
 		<rdfs:range rdf:resource="Top"/>
 	</owl:ObjectProperty>
 
+	<owl:ObjectProperty rdf:about="homonym">
+		<rdf:type rdf:resource="&owl;SymmetricProperty"/>
+		<rdfs:label xml:lang="en">homonym</rdfs:label>
+		<rdfs:domain rdf:resource="Top"/>
+		<rdfs:range rdf:resource="Top"/>
+		<rdfs:comment>Sounds similar but has a different meaning.</rdfs:comment>
+	</owl:ObjectProperty>
+
 	<owl:ObjectProperty rdf:about="isDecomposedIn">
 		<rdfs:label xml:lang="en">is decomposed in</rdfs:label>
 		<rdfs:domain rdf:resource="Top"/>
