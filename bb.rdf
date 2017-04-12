@@ -17703,7 +17703,7 @@ Object Workgroup Standard</skos:altLabel>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
-                <owl:someValuesFrom rdf:resource="Information Management"/>
+                <owl:someValuesFrom rdf:resource="InformationManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</TripelPage>
@@ -20500,14 +20500,14 @@ Object Workgroup Standard</skos:altLabel>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</ID>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information Management"/>
+        <owl:annotatedSource rdf:resource="InformationManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="InformationManagement"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1791</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information Management"/>
+        <owl:annotatedSource rdf:resource="InformationManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -20519,7 +20519,7 @@ Object Workgroup Standard</skos:altLabel>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1074</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information Management"/>
+        <owl:annotatedSource rdf:resource="InformationManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -20531,7 +20531,7 @@ Object Workgroup Standard</skos:altLabel>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">801</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information Management"/>
+        <owl:annotatedSource rdf:resource="InformationManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -20543,7 +20543,7 @@ Object Workgroup Standard</skos:altLabel>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">799</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information Management"/>
+        <owl:annotatedSource rdf:resource="InformationManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -20555,7 +20555,7 @@ Object Workgroup Standard</skos:altLabel>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information Management"/>
+        <owl:annotatedSource rdf:resource="InformationManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -20567,7 +20567,7 @@ Object Workgroup Standard</skos:altLabel>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information Management"/>
+        <owl:annotatedSource rdf:resource="InformationManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -20579,7 +20579,7 @@ Object Workgroup Standard</skos:altLabel>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information Management"/>
+        <owl:annotatedSource rdf:resource="InformationManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -20591,7 +20591,7 @@ Object Workgroup Standard</skos:altLabel>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</TripelRowNr>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="Information Management"/>
+        <owl:annotatedSource rdf:resource="InformationManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -20981,7 +20981,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="InformationManagementInHealthCareNetworks">
 	<rdfs:label xml:lang="en">Information Management in Health Care Networks</rdfs:label>
-        <rdfs:subClassOf rdf:resource="Information Management"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -20998,7 +20998,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="InformationManagementInHealthCareNetworks"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Information Management"/>
+        <owl:annotatedTarget rdf:resource="InformationManagement"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2136</TripelRowNr>
     </owl:Axiom>
@@ -21021,7 +21021,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Class rdf:about="InformationManagementInHospitals">
 	<rdfs:label xml:lang="en">Information Management in Hospitals</rdfs:label>
         <skos:altLabel xml:lang="en">HIS Management</skos:altLabel>
-        <rdfs:subClassOf rdf:resource="Information Management"/>
+        <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <subTopClass rdf:resource="Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -21038,7 +21038,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="InformationManagementInHospitals"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="Information Management"/>
+        <owl:annotatedTarget rdf:resource="InformationManagement"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1788</TripelRowNr>
     </owl:Axiom>
@@ -47665,7 +47665,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;supports"/>
-                <owl:someValuesFrom rdf:resource="Information Management"/>
+                <owl:someValuesFrom rdf:resource="InformationManagement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -47707,7 +47707,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;supports"/>
-                <owl:someValuesFrom rdf:resource="Information Management"/>
+                <owl:someValuesFrom rdf:resource="InformationManagement"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</TripelPage>
