@@ -2328,7 +2328,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="AdministrationAndAllocationOfPatientRecords"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2037</TripelRowNr>
     </owl:Axiom>
@@ -2362,7 +2362,7 @@
 
     <owl:Class rdf:about="AdministrationOfBusinessTripsAndFurtherTraining">
 	<rdfs:label xml:lang="en">Administration of Business Trips and Further Training</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -2392,7 +2392,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="AdministrationOfBusinessTripsAndFurtherTraining"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2038</TripelRowNr>
     </owl:Axiom>
@@ -2438,7 +2438,7 @@
 
     <owl:Class rdf:about="AdministrationOfHumanResourceMasterData">
 	<rdfs:label xml:lang="en">Administration of Human Resource Master Data</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -2468,7 +2468,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="AdministrationOfHumanResourceMasterData"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2039</TripelRowNr>
     </owl:Axiom>
@@ -2752,7 +2752,7 @@
 
     <owl:Class rdf:about="AdministrativeDischargeAndBilling">
 	<rdfs:label xml:lang="en">Administrative Discharge and Billing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -2896,7 +2896,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="AdministrativeDischargeAndBilling"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1167</TripelRowNr>
     </owl:Axiom>
@@ -2941,7 +2941,7 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1669</ID>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&meta;Administration"/>
+        <owl:annotatedSource rdf:resource="Administration"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="HospitalFunction"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
@@ -3478,7 +3478,7 @@
 
     <owl:Class rdf:about="AppointmentScheduling">
 	<rdfs:label xml:lang="en">Appointment Scheduling</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -3537,7 +3537,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="AppointmentScheduling"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1265</TripelRowNr>
     </owl:Axiom>
@@ -3814,7 +3814,7 @@
 
     <owl:Class rdf:about="Archiving">
 	<rdfs:label xml:lang="en">Archiving</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;Function"/>
@@ -3826,7 +3826,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Archiving"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2047</TripelRowNr>
     </owl:Axiom>
@@ -3950,7 +3950,7 @@
 
     <owl:Class rdf:about="AssetAccounting">
 	<rdfs:label xml:lang="en">Asset Accounting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;Function"/>
@@ -3961,7 +3961,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="AssetAccounting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1676</TripelRowNr>
     </owl:Axiom>
@@ -4586,7 +4586,7 @@
 
     <owl:Class rdf:about="BillingOfAccountableServices">
 	<rdfs:label xml:lang="en">Billing of Accountable Services</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;Function"/>
@@ -4597,7 +4597,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="BillingOfAccountableServices"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2051</TripelRowNr>
     </owl:Axiom>
@@ -6103,7 +6103,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="Catering">
 	<rdfs:label xml:lang="en">Catering</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -6126,7 +6126,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Catering"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1295</TripelRowNr>
     </owl:Axiom>
@@ -7062,7 +7062,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="CodingOfDiagnosesAndProcedures">
 	<rdfs:label xml:lang="en">Coding of Diagnoses and Procedures</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -7085,7 +7085,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CodingOfDiagnosesAndProcedures"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2066</TripelRowNr>
     </owl:Axiom>
@@ -8654,7 +8654,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="Controlling">
 	<rdfs:label xml:lang="en">Controlling</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf rdf:resource="Management"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
@@ -8751,7 +8751,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Controlling"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1302</TripelRowNr>
     </owl:Axiom>
@@ -9047,7 +9047,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="CostAccounting">
 	<rdfs:label xml:lang="en">Cost Accounting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9094,7 +9094,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CostAccounting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1303</TripelRowNr>
     </owl:Axiom>
@@ -9259,7 +9259,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="CreditAccounting">
 	<rdfs:label xml:lang="en">Credit Accounting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;Function"/>
@@ -9270,7 +9270,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="CreditAccounting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2073</TripelRowNr>
     </owl:Axiom>
@@ -9702,7 +9702,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="DrgCalculation">
 	<rdfs:label xml:lang="en">DRG Calculation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9737,7 +9737,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DrgCalculation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2094</TripelRowNr>
     </owl:Axiom>
@@ -10351,7 +10351,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="DebtorAccounting">
 	<rdfs:label xml:lang="en">Debtor Accounting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -10362,7 +10362,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="DebtorAccounting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2080</TripelRowNr>
     </owl:Axiom>
@@ -14242,7 +14242,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="FacilityManagement">
 	<rdfs:label xml:lang="en">Facility Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -14272,7 +14272,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="FacilityManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2108</TripelRowNr>
     </owl:Axiom>
@@ -14564,7 +14564,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="FinancialAccounting">
 	<rdfs:label xml:lang="en">Financial Accounting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -14611,7 +14611,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="FinancialAccounting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1114</TripelRowNr>
     </owl:Axiom>
@@ -14693,7 +14693,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="FinancialControlling">
 	<rdfs:label xml:lang="en">Financial Controlling</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -14704,7 +14704,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="FinancialControlling"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2109</TripelRowNr>
     </owl:Axiom>
@@ -17670,7 +17670,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Class rdf:about="HospitalAdministration">
 	<rdfs:label xml:lang="en">Hospital Administration</rdfs:label>
         <rdfs:label xml:lang="de">Krankenhausverwaltung</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
 	<rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -17693,7 +17693,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="HospitalAdministration"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">96</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1299</TripelRowNr>
     </owl:Axiom>
@@ -17748,7 +17748,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="HospitalBilling">
 	<rdfs:label xml:lang="en">Hospital Billing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -17771,7 +17771,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="HospitalBilling"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2124</TripelRowNr>
     </owl:Axiom>
@@ -18531,7 +18531,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="HumanResourceManagement">
 	<rdfs:label xml:lang="en">Human Resource Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -18591,7 +18591,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="HumanResourceManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2127</TripelRowNr>
     </owl:Axiom>
@@ -23350,7 +23350,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="LaundryManagement">
 	<rdfs:label xml:lang="en">Laundry Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -23374,7 +23374,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LaundryManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2159</TripelRowNr>
     </owl:Axiom>
@@ -23820,7 +23820,7 @@ Object Workgroup Standard</skos:altLabel>
 
     <owl:Class rdf:about="LongTermArchiving">
 	<rdfs:label xml:lang="en">Long Term Archiving</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -23850,7 +23850,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="LongTermArchiving"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1818</TripelRowNr>
     </owl:Axiom>
@@ -24439,7 +24439,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="ManagementOfMedicalDevices">
 	<rdfs:label xml:lang="en">Management of Medical Devices</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -24462,7 +24462,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ManagementOfMedicalDevices"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1824</TripelRowNr>
     </owl:Axiom>
@@ -24603,7 +24603,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="MaterialControlling">
 	<rdfs:label xml:lang="en">Material Controlling</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -24614,7 +24614,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MaterialControlling"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1828</TripelRowNr>
     </owl:Axiom>
@@ -24624,7 +24624,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="MaterialAndMedicationManagement">
 	<rdfs:label xml:lang="en">Material and Medication Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -24659,7 +24659,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="MaterialAndMedicationManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1827</TripelRowNr>
     </owl:Axiom>
@@ -31125,7 +31125,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PatientAdministration">
 	<rdfs:label xml:lang="en">Patient Administration</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -31160,7 +31160,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientAdministration"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1173</TripelRowNr>
     </owl:Axiom>
@@ -31660,7 +31660,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PatientBilling">
 	<rdfs:label xml:lang="en">Patient Billing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -31701,7 +31701,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientBilling"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1873</TripelRowNr>
     </owl:Axiom>
@@ -32885,7 +32885,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PatientIdentificationAndCheckingForRecurrent">
 	<rdfs:label xml:lang="en">Patient Identification and Checking for Recurrent</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -32914,7 +32914,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PatientIdentificationAndCheckingForRecurrent"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2195</TripelRowNr>
     </owl:Axiom>
@@ -33234,7 +33234,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PayrollAccounting">
 	<rdfs:label xml:lang="en">Payroll Accounting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -33263,7 +33263,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PayrollAccounting"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1881</TripelRowNr>
     </owl:Axiom>
@@ -33350,7 +33350,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="PerformanceOfLegalNotificationRequirements">
 	<rdfs:label xml:lang="en">Performance of Legal Notification Requirements</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -33373,7 +33373,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="PerformanceOfLegalNotificationRequirements"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TripelRowNr>
     </owl:Axiom>
@@ -34824,7 +34824,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="ProcessControlling">
 	<rdfs:label xml:lang="en">Process Controlling</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -34835,7 +34835,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ProcessControlling"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1903</TripelRowNr>
     </owl:Axiom>
@@ -39390,7 +39390,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="SchedulingAndResourceAllocation">
 	<rdfs:label xml:lang="en">Scheduling and Resource Allocation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -39420,7 +39420,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="SchedulingAndResourceAllocation"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</TripelRowNr>
     </owl:Axiom>
@@ -39466,7 +39466,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="SchedulingAndResourcePlanningWithTheMedicalServiceUnit">
 	<rdfs:label xml:lang="en">Scheduling and Resource Planning with the Medical Service Unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -39513,7 +39513,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="SchedulingAndResourcePlanningWithTheMedicalServiceUnit"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2212</TripelRowNr>
     </owl:Axiom>
@@ -39595,7 +39595,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="SchedulingAndResourcePlanningWithThePatientTransportService">
 	<rdfs:label xml:lang="en">Scheduling and Resource Planning with the Patient Transport Service</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -39624,7 +39624,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="SchedulingAndResourcePlanningWithThePatientTransportService"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2213</TripelRowNr>
     </owl:Axiom>
@@ -40816,7 +40816,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="StaffControlling">
 	<rdfs:label xml:lang="en">Staff Controlling</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -40827,7 +40827,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="StaffControlling"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2218</TripelRowNr>
     </owl:Axiom>
@@ -42860,7 +42860,7 @@ goals, structures, and behaviors.</skos:definition>
 
     <owl:Class rdf:about="SupplyAndDisposalManagement">
 	<rdfs:label xml:lang="en">Supply and Disposal Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -42895,7 +42895,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="SupplyAndDisposalManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2222</TripelRowNr>
     </owl:Axiom>
@@ -45991,7 +45991,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
 
     <owl:Class rdf:about="WorkOrganizationAndTimeManagement">
 	<rdfs:label xml:lang="en">Work Organization and Time Management</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&meta;Administration"/>
+        <rdfs:subClassOf rdf:resource="Administration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -46027,7 +46027,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="WorkOrganizationAndTimeManagement"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="&meta;Administration"/>
+        <owl:annotatedTarget rdf:resource="Administration"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2028</TripelRowNr>
     </owl:Axiom>
