@@ -3667,6 +3667,7 @@
     <owl:Class rdf:about="ApprovalToStrategicInformationManagementPlan">
 	<rdfs:label xml:lang="en">Approval to Strategic Information Management Plan</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;updates"/>
@@ -15105,6 +15106,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Class rdf:about="FulfillmentOfLawsRelevantToInformationManagement">
 	<rdfs:label xml:lang="en">Fulfillment of Laws relevant to Information Management</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <meta:increases rdf:resource="QualityOfHISOutcome"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf>
@@ -15723,6 +15725,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Class rdf:about="GermanLaw">
 	<rdfs:label xml:lang="en">German Law</rdfs:label>
         <rdfs:subClassOf rdf:resource="Law"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.4</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -26890,6 +26893,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="NetworkMonitoring">
 	<rdfs:label xml:lang="en">Network Monitoring</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
+        <meta:subTopClass rdf:resource="Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.4</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -41981,6 +41985,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="StrategicHISPlanning">
 	<rdfs:label xml:lang="en">Strategic HIS Planning</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
+        <meta:subTopClass rdf:resource="Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
