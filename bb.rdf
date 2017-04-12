@@ -15338,7 +15338,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Class rdf:about="FulfillmentOfTheExpectationsOfDifferentStakeholders">
 	<rdfs:label xml:lang="en">Fulfillment of the Expectations of Different Stakeholders</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -44243,7 +44243,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
     <owl:Class rdf:about="Telemicroscopy">
 	<rdfs:label xml:lang="en">Telemicroscopy</rdfs:label>
         <rdfs:subClassOf rdf:resource="TransinstitutionalHealthCareFunction"/>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
