@@ -15338,6 +15338,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Class rdf:about="FulfillmentOfTheExpectationsOfDifferentStakeholders">
 	<rdfs:label xml:lang="en">Fulfillment of the Expectations of Different Stakeholders</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
+        <meta:subTopClass rdf:resource="Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
