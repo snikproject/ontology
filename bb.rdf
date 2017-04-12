@@ -21079,7 +21079,7 @@ Object Workgroup Standard</skos:altLabel>
 	<rdfs:label xml:lang="en">Information Management in Hospitals</rdfs:label>
         <skos:altLabel xml:lang="en">HIS Management</skos:altLabel>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
@@ -24186,7 +24186,7 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Class rdf:about="MakingABackup">
 	<rdfs:label xml:lang="en">Making a Backup</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -24579,7 +24579,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="ManagementOfUserAccounts">
 	<rdfs:label xml:lang="en">Management of User Accounts</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -25977,7 +25977,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="MessageEncryption">
 	<rdfs:label xml:lang="en">Message Encryption</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en">Those messages transferred during communication in the context of notifications , teleconsultations, or teleconferences, and for the global use of patient records, have to be protected from unauthorized third party access. Encryption procedures based on public key infrastructures exist for these cases. They are sufficiently secure and can be obtained as commercial encryption software.</skos:definition>
@@ -26331,7 +26331,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="ModelingHospitalInformationSystems">
 	<rdfs:label xml:lang="en">Modeling Hospital Information Systems</rdfs:label>
         <rdfs:subClassOf rdf:resource="ModelingInformationSystems"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -26370,7 +26370,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="ModelingInformationSystems">
 	<rdfs:label xml:lang="en">Modeling Information Systems</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -26418,7 +26418,7 @@ goals, structures, and behaviors.</skos:definition>
 	<rdfs:label xml:lang="en">Monitor and Evaluate</rdfs:label>
         <rdfs:subClassOf rdf:resource="CobitDomain"/>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -26468,7 +26468,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="MonitoringOfNationalLegislation">
 	<rdfs:label xml:lang="en">Monitoring of National Legislation</rdfs:label>
         <rdfs:subClassOf rdf:resource="PermanentMonitoring"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -26507,7 +26507,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="MonitoringOfNationalLocalPress">
 	<rdfs:label xml:lang="en">Monitoring of National Local Press</rdfs:label>
         <rdfs:subClassOf rdf:resource="PermanentMonitoring"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -26528,7 +26528,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="MonitoringOfStandardizationInitiatives">
 	<rdfs:label xml:lang="en">Monitoring of Standardization Initiatives</rdfs:label>
         <rdfs:subClassOf rdf:resource="PermanentMonitoring"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -26549,7 +26549,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="MonitoringOfStandardizationAndCertificationOrganizations">
 	<rdfs:label xml:lang="en">Monitoring of Standardization and Certification Organizations</rdfs:label>
         <rdfs:subClassOf rdf:resource="PermanentMonitoring"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -26627,7 +26627,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="MonitoringTheProjectProgress">
 	<rdfs:label xml:lang="en">Monitoring the Project Progress</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -26873,7 +26873,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="NetworkManagement">
 	<rdfs:label xml:lang="en">Network Management</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -26894,7 +26894,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="NetworkMonitoring">
 	<rdfs:label xml:lang="en">Network Monitoring</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.4</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
@@ -28936,7 +28936,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="OperationalHISDirecting">
 	<rdfs:label xml:lang="en">Operational HIS Directing</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <skos:definition xml:lang="en">Directing means the sum of all management activities that are necessary to ensure proper responses to operating problems of components of the hospital information system, that is, to provide backup facilities, to operate a service desk, to maintain servers, and to keep task forces available for repairing network components, servers, personal computers, printers, etc. Directing in this context deals with engaging the resources planned by the strategic information management plan in such a way that faultless operation of the hospital information system is ensured.</skos:definition>
@@ -28957,7 +28957,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="OperationalHISMonitoring">
 	<rdfs:label xml:lang="en">Operational HIS Monitoring</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;uses"/>
@@ -28996,7 +28996,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="OperationalHISPlanning">
 	<rdfs:label xml:lang="en">Operational HIS Planning</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -29125,7 +29125,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="OperationalInformationManagement">
 	<rdfs:label xml:lang="en">Operational Information Management</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
@@ -41986,7 +41986,7 @@ goals, structures, and behaviors.</skos:definition>
     <owl:Class rdf:about="StrategicHISPlanning">
 	<rdfs:label xml:lang="en">Strategic HIS Planning</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
