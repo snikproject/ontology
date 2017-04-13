@@ -1,0 +1,44 @@
+# After ontology changes, execute this query, and overwrite http://www.snik.eu/ontology/virtual:
+# Login to the conductor, delete the graph and do "Quad Store Upload" with the results with "create graph explicitly" checked.
+construct {?c ?p ?o}
+from <http://www.snik.eu/ontology/ob>
+from <http://www.snik.eu/ontology/bb>
+from <http://www.snik.eu/ontology/he>
+from <http://www.snik.eu/ontology/meta>
+{
+###################### Missing subClassOf
+{
+?c a owl:Class.
+filter not exists {?c rdfs:subClassOf [].}
+?c meta:subTopClass ?o.
+bind(rdfs:subClassOf as ?p)
+}
+###################### Missing subTopClass
+UNION
+{
+graph ?g {?c a owl:Class.}
+filter(?g!=<http://www.snik.eu/ontology/meta>) # EntityType, Role, Function and Top don't have subTopClass and we trust meta to have all other subtops
+filter not exists {?c meta:subTopClass ?x.}
+?c rdfs:subClassOf+ ?o.
+filter(?o = meta:Function OR ?o = meta:Role OR ?o = meta:EntityType)
+bind(meta:subTopClass as ?p)
+}
+UNION
+###################### Virtual Triples from Restrictions
+{
+ ?c      a owl:Class.
+ ?o    a owl:Class.
+ {
+  ?c     rdfs:subClassOf ?restriction.
+  ?restriction  a owl:Restriction;
+                owl:onProperty ?p.
+  {?restriction owl:someValuesFrom ?o.} UNION {?restriction owl:allValuesFrom ?o.}
+ }
+###################### Virtual Triples from Domain/Range
+UNION
+ {
+  ?p            rdfs:domain ?c.
+  ?p            rdfs:range ?o.
+ }
+}
+}
