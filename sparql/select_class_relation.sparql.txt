@@ -1,4 +1,9 @@
 select ?resource ?p as ?interaction replace(str(?p),".*[#/]","") as ?interactionLabel ?targetNode
+from <http://www.snik.eu/ontology/meta>
+from <http://www.snik.eu/ontology/bb>
+from <http://www.snik.eu/ontology/ob>
+from <http://www.snik.eu/ontology/he>
+from <http://www.snik.eu/ontology/ciox>
 {
  ?resource ?p ?targetNode.
  filter(?p!=meta:subTopClass).

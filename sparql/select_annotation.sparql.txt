@@ -18,6 +18,7 @@ from <http://www.snik.eu/ontology/meta>
 from <http://www.snik.eu/ontology/bb>
 from <http://www.snik.eu/ontology/ob>
 from <http://www.snik.eu/ontology/he>
+from <http://www.snik.eu/ontology/ciox>
 {
 #?resource a ?type.
 ?resource a owl:Class.

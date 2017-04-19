@@ -13,4 +13,5 @@ UNION
   ?p            rdfs:domain ?resource.
   ?p            rdfs:range ?targetNode.
  }
+
 }
