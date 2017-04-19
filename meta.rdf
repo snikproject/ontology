@@ -67,6 +67,14 @@
 		<ov:defines rdf:resource="quality"/>
 	</owl:Ontology>
 
+	<owl:ObjectProperty rdf:about="tripleQuality">
+		<rdfs:label xml:lang="en">quality</rdfs:label>
+	  	<rdfs:label xml:lang="de">Qualität</rdfs:label>
+		<rdfs:comment xml:lang="de">Anzahl der Qualitätskontrollen des Tripels.</rdfs:comment>
+		<rdfs:domain rdf:resource="&owl;Axiom"/>
+		<rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+	</owl:ObjectProperty>
+
 	<owl:ObjectProperty rdf:about="quality">
 		<rdfs:label xml:lang="en">quality</rdfs:label>
 	  	<rdfs:label xml:lang="de">Qualität</rdfs:label>
