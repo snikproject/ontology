@@ -45,6 +45,7 @@ bb:OperationalHISDirecting	skos:closeMatch	ob:OperationalHISDirecting.
 bb:OperationalHISMonitoring	skos:closeMatch	ob:OperationalHISMonitoring.
 bb:OperationalHISPlanning	skos:closeMatch	ob:OperationalHISPlanning.
 bb:OperationalInformationManagement	skos:closeMatch	ob:OperationalManagementOfInformationSystems.
+bb:PaperBasedApplicationComponent	skos:closeMatch	ob:NonComputerBasedApplicationSystem.
 bb:PhysicalDataProcessingSystem	skos:closeMatch	ob:PhysicalDataProcessingSystem.
 bb:ProcessChain	skos:closeMatch	ob:ProcessChain.
 bb:ProjectExecution	skos:broadMatch	ob:ProjectExecution.
