@@ -20396,7 +20396,7 @@ Object Workgroup Standard</skos:altLabel>
 
 
     <owl:Class rdf:about="CorrectInformation">
-	<rdfs:label xml:lang="en">Information</rdfs:label>
+	<rdfs:label xml:lang="en">Correct Information</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <page>34</page>
