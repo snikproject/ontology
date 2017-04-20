@@ -21722,7 +21722,7 @@
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">622</ID>
-        <rdfs:label xml:lang="de">Projektlenktungsausschuss</rdfs:label>
+        <rdfs:label xml:lang="de">Projektlenkungsausschuss</rdfs:label>
 	<skos:altLabel xml:lang="de">PLA</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
