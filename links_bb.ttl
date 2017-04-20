@@ -15,6 +15,7 @@ bb:ApplicationComponent	skos:closeMatch	ob:ApplicationSystem.
 bb:ChangeManagement	skos:closeMatch	ob:ChangeManagement.
 bb:ChiefInformationOfficer	skos:closeMatch	ob:ChiefInformationOfficer.
 bb:Completeness	skos:closeMatch	ob:Completeness.
+bb:ComputerBasedApplicationComponent	skos:closeMatch	ob:ComputerBasedApplicationSystem.
 bb:ComputerSystem	skos:closeMatch	ob:ComputerSystem.
 bb:Consultant	skos:closeMatch	ob:Consultant.
 bb:CostBenefitAnalysis	skos:closeMatch	ob:CostBenefitAnalysis.
