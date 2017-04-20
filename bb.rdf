@@ -22997,10 +22997,11 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Class rdf:about="Knowledge">
 	<rdfs:label xml:lang="en">Knowledge</rdfs:label>
         <rdfs:subClassOf rdf:resource="ResearchAndEducationEntityType"/>
+        <rdfs:subClassOf rdf:resource="Information"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="Information"/>
+                <owl:someValuesFrom rdf:resource="Data"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.2</Chapter>
