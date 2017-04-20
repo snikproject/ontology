@@ -11873,7 +11873,7 @@
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1; 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="Information"/>
         <skos:definition xml:lang="de">Wissen (lat. videre: sehen) ist eine Feststellung über Begriffe eines Fachgebiets zu gegebener Zeit.           Solche Feststellungen führen zu Terminologien und beschreiben regelhafte Zusammenhänge und Handlungsrichtlinien.           Wissen ist demnach auch Information im weiteren Sinne, bezieht sich aber nicht auf einzelne Objekte, sondern in der Regel auf Mengen           von Objekten, d. h. auf Begriffe, und die für sie geltende Zusammenhänge und Gesetzmäßigkeiten. Feststellung über Begriffe eines Fachgebiets zu gegebener Zeit. Wissen ist auch Informationen im weiteren Sinne.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6, 348</meta:DefinitionDEPage>
         <skos:definition xml:lang="en"></skos:definition>
