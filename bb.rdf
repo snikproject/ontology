@@ -23000,6 +23000,12 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Information"/>
             </owl:Restriction>
         </rdfs:subClassOf>
