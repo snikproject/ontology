@@ -20410,7 +20410,7 @@ Object Workgroup Standard</skos:altLabel>
     </owl:Class>
 
     <owl:Class rdf:about="UpToDateInformation">
-	<rdfs:label xml:lang="en">Information</rdfs:label>
+	<rdfs:label xml:lang="en">Up To Date Information</rdfs:label>
         <rdfs:subClassOf rdf:resource="Information"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <page>34</page>
