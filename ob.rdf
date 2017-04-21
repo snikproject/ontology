@@ -11866,7 +11866,7 @@
 	<rdfs:label xml:lang="en">Knowledge</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Data"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11886,7 +11886,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Data"/>
             </owl:Restriction>
         </owl:annotatedTarget>
