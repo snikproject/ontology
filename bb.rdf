@@ -5462,6 +5462,12 @@ Object Workgroup Standard</skos:altLabel>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
+                <owl:someValuesFrom rdf:resource="AnnualITBudget"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
                 <owl:someValuesFrom rdf:resource="HisBudgetPlanning"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5592,6 +5598,18 @@ Object Workgroup Standard</skos:altLabel>
         </owl:annotatedTarget>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">251</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1079</TripelRowNr>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="ChiefInformationOfficer"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&meta;isResponsibleFor"/>
+                <owl:someValuesFrom rdf:resource="AnnualITBudget"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
+        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">296</TripelPage>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="ChiefInformationOfficer"/>
