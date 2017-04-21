@@ -4584,28 +4584,31 @@
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1029</TripelRowNr>
     </owl:Axiom>
 
-
-
-
     <owl:Class rdf:about="Bill">
-	<rdfs:label xml:lang="en">Bill</rdfs:label>
+	    <rdfs:label xml:lang="en">Bill</rdfs:label>
         <rdfs:subClassOf rdf:resource="AdministrativeEntityType"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
-        <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <skos:definition xml:lang="en">Is demanded payment</skos:definition>
-        <page>78</page>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1255</ID>
+        <page>manuell hinzugefügt</page>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="Bill"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="AdministrativeEntityType"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1255</TripelRowNr>
     </owl:Axiom>
 
 
+    <owl:Class rdf:about="TreatmentBill">
+	    <rdfs:label xml:lang="en">treatment bill</rdfs:label>
+	    <rdfs:label xml:lang="en">Behandlungsrechnung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="Bill"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2</Chapter>
+        <skos:definition xml:lang="en">Is demanded payment</skos:definition>
+        <page>78</page>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1255</ID>
+    </owl:Class>
 
 
     <owl:Class rdf:about="BillingOfAccountableServices">
