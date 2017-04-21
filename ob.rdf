@@ -19463,7 +19463,7 @@
     <owl:Class rdf:about="ProjectMarketing">
 	<rdfs:label xml:lang="en">Project Marketing</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;increases"/>
