@@ -11129,6 +11129,8 @@
 
     <owl:Class rdf:about="InformationAndKnowledgeLogistics">
 	<rdfs:label xml:lang="en">Information and Knowledge Logistics</rdfs:label>
+    <meta:subTopClass rdf:resource="&meta;Function"/>
+    <rdfs:subClassOf rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
@@ -11151,18 +11153,6 @@
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1883</ID>
         <rdfs:label xml:lang="de">Informations- und Wissenslogistik</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="InformationAndKnowledgeLogistics"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
-                <owl:someValuesFrom rdf:resource="Information"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</TripelRowNr>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="InformationAndKnowledgeLogistics"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
@@ -11866,7 +11856,7 @@
 	<rdfs:label xml:lang="en">Knowledge</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Data"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11886,7 +11876,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <owl:someValuesFrom rdf:resource="Data"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -19463,7 +19453,7 @@
     <owl:Class rdf:about="ProjectMarketing">
 	<rdfs:label xml:lang="en">Project Marketing</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
-        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&meta;increases"/>
