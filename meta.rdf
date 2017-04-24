@@ -292,6 +292,7 @@
 
 	<owl:Class rdf:about="RepresentationType">
 		<rdfs:label xml:lang="en">representation type</rdfs:label>
+		<rdfs:label xml:lang="de">Repräsentationstyp</rdfs:label>
 		<rdfs:subClassOf rdf:resource="EntityType"/>
 		<subTopClass rdf:resource="EntityType"/>
 	</owl:Class>
