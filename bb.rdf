@@ -1260,7 +1260,6 @@
         <ov:defines rdf:resource="MessageQueuing"/>
         <ov:defines rdf:resource="EntityTypeModelingElement"/>
         <ov:defines rdf:resource="AssignStaffToPatientsOrOutpatientUnits"/>
-        <ov:defines rdf:resource="inEuro"/>
         <ov:defines rdf:resource="MemoryStick"/>
         <ov:defines rdf:resource="Adaptability"/>
         <ov:defines rdf:resource="ProvideMeansForOrderingTransportServices"/>
@@ -1609,10 +1608,6 @@
     <rdfs:domain rdf:resource="ReferenceModel"/>
     <page>69</page>
     <rdfs:range rdf:resource="&xsd;string"/>
-  </owl:DatatypeProperty>
-
-  <owl:DatatypeProperty rdf:about="inEuro">
-    <rdfs:label xml:lang="en">in €</rdfs:label>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="isHeterogeneous">
@@ -17861,12 +17856,6 @@ Object Workgroup Standard</skos:altLabel>
                 <owl:someValuesFrom rdf:resource="HospitalRevenue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="inEuro"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -17906,20 +17895,6 @@ Object Workgroup Standard</skos:altLabel>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">711</TripelRowNr>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="HospitalBudget"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="inEuro"/>
-                <owl:allValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2284</TripelRowNr>
-    </owl:Axiom>
-
-
 
 
     <owl:Class rdf:about="HospitalBusinessPlan">
