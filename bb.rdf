@@ -29275,7 +29275,7 @@ goals, structures, and behaviors.</skos:definition>
         <skos:definition xml:lang="en">Operational information management is responsible for operating the components of the hospital information system. It has to care for its operation in accordance with the strategic information management plan.</skos:definition>
         <page>103, 244</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139</ID>
-        <rdfs:label xml:lang="de">Datenübertragungsleitung</rdfs:label>
+        <rdfs:label xml:lang="de">Operatives Informationsmanagement</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="OperationalInformationManagement"/>
