@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES>
+	<PREFIX>
+		<NAMESPACE>http://www.snik.eu/ontology/meta/</NAMESPACE>
+		<LABEL>meta</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>http://www.snik.eu/ontology/{y}/</NAMESPACE>
+		<LABEL>{y}</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>http://www.snik.eu/ontology/{x}/</NAMESPACE>
+		<LABEL>{x}</LABEL>
+	</PREFIX>
+	
+	<PREFIX>
+		<NAMESPACE>http://www.w3.org/1999/02/22-rdf-syntax-ns#</NAMESPACE>
+		<LABEL>rdf</LABEL>
+	</PREFIX>
+	
+	<PREFIX>
+		<NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+		<LABEL>rdfs</LABEL>
+	</PREFIX>
+
+	<PREFIX>
+		<NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+		<LABEL>owl</LABEL>
+	</PREFIX>
+	
+	<PREFIX>
+		<NAMESPACE>http://www.w3.org/2004/02/skos/core#</NAMESPACE>
+		<LABEL>skos</LABEL>
+	</PREFIX>
+	
+	<SOURCE>
+		<ID>{x}</ID>
+		<!-- LIMES 1.1.1 requires absolute paths. See https://github.com/AKSW/LIMES-dev/issues/98 -->
+		<ENDPOINT>{xnt}</ENDPOINT>
+		<VAR>?x</VAR>
+		<PAGESIZE>-1</PAGESIZE>
+		<RESTRICTION>?x a owl:Class</RESTRICTION>
+		<PROPERTY>rdfs:label AS nolang RENAME label</PROPERTY>
+<!--		<PROPERTY>skos:altLabel AS nolang RENAME label</PROPERTY>-->
+		<TYPE>N-TRIPLE</TYPE>
+	</SOURCE>
+
+	<TARGET>
+		<ID>{y}</ID>
+		<!-- LIMES 1.1.1 requires absolute paths-->
+		<ENDPOINT>{ynt}</ENDPOINT>
+		<VAR>?y</VAR>
+		<PAGESIZE>-1</PAGESIZE>
+		<RESTRICTION>?y a owl:Class</RESTRICTION>
+		<PROPERTY>rdfs:label AS nolang RENAME label</PROPERTY>
+<!--		<PROPERTY>skos:altLabel AS nolang RENAME label</PROPERTY>-->
+		<TYPE>N-TRIPLE</TYPE>
+	</TARGET>
+
+<METRIC>trigrams(x.label,y.label)</METRIC>
+<!--	<METRIC>OR(trigrams(x.label,y.label),trigrams(x.label,y.label),trigrams(x.label,y.label),trigrams(x.label,y.label))</METRIC>	-->
+	
+	<ACCEPTANCE>
+		<THRESHOLD>1</THRESHOLD>
+		<FILE>{x}-{y}-exact.ttl</FILE>
+		<RELATION>skos:exactMatch</RELATION>
+	</ACCEPTANCE>
+	
+	<REVIEW>
+		<THRESHOLD>0.8</THRESHOLD>
+		<FILE>{x}-{y}-close.ttl</FILE>
+		<RELATION>skos:closeMatch</RELATION>
+	</REVIEW>
+
+	<EXECUTION>
+		<REWRITER>default</REWRITER>
+		<PLANNER>default</PLANNER>
+		<ENGINE>default</ENGINE>
+	</EXECUTION>
+
+	<OUTPUT>TAB</OUTPUT>
+</LIMES>
