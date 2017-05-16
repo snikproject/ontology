@@ -63,13 +63,13 @@
 	
 	<ACCEPTANCE>
 		<THRESHOLD>1</THRESHOLD>
-		<FILE>{x}-{y}-exact.ttl</FILE>
+		<FILE>{x}-{y}/out/{x}-{y}-exact.csv</FILE>
 		<RELATION>skos:exactMatch</RELATION>
 	</ACCEPTANCE>
 	
 	<REVIEW>
 		<THRESHOLD>0.8</THRESHOLD>
-		<FILE>{x}-{y}-close.ttl</FILE>
+		<FILE>{x}-{y}/out/{x}-{y}-close.csv</FILE>
 		<RELATION>skos:closeMatch</RELATION>
 	</REVIEW>
 
@@ -79,5 +79,5 @@
 		<ENGINE>default</ENGINE>
 	</EXECUTION>
 
-	<OUTPUT>TAB</OUTPUT>
+	<OUTPUT>CSV</OUTPUT>
 </LIMES>

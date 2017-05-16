@@ -7,12 +7,17 @@ then
  exit 1
 fi
 
+if ! hash limes 2>/dev/null; then
+ echo "********* ERROR: LIMES NOT AVAILABLE. ABORTING. See http://aksw.org/Projects/LIMES ****************"
+ exit 1
+fi
+
 if ! hash rapper 2>/dev/null; then
  echo "********* ERROR: RAPPER NOT AVAILABLE. ABORTING. See http://librdf.org/raptor/rapper.html ****************"
  exit 1
 fi
 
-SUBS=(bb ob he it)
+SUBS=(bb ob)
 for ((i=1; i<${#SUBS[@]}; i++))
 do
  x=${SUBS[i]}
@@ -34,9 +39,12 @@ do
     mkdir -p ${d}/tmp
     xnt=`pwd`/$d/tmp/$x.nt
     ynt=`pwd`/$d/tmp/$y.nt
-    rapper -i rdfxml -o turtle $xf > $xnt
+    rapper -i rdfxml -o ntriples $xf > $xnt
+    rapper -i rdfxml -o ntriples $yf > $ynt
     echo $xnt
-    sed "s|{x}|${x}|g" template.rdf | sed "s|{y}|${y}|g" | sed "" > ${tf}/tmp/$d.xml
+    $spec=$d/tmp/$d.xml
+    sed "s|{x}|${x}|g" template.xml | sed "s|{y}|${y}|g" | sed "s|{xnt}|$xnt|" | sed "s|{ynt}|$ynt|" > $spec
+    limes $spec
    fi
   done
  fi
