@@ -17,7 +17,7 @@ if ! hash rapper 2>/dev/null; then
  exit 1
 fi
 
-SUBS=(bb ob)
+SUBS=(bb ob he it ciox)
 for ((i=1; i<${#SUBS[@]}; i++))
 do
  x=${SUBS[i]}
@@ -37,12 +37,13 @@ do
     echo "********* Linking ${xf} with ${yf} ************************************************************"
     d="$x-$y"
     mkdir -p ${d}/tmp
+    mkdir -p ${d}/out
     xnt=`pwd`/$d/tmp/$x.nt
     ynt=`pwd`/$d/tmp/$y.nt
     rapper -i rdfxml -o ntriples $xf > $xnt
     rapper -i rdfxml -o ntriples $yf > $ynt
     echo $xnt
-    $spec=$d/tmp/$d.xml
+    spec=$d/tmp/$d.xml
     sed "s|{x}|${x}|g" template.xml | sed "s|{y}|${y}|g" | sed "s|{xnt}|$xnt|" | sed "s|{ynt}|$ynt|" > $spec
     limes $spec
    fi
