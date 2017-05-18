@@ -12,11 +12,9 @@ This is the official storage location of the SNIK ontology RDF dump. The officia
 
 ## Editing
 
-Edit only with a text editor.
-
-Please make sure that you produce the smallest diff possible for your changes, e.g. don't use a tool that shuffles the definition locations around or changes line endings or indentation.
-
-Verfify after editing with:
+* Edit only with a text editor.
+* Please make sure that you produce the smallest diff possible for your changes, e.g. don't use a tool that shuffles the definition locations around or changes line endings or indentation.
+* Verfify after editing with:
     
     xmllint --noout filename.rdf
     rapper -i rdfxml -c filename.rdf
