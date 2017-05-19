@@ -4,6 +4,7 @@ construct {?c ?p ?o}
 from <http://www.snik.eu/ontology/ob>
 from <http://www.snik.eu/ontology/bb>
 from <http://www.snik.eu/ontology/he>
+from <http://www.snik.eu/ontology/it>
 from <http://www.snik.eu/ontology/meta>
 {
 ###################### Missing subClassOf
