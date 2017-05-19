@@ -1344,7 +1344,6 @@
         <ov:defines rdf:resource="OrganizePatientTransport"/>
         <ov:defines rdf:resource="GeneralPractice"/>
         <ov:defines rdf:resource="FinancingOfHealthCare"/>
-        <ov:defines rdf:resource=""/>
         <ov:defines rdf:resource="SoftwareQuality"/>
         <ov:defines rdf:resource="temporalDevelopmentStage"/>
         <ov:defines rdf:resource="Standard"/>
@@ -1522,27 +1521,20 @@
 
   <owl:DatatypeProperty rdf:about="managementFinancingForm">
     <rdfs:label xml:lang="en">management financing form</rdfs:label>
-    <rdfs:domain rdf:resource=""/>
     <rdfs:range rdf:resource="&xsd;string"/>
     <page></page>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="managementLegalForm">
     <rdfs:label xml:lang="en">management legal form</rdfs:label>
-    <rdfs:domain rdf:resource=""/>
-    <rdfs:range rdf:resource=""/>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="managementOpenness">
     <rdfs:label xml:lang="en">management openness</rdfs:label>
-    <rdfs:domain rdf:resource=""/>
-    <rdfs:range rdf:resource=""/>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="officialUserGroup">
     <rdfs:label xml:lang="en">official user group</rdfs:label>
-    <rdfs:domain rdf:resource=""/>
-    <rdfs:range rdf:resource=""/>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="pin">
