@@ -1,0 +1,66 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix ob: <http://www.snik.eu/ontology/ob/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bb: <http://www.snik.eu/ontology/bb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ciox: <http://www.snik.eu/ontology/ciox/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+ciox:Angebot skos:closeMatch ob:Bid .
+ciox:Anwendungssystem skos:closeMatch ob:ApplicationSystem .
+ciox:BereichInformationsmanagement skos:closeMatch bb:DepartmentOfInformationManagement .
+ciox:Betriebskonzept skos:closeMatch ob:OperationalConcept .
+ciox:ChangeAntrag skos:closeMatch ob:ChangeRequest .
+ciox:ChangeManagement skos:closeMatch bb:ChangeManagement, ob:ChangeManagement .
+ciox:ComputerbasiertesAnwendungssystem skos:closeMatch bb:ComputerBasedApplicationComponent .
+ciox:IncidentManagement skos:closeMatch bb:IncidentManagement .
+ciox:Projekt skos:closeMatch bb:Project, ob:Project .
+ciox:Projektauftrag skos:closeMatch ob:ProjectOrder .
+ciox:Projektbudget skos:closeMatch ob:ProjectBudget .
+ciox:Projektdurchfuehrung skos:closeMatch bb:ProjectExecution, ob:ProjectExecution .
+ciox:Projektmanagement skos:closeMatch ob:ProjectManagement .
+ciox:Projektplan skos:closeMatch bb:ProjectPlan, ob:ProjectPlan .
+ciox:Projektplanung skos:closeMatch bb:ProjectPlanning, ob:ProjectPlanning .
+ciox:Projektueberwachung skos:closeMatch bb:ProjectMonitoring, ob:ProjectMonitoring .
+ciox:Rechnung skos:closeMatch bb:Bill .
+ciox:Ressource skos:closeMatch ob:Resource .
+ciox:Ressourcenplan skos:closeMatch ob:ResourcePlan .
+ciox:ServiceDesk skos:closeMatch bb:ServiceDeskManagement .
+ciox:Softwareprodukt skos:closeMatch bb:SoftwareProduct, ob:SoftwareProduct .
+ciox:Wartungsvertrag skos:closeMatch ob:MaintenanceContract .
+
+ciox:Krankenhausverwaltung		skos:closeMatch	bb:HospitalAdministrationDepartment.
+ciox:PDFFile				skos:narrower	bb:PDFA.
+ciox:Materialbestellung			skos:broader	bb:MaterialAndMedicationManagement.
+ciox:ProjektAuftraggeber		skos:closeMatch	ob:Sponsor.
+ciox:HospitalStaff			skos:closeMatch	bb:HospitalStaff.
+ciox:ChiefExecutiveOfficer		skos:closeMatch	bb:CEO.
+ciox:Projektreview			skos:closeMatch	ob:ProjectReview.
+ciox:Projektdurchfuehrung		skos:closeMatch ob:ProjectExecution.
+ciox:BereichInformationsmanagement	skos:closeMatch	bb:InformationManagementDepartment.
+ciox:Projektportfolioplanung		skos:broader	bb:PortfolioManagement.
+ciox:Etat				skos:closeMatch	bb:AnnualITBudget.
+ciox:InformationManagementStaff		skos:closeMatch	bb:InformationManagementStaff.
+ciox:Projektabschlussbericht		skos:closeMatch	ob:FinalReport.
+ciox:ChiefInformationOfficer		skos:closeMatch	bb:ChiefInformationOfficer.
+ciox:Projectueberwachung		skos:closeMatch	ob:ProjectMonitoring.
+ciox:Projektstatusbericht		skos:closeMatch	ob:InterimReport.
+ciox:Projektuebergabeprotokoll		skos:closeMatch	ob:HandoverCertificate.
+ciox:Projektportfolio			skos:closeMatch	bb:ProjectPortfolio.
+ciox:ITFinanzcontrolling		skos:broader	bb:FinancialControlling.
+ciox:ITStrategie			skos:closeMatch	bb:StrategicInformationManagementPlan.
+ciox:Projektleiter			skos:closeMatch	ob:ProjectManager.
+ciox:Projektdefinition			skos:closeMatch	ob:ProjectPlan.
+ciox:EnterpriseResourcePlanningSystem	skos:closeMatch	bb:EnterpriseResourcePlanningSystem.
+ciox:Stoerungserfassung			skos:closeMatch	bb:IncidentTaking.
+ciox:ComputerbasiertesAnwendungssystem	skos:closeMatch	bb:ComputerBasedApplicationComponent.
+ciox:Personaleinsatzplanung		skos:closeMatch	bb:PlanningOfStaff.
+ciox:Kostenmanagement			skos:broadMatch	bb:CostAccounting.
+ciox:DurchfuehrungWartungsfenster	skos:broadMatch	ob:MaintenanceOfApplicationSystems.
+ciox:Personalmanagement			skos:closeMatch	bb:HumanResourceManagement.
+ciox:ChangeRequestErfassung		skos:broadMatch	ob:ChangeRequestList.
+ciox:ITStrategieentwicklung		skos:closeMatch	ob:StrategicHISPlanning.

@@ -1,0 +1,3203 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY meta "http://www.snik.eu/ontology/meta/" >
+    <!ENTITY bb "http://www.snik.eu/ontology/bb/" >
+    <!ENTITY ob "http://www.snik.eu/ontology/ob/" >
+    <!ENTITY ciox "http://www.snik.eu/ontology/ciox/" >
+    <!ENTITY dc "http://purl.org/dc/terms/" >
+]>
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:bb="http://www.snik.eu/ontology/bb/"
+     xmlns:ciox="http://www.snik.eu/ontology/ciox/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:winter="http://www.snik.eu/ontology/bb/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/terms/"
+     xmlns:meta="http://www.snik.eu/ontology/meta/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:ov="http://open.vocab.org/terms/"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dcmit="http://purl.org/dc/dcmitype/"
+     xmlns:dcam="http://purl.org/dc/dcam/"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:dbr="http://dbpedia.org/resource/"
+     xmlns:schema="http://schema.org/"
+>
+
+<Ontology rdf:about="http://www.snik.eu/ontology/ciox">
+<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-18</dc:modified>
+<owl:versionInfo>0.3.0</owl:versionInfo>
+<rdfs:label xml:lang="de">CIOX Uniklinikum Leipzig HIS Ontologie</rdfs:label>
+<rdfs:comment xml:lang="de">based on interviews about the Health Information System of the Uniklinikum Leipzig.</rdfs:comment>
+<dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
+<dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>
+<vann:preferredNamespacePrefix>snik-ciox</vann:preferredNamespacePrefix>
+<vann:preferredNamespaceUri>http://www.snik.eu/ontology/ciox/</vann:preferredNamespaceUri>
+<foaf:homepage rdf:resource="http://www.snik.eu"/>
+<dc:source rdf:resource="http://www.snik.eu/mapping"/>
+<ov:defines rdf:resource="&ciox;Abteilungsleiter"/>
+<ov:defines rdf:resource="&ciox;AbteilungsleiterApplikationsmanagement"/>
+<ov:defines rdf:resource="&ciox;AbteilungsleiterProjektUndProzessmanagement"/>
+<ov:defines rdf:resource="&ciox;AktivierbareDienstleistungsmittel"/>
+<ov:defines rdf:resource="&ciox;Angebot"/>
+<ov:defines rdf:resource="&ciox;Anlagenmanagementsystem"/>
+<ov:defines rdf:resource="&ciox;AnlegenHardwarereparatur"/>
+<ov:defines rdf:resource="&ciox;AnlegenSoftwarereparatur"/>
+<ov:defines rdf:resource="&ciox;Anwendungssystem"/>
+<ov:defines rdf:resource="&ciox;Arbeitsablaufsystem"/>
+<ov:defines rdf:resource="&ciox;Bereich1Informationsmanagement"/>
+<ov:defines rdf:resource="&ciox;Bereich2"/>
+<ov:defines rdf:resource="&ciox;Bereich3"/>
+<ov:defines rdf:resource="&ciox;Bereich3FinanzenPlanungUndControlling"/>
+<ov:defines rdf:resource="&ciox;BereichFinanzenPlanungUndControlling"/>
+<ov:defines rdf:resource="&ciox;BereichInformationsmanagement"/>
+<ov:defines rdf:resource="&ciox;BereichMaterialwirtschaftDienstleistungen"/>
+<ov:defines rdf:resource="&ciox;Bereichsassistenz"/>
+<ov:defines rdf:resource="&ciox;Beschaffungsbeauftragung"/>
+<ov:defines rdf:resource="&ciox;Beschaffungsfreigabe"/>
+<ov:defines rdf:resource="&ciox;Beschaffungsmanagement"/>
+<ov:defines rdf:resource="&ciox;Bestellung"/>
+<ov:defines rdf:resource="&ciox;Bestellungsbearbeitung"/>
+<ov:defines rdf:resource="&ciox;Betriebskonzept"/>
+<ov:defines rdf:resource="&ciox;Budgetplanung"/>
+<ov:defines rdf:resource="&ciox;CABDurchfuehrung"/>
+<ov:defines rdf:resource="&ciox;ChangeAdvisoryBoard"/>
+<ov:defines rdf:resource="&ciox;ChangeAntrag"/>
+<ov:defines rdf:resource="&ciox;ChangeAntragProtokoll"/>
+<ov:defines rdf:resource="&ciox;ChangeManagement"/>
+<ov:defines rdf:resource="&ciox;ChangeRequestEntscheidung"/>
+<ov:defines rdf:resource="&ciox;ChangeRequestErfassung"/>
+<ov:defines rdf:resource="&ciox;ChangeRequestPruefung"/>
+<ov:defines rdf:resource="&ciox;ChangeRequestUeberwachung"/>
+<ov:defines rdf:resource="&ciox;ChiefExecutiveOfficer"/>
+<ov:defines rdf:resource="&ciox;ChiefInformationOfficer"/>
+<ov:defines rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+<ov:defines rdf:resource="&ciox;DepartmentManagerSystemManagement"/>
+<ov:defines rdf:resource="&ciox;Dienstanweisung"/>
+<ov:defines rdf:resource="&ciox;Dienstleistungsmittel"/>
+<ov:defines rdf:resource="&ciox;DocumentType"/>
+<ov:defines rdf:resource="&ciox;DurchfuehrungJourFixe"/>
+<ov:defines rdf:resource="&ciox;DurchfuehrungJourFixeCEO"/>
+<ov:defines rdf:resource="&ciox;DurchfuehrungWartungsfenster"/>
+<ov:defines rdf:resource="&ciox;EMailTransportServerSystem"/>
+<ov:defines rdf:resource="&ciox;Emailverwaltungssystem"/>
+<ov:defines rdf:resource="&ciox;EnterpriseResourcePlanningSystem"/>
+<ov:defines rdf:resource="&ciox;Etat"/>
+<ov:defines rdf:resource="&ciox;ExcelFile"/>
+<ov:defines rdf:resource="&ciox;FAMOS"/>
+<ov:defines rdf:resource="&ciox;Finanzwesensystem"/>
+<ov:defines rdf:resource="&ciox;Fremdmittel"/>
+<ov:defines rdf:resource="&ciox;GeplanteAktivierbareDienstleistungsmittel"/>
+<ov:defines rdf:resource="&ciox;GeplanterPersonalaufwand"/>
+<ov:defines rdf:resource="&ciox;gering"/>
+<ov:defines rdf:resource="&ciox;HISStakeholder"/>
+<ov:defines rdf:resource="&ciox;hoch"/>
+<ov:defines rdf:resource="&ciox;HospitalStaff"/>
+<ov:defines rdf:resource="&ciox;IncidentManagement"/>
+<ov:defines rdf:resource="&ciox;InformationManagementStaff"/>
+<ov:defines rdf:resource="&ciox;InstantMessagingSystem"/>
+<ov:defines rdf:resource="&ciox;InterneBudgetkontierung"/>
+<ov:defines rdf:resource="&ciox;Investitionsmanagementsystem"/>
+<ov:defines rdf:resource="&ciox;Investitionsmittel"/>
+<ov:defines rdf:resource="&ciox;ITFinanzcontrolling"/>
+<ov:defines rdf:resource="&ciox;ITSachkontenplanung"/>
+<ov:defines rdf:resource="&ciox;ITServiceManagementSystem"/>
+<ov:defines rdf:resource="&ciox;ITStrategie"/>
+<ov:defines rdf:resource="&ciox;ITStrategieentwicklung"/>
+<ov:defines rdf:resource="&ciox;JourFixeProtokoll"/>
+<ov:defines rdf:resource="&ciox;Kollaborationsplattform"/>
+<ov:defines rdf:resource="&ciox;Kostenart"/>
+<ov:defines rdf:resource="&ciox;Kostenmanagement"/>
+<ov:defines rdf:resource="&ciox;Kostenrechnungssystem"/>
+<ov:defines rdf:resource="&ciox;Krankenhausverwaltung"/>
+<ov:defines rdf:resource="&ciox;Materialbestellung"/>
+<ov:defines rdf:resource="&ciox;Materialwirtschaftssystem"/>
+<ov:defines rdf:resource="&ciox;Microsoft"/>
+<ov:defines rdf:resource="&ciox;MicrosoftExcel"/>
+<ov:defines rdf:resource="&ciox;MicrosoftExchangeServer"/>
+<ov:defines rdf:resource="&ciox;MicrosoftLync"/>
+<ov:defines rdf:resource="&ciox;MicrosoftOutlook"/>
+<ov:defines rdf:resource="&ciox;MicrosoftProjectServer"/>
+<ov:defines rdf:resource="&ciox;MicrosoftSharepoint"/>
+<ov:defines rdf:resource="&ciox;MicrosoftSystemCenter"/>
+<ov:defines rdf:resource="&ciox;MicrosoftWord"/>
+<ov:defines rdf:resource="&ciox;MitarbeiterVertragsmanagement"/>
+<ov:defines rdf:resource="&ciox;mittel"/>
+<ov:defines rdf:resource="&ciox;MSActiveDirectory"/>
+<ov:defines rdf:resource="&ciox;MSExcel"/>
+<ov:defines rdf:resource="&ciox;MSExchange"/>
+<ov:defines rdf:resource="&ciox;MSExchangeServer"/>
+<ov:defines rdf:resource="&ciox;MSLync"/>
+<ov:defines rdf:resource="&ciox;MSOutlook"/>
+<ov:defines rdf:resource="&ciox;MSPowerpoint"/>
+<ov:defines rdf:resource="&ciox;MSProject"/>
+<ov:defines rdf:resource="&ciox;MSSCSM"/>
+<ov:defines rdf:resource="&ciox;MSServer"/>
+<ov:defines rdf:resource="&ciox;MSSharePoint"/>
+<ov:defines rdf:resource="&ciox;MSSystemCenter"/>
+<ov:defines rdf:resource="&ciox;MSWord"/>
+<ov:defines rdf:resource="&ciox;Officepaket"/>
+<ov:defines rdf:resource="&ciox;PDF"/>
+<ov:defines rdf:resource="&ciox;PDFFile"/>
+<ov:defines rdf:resource="&ciox;PDFViewer"/>
+<ov:defines rdf:resource="&ciox;Personaleinsatzplanung"/>
+<ov:defines rdf:resource="&ciox;Personaleinsatzplanungsystem"/>
+<ov:defines rdf:resource="&ciox;Personalmanagement"/>
+<ov:defines rdf:resource="&ciox;PlansummeDienstleistungsmittel"/>
+<ov:defines rdf:resource="&ciox;PlansummeFremdmittel"/>
+<ov:defines rdf:resource="&ciox;PlansummeInvestitionsmittel"/>
+<ov:defines rdf:resource="&ciox;PolypointPEP"/>
+<ov:defines rdf:resource="&ciox;Projekt"/>
+<ov:defines rdf:resource="&ciox;Projektabschlussbericht"/>
+<ov:defines rdf:resource="&ciox;Projektauftrag"/>
+<ov:defines rdf:resource="&ciox;Projektauftraggeber"/>
+<ov:defines rdf:resource="&ciox;Projektbudget"/>
+<ov:defines rdf:resource="&ciox;Projektbudgetverwaltung"/>
+<ov:defines rdf:resource="&ciox;Projektdarstellung"/>
+<ov:defines rdf:resource="&ciox;Projektdefinition"/>
+<ov:defines rdf:resource="&ciox;Projektdurchfuehrung"/>
+<ov:defines rdf:resource="&ciox;Projekteliste"/>
+<ov:defines rdf:resource="&ciox;Projekteplanung"/>
+<ov:defines rdf:resource="&ciox;Projekteskalation"/>
+<ov:defines rdf:resource="&ciox;Projektewarteliste"/>
+<ov:defines rdf:resource="&ciox;Projektfreigabe"/>
+<ov:defines rdf:resource="&ciox;Projektleiter"/>
+<ov:defines rdf:resource="&ciox;Projektleiterzuweisung"/>
+<ov:defines rdf:resource="&ciox;Projektmanagement"/>
+<ov:defines rdf:resource="&ciox;Projektmanagementsystem"/>
+<ov:defines rdf:resource="&ciox;Projektnummer"/>
+<ov:defines rdf:resource="&ciox;Projektplan"/>
+<ov:defines rdf:resource="&ciox;Projektplanung"/>
+<ov:defines rdf:resource="&ciox;Projektportfolio"/>
+<ov:defines rdf:resource="&ciox;Projektportfolioplanung"/>
+<ov:defines rdf:resource="&ciox;Projektpriorisierung"/>
+<ov:defines rdf:resource="&ciox;Projektprioritaet"/>
+<ov:defines rdf:resource="&ciox;Projektreview"/>
+<ov:defines rdf:resource="&ciox;Projektrisiko"/>
+<ov:defines rdf:resource="&ciox;Projektstatusbericht"/>
+<ov:defines rdf:resource="&ciox;Projektuebergabeprotokoll"/>
+<ov:defines rdf:resource="&ciox;Projektueberwachung"/>
+<ov:defines rdf:resource="&ciox;Projektwebsite"/>
+<ov:defines rdf:resource="&ciox;Rechnung"/>
+<ov:defines rdf:resource="&ciox;Rechnungsfreigabe"/>
+<ov:defines rdf:resource="&ciox;Rechnungspruefung"/>
+<ov:defines rdf:resource="&ciox;Ressource"/>
+<ov:defines rdf:resource="&ciox;Ressourcenplan"/>
+<ov:defines rdf:resource="&ciox;Sachkonto"/>
+<ov:defines rdf:resource="&ciox;SachkontoHardwarereparaturen"/>
+<ov:defines rdf:resource="&ciox;SachkontoITDienstleistungen"/>
+<ov:defines rdf:resource="&ciox;SachkontoITInvestitionen"/>
+<ov:defines rdf:resource="&ciox;SachkontoSoftwarereparaturen"/>
+<ov:defines rdf:resource="&ciox;SAP"/>
+<ov:defines rdf:resource="&ciox;SAPCats"/>
+<ov:defines rdf:resource="&ciox;SAPCO"/>
+<ov:defines rdf:resource="&ciox;SAPERP"/>
+<ov:defines rdf:resource="&ciox;SAPFI"/>
+<ov:defines rdf:resource="&ciox;SAPHRPEP"/>
+<ov:defines rdf:resource="&ciox;SAPIM"/>
+<ov:defines rdf:resource="&ciox;SAPMM"/>
+<ov:defines rdf:resource="&ciox;SAPXFlow"/>
+<ov:defines rdf:resource="&ciox;SCSMFile"/>
+<ov:defines rdf:resource="&ciox;ServiceDesk"/>
+<ov:defines rdf:resource="&ciox;Softwareprodukt"/>
+<ov:defines rdf:resource="&ciox;StefanCioX"/>
+<ov:defines rdf:resource="&ciox;Stoerungserfassung"/>
+<ov:defines rdf:resource="&ciox;Tabellenkalkulationssystem"/>
+<ov:defines rdf:resource="&ciox;Textverarbeitungssoftware"/>
+<ov:defines rdf:resource="&ciox;Ticket"/>
+<ov:defines rdf:resource="&ciox;Ticketauswertung"/>
+<ov:defines rdf:resource="&ciox;TicketBearbeitung"/>
+<ov:defines rdf:resource="&ciox;Ticketbearbeitungszuweisung"/>
+<ov:defines rdf:resource="&ciox;Ticketklassifikation"/>
+<ov:defines rdf:resource="&ciox;Ticketueberwachung"/>
+<ov:defines rdf:resource="&ciox;Vertragsmanagement"/>
+<ov:defines rdf:resource="&ciox;Verzeichnisdienstsystem"/>
+<ov:defines rdf:resource="&ciox;Wartungsaktivitaetsprotokoll"/>
+<ov:defines rdf:resource="&ciox;Wartungsfensterfreigabe"/>
+<ov:defines rdf:resource="&ciox;Wartungsfensterkoordinator"/>
+<ov:defines rdf:resource="&ciox;Wartungsvertagserstellung"/>
+<ov:defines rdf:resource="&ciox;Wartungsvertrag"/>
+<ov:defines rdf:resource="&ciox;Wartungsvertragfreigabe"/>
+<ov:defines rdf:resource="&ciox;Wartungsvertragsentscheidung"/>
+<ov:defines rdf:resource="&ciox;Wirtschaftsplan"/>
+<ov:defines rdf:resource="&ciox;Wirtschaftsplanung"/>
+<ov:defines rdf:resource="&ciox;WordFile"/>
+</Ontology>
+ 
+    <DatatypeProperty rdf:about="&ciox;Projektnummer">
+     <rdfs:label xml:lang="de">Projektnummer</rdfs:label>
+    </DatatypeProperty>
+ 
+    <Class rdf:about="&ciox;Abteilungsleiter">
+        <rdfs:label xml:lang="de">Abteilungsleiter</rdfs:label>
+        <rdfs:label xml:lang="en">Department Manager</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;InformationManagementStaff"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Projektplanung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;CABDurchfuehrung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;DurchfuehrungJourFixe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Projektdurchfuehrung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnungspruefung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+    <owl:ObjectProperty rdf:about="isMasterFor">
+	<rdfs:label xml:lang="en">master for</rdfs:label>
+	<rdfs:label xml:lang="de">Hauptkomponente für</rdfs:label>
+	<rdfs:domain rdf:resource="&meta;ApplicationComponent"/>
+	<rdfs:range rdf:resource="&meta;EntityType"/>
+    </owl:ObjectProperty>
+
+    <Class rdf:about="&ciox;AbteilungsleiterApplikationsmanagement">
+        <rdfs:label xml:lang="de">Abteilungsleiter Applikationsmanagement</rdfs:label>
+        <rdfs:label xml:lang="en">Department Manager Application Management</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Abteilungsleiter"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;AbteilungsleiterProjektUndProzessmanagement">
+        <rdfs:label xml:lang="de">Abteilungsleiter Projekt- und Prozessmanagement</rdfs:label>
+        <rdfs:label xml:lang="en">Department Manager Project and Process Management</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Abteilungsleiter"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ciox;approves"/>
+                <someValuesFrom rdf:resource="&ciox;Projektdefinition"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektewarteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektleiterzuweisung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;AktivierbareDienstleistungsmittel">
+        <rdfs:label xml:lang="de">Aktivierbare Dienstleistungsmittel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Kostenart"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Angebot">
+        <rdfs:label xml:lang="de">Angebot</rdfs:label>
+        <rdfs:label xml:lang="en">Bid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;PDFFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Anlagenmanagementsystem">
+        <rdfs:label xml:lang="de">Anlagenmanagementsystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;FAMOS"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;AnlegenHardwarereparatur">
+        <rdfs:label xml:lang="de">Anlegen Hardwarereparatur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Bestellungsbearbeitung"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoHardwarereparaturen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;AnlegenSoftwarereparatur">
+        <rdfs:label xml:lang="de">Anlegen Softwarereparatur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Bestellungsbearbeitung"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoSoftwarereparaturen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+    <Class rdf:about="&ciox;Anwendungssystem">
+	<rdfs:subClassOf rdf:resource="&meta;ApplicationComponent"/>
+	<rdfs:label xml:lang="en">Application System</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+    <Class rdf:about="&ciox;Arbeitsablaufsystem">
+        <rdfs:label xml:lang="de">Arbeitsablaufsystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPXFlow"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Angebot"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;BereichInformationsmanagement">
+        <rdfs:label xml:lang="de">Bereich Informationsmanagement</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf rdf:resource="&ciox;Krankenhausverwaltung"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Sachkonto"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Sachkonto"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Bereichsassistenz">
+        <rdfs:label xml:lang="de">Bereichsassistenz</rdfs:label>
+        <rdfs:label xml:lang="en">Department Asisstant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;InformationManagementStaff"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Bestellungsbearbeitung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektbudget"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektbudget"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertagserstellung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertragfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;ITSachkontenplanung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;CABDurchfuehrung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnungspruefung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeRequestErfassung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Beschaffungsbeauftragung">
+        <rdfs:label xml:lang="de">Beschaffungsbeauftragung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Bestellungsbearbeitung"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <skos:definition xml:lang="de">Die Beschaffung wird beauftragt und auf das entsprechende Budget geschaut. Anschließend geht ein Auftrag aus SAP raus und eine Rückmeldung geht an den Auftraggeber zurück.</skos:definition>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;SAPMM"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektauftrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoITInvestitionen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Beschaffungsfreigabe">
+        <rdfs:label xml:lang="de">Beschaffungsfreigabe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Beschaffungsmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektauftrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+              <rdfs:label xml:lang="en">Procurement Release</rdfs:label>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Beschaffungsmanagement">
+        <rdfs:label xml:lang="de">Beschaffungsmanagement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:label xml:lang="en">Procurement Management</rdfs:label>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Bestellung">
+        <rdfs:label xml:lang="de">Bestellung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;Beschaffungsmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;ExcelFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Bestellungsbearbeitung">
+        <rdfs:label xml:lang="de">Bestellungsbearbeitung</rdfs:label>
+        <rdfs:label xml:lang="en">Purchase Order Processing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Beschaffungsmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;Materialwirtschaftssystem"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Bestellung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoITInvestitionen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektauftrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Etat"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Etat"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Betriebskonzept">
+        <rdfs:label xml:lang="de">Betriebskonzept</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:label xml:lang="en">Operational Concept</rdfs:label>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Budgetplanung">
+        <rdfs:label xml:lang="de">Budgetplanung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Kostenmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Etat"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Etat"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="de">Planung der Kosten für das Folgejahr auf Basis der Vorjahre</skos:definition>
+        <rdfs:label xml:lang="en">Budget Planning</rdfs:label>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;CABDurchfuehrung">
+        <rdfs:label xml:lang="de">CAB Durchfuehrung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ChangeManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeAntrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeAntrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="de">CAB - Change Advisory Board</skos:definition>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ChangeAdvisoryBoard">
+        <rdfs:label xml:lang="en">Change Advisory Board</rdfs:label>
+        <skos:altLabel xml:lang="en">CAB</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="&ciox;InformationManagementStaff"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Bereichsassistenz"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeRequestEntscheidung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Abteilungsleiter"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;ChiefInformationOfficer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeRequestErfassung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;CABDurchfuehrung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeRequestUeberwachung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeRequestPruefung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="de">Das CAB unterstützt den Change-Manager, Changes hinsichtlich des Business Impacts einzuschätzen und zu priorisieren. Wenn ein CAB einberufen wird, müssen die ausgewählten Mitglieder fähig sein, den Change sowohl vom Standpunkt des Geschäfts, als auch vom technischen Standpunkt aus beurteilen zu können. Um diesen Mix zu erreichen, müssen im CAB sowohl Personen mit einem klaren Verständnis für die Geschäftsanforderungen des Kunden vertreten sein als auch Anwender und Vertreter aus den technischen Entwicklungs- und Supportbereichen.</skos:definition>
+        <rdfs:isDefinedBy xml:lang="de">Wikipedia</rdfs:isDefinedBy>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ChangeAntrag">
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <skos:definition xml:lang="de">Ein Change Antrag kommt per Email und (papierbasiert) per Hauspost. Für den B1 ist nur der unterschriebene RfC relevant.</skos:definition>
+        <skos:altLabel xml:lang="en">Change Request</skos:altLabel>
+        <skos:altLabel xml:lang="en">Request for Change</skos:altLabel>
+        <skos:altLabel xml:lang="en">RfC</skos:altLabel>
+<!-- Ko: Heißt das wirklich Change Antrag und nicht Änderungsantrag? -->
+        <rdfs:label xml:lang="de">Change Antrag</rdfs:label>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeAntragProtokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ChangeAntragProtokoll">
+        <rdfs:label xml:lang="de">Change Antrag Protokoll</rdfs:label>
+        <rdfs:label xml:lang="en">Change Request Protocol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ChangeManagement">
+        <rdfs:label xml:lang="de">Change Management</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:label xml:lang="de">Änderungsverwaltung</rdfs:label>
+        <skos:definition xml:lang="de">Change-Management ist ein Themengebiet aus der IT Infrastructure Library (ITIL) und wird dort im Buch Service Transition als Prozess definiert, der das Ziel hat, dass alle Anpassungen an der IT-Infrastruktur kontrolliert, effizient und unter Minimierung von Risiken für den Betrieb bestehender Business-Services durchgeführt werden.</skos:definition>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ChangeRequestEntscheidung">
+        <rdfs:label xml:lang="de">Change Request Entscheidung</rdfs:label>
+        <rdfs:label xml:lang="en">Change Request Decision</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ChangeManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektewarteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeAntragProtokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ChangeRequestErfassung">
+        <rdfs:label xml:lang="de">Change Request Erfassung</rdfs:label>
+        <rdfs:label xml:lang="en">Change Request Aquisition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ChangeManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeAntrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeAntragProtokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ChangeRequestPruefung">
+        <rdfs:label xml:lang="de">Change Request Prüfung</rdfs:label>
+        <rdfs:label xml:lang="en">Change Request Check</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ChangeManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeAntragProtokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+
+    <Class rdf:about="&ciox;ChangeRequestUeberwachung">
+        <rdfs:label xml:lang="de">Change Request Überwachung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ChangeManagement"/>
+        <rdfs:label xml:lang="en">Change Request Monitoring</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeAntragProtokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ChiefExecutiveOfficer">
+        <rdfs:label xml:lang="de">Chief Executive Officer</rdfs:label>
+        <skos:altLabel xml:lang="de">Geschäftsführer</skos:altLabel>
+        <skos:altLabel xml:lang="en">CEO</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="&ciox;HISStakeholder"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;DurchfuehrungJourFixeCEO"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Projektreview"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ChiefInformationOfficer">
+        <rdfs:label xml:lang="en">Chief Information Officer</rdfs:label>
+        <skos:altLabel xml:lang="en">CIO</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="&ciox;InformationManagementStaff"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektewarteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektbudget"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projekteskalation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektueberwachung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Ticketauswertung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektdarstellung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;IncidentManagement"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektleiter"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsfensterfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;DurchfuehrungJourFixe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertragfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Projektbudgetverwaltung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;CABDurchfuehrung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Beschaffungsfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;ITStrategieentwicklung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;ITSachkontenplanung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ciox;approves"/>
+                <someValuesFrom rdf:resource="&ciox;Projektdefinition"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Ticketauswertung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektpriorisierung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;DurchfuehrungJourFixeCEO"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnungsfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projektleiterzuweisung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnungspruefung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ComputerbasiertesAnwendungssystem">
+        <rdfs:label xml:lang="de">Computerbasiertes Anwendungssystem</rdfs:label>
+        <rdfs:label xml:lang="en">Computer-Based Application Component</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&ciox;Anwendungssystem"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;DepartmentManagerSystemManagement">
+        <rdfs:label xml:lang="en">Department Manager System Management</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Abteilungsleiter"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Dienstanweisung">
+        <rdfs:label xml:lang="de">Dienstanweisung</rdfs:label>
+        <rdfs:label xml:lang="en">Organisation Instruction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Dienstleistungsmittel">
+        <rdfs:label xml:lang="de">Dienstleistungsmittel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Kostenart"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;DocumentType">
+        <rdfs:label xml:lang="de">Document Type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;RepresentationType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;DurchfuehrungJourFixe">
+        <rdfs:label xml:lang="de">Durchfuehrung Jour-fixe</rdfs:label>
+        <rdfs:label xml:lang="en">Jour Fixe Execution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektueberwachung"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsaktivitaetsprotokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="de">Statusabfrage der Projekte, 1x wöchentlich Projektleiter Jour fixe zur Besprechung laufender Projekte</skos:definition>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;DurchfuehrungJourFixeCEO">
+        <rdfs:label xml:lang="de">Durchfuehrung Jour-fixe CEO</rdfs:label>
+        <rdfs:label xml:lang="en">Joure-fixe Execution CEO</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektueberwachung"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;MSPowerpoint"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;JourFixeProtokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;DurchfuehrungWartungsfenster">
+        <rdfs:label xml:lang="en">Maintenance Window Execution</rdfs:label>
+        <rdfs:label xml:lang="de">Durchfuehrung Wartungsfenster</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsaktivitaetsprotokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;EMailTransportServerSystem">
+        <rdfs:label xml:lang="de">E-Mail-Transport-Server-System</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Officepaket"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;MSExchangeServer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Emailverwaltungssystem">
+        <rdfs:label xml:lang="de">Emailverwaltungssystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Officepaket"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;MSOutlook"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;EnterpriseResourcePlanningSystem">
+        <rdfs:label xml:lang="de">Enterprise Resource Planning System</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPERP"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Etat">
+        <rdfs:label xml:lang="de">Etat</rdfs:label>
+        <rdfs:label xml:lang="en">Budget</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <skos:definition xml:lang="de">Geldmittel für Dienstleistungen, Softwarewartung, Hardwarewartung, Reparatur, Ersatzteile und Investitionsmittel</skos:definition>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Sachkonto"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;ExcelFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <dc:MediaType rdf:about="&ciox;ExcelFile">
+        <rdfs:label xml:lang="de">Excel File</rdfs:label>
+    </dc:MediaType>
+ 
+
+    <Class rdf:about="&ciox;FAMOS">
+        <rdfs:label xml:lang="en">Fast Analysis And Monitoring Of Signals</rdfs:label>
+        <skos:altLabel xml:lang="de">FAMOS</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="&ciox;Softwareprodukt"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Finanzwesensystem">
+        <rdfs:label xml:lang="de">Finanzwesensystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPFI"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Fremdmittel">
+        <rdfs:label xml:lang="de">Fremdmittel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Kostenart"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;GeplanteAktivierbareDienstleistungsmittel">
+        <rdfs:label xml:lang="de">Geplante Aktivierbare Dienstleistungsmittel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Ressource"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;AktivierbareDienstleistungsmittel"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;GeplanterPersonalaufwand">
+        <rdfs:label xml:lang="de">Geplanter Personalaufwand</rdfs:label>
+        <rdfs:label xml:lang="en">Planned Personnel Costs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Ressource"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;HISStakeholder">
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf rdf:resource="&meta;Role"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;HospitalStaff">
+        <rdfs:label xml:lang="de">Hospital Staff</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;HISStakeholder"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ITFinanzcontrolling">
+        <rdfs:label xml:lang="de">IT-Finanzcontrolling</rdfs:label>
+        <rdfs:label xml:lang="en">IT Financial Controlling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ITSachkontenplanung">
+        <rdfs:label xml:lang="de">IT-Sachkontenplanung</rdfs:label>
+        <rdfs:label xml:lang="en">IT General Ledger Account Planning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ITFinanzcontrolling"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoSoftwarereparaturen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoITInvestitionen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoITInvestitionen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoHardwarereparaturen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoHardwarereparaturen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoITDienstleistungen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoITDienstleistungen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoSoftwarereparaturen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="de">Sachkonten werden einmal jährlich geplant auf Grundlage des Vorjahrs.</skos:definition>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ITStrategie">
+        <rdfs:label xml:lang="de">IT-Strategie</rdfs:label>
+        <rdfs:label xml:lang="en">IT Strategy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ITServiceManagementSystem">
+        <rdfs:label xml:lang="de">IT Service Management System</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;IncidentManagement"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Ticket"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;MSSystemCenter"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ITStrategieentwicklung">
+        <rdfs:label xml:lang="de">IT Strategieentwicklung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektportfolio"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;ITStrategie"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="de">Aus der Erstellung der IT-Strategie ergibt sich das Projektportfolio.</skos:definition>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;IncidentManagement">
+        <rdfs:label xml:lang="de">Incident Management</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+
+    <Class rdf:about="&ciox;InformationManagementStaff">
+        <rdfs:label xml:lang="de">Information Management Staff</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;HospitalStaff"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <meta:isAssociatedWith rdf:resource="&meta;InformationManagement"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;InstantMessagingSystem">
+        <rdfs:label xml:lang="de">Instant Messaging System</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Officepaket"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;MSLync"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;InterneBudgetkontierung">
+        <rdfs:label xml:lang="de">Interne Budgetkontierung</rdfs:label>
+        <rdfs:label xml:lang="en">Internal Budget Account Assignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Kostenmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Etat"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Investitionsmittel">
+        <rdfs:label xml:lang="de">Investitionsmittel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Kostenart"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;JourFixeProtokoll">
+        <rdfs:label xml:lang="de">Jour-fixe Protokoll</rdfs:label>
+        <rdfs:label xml:lang="en">Jour fixe Protocol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Kollaborationsplattform">
+        <rdfs:label xml:lang="de">Kollaborationsplattform</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertragfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeRequestEntscheidung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeRequestPruefung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeRequestErfassung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeRequestUeberwachung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;DurchfuehrungWartungsfenster"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;ITStrategieentwicklung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsfensterfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+	<rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Beschaffungsfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Projektabschlussbericht"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Dienstanweisung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeAntragProtokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;ITStrategie"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Etat"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Projektstatusbericht"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Projektewarteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;JourFixeProtokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsaktivitaetsprotokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;MSSharePoint"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;ChangeAntrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Projekteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Projektwebsite"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Ressourcenplan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Projektauftrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Projektplan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Betriebskonzept"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Projektuebergabeprotokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Kostenart">
+        <rdfs:label xml:lang="en">Cost Type</rdfs:label>
+        <rdfs:label xml:lang="de">Kostenart</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Kostenmanagement">
+        <rdfs:label xml:lang="de">Kostenmanagement</rdfs:label>
+        <rdfs:label xml:lang="en">Cost Management</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Kostenrechnungssystem">
+        <rdfs:label xml:lang="de">Kostenrechnungssystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Wirtschaftsplan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPCO"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+    <Class rdf:about="&ciox;Krankenhausverwaltung">
+        <rdfs:label xml:lang="de">Krankenhausverwaltung</rdfs:label>
+        <rdfs:label xml:lang="en">Hospital Administration</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;Sachkonto"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSActiveDirectory">
+        <rdfs:label xml:lang="de">MS Active Directory</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSExcel">
+        <rdfs:label xml:lang="de">MS Excel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSExchange">
+        <rdfs:label xml:lang="de">MS Exchange</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSExchangeServer">
+        <rdfs:label xml:lang="de">MS Exchange Server</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSLync">
+        <rdfs:label xml:lang="de">MS Lync</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSOutlook">
+        <rdfs:label xml:lang="de">MS Outlook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSPowerpoint">
+        <rdfs:label xml:lang="de">MS Powerpoint</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSProject">
+        <rdfs:label xml:lang="de">MS Project</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSSCSM">
+        <rdfs:label xml:lang="en">System Center Service Manager</rdfs:label>
+        <skos:altLabel xml:lang="en">MS SCSM</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSServer">
+        <rdfs:label xml:lang="de">MS Server</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSSharePoint">
+        <rdfs:label xml:lang="de">MS SharePoint</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSSystemCenter">
+        <rdfs:label xml:lang="de">MS System Center</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MSWord">
+        <rdfs:label xml:lang="de">MS Word</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Microsoft"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Materialbestellung">
+        <rdfs:label xml:lang="de">Materialbestellung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Bestellungsbearbeitung"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Materialwirtschaftssystem">
+        <rdfs:label xml:lang="de">Materialwirtschaftssystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPMM"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isMasterFor"/>
+                <someValuesFrom rdf:resource="&ciox;Bestellung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+
+    <Class rdf:about="&ciox;Microsoft">
+        <rdfs:label xml:lang="de">Microsoft</rdfs:label>
+        <skos:altLabel xml:lang="en">MS</skos:altLabel>
+        <rdfs:subClassOf rdf:resource="&ciox;Softwareprodukt"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;MitarbeiterVertragsmanagement">
+        <rdfs:label xml:lang="de">Mitarbeiter Vertragsmanagement</rdfs:label>
+        <rdfs:label xml:lang="en">Contract Management Staff</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;InformationManagementStaff"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;DurchfuehrungJourFixe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Officepaket">
+        <rdfs:label xml:lang="de">Officepaket</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;PDFFile">
+        <rdfs:label xml:lang="de">PDF File</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;DatasetType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;PDFViewer">
+        <rdfs:label xml:lang="de">PDF Viewer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Officepaket"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Personaleinsatzplanung">
+        <rdfs:label xml:lang="de">Personaleinsatzplanung</rdfs:label>
+        <rdfs:label xml:lang="en">Personnel Management</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Personalmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Personaleinsatzplanungsystem">
+        <rdfs:label xml:lang="de">Personaleinsatzplanungsystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Personaleinsatzplanung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;PolypointPEP"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Personalmanagement">
+        <rdfs:label xml:lang="de">Personalmanagement</rdfs:label>
+        <rdfs:label xml:lang="en">Personnel Management</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;PlansummeDienstleistungsmittel">
+        <rdfs:label xml:lang="de">Plansumme Dienstleistungsmittel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Ressource"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;Dienstleistungsmittel"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;PlansummeFremdmittel">
+        <rdfs:label xml:lang="de">Plansumme Fremdmittel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Ressource"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;Fremdmittel"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;PlansummeInvestitionsmittel">
+        <rdfs:label xml:lang="de">Plansumme Investitionsmittel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Ressource"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;Investitionsmittel"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;PolypointPEP">
+        <rdfs:label xml:lang="de">Polypoint PEP</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Softwareprodukt"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projekt">
+        <rdfs:label xml:lang="de">Projekt</rdfs:label>
+        <rdfs:label xml:lang="en">Project</rdfs:label>
+        <skos:definition xml:lang="de">Projekte werden definiert als Tätigkeiten, die länger als 5 Personentage dauern und das eigene Budget beanspruchen</skos:definition>
+        <rdfs:subClassOf rdf:resource="&ciox;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Projektdefinition"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;title"/>
+                <someValuesFrom rdf:resource="&xsd;string"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <onClass rdf:resource="&ciox;GeplanterPersonalaufwand"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ciox;Projektnummer"/>
+                <someValuesFrom rdf:resource="&xsd;int"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <onClass rdf:resource="&ciox;PlansummeDienstleistungsmittel"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <onClass rdf:resource="&ciox;Projektrisiko"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <onClass rdf:resource="&ciox;PlansummeInvestitionsmittel"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <onClass rdf:resource="&ciox;PlansummeFremdmittel"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <onClass rdf:resource="&ciox;GeplanteAktivierbareDienstleistungsmittel"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;Projektwebsite"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektabschlussbericht">
+        <rdfs:label xml:lang="de">Projektabschlussbericht</rdfs:label>
+        <rdfs:label xml:lang="en">Project Completition Report</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektauftrag">
+        <rdfs:label xml:lang="en">Project Order</rdfs:label>
+        <rdfs:label xml:lang="de">Projektauftrag</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektauftraggeber">
+        <rdfs:label xml:lang="de">Projektauftraggeber</rdfs:label>
+        <rdfs:label xml:lang="en">Project Sponsor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;HISStakeholder"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektbudget">
+        <rdfs:label xml:lang="de">Projektbudget</rdfs:label>
+        <rdfs:label xml:lang="en">Project Budget</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;ExcelFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektbudgetverwaltung">
+        <rdfs:label xml:lang="de">Projektbudgetverwaltung</rdfs:label>
+        <rdfs:label xml:lang="en">Project Budget Administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektdarstellung">
+        <rdfs:label xml:lang="de">Projektdarstellung</rdfs:label>
+        <rdfs:label xml:lang="en">Project Presentation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projekt"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;MSPowerpoint"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektewarteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektdefinition">
+        <rdfs:label xml:lang="en">Project Definition</rdfs:label>
+        <rdfs:label xml:lang="de">Projektdefinition</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektdurchfuehrung">
+        <rdfs:label xml:lang="de">Projektdurchfuehrung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <rdfs:label xml:lang="en">Project Execution</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektstatusbericht"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektabschlussbericht"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektuebergabeprotokoll"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+    <Class rdf:about="&ciox;Projektewarteliste">
+        <skos:definition xml:lang="de">Grundlage für jährliche Projektplanung</skos:definition>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+
+    <Class rdf:about="&ciox;Projekteliste">
+        <rdfs:label xml:lang="de">Projekteliste</rdfs:label>
+        <rdfs:label xml:lang="en">Projects List</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;ExcelFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;Projektewarteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projekteplanung">
+        <rdfs:label xml:lang="de">Projekteplanung</rdfs:label>
+        <rdfs:label xml:lang="en">Projects Planning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;MSProject"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;ITStrategie"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektewarteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projekteskalation">
+        <rdfs:label xml:lang="de">Projekteskalation</rdfs:label>
+        <rdfs:label xml:lang="en">Project Escalation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektewarteliste">
+        <rdfs:label xml:lang="de">Projektewarteliste</rdfs:label>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;ExcelFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Projekt"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektfreigabe">
+        <rdfs:label xml:lang="de">Projektfreigabe</rdfs:label>
+        <rdfs:label xml:lang="en">Project Release</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projekteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektportfolio"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektleiter">
+        <rdfs:label xml:lang="de">Projektleiter</rdfs:label>
+        <rdfs:label xml:lang="en">Project Manager</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;InformationManagementStaff"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;Projekt"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertagserstellung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektleiterzuweisung">
+        <rdfs:label xml:lang="de">Projektleiterzuweisung</rdfs:label>
+        <rdfs:label xml:lang="en">Project Manager Assignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektmanagement">
+        <rdfs:label xml:lang="de">Projektmanagement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <rdfs:label xml:lang="en">Project Management</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektmanagementsystem">
+        <rdfs:label xml:lang="de">Projektmanagementsystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;MSProject"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektplan">
+        <rdfs:label xml:lang="de">Projektplan</rdfs:label>
+        <rdfs:label xml:lang="en">Project Plan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;Projektwebsite"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektplanung">
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:label xml:lang="en">Project Planning</rdfs:label>
+        <skos:definition xml:lang="de">Zeitplanung, Priorisieren, Aufgaben zuweisen, Berechtigungen einstellen u.a.</skos:definition>
+        <rdfs:label xml:lang="de">Projektplanung</rdfs:label>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektplan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;SAPCats"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;MSExcel"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektdefinition"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;MSProject"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektwebsite"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektportfolio"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektbudget"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;MSSharePoint"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektportfolio">
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:label xml:lang="en">Project Portfolio</rdfs:label>
+    </Class>
+
+    <Class rdf:about="&ciox;Projektportfolioplanung">
+        <rdfs:label xml:lang="de">Projektportfolioplanung</rdfs:label>
+        <rdfs:label xml:lang="en">Project Portfolio Planning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektewarteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Ressourcenplan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektportfolio"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektpriorisierung">
+        <rdfs:label xml:lang="de">Projektpriorisierung</rdfs:label>
+        <rdfs:label xml:lang="en">Project Priorisation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektbudget"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektewarteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektrisiko"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektprioritaet">
+        <rdfs:label xml:lang="en">Project Priority</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektreview">
+        <rdfs:label xml:lang="de">Projektreview</rdfs:label>
+        <rdfs:label xml:lang="en">Project Review</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektbudgetverwaltung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projekteliste"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektrisiko">
+        <rdfs:label xml:lang="en">Project Risk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektstatusbericht">
+        <rdfs:label xml:lang="de">Projektstatusbericht</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektwebsite">
+        <rdfs:label xml:lang="de">Projektwebseite</rdfs:label>
+        <rdfs:label xml:lang="en">Project Web Site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektuebergabeprotokoll">
+        <rdfs:label xml:lang="de">Projektübergabeprotokoll</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Projektueberwachung">
+        <rdfs:label xml:lang="de">Projektüberwachung</rdfs:label>
+        <rdfs:label xml:lang="en">Project Monitoring</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf rdf:resource="&ciox;Projektmanagement"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektwebsite"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Rechnung">
+        <rdfs:label xml:lang="de">Rechnung</rdfs:label>
+        <rdfs:label xml:lang="en">Bill</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;ExcelFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Rechnungsfreigabe">
+        <rdfs:label xml:lang="de">Rechnungsfreigabe</rdfs:label>
+        <rdfs:label xml:lang="en">Invoice Release</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Kostenmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Rechnungspruefung">
+        <rdfs:label xml:lang="de">Rechnungsprüfung</rdfs:label>
+        <rdfs:label xml:lang="en">Invoice Verification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Kostenmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Projektbudget"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Angebot"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Projektauftrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="de">Nach Eingang der Rechnung wird diese geprüft. man unterscheidet zwischen Prüfung auf inhaltliche und sachliche Korrektheit. Im Anschluss erfolgt die finanzielle Prüfung.</skos:definition>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Ressource">
+        <rdfs:label xml:lang="en">Resource</rdfs:label>
+        <rdfs:label xml:lang="de">Ressource</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Ressourcenplan">
+        <rdfs:label xml:lang="de">Ressourcenplan</rdfs:label>
+        <rdfs:label xml:lang="en">Resource Plan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;ExcelFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SAP">
+        <skos:altLabel xml:lang="de">SAP</skos:altLabel>
+        <rdfs:label xml:lang="de">Systemanalyse und Programmentwicklung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Softwareprodukt"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SAPCO">
+        <skos:altLabel xml:lang="de">SAP CO</skos:altLabel>
+        <rdfs:label xml:lang="en">SAP Controlling</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&ciox;SAP"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;ITFinanzcontrolling"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SAPCats">
+        <rdfs:label xml:lang="de">SAP Cats</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;SAP"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SAPERP">
+        <skos:altLabel xml:lang="de">SAP ERP</skos:altLabel>
+        <rdfs:label xml:lang="en">SAP Enterprise Resource Planning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;SAP"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPCO"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPMM"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPFI"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPXFlow"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isDecomposedIn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPIM"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SAPFI">
+        <rdfs:label xml:lang="de">SAP FI</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;SAP"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnungspruefung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SAPHRPEP">
+        <skos:altLabel xml:lang="de">SAP HR PEP</skos:altLabel>
+        <rdfs:label xml:lang="de">SAP Human Resource Personaleinsatzplanung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;SAP"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SAPIM">
+        <rdfs:label xml:lang="de">SAP IM</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;SAP"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;ITFinanzcontrolling"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SAPMM">
+        <rdfs:label xml:lang="de">SAP MM</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;SAP"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SAPXFlow">
+        <rdfs:label xml:lang="de">SAP xFlow</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;SAP"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Rechungsfreigabe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Rechnungspruefung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <dc:MediaType rdf:about="&ciox;SCSMFile">
+        <rdfs:label xml:lang="de">SCSM File</rdfs:label>
+    </dc:MediaType>
+ 
+
+    <Class rdf:about="&ciox;Sachkonto">
+        <rdfs:label xml:lang="de">Sachkonto</rdfs:label>
+	<rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SachkontoHardwarereparaturen">
+        <rdfs:label xml:lang="de">Sachkonto Hardwarereparaturen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Sachkonto"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;SachkontoSoftwarereparaturen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SachkontoITDienstleistungen">
+        <rdfs:label xml:lang="de">Sachkonto IT-Dienstleistungen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Sachkonto"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SachkontoITInvestitionen">
+        <rdfs:label xml:lang="de">Sachkonto IT-Investitionen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Sachkonto"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;SachkontoSoftwarereparaturen">
+        <rdfs:label xml:lang="de">Sachkonto Softwarereparaturen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Sachkonto"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;ServiceDesk">
+        <rdfs:label xml:lang="de">Service Desk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;IncidentManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Softwareprodukt">
+        <rdfs:label xml:lang="de">Softwareprodukt</rdfs:label>
+        <rdfs:label xml:lang="en">Software Product</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Stoerungserfassung">
+        <rdfs:label xml:lang="de">Störungserfassung</rdfs:label>
+        <rdfs:label xml:lang="en">incident taking</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ServiceDesk"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Ticket"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Tabellenkalkulationssystem">
+        <rdfs:label xml:lang="de">Tabellenkalkulationssystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Officepaket"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;InterneBudgetkontierung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Budgetplanung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+	<rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Wirtschaftsplanung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;MSExcel"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Textverarbeitungssoftware">
+        <rdfs:label xml:lang="de">Textverarbeitungssoftware</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Officepaket"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Projekteskalation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;ITStrategieentwicklung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;CABDurchfuehrung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;supports"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertragserstellung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;MSWord"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Ticket">
+        <rdfs:label xml:lang="de">Ticket</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;SCSMFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;TicketBearbeitung">
+        <rdfs:label xml:lang="de">Ticket Bearbeitung</rdfs:label>
+        <rdfs:label xml:lang="en">Ticket Processing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;IncidentManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Ticketauswertung">
+        <rdfs:label xml:lang="de">Ticketauswertung</rdfs:label>
+        <rdfs:label xml:lang="en">Ticket Evaluation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;IncidentManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Ticket"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Ticketbearbeitungszuweisung">
+        <rdfs:label xml:lang="de">Ticketbearbeitungszuweisung</rdfs:label>
+        <rdfs:label xml:lang="en">Ticket Processing Assesment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ServiceDesk"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Ticketklassifikation">
+        <rdfs:label xml:lang="de">Ticketklassifikation</rdfs:label>
+        <rdfs:label xml:lang="en">Ticket Classification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ServiceDesk"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Ticketueberwachung">
+        <rdfs:label xml:lang="de">Ticketüberwachung</rdfs:label>
+        <rdfs:label xml:lang="en">Ticket Monitoring</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;IncidentManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Ticket"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Vertragsmanagement">
+        <rdfs:label xml:lang="de">Vertragsmanagement</rdfs:label>
+        <rdfs:label xml:lang="en">Contract Management</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Verzeichnisdienstsystem">
+        <rdfs:label xml:lang="de">Verzeichnisdienstsystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;MSActiveDirectory"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Wartungsaktivitaetsprotokoll">
+        <rdfs:label xml:lang="de">Wartungsaktivitätsprotokoll</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;ExcelFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+    <Class rdf:about="&ciox;Wartungsvertragserstellung">
+        <rdfs:subClassOf rdf:resource="&meta;Function"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:label xml:lang="en">Maintenance Contract Creation</rdfs:label>
+    </Class>
+
+    <Class rdf:about="&ciox;Wartungsfensterfreigabe">
+        <rdfs:label xml:lang="de">Wartungsfensterfreigabe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;InformationManagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Wartungsfensterkoordinator">
+        <rdfs:label xml:lang="de">Wartungsfensterkoordinator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;InformationManagementStaff"/>
+        <meta:subTopClass rdf:resource="&meta;Role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <someValuesFrom rdf:resource="&ciox;DurchfuehrungWartungsfenster"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Maintenance Window Coordinator</rdfs:label>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Wartungsvertagserstellung">
+        <rdfs:label xml:lang="de">Wartungsvertagserstellung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Vertragsmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Wartungsvertrag">
+        <rdfs:label xml:lang="de">Wartungsvertrag</rdfs:label>
+        <rdfs:label xml:lang="en">Maintenance Contract</rdfs:label>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;WordFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Wartungsvertragfreigabe">
+        <rdfs:label xml:lang="de">Wartungsvertragfreigabe</rdfs:label>
+        <rdfs:label xml:lang="en">Maintenance Contract Release</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Vertragsmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Wirtschaftsplan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;uses"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertrag"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="de">Wenn Vertragsbetrag &lt; 25.000 Euro und Vertragslaufzeit begrenzt. Die Bereichsassistenz trägt die Kosten des Wartungsvertrags in den Wirtschaftsplan ein.</skos:definition>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Wartungsvertragsentscheidung">
+        <rdfs:label xml:lang="de">Wartungsvertragsentscheidung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Vertragsmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:label xml:lang="en">Maintenance Contract Conclusion</rdfs:label>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Wirtschaftsplan">
+        <rdfs:label xml:lang="de">Wirtschaftsplan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
+                <someValuesFrom rdf:resource="&ciox;Sachkonto"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&dc;format"/>
+                <someValuesFrom rdf:resource="&ciox;ExcelFile"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Wirtschaftsplanung">
+        <rdfs:label xml:lang="de">Wirtschaftsplanung</rdfs:label>
+        <rdfs:label xml:lang="en">Economic Planning</rdfs:label>
+        <skos:definition xml:lang="de">Schätzung des Budgets für die Sachkonten des B1</skos:definition>
+        <rdfs:subClassOf rdf:resource="&ciox;Kostenmanagement"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+         <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;updates"/>
+                <someValuesFrom rdf:resource="&ciox;Wirtschaftsplan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+
+ 
+
+    <Class rdf:about="&ciox;BereichFinanzenPlanungUndControlling">
+        <rdfs:label xml:lang="de">Bereich Finanzen, Planung und Controlling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Krankenhausverwaltung"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;ITSachkontenplanung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;BereichMaterialwirtschaftDienstleistungen">
+        <rdfs:label xml:lang="de">Bereich Materialwirtschaft/Dienstleistungen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;Krankenhausverwaltung"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isInvolvedIn"/>
+                <someValuesFrom rdf:resource="&ciox;Wartungsvertragsentscheidung"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+ 
+
+    <Class rdf:about="&ciox;Investitionsmanagementsystem">
+        <rdfs:label xml:lang="de">Investitionsmanagementsystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ciox;ComputerbasiertesAnwendungssystem"/>
+        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&meta;isBasedOn"/>
+                <someValuesFrom rdf:resource="&ciox;SAPIM"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+
+    <NamedIndividual rdf:about="&ciox;Bereich1Informationsmanagement">
+        <rdf:type rdf:resource="&ciox;BereichInformationsmanagement"/>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;Bereich2">
+        <rdf:type rdf:resource="&ciox;BereichMaterialwirtschaftDienstleistungen"/>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;Bereich3">
+        <rdf:type rdf:resource="&ciox;BereichFinanzenPlanungUndControlling"/>
+    </NamedIndividual>
+ 
+
+    <dc:MediaType rdf:about="&ciox;ExcelFile">
+	<rdfs:label xml:lang="en">excel file</rdfs:label>
+        <rdf:type rdf:resource="&ciox;DocumentType"/>
+        <rdf:type rdf:resource="&meta;RepresentationType"/>
+    </dc:MediaType>
+ 
+
+    <dc:MediaType rdf:about="&ciox;MicrosoftExcel">
+     <rdfs:label xml:lang="en">Microsoft Excel</rdfs:label>
+    </dc:MediaType>
+ 
+
+    <NamedIndividual rdf:about="&ciox;MicrosoftExchangeServer">
+     <rdfs:label xml:lang="en">Microsoft Exchange Server</rdfs:label>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;MicrosoftLync">
+        <rdf:type rdf:resource="&ciox;InstantMessagingSystem"/>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;MicrosoftOutlook">
+     <rdfs:label xml:lang="en">Microsoft Outlook</rdfs:label>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;MicrosoftProjectServer">
+     <rdfs:label xml:lang="en">Microsoft Project Server</rdfs:label>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;MicrosoftSharepoint">
+     <rdfs:label xml:lang="en">Microsoft Sharepoint</rdfs:label>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;MicrosoftSystemCenter">
+     <rdfs:label xml:lang="en">Microsoft System Center</rdfs:label>
+    </NamedIndividual>
+ 
+
+    <dc:MediaType rdf:about="&ciox;MicrosoftWord">
+     <rdfs:label xml:lang="en">Microsoft Word</rdfs:label>
+    </dc:MediaType>
+ 
+
+    <dc:MediaType rdf:about="&ciox;PDF">
+        <rdf:type rdf:resource="&meta;RepresentationType"/>
+     <rdfs:label xml:lang="en">PDF</rdfs:label>
+    </dc:MediaType>
+ 
+
+    <NamedIndividual rdf:about="&ciox;PolypointPEP">
+     <rdfs:label xml:lang="en">Polypoint PEP</rdfs:label>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;SAPCO">
+     <rdfs:label xml:lang="en">SAPCO</rdfs:label>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;SAPERP">
+     <rdfs:label xml:lang="en">SAPERP</rdfs:label>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;SAPFI">
+        <rdf:type rdf:resource="&ciox;Finanzwesensystem"/>
+     	<rdfs:label xml:lang="en">SAPFI</rdfs:label>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;SAPIM">
+     <rdfs:label xml:lang="en"></rdfs:label>
+    </NamedIndividual>
+ 
+
+    <Class rdf:about="&ciox;SAPMM">
+        <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
+        <rdfs:label xml:lang="en">SAP Material Management</rdfs:label>
+    </Class>
+ 
+
+    <NamedIndividual rdf:about="&ciox;StefanCioX">
+        <rdfs:label xml:lang="de">Stefan Smers</rdfs:label>
+        <rdf:type rdf:resource="&ciox;ChiefInformationOfficer"/>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;Ticket">
+        <rdfs:label xml:lang="en">ticket</rdfs:label>
+        <rdf:type rdf:resource="&ciox;DocumentType"/>
+        <rdf:type rdf:resource="&meta;RepresentationType"/>
+    </NamedIndividual>
+ 
+
+    <dc:MediaType rdf:about="&ciox;WordFile">
+        <rdfs:label xml:lang="de">Word-Datei</rdfs:label>
+        <rdfs:label xml:lang="de">Word-File</rdfs:label>
+        <rdf:type rdf:resource="&ciox;DocumentType"/>
+        <rdf:type rdf:resource="&meta;RepresentationType"/>
+    </dc:MediaType>
+ 
+    <NamedIndividual rdf:about="&ciox;gering">
+        <rdfs:label xml:lang="de">gering</rdfs:label>
+        <rdf:type rdf:resource="&ciox;Projektprioritaet"/>
+        <rdf:type rdf:resource="&ciox;Projektrisiko"/>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;hoch">
+        <rdfs:label xml:lang="de">hoch</rdfs:label>
+        <rdf:type rdf:resource="&ciox;Projektprioritaet"/>
+        <rdf:type rdf:resource="&ciox;Projektrisiko"/>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;mittel">
+        <rdfs:label xml:lang="de">mittel</rdfs:label>
+        <rdf:type rdf:resource="&ciox;Projektprioritaet"/>
+        <rdf:type rdf:resource="&ciox;Projektrisiko"/>
+    </NamedIndividual>
+ 
+
+    <NamedIndividual rdf:about="&ciox;Bereich3FinanzenPlanungUndControlling">
+     <rdfs:label xml:lang="de"></rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
