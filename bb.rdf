@@ -4075,7 +4075,7 @@
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <skos:definition xml:lang="en">Atomicity guarantees that either all of the tasks of a transaction are performed or none of them are;</skos:definition>
+        <skos:definition xml:lang="en">Atomicity guarantees that either all of the tasks of a transaction are performed or none of them are.</skos:definition>
         <page>156</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2049</ID>
     </owl:Class>
@@ -4792,7 +4792,7 @@
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.2</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <skos:definition xml:lang="en">business process metamodels, which focus on the description of what is done in which chronological and logical order;business process metamodels, which focus on the description of what is done in which chronological and logical order;</skos:definition>
+        <skos:definition xml:lang="en">business process metamodels, which focus on the description of what is done in which chronological and logical order;business process metamodels, which focus on the description of what is done in which chronological and logical order.</skos:definition>
         <page>45</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1168</ID>
     </owl:Class>
@@ -15387,7 +15387,7 @@ Object Workgroup Standard</skos:altLabel>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.5</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <skos:definition xml:lang="en">functional coverage of the application components (e.g., level of saturation of the overall HIS architecture, see Sect. 8.2.2 , or percentage of documents primarily created in computer-based form);</skos:definition>
+        <skos:definition xml:lang="en">functional coverage of the application components (e.g., level of saturation of the overall HIS architecture, see Sect. 8.2.2 , or percentage of documents primarily created in computer-based form).</skos:definition>
         <page>265</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1607</ID>
     </owl:Class>
@@ -21058,7 +21058,7 @@ Object Workgroup Standard</skos:altLabel>
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
-        <skos:definition xml:lang="en">Information management in hospitals is the management of hospital information systems;</skos:definition>
+        <skos:definition xml:lang="en">Information management in hospitals is the management of hospital information systems.</skos:definition>
         <page>241</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1075</ID>
     </owl:Class>
@@ -44305,7 +44305,7 @@ schema:error="Exact subclass relationship unclear: is a goal a function?">
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
-        <skos:definition xml:lang="en">has only functionalities for displaying and for data entry, but has no storing capability;</skos:definition>
+        <skos:definition xml:lang="en">has only functionalities for displaying and for data entry, but has no storing capability.</skos:definition>
         <page>169</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">517</ID>
         <skos:altLabel xml:lang="en">Thin Client</skos:altLabel>
