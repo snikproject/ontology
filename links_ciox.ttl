@@ -38,7 +38,7 @@ ciox:PDFFile				skos:narrower	bb:PDFA.
 ciox:Materialbestellung			skos:broader	bb:MaterialAndMedicationManagement.
 ciox:ProjektAuftraggeber		skos:closeMatch	ob:Sponsor.
 ciox:HospitalStaff			skos:closeMatch	bb:HospitalStaff.
-ciox:ChiefExecutiveOfficer		skos:closeMatch	bb:CEO.
+ciox:ChiefExecutiveOfficer		skos:closeMatch	bb:Ceo.
 ciox:Projektreview			skos:closeMatch	ob:ProjectReview.
 ciox:Projektdurchfuehrung		skos:closeMatch ob:ProjectExecution.
 ciox:BereichInformationsmanagement	skos:closeMatch	bb:InformationManagementDepartment.
