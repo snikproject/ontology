@@ -1208,6 +1208,7 @@
  
 
     <Class rdf:about="&ciox;HISStakeholder">
+        <rdfs:label xml:lang="en">HIS Stakeholder</rdfs:label>
         <meta:subTopClass rdf:resource="&meta;Role"/>
         <rdfs:subClassOf rdf:resource="&meta;Role"/>
     </Class>
