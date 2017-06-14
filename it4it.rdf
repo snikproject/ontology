@@ -1,0 +1,2394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/terms/"
+   xmlns:meta="http://www.snik.eu/ontology/meta/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xml="http://www.w3.org/XML/1998/namespace"
+   xmlns:vann="http://purl.org/vocab/vann/"   
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns="http://www.snik.eu/ontology/it4it">
+  <owl:Ontology rdf:about="http://www..snik.eu/ontology/it4it">
+    <vann:preferredNamespacePrefix>it4it</vann:preferredNamespacePrefix>                                                                                                                                                                
+    <vann:preferredNamespaceUri>http://www.snik.eu/ontology/it4it/</vann:preferredNamespaceUri>
+    <foaf:homepage rdf:resource="http://www.snik.eu"/>
+    <dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>            
+    <OntologyDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Domain of this ontology is information management of a company.</OntologyDomain>
+    <OntologyQuestionTypes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relevant concept and their relationship of the domain.</OntologyQuestionTypes>
+    <OntologyUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- Overview of the Domain.
+- Teaching.
+- Basis for Software Artifacts: CIONs and CIONw.</OntologyUse>
+    <OntologyUser rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Managers, Studends, Consultants, Software Developer, Researcher</OntologyUser>
+  </owl:Ontology>
+  <owl:DatatypeProperty rdf:about="Acceptance">
+    <rdfs:label xml:lang="en">Acceptance</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="AccessRight">
+    <rdfs:label xml:lang="en">Access Right</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="Activity">
+    <rdfs:label xml:lang="en">Activity</rdfs:label>
+    <rdfs:subClassOf rdf:resource="IT4IT"/>
+  </owl:Class>
+  <owl:Class rdf:about="ActualServiceCIs">
+    <rdfs:label xml:lang="en">Actual Service CIs</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="serviceModelBackboneDataObject"/>
+        <owl:someValuesFrom rdf:resource="ConfigurationManagementComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="ActualValue">
+    <rdfs:label xml:lang="en">Actual Value</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="AdmittingPhysician">
+    <rdfs:label xml:lang="en">Admitting Physician</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="ApprovalOfITPolicies">
+    <rdfs:label xml:lang="en">Approval Of ITPolicies</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="AuditOfITPolicies">
+    <rdfs:label xml:lang="en">Audit Of ITPolicies</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="AuxiliaryDataObject">
+    <rdfs:label xml:lang="en">Auxiliary Data Object</rdfs:label>
+    <rdfs:subClassOf rdf:resource="ValuePartition_(depr.?)"/>
+  </owl:Class>
+  <owl:Class rdf:about="AuxiliaryFunctionalComponent">
+    <rdfs:label xml:lang="en">Auxiliary Functional Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="ValuePartition_(depr.?)"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Availibility">
+    <rdfs:label xml:lang="en">Availibility</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="BindingCharacter">
+    <rdfs:label xml:lang="en">Binding Character</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="Build">
+    <rdfs:label xml:lang="en">Build</rdfs:label>
+    <rdfs:subClassOf rdf:resource="PrimaryActivity"/>
+    <owl:equivalentClass rdf:resource="RequirementsToDeploy"/>
+  </owl:Class>
+  <owl:Class rdf:about="BuildComponent">
+    <Purpose>* Receive the Source data object from the Source Control functional component and manage the creation, implementation, automation, and security and storage of all Builds.
+  * Create Build from the Source data object for a particular service component.
+  * Automate the Build process to support the Build schedule and build frequency requirements in order to support daily Build and smoke test plans or continuous integration plans.
+  * Run dynamic application security testing no later than when the final Build data object is received and before the RFCs are created for moving the new or changed service into production.
+  * Manage Builds and versioning in a Definitive Media Library (DML).
+  * Develop automated Build storage procedures and automated compilation techniques and tools.
+  * Monitor and report on the results of each integration Build.
+  * Initiate or automate the delivery of Builds to the Build Package functional component for validation by the acceptance testing team as candidate release builds.</Purpose>
+    <rdfs:label xml:lang="en">Build Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="CreationOfBuilds"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfBuilds"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="BuildKeyDataObject">
+    <rdfs:label xml:lang="en">Build Key Data Object</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="BuildComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="BuildPackage">
+    <rdfs:label xml:lang="en">Build Package</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="BuildPackageComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="BuildPackageComponent">
+    <Purpose>* Creation of a deployable package made up of one or many Builds.
+  * Manage the Build Packages and relationships to the Service Release Blueprints.</Purpose>
+    <rdfs:label xml:lang="en">Build Package Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="CreationOfBuildPackages"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfBuildPackages"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="BusinessValueChain">
+    <rdfs:label xml:lang="en">Business Value Chain</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="CIN">
+    <rdfs:label xml:lang="en">CIN</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="CareComprisedGroupsOfPatients">
+    <rdfs:label xml:lang="en">Care Comprised Groups of Patients</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="CareCoordinationOfCareProcess">
+    <rdfs:label xml:lang="en">Care Coordination of care process</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="CatalogCompositionComponent">
+    <rdfs:label xml:lang="en">Catalog Composition Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:Class rdf:about="ChangeControlComponent">
+    <rdfs:label xml:lang="en">Change Control Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="Chapter">
+    <rdfs:label xml:lang="en">Chapter</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="ChargebackContract">
+    <rdfs:label xml:lang="en">Chargeback Contract</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="Chargeback_/ShowbackComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="Chargeback_/ShowbackComponent">
+    <rdfs:label xml:lang="en">Chargeback / Showback Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="ClassName">
+    <rdfs:label xml:lang="en">Class Name</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:AnnotationProperty rdf:about="ConceptDomain">
+    <rdfs:label xml:lang="en">Concept Domain</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="ConceptType">
+    <rdfs:label xml:lang="en">Concept Type</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="ConceptualService">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">Conceptual Service</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="ITBudget"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="Policy"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="ConceptualServiceBlueprint"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="serviceModelBackboneDataObject"/>
+        <owl:someValuesFrom rdf:resource="ServicePortfolioComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ConceptualServiceBlueprint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">Conceptual Service Blueprint</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="serviceModelBackboneDataObject"/>
+        <owl:someValuesFrom rdf:resource="ServicePortfolioComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="ITCostModel"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ConfigurationManagementComponent">
+    <rdfs:label xml:lang="en">Configuration Management Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="Consumption">
+    <rdf:type rdf:resource="PrimaryActivity"/>
+    <rdfs:label xml:lang="en">Consumption</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:DatatypeProperty rdf:about="Correctness">
+    <rdfs:label xml:lang="en">Correctness</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="CostModelingComponent">
+    <rdfs:label xml:lang="en">Cost Modeling Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="auxiliaryFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="CreationOfBuildPackages">
+    <rdfs:label xml:lang="en">Creation Of Build Packages</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="CreationOfBuilds">
+    <rdfs:label xml:lang="en">Creation Of Builds</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="CreationOfITInitiatives">
+    <rdfs:comment xml:lang="en">Creation of IT initiatives is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProjectComponent.</rdfs:comment>
+    <rdfs:label xml:lang="en">Creation Of ITInitiatives</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="CreationOfITPolicies">
+    <rdfs:label xml:lang="en">Creation Of ITPolicies</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="CreationOfLontermITInvestment">
+    <rdfs:label xml:lang="en">Creation Of Lonterm ITInvestment</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="CreationOfScopeAgreementsForProjects">
+    <rdfs:label xml:lang="en">Creation Of Scope Agreements For Projects</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="CreationOfSourceCode">
+    <rdfs:label xml:lang="en">Creation Of Source Code</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="DataObject">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataObject</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LifecycleDataObject</rdfs:label>
+    <rdfs:subClassOf rdf:resource="IT4IT"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Deadline">
+    <rdfs:label xml:lang="en">Deadline</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="Defect">
+    <rdfs:label xml:lang="en">Defect</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="DefectComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="DefectComponent">
+    <rdfs:label xml:lang="en">Defect Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="DegreeOfNormativity">
+    <rdfs:label xml:lang="en">Degree Of Normativity</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="Deliver">
+    <rdfs:label xml:lang="en">Deliver</rdfs:label>
+    <rdfs:subClassOf rdf:resource="PrimaryActivity"/>
+    <owl:equivalentClass rdf:resource="RequestToFullfil"/>
+  </owl:Class>
+  <owl:Class rdf:about="DesignOfLogicalServicesBlueprints">
+    <rdfs:label xml:lang="en">Design Of Logical Services Blueprints</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="DesiredServiceModel">
+    <rdfs:label xml:lang="en">Desired Service Model</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="serviceModelBackboneDataObject"/>
+        <owl:someValuesFrom rdf:resource="FulfillmentExecutionComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="DetectToCorrect">
+    <rdf:type rdf:resource="ValueStream"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">Detect To Correct</rdfs:label>
+    <rdfs:subClassOf rdf:resource="ValueStream"/>
+    <owl:equivalentClass rdf:resource="Run"/>
+  </owl:Class>
+  <owl:Class rdf:about="Diagnostics_&amp;RemediationComponent">
+    <rdfs:label xml:lang="en">Diagnostics &amp; Remediation Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Duration">
+    <rdfs:label xml:lang="en">Duration</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="EndDate">
+    <rdfs:label xml:lang="en">End Date</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="EnterpriseArchitectureComponent">
+    <MainFunctions xml:lang="en">The Enterprise Architecture functional component:
+  * Shall identify strategic IT architectural components based on current business vision, strategy, goals, and requirements.
+  * Shall develop target state business, information, application, technology, and security blueprints based on strategies, principles, and policies.
+  * Shall develop IT roadmaps based on business roadmap and input.
+  * Shall develop and maintain enterprise guiding principles.
+  * Shall manage IT architecture guideline and standards.</MainFunctions>
+    <Purpose xml:lang="en">Create and manage long-term IT investment and execution plan-of-action that are critical to
+business strategic objectives.</Purpose>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">Enterprise Architecture Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="ServiceArchitecture"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="ServiceArchitecture"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="CreationOfLontermITInvestment"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ExecutionPlanOfAction"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfLontermITInvestment"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="updates"/>
+        <owl:someValuesFrom rdf:resource="ServiceArchitecture"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="uses"/>
+        <owl:someValuesFrom rdf:resource="ServiceArchitecture"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="EnterpriseFunction">
+    <rdfs:label xml:lang="en">Enterprise Function</rdfs:label>
+    <rdfs:subClassOf rdf:resource="Function"/>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="Error">
+    <rdfs:label xml:lang="en">Error</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="Event">
+    <rdfs:label xml:lang="en">Event</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="EventComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="EventComponent">
+    <rdfs:label xml:lang="en">Event Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:Class rdf:about="ExecutionPlanOfAction">
+    <rdfs:label xml:lang="en">Execution Plan Of Action</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Extent">
+    <rdfs:label xml:lang="en">Extent</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAdministrateTheMasterPatientIndex_(MPI)">
+    <rdfs:label xml:lang="en">Feature Administrate the master patient index (MPI)</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAdmitPatientsToTheWard">
+    <rdfs:label xml:lang="en">Feature Admit patients to the ward</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAnalyzeData">
+    <rdfs:label xml:lang="en">Feature Analyze data</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureArchivePictures">
+    <rdfs:label xml:lang="en">Feature Archive pictures</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAssignDoctorsToPatientsOrRooms">
+    <rdfs:label xml:lang="en">Feature Assign doctors to patients or rooms</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAssignOrderAndBloodSamplesToDevices">
+    <rdfs:label xml:lang="en">Feature Assign order and blood samples to devices</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAssignOrdersToModalities">
+    <rdfs:label xml:lang="en">Feature Assign orders to modalities</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAssignPatientsToModalities">
+    <rdfs:label xml:lang="en">Feature Assign patients to modalities</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAssignPatientsToRoomsAndBeds">
+    <rdfs:label xml:lang="en">Feature Assign patients to rooms and beds</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAssignStaffToPatientsOrOutpatientUnits">
+    <rdfs:label xml:lang="en">Feature Assign staff to patients or outpatient units</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAssignStaffToPatientsOrRooms">
+    <rdfs:label xml:lang="en">Feature Assign staff to patients or rooms</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureAttachDigitalSignatures">
+    <rdfs:label xml:lang="en">Feature Attach digital signatures</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureCalculateDosageOfDrugs">
+    <rdfs:label xml:lang="en">Feature Calculate dosage of drugs</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureCollectResultsFromDevices">
+    <rdfs:label xml:lang="en">Feature Collect results from devices</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureCommunicateDischargeInformation">
+    <rdfs:label xml:lang="en">Feature Communicate discharge information</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureCommunicateDocumentsToOtherApplications">
+    <rdfs:label xml:lang="en">Feature Communicate documents to other applications</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureCommunicatePictures">
+    <rdfs:label xml:lang="en">Feature Communicate pictures</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureCommunicateReportToOrderingUnit">
+    <rdfs:label xml:lang="en">Feature Communicate report to ordering unit</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureCreateWorklistForAGroupOfPatients">
+    <rdfs:label xml:lang="en">Feature Create worklist for a group of patients</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureCreatingARoster">
+    <rdfs:label xml:lang="en">Feature Creating a roster</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureCreationOfRadiologyReports">
+    <rdfs:label xml:lang="en">Feature Creation of Radiology Reports</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureDisplayEarlierLabResultsOfAPatient">
+    <rdfs:label xml:lang="en">Feature Display earlier lab results of a patient</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureDisplayPictures">
+    <rdfs:label xml:lang="en">Feature Display pictures</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureDisplayVitalParametersFromMonitoringDevices">
+    <rdfs:label xml:lang="en">Feature Display vital parameters from monitoring devices</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureDisplayWarningMessages">
+    <rdfs:label xml:lang="en">Feature Display warning messages</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureImportDocuments">
+    <rdfs:label xml:lang="en">Feature Import documents</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureIndexDocumentContent">
+    <rdfs:label xml:lang="en">Feature Index document content</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureIntegrateDataFromDifferentApplicationComponents">
+    <rdfs:label xml:lang="en">Feature Integrate data from different application components</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureManageModalities">
+    <rdfs:label xml:lang="en">Feature Manage modalities</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureManageStorageFormats">
+    <rdfs:label xml:lang="en">Feature Manage storage formats</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureManageStorageMedia">
+    <rdfs:label xml:lang="en">Feature Manage storage media</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureMergePatientInformationFromTwoRecords">
+    <rdfs:label xml:lang="en">Feature Merge patient information from two records</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureMessageQueuing">
+    <rdfs:label xml:lang="en">Feature Message Queuing</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureModifyPresentationOfPictures">
+    <rdfs:label xml:lang="en">Feature Modify presentation of pictures</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureMulticasting">
+    <rdfs:label xml:lang="en">Feature Multicasting</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureOfferDecisionSupportForCarePlanning">
+    <rdfs:label xml:lang="en">Feature Offer decision support for care planning</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureOrganizePatientTransport">
+    <rdfs:label xml:lang="en">Feature Organize patient transport</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeaturePrepareReport">
+    <rdfs:label xml:lang="en">Feature Prepare report</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeaturePreparingStatistics">
+    <rdfs:label xml:lang="en">Feature Preparing Statistics</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeaturePrintForms">
+    <rdfs:label xml:lang="en">Feature Print forms</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeaturePrintReports">
+    <rdfs:label xml:lang="en">Feature Print reports</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeaturePrintingOfLabels">
+    <rdfs:label xml:lang="en">Feature Printing of Labels</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideACollectionOfInternalProcessesAndRegulations">
+    <rdfs:label xml:lang="en">Feature Provide a collection of internal processes and regulations</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideAccessToArchivedInformation">
+    <rdfs:label xml:lang="en">Feature Provide access to archived information</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis">
+    <rdfs:label xml:lang="en">Feature Provide catalogs and other means for coding of nursing diagnosis</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures">
+    <rdfs:label xml:lang="en">Feature Provide catalogs and other means for coding of nursing procedures</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingPatient-relatedProcedures">
+    <rdfs:label xml:lang="en">Feature Provide catalogs and other means for coding patient-related procedures</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingPatients’Diagnoses">
+    <rdfs:label xml:lang="en">Feature Provide catalogs and other means for coding patients’ diagnoses</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses">
+    <rdfs:label xml:lang="en">Feature Provide catalogs and other means for coding radiological diagnoses</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures">
+    <rdfs:label xml:lang="en">Feature Provide catalogs and other means for coding radiological procedures</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideContext-relatedMedicalKnowledge">
+    <rdfs:label xml:lang="en">Feature Provide context-related medical knowledge</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideDrugCatalogs">
+    <rdfs:label xml:lang="en">Feature Provide drug catalogs</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForClinicalReports">
+    <rdfs:label xml:lang="en">Feature Provide forms for clinical reports</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingClinicalProcedures">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting clinical procedures</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingDiagnosis">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting diagnosis</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingDiagnosisAndProblems">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting diagnosis and problems</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingMedicalAnamnesis">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting medical anamnesis</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingMedications">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting medications</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingNursingAims">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting nursing aims</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingNursingTasks">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting nursing tasks</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingPatients_’InformedConsent">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting patients ’ informed consent</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingPatient’sInformedConsent">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting patient’s informed consent</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingPerformedTasks">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting performed tasks</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingPlannedTasks">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting planned tasks</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingProceduresAndOutcomes">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting procedures and outcomes</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingTheNursingHistory">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting the nursing history</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks">
+    <rdfs:label xml:lang="en">Feature Provide forms for documenting the outcome of nursing tasks</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForEnteringClinicalData_(free-textOrStructured)">
+    <rdfs:label xml:lang="en">Feature Provide forms for entering clinical data (free-text or structured)</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation">
+    <rdfs:label xml:lang="en">Feature Provide forms for entering or updating patient administrative information</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForPatients_’InformedConsent">
+    <rdfs:label xml:lang="en">Feature Provide forms for patients ’ informed consent</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForPreparingABillForThePatientInsurance">
+    <rdfs:label xml:lang="en">Feature Provide forms for preparing a bill for the patient insurance</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForPreparingClinicalReports">
+    <rdfs:label xml:lang="en">Feature Provide forms for preparing clinical reports</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForPreparingOperationReports">
+    <rdfs:label xml:lang="en">Feature Provide forms for preparing operation reports</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForWritingAReport">
+    <rdfs:label xml:lang="en">Feature Provide forms for writing a report</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForWritingATransferLetterOrDischargeReport">
+    <rdfs:label xml:lang="en">Feature Provide forms for writing a transfer letter or discharge report</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport">
+    <rdfs:label xml:lang="en">Feature Provide forms for writing the discharge letter or discharge report</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForWritingTheDischargeReport">
+    <rdfs:label xml:lang="en">Feature Provide forms for writing the discharge report</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForWritingTheNursingDischargeReport">
+    <rdfs:label xml:lang="en">Feature Provide forms for writing the nursing discharge report</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideGuidelinesForCarePlanning">
+    <rdfs:label xml:lang="en">Feature Provide guidelines for care planning</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideGuidelinesForTreatmentPlanning">
+    <rdfs:label xml:lang="en">Feature Provide guidelines for treatment planning</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForAccountsPayable">
+    <rdfs:label xml:lang="en">Feature Provide means for accounts payable</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForAccountsReceivable">
+    <rdfs:label xml:lang="en">Feature Provide means for accounts receivable</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForAssetAccounting">
+    <rdfs:label xml:lang="en">Feature Provide means for asset accounting</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForCheck-inOfPatient">
+    <rdfs:label xml:lang="en">Feature Provide means for check-in of patient</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForControlOfSecurityIssues">
+    <rdfs:label xml:lang="en">Feature Provide means for control of security issues</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForCostCenterAccounting">
+    <rdfs:label xml:lang="en">Feature Provide means for cost center accounting</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForCostElementAccounting">
+    <rdfs:label xml:lang="en">Feature Provide means for cost element accounting</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForCreatingARoster">
+    <rdfs:label xml:lang="en">Feature Provide means for creating a roster</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForCreatingOperationPlans_(dailyWeekly)">
+    <rdfs:label xml:lang="en">Feature Provide means for creating operation plans (daily weekly)</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForCreatingStatistics">
+    <rdfs:label xml:lang="en">Feature Provide means for creating statistics</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForDataMining">
+    <rdfs:label xml:lang="en">Feature Provide means for data mining</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations">
+    <rdfs:label xml:lang="en">Feature Provide means for editing and graphically illustrating collections of internal processes and regulations</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForFiNalizingDocumentation">
+    <rdfs:label xml:lang="en">Feature Provide means for fi nalizing documentation</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForFinalizingDocumentation">
+    <rdfs:label xml:lang="en">Feature Provide means for finalizing documentation</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForFinalizingNursingDocumentation">
+    <rdfs:label xml:lang="en">Feature Provide means for finalizing nursing documentation</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForGeneralLedgerAccounting">
+    <rdfs:label xml:lang="en">Feature Provide means for general ledger accounting</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForIncidentTracking">
+    <rdfs:label xml:lang="en">Feature Provide means for incident tracking</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment">
+    <rdfs:label xml:lang="en">Feature Provide means for initiating final billing for outpatient treatment</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForInitiationOfFinalBilling">
+    <rdfs:label xml:lang="en">Feature Provide means for initiation of final billing</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForManagingAndMonitoringDisposal">
+    <rdfs:label xml:lang="en">Feature Provide means for managing and monitoring disposal</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForManagingAppointments">
+    <rdfs:label xml:lang="en">Feature Provide means for managing appointments</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForManagingLogistics">
+    <rdfs:label xml:lang="en">Feature Provide means for managing logistics</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForManagingMedicalDevices">
+    <rdfs:label xml:lang="en">Feature Provide means for managing medical devices</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForManagingOutpatientUnit’sStaff">
+    <rdfs:label xml:lang="en">Feature Provide means for managing outpatient unit’s staff</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForManagingRooms">
+    <rdfs:label xml:lang="en">Feature Provide means for managing rooms</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForManagingWardStaff">
+    <rdfs:label xml:lang="en">Feature Provide means for managing ward staff</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForMinimizingAdverseDrugEvents">
+    <rdfs:label xml:lang="en">Feature Provide means for minimizing adverse drug events</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrderManagement">
+    <rdfs:label xml:lang="en">Feature Provide means for order management</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrderingConsumables">
+    <rdfs:label xml:lang="en">Feature Provide means for ordering consumables</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrderingDrugs">
+    <rdfs:label xml:lang="en">Feature Provide means for ordering drugs</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry">
+    <rdfs:label xml:lang="en">Feature Provide means for ordering drugs materials and laundry</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrderingLaundry">
+    <rdfs:label xml:lang="en">Feature Provide means for ordering laundry</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrderingPatientTransferToOtherUnits">
+    <rdfs:label xml:lang="en">Feature Provide means for ordering patient transfer to other units</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrderingPatientTransferToWard">
+    <rdfs:label xml:lang="en">Feature Provide means for ordering patient transfer to ward</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution">
+    <rdfs:label xml:lang="en">Feature Provide means for ordering patient transfer within the institution</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrderingTransportServices">
+    <rdfs:label xml:lang="en">Feature Provide means for ordering transport services</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrganizingCareerDevelopment">
+    <rdfs:label xml:lang="en">Feature Provide means for organizing career development</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrganizingRecruitment">
+    <rdfs:label xml:lang="en">Feature Provide means for organizing recruitment</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOrganizingTraining">
+    <rdfs:label xml:lang="en">Feature Provide means for organizing training</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForOverheadCostManagement">
+    <rdfs:label xml:lang="en">Feature Provide means for overhead cost management</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForPerformanceEvaluation">
+    <rdfs:label xml:lang="en">Feature Provide means for performance evaluation</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForPreparingACarePlan">
+    <rdfs:label xml:lang="en">Feature Provide means for preparing a care plan</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForPreparingHospital-wideStatistics">
+    <rdfs:label xml:lang="en">Feature Provide means for preparing hospital-wide statistics</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForPreparingStatistics">
+    <rdfs:label xml:lang="en">Feature Provide means for preparing statistics</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForPreparingWard-relatedStatistics">
+    <rdfs:label xml:lang="en">Feature Provide means for preparing ward-related statistics</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForPreparingWorkSchedules">
+    <rdfs:label xml:lang="en">Feature Provide means for preparing work schedules</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForPreventiveMaintenance">
+    <rdfs:label xml:lang="en">Feature Provide means for preventive maintenance</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForProductCosting">
+    <rdfs:label xml:lang="en">Feature Provide means for product costing</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForRecruitingOfPatients">
+    <rdfs:label xml:lang="en">Feature Provide means for recruiting of patients</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForSchedulingAPatient_’sAppointment">
+    <rdfs:label xml:lang="en">Feature Provide means for scheduling a patient ’s appointment</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForSchedulingPatients_’Appointments">
+    <rdfs:label xml:lang="en">Feature Provide means for scheduling patients ’ appointments</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForStockKeeping">
+    <rdfs:label xml:lang="en">Feature Provide means for stock keeping</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForVerifyingCodingDoneInDepartments">
+    <rdfs:label xml:lang="en">Feature Provide means for verifying coding done in departments</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideOrdersForPatient-relatedDrugs">
+    <rdfs:label xml:lang="en">Feature Provide orders for patient-related drugs</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideOrdersForPatient-relatedExaminations">
+    <rdfs:label xml:lang="en">Feature Provide orders for patient-related examinations</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideRelativesWithInformationOnTheLocationOfAPatient">
+    <rdfs:label xml:lang="en">Feature Provide relatives with information on the location of a patient</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvideReminderForFulfillingOfLegalReportingRequirements">
+    <rdfs:label xml:lang="en">Feature Provide reminder for fulfilling of legal reporting requirements</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureProvisionOfPatientDataAndExaminationParameters">
+    <rdfs:label xml:lang="en">Feature Provision of Patient Data and Examination Parameters</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureReceiveBloodSamples">
+    <rdfs:label xml:lang="en">Feature Receive blood samples</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureReceiveOrders">
+    <rdfs:label xml:lang="en">Feature Receive orders</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureRegisteringPatients">
+    <rdfs:label xml:lang="en">Feature Registering Patients</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureRetrievePatient">
+    <rdfs:label xml:lang="en">Feature Retrieve patient</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureScanDocuments">
+    <rdfs:label xml:lang="en">Feature Scan documents</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureScanningDocumentsFromReferringPhysicianAndOtherSources">
+    <rdfs:label xml:lang="en">Feature Scanning documents from referring physician and other sources</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureScoringOfThePatient">
+    <rdfs:label xml:lang="en">Feature Scoring of the patient (eg TISS SAPSII)</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureSearchForOldPictures">
+    <rdfs:label xml:lang="en">Feature Search for old pictures</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureSelectOrdersFromOrderSets">
+    <rdfs:label xml:lang="en">Feature Select orders from order sets</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureServiceCombination">
+    <rdfs:label xml:lang="en">Feature Service Combination</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureServiceOrchestration">
+    <rdfs:label xml:lang="en">Feature Service Orchestration</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureStructureData">
+    <rdfs:label xml:lang="en">Feature Structure data</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureSupportCreationOfANursingCarePlan">
+    <rdfs:label xml:lang="en">Feature Support creation of a nursing care plan</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureValidateResults">
+    <rdfs:label xml:lang="en">Feature Validate results</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureViewPatient-relatedAppointments">
+    <rdfs:label xml:lang="en">Feature View patient-related appointments</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureWorkScheduling">
+    <rdfs:label xml:lang="en">Feature Work scheduling</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="FeatureWorkflowManagement">
+    <rdfs:label xml:lang="en">Feature Workflow Management</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:NamedIndividual rdf:about="Finance">
+    <rdf:type rdf:resource="SupportingActivity"/>
+    <rdfs:label xml:lang="en">Finance</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="Fulfillment">
+    <rdf:type rdf:resource="PrimaryActivity"/>
+    <rdfs:label xml:lang="en">Fulfillment</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="FulfillmentExecutionComponent">
+    <rdfs:label xml:lang="en">Fulfillment Execution Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:Class rdf:about="FulfillmentRequest">
+    <rdfs:label xml:lang="en">Fulfillment Request</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="FulfillmentExecutionComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="Function">
+    <rdfs:label xml:lang="en">Function</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="FunctionalComponent">
+    <rdfs:label xml:lang="en">Functional Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="IT4IT"/>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="Governance">
+    <rdf:type rdf:resource="SupportingActivity"/>
+    <rdfs:label xml:lang="en">Governance</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="HumanResource">
+    <rdf:type rdf:resource="SupportingActivity"/>
+    <rdfs:label xml:lang="en">Human Resource</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:DatatypeProperty rdf:about="ICDCode">
+    <rdfs:label xml:lang="en">ICD Code</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:AnnotationProperty rdf:about="ID">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">ID</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:ObjectProperty rdf:about="IORIsHyponym">
+    <rdfs:label xml:lang="en">IOR Is Hyponym</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="IORIsSimilarTo">
+    <rdfs:label xml:lang="en">IOR Is Similar To</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="IORIsSynonym">
+    <rdfs:label xml:lang="en">IOR Is Synonym</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="IT4IT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">IT4IT</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="ITAssetManagement">
+    <rdfs:label xml:lang="en">IT Asset Management</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="auxiliaryFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ITBudget">
+    <rdfs:label xml:lang="en">IT Budget</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="ITInvestmentPortfolioComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ITCostModel">
+    <rdfs:label xml:lang="en">IT Cost Model</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="CostModelingComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ITInitiative">
+    <rdfs:label xml:lang="en">IT Initiative</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="ProjectComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="ScopeAgreement"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ITInvestmentPortfolioComponent">
+    <MainFunctions>The IT Investment Portfolio functional component:
+  * Shall be the system of records for all IT investments.
+  * Shall manage the entire IT investment lifecycle.
+  * Shall provide labor &amp; non-labor cost estimates and other guidelines to the Proposal functional component. This should be used by proposal managers to estimate the cost of proposed IT Initiatives. Various proposal managers working on their respective proposals should send the information on proposed IT investments to the IT Investment Portfolio functional component.
+  * Shall accept inputs from the Service Portfolio functional component to include OpEx budget requests for keeping live services operational.
+  * Shall take these proposals/budget requests for necessary approvals with the respective governing committee.
+  * Shall communicate the status of the final investment decisions back to the respective stakeholders.</MainFunctions>
+    <Purpose>This functional component is auxiliary to the S2P Value Stream and is primary in the IT Financial Management guidance document.
+Its main purpose includes:
+  * Manage the authoritative list of all IT investments.
+  * Facilitate all activities required to effectively carry out forecasting and budgeting.
+  * Facilitate proposal managers with guidelines and information (e.g., unit costs) to be followed while estimating costs of proposed IT Initiatives.
+  * Establish a common governance and control mechanism for approval/rejections of any proposed IT Initiatives.</Purpose>
+    <rdfs:label xml:lang="en">IT Investment Portfolio Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="auxiliaryFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfITInvestments"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ITValueChain">
+    <rdfs:label xml:lang="en">ITValue Chain</rdfs:label>
+    <rdfs:subClassOf rdf:resource="ValueChain"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isDecomposedIn"/>
+        <owl:someValuesFrom rdf:resource="SupportingActivity"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isDecomposedIn"/>
+        <owl:someValuesFrom rdf:resource="ValueStream"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="Incident">
+    <rdfs:label xml:lang="en">Incident</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="IncidentComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="IncidentComponent">
+    <rdfs:label xml:lang="en">Incident Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:Class rdf:about="InformationManagementFunction">
+    <rdfs:comment xml:lang="de">Wie ordnen sich die Aufgaben ein, die von IT4IT Functional Components unterstützt werden?
+Function-&gt;EnterpriseFunction-&gt;InformationManagementFunction? [ToDo] Einordnung prüfen.</rdfs:comment>
+    <rdfs:label xml:lang="de">IT4IT Function</rdfs:label>
+    <rdfs:subClassOf rdf:resource="EnterpriseFunction"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Insurance">
+    <rdfs:label xml:lang="en">Insurance</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="IsCentralized">
+    <rdfs:label xml:lang="en">Is Centralized</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="IsObjective">
+    <rdfs:label xml:lang="en">Is Objective</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="IsProlective">
+    <rdfs:label xml:lang="en">Is Prolective</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="IsRedundant">
+    <rdfs:label xml:lang="en">Is Redundant</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="IsRetrolective">
+    <rdfs:label xml:lang="en">Is Retrolective</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="IsSubjective">
+    <rdfs:label xml:lang="en">Is Subjective</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="KeyFunctionalComponent">
+    <rdfs:label xml:lang="en">Key Functional Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="ValuePartition_(depr.?)"/>
+  </owl:Class>
+  <owl:Class rdf:about="LaborManagement">
+    <rdfs:label xml:lang="en">Labor Management</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="auxiliaryFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Location">
+    <rdfs:label xml:lang="en">Location</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="LogicalServiceBlueprint">
+    <rdfs:label xml:lang="en">Logical Service Blueprint</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="serviceModelBackboneDataObject"/>
+        <owl:someValuesFrom rdf:resource="ServiceDesignComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="ConceptualServiceBlueprint"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="MainFunctions">
+    <rdfs:label xml:lang="en">Main Functions</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="IT4IT"/>
+  </owl:AnnotationProperty>
+  <owl:DatatypeProperty rdf:about="Maintainability">
+    <rdfs:label xml:lang="en">Maintainability</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="ManagementCentralityOfInformationManagement">
+    <rdfs:label xml:lang="en">Management Centrality of information Management</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="ManagementCentralityOfNetworkManagement">
+    <rdfs:label xml:lang="en">Management Centrality of Network Management</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="ManagementFinancingForm">
+    <rdfs:label xml:lang="en">Management Financing Form</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="ManagementLegalForm">
+    <rdfs:label xml:lang="en">Management Legal Form</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="ManagementOfBuildPackages">
+    <rdfs:label xml:lang="en">Management Of Build Packages</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfBuilds">
+    <rdfs:label xml:lang="en">Management Of Builds</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfDemands">
+    <rdfs:comment xml:lang="en">Management of demands is in detail, what ist described in attribute IT4IT:Purpose of PortfolioDemandComponent:
+"Log, maintain, and evaluate all demands (new service, enhancements, defects) coming into IT
+through a single funnel. Correlate incoming demand to similar existing demand or create new
+demand. The “single funnel” may be a virtual concept encompassing project ideation, service
+request management, Incident Management, continuous improvement, and other well-known
+demand channels."</rdfs:comment>
+    <rdfs:label xml:lang="en">Management Of Demands</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfITInitiatives">
+    <rdfs:comment xml:lang="en">Management of IT initiatives is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProjectComponent.</rdfs:comment>
+    <rdfs:label xml:lang="en">Management Of ITInitiatives</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfITInvestments">
+    <rdfs:label xml:lang="en">Management Of ITInvestments</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfITPolicies">
+    <rdfs:label xml:lang="en">Management Of ITPolicies</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfITProposals">
+    <rdfs:label xml:lang="en">Management Of ITProposals</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfLontermITInvestment">
+    <rdfs:label xml:lang="en">Management Of Lonterm ITInvestment</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfProblems">
+    <rdfs:comment xml:lang="en">Management of Problems is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProblemComponent.</rdfs:comment>
+    <rdfs:label xml:lang="en">Management Of Problems</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfRequirements">
+    <rdfs:comment xml:lang="en">Management of Requirements is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of RequirementComponent.</rdfs:comment>
+    <rdfs:label xml:lang="en">Management Of Requirements</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfServicePortfolio">
+    <rdfs:label xml:lang="en">Management Of Service Portfolio</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="ManagementOfSourceCode">
+    <rdfs:label xml:lang="en">Management Of Source Code</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="ManagementOpenness">
+    <rdfs:label xml:lang="en">Management Openness</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="Measurability">
+    <rdfs:label xml:lang="en">Measurability</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="Offer">
+    <rdfs:label xml:lang="en">Offer</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="OfferManagementComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="OfferConsumptionComponent">
+    <rdfs:label xml:lang="en">Offer Consumption Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:Class rdf:about="OfferManagementComponent">
+    <rdfs:label xml:lang="en">Offer Management Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="OfficialUserGroup">
+    <rdfs:label xml:lang="en">Official User Group</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:AnnotationProperty rdf:about="Ontology">
+    <rdfs:label xml:lang="en">Ontology</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="OntologyDomain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label xml:lang="en">Ontology Domain</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="Ontology"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="OntologyMaintainer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label xml:lang="en">Ontology Maintainer</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="Ontology"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="OntologyQuestion-Types">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label xml:lang="en">Ontology Question-Types</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="Ontology"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="OntologyUse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label xml:lang="en">Ontology Use</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="Ontology"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="OntologyUser">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:label xml:lang="en">Ontology User</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="Ontology"/>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="OperatingModel">
+    <rdfs:label xml:lang="en">Operating Model</rdfs:label>
+    <rdfs:subClassOf rdf:resource="IT4IT"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="PIN">
+    <rdfs:label xml:lang="en">PIN</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="Performance">
+    <rdfs:label xml:lang="en">Performance</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="Person">
+    <rdfs:label xml:lang="en">Person</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="Pertinency">
+    <rdfs:label xml:lang="en">Pertinency</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="Place">
+    <rdfs:label xml:lang="en">Place</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="Plan">
+    <rdfs:label xml:lang="en">Plan</rdfs:label>
+    <rdfs:subClassOf rdf:resource="PrimaryActivity"/>
+    <owl:equivalentClass rdf:resource="StrategyToPortfolio"/>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="Planning">
+    <rdf:type rdf:resource="PrimaryActivity"/>
+    <rdfs:label xml:lang="en">Planning</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="Policy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">Policy</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="PolicyComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="Requirement"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="PolicyComponent">
+    <MainFunctions xml:lang="en">The Policy functional component:
+  * Shall align and map IT Policies to Service Architectures.
+  * Shall review and approve IT policies based on roles and responsibilities. It shall manage Policy distribution and acceptance based on predefined templates and schedules for designated IT stakeholders.
+  * Should maintain complete Policy revision history, and review period or obsolescence rules set for all Policies.
+  * May log and track IT Policy exceptions through an issue management mechanism. It may provide a consistent tracking feature for exception identification, evaluation, and status report leading to corrective action.
+  * Shall provide visibility into IT Policy attributes such as types, status, non-compliance, audit history, and issues.
+  * Shall manage overall IT governance Policies, and Policies applied to or associated with the particular services that may be managed downstream during service design.
+  * Shall manage IT security and regulatory Policies by incorporating external and internal security and regulatory compliances.
+  * Shall define pricing/costing Policies and capture information related to Service Contracts.
+If a Service Portfolio functional component exists, the Policy functional component:
+  * Shall associate one or more policies to one or more Conceptual Services.</MainFunctions>
+    <Purpose xml:lang="en">Manage creation, review, approval, and audit of all IT policies.</Purpose>
+    <rdfs:label xml:lang="en">Policy Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ApprovalOfITPolicies"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="AuditOfITPolicies"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="CreationOfITPolicies"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfITPolicies"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ReviewOfITPolicies"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="PortfolioBacklogItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">Portfolio Backlog Item</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="PortfolioDemandComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="PortfolioDemandComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="Problem/KnownError"/>
+        <owl:onProperty rdf:resource="currentPracticeEntityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="ConceptualService"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="ScopeAgreement"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="PortfolioDemandComponent">
+    <MainFunctions xml:lang="en">The Portfolio Demand functional component:
+  * Shall capture Portfolio Backlog Items from business.
+  * Shall capture Portfolio Backlog Items from Problem Management activities.
+  * Shall capture Portfolio Backlog Items from the Service Portfolio functional component activities.
+If a Proposal functional component exists, then the Portfolio Demand functional component:
+  * Shall categorize and group the demands and push demands to the Proposal functional component.
+If a Requirement functional component exists, the Portfolio Demand functional component:
+  * Shall associate one or more Requirements (user stories, use-cases, business rules, etc.) to a Portfolio Backlog Item.
+The Portfolio Demand functional component may support backlog item data object backlog
+ranking, trending, and analysis based on requested services, timeline, business unit origination,
+etc.</MainFunctions>
+    <Purpose xml:lang="en">Log, maintain, and evaluate all demands (new service, enhancements, defects) coming into IT through a single funnel. Correlate incoming demand to similar existing demand or create new demand. The “single funnel” may be a virtual concept encompassing project ideation, service request management, Incident Management, continuous improvement, and other well-known demand channels.</Purpose>
+    <rdfs:comment xml:lang="en">Functions extracted from IT4IT:Purpose are aggregated to "management of Demands".</rdfs:comment>
+    <rdfs:label xml:lang="en">Portfolio Demand Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="PortfolioBacklogItem"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfDemands"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="PrimaryActivity">
+    <rdfs:label xml:lang="en">Primary Activity</rdfs:label>
+    <rdfs:subClassOf rdf:resource="Activity"/>
+    <owl:equivalentClass rdf:resource="ValueStream"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Priority">
+    <rdfs:label xml:lang="en">Priority</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="Problem/KnownError">
+    <rdfs:label xml:lang="en">Problem/Known Error</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="ProblemComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="PortfolioBacklogItem"/>
+        <owl:onProperty rdf:resource="currentPracticeEntityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ProblemComponent">
+    <MainFunctions xml:lang="en">The Problem functional component:
+  * Shall be the system of record for all Problem records.
+  * Shall manage the state and lifecycle of the Problem.
+  * Shall associate Problem(s) to CI(s).
+  * Shall create Known Error data object instances from unsolved Problems.
+If a Diagnostics &amp; Remediation functional component exists, the Problem functional component:
+  * Can push Problem data to trigger the execution of a Run Book data object (either automated or manual) to provide diagnostics information or remediation steps.
+If a Change Control functional component exists, the Problem functional component:
+  * Shall create an RFC associated to a Problem in order to implement a fix to the issue that is documented by the Problem.
+If a Knowledge &amp; Collaboration functional component exists, the Problem functional component:
+  * Shall use existing Knowledge data to solve a Problem.
+  * Can create a new Knowledge data object based on Problem Management activities (from the Known Error data object instances).
+If an Incident functional component exists, the Problem functional component:
+  * Shall associate Incident data to the corresponding Problem record and continue the investigation around the Incident reported fault within the Problem lifecycle.
+If a Defect functional component exists, the Problem functional component:
+  * Shall push Problem data requiring emergency/specific development to the Defect functional component (R2D Value Stream).
+If a Portfolio Demand functional component exists, the Problem functional component:
+  * May push a Portfolio Backlog Item to the Portfolio Demand functional component for backlog processing.</MainFunctions>
+    <Purpose xml:lang="en">The Problem functional component is responsible for managing the lifecycle of all Problems. The objectives of the Problem functional component are to solve severe/repeating Incidents, prevent Incidents from happening, and minimize the impact of Incidents that cannot be prevented. The Problem cause is not usually known at the time of the Problem data object instance creation, and the Problem functional component is responsible for the investigation. The Problem functional component also serves as the main exit point from the D2C Value Stream for the feedback information about IT services issues. The feedback is reported to the R2D Value Stream in the form of Defects and to the S2P Value Stream in the form of Portfolio Backlog Items (demand request).</Purpose>
+    <rdfs:label xml:lang="en">Problem Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="auxiliaryFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfProblems"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="Production">
+    <rdf:type rdf:resource="PrimaryActivity"/>
+    <rdfs:label xml:lang="en">Production</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="ProjectComponent">
+    <MainFunctions xml:lang="en">The Project functional component:
+  * Shall be the system of record (authoritative source) for all IT Initiatives.
+  * Shall manage the lifecycle of the IT Initiative.
+  * Shall manage the status of the IT Initiative.
+  * Shall allow recursive relationships between IT Initiatives.
+  * Shall associate an IT Initiative to a service.
+  * May associate an IT Initiative with IT budget in the IT Financial Management supporting function.
+If a Change Control functional component exists, the Project functional component:
+  * Shall associate an IT Initiative to one or more RFCs.
+  * Can submit one or more RFCs required for the IT Initiative.
+If a Fulfillment Execution functional component exists, the Project functional component:
+  * Can manage the Fulfillment Request data flow to the Fulfillment Execution functional component.
+  * Can send a request to the Fulfillment Execution functional component when resources are required for the IT Initiative.
+If a Proposal functional component exists, the Project functional component:
+  * Shall associate a Scope Agreement to one or more IT Initiatives.
+  * Shall be able to receive the Scope Agreement from the Proposal functional component.
+If a Service Design functional component exists, the Project functional component:
+  * Can provide IT Initiative information required for Service Design to the Service Design
+functional component.</MainFunctions>
+    <Purpose xml:lang="en">The Project Component:
+  * Coordinate the creation and provide ongoing execution oversight of IT Initiatives aimed at the creation of new or enhancements to existing services.
+  * Create IT Initiatives based on the specifications outlined in the Scope Agreement, including cost, time, scope, and quality.
+  * Aggregate, track, and report status, resources consumed against project plan, or project burn down, and communicate these to stakeholders via auxiliary functional components such as Resource Management, Supplier Management, and IT Financial Management.
+  * Govern, coordinate, influence, and direct initiative execution.
+  * Ensure financial goals and boundary conditions are adhered to.
+  * Maintain the connection between initiatives and associated applications and service(s) being developed.
+  * Maintain the linkage/traceability between Scope Agreements, IT Initiatives, and Service Releases.
+  * Produce various request artifacts associated with financial, human, and technology resources (that is, feedback to the S2P Value Stream when variances cross thresholds).
+  * Coordinate the acquisition of resources (hardware, software, and people) required to source/create a service in a particular project.</Purpose>
+    <rdfs:comment xml:lang="en">Functions extracted from IT4IT:Purpose and IT4IT:MainFunctions are aggregated to "creation of IT initiatives" and "management of IT initiatives".</rdfs:comment>
+    <rdfs:label xml:lang="en">Project Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="auxiliaryFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="CreationOfITInitiatives"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfITInitiatives"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ProposalComponent">
+    <MainFunctions xml:lang="en">The Proposal functional component:
+  * Shall create a Scope Agreement from rationalized Portfolio Backlog Items in the data object repository. A Scope Agreement can follow an expedited analysis and approval for high priority urgent items or agile development proposals. A Scope Agreement can also follow a structured analysis and approval via IT annual planning activities.
+  * Activities for Scope Agreements requiring an expedited analysis and approval:
+    * Proposal created from a rationalized backlog item where the item requires high urgency due to business impact on an existing service.
+    * Quickly evaluate the proposal and decide on the approval. If rejected, then notify the Portfolio Demand functional component.
+    * Is there an existing IT Initiative that can be associated with the approved proposal? If yes, then create an updated Scope Agreement and update corresponding in-flight IT Initiative data object in the R2D Value Stream. In the context of the IT4IT Reference Architecture, an IT Initiative is any one of the class of temporary endeavors such as projects or programs with a defined beginning and end, undertaken to achieve an objective or outcome, at a specified cost.
+    * Create a new Scope Agreement. A new IT Initiative data object is created in the R2D Value Stream.
+  * Activities for proposals requiring structured analysis and approval:
+    * Proposals are created from rationalized Portfolio Backlog Items in the Portfolio Backlog Item data object repository. Rationalized items are grouped based on priority and themes for a proposal creation purpose. Not all rationalized items will be grouped within proposals as priority and cut-off must be decided.
+    * Proposals are created periodically throughout the year or once a year during annual planning activities.
+    * Create a high-level labor consumption model for a proposal (for example, one project manager, five developers, and two QAs for the proposal). Validate labor consumption model against available internal and external labor pools.
+    * Create a high-level asset (non-labor) consumption model for a proposal. Validate asset consumption model against available internal and external assets (for example, traditional/private cloud/managed cloud/public cloud).
+    * Model ongoing labor and non-labor budget for annual and future operations.
+    * Define tangible and intangible benefits for each proposal. Tangible benefit may be cost savings or revenue growth, whereas intangible benefit may be strategic initiative support, competitive advantage, or compliance achieved. Work with a finance organization to validate tangible benefits. This can involve utilizing industry-specific methods of measuring the value of business processes and estimating the impact of the proposal on performance metrics.
+    * Ensure proposal meets the technology policies.
+    * Rank proposals based on benefits and risks, labor and non-labor consumption models, and ROI or other defined evaluation criteria.
+    * Build proposal portfolio scenarios using proposals, conduct “what if” analysis on the proposal scenarios, and approve the optimal proposal scenario and its proposals.
+    * Create resulting Scope Agreement(s). Retain Scope Agreement information to compare approved baseline and actual resulting benefits derived from completing the IT Initiatives.
+The Proposal functional component:
+  * Shall review the Scope Agreement change request from the R2D Value Stream. The IT Initiative team working to deliver on the approved Scope Agreement may ask for change requests related to budget, resource, or timeline. Evaluate the change request and take action to update the existing Scope Agreement.
+  * The R2D Value Stream project portfolio is the authoritative source for the list of IT deliverables or services that will be rendered during a project lifecycle. The project portfolio views can be created for specific organizations like line of business portfolio or functions like financial views. The project portfolio is used for rationalizing and tracking resources across projects to best deliver on all projects. The project portfolio entries are actuated through a Project Management system. The project portfolio reports back to the investment portfolio in order to accurately track progress and outcomes for a given Scope Agreement.
+  * Shall identify security controls necessary for protecting the various classifications of data.</MainFunctions>
+    <Purpose xml:lang="en">Manage the portfolio of IT proposals that are proposed, approved, active, deferred, or rejected. This is the authoritative source for the list of IT proposals requested over a given time period that may result in the creation of Scope Agreements for projects.</Purpose>
+    <rdfs:label xml:lang="en">Proposal Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="CreationOfScopeAgreementsForProjects"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfITProposals"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="Purpose">
+    <rdfs:label xml:lang="en">Purpose</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="IT4IT"/>
+  </owl:AnnotationProperty>
+  <owl:DatatypeProperty rdf:about="Quantifiability">
+    <rdfs:label xml:lang="en">Quantifiability</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="RFC">
+    <rdfs:label xml:lang="en">RFC</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="ChangeControlComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Redundancy">
+    <rdfs:label xml:lang="en">Redundancy</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="Relationship_(depr?)">
+    <rdfs:label xml:lang="en">Relationship (depr?)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="IT4IT"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Relative">
+    <rdfs:label xml:lang="en">Relative</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="ReleaseComposotionComponent">
+    <rdfs:label xml:lang="en">Release Composotion Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Relevancy">
+    <rdfs:label xml:lang="en">Relevancy</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="Request">
+    <rdfs:label xml:lang="en">Request</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="RequestRealisationComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="RequestRealisationComponent">
+    <rdfs:label xml:lang="en">Request Realisation Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="RequestToFulfill">
+    <rdf:type rdf:resource="ValueStream"/>
+    <rdfs:label xml:lang="en">Request to Fulfill</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="RequestToFullfil">
+    <rdfs:label xml:lang="en">Request To Fullfil</rdfs:label>
+    <rdfs:subClassOf rdf:resource="ValueStream"/>
+  </owl:Class>
+  <owl:Class rdf:about="Requirement">
+    <rdfs:label xml:lang="en">Requirement</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="RequirementComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="PortfolioBacklogItem"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="RequirementComponent">
+    <MainFunctions xml:lang="en">The Requirement functional component:
+  * Shall be the system of record (authoritative source) for all Requirements.
+  * Shall manage the lifecycle of the Requirement.
+  * Shall manage the state of a Requirement.
+  * Shall allow recursive relationships between Requirements.
+  * Shall allow hierarchical relationships between Requirements.
+  * Shall associate a requirement to a service.
+If a Portfolio Demand functional component exists, the Requirement functional component:
+  * Shall associate one or more Requirements to a Portfolio Backlog Item that these Requirements originate from.
+If a Service Design functional component exists, the Requirement functional component:
+  * Can manage the data flow to provide Requirement information to the Service Design functional component.
+  * Shall associate one or more Requirements to a single Logical Service Model.
+If a Release Composition functional component exists, the Requirement functional component:
+  * Shall associate one or more Requirements to a Service Release that will fulfill these Requirements.
+If a Test functional component exists, the Requirement functional component:
+  * Shall allow a Requirement to be traced to one or more Test Cases designed to test this Requirement.
+If a Policy functional component exists, the Requirement functional component:
+  * Shall allow one or more Requirements to be associated to one or more policies that these Requirements originate from.
+If a Source data object exists, the Requirement functional component:
+  * Shall allow one or more Requirements to be traced to one or more Sources.</MainFunctions>
+    <Purpose xml:lang="en">The Requirement Component:
+  * Manage Requirements through the lifecycle of a service.
+  * Service-level requirements are captured as Requirements.
+  * Collect, refine, scope, and track progress of Requirements even before and after an IT Initiative has concluded.
+  * Maintain traceability of each Requirement to the original source (demand, IT or business standard or policy, and/or requestor) and to appropriate source and/or test cases throughout the service lifecycle.
+  * Derive product or program backlogs which will ultimately serve as queues for enhancing IT services.</Purpose>
+    <rdfs:comment xml:lang="en">Functions extracted from IT4IT:Purpose and IT4IT:MainFunctions are aggregated to "Management of Requirement"</rdfs:comment>
+    <rdfs:label xml:lang="en">Requirement Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="auxiliaryFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfRequirements"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="RequirementToDeploy">
+    <rdf:type rdf:resource="ValueStream"/>
+    <rdfs:label xml:lang="en">Requirement to Deploy</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="RequirementsToDeploy">
+    <rdfs:label xml:lang="en">Requirements To Deploy</rdfs:label>
+    <rdfs:subClassOf rdf:resource="ValueStream"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="ResponsiblePerson">
+    <rdfs:label xml:lang="en">Responsible Person</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="ReviewOfITPolicies">
+    <rdfs:label xml:lang="en">Review Of ITPolicies</rdfs:label>
+    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+  </owl:Class>
+  <owl:Class rdf:about="Run">
+    <rdfs:label xml:lang="en">Run</rdfs:label>
+    <rdfs:subClassOf rdf:resource="PrimaryActivity"/>
+  </owl:Class>
+  <owl:Class rdf:about="RunBook">
+    <rdfs:label xml:lang="en">Run Book</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="Diagnostics_&amp;RemediationComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ScopeAgreement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">Scope Agreement</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="ProposalComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="ITBudget"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ServiceArchitecture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">Service Architecture</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="EnterpriseArchitectureComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="EnterpriseArchitectureComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="ConceptualService"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ServiceCatalogEntry">
+    <rdfs:label xml:lang="en">Service Catalog Entry</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="CatalogCompositionComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ServiceContract">
+    <rdfs:label xml:lang="en">Service Contract</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="ServiceLevelComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ServiceDesignComponent">
+    <MainFunctions xml:lang="en">The Service Design functional component:
+  * Shall be the system of record (authoritative source) for all Logical Service Blueprints.
+  * Shall associate a Logical Service Blueprint to a service.
+  * Can associate a Logical Service Blueprint to a Service Design Package.
+If a Service Portfolio functional component exists, the Service Design functional component:
+  * Shall associate one or more Logical Service Blueprints to a Conceptual Service Blueprint.
+  * Can receive the Conceptual Service specification and design several Logical Service Blueprints that represent it.
+If a Project functional component exists, the Service Design functional component:
+  * Can receive IT Initiative information which includes the scope and some content based on which the service is designed.
+If a Requirement functional component exists, the Service Design functional component:
+  * Shall associate one or more Requirements to the Logical Service Blueprint.
+  * Can receive Requirement information from the Requirement functional component used to design the Logical Service Blueprint and create design specifications.
+If a Release Composition functional component exists, the Service Design functional component:
+  * Shall associate a Logical Service Blueprint to one or more Service Releases which are detailed and designed to deliver the Logical Service Blueprint.</MainFunctions>
+    <Purpose xml:lang="en">The Service Design Component:
+  * Identify the new or existing services required to meet the needs of the Scope Agreement and IT Initiative, including both service systems and service offers.
+  * Leverage the Conceptual Service Blueprint and Portfolio Backlog Items from the S2P Value Stream along with requirements to produce a Logical Service Blueprint that describes the service structure and behavior considering both the service system and the service offer.
+  * Creation of various architectural artifacts (data flow diagrams, technical schematics, etc.) that comply with the IT Initiative specifications and boundaries.
+  * Creation of the service design specification document (Service Design Package).
+  * Identification of the service delivery model (in-source, outsource, etc.).
+  * Identification of service suppliers to meet the requirements within the chosen delivery model.
+  * Enable interaction with IT operations to develop support plan/requirements for an IT service.
+  * Ensure that the architecture and Service Design Package are compliant with all standards and policies, including security standards and policies.
+  * Ensure that the architecture and Service Design Package meets all requirements including security requirements to ensure the confidentiality, integrity, and availability of the service.
+  * Put instrumentation in place so that IT can capture empirical data about how IT services are performing rather than relying only on anecdotal input from the user community.
+  * Ensure that the service is architected to meet the KPIs and SLAs.
+  * The output of the Service Design functional component is used by the Source data object to source, create, and secure the service.</Purpose>
+    <rdfs:label xml:lang="en">Service Design Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="auxiliaryFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="DesignOfLogicalServicesBlueprints"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ServiceLevelComponent">
+    <rdfs:label xml:lang="en">Service Level Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:Class rdf:about="ServiceMonitor">
+    <rdfs:label xml:lang="en">Service Monitor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="ServiceMonitoringComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ServiceMonitoringComponent">
+    <rdfs:label xml:lang="en">Service Monitoring Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:Class rdf:about="ServicePortfolioComponent">
+    <MainFunctions xml:lang="en">The Service Portfolio functional component:
+  * Shall assess the effectiveness and efficiency of current services delivered to business.
+  * Shall manage all inventory information about services or applications; including business benefits, risk, quality, fit to purpose, etc.
+  * Shall compare similar services or applications to identify rationalization opportunities.
+  * Shall evaluate the portfolio with regard to value/cost performance and risk/criticality. These methods are used to maximize portfolio value, align and prioritize resource allocations, and balance supply and demand.
+  * Shall review proposed portfolio changes; decide whether to keep, retire, or modernize services or applications.
+  * Shall create, review, and update service roadmaps.
+  * Shall determine and track service budgets/actuals information.
+  * Shall create and maintain service blueprints and endpoints. A service blueprint is a set of service endpoints that support business processes. A service blueprint provides service process and delivery visualization from the customer’s point of view. A service blueprint also maintains traceability of Logical and Physical (realized) Service Models.
+If a Portfolio Backlog Item exists, the Service Portfolio functional component:
+  * Shall associate a Conceptual Service to one or more Portfolio Backlog Items.
+If a Policy exists, the Service Portfolio functional component:
+  * Should comply with one or more applicable Policies.</MainFunctions>
+    <Purpose xml:lang="en">Manage the portfolio of services in plan, transition, production, and retirement. Authoritative source for the list of services that IT delivers, has delivered in the past, or brokers to itself and business. Any IT service within the Service Portfolio functional component often corresponds to one or more entries in the Offer Catalog.</Purpose>
+    <rdfs:label xml:lang="en">Service Portfolio Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="serviceModelBackboneDataObject"/>
+        <owl:someValuesFrom rdf:resource="ConceptualService"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="serviceModelBackboneDataObject"/>
+        <owl:someValuesFrom rdf:resource="ConceptualServiceBlueprint"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfServicePortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyFunctionalComponent"/>
+        <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ServiceRelease">
+    <rdfs:label xml:lang="en">Service Release</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="serviceModelBackboneDataObject"/>
+        <owl:someValuesFrom rdf:resource="ReleaseComposotionComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ServiceReleaseBlueprint">
+    <rdfs:label xml:lang="en">Service Release Blueprint</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="serviceModelBackboneDataObject"/>
+        <owl:someValuesFrom rdf:resource="ReleaseComposotionComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ShoppingCart">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">Shopping Cart</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="auxiliaryDataObject"/>
+        <owl:someValuesFrom rdf:resource="OfferConsumptionComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:someValuesFrom rdf:resource="AuxiliaryDataObject"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="Source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Source</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="SourceControlComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="SourceControlComponent">
+    <Purpose>* Develop source code or infrastructure based on the Logical Service Blueprint, Service Design Package, and IT Initiative priorities.
+  * Ensure that the source code meets the design specifications, organizational policies, standards, and non-functional requirements so that the service can be operated successfully and meets customer expectations.
+  * Manage the development backlog of Requirements and Defects in accordance with the Service Design Package and Service Release.
+  * Receive Defects and input from the Defect functional component to enable the development of fixes or documented workarounds.
+  * Create automated test scripts including unit testing and scripts for static application security testing that follow a formal software security assurance methodology.
+  * On existing services being changed, run security tests on core code to identify existing security issues at the start of the development cycle so that assessment of scope/requirements set/schedule can be negotiated early.
+  * Manage source code images and store them in a Source data object repository.
+  * Develop automated Source compilation tools and procedures.
+  * Deliver the Source data object to the Build functional component to generate Builds.</Purpose>
+    <rdfs:label xml:lang="en">Source Control Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="CreationOfSourceCode"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="supports"/>
+        <owl:someValuesFrom rdf:resource="ManagementOfSourceCode"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Stability">
+    <rdfs:label xml:lang="en">Stability</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="StartDate">
+    <rdfs:label xml:lang="en">Start Date</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="StartEvent">
+    <rdfs:label xml:lang="en">Start Event</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:NamedIndividual rdf:about="StratagyToPortfolio">
+    <rdf:type rdf:resource="ValueStream"/>
+    <rdfs:label xml:lang="en">Stratagy to Portfolio</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="StrategyToPortfolio">
+    <rdfs:label xml:lang="en">Strategy To Portfolio</rdfs:label>
+    <rdfs:subClassOf rdf:resource="ValueStream"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="isDecomposedIn"/>
+        <owl:someValuesFrom rdf:resource="EnterpriseArchitectureComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="StructureConfiguration">
+    <rdfs:label xml:lang="en">Structure Configuration</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="StructureRange">
+    <rdfs:label xml:lang="en">Structure Range</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="StructureSize">
+    <rdfs:label xml:lang="en">Structure Size</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="StructureStability">
+    <rdfs:label xml:lang="en">Structure Stability</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="Subscription">
+    <rdfs:label xml:lang="en">Subscription</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="RequestRealisationComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="SupplierManagement">
+    <rdf:type rdf:resource="SupportingActivity"/>
+    <rdfs:label xml:lang="en">Supplier Management</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="Support">
+    <rdf:type rdf:resource="PrimaryActivity"/>
+    <rdfs:label xml:lang="en">Support</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="SupportingActivity">
+    <rdfs:label xml:lang="en">Supporting Activity</rdfs:label>
+    <rdfs:subClassOf rdf:resource="Activity"/>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="Synonym">
+    <rdfs:label xml:lang="en">Synonym</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="SystemOfEngagementRelationship">
+    <rdfs:label xml:lang="en">System of Engagement Relationship</rdfs:label>
+    <rdfs:subClassOf rdf:resource="Relationship_(depr?)"/>
+  </owl:Class>
+  <owl:Class rdf:about="SystemOfInsightRelationship">
+    <rdfs:label xml:lang="en">System of Insight Relationship</rdfs:label>
+    <rdfs:subClassOf rdf:resource="Relationship_(depr?)"/>
+  </owl:Class>
+  <owl:Class rdf:about="SystemOfRecord">
+    <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Group Standard, The Open Group IT4IT Reference Architecture, Version 2.0, Document Number C155, 2015, ISBN: 1-937218-69-0</dc:source>
+    <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8</Chapter>
+    <page rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</page>
+    <rdfs:label xml:lang="en">System Of Record</rdfs:label>
+    <rdfs:subClassOf rdf:resource="IT4IT"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A synonym for a system that contains and/or controls authoritative source data.</skos:definition>
+  </owl:Class>
+  <owl:Class rdf:about="SystemOfRecordRelationship">
+    <rdfs:label xml:lang="en">System of Record Relationship</rdfs:label>
+    <rdfs:subClassOf rdf:resource="Relationship_(depr?)"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="TargetValue">
+    <rdfs:label xml:lang="en">Target Value</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="TemporalDevelopmentStage">
+    <rdfs:label xml:lang="en">Temporal Development stage</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="TemporalLifeSpan">
+    <rdfs:label xml:lang="en">Temporal Life Span</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="TestCase">
+    <rdfs:label xml:lang="en">Test Case</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="TestComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="TestComponent">
+    <rdfs:label xml:lang="en">Test Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="Timeslot">
+    <rdfs:label xml:lang="en">Timeslot</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="TransferDiagnosis">
+    <rdfs:label xml:lang="en">Transfer Diagnosis</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:AnnotationProperty rdf:about="TripelPage">
+    <rdfs:label xml:lang="en">Tripel Page</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="TripelRowNr">
+    <rdfs:label xml:lang="en">Tripel Row Nr</rdfs:label>
+  </owl:AnnotationProperty>
+  <owl:DatatypeProperty rdf:about="Type">
+    <rdfs:label xml:lang="en">Type</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="Understandability">
+    <rdfs:label xml:lang="en">Understandability</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="Up-to-Dateness">
+    <rdfs:label xml:lang="en">Up-to-Dateness</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="UsageComponent">
+    <rdfs:label xml:lang="en">Usage Component</rdfs:label>
+    <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="UsageDescription">
+    <rdfs:label xml:lang="en">Usage Description</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="UsageRecord">
+    <rdfs:label xml:lang="en">Usage Record</rdfs:label>
+    <rdfs:subClassOf rdf:resource="DataObject"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="keyDataObject"/>
+        <owl:someValuesFrom rdf:resource="UsageComponent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="ValueChain">
+    <rdfs:label xml:lang="en">Value Chain</rdfs:label>
+    <rdfs:subClassOf rdf:resource="IT4IT"/>
+  </owl:Class>
+  <owl:Class rdf:about="ValuePartition_(depr.?)">
+    <rdfs:label xml:lang="en">Value Partition (depr.?)</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="ValueStream">
+    <rdfs:label xml:lang="en">Value Stream</rdfs:label>
+    <rdfs:subClassOf rdf:resource="IT4IT"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="approves">
+    <rdfs:label xml:lang="en">approves</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="assetsAvailability">
+    <rdfs:domain rdf:resource="ITAssetManagement"/>
+    <rdfs:label xml:lang="en">assets (availability)</rdfs:label>
+    <rdfs:range rdf:resource="ProposalComponent"/>
+    <rdfs:subPropertyOf rdf:resource="engagementDataflow"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="auxiliaryDataObject">
+    <rdfs:label xml:lang="en">auxiliary Data Object</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="dataObject"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="auxiliaryFunctionalComponent">
+    <rdfs:label xml:lang="en">auxiliary Functional Component</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="functionalComponent"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="communicatesWith">
+    <rdfs:label xml:lang="en">communicates With</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="competencyAvailability">
+    <rdfs:domain rdf:resource="LaborManagement"/>
+    <rdfs:label xml:lang="en">competency (availability)</rdfs:label>
+    <rdfs:range rdf:resource="ProposalComponent"/>
+    <rdfs:subPropertyOf rdf:resource="engagementDataflow"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="conceptualServiceBlueprint">
+    <rdfs:domain rdf:resource="EnterpriseArchitectureComponent"/>
+    <rdfs:label xml:lang="en">conceptual Service Blueprint</rdfs:label>
+    <rdfs:range rdf:resource="ServicePortfolioComponent"/>
+    <rdfs:subPropertyOf rdf:resource="recordFabricIntegration"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="currentPracticeEngagementDataflow">
+    <rdfs:domain rdf:resource="FunctionalComponent"/>
+    <rdfs:label xml:lang="en">current Practice Engagement Dataflow</rdfs:label>
+    <rdfs:range rdf:resource="FunctionalComponent"/>
+    <rdfs:subPropertyOf rdf:resource="engagementDataflow"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="currentPracticeEntityRelationship">
+    <rdfs:label xml:lang="en">current Practice Entity Relationship</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="entityRelationship"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="dataObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:domain rdf:resource="FunctionalComponent"/>
+    <rdfs:label xml:lang="en">data Object</rdfs:label>
+    <rdfs:range rdf:resource="DataObject"/>
+    <rdfs:subPropertyOf rdf:resource="it4itObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="decreases">
+    <rdfs:label xml:lang="en">decreases</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="engagementDataflow">
+    <rdfs:domain rdf:resource="FunctionalComponent"/>
+    <rdfs:label xml:lang="en">engagement Dataflow</rdfs:label>
+    <rdfs:range rdf:resource="FunctionalComponent"/>
+    <rdfs:subPropertyOf rdf:resource="it4itObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="entityRelationship">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="DataObject"/>
+    <rdfs:label xml:lang="en">entity Relationship</rdfs:label>
+    <rdfs:range rdf:resource="DataObject"/>
+    <rdfs:subPropertyOf rdf:resource="it4itObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="functionalComponent">
+    <rdfs:domain rdf:resource="ValueStream"/>
+    <rdfs:label xml:lang="en">functional Component</rdfs:label>
+    <rdfs:range rdf:resource="FunctionalComponent"/>
+    <rdfs:subPropertyOf rdf:resource="it4itObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="in_€">
+    <rdfs:label xml:lang="en">in €</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="increases">
+    <rdfs:label xml:lang="en">increases</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="isAssociatedWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="en">is Associated With</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="isBasedOn">
+    <rdfs:label xml:lang="en">is Based On</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="isDecomposedIn">
+    <rdfs:label xml:lang="en">is Decomposed In</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="isHeterogeneous">
+    <rdfs:label xml:lang="en">is Heterogeneous</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="isHomogeneous">
+    <rdfs:label xml:lang="en">is Homogeneous</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="isInvolvedIn">
+    <rdfs:label xml:lang="en">is Involved In</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="isNeededFor">
+    <rdfs:label xml:lang="en">is Needed For</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="isResponsibleFor">
+    <rdfs:label xml:lang="en">is Responsible For</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="isSimilarTo">
+    <rdfs:label xml:lang="en">is Similar To</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="it4itObjectProperty">
+    <rdfs:label xml:lang="en">it4it Object Property</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="keyDataObject">
+    <rdfs:label xml:lang="en">key Data Object</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="dataObject"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="keyFunctionalComponent">
+    <rdfs:label xml:lang="en">key Functional Component</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="functionalComponent"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="policy">
+    <rdfs:domain rdf:resource="PolicyComponent"/>
+    <rdfs:label xml:lang="en">policy</rdfs:label>
+    <rdfs:range rdf:resource="ServicePortfolioComponent"/>
+    <rdfs:subPropertyOf rdf:resource="engagementDataflow"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="policyToConceptualService">
+    <rdfs:domain rdf:resource="Policy"/>
+    <rdfs:label xml:lang="en">policy To Conceptual Service</rdfs:label>
+    <rdfs:range rdf:resource="ConceptualService"/>
+    <rdfs:subPropertyOf rdf:resource="entityRelationship"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="portfolioBacklogItem">
+    <rdfs:domain rdf:resource="ProblemComponent"/>
+    <rdfs:label xml:lang="en">portfolio Backlog Item</rdfs:label>
+    <rdfs:range rdf:resource="PortfolioDemandComponent"/>
+    <rdfs:subPropertyOf rdf:resource="currentPracticeEngagementDataflow"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="portfolioBacklogItemRationalizedPrioritzed">
+    <rdfs:domain rdf:resource="PortfolioDemandComponent"/>
+    <rdfs:label xml:lang="en">portfolio backlog item (rationalized/prioritized)</rdfs:label>
+    <rdfs:range rdf:resource="ProposalComponent"/>
+    <rdfs:subPropertyOf rdf:resource="engagementDataflow"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="recordFabricIntegration">
+    <rdfs:domain rdf:resource="FunctionalComponent"/>
+    <rdfs:label xml:lang="en">record Fabric Integration</rdfs:label>
+    <rdfs:range rdf:resource="FunctionalComponent"/>
+    <rdfs:subPropertyOf rdf:resource="it4itObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="scopeAgreement">
+    <rdfs:domain rdf:resource="ProposalComponent"/>
+    <rdfs:label xml:lang="en">scope Agreement</rdfs:label>
+    <rdfs:range rdf:resource="ProjectComponent"/>
+    <rdfs:subPropertyOf rdf:resource="recordFabricIntegration"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="serviceArchitectureToConceptualService">
+    <rdfs:domain rdf:resource="ServiceArchitecture"/>
+    <rdfs:label xml:lang="en">service Architecture To Conceptual Service</rdfs:label>
+    <rdfs:range rdf:resource="ConceptualService"/>
+    <rdfs:subPropertyOf rdf:resource="entityRelationship"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="serviceModelBackboneDataObject">
+    <rdfs:label xml:lang="en">service Model Backbone Data Object</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="keyDataObject"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="supports">
+    <rdfs:label xml:lang="en">supports</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="updates">
+    <rdfs:label xml:lang="en">updates</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="uses">
+    <rdfs:label xml:lang="en">uses</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:Axiom>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n:1</rdfs:label>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedSource rdf:resource="ConceptualService"/>
+    <owl:annotatedTarget>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="ConceptualServiceBlueprint"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </owl:annotatedTarget>
+  </owl:Axiom>
+  <owl:Axiom>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n:1</rdfs:label>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedSource rdf:resource="ConceptualServiceBlueprint"/>
+    <owl:annotatedTarget>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="ITCostModel"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </owl:annotatedTarget>
+  </owl:Axiom>
+  <owl:Axiom>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n:1</rdfs:label>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedSource rdf:resource="LogicalServiceBlueprint"/>
+    <owl:annotatedTarget>
+      <owl:Restriction>
+        <owl:onClass rdf:resource="ConceptualServiceBlueprint"/>
+        <owl:onProperty rdf:resource="entityRelationship"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+      </owl:Restriction>
+    </owl:annotatedTarget>
+  </owl:Axiom>
+</rdf:RDF>
