@@ -23,7 +23,7 @@
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xml:base="http://www.snik.eu/ontology/it4it/"
    xmlns="http://www.snik.eu/ontology/it4it/">
-  <owl:Ontology rdf:about="http://www..snik.eu/ontology/it4it">
+  <owl:Ontology rdf:about="http://www.snik.eu/ontology/it4it">
     <vann:preferredNamespacePrefix>it4it</vann:preferredNamespacePrefix>                                                                                                                                                                
     <vann:preferredNamespaceUri>http://www.snik.eu/ontology/it4it/</vann:preferredNamespaceUri>
     <foaf:homepage rdf:resource="http://www.snik.eu"/>
@@ -171,11 +171,11 @@
     <rdfs:subClassOf>
       <owl:Restriction>
         <owl:onProperty rdf:resource="keyDataObject"/>
-        <owl:someValuesFrom rdf:resource="Chargeback_/ShowbackComponent"/>
+        <owl:someValuesFrom rdf:resource="ChargebackShowbackComponent"/>
       </owl:Restriction>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="Chargeback_/ShowbackComponent">
+  <owl:Class rdf:about="ChargebackShowbackComponent">
     <rdfs:label xml:lang="en">Chargeback / Showback Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
   </owl:Class>
@@ -347,7 +347,7 @@
     <rdfs:subClassOf rdf:resource="ValueStream"/>
     <owl:equivalentClass rdf:resource="Run"/>
   </owl:Class>
-  <owl:Class rdf:about="Diagnostics_&amp;RemediationComponent">
+  <owl:Class rdf:about="DiagnosticsRemediationComponent">
     <rdfs:label xml:lang="en">Diagnostics &amp; Remediation Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
   </owl:Class>
@@ -448,7 +448,7 @@ business strategic objectives.</Purpose>
   <owl:DatatypeProperty rdf:about="Extent">
     <rdfs:label xml:lang="en">Extent</rdfs:label>
   </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="FeatureAdministrateTheMasterPatientIndex_(MPI)">
+  <owl:DatatypeProperty rdf:about="FeatureAdministrateTheMasterPatientIndex">
     <rdfs:label xml:lang="en">Feature Administrate the master patient index (MPI)</rdfs:label>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="FeatureAdmitPatientsToTheWard">
@@ -649,7 +649,7 @@ business strategic objectives.</Purpose>
   <owl:DatatypeProperty rdf:about="FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks">
     <rdfs:label xml:lang="en">Feature Provide forms for documenting the outcome of nursing tasks</rdfs:label>
   </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForEnteringClinicalData_(free-textOrStructured)">
+  <owl:DatatypeProperty rdf:about="FeatureProvideFormsForEnteringClinicalData">
     <rdfs:label xml:lang="en">Feature Provide forms for entering clinical data (free-text or structured)</rdfs:label>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation">
@@ -712,7 +712,7 @@ business strategic objectives.</Purpose>
   <owl:DatatypeProperty rdf:about="FeatureProvideMeansForCreatingARoster">
     <rdfs:label xml:lang="en">Feature Provide means for creating a roster</rdfs:label>
   </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForCreatingOperationPlans_(dailyWeekly)">
+  <owl:DatatypeProperty rdf:about="FeatureProvideMeansForCreatingOperationPlans">
     <rdfs:label xml:lang="en">Feature Provide means for creating operation plans (daily weekly)</rdfs:label>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="FeatureProvideMeansForCreatingStatistics">
@@ -1385,7 +1385,7 @@ If a Service Portfolio functional component exists, the Policy functional compon
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onClass rdf:resource="Problem/KnownError"/>
+        <owl:onClass rdf:resource="ProblemKnownError"/>
         <owl:onProperty rdf:resource="currentPracticeEntityRelationship"/>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
       </owl:Restriction>
@@ -1454,7 +1454,7 @@ etc.</MainFunctions>
   <owl:DatatypeProperty rdf:about="Priority">
     <rdfs:label xml:lang="en">Priority</rdfs:label>
   </owl:DatatypeProperty>
-  <owl:Class rdf:about="Problem/KnownError">
+  <owl:Class rdf:about="ProblemKnownError">
     <rdfs:label xml:lang="en">Problem/Known Error</rdfs:label>
     <rdfs:subClassOf rdf:resource="DataObject"/>
     <rdfs:subClassOf>
@@ -1742,7 +1742,7 @@ If a Source data object exists, the Requirement functional component:
     <rdfs:subClassOf>
       <owl:Restriction>
         <owl:onProperty rdf:resource="keyDataObject"/>
-        <owl:someValuesFrom rdf:resource="Diagnostics_&amp;RemediationComponent"/>
+        <owl:someValuesFrom rdf:resource="DiagnosticsRemediationComponent"/>
       </owl:Restriction>
     </rdfs:subClassOf>
   </owl:Class>
@@ -2194,11 +2194,6 @@ If a Policy exists, the Service Portfolio functional component:
   <owl:DatatypeProperty rdf:about="in_€">
     <rdfs:label xml:lang="en">in €</rdfs:label>
   </owl:DatatypeProperty>
-  <owl:ObjectProperty rdf:about="&meta;isAssociatedWith">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    <rdfs:label xml:lang="en">is Associated With</rdfs:label>
-  </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="isHeterogeneous">
     <rdfs:label xml:lang="en">is Heterogeneous</rdfs:label>
   </owl:DatatypeProperty>
