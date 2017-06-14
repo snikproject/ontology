@@ -9,7 +9,8 @@
    xmlns:vann="http://purl.org/vocab/vann/"   
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns="http://www.snik.eu/ontology/it4it">
+   xml:base="http://www.snik.eu/ontology/it4it/"
+   xmlns="http://www.snik.eu/ontology/it4it/">
   <owl:Ontology rdf:about="http://www..snik.eu/ontology/it4it">
     <vann:preferredNamespacePrefix>it4it</vann:preferredNamespacePrefix>                                                                                                                                                                
     <vann:preferredNamespaceUri>http://www.snik.eu/ontology/it4it/</vann:preferredNamespaceUri>
