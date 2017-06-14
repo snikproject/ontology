@@ -1639,10 +1639,6 @@ The Proposal functional component:
   <owl:DatatypeProperty rdf:about="Redundancy">
     <rdfs:label xml:lang="en">Redundancy</rdfs:label>
   </owl:DatatypeProperty>
-  <owl:Class rdf:about="Relationship_(depr?)">
-    <rdfs:label xml:lang="en">Relationship (depr?)</rdfs:label>
-    <rdfs:subClassOf rdf:resource="IT4IT"/>
-  </owl:Class>
   <owl:DatatypeProperty rdf:about="Relative">
     <rdfs:label xml:lang="en">Relative</rdfs:label>
   </owl:DatatypeProperty>
@@ -2074,14 +2070,6 @@ If a Policy exists, the Service Portfolio functional component:
   <owl:AnnotationProperty rdf:about="Synonym">
     <rdfs:label xml:lang="en">Synonym</rdfs:label>
   </owl:AnnotationProperty>
-  <owl:Class rdf:about="SystemOfEngagementRelationship">
-    <rdfs:label xml:lang="en">System of Engagement Relationship</rdfs:label>
-    <rdfs:subClassOf rdf:resource="Relationship_(depr?)"/>
-  </owl:Class>
-  <owl:Class rdf:about="SystemOfInsightRelationship">
-    <rdfs:label xml:lang="en">System of Insight Relationship</rdfs:label>
-    <rdfs:subClassOf rdf:resource="Relationship_(depr?)"/>
-  </owl:Class>
   <owl:Class rdf:about="SystemOfRecord">
     <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Group Standard, The Open Group IT4IT Reference Architecture, Version 2.0, Document Number C155, 2015, ISBN: 1-937218-69-0</dc:source>
     <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8</Chapter>
@@ -2089,10 +2077,6 @@ If a Policy exists, the Service Portfolio functional component:
     <rdfs:label xml:lang="en">System Of Record</rdfs:label>
     <rdfs:subClassOf rdf:resource="IT4IT"/>
     <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A synonym for a system that contains and/or controls authoritative source data.</skos:definition>
-  </owl:Class>
-  <owl:Class rdf:about="SystemOfRecordRelationship">
-    <rdfs:label xml:lang="en">System of Record Relationship</rdfs:label>
-    <rdfs:subClassOf rdf:resource="Relationship_(depr?)"/>
   </owl:Class>
   <owl:DatatypeProperty rdf:about="TargetValue">
     <rdfs:label xml:lang="en">Target Value</rdfs:label>
