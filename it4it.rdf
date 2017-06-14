@@ -194,7 +194,7 @@
     <rdfs:subClassOf rdf:resource="DataObject"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -236,7 +236,7 @@
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -383,13 +383,13 @@ business strategic objectives.</Purpose>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="ServiceArchitecture"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -954,15 +954,6 @@ business strategic objectives.</Purpose>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:label xml:lang="en">ID</rdfs:label>
   </owl:AnnotationProperty>
-  <owl:ObjectProperty rdf:about="IORIsHyponym">
-    <rdfs:label xml:lang="en">IOR Is Hyponym</rdfs:label>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="IORIsSimilarTo">
-    <rdfs:label xml:lang="en">IOR Is Similar To</rdfs:label>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="IORIsSynonym">
-    <rdfs:label xml:lang="en">IOR Is Synonym</rdfs:label>
-  </owl:ObjectProperty>
   <owl:AnnotationProperty rdf:about="IT4IT">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:label xml:lang="en">IT4IT</rdfs:label>
@@ -1048,13 +1039,13 @@ Its main purpose includes:
     <rdfs:subClassOf rdf:resource="ValueChain"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isDecomposedIn"/>
+        <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
         <owl:someValuesFrom rdf:resource="SupportingActivity"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isDecomposedIn"/>
+        <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
         <owl:someValuesFrom rdf:resource="ValueStream"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1301,7 +1292,7 @@ demand channels."</rdfs:comment>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1335,7 +1326,7 @@ If a Service Portfolio functional component exists, the Policy functional compon
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1382,13 +1373,13 @@ If a Service Portfolio functional component exists, the Policy functional compon
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="PortfolioDemandComponent"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1438,13 +1429,13 @@ etc.</MainFunctions>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="PortfolioBacklogItem"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1605,7 +1596,7 @@ The Proposal functional component:
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1767,7 +1758,7 @@ If a Source data object exists, the Requirement functional component:
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1791,13 +1782,13 @@ If a Source data object exists, the Requirement functional component:
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="EnterpriseArchitectureComponent"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1920,7 +1911,7 @@ If a Policy exists, the Service Portfolio functional component:
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
+        <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
         <owl:someValuesFrom rdf:resource="StrategyToPortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -2018,7 +2009,7 @@ If a Policy exists, the Service Portfolio functional component:
     <rdfs:subClassOf rdf:resource="ValueStream"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="isDecomposedIn"/>
+        <owl:onProperty rdf:resource="&meta;isDecomposedIn"/>
         <owl:someValuesFrom rdf:resource="EnterpriseArchitectureComponent"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -2137,9 +2128,6 @@ If a Policy exists, the Service Portfolio functional component:
     <rdfs:label xml:lang="en">Value Stream</rdfs:label>
     <rdfs:subClassOf rdf:resource="IT4IT"/>
   </owl:Class>
-  <owl:ObjectProperty rdf:about="approves">
-    <rdfs:label xml:lang="en">approves</rdfs:label>
-  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="assetsAvailability">
     <rdfs:domain rdf:resource="ITAssetManagement"/>
     <rdfs:label xml:lang="en">assets (availability)</rdfs:label>
@@ -2153,9 +2141,6 @@ If a Policy exists, the Service Portfolio functional component:
   <owl:ObjectProperty rdf:about="auxiliaryFunctionalComponent">
     <rdfs:label xml:lang="en">auxiliary Functional Component</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="functionalComponent"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="communicatesWith">
-    <rdfs:label xml:lang="en">communicates With</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="competencyAvailability">
     <rdfs:domain rdf:resource="LaborManagement"/>
@@ -2186,9 +2171,6 @@ If a Policy exists, the Service Portfolio functional component:
     <rdfs:range rdf:resource="DataObject"/>
     <rdfs:subPropertyOf rdf:resource="it4itObjectProperty"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="decreases">
-    <rdfs:label xml:lang="en">decreases</rdfs:label>
-  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="engagementDataflow">
     <rdfs:domain rdf:resource="FunctionalComponent"/>
     <rdfs:label xml:lang="en">engagement Dataflow</rdfs:label>
@@ -2212,19 +2194,10 @@ If a Policy exists, the Service Portfolio functional component:
   <owl:DatatypeProperty rdf:about="in_€">
     <rdfs:label xml:lang="en">in €</rdfs:label>
   </owl:DatatypeProperty>
-  <owl:ObjectProperty rdf:about="increases">
-    <rdfs:label xml:lang="en">increases</rdfs:label>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="isAssociatedWith">
+  <owl:ObjectProperty rdf:about="&meta;isAssociatedWith">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
     <rdfs:label xml:lang="en">is Associated With</rdfs:label>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="isBasedOn">
-    <rdfs:label xml:lang="en">is Based On</rdfs:label>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="isDecomposedIn">
-    <rdfs:label xml:lang="en">is Decomposed In</rdfs:label>
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="isHeterogeneous">
     <rdfs:label xml:lang="en">is Heterogeneous</rdfs:label>
@@ -2232,18 +2205,6 @@ If a Policy exists, the Service Portfolio functional component:
   <owl:DatatypeProperty rdf:about="isHomogeneous">
     <rdfs:label xml:lang="en">is Homogeneous</rdfs:label>
   </owl:DatatypeProperty>
-  <owl:ObjectProperty rdf:about="isInvolvedIn">
-    <rdfs:label xml:lang="en">is Involved In</rdfs:label>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="isNeededFor">
-    <rdfs:label xml:lang="en">is Needed For</rdfs:label>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="isResponsibleFor">
-    <rdfs:label xml:lang="en">is Responsible For</rdfs:label>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="isSimilarTo">
-    <rdfs:label xml:lang="en">is Similar To</rdfs:label>
-  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="it4itObjectProperty">
     <rdfs:label xml:lang="en">it4it Object Property</rdfs:label>
   </owl:ObjectProperty>
