@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY meta "http://www.snik.eu/ontology/meta/" >
+    <!ENTITY bb "http://www.snik.eu/ontology/bb/" >
+    <!ENTITY ob "http://www.snik.eu/ontology/ob/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+]>
 <rdf:RDF xmlns:dc="http://purl.org/dc/terms/"
    xmlns:meta="http://www.snik.eu/ontology/meta/"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -51,11 +63,11 @@
   </owl:DatatypeProperty>
   <owl:Class rdf:about="ApprovalOfITPolicies">
     <rdfs:label xml:lang="en">Approval Of ITPolicies</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="AuditOfITPolicies">
     <rdfs:label xml:lang="en">Audit Of ITPolicies</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:DatatypeProperty rdf:about="Availibility">
     <rdfs:label xml:lang="en">Availibility</rdfs:label>
@@ -259,32 +271,32 @@
   </owl:Class>
   <owl:Class rdf:about="CreationOfBuildPackages">
     <rdfs:label xml:lang="en">Creation Of Build Packages</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="CreationOfBuilds">
     <rdfs:label xml:lang="en">Creation Of Builds</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="CreationOfITInitiatives">
     <rdfs:comment xml:lang="en">Creation of IT initiatives is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProjectComponent.</rdfs:comment>
     <rdfs:label xml:lang="en">Creation Of ITInitiatives</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="CreationOfITPolicies">
     <rdfs:label xml:lang="en">Creation Of ITPolicies</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="CreationOfLontermITInvestment">
     <rdfs:label xml:lang="en">Creation Of Lonterm ITInvestment</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="CreationOfScopeAgreementsForProjects">
     <rdfs:label xml:lang="en">Creation Of Scope Agreements For Projects</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="CreationOfSourceCode">
     <rdfs:label xml:lang="en">Creation Of Source Code</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="DataObject">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataObject</rdfs:label>
@@ -318,7 +330,7 @@
   </owl:Class>
   <owl:Class rdf:about="DesignOfLogicalServicesBlueprints">
     <rdfs:label xml:lang="en">Design Of Logical Services Blueprints</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="DesiredServiceModel">
     <rdfs:label xml:lang="en">Desired Service Model</rdfs:label>
@@ -412,10 +424,6 @@ business strategic objectives.</Purpose>
       </owl:Restriction>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="EnterpriseFunction">
-    <rdfs:label xml:lang="en">Enterprise Function</rdfs:label>
-    <rdfs:subClassOf rdf:resource="Function"/>
-  </owl:Class>
   <owl:AnnotationProperty rdf:about="Error">
     <rdfs:label xml:lang="en">Error</rdfs:label>
   </owl:AnnotationProperty>
@@ -435,7 +443,7 @@ business strategic objectives.</Purpose>
   </owl:Class>
   <owl:Class rdf:about="ExecutionPlanOfAction">
     <rdfs:label xml:lang="en">Execution Plan Of Action</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:DatatypeProperty rdf:about="Extent">
     <rdfs:label xml:lang="en">Extent</rdfs:label>
@@ -927,9 +935,6 @@ business strategic objectives.</Purpose>
       </owl:Restriction>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="Function">
-    <rdfs:label xml:lang="en">Function</rdfs:label>
-  </owl:Class>
   <owl:Class rdf:about="FunctionalComponent">
     <rdfs:label xml:lang="en">Functional Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="IT4IT"/>
@@ -1068,11 +1073,11 @@ Its main purpose includes:
     <rdfs:label xml:lang="en">Incident Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
   </owl:Class>
-  <owl:Class rdf:about="InformationManagementFunction">
+  <owl:Class rdf:about="It4ItFunction">
     <rdfs:comment xml:lang="de">Wie ordnen sich die Aufgaben ein, die von IT4IT Functional Components unterstützt werden?
 Function-&gt;EnterpriseFunction-&gt;InformationManagementFunction? [ToDo] Einordnung prüfen.</rdfs:comment>
     <rdfs:label xml:lang="de">IT4IT Function</rdfs:label>
-    <rdfs:subClassOf rdf:resource="EnterpriseFunction"/>
+    <rdfs:subClassOf rdf:resource="&meta;Function"/>
   </owl:Class>
   <owl:DatatypeProperty rdf:about="Insurance">
     <rdfs:label xml:lang="en">Insurance</rdfs:label>
@@ -1146,11 +1151,11 @@ Function-&gt;EnterpriseFunction-&gt;InformationManagementFunction? [ToDo] Einord
   </owl:DatatypeProperty>
   <owl:Class rdf:about="ManagementOfBuildPackages">
     <rdfs:label xml:lang="en">Management Of Build Packages</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfBuilds">
     <rdfs:label xml:lang="en">Management Of Builds</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfDemands">
     <rdfs:comment xml:lang="en">Management of demands is in detail, what ist described in attribute IT4IT:Purpose of PortfolioDemandComponent:
@@ -1160,46 +1165,46 @@ demand. The “single funnel” may be a virtual concept encompassing project id
 request management, Incident Management, continuous improvement, and other well-known
 demand channels."</rdfs:comment>
     <rdfs:label xml:lang="en">Management Of Demands</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfITInitiatives">
     <rdfs:comment xml:lang="en">Management of IT initiatives is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProjectComponent.</rdfs:comment>
     <rdfs:label xml:lang="en">Management Of ITInitiatives</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfITInvestments">
     <rdfs:label xml:lang="en">Management Of ITInvestments</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfITPolicies">
     <rdfs:label xml:lang="en">Management Of ITPolicies</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfITProposals">
     <rdfs:label xml:lang="en">Management Of ITProposals</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfLontermITInvestment">
     <rdfs:label xml:lang="en">Management Of Lonterm ITInvestment</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfProblems">
     <rdfs:comment xml:lang="en">Management of Problems is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProblemComponent.</rdfs:comment>
     <rdfs:label xml:lang="en">Management Of Problems</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfRequirements">
     <rdfs:comment xml:lang="en">Management of Requirements is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of RequirementComponent.</rdfs:comment>
     <rdfs:label xml:lang="en">Management Of Requirements</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfServicePortfolio">
     <rdfs:label xml:lang="en">Management Of Service Portfolio</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="ManagementOfSourceCode">
     <rdfs:label xml:lang="en">Management Of Source Code</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:DatatypeProperty rdf:about="ManagementOpenness">
     <rdfs:label xml:lang="en">Management Openness</rdfs:label>
@@ -1734,7 +1739,7 @@ If a Source data object exists, the Requirement functional component:
   </owl:DatatypeProperty>
   <owl:Class rdf:about="ReviewOfITPolicies">
     <rdfs:label xml:lang="en">Review Of ITPolicies</rdfs:label>
-    <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
+    <rdfs:subClassOf rdf:resource="It4ItFunction"/>
   </owl:Class>
   <owl:Class rdf:about="Run">
     <rdfs:label xml:lang="en">Run</rdfs:label>
