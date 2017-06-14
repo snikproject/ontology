@@ -331,8 +331,6 @@
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="DetectToCorrect">
-    <rdf:type rdf:resource="ValueStream"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label xml:lang="en">Detect To Correct</rdfs:label>
     <rdfs:subClassOf rdf:resource="ValueStream"/>
     <owl:equivalentClass rdf:resource="Run"/>
@@ -1663,10 +1661,6 @@ The Proposal functional component:
     <rdfs:label xml:lang="en">Request Realisation Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
   </owl:Class>
-  <owl:NamedIndividual rdf:about="RequestToFulfill">
-    <rdf:type rdf:resource="ValueStream"/>
-    <rdfs:label xml:lang="en">Request to Fulfill</rdfs:label>
-  </owl:NamedIndividual>
   <owl:Class rdf:about="RequestToFullfil">
     <rdfs:label xml:lang="en">Request To Fullfil</rdfs:label>
     <rdfs:subClassOf rdf:resource="ValueStream"/>
@@ -1731,10 +1725,6 @@ If a Source data object exists, the Requirement functional component:
       </owl:Restriction>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:NamedIndividual rdf:about="RequirementToDeploy">
-    <rdf:type rdf:resource="ValueStream"/>
-    <rdfs:label xml:lang="en">Requirement to Deploy</rdfs:label>
-  </owl:NamedIndividual>
   <owl:Class rdf:about="RequirementsToDeploy">
     <rdfs:label xml:lang="en">Requirements To Deploy</rdfs:label>
     <rdfs:subClassOf rdf:resource="ValueStream"/>
@@ -2018,10 +2008,6 @@ If a Policy exists, the Service Portfolio functional component:
   <owl:DatatypeProperty rdf:about="StartEvent">
     <rdfs:label xml:lang="en">Start Event</rdfs:label>
   </owl:DatatypeProperty>
-  <owl:NamedIndividual rdf:about="StratagyToPortfolio">
-    <rdf:type rdf:resource="ValueStream"/>
-    <rdfs:label xml:lang="en">Stratagy to Portfolio</rdfs:label>
-  </owl:NamedIndividual>
   <owl:Class rdf:about="StrategyToPortfolio">
     <rdfs:label xml:lang="en">Strategy To Portfolio</rdfs:label>
     <rdfs:subClassOf rdf:resource="ValueStream"/>
