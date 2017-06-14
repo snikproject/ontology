@@ -93,13 +93,13 @@
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="CreationOfBuilds"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfBuilds"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -131,13 +131,13 @@
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="CreationOfBuildPackages"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfBuildPackages"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -301,7 +301,7 @@
   <owl:Class rdf:about="DataObject">
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataObject</rdfs:label>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LifecycleDataObject</rdfs:label>
-    <rdfs:subClassOf rdf:resource="IT4IT"/>
+    <rdfs:subClassOf rdf:resource="&meta;EntityType"/>
   </owl:Class>
   <owl:DatatypeProperty rdf:about="Deadline">
     <rdfs:label xml:lang="en">Deadline</rdfs:label>
@@ -395,31 +395,31 @@ business strategic objectives.</Purpose>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="CreationOfLontermITInvestment"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ExecutionPlanOfAction"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfLontermITInvestment"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="updates"/>
+        <owl:onProperty rdf:resource="&meta;updates"/>
         <owl:someValuesFrom rdf:resource="ServiceArchitecture"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="uses"/>
+        <owl:onProperty rdf:resource="&meta;uses"/>
         <owl:someValuesFrom rdf:resource="ServiceArchitecture"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1038,7 +1038,7 @@ Its main purpose includes:
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfITInvestments"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1341,31 +1341,31 @@ If a Service Portfolio functional component exists, the Policy functional compon
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ApprovalOfITPolicies"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="AuditOfITPolicies"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="CreationOfITPolicies"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfITPolicies"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ReviewOfITPolicies"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1450,7 +1450,7 @@ etc.</MainFunctions>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfDemands"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1510,7 +1510,7 @@ If a Portfolio Demand functional component exists, the Problem functional compon
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfProblems"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1560,13 +1560,13 @@ functional component.</MainFunctions>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="CreationOfITInitiatives"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfITInitiatives"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1611,13 +1611,13 @@ The Proposal functional component:
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="CreationOfScopeAgreementsForProjects"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfITProposals"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1725,7 +1725,7 @@ If a Source data object exists, the Requirement functional component:
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfRequirements"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1866,7 +1866,7 @@ If a Release Composition functional component exists, the Service Design functio
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="DesignOfLogicalServicesBlueprints"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1926,7 +1926,7 @@ If a Policy exists, the Service Portfolio functional component:
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfServicePortfolio"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -1993,13 +1993,13 @@ If a Policy exists, the Service Portfolio functional component:
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="CreationOfSourceCode"/>
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="supports"/>
+        <owl:onProperty rdf:resource="&meta;supports"/>
         <owl:someValuesFrom rdf:resource="ManagementOfSourceCode"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -2300,15 +2300,6 @@ If a Policy exists, the Service Portfolio functional component:
   <owl:ObjectProperty rdf:about="serviceModelBackboneDataObject">
     <rdfs:label xml:lang="en">service Model Backbone Data Object</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="keyDataObject"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="supports">
-    <rdfs:label xml:lang="en">supports</rdfs:label>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="updates">
-    <rdfs:label xml:lang="en">updates</rdfs:label>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="uses">
-    <rdfs:label xml:lang="en">uses</rdfs:label>
   </owl:ObjectProperty>
   <owl:Axiom>
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n:1</rdfs:label>
