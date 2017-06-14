@@ -16426,7 +16426,7 @@ Object Workgroup Standard</skos:altLabel>
         <skos:altLabel xml:lang="de">Interessensgruppe</skos:altLabel>
 	<rdfs:comment xml:lang="en">stakeholder in the hospital information system (HIS)</rdfs:comment>
 	<rdfs:comment xml:lang="en">Interessensvertreter des Krankenhausinformationssystems (HIS)</rdfs:comment>
-        <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
+        <rdfs:subClassOf rdf:resource="&meta;Role"/>
         <meta:subTopClass rdf:resource="&meta;Role"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thesaurus</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
@@ -16435,17 +16435,7 @@ Object Workgroup Standard</skos:altLabel>
         <page>322</page>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</ID>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="HisStakeholder"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget rdf:resource="InformationManagementEntityType"/>
-        <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
-        <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</TripelRowNr>
-    </owl:Axiom>
-
-
-
-
+   
     <owl:Class rdf:about="HL7CDA">
 	<rdfs:label xml:lang="en">HL7 CDA</rdfs:label>
         <rdfs:subClassOf rdf:resource="InformationManagementEntityType"/>
