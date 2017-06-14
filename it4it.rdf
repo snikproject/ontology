@@ -57,14 +57,6 @@
     <rdfs:label xml:lang="en">Audit Of ITPolicies</rdfs:label>
     <rdfs:subClassOf rdf:resource="InformationManagementFunction"/>
   </owl:Class>
-  <owl:Class rdf:about="AuxiliaryDataObject">
-    <rdfs:label xml:lang="en">Auxiliary Data Object</rdfs:label>
-    <rdfs:subClassOf rdf:resource="ValuePartition_(depr.?)"/>
-  </owl:Class>
-  <owl:Class rdf:about="AuxiliaryFunctionalComponent">
-    <rdfs:label xml:lang="en">Auxiliary Functional Component</rdfs:label>
-    <rdfs:subClassOf rdf:resource="ValuePartition_(depr.?)"/>
-  </owl:Class>
   <owl:DatatypeProperty rdf:about="Availibility">
     <rdfs:label xml:lang="en">Availibility</rdfs:label>
   </owl:DatatypeProperty>
@@ -1105,10 +1097,6 @@ Function-&gt;EnterpriseFunction-&gt;InformationManagementFunction? [ToDo] Einord
   <owl:DatatypeProperty rdf:about="IsSubjective">
     <rdfs:label xml:lang="en">Is Subjective</rdfs:label>
   </owl:DatatypeProperty>
-  <owl:Class rdf:about="KeyFunctionalComponent">
-    <rdfs:label xml:lang="en">Key Functional Component</rdfs:label>
-    <rdfs:subClassOf rdf:resource="ValuePartition_(depr.?)"/>
-  </owl:Class>
   <owl:Class rdf:about="LaborManagement">
     <rdfs:label xml:lang="en">Labor Management</rdfs:label>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
@@ -1989,11 +1977,6 @@ If a Policy exists, the Service Portfolio functional component:
       </owl:Restriction>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
-      <owl:Restriction>
-        <owl:onProperty rdf:resource="isAssociatedWith"/>
-        <owl:someValuesFrom rdf:resource="AuxiliaryDataObject"/>
-      </owl:Restriction>
-    </rdfs:subClassOf>
   </owl:Class>
   <owl:AnnotationProperty rdf:about="Source">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -2175,9 +2158,6 @@ If a Policy exists, the Service Portfolio functional component:
   <owl:Class rdf:about="ValueChain">
     <rdfs:label xml:lang="en">Value Chain</rdfs:label>
     <rdfs:subClassOf rdf:resource="IT4IT"/>
-  </owl:Class>
-  <owl:Class rdf:about="ValuePartition_(depr.?)">
-    <rdfs:label xml:lang="en">Value Partition (depr.?)</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="ValueStream">
     <rdfs:label xml:lang="en">Value Stream</rdfs:label>
