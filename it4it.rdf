@@ -25,7 +25,7 @@
    xml:base="http://www.snik.eu/ontology/it4it/"
    xmlns="http://www.snik.eu/ontology/it4it/">
   <owl:Ontology rdf:about="http://www.snik.eu/ontology/it4it">
-    <rdfs:label xml:lang="en">>IT4IT Ontology</rdfs:label>
+    <rdfs:label xml:lang="en">IT4IT Ontology</rdfs:label>
     <dc:modified>2017-06-14</dc:modified>
     <vann:preferredNamespacePrefix>it4it</vann:preferredNamespacePrefix>                                                                                                                                                                
     <vann:preferredNamespaceUri>http://www.snik.eu/ontology/it4it/</vann:preferredNamespaceUri>
