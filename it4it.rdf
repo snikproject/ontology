@@ -1972,7 +1972,6 @@ If a Policy exists, the Service Portfolio functional component:
         <owl:someValuesFrom rdf:resource="OfferConsumptionComponent"/>
       </owl:Restriction>
     </rdfs:subClassOf>
-    <rdfs:subClassOf>
   </owl:Class>
   <owl:AnnotationProperty rdf:about="Source">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
