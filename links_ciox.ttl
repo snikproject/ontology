@@ -1,9 +1,11 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix : <http://www.snik.eu/ontology/ciox/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix ob: <http://www.snik.eu/ontology/ob/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix bb: <http://www.snik.eu/ontology/bb/> .
+@prefix he: <http://www.snik.eu/ontology/he/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -64,3 +66,285 @@ ciox:DurchfuehrungWartungsfenster	skos:broadMatch	ob:MaintenanceOfApplicationSys
 ciox:Personalmanagement			skos:closeMatch	bb:HumanResourceManagement.
 ciox:ChangeRequestErfassung		skos:broadMatch	ob:ChangeRequestList.
 ciox:ITStrategieentwicklung		skos:closeMatch	ob:StrategicHISPlanning.
+
+# Christians Links
+:Change					skos:closeMatch			bb:ChangeRequest.
+:ChiefInformationOfficer			skos:closeMatch			bb:ChiefInformationOfficer.
+:GenehmigungItStrategieStakeholder	skos:broader			bb:HisStakeholder.
+:Investition				skos:closeMatch			he:ItInvestition.
+:ItMassnahme				skos:closeMatch			bb:InformationManagementGoal.
+:ItMassnahmenPriorisierung		skos:broadMatch			he:VergebenvonPrioritaetenfuerdieProjektrealisierung.
+:ItStrategie				skos:closeMatch			bb:StrategicInformationManagementPlan.
+:ItStrategieManagement			skos:narrowMatch		bb:StrategicInformationManagement.
+:ItStrategieAnforderung			skos:closeMatch			bb:RequirementOfHISStakeholder.
+:ItStrategieAuftraggeber			skos:broader			bb:HisStakeholder.
+:ItStrategieEinhaltungBewertung		skos:closeMatch			bb:StrategicHISMonitoring.
+:ItStrategieErstellung			skos:closeMatch			bb:CreationOfStrategicInformationManagementPlan.
+:ItStrategieErwartung			skos:broadMatch			bb:FulfillmentOfTheExpectationsOfDifferentStakeholders.
+:ItStrategieErwartung			skos:narrowMatch		bb:RequirementOfHISStakeholder.
+:ItStrategieHandlungsfelderGenehmigung	skos:broadMatch			bb:ApprovalToStrategicInformationManagementPlan.
+:ItStrategieManagement			skos:broadMatch			bb:StrategicInformationManagament.
+:ItStrategiePräsentation			skos:closeMatch			bb:EstablishAndPromoteTheStrategicInformationManagementPlan.
+:ItStrategiePräsentation			skos:broadMatch			ob:ProjectRepresentation.
+:ItStrategieStakeholder			skos:closeMatch			bb:HISStakeholder.
+:ItStrategieVerwendung			skos:closeMatch			bb:UseOfStrategicInformationManagementPlan.
+:Lenkungsausschuss			skos:closeMatch			ob:ProjectSteeringCommittee.
+:Lenkungsausschuss			skos:closeMatch			bb:InformationManagementBoard.
+:LenkungsausschussAbstimmung		skos:broadMatch			bb:ApprovalToStrategicInformationManagementPlan.
+:Priorität				skos:closeMatch			he:Prioritaet.
+:Projekt					skos:closeMatch			ob:Project.
+:Projektliste				skos:closeMatch			bb:ProjectPortfolio.
+:Projektdefinition			skos:closeMatch			ob:ProjectOutlineProposal.
+:ProjektPriorisierung			skos:closeMatch			he:VergebenvonPrioritaetenfuerdieProjektrealisierung.
+:ProjektPriorisierung			skos:closeMatch			bb:PortfolioManagement.
+:ProjektSicherheitskrititkalität		skos:broadMatch			he:Sicherheit.
+:ProspektiveRechtfertigung		skos:narrower			bb:ITInvestmentJustification.
+:RetrospektiveRechtfertigung		skos:narrower			bb:ITInvestmentJustification.
+:Stakeholder				skos:closeMatch			bb:HISStakeholder.
+:StakeholderForschungUndLehre		skos:closeMatch			bb:EducationResearch.
+:StakeholderInformationsmanagement	skos:closeMatch			bb:HISStakeholder.
+:StakeholderPatientenversorgung		skos:closeMatch			bb:PatientCare.
+:Unternehmensziel			skos:closeMatch			ob:HospitalGoal.
+:Vorstand				skos:closeMatch			bb:HospitalManagement.
+:Vorstand				skos:closeMatch			bb:HospitalsBoardOfDirectors.
+:WirtschaftlicheRechtfertigung		skos:closeMatch			bb:ITInvestmentJustification.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Change;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:ChangeRequest;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ChiefInformationOfficer;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:ChiefInformationOfficer;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:GenehmigungItStrategieStakeholder;
+		owl:predicate			skos:broader;
+		owl:object				bb:HisStakeholder;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Investition;
+		owl:predicate			skos:closeMatch;
+		owl:object				he:ItInvestition;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItMassnahme;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:InformationManagementGoal;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItMassnahmenPriorisierung;
+		owl:predicate			skos:broadMatch;
+		owl:object				he:VergebenvonPrioritaetenfuerdieProjektrealisierung;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategie;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:StrategicInformationManagementPlan;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieManagement;
+		owl:predicate			skos:narrowMatch;
+		owl:object				bb:StrategicInformationManagement;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieAnforderung;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:RequirementOfHISStakeholder;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieAuftraggeber;
+		owl:predicate			skos:broader;
+		owl:object				bb:HisStakeholder;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieEinhaltungBewertung;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:StrategicHISMonitoring;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieErstellung;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:CreationOfStrategicInformationManagementPlan;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieErwartung;
+		owl:predicate			skos:broadMatch;
+		owl:object				bb:FulfillmentOfTheExpectationsOfDifferentStakeholders;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieErwartung;
+		owl:predicate			skos:narrowMatch;
+		owl:object				bb:RequirementOfHISStakeholder;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieHandlungsfelderGenehmigung;
+		owl:predicate			skos:broadMatch;
+		owl:object				bb:ApprovalToStrategicInformationManagementPlan;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieManagement;
+		owl:predicate			skos:broadMatch;
+		owl:object				bb:StrategicInformationManagament;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategiePräsentation;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:EstablishAndPromoteTheStrategicInformationManagementPlan;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategiePräsentation;
+		owl:predicate			skos:broadMatch;
+		owl:object				ob:ProjectRepresentation;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieStakeholder;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:HISStakeholder;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ItStrategieVerwendung;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:UseOfStrategicInformationManagementPlan;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Lenkungsausschuss;
+		owl:predicate			skos:closeMatch;
+		owl:object				ob:ProjectSteeringCommittee;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Lenkungsausschuss;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:InformationManagementBoard;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:LenkungsausschussAbstimmung;
+		owl:predicate			skos:broadMatch;
+		owl:object				bb:ApprovalToStrategicInformationManagementPlan;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Priorität;
+		owl:predicate			skos:closeMatch;
+		owl:object				he:Prioritaet;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Projekt;
+		owl:predicate			skos:closeMatch;
+		owl:object				ob:Project;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Projektliste;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:ProjectPortfolio;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Projektdefinition;
+		owl:predicate			skos:closeMatch;
+		owl:object				ob:ProjectOutlineProposal;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ProjektPriorisierung;
+		owl:predicate			skos:closeMatch;
+		owl:object				he:VergebenvonPrioritaetenfuerdieProjektrealisierung;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ProjektPriorisierung;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:PortfolioManagement;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ProjektSicherheitskrititkalität;
+		owl:predicate			skos:broadMatch;
+		owl:object				he:Sicherheit;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:ProspektiveRechtfertigung;
+		owl:predicate			skos:narrower;
+		owl:object				bb:ITInvestmentJustification;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:RetrospektiveRechtfertigung;
+		owl:predicate			skos:narrower;
+		owl:object				bb:ITInvestmentJustification;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Stakeholder;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:HISStakeholder;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:StakeholderForschungUndLehre;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:EducationResearch;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:StakeholderInformationsmanagement;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:HISStakeholder;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:StakeholderPatientenversorgung;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:PatientCare;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Unternehmensziel;
+		owl:predicate			skos:closeMatch;
+		owl:object				ob:HospitalGoal;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Vorstand;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:HospitalManagement;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:Vorstand;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:HospitalsBoardOfDirectors;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
+
+[]	rdf:type 					owl:Axiom;
+		owl:subject				:WirtschaftlicheRechtfertigung;
+		owl:predicate			skos:closeMatch;
+		owl:object				bb:ITInvestmentJustification;
+		dc:source					<http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>.
