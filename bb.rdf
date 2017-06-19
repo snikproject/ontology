@@ -18435,10 +18435,14 @@ Object Workgroup Standard</skos:altLabel>
     <owl:Class rdf:about="HospitalStaff">
 	<rdfs:label xml:lang="en">Hospital Staff</rdfs:label>
         <rdfs:subClassOf rdf:resource="HisStakeholder"/>
-        <rdfs:subClassOf rdf:resource="HumanResource"/>
         <meta:subTopClass rdf:resource="&meta;Role"/>
-        <meta:subTopClass rdf:resource="&meta;Role"/>
-        <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&meta;isAssociatedWith"/>
+	        <owl:someValuesFrom rdf:resource="HumanResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+	<Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health care specific</ConceptDomain>
         <skos:definition xml:lang="en"></skos:definition>
         <page></page>
@@ -18451,13 +18455,13 @@ Object Workgroup Standard</skos:altLabel>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manuell hinzugefügt</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2126</TripelRowNr>
     </owl:Axiom>
-    <owl:Axiom>
+    <!--<owl:Axiom>
         <owl:annotatedSource rdf:resource="HospitalStaff"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget rdf:resource="HumanResource"/>
         <TripelPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77</TripelPage>
         <TripelRowNr rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1249</TripelRowNr>
-    </owl:Axiom>
+    </owl:Axiom>-->
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="HospitalStaff"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
@@ -37188,7 +37192,7 @@ goals, structures, and behaviors.</skos:definition>
 
 
    <owl:Class rdf:about="CertifiablePhysicalDataProcessingSystem">
-	<rdfs:label xml:lang="en">certifiabile physical data processing system</rdfs:label>
+	<rdfs:label xml:lang="en">certifiable physical data processing system</rdfs:label>
         <rdfs:subClassOf rdf:resource="PhysicalDataProcessingSystem"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
