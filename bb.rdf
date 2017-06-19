@@ -37188,7 +37188,7 @@ goals, structures, and behaviors.</skos:definition>
 
 
    <owl:Class rdf:about="CertifiablePhysicalDataProcessingSystem">
-	<rdfs:label xml:lang="en">certifiabile physical data processing system</rdfs:label>
+	<rdfs:label xml:lang="en">certifiable physical data processing system</rdfs:label>
         <rdfs:subClassOf rdf:resource="PhysicalDataProcessingSystem"/>
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</Chapter>
