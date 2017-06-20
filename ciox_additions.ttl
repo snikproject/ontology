@@ -1,0 +1,493 @@
+@base <http://www.snik.eu/ontology/ciox/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix he: <../he/> .
+@prefix it: <../it/> .
+@prefix ciox: <> .
+@prefix ob: <../ob/> .
+@prefix bb: <../bb/> .
+@prefix it4it: <../it4it/> .
+@prefix meta: <../meta/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix ov: <http://open.vocab.org/terms/> .
+
+<../ciox>
+    ov:defines ciox:AnforderungFormulieren, ciox:ChangeBewertung, ciox:ChiefInformationOfficer, ciox:ErwartungenFormulieren, ciox:ItMassnahme, ciox:ItMassnahmenDokumentation, ciox:ItMassnahmenPriorisierung, ciox:ItStrategie, ciox:ItStrategieAnforderung, ciox:ItStrategieAuftraggeber, ciox:ItStrategieEinhaltungBewertung, ciox:ItStrategieErstellung, ciox:ItStrategieErwartung, ciox:ItStrategieFinanzierungsantraegeVerwendung, ciox:ItStrategieHandlungsfelder, ciox:ItStrategieHandlungsfelderGenehmigung, ciox:ItStrategieHandlungsfelderPriorisierung, ciox:ItStrategieManagement, ciox:ItStrategiePraesentation, ciox:ItStrategieStakeholder, ciox:ItStrategieStakeholderGenehmigung, ciox:ItStrategieVerwendung, ciox:Lenkungsausschuss, ciox:LenkungsausschussAbstimmung, ciox:Massnahmenkatalog, ciox:ProjektPriorisierung, ciox:ProjektSicherheitskrititkalitaet, ciox:ProjektSicherheitskrititkalitaetsBewertung, ciox:ProspektiveRechtfertigung, ciox:RetrospektiveRechtfertigung, ciox:StakeholderForschungUndLehre, ciox:StakeholderInformationsmanagement, ciox:StakeholderPatientenversorgung, ciox:WirtschaftlicheRechtfertigung, ciox:Workshop, ciox:WorkshopErgebnisse, ciox:WorkshopErgebnisseEvaluation .
+
+ciox:AnforderungFormulieren
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Anforderungen an IT-Strategie formulieren"@de ;
+    rdfs:subClassOf ciox:restrictione56d6e3f66171b22c6e9468125fb49a3 .
+
+ciox:ChangeBewertung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Change Bewertung "@de ;
+    rdfs:subClassOf ciox:restriction28204ed75640bac034d1cb51a6066611, ciox:restriction7ff4508ea460e41b89fd03eb49750e33, ciox:restrictionc79e9619ebbdaaab0621c8afc5892247 ;
+    skos:definition """Bewertung ob ein Change einer IT-Maßnahme beiträgt. Der Change wird angenommen, wenn er einer IT-Maßnahme beiträgt. 
+Diese Bewertung wird aktuell implizit (und durch Kenntnis der IT-Strategie durch den CIO) durchgeführt. 
+"""@de .
+
+ciox:ChiefInformationOfficer
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Leiter B1"@de, "chief information officer"@en ;
+    rdfs:subClassOf ciox:restriction5600b390ff20e6affcd67dd66ffe4024 ;
+    skos:altLabel "CIO"@en .
+
+ciox:ErwartungenFormulieren
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Erwartungen an IT-Strategie formulieren"@de ;
+    rdfs:subClassOf ciox:restriction7150ffb0b00ec576a2ca779e1420ffaa .
+
+ciox:ItMassnahme
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT-Maßnahme"@de ;
+    rdfs:subClassOf ciox:restriction33389f1daf05964821ed0241691b0f0e .
+
+ciox:ItMassnahmenDokumentation
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT Maßnahmen Dokumentation"@de, "IT-Maßnahmen Dokumentation"@de ;
+    rdfs:subClassOf ciox:restriction59bdc4ded0f68da71edb4ac831daa23c, ciox:restrictiond3626b1f28212a2fe1730201cc2db591 ;
+    skos:definition "Ausgehend von den Ergebnissen der Workshops wird der Maßnahmenkatalog erstellt. IT-Maßnahmen sind große, breite Themen, die in der Strategie textuell beschrieben werden. "@de .
+
+ciox:ItMassnahmenPriorisierung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT Maßnahmen Priorisierung"@de, "IT-Maßnahmen Priorisierung "@de ;
+    rdfs:subClassOf ciox:restriction59bdc4ded0f68da71edb4ac831daa23c, ciox:restriction660b48c7a5c92f49a457620a315fe96d, ciox:restriction9423217680bf2344f9ca020348266e48, ciox:restrictionc63f607978d4f2a8b3568603f1dbeab1 ;
+    skos:definition "Der Maßnahmenkatalog wird priorisiert. Weniger wichtige IT-Maßnahmen werden nicht berücksichtigt. Dadurch wird die Auswahl der zu berücksichtigenden IT-Maßnahmen getroffen. Nicht alle priorisierten IT-Maßnahmen kommen letztendlich in die IT-Strategie. "@de .
+
+ciox:ItStrategie
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT Strategy"@en, "IT-Strategie"@de ;
+    skos:altLabel "Strategischer Rahmenplan"@de, "strategic information management plan"@en .
+
+ciox:ItStrategieAnforderung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class .
+
+ciox:ItStrategieAuftraggeber
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Auftraggeber"@de ;
+    rdfs:subClassOf ciox:restriction8a6fc2eb7a5bbe55093a47845f6a4e99, ciox:restrictione663628d81b39b03451122a371f0a855 .
+
+ciox:ItStrategieEinhaltungBewertung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "ItStrategieEinhaltungBewertung"@de ;
+    rdfs:subClassOf ciox:restriction28204ed75640bac034d1cb51a6066611, ciox:restrictionc79e9619ebbdaaab0621c8afc5892247 ;
+    skos:definition """Problem: 
+Einige IT-Maßnahmen können nicht durchgeführt oder vollständig bearbeitet werden. Dafür müssen Argumente gefunden werden.
+Überprüfung der IT-Strategie findet aktuell bei Neuerstellung der IT-Strategie statt. Eigentlich sollte die Überprüfung jedoch regelmäßig explizit stattfinden. Dafür sollte ein IT-Board etabliert werden. Politische Zwänge haben das IT-Board jedoch verhindert.
+Dazu gehört die Etablierung der Lenkungsgruppe IT-Board. Diese sollte halbjährlich Tagen und bewerten, was die IT im letzten halben Jahr gemacht hat und inwiefern die IT-Strategie erreicht werden kann. (Sind wir auf dem roten Pfad?). Das IT-Board prüft die Abarbeitung der vereinbarten IT-Maßnahmen. Das IT-Board existiert nicht."""@de .
+
+ciox:ItStrategieErstellung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Erstellung"@de ;
+    rdfs:subClassOf ciox:restriction34c4671cba563ad411ab9d8ccff9e1ba, ciox:restriction4f7486d4cd475259e3aadcdf4e78b5be .
+
+ciox:ItStrategieErwartung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class .
+
+ciox:ItStrategieFinanzierungsantraegeVerwendung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Verwenden der IT-Strategie für Finanzierungsanträge"@de ;
+    rdfs:subClassOf ciox:restriction28204ed75640bac034d1cb51a6066611, ciox:restrictiona98d97395b0d88f224f1ec20661cc9ac, ciox:restrictionc79e9619ebbdaaab0621c8afc5892247 ;
+    skos:definition "Die IT-Strategie ist eine Grundlage für einige Finanzierungsanträge beim Bund oder Land. Nicht nur bei IT-Anträgen, sondern auch bei anderweitigen Großgeräten, Förderprogrammen, oder Klinische Studien. "@de .
+
+ciox:ItStrategieHandlungsfelder
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Handlungsfelder"@de ;
+    rdfs:subClassOf ciox:restrictionbe088a1024f36c79bab05d0bca2368df .
+
+ciox:ItStrategieHandlungsfelderGenehmigung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Handlungsfelder Genehmigung "@de ;
+    rdfs:subClassOf ciox:restriction59bdc4ded0f68da71edb4ac831daa23c ;
+    skos:definition "Das Projektteam erarbeitet Handlungsfelder (Themen) für Workshops, in denen Themen für die IT-Maßnahmen erarbeitet werden. "@de .
+
+ciox:ItStrategieHandlungsfelderPriorisierung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Handlungsfelder Priorisierung"@de ;
+    rdfs:subClassOf ciox:restriction59bdc4ded0f68da71edb4ac831daa23c ;
+    skos:definition """Zur Erarbeitung und Priorisierung von zukünftigen IT-Strategie-Themen werden Workshops mit den Stakeholdern durchgeführt. 
+Insgesamt 14 Workshops mit unterschiedlichen Themen wurden durchgeführt. Dabei wird zentral die Frage bearbeitet: „Welche Problemfelder gibt es in der Organisation über die IT?“ und: „Welche wichtigen Themen des B1 gibt es?“. Die damit gewonnenen Themen werden zu Themenbereichen gruppiert (geclustert) und zu größeren IT-Maßnahmen synthetisiert. Jede IT-Maßnahme lässt sich ein oder mehreren Unternehmenszielen zuordnen."""@de .
+
+ciox:ItStrategieManagement
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT-Strategiemanagement"@de ;
+    rdfs:subClassOf ciox:restriction28204ed75640bac034d1cb51a6066611, ciox:restriction59bdc4ded0f68da71edb4ac831daa23c, ciox:restrictionc79e9619ebbdaaab0621c8afc5892247 ;
+    skos:altLabel "strategisches Informationsmanagement"@de ;
+    skos:definition "Der Begriff IT-Strategie hat im UKL sowohl die Bedeutung des Dokument \"IT Strategie\", also Strategischer Rahmenplan, als auch die Aufgabe des CIOs, sich um die IT-Strategie zu kümmern. In der CIOx Ontologie wird die Aufgabe als ItStrategyManagement bezeichnet und der Strategische Rahmenplan als ItStrategie."@de .
+
+ciox:ItStrategiePraesentation
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Präsentation "@de, "ITStrategiePräsentation "@de ;
+    rdfs:subClassOf ciox:restriction59bdc4ded0f68da71edb4ac831daa23c, ciox:restriction998228b2bbf5bd2a65bae6ba918a59ba ;
+    skos:definition "Informationskampagne zur IT-Strategie muss durchgeführt werden. D.h. die Existenz und der Inhalt, sowie der verbindliche Charakter wird gegenüber der gesamten UML (UKL und MF) bekannt gegeben. "@de .
+
+ciox:ItStrategieStakeholder
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Stakeholder"@de ;
+    rdfs:subClassOf ciox:restriction8cfc2e610929dbc518ad0a0947d65599, ciox:restrictionb8a8cd9099e3636aa3cb8e87bdc5d64f ;
+    skos:altLabel "Stakeholder"@de .
+
+ciox:ItStrategieStakeholderGenehmigung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Genehmigung IT-Strategie Stakeholder"@de ;
+    skos:definition """Der Lenkungsausschuss der IT-Strategie muss neu zusammengesetzt werden und dabei Stakeholder aus den Bereichen (nicht limitiert auf) Patientenversorgung, Forschung und Lehre, Informationsmanagement. 
+Stakeholder benennen ihre Erwartungen und Anforderungen an die IT-Strategie aus ihren Bereichen. Präsentation und Abstimmung des Vorschlags des Lenkungsausschuss bei Auftraggeber (Vorstand und Fakultätsleitung"""@de .
+
+ciox:ItStrategieVerwendung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Verwendung "@de ;
+    rdfs:subClassOf ciox:restriction4f7486d4cd475259e3aadcdf4e78b5be .
+
+ciox:Lenkungsausschuss
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Lenkungsausschuss "@de ;
+    rdfs:subClassOf ciox:restrictionc11a0ec8f82f6ecc59c21e4e55e3ca17, ciox:restrictionc52007d905c5462d8ec56085cfc912a0 ;
+    skos:definition "Der Lenkungsausschuss besteht aus ITStrategieStakeholdern"@de .
+
+ciox:LenkungsausschussAbstimmung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "LenkungsausschussAbstimmung "@de ;
+    rdfs:subClassOf ciox:restriction59bdc4ded0f68da71edb4ac831daa23c, ciox:restriction998228b2bbf5bd2a65bae6ba918a59ba .
+
+ciox:Massnahmenkatalog
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Maßnahmenkatalog "@de ;
+    rdfs:subClassOf ciox:restrictione5d818ebb1595d310ddeaa552723ed2e ;
+    skos:altLabel "ITStrategie"@de .
+
+ciox:ProjektPriorisierung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Projekt Priorisierung"@de ;
+    rdfs:subClassOf ciox:restriction28204ed75640bac034d1cb51a6066611, ciox:restrictionc79e9619ebbdaaab0621c8afc5892247, ciox:restrictiond2092b10e82249042ffde51f46ffc87a ;
+    skos:altLabel "PortfolioManagement"@en ;
+    skos:definition """Neu hinzukommende Projekte (aus Anträgen oder Changes), müssen ggü. der IT-Strategie bewertet werden. Welchen IT-Maßnahmen tragen diese Projekte bei? Wenn ein Beitrag geleistet wird, wird das Projekt gefördert. Dieser Beitrag ist Priorisierungskriterium.
+Diese Bewertung wird aktuell implizit (und durch Kenntnis der IT-Strategie durch den CIO) durchgeführt."""@de .
+
+ciox:ProjektSicherheitskrititkalitaet
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Projekt-Sicherheitskrititkalität"@de ;
+    rdfs:subClassOf ciox:restriction0f31036a6a2016087fab11b90362909a .
+
+ciox:ProjektSicherheitskrititkalitaetsBewertung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Projekt-SicherheitskrititkalitätsBewertung"@de ;
+    rdfs:subClassOf ciox:restriction28204ed75640bac034d1cb51a6066611, ciox:restriction43955a24b2e9c027fc06c7ae4bb7a406, ciox:restrictioncaa3cd43bfc788c1528684af7f566b44 ;
+    skos:definition "Jedes laufende Projekt der Projektliste wird betrachtet. Wenn es eine Sicherheitsrelevanz hat, wird dieses Projekt genauer betrachtet.  Nach Installation eines CISO (IT-Sicherheitsbeauftragter) benötigt dieser eine Zuordnung, welche Projekte welchen IT-Maßnahmen beitragen. Der CISO bekommt ein Sicherheitsgremium. Die Kenntnis der sicherheitsrelevanten Projekte ist ein wesentliches Ergebnis. Sobald Projektplan/Budgets fertig geplant wurde, sollen die sicherheits-relevanten Projekte genehmigt werden. Evtl. Kritikalität in der Projektwarteliste pflegen."@de .
+
+ciox:ProspektiveRechtfertigung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Prospektive Rechtfertigung"@de ;
+    rdfs:subClassOf ciox:restriction9b8dad1df07a24dfdb98bd1d25e881e3 ;
+    skos:definition "Die IT-Strategie hilft bei der Rechtfertigung, weshalb bestimmte Investitionen getätigt werden müssen. "@de .
+
+ciox:RetrospektiveRechtfertigung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Retrospektive Rechtfertigung"@de ;
+    rdfs:subClassOf ciox:restriction9b8dad1df07a24dfdb98bd1d25e881e3 .
+
+ciox:StakeholderForschungUndLehre
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Stakeholder aus Forschung und Lehre"@de ;
+    rdfs:subClassOf ciox:ItStrategieStakeholder .
+
+ciox:StakeholderInformationsmanagement
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Stakeholder aus dem Informationsmanagement"@de ;
+    rdfs:subClassOf ciox:ItStrategieStakeholder .
+
+ciox:StakeholderPatientenversorgung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Stakeholder aus der Patientenversorgung"@de ;
+    rdfs:subClassOf ciox:ItStrategieStakeholder .
+
+ciox:WirtschaftlicheRechtfertigung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Wirtschaftliche Rechtfertigung"@de, "wirtschaftliche Rechtfertigung"@de ;
+    rdfs:subClassOf ciox:restriction28204ed75640bac034d1cb51a6066611, ciox:restriction8f76f54724f4fe924368b133ea1587e1 ;
+    skos:definition """Die IT-Strategie hilft bei der Rechtfertigung, weshalb bestimmte Investitionen getätigt werden müssen.
+1) Geplante Investitionen werden in Frage gestellt und müssen daher gerechtfertigt werden. Dafür ist die IT-Strategie als Committment des Vorstandes eine Argumentationshilfe.
+2) Aktuell gibt es keine explizite Verknüpfung zwischen Projekten (aus der Projektwarteliste) und der IT-Strategie
+3) Zusätzliche Ressourcen bei Personalplanung können aktuell schlecht gerechtfertigt werden.
+"""@de .
+
+ciox:Workshop
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Workshop"@de ;
+    rdfs:subClassOf ciox:restriction4c6bb0821d1adf6a57b31d6d43491851, ciox:restriction59bdc4ded0f68da71edb4ac831daa23c .
+
+ciox:WorkshopErgebnisse
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Workshop Ergebnisse"@de .
+
+ciox:WorkshopErgebnisseEvaluation
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Workshop Ergebnisse Evaluation "@de ;
+    rdfs:subClassOf ciox:restriction59bdc4ded0f68da71edb4ac831daa23c, ciox:restrictiond3626b1f28212a2fe1730201cc2db591 ;
+    skos:definition "Die Analyse und Synthese der Workshop-Ergebnisse liefert die Liste der IT-Maßnahmen. Dies passiert in Zusammenarbeit des CIO mit dem B1 Teil des Projektteams (Abteilungsleiter"@de .
+
+ciox:restriction0f31036a6a2016087fab11b90362909a
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:entityTypeComponent ;
+    owl:someValuesFrom ciox:Project .
+
+ciox:restriction28204ed75640bac034d1cb51a6066611
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:functionComponent ;
+    owl:someValuesFrom ciox:ItStrategieVerwendung .
+
+ciox:restriction33389f1daf05964821ed0241691b0f0e
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:entityTypeComponent ;
+    owl:someValuesFrom ciox:Unternehmensziel .
+
+ciox:restriction34c4671cba563ad411ab9d8ccff9e1ba
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:functionComponent ;
+    owl:someValuesFrom ciox:ItStrategieStakeholderGenehmigung .
+
+ciox:restriction43955a24b2e9c027fc06c7ae4bb7a406
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:uses ;
+    owl:someValuesFrom ciox:Projektliste .
+
+ciox:restriction4c6bb0821d1adf6a57b31d6d43491851
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:updates ;
+    owl:someValuesFrom ciox:WorkshopErgebnisse .
+
+ciox:restriction4f7486d4cd475259e3aadcdf4e78b5be
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:functionComponent ;
+    owl:someValuesFrom ciox:ItStrategieManagement .
+
+ciox:restriction5600b390ff20e6affcd67dd66ffe4024
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:isResponsibleForFunction ;
+    owl:someValuesFrom ciox:ItStrategieManagement .
+
+ciox:restriction59bdc4ded0f68da71edb4ac831daa23c
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:functionComponent ;
+    owl:someValuesFrom ciox:ItStrategieErstellung .
+
+ciox:restriction660b48c7a5c92f49a457620a315fe96d
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:updates ;
+    owl:someValuesFrom ciox:Massnahmenkatalog .
+
+ciox:restriction7150ffb0b00ec576a2ca779e1420ffaa
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:updates ;
+    owl:someValuesFrom ciox:ItStrategieErwartung .
+
+ciox:restriction7ff4508ea460e41b89fd03eb49750e33
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:uses ;
+    owl:someValuesFrom ciox:Change .
+
+ciox:restriction8a6fc2eb7a5bbe55093a47845f6a4e99
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:roleComponent ;
+    owl:someValuesFrom ciox:Vorstand .
+
+ciox:restriction8cfc2e610929dbc518ad0a0947d65599
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:isResponsibleForFunction ;
+    owl:someValuesFrom ciox:AnforderungFormulieren .
+
+ciox:restriction8f76f54724f4fe924368b133ea1587e1
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:isAssociatedWith ;
+    owl:someValuesFrom ciox:Investition .
+
+ciox:restriction9423217680bf2344f9ca020348266e48
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:updates ;
+    owl:someValuesFrom ciox:Prioritaet .
+
+ciox:restriction998228b2bbf5bd2a65bae6ba918a59ba
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:uses ;
+    owl:someValuesFrom ciox:Massnahmenkatalog .
+
+ciox:restriction9b8dad1df07a24dfdb98bd1d25e881e3
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:functionComponent ;
+    owl:someValuesFrom ciox:WirtschaftlicheRechtfertigung .
+
+ciox:restrictiona98d97395b0d88f224f1ec20661cc9ac
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:updates ;
+    owl:someValuesFrom ciox:Finanzierungsantrag .
+
+ciox:restrictionb8a8cd9099e3636aa3cb8e87bdc5d64f
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:isResponsibleForFunction ;
+    owl:someValuesFrom ciox:ErwartungenFormulieren .
+
+ciox:restrictionbe088a1024f36c79bab05d0bca2368df
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:entityTypeComponent ;
+    owl:someValuesFrom ciox:ItStrategie .
+
+ciox:restrictionc11a0ec8f82f6ecc59c21e4e55e3ca17
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:approvesEntityType ;
+    owl:someValuesFrom ciox:Massnahmenkatalog .
+
+ciox:restrictionc52007d905c5462d8ec56085cfc912a0
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:roleComponent ;
+    owl:someValuesFrom ciox:ItStrategieStakeholder .
+
+ciox:restrictionc63f607978d4f2a8b3568603f1dbeab1
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:uses ;
+    owl:someValuesFrom ciox:ItMassnahme .
+
+ciox:restrictionc79e9619ebbdaaab0621c8afc5892247
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:uses ;
+    owl:someValuesFrom ciox:ItStrategie .
+
+ciox:restrictioncaa3cd43bfc788c1528684af7f566b44
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:uses ;
+    owl:someValuesFrom ciox:ProjektSicherheitskrititkalitaet .
+
+ciox:restrictiond2092b10e82249042ffde51f46ffc87a
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:uses ;
+    owl:someValuesFrom ciox:Projektdefinition .
+
+ciox:restrictiond3626b1f28212a2fe1730201cc2db591
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:uses ;
+    owl:someValuesFrom ciox:WorkshopErgebnisse .
+
+ciox:restrictione56d6e3f66171b22c6e9468125fb49a3
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:updates ;
+    owl:someValuesFrom ciox:ItStrategieAnforderung .
+
+ciox:restrictione5d818ebb1595d310ddeaa552723ed2e
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:isAssociatedWith ;
+    owl:someValuesFrom ciox:ItMassnahme .
+
+ciox:restrictione663628d81b39b03451122a371f0a855
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer>;
+    a owl:Restriction ;
+    owl:onProperty meta:roleComponent ;
+    owl:someValuesFrom ciox:Fakultaetsleitung .
+
