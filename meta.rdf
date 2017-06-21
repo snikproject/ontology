@@ -216,7 +216,7 @@
 	<owl:ObjectProperty rdf:about="isResponsibleFor">
 		<rdf:type rdf:resource="owl:DeprecatedProperty"/>
 		<rdfs:label xml:lang="en">is responsible for </rdfs:label>
-		<rdfs:label xml:lang="en">ist verantwortlich für</rdfs:label>
+		<rdfs:label xml:lang="de">ist verantwortlich für</rdfs:label>
 		<rdfs:domain rdf:resource="Role"/>
 		<rdfs:range rdf:resource="Top"/>
 		<rdfs:comment>Use isResponsibleForFunction and isResponsibleForEntityType instead.</rdfs:comment>
@@ -224,7 +224,7 @@
 
 	<owl:ObjectProperty rdf:about="isResponsibleForFunction">
 		<rdfs:label xml:lang="en">is responsible for </rdfs:label>
-		<rdfs:label xml:lang="en">ist verantwortlich für</rdfs:label>
+		<rdfs:label xml:lang="de">ist verantwortlich für</rdfs:label>
 		<rdfs:comment xml:lang="en">is responsible for a function</rdfs:comment>
 		<rdfs:comment xml:lang="de">ist verantwortlich für eine Aufgabe</rdfs:comment>
 		<rdfs:domain rdf:resource="Role"/>
@@ -233,12 +233,38 @@
 
 	<owl:ObjectProperty rdf:about="isResponsibleForEntityType">
 		<rdfs:label xml:lang="en">is responsible for </rdfs:label>
-		<rdfs:label xml:lang="en">ist verantwortlich für</rdfs:label>
+		<rdfs:label xml:lang="de">ist verantwortlich für</rdfs:label>
 		<rdfs:comment xml:lang="en">is responsible for an entity type</rdfs:comment>
 		<rdfs:comment xml:lang="de">ist verantwortlich für einen Objekttyp</rdfs:comment>
 		<rdfs:domain rdf:resource="Role"/>
 		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
+
+	<owl:DatatypeProperty rdf:about="evaluated">
+		<rdfs:label xml:lang="en">evaluated</rdfs:label>
+		<rdfs:label xml:lang="de">evaluiert</rdfs:label>
+		<rdfs:comment xml:lang="en">The concept or triple has been manually evaluated after extraction.</rdfs:comment>
+		<rdfs:comment xml:lang="de">Der Begriff oder das Tripel wurde manuell nach der Extraktion evaluiert.</rdfs:comment>
+		<rdfs:range rdf:resource="&xsd;boolean"/>
+	</owl:DatatypeProperty>
+
+	<owl:DatatypeProperty rdf:about="defined">
+		<rdfs:label xml:lang="en">defined</rdfs:label>
+		<rdfs:label xml:lang="de">definiert</rdfs:label>
+		<rdfs:comment xml:lang="en">The concept has a nonempty definition. Does not need to be explictly modelled but can be inferred from the skos:definition property.</rdfs:comment>
+		<rdfs:comment xml:lang="de">Der Begriff besitzt eine nichtleere Definition.</rdfs:comment>
+		<rdfs:domain rdf:resource="Top"/>
+		<rdfs:range rdf:resource="&xsd;boolean"/>
+	</owl:DatatypeProperty>
+
+	<owl:DatatypeProperty rdf:about="referenced">
+		<rdfs:label xml:lang="en">referenced</rdfs:label>
+		<rdfs:label xml:lang="de">referenziert</rdfs:label>
+		<rdfs:comment xml:lang="en">The concept references a page from a book. Does not need to be explicitly modelled but can be inferred from the x:page properties.</rdfs:comment>
+		<rdfs:comment xml:lang="de">Der Begriff hat eine Quellseite in einem Buch.</rdfs:comment>
+		<rdfs:domain rdf:resource="Top"/>
+		<rdfs:range rdf:resource="&xsd;boolean"/>
+	</owl:DatatypeProperty>
 
 <!-- Classes -->
 
