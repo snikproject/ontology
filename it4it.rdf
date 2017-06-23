@@ -1320,6 +1320,7 @@ business strategic objectives.</Purpose>
   <owl:Class rdf:about="FunctionalComponent">
     <rdfs:label xml:lang="en">Functional Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="IT4IT"/>
+    <rdfs:subClassOf rdf:resource="&meta;EntityType"/><!-- for now. maybe find something more fitting later?-->
   </owl:Class>
   <owl:NamedIndividual rdf:about="Governance">
     <rdf:type rdf:resource="SupportingActivity"/>
