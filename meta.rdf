@@ -229,6 +229,7 @@
 		<rdfs:comment xml:lang="de">ist verantwortlich für eine Aufgabe</rdfs:comment>
 		<rdfs:domain rdf:resource="Role"/>
 		<rdfs:range rdf:resource="Function"/>
+		<rdfs:subPropertyOf rdf:resource="isResponsibleFor"/>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="isResponsibleForEntityType">
@@ -238,6 +239,7 @@
 		<rdfs:comment xml:lang="de">ist verantwortlich für einen Objekttyp</rdfs:comment>
 		<rdfs:domain rdf:resource="Role"/>
 		<rdfs:range rdf:resource="EntityType"/>
+		<rdfs:subPropertyOf rdf:resource="isResponsibleFor"/>
 	</owl:ObjectProperty>
 
 	<owl:DatatypeProperty rdf:about="evaluated">
