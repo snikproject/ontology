@@ -228,7 +228,7 @@
 <ov:defines rdf:resource="&ciox;Wartungsaktivitaetsprotokoll"/>
 <ov:defines rdf:resource="&ciox;Wartungsfensterfreigabe"/>
 <ov:defines rdf:resource="&ciox;Wartungsfensterkoordinator"/>
-<ov:defines rdf:resource="&ciox;Wartungsvertagserstellung"/>
+<ov:defines rdf:resource="&ciox;Wartungsvertragserstellung"/>
 <ov:defines rdf:resource="&ciox;Wartungsvertrag"/>
 <ov:defines rdf:resource="&ciox;Wartungsvertragfreigabe"/>
 <ov:defines rdf:resource="&ciox;Wartungsvertragsentscheidung"/>
