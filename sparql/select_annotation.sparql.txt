@@ -3,8 +3,8 @@ select
  count(distinct(?connected)) as ?degree
  ?consolidated
 # ?type
- ?st
- ?source
+ replace(?st,"http://www.snik.eu/ontology/meta/","") as ?st
+ replace(?ontology,"http://www.snik.eu/ontology/","") as ?prefix
  group_concat(distinct ?Label;separator="|") as ?Labels 
  group_concat(distinct ?ld;separator="|") as ?ld 
  group_concat(distinct ?le;separator="|") as ?le 
@@ -89,7 +89,7 @@ OPTIONAL
 #} 
 OPTIONAL 
 { 
- ?source a owl:Ontology.
- ?source ov:defines ?resource. 
+ ?ontology a owl:Ontology.
+ ?ontology ov:defines ?resource. 
 } 
 } order by desc(count(distinct(?connected)))
