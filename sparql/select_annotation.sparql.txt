@@ -3,8 +3,8 @@ select
  count(distinct(?connected)) as ?degree
  ?consolidated
 # ?type
- replace(?st,"http://www.snik.eu/ontology/meta/","") as ?st
- replace(?ontology,"http://www.snik.eu/ontology/","") as ?prefix
+ replace(str(?st),"http://www.snik.eu/ontology/meta/","") as ?st
+ replace(str(?ontology),"http://www.snik.eu/ontology/","") as ?prefix
  group_concat(distinct ?Label;separator="|") as ?Labels 
  group_concat(distinct ?ld;separator="|") as ?ld 
  group_concat(distinct ?le;separator="|") as ?le 
