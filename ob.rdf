@@ -858,6 +858,8 @@
 <ov:defines rdf:resource="WrittenSurvey"/>
 <ov:defines rdf:resource="OrangeBook"/>
 <ov:defines rdf:resource="page"/>
+<ov:defines rdf:resource="ProjectPlanningDocument"/>
+<ov:defines rdf:resource="VerificationEvaluation"/>       
 </owl:Ontology>
 
 		<bibo:Book rdf:about="OrangeBook" dc:date="2011">

@@ -234,7 +234,8 @@
 <ov:defines rdf:resource="&ciox;Wartungsvertragsentscheidung"/>
 <ov:defines rdf:resource="&ciox;Wirtschaftsplan"/>
 <ov:defines rdf:resource="&ciox;Wirtschaftsplanung"/>
-<ov:defines rdf:resource="&ciox;WordFile"/>
+<ov:defines rdf:resource="&ciox;WordFile"/>        
+<ov:defines rdf:resource="&ciox;Wartungsvertragserstellung"/>        
 </Ontology>
  
     <DatatypeProperty rdf:about="&ciox;Projektnummer">
