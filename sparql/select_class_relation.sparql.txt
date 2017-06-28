@@ -5,6 +5,7 @@ from <http://www.snik.eu/ontology/ob>
 from <http://www.snik.eu/ontology/he>
 from <http://www.snik.eu/ontology/ciox>
 from <http://www.snik.eu/ontology/it4it>
+from <http://www.snik.eu/ontology/virtual>
 {
  ?source ?p ?target.
  filter(?p!=meta:subTopClass).

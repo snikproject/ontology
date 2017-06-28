@@ -1,5 +1,4 @@
-# After ontology changes, execute this query, and overwrite http://www.snik.eu/ontology/virtual:
-# Login to the conductor, delete the graph and do "Quad Store Upload" with the results with "create graph explicitly" checked.
+# Don't use this anymore. Instead construct virtual triples and missing and add the virtual graph to your unnamed graphs. 
 select ?source ?p replace(str(?p),".*[#/]","") as ?pl ?target
 from <http://www.snik.eu/ontology/meta>
 from <http://www.snik.eu/ontology/ob>
