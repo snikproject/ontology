@@ -4,6 +4,7 @@ from <http://www.snik.eu/ontology/bb>
 from <http://www.snik.eu/ontology/ob>
 from <http://www.snik.eu/ontology/he>
 from <http://www.snik.eu/ontology/ciox>
+from <http://www.snik.eu/ontology/it4it>
 {
  ?resource ?p ?targetNode.
  filter(?p!=meta:subTopClass).
