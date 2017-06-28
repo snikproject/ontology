@@ -1,4 +1,4 @@
-select ?resource ?p as ?interaction replace(str(?p),".*[#/]","") as ?interactionLabel ?targetNode
+select ?source ?p replace(str(?p),".*[#/]","") as ?pl ?target
 from <http://www.snik.eu/ontology/meta>
 from <http://www.snik.eu/ontology/bb>
 from <http://www.snik.eu/ontology/ob>
@@ -6,8 +6,8 @@ from <http://www.snik.eu/ontology/he>
 from <http://www.snik.eu/ontology/ciox>
 from <http://www.snik.eu/ontology/it4it>
 {
- ?resource ?p ?targetNode.
+ ?source ?p ?target.
  filter(?p!=meta:subTopClass).
- ?resource a owl:Class.
- ?targetNode a owl:Class.
+ ?source a owl:Class.
+ ?target a owl:Class.
 }

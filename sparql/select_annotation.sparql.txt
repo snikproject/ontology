@@ -3,16 +3,16 @@ select
  count(distinct(?connected)) as ?degree
  ?consolidated
 # ?type
- ?subTop
+ ?st
  ?source
  group_concat(distinct ?Label;separator="|") as ?Labels 
- group_concat(distinct ?Label_DE;separator="|") as ?Labels_DE 
- group_concat(distinct ?Label_EN;separator="|") as ?Labels_EN 
- group_concat(distinct ?altLabel;separator="|") as ?Alt_Labels
+ group_concat(distinct ?ld;separator="|") as ?ld 
+ group_concat(distinct ?le;separator="|") as ?le 
+ group_concat(distinct ?la;separator="|") as ?la
  group_concat(distinct ?comment;separator="|") as ?Comments
-# group_concat(distinct ?Chapter;separator="|") as ?Chapters 
-# group_concat(distinct ?definition;separator="|") as ?definitions 
- group_concat(distinct ?bb_page;separator="|") as ?bb_pages
+#group_concat(distinct ?Chapter;separator="|") as ?Chapters 
+#group_concat(distinct ?definition;separator="|") as ?definitions 
+#group_concat(distinct ?bb_page;separator="|") as ?bb_pages
 #group_concat(distinct ?ob_page;separator="|") as ?ob_pages
 from <http://www.snik.eu/ontology/meta>
 from <http://www.snik.eu/ontology/bb>
@@ -29,7 +29,7 @@ filter not exists {?resource a owl:Axiom.}
 {?resource ?p ?connected.} UNION {?connected ?p ?resource.} 
 ?connected a owl:Class.
 
-OPTIONAL {?resource meta:subTopClass ?subTop}
+OPTIONAL {?resource meta:subTopClass ?st}
 OPTIONAL {?resource meta:consolidated ?consolidated.}
 OPTIONAL 
 { 
@@ -38,19 +38,19 @@ OPTIONAL
 } 
 OPTIONAL 
 { 
- ?resource rdfs:label ?Label_DE. 
- filter(str(?Label_DE)!="" && lang(?Label_DE)="de"). 
+ ?resource rdfs:label ?ld. 
+ filter(str(?ld)!="" && lang(?ld)="de"). 
 } 
 OPTIONAL 
 { 
- ?resource rdfs:label ?Label_EN. 
- filter(str(?Label_EN)!="" && lang(?Label_EN)="en"). 
+ ?resource rdfs:label ?le. 
+ filter(str(?le)!="" && lang(?le)="en"). 
 } 
 
 OPTIONAL 
 { 
- ?resource skos:altLabel ?altLabel. 
- filter(str(?altLabel)!=""). 
+ ?resource skos:la ?la. 
+ filter(str(?la)!=""). 
 } 
 OPTIONAL 
 { 

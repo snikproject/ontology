@@ -1,6 +1,6 @@
 # After ontology changes, execute this query, and overwrite http://www.snik.eu/ontology/virtual:
 # Login to the conductor, delete the graph and do "Quad Store Upload" with the results with "create graph explicitly" checked.
-select ?c as ?resource ?p as ?interaction replace(str(?p),".*[#/]","") as ?interactionLabel ?o as ?targetNode
+select ?source ?p replace(str(?p),".*[#/]","") as ?pl ?target
 from <http://www.snik.eu/ontology/meta>
 from <http://www.snik.eu/ontology/ob>
 from <http://www.snik.eu/ontology/bb>
@@ -10,37 +10,37 @@ from <http://www.snik.eu/ontology/it4it>
 {
 ###################### Missing subClassOf
 {
-?c a owl:Class.
-filter not exists {?c rdfs:subClassOf [].}
-?c meta:subTopClass ?o.
+?source a owl:Class.
+filter not exists {?source rdfs:subClassOf [].}
+?source meta:subTopClass ?target.
 bind(rdfs:subClassOf as ?p)
 }
 ###################### Missing subTopClass
 UNION
 {
-graph ?g {?c a owl:Class.}
+graph ?g {?source a owl:Class.}
 filter(?g!=<http://www.snik.eu/ontology/meta>) # EntityType, Role, Function and Top don't have subTopClass and we trust meta to have all other subtops
-filter not exists {?c meta:subTopClass ?x.}
-?c rdfs:subClassOf+ ?o.
-filter(?o = meta:Function OR ?o = meta:Role OR ?o = meta:EntityType)
+filter not exists {?source meta:subTopClass ?x.}
+?source rdfs:subClassOf+ ?target.
+filter(?target = meta:Function OR ?target = meta:Role OR ?target = meta:EntityType)
 bind(meta:subTopClass as ?p)
 }
 UNION
 ###################### Virtual Triples from Restrictions
 {
- ?c      a owl:Class.
- ?o    a owl:Class.
+ ?source      a owl:Class.
+ ?target    a owl:Class.
  {
-  ?c     rdfs:subClassOf ?restriction.
+  ?source     rdfs:subClassOf ?restriction.
   ?restriction  a owl:Restriction;
                 owl:onProperty ?p.
-  {?restriction owl:someValuesFrom ?o.} UNION {?restriction owl:allValuesFrom ?o.}
+  {?restriction owl:someValuesFrom ?target.} UNION {?restriction owl:allValuesFrom ?target.}
  }
 ###################### Virtual Triples from Domain/Range
 UNION
  {
-  ?p            rdfs:domain ?c.
-  ?p            rdfs:range ?o.
+  ?p            rdfs:domain ?source.
+  ?p            rdfs:range ?target.
  }
 }
 }
