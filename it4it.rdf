@@ -750,6 +750,9 @@
 business strategic objectives.</Purpose>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label xml:lang="en">Enterprise Architecture Component</rdfs:label>
+    <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.4.1</Chapter>
+    <page>48</page>
+    <skos:definition xml:lang="en"></skos:definition>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
       <owl:Restriction>
@@ -1402,6 +1405,8 @@ Its main purpose includes:
   * Facilitate all activities required to effectively carry out forecasting and budgeting.
   * Facilitate proposal managers with guidelines and information (e.g., unit costs) to be followed while estimating costs of proposed IT Initiatives.
   * Establish a common governance and control mechanism for approval/rejections of any proposed IT Initiatives.</Purpose>
+    <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.4.6</Chapter>
+    <page>58</page>
     <rdfs:label xml:lang="en">IT Investment Portfolio Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
@@ -1699,6 +1704,8 @@ demand channels."</rdfs:comment>
 If a Service Portfolio functional component exists, the Policy functional component:
   * Shall associate one or more policies to one or more Conceptual Services.</MainFunctions>
     <Purpose xml:lang="en">Manage creation, review, approval, and audit of all IT policies.</Purpose>
+    <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.4.2</Chapter>
+    <page>50</page>
     <rdfs:label xml:lang="en">Policy Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
@@ -1801,6 +1808,8 @@ The Portfolio Demand functional component may support backlog item data object b
 ranking, trending, and analysis based on requested services, timeline, business unit origination,
 etc.</MainFunctions>
     <Purpose xml:lang="en">Log, maintain, and evaluate all demands (new service, enhancements, defects) coming into IT through a single funnel. Correlate incoming demand to similar existing demand or create new demand. The “single funnel” may be a virtual concept encompassing project ideation, service request management, Incident Management, continuous improvement, and other well-known demand channels.</Purpose>
+    <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.4.4</Chapter>
+    <page>54</page>
     <rdfs:comment xml:lang="en">Functions extracted from IT4IT:Purpose are aggregated to "management of Demands".</rdfs:comment>
     <rdfs:label xml:lang="en">Portfolio Demand Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
@@ -1969,6 +1978,8 @@ The Proposal functional component:
   * The R2D Value Stream project portfolio is the authoritative source for the list of IT deliverables or services that will be rendered during a project lifecycle. The project portfolio views can be created for specific organizations like line of business portfolio or functions like financial views. The project portfolio is used for rationalizing and tracking resources across projects to best deliver on all projects. The project portfolio entries are actuated through a Project Management system. The project portfolio reports back to the investment portfolio in order to accurately track progress and outcomes for a given Scope Agreement.
   * Shall identify security controls necessary for protecting the various classifications of data.</MainFunctions>
     <Purpose xml:lang="en">Manage the portfolio of IT proposals that are proposed, approved, active, deferred, or rejected. This is the authoritative source for the list of IT proposals requested over a given time period that may result in the creation of Scope Agreements for projects.</Purpose>
+    <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.4.3</Chapter>
+    <page>52</page>
     <rdfs:label xml:lang="en">Proposal Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
@@ -2278,6 +2289,8 @@ If a Portfolio Backlog Item exists, the Service Portfolio functional component:
 If a Policy exists, the Service Portfolio functional component:
   * Should comply with one or more applicable Policies.</MainFunctions>
     <Purpose xml:lang="en">Manage the portfolio of services in plan, transition, production, and retirement. Authoritative source for the list of services that IT delivers, has delivered in the past, or brokers to itself and business. Any IT service within the Service Portfolio functional component often corresponds to one or more entries in the Offer Catalog.</Purpose>
+    <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.4.5</Chapter>
+    <page>56</page>
     <rdfs:label xml:lang="en">Service Portfolio Component</rdfs:label>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
