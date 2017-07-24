@@ -1884,6 +1884,8 @@ If a Portfolio Demand functional component exists, the Problem functional compon
   * May push a Portfolio Backlog Item to the Portfolio Demand functional component for backlog processing.</MainFunctions>
     <Purpose xml:lang="en">The Problem functional component is responsible for managing the lifecycle of all Problems. The objectives of the Problem functional component are to solve severe/repeating Incidents, prevent Incidents from happening, and minimize the impact of Incidents that cannot be prevented. The Problem cause is not usually known at the time of the Problem data object instance creation, and the Problem functional component is responsible for the investigation. The Problem functional component also serves as the main exit point from the D2C Value Stream for the feedback information about IT services issues. The feedback is reported to the R2D Value Stream in the form of Defects and to the S2P Value Stream in the form of Portfolio Backlog Items (demand request).</Purpose>
     <rdfs:label xml:lang="en">Problem Component</rdfs:label>
+    <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.4.4</Chapter>
+    <page>132</page>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
       <owl:Restriction>
@@ -2101,6 +2103,8 @@ If a Source data object exists, the Requirement functional component:
   * Derive product or program backlogs which will ultimately serve as queues for enhancing IT services.</Purpose>
     <rdfs:comment xml:lang="en">Functions extracted from IT4IT:Purpose and IT4IT:MainFunctions are aggregated to "Management of Requirement"</rdfs:comment>
     <rdfs:label xml:lang="en">Requirement Component</rdfs:label>
+    <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.4.1</Chapter>
+    <page>69</page>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
       <owl:Restriction>
@@ -2242,6 +2246,8 @@ If a Release Composition functional component exists, the Service Design functio
   * Ensure that the service is architected to meet the KPIs and SLAs.
   * The output of the Service Design functional component is used by the Source data object to source, create, and secure the service.</Purpose>
     <rdfs:label xml:lang="en">Service Design Component</rdfs:label>
+    <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.4.3</Chapter>
+    <page>74</page>
     <rdfs:subClassOf rdf:resource="FunctionalComponent"/>
     <rdfs:subClassOf>
       <owl:Restriction>
