@@ -5698,7 +5698,7 @@
     <dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.snik.eu/ontology/he">
-    <dc:source rdf:resource="http://www.snik.eu/mapping"/>
+    <dc:source rdf:resource="http://www.degruyter.com/view/product/343705"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.snik.eu/ontology/he">
     <dc:source rdf:resource="https://books.google.de/books/about/Informationsmanagement.html?id=jsAupwAACAAJ"/>
