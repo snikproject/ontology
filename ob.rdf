@@ -35,7 +35,7 @@
 <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-18</dc:modified>
 <owl:versionInfo>0.3.0</owl:versionInfo>
 <rdfs:label xml:lang="de">IT-Projektmanagement im Gesundheitswesen</rdfs:label>
-<rdfs:comment xml:lang="de">extrahiert aus dem Buch "IT-Projektmanagement im Gesundheitswesen"</rdfs:comment>
+<rdfs:comment xml:lang="de">extrahiert aus "Ammenwerth E, Haux R, Knaup-Gregori P, Winter A. IT-Projektmanagement im Gesundheitswesen - Lehrbuch und Projektleitfaden. Stuttgart: Schattauer; 2014."</rdfs:comment>
 <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
 <dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>
 <foaf:homepage rdf:resource="http://www.snik.eu"/>
