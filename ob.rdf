@@ -30036,7 +30036,7 @@ so wie es in der Einführungsstrategie geplant ist.
         </rdfs:subClassOf>
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.0</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
-        <meta:subTopClass rdf:resource="&meta;EntityType"/>
+        <meta:subTopClass rdf:resource="&meta;Function"/>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Perspektive des Managemnts eines Informationssystems, welches sich mit der Einführung oder Änderung von Informationssystemkomponenten befasst. Die Aufgaben umfassen die Planung, Steuerung und Überwachung von Projekten.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">345</meta:DefinitionDEPage>
