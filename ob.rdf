@@ -26447,7 +26447,6 @@ so wie es in der Einführungsstrategie geplant ist.
         <Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.2, 16</Chapter>
         <ConceptDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ConceptDomain>
         <meta:subTopClass rdf:resource="&meta;Function"/>
-        <rdfs:subClassOf rdf:resource="&meta;Function"/>
         <rdfs:subClassOf rdf:resource="InformationManagement"/>
         <skos:definition xml:lang="de">Im Vordergrund des strategischen Managements von Informationssystemen stehen das Informationssystem als Ganzes oder in wesentlichen Teilen und seine grundsätzliche zukünftige Entwicklung. Perspektive des Managements eines Informationssystems, welches sich mit dem Informationssystem als Ganzes bzw. in wesentlichen Teilen und mit seiner grundsätzlichen zukünftigen Entwicklung befasst. Wichtige Aufgaben umfassen die Rahmenplanung, die Umsetzung der Vorgaben des Rahmenplans (in der Regel in Form von Projekten) und die laufende Überprüfung, ob die Projekte mit dem gewünschten Erfolg durchgeführt werden und ob das Informationssystem entsprechend dem Rahmenplan strukturiert ist und die zugewiesenen Aufgaben erfüllt.</skos:definition>
         <meta:DefinitionDEPage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27, 343</meta:DefinitionDEPage>
