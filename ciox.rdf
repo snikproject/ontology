@@ -313,7 +313,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Projektleiterzuweisung"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -484,7 +484,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Rechnungspruefung"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -869,13 +869,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Projekteskalation"/>
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Projektueberwachung"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -887,7 +887,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Projektdarstellung"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -899,13 +899,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Projektleiter"/>
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Wartungsfensterfreigabe"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -917,7 +917,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Wartungsvertragfreigabe"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -929,7 +929,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Projektfreigabe"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -941,19 +941,19 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Beschaffungsfreigabe"/>
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;ITStrategieentwicklung"/>
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;ITSachkontenplanung"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -965,13 +965,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Ticketauswertung"/>
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Projektpriorisierung"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -983,13 +983,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Rechnungsfreigabe"/>
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Projektleiterzuweisung"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -2679,7 +2679,7 @@
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;updates"/>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <someValuesFrom rdf:resource="&ciox;SachkontoSoftwarereparaturen"/>
             </Restriction>
         </rdfs:subClassOf>
