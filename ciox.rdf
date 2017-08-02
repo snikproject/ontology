@@ -2679,7 +2679,7 @@
         <meta:subTopClass rdf:resource="&meta;EntityType"/>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;updates"/>
+                <onProperty rdf:resource="&meta;isAssociatedWith"/>
                 <someValuesFrom rdf:resource="&ciox;SachkontoSoftwarereparaturen"/>
             </Restriction>
         </rdfs:subClassOf>
