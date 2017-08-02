@@ -313,7 +313,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="&meta;isResponsibleForEntityType"/>
+                <onProperty rdf:resource="&meta;isResponsibleForFunction"/>
                 <someValuesFrom rdf:resource="&ciox;Projektleiterzuweisung"/>
             </Restriction>
         </rdfs:subClassOf>
