@@ -17,8 +17,8 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <owl:Ontology rdf:about="http://www.snik.eu/ontology/he">
     <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-29</dc:modified>
-    <rdfs:label xml:lang="en">Information Management</rdfs:label>
-    <rdfs:label xml:lang="de">Informationsmanagement: Grundlagen, Aufgaben, Methoden</rdfs:label>
+    <rdfs:label xml:lang="en">Information Management Ontology</rdfs:label>
+    <rdfs:label xml:lang="de">Informationsmanagement-Ontologie</rdfs:label>
     <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
     <vann:preferredNamespacePrefix>he</vann:preferredNamespacePrefix>
     <vann:preferredNamespaceUri>http://www.snik.eu/ontology/he/</vann:preferredNamespaceUri>
