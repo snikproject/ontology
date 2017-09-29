@@ -24,6 +24,7 @@
 	xmlns:dc="http://purl.org/dc/terms/">
 
 	<owl:Ontology rdf:about="http://www.snik.eu/ontology/meta">
+		<rdfs:label xml:lang="en">SNIK Meta Ontology</rdfs:label>
 		<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-18</dc:modified>
 		<owl:versionInfo>0.3.0</owl:versionInfo>
 		<foaf:homepage rdf:resource="http://www.snik.eu"/>
