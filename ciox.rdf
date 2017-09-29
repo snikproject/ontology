@@ -41,6 +41,7 @@
 <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-18</dc:modified>
 <owl:versionInfo>0.3.0</owl:versionInfo>
 <rdfs:label xml:lang="de">CIOX Uniklinikum Leipzig HIS Ontologie</rdfs:label>
+<rdfs:label xml:lang="en">CIOX Ontology</rdfs:label>
 <rdfs:comment xml:lang="de">Based on interviews about the Health Information System with Department B1, the Department for Information Management, of the Uniklinikum Leipzig.</rdfs:comment>
 <dc:creator rdf:resource="http://www.snik.eu/de/Team"/>
 <dc:publisher rdf:resource="http://www.snik.eu/de/Team"/>
