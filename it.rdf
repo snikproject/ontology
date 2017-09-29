@@ -12,7 +12,7 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <owl:Ontology rdf:about="http://www.snik.eu/ontology/it">
-    <rdfs:label xml:lang="en">IT4IT Ontology</rdfs:label>
+    <rdfs:label xml:lang="en">ITIL Ontology</rdfs:label>
     <ov:defines rdf:resource="http://www.snik.eu/ontology/it/AccessManagment"/>
     <ov:defines rdf:resource="http://www.snik.eu/ontology/it/Aenderungskommunikation"/>
     <ov:defines rdf:resource="http://www.snik.eu/ontology/it/AeussererKreisItil"/>
