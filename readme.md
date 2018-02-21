@@ -1,5 +1,5 @@
 ## Introduction
-This is the official storage location of the SNIK ontology RDF dump. The official SPARQL Endpoint http://www.snik.eu/sparql may be be slightly outdated; the graph visualization http://www.snik.eu/graph may be moderately outdated.
+This is the old storage location of the SNIK ontology RDF dump. The official SPARQL Endpoint http://www.snik.eu/sparql contains the current version, which is shown in the graph visualization http://www.snik.eu/graph. Changes to these files here will not influence the contents of the SPARQL endpoint, use the OntoWiki at http://www.snik.eu/ontowiki for that.
 
 ## Components
 
