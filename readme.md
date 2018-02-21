@@ -1,6 +1,8 @@
 ## Introduction
 This is the old storage location of the SNIK ontology RDF dump. The official SPARQL Endpoint http://www.snik.eu/sparql contains the current version, which is shown in the graph visualization http://www.snik.eu/graph. Changes to these files here will not influence the contents of the SPARQL endpoint, use the OntoWiki at http://www.snik.eu/ontowiki for that.
 
+To generate an up-to-date dump of a subontology, enter `DESCRIBE <http://www.snik.eu/ontology/`*subontology*`>` into the [SPARQL endpoint](http://www.snik.eu/sparql), for example [`DESCRIBE <http://www.snik.eu/ontology/bb>`](http://www.snik.eu/sparql?default-graph-uri=&query=DESCRIBE+%3Chttp%3A%2F%2Fwww.snik.eu%2Fontology%2Fbb%3E&should-sponge=&format=application%2Frdf%2Bxml&timeout=0&debug=on).
+
 ## Components
 
 | Subontology | Name | Source | Comments |
