@@ -1,0 +1,30 @@
+## Run after construct_virtual_triples_and_missing.sparql.txt
+
+construct {?s ?p ?o. }
+{
+{
+?s meta:isDecomposedIn ?o.
+?o meta:subTopClass meta:Role.
+bind (meta:roleComponent as ?p).
+} UNION
+{
+?s meta:isDecomposedIn ?o.
+?o meta:subTopClass meta:EntityType.
+bind (meta:entityTypeComponent as ?p).
+} UNION
+{
+?s meta:isDecomposedIn ?o.
+?o meta:subTopClass meta:Function.
+bind (meta:functionComponent as ?p).
+} UNION
+{
+?s meta:isResponsibleFor ?o.
+?o meta:subTopClass meta:Function.
+bind (meta:isResponsibleForFunction as ?p).
+} UNION 
+{
+?s meta:isResponsibleFor ?o.
+?o meta:subTopClass meta:EntityType.
+bind (meta:isResponsibleForEntityType as ?p).
+} 
+}
