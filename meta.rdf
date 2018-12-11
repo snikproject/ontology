@@ -129,14 +129,14 @@
 	<owl:ObjectProperty rdf:about="increases">
 		<rdfs:label xml:lang="en">increases</rdfs:label>
 	  	<rdfs:label xml:lang="de">erhöht</rdfs:label>
-		<rdfs:domain rdf:resource="EntityType"/>
+		<rdfs:domain rdf:resource="Function"/>
 		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="decreases">
 		<rdfs:label xml:lang="en">decreases</rdfs:label>
 	  	<rdfs:label xml:lang="de">senkt</rdfs:label>
-		<rdfs:domain rdf:resource="EntityType"/>
+		<rdfs:domain rdf:resource="Function"/>
 		<rdfs:range rdf:resource="EntityType"/>
 	</owl:ObjectProperty>
 
