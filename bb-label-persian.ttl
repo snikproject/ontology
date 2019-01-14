@@ -1,0 +1,3395 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.snik.eu/ontology/bb/199993EG>
+    <http://www.w3.org/2000/01/rdf-schema#label> "1999/93/EG"@fa .
+
+<http://www.snik.eu/ontology/bb/1TierArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری سطح 1"@fa .
+
+<http://www.snik.eu/ontology/bb/2PhaseCommitProtocol>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پروتکل دو مرحله ای"@fa .
+
+<http://www.snik.eu/ontology/bb/2TierArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری 2 لایه"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2>
+    <http://www.w3.org/2000/01/rdf-schema#label> "3LGMA2"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2ApplicationComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجزای برنامه 3LGM2"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2B>
+    <http://www.w3.org/2000/01/rdf-schema#label> "3LGMA2-B"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2CommunicationInterface>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رابط ارتباطی3LGM²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2CommunicationLink>
+    <http://www.w3.org/2000/01/rdf-schema#label> "لینک ارتباط 3LGM ²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2ComputerBasedApplicationComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ترکیب دهنده مبتنی بر رایانه 3LGM ²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2DataTransmissionConnection>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رابطه انتقال داده 3LGM²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2DomainLayer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "لایه دامنه 3LGM²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2EnterpriseFunction>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تابع سازمانی 3LGM2"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2EntityType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوع عنصر 3LGM ²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2InformationProcess>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فرآیند اطلاعات 3LGM²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2InterlayerRelationship>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رابطه میان لایه 3LGM ² "@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2IntralayerRelationship>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رابطه  میان لایه 3LGM ²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2Location>
+    <http://www.w3.org/2000/01/rdf-schema#label> "3LGM ² مکان"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "لایه ابزار منطقی 3LGM²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2M>
+    <http://www.w3.org/2000/01/rdf-schema#label> "3LGMA2-M"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2MCommunicationStandard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد ارتباطات 3LGM²-M"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2MMessageType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انواع پیام 3LGM ²-M"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2MessageType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوع پیام 3LGM²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2OrganizationalSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم سازمانی 3LGM²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2OrganizationalUnit>
+    <http://www.w3.org/2000/01/rdf-schema#label> "واحد سازمانی 3LGM2"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2PhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "3LGM² سیستم پردازش داده های فیزیکی"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "لایه ابزار فیزیکی 3LGM2"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2ReceivingInterface>
+    <http://www.w3.org/2000/01/rdf-schema#label> " اینترفیس دریافت  3LGM2"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2S>
+    <http://www.w3.org/2000/01/rdf-schema#label> "3LGM2-S"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2SInvokingInterface>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رابط کاربری 3LGM2-S"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2SProvidingInterface>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارائه رابط 3LGM2-S"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2SService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "3LGM²-S سرویس"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2SServiceClass>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کلاس خدمات 3LGM2-S"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2SendingInterface>
+    <http://www.w3.org/2000/01/rdf-schema#label> "3LGM ² ارسال رابط"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2SoftwareProduct>
+    <http://www.w3.org/2000/01/rdf-schema#label> "3LGMÂ² محصول نرم افزار"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2Support>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پشتیبانی 3LGM2"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2Tool>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ابزار 3LGM ²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2ToolClass>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کلاس ابزار 3LGM²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2TransmittingMedium>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رسانه فرستنده 3LGM²"@fa .
+
+<http://www.snik.eu/ontology/bb/3LGM2Use>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استفاده از 3LGM ²"@fa .
+
+<http://www.snik.eu/ontology/bb/3TierArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری سطح 3"@fa .
+
+<http://www.snik.eu/ontology/bb/A01>
+    <http://www.w3.org/2000/01/rdf-schema#label> "A01"@fa .
+
+<http://www.snik.eu/ontology/bb/A02>
+    <http://www.w3.org/2000/01/rdf-schema#label> "A02"@fa .
+
+<http://www.snik.eu/ontology/bb/A03>
+    <http://www.w3.org/2000/01/rdf-schema#label> "A03"@fa .
+
+<http://www.snik.eu/ontology/bb/AC1Style>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک AC1"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "روش AC1"@fa .
+
+<http://www.snik.eu/ontology/bb/ACnStyle>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ACn سبک"@fa .
+
+<http://www.snik.eu/ontology/bb/AccessControl>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کنترل دسترسی"@fa .
+
+<http://www.snik.eu/ontology/bb/AccessControlSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم کنترل دسترسی"@fa .
+
+<http://www.snik.eu/ontology/bb/AccessIntegration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یکپارچه سازی دسترسی"@fa .
+
+<http://www.snik.eu/ontology/bb/Accuracy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دقت"@fa .
+
+<http://www.snik.eu/ontology/bb/Acid>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ACID"@fa .
+
+<http://www.snik.eu/ontology/bb/AcquireAndImplement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "به دست آوردن و پیاده سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/Activity>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فعالیت"@fa .
+
+<http://www.snik.eu/ontology/bb/ActivityModelingElement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عنصر مدل سازی فعالیت"@fa .
+
+<http://www.snik.eu/ontology/bb/AdHocMonitoring>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مانیتورینگ ویژه"@fa .
+
+<http://www.snik.eu/ontology/bb/Adaptability>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سازگاری"@fa .
+
+<http://www.snik.eu/ontology/bb/AdaptabilityOfTheHIS>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سازگاری HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/AdaptationCost>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه ادغام"@fa .
+
+<http://www.snik.eu/ontology/bb/Administration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عملکرد اداری"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrationAndAllocationOfPatientRecords>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت و تخصیص پرونده های بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrationManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت دولتی"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrationOfBusinessTripsAndFurtherTraining>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اداره سفرهای تجاری و آموزش بیشتر"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrationOfHumanResourceMasterData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اداره منابع اصلی منابع انسانی"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrativeAdmission>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پذیرش اداری"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrativeDischargeAndBilling>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تخلف اداری و صورتحساب"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrativeEntityType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انواع موجودیت اداری"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrativeGuideline>
+    <http://www.w3.org/2000/01/rdf-schema#label> " راهنما اداری"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrativePatientData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "داده های اداری بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrativeStaff>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارکنان اداری"@fa .
+
+<http://www.snik.eu/ontology/bb/AdministrativeSticker>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برچسب اداری"@fa .
+
+<http://www.snik.eu/ontology/bb/AdmissionDiagnosis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تشخیص پذیرش"@fa .
+
+<http://www.snik.eu/ontology/bb/AdoptionOfProjectResult>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تصویب نتایج پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/Adt>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انتقال داده صورت حساب"@fa .
+
+<http://www.snik.eu/ontology/bb/AnalysisAndAssessmentOfTheCurrentHISState>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تجزیه و تحلیل و ارزیابی چگونگی فعلی HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/AnnualHospitalOperatingCost>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه عملیاتی سالانه بیمارستان "@fa .
+
+<http://www.snik.eu/ontology/bb/AnnualITBudget>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بودجه سالانه IT"@fa .
+
+<http://www.snik.eu/ontology/bb/ApplicationComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عنصر نرم افزار"@fa .
+
+<http://www.snik.eu/ontology/bb/ApplicationComponentStyle>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک کامپوننت کاربرد"@fa .
+
+<http://www.snik.eu/ontology/bb/ApplicationPortfolio>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نمونه کار برنامه"@fa .
+
+<http://www.snik.eu/ontology/bb/ApplicationServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سروربرنامه "@fa .
+
+<http://www.snik.eu/ontology/bb/Appointment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "وقت ملاقات"@fa .
+
+<http://www.snik.eu/ontology/bb/AppointmentScheduling>
+    <http://www.w3.org/2000/01/rdf-schema#label> "زمان بندی قرار ملاقات"@fa .
+
+<http://www.snik.eu/ontology/bb/AppropriatePhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم مناسب پردازش داده های فیزیکی"@fa .
+
+<http://www.snik.eu/ontology/bb/ApprovalToAStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تصویب برای مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/ApprovalToStrategicInformationManagementPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تصویب طرح مدیریت اطلاعات استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/ArchitecturalStyle>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک معماری"@fa .
+
+<http://www.snik.eu/ontology/bb/ArchitecturalStyleOfTheLogicalToolLayer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک معماری لایه ابزار منطقی"@fa .
+
+<http://www.snik.eu/ontology/bb/ArchitecturalStyleOfThePhysicalToolLayer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک معماری لایه ابزار فیزیکی"@fa .
+
+<http://www.snik.eu/ontology/bb/ArchitectureOfAnInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری یک سیستم اطلاعاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/Archiving>
+    <http://www.w3.org/2000/01/rdf-schema#label> "آرشیو"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "بایگانی"@fa .
+
+<http://www.snik.eu/ontology/bb/ArchivingOfPatientInformation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بایگانی اطلاعات بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/ArtificialSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم مصنوعی"@fa .
+
+<http://www.snik.eu/ontology/bb/Ascii>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اسکی"@fa .
+
+<http://www.snik.eu/ontology/bb/AssetAccounting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حسابداری دارایی "@fa .
+
+<http://www.snik.eu/ontology/bb/AsynchronousCommunication>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارتباط ناهمگام"@fa .
+
+<http://www.snik.eu/ontology/bb/Atc>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ATC"@fa .
+
+<http://www.snik.eu/ontology/bb/Atomicity>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اتمی بودن"@fa .
+
+<http://www.snik.eu/ontology/bb/AuthenticityOfData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صحت داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/AvailabilityOfApplicationComponents>
+    <http://www.w3.org/2000/01/rdf-schema#label> "در دسترس بودن اجزای برنامه"@fa .
+
+<http://www.snik.eu/ontology/bb/AvailabilityOfData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "در دسترس بودن داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/AvailabilityOfTheApplicationComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "در دسترس بودن کامپوننت برنامه"@fa .
+
+<http://www.snik.eu/ontology/bb/AvailablePhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی در دسترس"@fa .
+
+<http://www.snik.eu/ontology/bb/AvailableServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور دسترس"@fa .
+
+<http://www.snik.eu/ontology/bb/BPflV>
+    <http://www.w3.org/2000/01/rdf-schema#label> "BPflv"@fa .
+
+<http://www.snik.eu/ontology/bb/Backbone>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پشتیبان"@fa .
+
+<http://www.snik.eu/ontology/bb/BalanceOfComputerBasedAndNonComputerBasedTools>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تعادل ابزارهای مبتنی بر کامپیوتر و غیر کامپیوتری"@fa .
+
+<http://www.snik.eu/ontology/bb/BalanceOfDataSecurityAndWorkingProcesses>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تعادل امنیت اطلاعات و فرآیندهای کاری"@fa .
+
+<http://www.snik.eu/ontology/bb/BalanceOfDocumentationQualityAndDocumentationEfforts>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تعادل کیفیت مستندات و تلاش های مستند سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/BalanceOfFunctionalLeannessAndFunctionalRedundancy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تعادل اندکگری و افزونگری عملکردی"@fa .
+
+<http://www.snik.eu/ontology/bb/BalanceOfHomegeneityAndHeterogeneity>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تعادل یکنواختی و ناهمگونی"@fa .
+
+<http://www.snik.eu/ontology/bb/BalancedNetwork>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه متعادل"@fa .
+
+<http://www.snik.eu/ontology/bb/Bar>
+    <http://www.w3.org/2000/01/rdf-schema#label> "BAR"@fa .
+
+<http://www.snik.eu/ontology/bb/Bdsg>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قانون فدرال حفاظت از داده"@fa .
+
+<http://www.snik.eu/ontology/bb/Bed>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تخت"@fa .
+
+<http://www.snik.eu/ontology/bb/BedOccupation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اشغال تخت"@fa .
+
+<http://www.snik.eu/ontology/bb/BehavioralPerspective>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دیدگاه رفتاری"@fa .
+
+<http://www.snik.eu/ontology/bb/Benchmarking>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معیار سنجش"@fa .
+
+<http://www.snik.eu/ontology/bb/BestOfBreedArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری بهترین نژاد"@fa .
+
+<http://www.snik.eu/ontology/bb/BestPracticeBenchmark>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معیار بهترین شیوه"@fa .
+
+<http://www.snik.eu/ontology/bb/Bill>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صورتحساب"@fa .
+
+<http://www.snik.eu/ontology/bb/BillingOfAccountableServices>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صورتحساب خدمات قابل توضیح"@fa .
+
+<http://www.snik.eu/ontology/bb/BloodBank>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بانک خون"@fa .
+
+<http://www.snik.eu/ontology/bb/BloodBankManagementSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم مدیریت بانک خون"@fa .
+
+<http://www.snik.eu/ontology/bb/BodyWashing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شستشو بدن"@fa .
+
+<http://www.snik.eu/ontology/bb/Book>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کتاب"@fa .
+
+<http://www.snik.eu/ontology/bb/Bus>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اتوبوس"@fa .
+
+<http://www.snik.eu/ontology/bb/BusinessIntelligenceSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات کسب و کار"@fa .
+
+<http://www.snik.eu/ontology/bb/BusinessProcess>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فرآیند کاری"@fa .
+
+<http://www.snik.eu/ontology/bb/BusinessProcessMetamodel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "متامودل فرایند کسب و کار"@fa .
+
+<http://www.snik.eu/ontology/bb/BusinessProcessModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل فرآیند کسب و کار"@fa .
+
+<http://www.snik.eu/ontology/bb/BusinessProcessReferenceModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل مرجع فرآیند کسب و کار"@fa .
+
+<http://www.snik.eu/ontology/bb/BusinessReferenceModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل مرجع کسب و کار"@fa .
+
+<http://www.snik.eu/ontology/bb/BusinessStrategy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استراتژی کسب و کار"@fa .
+
+<http://www.snik.eu/ontology/bb/CP1Style>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک CP1"@fa .
+
+<http://www.snik.eu/ontology/bb/CPnStyle>
+    <http://www.w3.org/2000/01/rdf-schema#label> "CPn سبک"@fa .
+
+<http://www.snik.eu/ontology/bb/Car>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ماشین"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "خودرو"@fa .
+
+<http://www.snik.eu/ontology/bb/CardiovascularInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات قلب و عروق"@fa .
+
+<http://www.snik.eu/ontology/bb/Case>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مورد"@fa .
+
+<http://www.snik.eu/ontology/bb/CaseMixIndex>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شاخص نمونه مورد"@fa .
+
+<http://www.snik.eu/ontology/bb/CaseStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مطالعه موردی"@fa .
+
+<http://www.snik.eu/ontology/bb/Catering>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پذیرایی"@fa .
+
+<http://www.snik.eu/ontology/bb/Cchit>
+    <http://www.w3.org/2000/01/rdf-schema#label> "CCHIT"@fa .
+
+<http://www.snik.eu/ontology/bb/CchitFunctionalCriterion>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معیار کارکردی CCHIT"@fa .
+
+<http://www.snik.eu/ontology/bb/Ccow>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارگروه شیء متن بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/CcowStandard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد CCOW"@fa .
+
+<http://www.snik.eu/ontology/bb/Cda>
+    <http://www.w3.org/2000/01/rdf-schema#label> "CDA"@fa .
+
+<http://www.snik.eu/ontology/bb/Cdrom>
+    <http://www.w3.org/2000/01/rdf-schema#label> "CD-ROM"@fa .
+
+<http://www.snik.eu/ontology/bb/Cen>
+    <http://www.w3.org/2000/01/rdf-schema#label> "CEN"@fa .
+
+<http://www.snik.eu/ontology/bb/CentralizedComputingCenter>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مرکز محاسبات متمرکز"@fa .
+
+<http://www.snik.eu/ontology/bb/Ceo>
+    <http://www.w3.org/2000/01/rdf-schema#label> "��دیر اجرایی"@fa .
+
+<http://www.snik.eu/ontology/bb/CertifiabilityOfSoftware>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قابلیت اطمینان از نرم افزار"@fa .
+
+<http://www.snik.eu/ontology/bb/CertifiablePhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گواهینامه سیستم پردازش داده های فیزیکی"@fa .
+
+<http://www.snik.eu/ontology/bb/Certification>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صدور گواهینامه"@fa .
+
+<http://www.snik.eu/ontology/bb/CertificationByCCHIT>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صدور گواهینامه CCHIT"@fa .
+
+<http://www.snik.eu/ontology/bb/CertificationByEuroRec>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صدور گواهینامه EuroRec"@fa .
+
+<http://www.snik.eu/ontology/bb/CertificationByISO>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صدور گواهینامه ISO"@fa .
+
+<http://www.snik.eu/ontology/bb/Cfo>
+    <http://www.w3.org/2000/01/rdf-schema#label> "CFO"@fa .
+
+<http://www.snik.eu/ontology/bb/ChangeManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت تغییر"@fa .
+
+<http://www.snik.eu/ontology/bb/ChemotherapeuticTreatment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "درمان شیمی درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/ChiefInformationOfficer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مسئول ارشد اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/ClassDiagram>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نمودار کلاس"@fa .
+
+<http://www.snik.eu/ontology/bb/Classification>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طبقه بندی"@fa .
+
+<http://www.snik.eu/ontology/bb/ClassificationOfDiagnoses>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طبقه بندی تشخیص"@fa .
+
+<http://www.snik.eu/ontology/bb/ClassificationOfProcedures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طبقه بندی روش ها"@fa .
+
+<http://www.snik.eu/ontology/bb/ClientServerArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری مشتری-سرور"@fa .
+
+<http://www.snik.eu/ontology/bb/ClinicalChemistryReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش شیمی بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/ClinicalDataWarehouse>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انبار داده بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/ClinicalDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گروه بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/ClinicalDocumentation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مستندات بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/ClinicalInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/ClinicalPathway>
+    <http://www.w3.org/2000/01/rdf-schema#label> "راه بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/ClinicalResearch>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تحقیقات بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/ClinicalTrial>
+    <http://www.w3.org/2000/01/rdf-schema#label> "آزمایشات بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/CloseToHierarchyNetwork>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه نزدیک به سلسله مراتب"@fa .
+
+<http://www.snik.eu/ontology/bb/Cluster>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خوشه"@fa .
+
+<http://www.snik.eu/ontology/bb/Cobit>
+    <http://www.w3.org/2000/01/rdf-schema#label> "COBIT"@fa .
+
+<http://www.snik.eu/ontology/bb/CobitDomain>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دامنه COBIT"@fa .
+
+<http://www.snik.eu/ontology/bb/CodingOfDiagnoses>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کد گذاری تشخیص"@fa .
+
+<http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کد گذاری تشخیص و جراحی ها"@fa .
+
+<http://www.snik.eu/ontology/bb/CodingOfProcedures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کد گذاری جراحی"@fa .
+
+<http://www.snik.eu/ontology/bb/CodingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم کد گذاری"@fa .
+
+<http://www.snik.eu/ontology/bb/Communication>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارتباطات"@fa .
+
+<http://www.snik.eu/ontology/bb/CommunicationAbility>
+    <http://www.w3.org/2000/01/rdf-schema#label> "توانایی ارتباطی"@fa .
+
+<http://www.snik.eu/ontology/bb/CommunicationInterface>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رابط ارتباطی"@fa .
+
+<http://www.snik.eu/ontology/bb/CommunicationLink>
+    <http://www.w3.org/2000/01/rdf-schema#label> "لینک ارتباط"@fa .
+
+<http://www.snik.eu/ontology/bb/CommunicationNetwork>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه ارتباطی"@fa .
+
+<http://www.snik.eu/ontology/bb/CommunicationPattern>
+    <http://www.w3.org/2000/01/rdf-schema#label> "الگوی ارتباطی"@fa .
+
+<http://www.snik.eu/ontology/bb/CommunicationProtocol>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پروتکل ارتباطی"@fa .
+
+<http://www.snik.eu/ontology/bb/CommunicationServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور ارتباطی"@fa .
+
+<http://www.snik.eu/ontology/bb/CommunicationStandard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد ارتباطات"@fa .
+
+<http://www.snik.eu/ontology/bb/Complaint>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شکایت"@fa .
+
+<http://www.snik.eu/ontology/bb/Completeness>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تکمیل"@fa .
+
+<http://www.snik.eu/ontology/bb/ComponentAlignmentModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل سازگاری اجزا"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputedTomography>
+    <http://www.w3.org/2000/01/rdf-schema#label> "توموگرافی کامپیوتری"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputerBasedApplicationComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجزا برنامه مبتنی بر کامپیوتر"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputerBasedInformationProcessing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پردازش اطلاعات مبتنی بر کامپیوتر"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputerBasedInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعاتی مبتنی بر کامپیوتر"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputerBasedNursingForm>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فرم پرستاری مبتنی بر کامپیوتر"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputerBasedPhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی کامپیوتری"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputerBasedTool>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ابزارمبتنی بر کامپیوتر"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputerNetwork>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه ی کامپیوتری"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputerSupportedInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعاتی پشتیبانی شده توسط کامپیوتر"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputerSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم کامپیوتری"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputerizedPhysicianOrderEntrySystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظام ورود به سیستم درخاست یافته های پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputingCenter>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مرکز فناوری"@fa .
+
+<http://www.snik.eu/ontology/bb/ComputingCenterManager>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیر مرکز محاسبات"@fa .
+
+<http://www.snik.eu/ontology/bb/Confidentiality>
+    <http://www.w3.org/2000/01/rdf-schema#label> "محرمانه بودن"@fa .
+
+<http://www.snik.eu/ontology/bb/ConfigurationManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت پیکربندی"@fa .
+
+<http://www.snik.eu/ontology/bb/ConformityWithUserExpectations>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مطابقت با انتظارات کاربر"@fa .
+
+<http://www.snik.eu/ontology/bb/ConsensusMethod>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روش توافق عام"@fa .
+
+<http://www.snik.eu/ontology/bb/Consistency>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ثبات"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "استحکام"@fa .
+
+<http://www.snik.eu/ontology/bb/Consultant>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مشاور"@fa .
+
+<http://www.snik.eu/ontology/bb/ContextualIntegration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ادغام متنی"@fa .
+
+<http://www.snik.eu/ontology/bb/ContinualServiceImprovement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بهبود مستمر خدمات"@fa .
+
+<http://www.snik.eu/ontology/bb/ContinuousHISAuditing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حسابرسی مستمر HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/ContinuousQualityImprovementProcess>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فرآیند بهبود کیفیت مداوم"@fa .
+
+<http://www.snik.eu/ontology/bb/Controllability>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کنترل پذیری"@fa .
+
+<http://www.snik.eu/ontology/bb/ControlledRedundancyOfData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کنترل افزونگی داده ها "@fa .
+
+<http://www.snik.eu/ontology/bb/ControlledTranscriptionOfData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کنترل رونویسی داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/Controlling>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کنترل کردن"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "نظارت کردن"@fa .
+
+<http://www.snik.eu/ontology/bb/ControllingReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش نظارت"@fa .
+
+<http://www.snik.eu/ontology/bb/ConvergingTechnologies>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فن آوریهای هم گرا"@fa .
+
+<http://www.snik.eu/ontology/bb/CopperCable>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کابل مسی"@fa .
+
+<http://www.snik.eu/ontology/bb/CorrectInformation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اطلاعات صحیح"@fa .
+
+<http://www.snik.eu/ontology/bb/CostAccounting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه حسابداری "@fa .
+
+<http://www.snik.eu/ontology/bb/CostBenefitAnalysis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تجزیه و تحلیل سود و هزینه"@fa .
+
+<http://www.snik.eu/ontology/bb/CostEffectivenessAnalysis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تجزیه و تحلیل هزینه اثربخشی"@fa .
+
+<http://www.snik.eu/ontology/bb/CostOfTreatment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه درمان"@fa .
+
+<http://www.snik.eu/ontology/bb/CostUnit>
+    <http://www.w3.org/2000/01/rdf-schema#label> "واحد هزینه"@fa .
+
+<http://www.snik.eu/ontology/bb/CreationOfStrategicInformationManagementPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ایجاد برنامه مدیریت اطلاعات استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/CreditAccounting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حسابداری اعتباری"@fa .
+
+<http://www.snik.eu/ontology/bb/CrossEnterpriseDocumentSharing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اشتراک گذاری سازمانی اسناد"@fa .
+
+<http://www.snik.eu/ontology/bb/CtScanner>
+    <http://www.w3.org/2000/01/rdf-schema#label> "CT اسکنر"@fa .
+
+<http://www.snik.eu/ontology/bb/Customizing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سفارشی کردن"@fa .
+
+<http://www.snik.eu/ontology/bb/DB1Style>
+    <http://www.w3.org/2000/01/rdf-schema#label> "DB1 Style"@fa .
+
+<http://www.snik.eu/ontology/bb/DBnStyle>
+    <http://www.w3.org/2000/01/rdf-schema#label> "DBn سبک"@fa .
+
+<http://www.snik.eu/ontology/bb/Data>
+    <http://www.w3.org/2000/01/rdf-schema#label> "داده"@fa .
+
+<http://www.snik.eu/ontology/bb/DataCollectionEffort>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تلاش برای جمع آوری داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/DataIntegration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یکپارچگی داده ها"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "ادغام داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/DataMetamodel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "داده متامودل"@fa .
+
+<http://www.snik.eu/ontology/bb/DataModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل داده"@fa .
+
+<http://www.snik.eu/ontology/bb/DataProtection>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حفاظت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/DataReferenceModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل داده مرجع "@fa .
+
+<http://www.snik.eu/ontology/bb/DataSecurity>
+    <http://www.w3.org/2000/01/rdf-schema#label> "امنیت داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/DataSecurityOfficer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مسئول امنیت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/DataTransmissionConnection>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اتصال انتقال داده"@fa .
+
+<http://www.snik.eu/ontology/bb/DataWarehouseSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم انبار داده"@fa .
+
+<http://www.snik.eu/ontology/bb/DatabaseServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور بانک اطلاعاتی"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "سرور پایگاه داده"@fa .
+
+<http://www.snik.eu/ontology/bb/DatabaseStyle>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک پایگاه داده"@fa .
+
+<http://www.snik.eu/ontology/bb/DatabaseSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پایگاه داده"@fa .
+
+<http://www.snik.eu/ontology/bb/DebtorAccounting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بدهکارحسابداری "@fa .
+
+<http://www.snik.eu/ontology/bb/DecisionMakingAndPatientInformation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تصمیم گیری و اطلاعات بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/DecisionMakingPlanningAndOrganizationOfPatientTreatment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تصمیم گیری برنامه ریزی و سازماندهی درمان بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/DecisionSupportSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پشتیبانی تصمیم"@fa .
+
+<http://www.snik.eu/ontology/bb/Decomposition>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تجزیه"@fa .
+
+<http://www.snik.eu/ontology/bb/DecubitusProphylaxis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پیشگیری از انقباض"@fa .
+
+<http://www.snik.eu/ontology/bb/DeductiveApproach>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رویکرد قیاسی"@fa .
+
+<http://www.snik.eu/ontology/bb/DegreeOfComputerSupport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "درجه پشتی��انی کامپیوتر"@fa .
+
+<http://www.snik.eu/ontology/bb/DeliverAndSupport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تحویل و پشتیبانی"@fa .
+
+<http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارائه خدمات مشتری متمرکز"@fa .
+
+<http://www.snik.eu/ontology/bb/DelphiSurvey>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بررسی دلفی"@fa .
+
+<http://www.snik.eu/ontology/bb/DepartmentOfFacilityManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بخش مدیریت تسهیلات"@fa .
+
+<http://www.snik.eu/ontology/bb/DepartmentOfQualityManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گروه مدیریت کیفیت"@fa .
+
+<http://www.snik.eu/ontology/bb/DepartmentalSystemAdministrator>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیر بخشی سیستم"@fa .
+
+<http://www.snik.eu/ontology/bb/DeploymentOfStrategicInformationManagementPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استقرار برنامه مدیریت اطلاعات استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/DescriptionOfTheCurrentHISState>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شرح چگونگی کنونی HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/DescriptionOfThePlannedHISState>
+    <http://www.w3.org/2000/01/rdf-schema#label> "توصیف وضعیت برنامه ریزی شده HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/DesigningCustomerCenteredServices>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طراحی خدمات مشتری متمرکز"@fa .
+
+<http://www.snik.eu/ontology/bb/DhcpServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور DHCP"@fa .
+
+<http://www.snik.eu/ontology/bb/Diagnosis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تشخیص"@fa .
+
+<http://www.snik.eu/ontology/bb/DiagnosisClass>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کلاس تشخیص"@fa .
+
+<http://www.snik.eu/ontology/bb/DiagnosticProcedure>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روش تشخیصی"@fa .
+
+<http://www.snik.eu/ontology/bb/DiagnosticService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خدمات تشخیصی"@fa .
+
+<http://www.snik.eu/ontology/bb/DiagnosticStandard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد تشخیصی"@fa .
+
+<http://www.snik.eu/ontology/bb/DialysisInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعاتی دیالیز"@fa .
+
+<http://www.snik.eu/ontology/bb/DicomFileFormat>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فرمت فایل DICOM"@fa .
+
+<http://www.snik.eu/ontology/bb/DicomMessageFormat>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فرمت پیام DICOM"@fa .
+
+<http://www.snik.eu/ontology/bb/DicomNetworkProtocol>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پروتکل شبکه DICOM"@fa .
+
+<http://www.snik.eu/ontology/bb/DicomService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خدمات DICOM"@fa .
+
+<http://www.snik.eu/ontology/bb/DicomStandard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد DICOM"@fa .
+
+<http://www.snik.eu/ontology/bb/Diet>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رژیم غذایی"@fa .
+
+<http://www.snik.eu/ontology/bb/DigitalDictationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم  دیجیتال دیکته"@fa .
+
+<http://www.snik.eu/ontology/bb/DigitalImage>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تصویر دیجیتال"@fa .
+
+<http://www.snik.eu/ontology/bb/DigitalXRay>
+    <http://www.w3.org/2000/01/rdf-schema#label> "X-Ray دیجیتال"@fa .
+
+<http://www.snik.eu/ontology/bb/Directing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدایت"@fa .
+
+<http://www.snik.eu/ontology/bb/DirectiveForHISConstruction>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دستورالعمل برای ساخت HIS"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "دستور ساخت HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/DischargeSummary>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خلاصه تخلیه"@fa .
+
+<http://www.snik.eu/ontology/bb/DiseaseManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت بیماری"@fa .
+
+<http://www.snik.eu/ontology/bb/DnsServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "DNS سرور"@fa .
+
+<http://www.snik.eu/ontology/bb/DocumentArchivingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم بایگانی سند"@fa .
+
+<http://www.snik.eu/ontology/bb/DocumentStandard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد سند"@fa .
+
+<http://www.snik.eu/ontology/bb/Documentation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مستندات"@fa .
+
+<http://www.snik.eu/ontology/bb/DoubleExamination>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بررسی دوگانه"@fa .
+
+<http://www.snik.eu/ontology/bb/Drg>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تشخیص گروه های مرتبط"@fa .
+
+<http://www.snik.eu/ontology/bb/DrgCalculation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "محاسبه DRG"@fa .
+
+<http://www.snik.eu/ontology/bb/Drug>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دارو"@fa .
+
+<http://www.snik.eu/ontology/bb/DrugService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرویس دارویی"@fa .
+
+<http://www.snik.eu/ontology/bb/Durability>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دوام"@fa .
+
+<http://www.snik.eu/ontology/bb/EMailCommunication>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارتباطات ایمیل"@fa .
+
+<http://www.snik.eu/ontology/bb/EN12538>
+    <http://www.w3.org/2000/01/rdf-schema#label> "EN12538"@fa .
+
+<http://www.snik.eu/ontology/bb/EN12539>
+    <http://www.w3.org/2000/01/rdf-schema#label> "EN12539"@fa .
+
+<http://www.snik.eu/ontology/bb/EN1613>
+    <http://www.w3.org/2000/01/rdf-schema#label> "EN1613"@fa .
+
+<http://www.snik.eu/ontology/bb/EconomicAnalysis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تحلیل اقتصادی"@fa .
+
+<http://www.snik.eu/ontology/bb/Edifact>
+    <http://www.w3.org/2000/01/rdf-schema#label> "EDIFACT"@fa .
+
+<http://www.snik.eu/ontology/bb/Education>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اموزش"@fa .
+
+<http://www.snik.eu/ontology/bb/EducationResearch>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تحقیق و آموزش"@fa .
+
+<http://www.snik.eu/ontology/bb/EffectivenessStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مطالعه اثربخشی"@fa .
+
+<http://www.snik.eu/ontology/bb/Efficiency>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بهره وری"@fa .
+
+<http://www.snik.eu/ontology/bb/EfficiencyOfInformationLogistics>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارآیی لجستیک اطلاعات"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "کارآیی تدارکات اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/EfqmExcellenceModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل برتری EFQM"@fa .
+
+<http://www.snik.eu/ontology/bb/EhrStrategy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "EHR استراتژی"@fa .
+
+<http://www.snik.eu/ontology/bb/ElectronicHealthRecord>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پرونده الکترونیکی سلامت"@fa .
+
+<http://www.snik.eu/ontology/bb/ElectronicPatientRecord>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ثبت الکترونیکی بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/EncryptionSoftware>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نرم افزار رمزگذاری"@fa .
+
+<http://www.snik.eu/ontology/bb/EnterpriseFunction>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تابع سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/EnterpriseFunctionModelingElement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عنصر مدل سازی کار کرد شرکت"@fa .
+
+<http://www.snik.eu/ontology/bb/EnterpriseOrganizationalStructure>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ساختار سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/EnterpriseResourcePlanningSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم برنامه ریزی منابع سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/EntityType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوع نهاد"@fa .
+
+<http://www.snik.eu/ontology/bb/EntityTypeModelingElement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوع موجودیت عنصر مدل سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/EntityTypeRelation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارتباط انواع موجودیت"@fa .
+
+<http://www.snik.eu/ontology/bb/EntityTypeRelationModelingElement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انواع موجودیت عنصر مدل سازی رابطه"@fa .
+
+<http://www.snik.eu/ontology/bb/ErrorTolerance>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تحمل خطا"@fa .
+
+<http://www.snik.eu/ontology/bb/EstablishAndPromoteTheStrategicInformationManagementPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ایجاد و ارتقاء برنامه مدیریت اطلاعات استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/EstablishingReferentialIntegrity>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ایجاد یکپارچگی ارجاع"@fa .
+
+<http://www.snik.eu/ontology/bb/Ethernet>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اترنت"@fa .
+
+<http://www.snik.eu/ontology/bb/EuroRec>
+    <http://www.w3.org/2000/01/rdf-schema#label> "EuroRec"@fa .
+
+<http://www.snik.eu/ontology/bb/EuroRecEHRQualitySeal>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نشان کیفیت EHR از EuroRec "@fa .
+
+<http://www.snik.eu/ontology/bb/EuropeanNorm>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد اروپایی"@fa .
+
+<http://www.snik.eu/ontology/bb/Evaluation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارزیابی"@fa .
+
+<http://www.snik.eu/ontology/bb/EvaluationMethod>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روش ارزیابی"@fa .
+
+<http://www.snik.eu/ontology/bb/Event>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رویداد"@fa .
+
+<http://www.snik.eu/ontology/bb/EventCountingStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بررسی شمارش رویداد"@fa .
+
+<http://www.snik.eu/ontology/bb/EventDrivenProcessChain>
+    <http://www.w3.org/2000/01/rdf-schema#label> "زنجیره فرآیند مبتنی بر رویداد"@fa .
+
+<http://www.snik.eu/ontology/bb/EventModelingElement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رویداد مدل سازی عنصر"@fa .
+
+<http://www.snik.eu/ontology/bb/Excretion>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دفع"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfAQuantitativeStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای یک مطالعه کمی"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfAnITEvaluationStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای یک مطالعه ارزیابی فناوری اطلاعات "@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfAnOperation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای یک عمل"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfChemotheraphy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای شیمی درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrials>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای مطالعات پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrialsAndExperiments>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای مطالعات پزشکی و آزمایش ها"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticAndTherapeuticProcedures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای روشهای تشخیصی و درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticTherapeuticAndNursingProcedures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای روش های تشخیصی درمانی و پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfIrradiation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای تابش"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfLabExaminations>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انجام تست آزمایشگاه"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfNursingProcedures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای روشهای پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfProphylaxis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای پیشگیری"@fa .
+
+<http://www.snik.eu/ontology/bb/ExecutionOfRadiologicalProcedures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای روال های رادیولوژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/ExperimentalStudyDesign>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طراحی مطالعه تجربی"@fa .
+
+<http://www.snik.eu/ontology/bb/ExternalFinding>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کشف خارجی "@fa .
+
+<http://www.snik.eu/ontology/bb/FacilityAndArea>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تسهیلات و مساحت"@fa .
+
+<http://www.snik.eu/ontology/bb/FacilityManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت امکانات"@fa .
+
+<http://www.snik.eu/ontology/bb/FailureManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت خطا"@fa .
+
+<http://www.snik.eu/ontology/bb/FamilyHistory>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سابقه خانوادگی"@fa .
+
+<http://www.snik.eu/ontology/bb/FaxMachine>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دستگاه فکس"@fa .
+
+<http://www.snik.eu/ontology/bb/Feature>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ویژگی"@fa .
+
+<http://www.snik.eu/ontology/bb/FederatedDatabaseSchema>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طرح پایگاه داده متعهد"@fa .
+
+<http://www.snik.eu/ontology/bb/FederatedDatabaseSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پایگاه داده متعهد"@fa .
+
+<http://www.snik.eu/ontology/bb/FieldStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بررسی زمینه"@fa .
+
+<http://www.snik.eu/ontology/bb/FinancialAccounting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حسابداری مالی"@fa .
+
+<http://www.snik.eu/ontology/bb/FinancialAndControllingDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بخش مالی و کنترل"@fa .
+
+<http://www.snik.eu/ontology/bb/FinancialControlling>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بازرسی مالی"@fa .
+
+<http://www.snik.eu/ontology/bb/FinancialResource>
+    <http://www.w3.org/2000/01/rdf-schema#label> "منبع مالی"@fa .
+
+<http://www.snik.eu/ontology/bb/FinancingOfHealthCare>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تامین مالی مراقبت های بهداشتی"@fa .
+
+<http://www.snik.eu/ontology/bb/Finding>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یافته"@fa .
+
+<http://www.snik.eu/ontology/bb/FirstLevelSupport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سطح اول پشتیبانی"@fa .
+
+<http://www.snik.eu/ontology/bb/FirstStudyDesign>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طرح اولیه مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/FlexiblePhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش اطلاعات فیزیکی انعطاف پذیر"@fa .
+
+<http://www.snik.eu/ontology/bb/Food>
+    <http://www.w3.org/2000/01/rdf-schema#label> "غذا"@fa .
+
+<http://www.snik.eu/ontology/bb/ForkLift>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بالابر"@fa .
+
+<http://www.snik.eu/ontology/bb/Framework>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فرم ورک"@fa .
+
+<http://www.snik.eu/ontology/bb/FulfillmentOfLawsRelevantToInformationManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارضاء قوانین وابسته به مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/FulfillmentOfStrategicHospitalGoal>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای هدف بیمارستان استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/FulfillmentOfTheExpectationsOfDifferentStakeholders>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برآورده شدن انتظارات متقاضیان مختلف"@fa .
+
+<http://www.snik.eu/ontology/bb/FunctionalCoverageOfTheApplicationComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پوشش کاربردی اجزای برنامه"@fa .
+
+<http://www.snik.eu/ontology/bb/FunctionalIntegration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یک پارچگی کار کردی"@fa .
+
+<http://www.snik.eu/ontology/bb/FunctionalLeanness>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مختصر بودن عملکرد"@fa .
+
+<http://www.snik.eu/ontology/bb/FunctionalMetamodel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "متامدل عملکردی"@fa .
+
+<http://www.snik.eu/ontology/bb/FunctionalModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل عملکردی"@fa .
+
+<http://www.snik.eu/ontology/bb/FunctionalPerspective>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دیدگاه کاربردی"@fa .
+
+<http://www.snik.eu/ontology/bb/FunctionalRedundancy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اضافه بودن کارکرد"@fa .
+
+<http://www.snik.eu/ontology/bb/FunctionalRedundancyRate>
+    <http://www.w3.org/2000/01/rdf-schema#label> "میزان افزونگی کارکرد"@fa .
+
+<http://www.snik.eu/ontology/bb/Functionality>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عملکرد"@fa .
+
+<http://www.snik.eu/ontology/bb/FundingInstitution>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مؤسسه مالی"@fa .
+
+<http://www.snik.eu/ontology/bb/GeneralAdministrationDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اداره کل عمومی"@fa .
+
+<http://www.snik.eu/ontology/bb/GeneralPractice>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عمل عمومی"@fa .
+
+<http://www.snik.eu/ontology/bb/GeneralPractitioner>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پزشک عمومی"@fa .
+
+<http://www.snik.eu/ontology/bb/GermanLaw>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قانون آلمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/GoalOfMedicalEducation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدف آموزش پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/GoalOfMedicalResearch>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدف تحقیقات ��زشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/GovernmentalAuthority>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مقام دولتی"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7CDA>
+    <http://www.w3.org/2000/01/rdf-schema#label> "HL7 CDA"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7EventDescription>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شرح رویداد HL7"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7EventType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوع رویداد HL7"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7MessageHeader>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پیام هدر HL7"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7MessageType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوع پیام HL7"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7MessageTypeEventTypeCombination>
+    <http://www.w3.org/2000/01/rdf-schema#label> " ترکیب نوع پیام نوع رویداد HL7"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7PatientIdentification>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شناسایی بیمارHL7"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7PatientVisitInformation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اطلاعات مربوط به بیمار HL7"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7ReceiptMessage>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پیام دریافت HL7"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7ReferenceInformationModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل مرجع اطلاعات HL7"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7Standard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد HL7"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7Version2>
+    <http://www.w3.org/2000/01/rdf-schema#label> " HL7 نسخه 2"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7Version3>
+    <http://www.w3.org/2000/01/rdf-schema#label> "HL7 نسخه 3"@fa .
+
+<http://www.snik.eu/ontology/bb/HL7Version3Message>
+    <http://www.w3.org/2000/01/rdf-schema#label> "HL7 پیام نسخه 3"@fa .
+
+<http://www.snik.eu/ontology/bb/HairUndNailCare>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مراقبت از مو و ناخن"@fa .
+
+<http://www.snik.eu/ontology/bb/HardwareVendor>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فروشنده سخت افزار"@fa .
+
+<http://www.snik.eu/ontology/bb/HarmlessPhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی بی ضرر"@fa .
+
+<http://www.snik.eu/ontology/bb/HealthCareInstitution>
+    <http://www.w3.org/2000/01/rdf-schema#label> "موسسه بهداشت و درمان"@fa .
+
+<http://www.snik.eu/ontology/bb/HealthCareNetwork>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه بهداشت و درمان"@fa .
+
+<http://www.snik.eu/ontology/bb/HealthCareProfessional>
+    <http://www.w3.org/2000/01/rdf-schema#label> "متخصصان مراقبت های بهداشتی"@fa .
+
+<http://www.snik.eu/ontology/bb/HealthCareRegulation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مقررات مراقبت بهداشتی"@fa .
+
+<http://www.snik.eu/ontology/bb/HealthInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات بهداشتی HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HealthInsuranceCompany>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شرکت بیمه درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/HealthInsurancePortabilityAndAccountabilityAct>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قانون قابلیت انتقال و مسئولیت بیمه سلامت"@fa .
+
+<http://www.snik.eu/ontology/bb/HealthcareServicesSpecificationProject>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مشخصات خدمات خدمات بهداشتی و درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/HeterogeneityOfTheHISArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ناهمگونی معماری HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HeterogeneousArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری ناهمگن"@fa .
+
+<http://www.snik.eu/ontology/bb/HisArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HisBenchmarking>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معیار سنجش HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HisBenchmarkingMethod>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روش سنجش HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HisBudgetPlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی بودجه HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HisCertificate>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گواهی HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HisCertification>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گواهینامه HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HisComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کامپوننت HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HisInfrastructure>
+    <http://www.w3.org/2000/01/rdf-schema#label> "زیرساخت HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HisOperation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "HIS عملکرد"@fa .
+
+<http://www.snik.eu/ontology/bb/HisQuality>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HisStakeholder>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ذینفعان HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HomeCareInstitution>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مؤسسه مراقبت خانگی"@fa .
+
+<http://www.snik.eu/ontology/bb/HomeOfThePatient>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خانه بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/HomogeneityOfTheHISArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "همگنی معماری HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/HomogeneousArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری همگن"@fa .
+
+<http://www.snik.eu/ontology/bb/Hospital>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalAdministration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalAdministrationDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بخش مدیریت بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalBilling>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صورتحساب بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalBudget>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بودجه بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalBusinessPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طرح کسب و کار بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalCost>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه های بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalFunction>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عملکرد بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات بیمارستانی"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalManagementStaff>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارکنان مدیریت بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalRevenue>
+    <http://www.w3.org/2000/01/rdf-schema#label> "در آمد بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خدمات بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalStaff>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارکنان بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalStrategy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استراتژی بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HospitalsBoardOfDirectors>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هیئت مدیره بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/HumanActor>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بازیگر انسانی"@fa .
+
+<http://www.snik.eu/ontology/bb/HumanResource>
+    <http://www.w3.org/2000/01/rdf-schema#label> "منابع انسانی"@fa .
+
+<http://www.snik.eu/ontology/bb/HumanResourceManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت منابع انسانی"@fa .
+
+<http://www.snik.eu/ontology/bb/HumanResourcesDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "منابع انسانی"@fa .
+
+<http://www.snik.eu/ontology/bb/ICD10>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ICD10"@fa .
+
+<http://www.snik.eu/ontology/bb/ISO14721>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ISO 14721"@fa .
+
+<http://www.snik.eu/ontology/bb/ISO25000SoftwareQuality>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت نرم افزار ISO 25000"@fa .
+
+<http://www.snik.eu/ontology/bb/ISO9001>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ISO 9002"@fa .
+
+<http://www.snik.eu/ontology/bb/ISO9241>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ISO 9241"@fa .
+
+<http://www.snik.eu/ontology/bb/ISO9241109>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ISO 9241-109"@fa .
+
+<http://www.snik.eu/ontology/bb/ISO9241110>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ISO 9241-110"@fa .
+
+<http://www.snik.eu/ontology/bb/ISO9241110UserInterfaceDesignQuality>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت طراحی رابط کاربری ISO 9241-110  "@fa .
+
+<http://www.snik.eu/ontology/bb/ISOIEEE11073FamilyOfStandards>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گروه استانداردهای ISO/IEEE 11073"@fa .
+
+<http://www.snik.eu/ontology/bb/ISOTR22221>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ISO TR 22221"@fa .
+
+<http://www.snik.eu/ontology/bb/ISOTR22222>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ISO TR 22222"@fa .
+
+<http://www.snik.eu/ontology/bb/Icd>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ICD"@fa .
+
+<http://www.snik.eu/ontology/bb/Icpm>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ICPM"@fa .
+
+<http://www.snik.eu/ontology/bb/Ihe>
+    <http://www.w3.org/2000/01/rdf-schema#label> "IHE"@fa .
+
+<http://www.snik.eu/ontology/bb/IheActor>
+    <http://www.w3.org/2000/01/rdf-schema#label> "IHE بازیگر"@fa .
+
+<http://www.snik.eu/ontology/bb/IheContentProfile>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مشخصات محتوا IHE"@fa .
+
+<http://www.snik.eu/ontology/bb/IheCrossEnterpriseDocumentSharing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "به اشتراک گذاری سند در همه جای سازمانی IHE"@fa .
+
+<http://www.snik.eu/ontology/bb/IheDomain>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دامنه IHE"@fa .
+
+<http://www.snik.eu/ontology/bb/IheIntegrationProfile>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یکپارچه سازی مشخصات IHE"@fa .
+
+<http://www.snik.eu/ontology/bb/IhePatientDemographicsQuery>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پرسشنامه جمعیتی بیمار IHE"@fa .
+
+<http://www.snik.eu/ontology/bb/IheTechnicalFramework>
+    <http://www.w3.org/2000/01/rdf-schema#label> "چارچوب فنی IHE"@fa .
+
+<http://www.snik.eu/ontology/bb/IheTransaction>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انجام IHE"@fa .
+
+<http://www.snik.eu/ontology/bb/ImagingModality>
+    <http://www.w3.org/2000/01/rdf-schema#label> "چگونگی تصویر برداری"@fa .
+
+<http://www.snik.eu/ontology/bb/ImprovingCustomerCenteredServices>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بهبود خدمات مشتری متمرکز"@fa .
+
+<http://www.snik.eu/ontology/bb/IncidentAnalysis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تحلیل حادثه"@fa .
+
+<http://www.snik.eu/ontology/bb/IncidentManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت حادثه"@fa .
+
+<http://www.snik.eu/ontology/bb/IncidentTaking>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برداشت رویداد"@fa .
+
+<http://www.snik.eu/ontology/bb/IndependentHealthRecordBank>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پایگاه داده مستقل داده های سلامت"@fa .
+
+<http://www.snik.eu/ontology/bb/InductiveApproach>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رویکرد القائی"@fa .
+
+<http://www.snik.eu/ontology/bb/Information>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationAndCommunicationTechnology>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فناوری اطلاعات و ارتباطات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تدارکات اطلاعات و دانش"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationDesk>
+    <http://www.w3.org/2000/01/rdf-schema#label> "میز اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت اطلاعات"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "تابع مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementBoard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هیئت مدیره اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementCost>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گروه مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementEntityType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوع نهاد مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementGoal>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدف مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementGuideline>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دستورالعمل مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementInHealthCareNetworks>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت اطلاعات در شبکه های مراقبت های بهداشتی"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementInHospitals>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت اطلاعات در بیمارستان ها"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementOperatingCost>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه های عملیاتی مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementOrganizationalStructure>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ساختار سازمانی سازمان مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationManagementStaff>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارکنان مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationProcessing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پردازش اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationProcessingModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل پردازش اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationProcessingTool>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ابزار پردازش اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationProcessingToolModelingElement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عنصر مدل سازی ابزار پردازش اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationStorage>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ذخیره سازی اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationSystemEffectiveness>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اثربخشی سیستم اطلاعاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationSystemImprovement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بهبود سیستم اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationSystemMetamodel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "متا مدل سیستم اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationSystemModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل سیستم اطلاعاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/InformationSystemSafety>
+    <http://www.w3.org/2000/01/rdf-schema#label> "امنیت سیستم اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/InformedConsent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رضایت نامه آگاهانه"@fa .
+
+<http://www.snik.eu/ontology/bb/InfrastructureOfAnInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "زیرساخت سیستم اطلاعاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/Inpatient>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بستری"@fa .
+
+<http://www.snik.eu/ontology/bb/InpatientCareInstitution>
+    <http://www.w3.org/2000/01/rdf-schema#label> "موسسه مراقبت های سرپایی"@fa .
+
+<http://www.snik.eu/ontology/bb/InpatientEHRCertification>
+    <http://www.w3.org/2000/01/rdf-schema#label> " گواهی بیمار بستری شده"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> " گواهی پرونده الکترونیک بیمار بستری شده"@fa .
+
+<http://www.snik.eu/ontology/bb/InpatientUnit>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بخش سرپایی"@fa .
+
+<http://www.snik.eu/ontology/bb/InstitutionalHealthInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات موسسات سلامت"@fa .
+
+<http://www.snik.eu/ontology/bb/IntegratedCare>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مراقبت یکپارچه"@fa .
+
+<http://www.snik.eu/ontology/bb/IntegratedCareNetwork>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه مراقبت جامع"@fa .
+
+<http://www.snik.eu/ontology/bb/IntegratedHIS>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یگانه HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/IntegratedHealthCareDeliverySystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم یکپارچه تحویل مراقبتهای بهداشتی"@fa .
+
+<http://www.snik.eu/ontology/bb/Integration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یکپارچگی"@fa .
+
+<http://www.snik.eu/ontology/bb/IntegrationPlatform>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پلت فرم یکپارچه سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/IntegrationTechnology>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تکنولوژی یکپارچگی"@fa .
+
+<http://www.snik.eu/ontology/bb/Integrity>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تمامیت"@fa .
+
+<http://www.snik.eu/ontology/bb/IntegrityOfData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یکپارچگی داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/InternalQualityManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت کیفیت داخلی"@fa .
+
+<http://www.snik.eu/ontology/bb/InternalReportingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم گزارش گیری داخلی"@fa .
+
+<http://www.snik.eu/ontology/bb/InternationalDICOMCommittee>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کمیته بین المللی DICOM"@fa .
+
+<http://www.snik.eu/ontology/bb/Interoperability>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قابلیت همکاری"@fa .
+
+<http://www.snik.eu/ontology/bb/IntregrationPlatform>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پلتفرم یکپارچگی"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "پلتفرم یکپارچه سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/IntroductionCost>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه معرفی"@fa .
+
+<http://www.snik.eu/ontology/bb/IsoStandard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد ISO"@fa .
+
+<http://www.snik.eu/ontology/bb/Isolation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "جداسازی"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "قرنطینه"@fa .
+
+<http://www.snik.eu/ontology/bb/IsoosiReferenceModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل مرجع ISO/OSI"@fa .
+
+<http://www.snik.eu/ontology/bb/ItEvaluationStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مطالعه ارزیابی فناوری اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت و اجرای مطالعه ارزیا��ی کیفیت فناوری اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/ItInvestmentJustification>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تصدیق سرمایه گذاری فناوری اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/ItInvestmentPlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی سرمایه گذاری فناوری اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/ItServiceManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خدمات مدیریت فناوری اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/ItServiceManagementStaff>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارکنان مدیریت خدمات فناوری اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/ItSupport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پشتیبانی فناوری اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/Itil>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ITIL"@fa .
+
+<http://www.snik.eu/ontology/bb/ItilServiceLifecycle>
+    <http://www.w3.org/2000/01/rdf-schema#label> "چرخه سرویس ITIL"@fa .
+
+<http://www.snik.eu/ontology/bb/IuKDG>
+    <http://www.w3.org/2000/01/rdf-schema#label> "luKDG"@fa .
+
+<http://www.snik.eu/ontology/bb/JointCommission>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کمیسیون مشترک"@fa .
+
+<http://www.snik.eu/ontology/bb/JointCommissionsCertificationProgram>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه صدور گواهینامه مشترک"@fa .
+
+<http://www.snik.eu/ontology/bb/Jpeg>
+    <http://www.w3.org/2000/01/rdf-schema#label> "JPEG"@fa .
+
+<http://www.snik.eu/ontology/bb/KeyPerformanceIndicator>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شاخص عملکرد کلیدی"@fa .
+
+<http://www.snik.eu/ontology/bb/KhStatV>
+    <http://www.w3.org/2000/01/rdf-schema#label> "KHStatV"@fa .
+
+<http://www.snik.eu/ontology/bb/Khg>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قانون بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/Khrg>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قانون اصلاحات تامین مالی بیمارستانها در آلمان"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "KHRG"@fa .
+
+<http://www.snik.eu/ontology/bb/Knowledge>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دانش"@fa .
+
+<http://www.snik.eu/ontology/bb/KnowledgeRetrievalAndLiteratureManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بازاریابی دانش و مدیریت ادبیات"@fa .
+
+<http://www.snik.eu/ontology/bb/Laboratory>
+    <http://www.w3.org/2000/01/rdf-schema#label> "آزمایشگاه"@fa .
+
+<http://www.snik.eu/ontology/bb/LaboratoryFinding>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یافته آزمایشگاهی"@fa .
+
+<http://www.snik.eu/ontology/bb/LaboratoryInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعاتی آزمایشگاه"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "سیستم مدیریت اطلاعات آزمایشگاه"@fa .
+
+<http://www.snik.eu/ontology/bb/LaboratoryResult>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نتیجه آزمایشگاهی"@fa .
+
+<http://www.snik.eu/ontology/bb/LaboratoryStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مطالعه آزمایشگاهی"@fa .
+
+<http://www.snik.eu/ontology/bb/Laptop>
+    <http://www.w3.org/2000/01/rdf-schema#label> "لپ تاپ"@fa .
+
+<http://www.snik.eu/ontology/bb/Laundry>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خشکشویی"@fa .
+
+<http://www.snik.eu/ontology/bb/LaundryManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت رختشو خانه"@fa .
+
+<http://www.snik.eu/ontology/bb/Law>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قانون"@fa .
+
+<http://www.snik.eu/ontology/bb/LeannessOfInformationProcessingTools>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کمبودابزار پردازش اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/LegalRequirement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "الزام قانونی"@fa .
+
+<http://www.snik.eu/ontology/bb/Library>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کتابخانه"@fa .
+
+<http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت چرخه زندگی برنامه استراتژیک مدیریت اطلاعات "@fa .
+
+<http://www.snik.eu/ontology/bb/Linear>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خطی"@fa .
+
+<http://www.snik.eu/ontology/bb/LogicalNetworkTopology>
+    <http://www.w3.org/2000/01/rdf-schema#label> "توپولوژی منطقی شبکه"@fa .
+
+<http://www.snik.eu/ontology/bb/LogicalOperator>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اپراتور منطقی"@fa .
+
+<http://www.snik.eu/ontology/bb/LogicalOperatorModelingElement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عنصر مدل سازی اپراتور منطقی"@fa .
+
+<http://www.snik.eu/ontology/bb/LogicalToolLayer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "لایه ابزار منطفی"@fa .
+
+<http://www.snik.eu/ontology/bb/Loinc>
+    <http://www.w3.org/2000/01/rdf-schema#label> "LOINC"@fa .
+
+<http://www.snik.eu/ontology/bb/LongTermArchiving>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بایگانی طولانی مدت"@fa .
+
+<http://www.snik.eu/ontology/bb/LongTermHISPlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی بلند مدت HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/LooselyCoupledNetwork>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه آزادانه وصل شده"@fa .
+
+<http://www.snik.eu/ontology/bb/MagneticDisc>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دیسک مغناطیسی"@fa .
+
+<http://www.snik.eu/ontology/bb/MagneticResonanceImaging>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تصویربرداری رزونانس مغناطیسی"@fa .
+
+<http://www.snik.eu/ontology/bb/MagneticTape>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوار مغناطیسی"@fa .
+
+<http://www.snik.eu/ontology/bb/MailServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور پست ��لکترونیکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MainframeArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری رایانه"@fa .
+
+<http://www.snik.eu/ontology/bb/MaintainabilityOfSoftware>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قابلیت نگهداری نرم افزار"@fa .
+
+<http://www.snik.eu/ontology/bb/MaintainablePhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش اطلاعات فیزیکی قابل نگهداری"@fa .
+
+<http://www.snik.eu/ontology/bb/MaintainableServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور قابل نگهداری"@fa .
+
+<http://www.snik.eu/ontology/bb/MaintenanceCost>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه نگهداری"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "هزینه تعمیر و نگهداری"@fa .
+
+<http://www.snik.eu/ontology/bb/MakingABackup>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ساخت یک پشتیبان"@fa .
+
+<http://www.snik.eu/ontology/bb/MalcolmBaldrigeNationalQualityAward>
+    <http://www.w3.org/2000/01/rdf-schema#label> "جایزه کیفیت مل�� مالکوم بلدریج"@fa .
+
+<http://www.snik.eu/ontology/bb/ManMadeSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم ساخته شده توسط انسان"@fa .
+
+<http://www.snik.eu/ontology/bb/Management>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت"@fa .
+
+<http://www.snik.eu/ontology/bb/ManagementBoardBuffer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حائل هیئت مدیره"@fa .
+
+<http://www.snik.eu/ontology/bb/ManagementDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بخش مدیریت"@fa .
+
+<http://www.snik.eu/ontology/bb/ManagementEntityType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک عنصر مدیریت"@fa .
+
+<http://www.snik.eu/ontology/bb/ManagementOfClinicalDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت گروه بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/ManagementOfMedicalDevices>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت تجهیزات پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/ManagementOfNonClinicalDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت گروه غیر بالینی"@fa .
+
+<http://www.snik.eu/ontology/bb/ManagementOfUserAccounts>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت حساب کاربری"@fa .
+
+<http://www.snik.eu/ontology/bb/ManagementUnit>
+    <http://www.w3.org/2000/01/rdf-schema#label> "واحد مدیریت"@fa .
+
+<http://www.snik.eu/ontology/bb/MasterApplicationComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رهبر اجزا برنامه"@fa .
+
+<http://www.snik.eu/ontology/bb/MasterPatientIndex>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فهرست ارشد بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/Material>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مواد"@fa .
+
+<http://www.snik.eu/ontology/bb/MaterialAndMedicationManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت مواد و دارو"@fa .
+
+<http://www.snik.eu/ontology/bb/MaterialControlling>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کنترل مواد"@fa .
+
+<http://www.snik.eu/ontology/bb/Maturity>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بلوغ"@fa .
+
+<http://www.snik.eu/ontology/bb/MeansOfTransport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "وسایل حمل و نقل"@fa .
+
+<http://www.snik.eu/ontology/bb/MediaCrack>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شکاف رسانه ای"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalAdmission>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پذیرش پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalAnamnesis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پیشینه بیماری"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalAndNursingCarePlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی مراقبت های پزشکی و پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalAndNursingKnowledge>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دانش پزشکی و پرستاری"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "علم پزشکی و پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalCarePlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی مراقبت های پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalDataDictionary>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دیکشنری اطلاعات پزشکی"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "واژه نامه اطلاعات پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalDevice>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تجهیزات پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalDischargeAndMedicalReportWriting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تخلیه پزشکی و نوشتن گزارش پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalDocumentationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم مستندات پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalErrorReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش خطا پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalGuideline>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دستورالعمل پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalInformatician>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مهندس اطلاعات پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalKnowledge>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دانش پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalProcedure>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روش پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/MedicalService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خدمات پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/Medication>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دارو"@fa .
+
+<http://www.snik.eu/ontology/bb/MemoryStick>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارت حافظه"@fa .
+
+<http://www.snik.eu/ontology/bb/Mesh>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه"@fa .
+
+<http://www.snik.eu/ontology/bb/Message>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پیام"@fa .
+
+<http://www.snik.eu/ontology/bb/MessageEncryption>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رمزگذاری پیام"@fa .
+
+<http://www.snik.eu/ontology/bb/MessageType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوع پیام"@fa .
+
+<http://www.snik.eu/ontology/bb/Metamodel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "متا مدل"@fa .
+
+<http://www.snik.eu/ontology/bb/MicrobiologyReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش میکروبیولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/Middleware>
+    <http://www.w3.org/2000/01/rdf-schema#label> "میان‌افزار"@fa .
+
+<http://www.snik.eu/ontology/bb/MigrationPath>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مسیر انتقال"@fa .
+
+<http://www.snik.eu/ontology/bb/MixedApproach>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رویکرد ترکیبی"@fa .
+
+<http://www.snik.eu/ontology/bb/MixedDB1DBnStyle>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ترکیب روش DB1-DBn"@fa .
+
+<http://www.snik.eu/ontology/bb/MobileComputer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کامپیوتر سیار"@fa .
+
+<http://www.snik.eu/ontology/bb/MobilePhone>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تلفن همراه"@fa .
+
+<http://www.snik.eu/ontology/bb/MobilePhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی تلفن همراه"@fa .
+
+<http://www.snik.eu/ontology/bb/Model>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل"@fa .
+
+<http://www.snik.eu/ontology/bb/ModelOfTheCurrentHIS>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل کنونی HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/ModelOfThePlannedHIS>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل HIS برنامه ریزی شده"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "مدل HIS برن��مه ریزی شده (سیستم اطلاعاتی بیمارستان)"@fa .
+
+<http://www.snik.eu/ontology/bb/ModelingHospitalInformationSystems>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل سازی سیستم های اطلاعات بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/ModelingInformationSystems>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل سازی سیستم های اطلاعاتی "@fa .
+
+<http://www.snik.eu/ontology/bb/MonitorAndEvaluate>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت و ارزیابی"@fa .
+
+<http://www.snik.eu/ontology/bb/Monitoring>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت بر"@fa .
+
+<http://www.snik.eu/ontology/bb/MonitoringOfNationalLegislation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت بر تدوین و تصویب قانون ملی"@fa .
+
+<http://www.snik.eu/ontology/bb/MonitoringOfNationalLocalPress>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت بر مطبوعات محلی "@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "نظارت بر مطبوعات محلی کشور "@fa .
+
+<http://www.snik.eu/ontology/bb/MonitoringOfStandardizationAndCertificationOrganizations>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت بر سازمان های استاندارد سازی و صدور گواهینامه"@fa .
+
+<http://www.snik.eu/ontology/bb/MonitoringOfStandardizationInitiatives>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت برابتکارات استاندارد سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/MonitoringOfVitalSigns>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت بر علائم حیاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/MonitoringTheProjectProgress>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت بر پیشرفت پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/MonolithicArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری یکپارچه"@fa .
+
+<http://www.snik.eu/ontology/bb/Mpeg>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گروه کارشناسان تصاویر متحرک"@fa .
+
+<http://www.snik.eu/ontology/bb/MriScanner>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اسکنر MRI"@fa .
+
+<http://www.snik.eu/ontology/bb/MultifunctionalPhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی چند کاره"@fa .
+
+<http://www.snik.eu/ontology/bb/MultipleUsabilityOfData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قابلیت استفاده چندگانه داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/Nanda>
+    <http://www.w3.org/2000/01/rdf-schema#label> "NANDA"@fa .
+
+<http://www.snik.eu/ontology/bb/Network>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه "@fa .
+
+<http://www.snik.eu/ontology/bb/NetworkManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت شبکه"@fa .
+
+<http://www.snik.eu/ontology/bb/NetworkMonitoring>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت بر شبکه"@fa .
+
+<http://www.snik.eu/ontology/bb/NetworkStandard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد شبکه"@fa .
+
+<http://www.snik.eu/ontology/bb/NetworkTopology>
+    <http://www.w3.org/2000/01/rdf-schema#label> "توپولوژی شبکه"@fa .
+
+<http://www.snik.eu/ontology/bb/Nic>
+    <http://www.w3.org/2000/01/rdf-schema#label> "NIC"@fa .
+
+<http://www.snik.eu/ontology/bb/Noc>
+    <http://www.w3.org/2000/01/rdf-schema#label> "NOC"@fa .
+
+<http://www.snik.eu/ontology/bb/Nomenclature>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مجموعه لغات"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "فهرست اصطلاحات/طبقه بندی"@fa .
+
+<http://www.snik.eu/ontology/bb/NonComputerBasedApplicationComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کامپوننت نرم افزاری غیر کامپیوتری"@fa .
+
+<http://www.snik.eu/ontology/bb/NonComputerBasedInformationProcessing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پردازش اطلاعات - بدون استفاده از کامپیوتر"@fa .
+
+<http://www.snik.eu/ontology/bb/NonComputerBasedInformationProcessingTool>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ابزار پردازش اطلاعات غیر مبتنی بر کامپیوتر"@fa .
+
+<http://www.snik.eu/ontology/bb/NonComputerBasedPhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی غیر کامپیوتری"@fa .
+
+<http://www.snik.eu/ontology/bb/NonSignalBasedTransmittingMedium>
+    <http://www.w3.org/2000/01/rdf-schema#label> "متوسط فرستنده بدون سیگنال"@fa .
+
+<http://www.snik.eu/ontology/bb/NonexperimentalStudyDesign>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طراحی مطالعه غیر تجربی"@fa .
+
+<http://www.snik.eu/ontology/bb/Notification>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خبر"@fa .
+
+<http://www.snik.eu/ontology/bb/NuclearMedicineImaging>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تصویربرداری پزشکی هسته ای"@fa .
+
+<http://www.snik.eu/ontology/bb/Nurse>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پرستار"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingAdmission>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پذیرش پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingAnamnesis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یادآوری پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingCarePlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طرح مراقبت پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingCarePlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی مراقبت پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingCenter>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مرکز پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingClassification>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طبقه بندی پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingDischargeAndNursingReportWriting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ترخیص پرستاری و گزارش نویسی پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingGoal>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدف پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingGuideline>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دستورالعمل پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingHistory>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تاریخ پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingManagementAndDocumentationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم مدیریت و مستندسازی پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingProblem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مشکل پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingProcedure>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روند پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/NursingReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش پرستاری"@fa .
+
+<http://www.snik.eu/ontology/bb/Nutrition>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تغذیه"@fa .
+
+<http://www.snik.eu/ontology/bb/OAIS3>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات بایگانی باز 3 (OAIS3)"@fa .
+
+<http://www.snik.eu/ontology/bb/ObjectClass>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کلاس شی"@fa .
+
+<http://www.snik.eu/ontology/bb/ObjectIdentity>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هویت شی"@fa .
+
+<http://www.snik.eu/ontology/bb/ObservationProtocol>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پروتکل مشاهده"@fa .
+
+<http://www.snik.eu/ontology/bb/OfficesAndWritingServiceForReportWriting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دفاتر و خدمات نوشتن برای گزارش نویسی"@fa .
+
+<http://www.snik.eu/ontology/bb/OncologyInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات انکولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/OpenEHR>
+    <http://www.w3.org/2000/01/rdf-schema#label> "OpenEHR"@fa .
+
+<http://www.snik.eu/ontology/bb/OpenEHRModelOfContent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل محتوا OpenEHR"@fa .
+
+<http://www.snik.eu/ontology/bb/OpenEHRModelOfProcesses>
+    <http://www.w3.org/2000/01/rdf-schema#label> "OpenEHR مدل روند"@fa .
+
+<http://www.snik.eu/ontology/bb/OpenEHROntology>
+    <http://www.w3.org/2000/01/rdf-schema#label> "OpenEHR اونتولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/OpeningAPatientRecord>
+    <http://www.w3.org/2000/01/rdf-schema#label> "افتتاح  پرونده یک بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/Operation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عملکرد"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "جراحی"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationManagementSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیست�� مدیریت عملکرد"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش عملیات"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationRoom>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اتاق عمل"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationalHISDirecting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عملیات هدایت HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationalHISMonitoring>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دیده بانی عملیاتی HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationalHISPlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی عملیاتی HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationalInformationManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت اطلاعات عملیاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationalInformationManagementGoal>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدف مدیریت اطلاعات عملیاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationalInformationManagementStaff>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارکنان عملیاتی مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationalManagementConcept>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مفهوم مدیریت عملیاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/OperationalizationOfMethodsAndDetailedStudyPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عملی کردن روش ها و برنامه دقیق مطالعه "@fa .
+
+<http://www.snik.eu/ontology/bb/OpticalFiber>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فیبر نوری"@fa .
+
+<http://www.snik.eu/ontology/bb/OpticalMedium>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رسانه نوری"@fa .
+
+<http://www.snik.eu/ontology/bb/OralAndDentalCare>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مراقبتهای ��هان و دندان"@fa .
+
+<http://www.snik.eu/ontology/bb/Order>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سفارش"@fa .
+
+<http://www.snik.eu/ontology/bb/OrderCatalog>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سفارش کاتالوگ"@fa .
+
+<http://www.snik.eu/ontology/bb/OrderEntry>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عملکرد مورد نیاز/ ورودی سفارش"@fa .
+
+<http://www.snik.eu/ontology/bb/OrderForm>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فرم سفارش"@fa .
+
+<http://www.snik.eu/ontology/bb/OrderingOfDrugs>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سفارش داروها"@fa .
+
+<http://www.snik.eu/ontology/bb/Organization>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سازمان"@fa .
+
+<http://www.snik.eu/ontology/bb/OrganizationOfHealthCare>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سازمان بهداشت و درمان"@fa .
+
+<http://www.snik.eu/ontology/bb/OrganizationalInfrastructure>
+    <http://www.w3.org/2000/01/rdf-schema#label> "زیرساخت سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/OrganizationalMetamodel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "متامودال سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/OrganizationalModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/OrganizationalPerspective>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دیدگاه سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/OrganizationalPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طرح سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/OrganizationalSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/OrganizationalUnit>
+    <http://www.w3.org/2000/01/rdf-schema#label> "واحد سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/OrganizationalUnitModelingElement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عنصر مدل سازی واحد سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/OrganizationalUnitOfAHospital>
+    <http://www.w3.org/2000/01/rdf-schema#label> "واحد سازمانی یک بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/Orientation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "جهت"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "گرایش"@fa .
+
+<http://www.snik.eu/ontology/bb/Orm>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ORM"@fa .
+
+<http://www.snik.eu/ontology/bb/OrthopedicsInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات ارتوپدی"@fa .
+
+<http://www.snik.eu/ontology/bb/Oru>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ORU"@fa .
+
+<http://www.snik.eu/ontology/bb/Outpatient>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بیمار سرپایی"@fa .
+
+<http://www.snik.eu/ontology/bb/OutpatientCareInstitution>
+    <http://www.w3.org/2000/01/rdf-schema#label> "موسسه مراقبت سرپایی"@fa .
+
+<http://www.snik.eu/ontology/bb/OutpatientEHRCertification>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صدور گواهینامه EHR بیمار سرپایی"@fa .
+
+<http://www.snik.eu/ontology/bb/OutpatientManagementSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم مدیریت سرپایی"@fa .
+
+<http://www.snik.eu/ontology/bb/OutpatientUnit>
+    <http://www.w3.org/2000/01/rdf-schema#label> "واحد سرپایی"@fa .
+
+<http://www.snik.eu/ontology/bb/PRINCE2>
+    <http://www.w3.org/2000/01/rdf-schema#label> "PRINCE 2"@fa .
+
+<http://www.snik.eu/ontology/bb/Pager>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پیجر"@fa .
+
+<http://www.snik.eu/ontology/bb/PaperBasedApplicationComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجزا برنامه مبتنی بر کاغذ"@fa .
+
+<http://www.snik.eu/ontology/bb/PaperBasedPatientChart>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نمودار مبتنی بر کاغذ"@fa .
+
+<http://www.snik.eu/ontology/bb/PaperBasedPatientRecord>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پیشینه بیمار مبتنی بر کاغذ"@fa .
+
+<http://www.snik.eu/ontology/bb/PaperBasedPhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی مبتنی بر کاغذ"@fa .
+
+<http://www.snik.eu/ontology/bb/PastMedicalHistory>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تاریخ پزشکی گذشته"@fa .
+
+<http://www.snik.eu/ontology/bb/Pathology>
+    <http://www.w3.org/2000/01/rdf-schema#label> "آسيب شناسي"@fa .
+
+<http://www.snik.eu/ontology/bb/PathologyInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعاتی پاتولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/PathologyReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش پاتولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/Patient>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientActivityLevel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سطح فعالیت بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientAdministration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientAdministrationDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بخش مدیریت بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientAdministrationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم مدیریت بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientAdmission>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پذیرش بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientAge>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سن بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientBilling>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صورتحساب بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientCare>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تابع مراقبت از بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientCareEntityType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوع عنصردرمان بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientCenteredInformationProcessing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پردازش اطلاعات بیمار محور"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientCentricStrategy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استراتژی بیمار محور"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientChartSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم نمودار بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientDataManagementSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم مدیریت اطلاعات بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تخلیه و انتقال بیمار به موسسات دیگر"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientHistory>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پیشینه بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientIdentification>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شناسنایی بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientIdentificationNumber>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شماره شناسایی بیمار"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "کدشناسایی بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientInsuranceData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اطلاعات بیمه بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientLink>
+    <http://www.w3.org/2000/01/rdf-schema#label> "لینک بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientRecord>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سابقه بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientRecordArchive>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بایگانی سوابق بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientRecordSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم سوابق بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientSatisfactionSurvey>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بررسی رضایت بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientState>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حال بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientTransfer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "R01-ORU"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientTransport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حمل و نقل بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientVisitInformation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اطلاعات مربوط به بازدید بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PatientsRelatives>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بستگان بیمار"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "همراه بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/PayrollAccounting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حسابداری حقوق و دستمزد"@fa .
+
+<http://www.snik.eu/ontology/bb/Pdfa>
+    <http://www.w3.org/2000/01/rdf-schema#label> "PDF/A"@fa .
+
+<http://www.snik.eu/ontology/bb/Pencil>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مداد"@fa .
+
+<http://www.snik.eu/ontology/bb/PerformanceOfApplicationComponents>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عملکرد اجزاء برنامه"@fa .
+
+<http://www.snik.eu/ontology/bb/PerformanceOfLegalNotificationRequirements>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای الزامات اخطار قانونی"@fa .
+
+<http://www.snik.eu/ontology/bb/PerformanceOfTheApplicationComponent>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارایی اجزای برنامه"@fa .
+
+<http://www.snik.eu/ontology/bb/PerformantPhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی عملکردی"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "سیستم پردازش داده های فیزیکی اجرا کننده"@fa .
+
+<http://www.snik.eu/ontology/bb/PerformantServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور اجرایی"@fa .
+
+<http://www.snik.eu/ontology/bb/PermanentMonitoring>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت دائمی"@fa .
+
+<http://www.snik.eu/ontology/bb/PersonalComputer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کامپیوتر شخصی"@fa .
+
+<http://www.snik.eu/ontology/bb/PersonalDigitalAssistant>
+    <http://www.w3.org/2000/01/rdf-schema#label> "دستیار شخصی دیجیتال"@fa .
+
+<http://www.snik.eu/ontology/bb/PersonalHealthRecord>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پرونده شخصی سلامت"@fa .
+
+<http://www.snik.eu/ontology/bb/PersonalHygiene>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بهداشت شخصی"@fa .
+
+<http://www.snik.eu/ontology/bb/PertinentInformation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اطلاعات مربوطه"@fa .
+
+<http://www.snik.eu/ontology/bb/PetriNet>
+    <http://www.w3.org/2000/01/rdf-schema#label> "Petri شبکه"@fa .
+
+<http://www.snik.eu/ontology/bb/Pharmacy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "داروخانه"@fa .
+
+<http://www.snik.eu/ontology/bb/PharmacyDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بخش داروخانه"@fa .
+
+<http://www.snik.eu/ontology/bb/PharmacyInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعات داروسازی"@fa .
+
+<http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی"@fa .
+
+<http://www.snik.eu/ontology/bb/PhysicalIntegration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یکپارچگی فیزیکی"@fa .
+
+<http://www.snik.eu/ontology/bb/PhysicalNetworkTopology>
+    <http://www.w3.org/2000/01/rdf-schema#label> "توپولوژی شبکه فیزیکی"@fa .
+
+<http://www.snik.eu/ontology/bb/PhysicalToolLayer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "لایه ابزار فی��یکی"@fa .
+
+<http://www.snik.eu/ontology/bb/Physician>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پزشک"@fa .
+
+<http://www.snik.eu/ontology/bb/PictureArchivingAndCommunicationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سامانه بایگانی و تبادل تصویر"@fa .
+
+<http://www.snik.eu/ontology/bb/PlanAndOrganize>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی و سازماندهی"@fa .
+
+<http://www.snik.eu/ontology/bb/Planning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی"@fa .
+
+<http://www.snik.eu/ontology/bb/PlanningOfBuildings>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی ساختمان"@fa .
+
+<http://www.snik.eu/ontology/bb/PlanningOfFinances>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی مالی"@fa .
+
+<http://www.snik.eu/ontology/bb/PlanningOfOrganizationalProcedures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی روند سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/PlanningOfOrganizationalStructures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی ساختار سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/PlanningOfRooms>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی اتاقها"@fa .
+
+<http://www.snik.eu/ontology/bb/PlanningOfStaff>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی کارکنان"@fa .
+
+<http://www.snik.eu/ontology/bb/Pmbok>
+    <http://www.w3.org/2000/01/rdf-schema#label> "PMBOK"@fa .
+
+<http://www.snik.eu/ontology/bb/Portability>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قابلیت حمل"@fa .
+
+<http://www.snik.eu/ontology/bb/PortfolioManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت نمونه کارها"@fa .
+
+<http://www.snik.eu/ontology/bb/PreliminaryOutlineOfAStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مقدمات طرح کلی مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/PreparationOfAnOrder>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تدارک یک سفارش"@fa .
+
+<http://www.snik.eu/ontology/bb/PreparationOfHealthStatistics>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تهیه آمار سلامت"@fa .
+
+<http://www.snik.eu/ontology/bb/PresentationIntegration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ادغام ارائه"@fa .
+
+<http://www.snik.eu/ontology/bb/PrintedForm>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فرم چاپ شده"@fa .
+
+<http://www.snik.eu/ontology/bb/PrinterServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور چاپگر"@fa .
+
+<http://www.snik.eu/ontology/bb/ProblemManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت مشکل ها"@fa .
+
+<http://www.snik.eu/ontology/bb/ProblemSolving>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مشکل حل کردن"@fa .
+
+<http://www.snik.eu/ontology/bb/Procedure>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عمل کرد"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "جراحی"@fa .
+
+<http://www.snik.eu/ontology/bb/ProcedureClass>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کلاس روش"@fa .
+
+<http://www.snik.eu/ontology/bb/ProcessChain>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ز��جیره فرآیند"@fa .
+
+<http://www.snik.eu/ontology/bb/ProcessControlling>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کنترل فرایند"@fa .
+
+<http://www.snik.eu/ontology/bb/ProcessIntegration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یکپارچگی فرایند"@fa .
+
+<http://www.snik.eu/ontology/bb/Project>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectCompletion>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تکمیل پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectCompletionPhase>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مرحله تکمیل پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectConflictManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت تضاد پروژه"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "مدیریت درگیری در پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectExecution>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اجرای پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectExecutionModule>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدول اجرای پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectInitiation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "آغاز پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectInitiationPhase>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مرحله آغاز پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectManagementBoard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هیئت مدیره پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectManagementMethod>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روش مدیریت پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectManager>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیر پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectMonitoring>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت بر پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طرح پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectPlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectPlanningPhase>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مرحله برنامه ریزی پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectPortfolio>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نمونه پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectResourceAllocation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اختصاص منابع پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectResult>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نتیجه پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/ProjectTimeAllocation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اختصاص زمان پروژه"@fa .
+
+<http://www.snik.eu/ontology/bb/Projector>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پروژکتور"@fa .
+
+<http://www.snik.eu/ontology/bb/ProvidingCustomerCenteredServices>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارائه خدمات محور مشتری "@fa .
+
+<http://www.snik.eu/ontology/bb/PublishingAndPresentation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انتشار و ارائه"@fa .
+
+<http://www.snik.eu/ontology/bb/QualifiedElectronicSignature>
+    <http://www.w3.org/2000/01/rdf-schema#label> "امضا الکترونیکی واجد شرایط"@fa .
+
+<http://www.snik.eu/ontology/bb/QualitativeContentAnalysis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تجزیه و تحلیل محتوا کیفی"@fa .
+
+<http://www.snik.eu/ontology/bb/QualitativeEvaluationMethod>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روش ارزیابی کیفی"@fa .
+
+<http://www.snik.eu/ontology/bb/QualitativeInterview>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مصاحبه کیفی"@fa .
+
+<http://www.snik.eu/ontology/bb/QualitativeObservation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مشاهدات کیفی"@fa .
+
+<http://www.snik.eu/ontology/bb/Quality>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityAssessment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارزیابی کیفی"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت کیفیت"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfComputerBasedApplicationComponentsAndTheirIntegration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت اجزای نرم افزار مبتنی بر کامپیوتر و یکپارچگی آنها"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfHISArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت معماری HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfHISOutcome>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت خروجی HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfHISProcesses>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت فرآیندهای HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfHISStructures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت ساختارهای HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfHealthCareOutcome>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت نتایج مراقبت های بهداشتی"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "کیفیت نتایج سلامت"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfHealthCareProcesses>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت فرآیندهای مراقبت های بهداشتی"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfITServiceManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت مدیریت خدمات فناوری اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfITSupport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت پشتیبانی از فناوری اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfITTraining>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت آموزش IT"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfInformationManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfOutcome>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت نتیجه"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "کیفیت نتایج"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfPatientCare>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت درمان بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfProcesses>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت فرآیندها"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfStructures>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت سازه ها"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityOfTacticalInformationManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت مدیریت اطلاعای تاکتیکی"@fa .
+
+<http://www.snik.eu/ontology/bb/QualityReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش کیفیت"@fa .
+
+<http://www.snik.eu/ontology/bb/QuantitativeEvaluationMethod>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روش ارزیابی کمی"@fa .
+
+<http://www.snik.eu/ontology/bb/QuantitativeQuestionnaire>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پرسشنامه صفاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/QuasiExperimentalStudyDesign>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طراحی مطالعه نی��ه تجربی"@fa .
+
+<http://www.snik.eu/ontology/bb/QueueManager>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیر صف"@fa .
+
+<http://www.snik.eu/ontology/bb/R01>
+    <http://www.w3.org/2000/01/rdf-schema#label> "R01"@fa .
+
+<http://www.snik.eu/ontology/bb/R01ORU>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مشتری"@fa .
+
+<http://www.snik.eu/ontology/bb/RadiologicalExamination>
+    <http://www.w3.org/2000/01/rdf-schema#label> "آزمایش رادیولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/RadiologicalFinding>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یافته رادیولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/RadiologyDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بخش رادیولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/RadiologyInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطلاعاتی رادیولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/RadiologyReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش رادیولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/Radiotherapy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رادیوتراپی"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "پرتو درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/RecommendationsForFurtherTreatment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "توصیه ها برای درمان بیشتر"@fa .
+
+<http://www.snik.eu/ontology/bb/RecruitmentOfPatients>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ثبت نام بیماران برای مطالعه پژوهشی"@fa .
+
+<http://www.snik.eu/ontology/bb/RedundantComputingCenter>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مرکز محاسبات بیرونی"@fa .
+
+<http://www.snik.eu/ontology/bb/RedundantServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور اضافی"@fa .
+
+<http://www.snik.eu/ontology/bb/ReferenceModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل مرجع"@fa .
+
+<http://www.snik.eu/ontology/bb/ReferenceModelForTheDomainLayerOfHospitalInformationSystems>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل مرجع برای لایه دامنه سیستم های اطلاعات بیمارستانی"@fa .
+
+<http://www.snik.eu/ontology/bb/ReferentialIntegrity>
+    <http://www.w3.org/2000/01/rdf-schema#label> "یکپارچگی ارجاعی"@fa .
+
+<http://www.snik.eu/ontology/bb/RehabilitationCenter>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مرکز توانبخشی"@fa .
+
+<http://www.snik.eu/ontology/bb/Relative>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نسبی"@fa .
+
+<http://www.snik.eu/ontology/bb/Relevancy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مربوط بودن"@fa .
+
+<http://www.snik.eu/ontology/bb/Reliability>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قابلیت اطمینان"@fa .
+
+<http://www.snik.eu/ontology/bb/ReliabilityOfData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قابلیت اطمینان داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/ReliablePhysicalDataProcesssingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم قابل اعتماد فیزیکی پردازش داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/RemoteFunctionCall>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تماس از راه دور با عمل کرد"@fa .
+
+<http://www.snik.eu/ontology/bb/ReportAndPublicationOfStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش و چاپ مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/ReportToTheCEO>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش به مدیرعامل"@fa .
+
+<http://www.snik.eu/ontology/bb/ReportToTheHospitalsBoardOfDirectors>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش به هیئت مدیره بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/ReportWriting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوشتن گزارش"@fa .
+
+<http://www.snik.eu/ontology/bb/RepresentativeOfHospitalDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نماینده بخش بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/RequirementOfHISStakeholder>
+    <http://www.w3.org/2000/01/rdf-schema#label> "احتیاج ذی نفع HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/ResearchAndEducation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پژوهش و آموزش"@fa .
+
+<http://www.snik.eu/ontology/bb/ResearchAndEducationEntityType>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نوع نهاد تحقیق و آموزش و پرورش"@fa .
+
+<http://www.snik.eu/ontology/bb/ResearchDocument>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سند پژوهشی"@fa .
+
+<http://www.snik.eu/ontology/bb/ResearchInstitution>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سازمان پژوهشی"@fa .
+
+<http://www.snik.eu/ontology/bb/ResearchManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت تحقیق"@fa .
+
+<http://www.snik.eu/ontology/bb/Resource>
+    <http://www.w3.org/2000/01/rdf-schema#label> "منابع"@fa .
+
+<http://www.snik.eu/ontology/bb/ReturnOnInvestmentStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مطالعه بازگشت سرمایه گذاری"@fa .
+
+<http://www.snik.eu/ontology/bb/Ring>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حلقه"@fa .
+
+<http://www.snik.eu/ontology/bb/RiskManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت ریسک"@fa .
+
+<http://www.snik.eu/ontology/bb/RobotSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم روباتی"@fa .
+
+<http://www.snik.eu/ontology/bb/RoleModelingElement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نقش عنصر مدل سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/Room>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اتاق"@fa .
+
+<http://www.snik.eu/ontology/bb/RotaryPhone>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تلفن چرخشی"@fa .
+
+<http://www.snik.eu/ontology/bb/Router>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روتر"@fa .
+
+<http://www.snik.eu/ontology/bb/Sample>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نمونه"@fa .
+
+<http://www.snik.eu/ontology/bb/San>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه ذخیره سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/Saps>
+    <http://www.w3.org/2000/01/rdf-schema#label> "SAPS"@fa .
+
+<http://www.snik.eu/ontology/bb/Saturation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اشباع"@fa .
+
+<http://www.snik.eu/ontology/bb/SchedulingAndResourceAllocation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی و اختصاص منابع"@fa .
+
+<http://www.snik.eu/ontology/bb/SchedulingAndResourcePlanningWithTheMedicalServiceUnit>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی و برنامه ریزی منابع با واحد خدمات پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/SchedulingAndResourcePlanningWithThePatientTransportService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "زمانبندی و برنامه ریزی مطابق  با سرویس نقل وانتقال بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/SecondLevelSupport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پشتیبانی سطح دوم"@fa .
+
+<http://www.snik.eu/ontology/bb/SecurePhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی امن"@fa .
+
+<http://www.snik.eu/ontology/bb/Security>
+    <http://www.w3.org/2000/01/rdf-schema#label> "امنیت"@fa .
+
+<http://www.snik.eu/ontology/bb/SecurityOfData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "امنیت داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/SelfDescriptiveness>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خود توصیفی"@fa .
+
+<http://www.snik.eu/ontology/bb/SelfDevelopedSoftware>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نرم افزار خود نوشته شده"@fa .
+
+<http://www.snik.eu/ontology/bb/SemanticIntegration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ادغام معنایی"@fa .
+
+<http://www.snik.eu/ontology/bb/SemistructuredInterview>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مصاحبه نیمه ساختاریافته"@fa .
+
+<http://www.snik.eu/ontology/bb/SeniorPhysician>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پزشک ارشد "@fa .
+
+<http://www.snik.eu/ontology/bb/Server>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور"@fa .
+
+<http://www.snik.eu/ontology/bb/ServerCluster>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کلاستر سرور"@fa .
+
+<http://www.snik.eu/ontology/bb/Service>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خدمت"@fa .
+
+<http://www.snik.eu/ontology/bb/ServiceAssetManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت سرویس دارایی"@fa .
+
+<http://www.snik.eu/ontology/bb/ServiceCatalog>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کاتالوگ خدمات"@fa .
+
+<http://www.snik.eu/ontology/bb/ServiceDesign>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خدمات طراحی "@fa .
+
+<http://www.snik.eu/ontology/bb/ServiceDeskManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "میز مدیریت خدمات"@fa .
+
+<http://www.snik.eu/ontology/bb/ServiceDeskStaff>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارکنان دفتر خدمات"@fa .
+
+<http://www.snik.eu/ontology/bb/ServiceOperation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عملیات سرویس"@fa .
+
+<http://www.snik.eu/ontology/bb/ServiceStrategy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استراتژی خدمات"@fa .
+
+<http://www.snik.eu/ontology/bb/ServiceTransition>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انتقال خدمات"@fa .
+
+<http://www.snik.eu/ontology/bb/Sgbv>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کتاب قانون اجتماعی V"@fa .
+
+<http://www.snik.eu/ontology/bb/SheetOfPaper>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برگ کاغذ"@fa .
+
+<http://www.snik.eu/ontology/bb/ShortTermHISPlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی کوتاه مدت HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/SigG>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قانون امضا"@fa .
+
+<http://www.snik.eu/ontology/bb/SignalBasedTransmittingMedium>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سخت افزار انتقال مبتنی بر سیگنال"@fa .
+
+<http://www.snik.eu/ontology/bb/SingleSignOn>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ورودی یک طرفه"@fa .
+
+<http://www.snik.eu/ontology/bb/SkinCare>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مراقبت از پوست"@fa .
+
+<http://www.snik.eu/ontology/bb/Snomed>
+    <http://www.w3.org/2000/01/rdf-schema#label> "SNOMED (نام گذاری سیستمی پزشکی)"@fa .
+
+<http://www.snik.eu/ontology/bb/Soa>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معماری سرویس گرا"@fa .
+
+<http://www.snik.eu/ontology/bb/SoaService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "SOA سرویس"@fa .
+
+<http://www.snik.eu/ontology/bb/SocialContact>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رابطه اجتماعی"@fa .
+
+<http://www.snik.eu/ontology/bb/SocialHistory>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تاریخ اجتماعی"@fa .
+
+<http://www.snik.eu/ontology/bb/SocioTechnicalSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اجتماعی و فنی"@fa .
+
+<http://www.snik.eu/ontology/bb/SoftwareDevelopment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "توسعه نرم افزار"@fa .
+
+<http://www.snik.eu/ontology/bb/SoftwareErgonomics>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نرم افزار ارگونومی"@fa .
+
+<http://www.snik.eu/ontology/bb/SoftwareProduct>
+    <http://www.w3.org/2000/01/rdf-schema#label> "محصول نرم افزاری"@fa .
+
+<http://www.snik.eu/ontology/bb/SoftwareQuality>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کیفیت نرم افزار"@fa .
+
+<http://www.snik.eu/ontology/bb/SoftwareVendor>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فروشنده نرم افزار"@fa .
+
+<http://www.snik.eu/ontology/bb/Specialization>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تخصص"@fa .
+
+<http://www.snik.eu/ontology/bb/Stability>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ثبات"@fa .
+
+<http://www.snik.eu/ontology/bb/StabilityOfApplicationComponents>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پایداری اجزای برنامه"@fa .
+
+<http://www.snik.eu/ontology/bb/StableServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور ثابت"@fa .
+
+<http://www.snik.eu/ontology/bb/StaffControlling>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کنترل کارکنان"@fa .
+
+<http://www.snik.eu/ontology/bb/StaffCost>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه کارکنان"@fa .
+
+<http://www.snik.eu/ontology/bb/Standard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد"@fa .
+
+<http://www.snik.eu/ontology/bb/StandardizationByCEN>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد کردن توسط CEN"@fa .
+
+<http://www.snik.eu/ontology/bb/StandardizationOfData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد سازی داده ها"@fa .
+
+<http://www.snik.eu/ontology/bb/StandardizationOfHISArchitecture>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد سازی معماری HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/StandardizationOfInterfaces>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد سازی رابط ها"@fa .
+
+<http://www.snik.eu/ontology/bb/StandardizedPhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی استاندارد شده"@fa .
+
+<http://www.snik.eu/ontology/bb/Star>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ستاره"@fa .
+
+<http://www.snik.eu/ontology/bb/StatisticalEvaluationOfPatientData>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارزیابی آماری داده های بیمار"@fa .
+
+<http://www.snik.eu/ontology/bb/StorageAreaNetwork>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه ذخیره سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/StorageMedium>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سخت افزار ذخیره سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/StorageService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خدمات ذخیره سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicAlignment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هم راستایی استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicAlignmentModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل سازگاری استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicDecision>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تصمیم استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicGoalOfTheInstitution>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدف استراتژیک موسسه"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicGoalOfTheNetwork>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدف استراتژیک شبکه"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicHISDirecting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدایت استراتژیک HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicHISMonitoring>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت استراتژیک HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicHISMonitoringResult>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نتایج نظارت استراتژیک HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicHISPlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی استراتژیک  HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicHospitalGoal>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدف استراتژیک بیمارستان"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicInformationManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت استراتژیک اطلاعات "@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدف مدیریت اطلاعات استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طرح مدیریت اطلاعات استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/StructuralQualityAssessment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارزیابی کیفیت ساختاری"@fa .
+
+<http://www.snik.eu/ontology/bb/Study>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مطالعه"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "بررسی"@fa .
+
+<http://www.snik.eu/ontology/bb/StudyDesign>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طرح مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/StudyExploration>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شناسایی مطالعات"@fa .
+
+<http://www.snik.eu/ontology/bb/StudyHypothesis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فرضیه مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/StudyObjective>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدف مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/StudyOutline>
+    <http://www.w3.org/2000/01/rdf-schema#label> "طرح کلی"@fa .
+
+<http://www.snik.eu/ontology/bb/StudyParticipant>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شرکت کننده مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/StudyPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/StudyReport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گزارش مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/StudyResult>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نتایج مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/SubInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "زیرسیستم اطلاعاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/Subsystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "زیر سیستم"@fa .
+
+<http://www.snik.eu/ontology/bb/SuitabilityForIndividualization>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مناسبت برای شخصی سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/SuitabilityForLearning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مناسب برای یادگیری"@fa .
+
+<http://www.snik.eu/ontology/bb/SuitabilityForTheTask>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مناسب برای این کار"@fa .
+
+<http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت عرضه و دفع/تقاضا"@fa .
+
+<http://www.snik.eu/ontology/bb/SupportCost>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هزینه پشتیبانی"@fa .
+
+<http://www.snik.eu/ontology/bb/Surgeon>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پزشک جراح"@fa .
+
+<http://www.snik.eu/ontology/bb/Sustainability>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پایداری"@fa .
+
+<http://www.snik.eu/ontology/bb/Switch>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تعویض"@fa .
+
+<http://www.snik.eu/ontology/bb/SwotAnalysis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تجزیه و تحلیل SWOT (ارزیابی نقاط قوت، ضعف، فرصت ها و تهدیدات)"@fa .
+
+<http://www.snik.eu/ontology/bb/SynchronousCommunication>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارتباط همزمان"@fa .
+
+<http://www.snik.eu/ontology/bb/System>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم"@fa .
+
+<http://www.snik.eu/ontology/bb/SystemAnalysis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تحلیل سیستم"@fa .
+
+<http://www.snik.eu/ontology/bb/SystemEvaluation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ارزیابی سیستم"@fa .
+
+<http://www.snik.eu/ontology/bb/SystemIntroduction>
+    <http://www.w3.org/2000/01/rdf-schema#label> "معرفی سیستم"@fa .
+
+<http://www.snik.eu/ontology/bb/SystemOfConcepts>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم مفاهیم"@fa .
+
+<http://www.snik.eu/ontology/bb/SystemSelection>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انتخاب سیستم"@fa .
+
+<http://www.snik.eu/ontology/bb/SystemSpecification>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مشخصات سیستم"@fa .
+
+<http://www.snik.eu/ontology/bb/SystematicInformationProcessing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پردازش اطلاعات سیستماتیک"@fa .
+
+<http://www.snik.eu/ontology/bb/SystemsReview>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بررسی سیستم ها"@fa .
+
+<http://www.snik.eu/ontology/bb/T3ApplicationServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور برنامه T3"@fa .
+
+<http://www.snik.eu/ontology/bb/T3DatabaseServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور پایگاه داده T3"@fa .
+
+<http://www.snik.eu/ontology/bb/TabletPC>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رایانه لوحی"@fa .
+
+<http://www.snik.eu/ontology/bb/TacticalHISDirecting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "هدایت تاکتیکی HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/TacticalHISMonitoring>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظارت تاکتیکی بر HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/TacticalHISPlanning>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برنامه ریزی تاکتیکی HIS"@fa .
+
+<http://www.snik.eu/ontology/bb/TacticalInformationManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت اطلاعات تاکتیکی"@fa .
+
+<http://www.snik.eu/ontology/bb/TansCriticalSuccessFactorApproach>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رویکرد فاکتور موفقیت بحرانی TanA"@fa .
+
+<http://www.snik.eu/ontology/bb/TechnicalMetamodel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "متا مدل فنی"@fa .
+
+<http://www.snik.eu/ontology/bb/TechnicalModel>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدل فنی"@fa .
+
+<http://www.snik.eu/ontology/bb/TechnicalStaff>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کارکنان فنی"@fa .
+
+<http://www.snik.eu/ontology/bb/Teleconsultation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مشاوره از راه دور"@fa .
+
+<http://www.snik.eu/ontology/bb/Telemicroscopy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تله میکروسکوپی "@fa .
+
+<http://www.snik.eu/ontology/bb/Teleradiology>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تله رادیولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/TeleradiologySystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم تله رادیولوژی"@fa .
+
+<http://www.snik.eu/ontology/bb/Terminal>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ترمینال "@fa .
+
+<http://www.snik.eu/ontology/bb/TerminalServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ترمینال سرور "@fa .
+
+<http://www.snik.eu/ontology/bb/TheProviderCentricStrategy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استراتژی ارائه دهنده مرکزی"@fa .
+
+<http://www.snik.eu/ontology/bb/TheRegionalOrNationalCentricStrategy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استراتژی منطقه ای یا ملی"@fa .
+
+<http://www.snik.eu/ontology/bb/TheStrategyOfIndependentHealthBanks>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استراتژی بانک های مستقل بهداشت"@fa .
+
+<http://www.snik.eu/ontology/bb/TherapeuticDepartment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "گروه درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/TherapeuticProcedure>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روند درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/TherapeuticService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خدمات درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/TherapeuticStandard>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استاندارد درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/ThirdLevelSupport>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سطح سوم پشتیبانی"@fa .
+
+<http://www.snik.eu/ontology/bb/ThirdPartyFund>
+    <http://www.w3.org/2000/01/rdf-schema#label> "صندوق شخص ثالث"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "پشتوانه مالی از شخص ثالث"@fa .
+
+<http://www.snik.eu/ontology/bb/ThrombosisProphylaxis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پیشگیری ترومبوز"@fa .
+
+<http://www.snik.eu/ontology/bb/Tiff>
+    <http://www.w3.org/2000/01/rdf-schema#label> "TIFF (فرمات برچسب دار فایل تصویر)"@fa .
+
+<http://www.snik.eu/ontology/bb/TimeMeasurement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اندازه گیری زمان"@fa .
+
+<http://www.snik.eu/ontology/bb/TimeMotionAnalysis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تجزیه و تحلیل زمان-حرکت"@fa .
+
+<http://www.snik.eu/ontology/bb/Tiss>
+    <http://www.w3.org/2000/01/rdf-schema#label> "TISS"@fa .
+
+<http://www.snik.eu/ontology/bb/TokenRing>
+    <http://www.w3.org/2000/01/rdf-schema#label> "حلقه توکن"@fa .
+
+<http://www.snik.eu/ontology/bb/TransactionManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مدیریت تراکنش"@fa .
+
+<http://www.snik.eu/ontology/bb/TransactionManagementTechnology>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فناوری مدیریت تراکنش"@fa .
+
+<http://www.snik.eu/ontology/bb/Transcription>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رونویسی"@fa .
+
+<http://www.snik.eu/ontology/bb/Transfer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انتقال"@fa .
+
+<http://www.snik.eu/ontology/bb/TransferDiagnosis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تشخیص انتقال"@fa .
+
+<http://www.snik.eu/ontology/bb/TransinstitutionalHealthCareFunction>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تابع مراقبت های بهداشتی میان سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/TransinstitutionalHealthInformationSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم اطالاعاتی درمانی میان سازمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/TransmittingMedium>
+    <http://www.w3.org/2000/01/rdf-schema#label> "وسیله فرستنده"@fa .
+
+<http://www.snik.eu/ontology/bb/Transparency>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شفافیت"@fa .
+
+<http://www.snik.eu/ontology/bb/TreatmentBill>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پرونده درمان"@fa .
+
+<http://www.snik.eu/ontology/bb/TreatmentText>
+    <http://www.w3.org/2000/01/rdf-schema#label> "متن درمانی"@fa .
+
+<http://www.snik.eu/ontology/bb/Tree>
+    <http://www.w3.org/2000/01/rdf-schema#label> "درخت"@fa .
+
+<http://www.snik.eu/ontology/bb/TroubleShooting>
+    <http://www.w3.org/2000/01/rdf-schema#label> "عیب یابی"@fa .
+
+<http://www.snik.eu/ontology/bb/Typewriter>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ماشین تحریر"@fa .
+
+<http://www.snik.eu/ontology/bb/Ultrasound>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سونوگرافی"@fa .
+
+<http://www.snik.eu/ontology/bb/UmlAbstractClass>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کلاس انتزاعی UML"@fa .
+
+<http://www.snik.eu/ontology/bb/UmlActivityDiagram>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نمودار فعالیت UML"@fa .
+
+<http://www.snik.eu/ontology/bb/UmlAssociation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "انجمن UML"@fa .
+
+<http://www.snik.eu/ontology/bb/UmlAssociationClass>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کلاس وابستگی UML"@fa .
+
+<http://www.snik.eu/ontology/bb/UmlAttribute>
+    <http://www.w3.org/2000/01/rdf-schema#label> "خصیصه UML"@fa .
+
+<http://www.snik.eu/ontology/bb/UmlClass>
+    <http://www.w3.org/2000/01/rdf-schema#label> "کلاسUML"@fa .
+
+<http://www.snik.eu/ontology/bb/UmlClassDiagram>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نمودار کلاس UML"@fa .
+
+<http://www.snik.eu/ontology/bb/UmlMethod>
+    <http://www.w3.org/2000/01/rdf-schema#label> "روش UML"@fa .
+
+<http://www.snik.eu/ontology/bb/Umls>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم یگانه زبان پزشکی"@fa .
+
+<http://www.snik.eu/ontology/bb/UniversityMedicalCenter>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مرکز بهداشتی دانشگاه"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "مرکز پزشکی دانشگاه"@fa .
+
+<http://www.snik.eu/ontology/bb/UnstructuredInterview>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مصاحبه بدون ساختار"@fa .
+
+<http://www.snik.eu/ontology/bb/UpToDateInformation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "اطلاعات تا به تاریخ"@fa .
+
+<http://www.snik.eu/ontology/bb/UpToDatePhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تا به تاریخ بودن"@fa .
+
+<http://www.snik.eu/ontology/bb/UpdatingTheStrategicInformationManagementPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "به روز رسانی برنامه مدیریت اطلاعات استراتژیک"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "آپدیت برنامه مدیریت اطلاعات استراتژیک"@fa .
+
+<http://www.snik.eu/ontology/bb/UsLaw>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قانونUS"@fa ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "قانون ایالات متحده آمریکا "@fa .
+
+<http://www.snik.eu/ontology/bb/Usability>
+    <http://www.w3.org/2000/01/rdf-schema#label> "قابلیت استفاده"@fa .
+
+<http://www.snik.eu/ontology/bb/UsabilityStudy>
+    <http://www.w3.org/2000/01/rdf-schema#label> "برسی قابلی�� استفاده"@fa .
+
+<http://www.snik.eu/ontology/bb/UsablePhysicalDataProcessingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم پردازش داده های فیزیکی قابل استفاده"@fa .
+
+<http://www.snik.eu/ontology/bb/UseOfStrategicInformationManagementPlan>
+    <http://www.w3.org/2000/01/rdf-schema#label> "استفاده از برنامه استراتژیک مدیریت اطلاعات"@fa .
+
+<http://www.snik.eu/ontology/bb/UserRequirementsAnalysis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تجزیه و تحلیل نیاز کاربر"@fa .
+
+<http://www.snik.eu/ontology/bb/UserSatisfaction>
+    <http://www.w3.org/2000/01/rdf-schema#label> "رضایت کاربر"@fa .
+
+<http://www.snik.eu/ontology/bb/UserSurvey>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نظرسنجی کاربر"@fa .
+
+<http://www.snik.eu/ontology/bb/UserTraining>
+    <http://www.w3.org/2000/01/rdf-schema#label> "آموزش کاربر"@fa .
+
+<http://www.snik.eu/ontology/bb/UtilityAnalysis>
+    <http://www.w3.org/2000/01/rdf-schema#label> "تجزیه و تحلیل سودمندی"@fa .
+
+<http://www.snik.eu/ontology/bb/V1Style>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک V1"@fa .
+
+<http://www.snik.eu/ontology/bb/Vendor>
+    <http://www.w3.org/2000/01/rdf-schema#label> "فروشنده"@fa .
+
+<http://www.snik.eu/ontology/bb/VendorStyle>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک فروشنده"@fa .
+
+<http://www.snik.eu/ontology/bb/VideoConferencingSystem>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سیستم کنفرانس ویدیویی"@fa .
+
+<http://www.snik.eu/ontology/bb/VirtualPrivateNetwork>
+    <http://www.w3.org/2000/01/rdf-schema#label> "شبکه خصوصی مجازی"@fa .
+
+<http://www.snik.eu/ontology/bb/VirtualServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرور مجازی"@fa .
+
+<http://www.snik.eu/ontology/bb/Virtualization>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مجازی سازی"@fa .
+
+<http://www.snik.eu/ontology/bb/VisitorAndInformationService>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سرویس بازدید کننده و اطلاعاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/VitalSign>
+    <http://www.w3.org/2000/01/rdf-schema#label> "علائم حیاتی"@fa .
+
+<http://www.snik.eu/ontology/bb/VnStyle>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سبک Vn"@fa .
+
+<http://www.snik.eu/ontology/bb/Ward>
+    <http://www.w3.org/2000/01/rdf-schema#label> "بخش"@fa .
+
+<http://www.snik.eu/ontology/bb/WardPhysician>
+    <http://www.w3.org/2000/01/rdf-schema#label> "پزشک بخش"@fa .
+
+<http://www.snik.eu/ontology/bb/WebServer>
+    <http://www.w3.org/2000/01/rdf-schema#label> "وب سرور"@fa .
+
+<http://www.snik.eu/ontology/bb/WorkOrganizationAndTimeManagement>
+    <http://www.w3.org/2000/01/rdf-schema#label> "سازمان کار و مدیریت زمان"@fa .
+
+<http://www.snik.eu/ontology/bb/WorkSampling>
+    <http://www.w3.org/2000/01/rdf-schema#label> "نمونه برداری کار"@fa .
+
+<http://www.snik.eu/ontology/bb/WorkingList>
+    <http://www.w3.org/2000/01/rdf-schema#label> "لیست کار"@fa .
+
+<http://www.snik.eu/ontology/bb/Workstation>
+    <http://www.w3.org/2000/01/rdf-schema#label> "ایستگاه کاری"@fa .
+
+<http://www.snik.eu/ontology/bb/WoundCare>
+    <http://www.w3.org/2000/01/rdf-schema#label> "مراقبت زخم"@fa .
+
+<http://www.snik.eu/ontology/bb/WoundTreatment>
+    <http://www.w3.org/2000/01/rdf-schema#label> "درمان زخم"@fa .
+
+<http://www.snik.eu/ontology/bb/WrittenAgreementOnTheStudyOutline>
+    <http://www.w3.org/2000/01/rdf-schema#label> "توافقنامه نوشتاری درباره طرح مطالعه"@fa .
+
+<http://www.snik.eu/ontology/bb/Xml>
+    <http://www.w3.org/2000/01/rdf-schema#label> "XML"@fa .
+
