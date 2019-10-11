@@ -11,7 +11,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 <http://www.snik.eu/ontology/meta>
-    ov:defines :ApplicationComponent, :ComputerBasedApplicationComponent, :DataSetType, :EntityType, :Function, :Method, :MethodApplication, :RepresentationType, :Role, :SoftwareProduct, :Subfunction, :Top, :approvesEntityType, :approvesFunction, :communicatesWith, :decreases, :entityTypeComponent, :functionComponent, :increases, :isAssociatedWith, :isBasedOn, :isInvolvedIn, :isResponsibleForEntityType, :isResponsibleForFunction, :quality, :represents, :roleComponent, :softwareProduct, :subTopClass, :supports, :updates, :uses , :Chapter, :chapter, :chapterNumber, :firstPage, :lastPage, :book, :subChapterOf, :component, :responsibleFor, :approves, :accesses, :changes;
+    ov:defines :ApplicationComponent, :ComputerBasedApplicationComponent, :DataSetType, :EntityType, :Function, :Method, :MethodApplication, :RepresentationType, :Role, :SoftwareProduct, :Subfunction, :Top, :approvesEntityType, :approvesFunction, :communicatesWith, :decreases, :entityTypeComponent, :functionComponent, :increases, :isAssociatedWith, :isBasedOn, :isInvolvedIn, :isResponsibleFor, :isResponsibleForEntityType, :isResponsibleForFunction, :isResponsibleForRole, :quality, :represents, :roleComponent, :softwareProduct, :subTopClass, :supports, :updates, :uses , :Chapter, :chapter, :chapterNumber, :firstPage, :lastPage, :book, :subChapterOf, :component, :approves, :accesses, :changes;
     dc:modified "2019-10-11"^^xsd:date ;
     dc:source <http://www.snik.eu/mapping> ;
     vann:preferredNamespacePrefix "snik-meta" ;
@@ -24,13 +24,13 @@
 :ApplicationComponent
     :subTopClass :EntityType ;
     a owl:Class ;
-    rdfs:label ""@de, "application component"@en ;
+    rdfs:label "application component"@en ;
     rdfs:subClassOf :EntityType .
 
 :ComputerBasedApplicationComponent
     :subTopClass :EntityType ;
     a owl:Class ;
-    rdfs:label ""@de, "computer based application component"@en ;
+    rdfs:label "computer based application component"@en ;
     rdfs:subClassOf :ApplicationComponent .
 
 :DataSetType
@@ -60,7 +60,6 @@
 
 :MethodApplication
     a owl:Class ;
-    rdfs:comment ""@en ;
     rdfs:label "Anwenden einer Methode"@de, "applying a function"@en ;
     rdfs:subClassOf :Function, [
         a owl:Restriction ;
@@ -94,7 +93,6 @@
 
 :Subfunction
     a owl:Class ;
-    rdfs:comment ""@en ;
     rdfs:label "Teilaufgabe"@de, "subfunction"@en ;
     rdfs:subClassOf :Function .
 
@@ -106,6 +104,7 @@
 
 :approvesEntityType
     a owl:ObjectProperty ;
+    rdfs:subPropertyOf :approves ;
     rdfs:comment "Die Rolle stimmt dem Objekttyp zu oder kann potenziell diese Zustimmung geben."@de, "The role approves the entity type or can potentially approve it."@en ;
     rdfs:domain :Role ;
     rdfs:label "approves"@en ;
@@ -113,6 +112,7 @@
 
 :approvesFunction
     a owl:ObjectProperty ;
+    rdfs:subPropertyOf :approves ;
     rdfs:comment "Die Rolle stimmt der Aufgabe zu Aufgabe oder kann potenziell diese Zustimmung geben."@de, "The role approves the Function or can potentially approve it."@en ;
     rdfs:domain :Role ;
     rdfs:label "approves"@en ;
@@ -126,6 +126,7 @@
 
 :decreases
     a owl:ObjectProperty ;
+    rdfs:subPropertyOf :changes ;
     rdfs:domain :Function ;
     rdfs:label "decreases"@en, "senkt"@de ;
     rdfs:range :EntityType .
@@ -139,10 +140,10 @@
 
 :entityTypeComponent
     a owl:ObjectProperty ;
+    rdfs:subPropertyOf :component ;
     rdfs:domain :EntityType ;
     rdfs:label "entity type component"@en ;
-    rdfs:range :EntityType ;
-    rdfs:subPropertyOf :isDecomposedIn .
+    rdfs:range :EntityType .
 
 :evaluated
     a owl:DatatypeProperty ;
@@ -152,6 +153,7 @@
 
 :functionComponent
     a owl:ObjectProperty ;
+    rdfs:subPropertyOf :component ;
     rdfs:domain :Function ;
     rdfs:label "function component"@en ;
     rdfs:range :Function ;
@@ -166,6 +168,7 @@
 
 :increases
     a owl:ObjectProperty ;
+    rdfs:subPropertyOf :changes ;
     rdfs:domain :Function ;
     rdfs:label "erhöht"@de, "increases"@en ;
     rdfs:range :EntityType .
@@ -191,7 +194,7 @@
     rdfs:range :Function .
 
 :isResponsibleFor
-    a owl:ObjectProperty, <owl:DeprecatedProperty> ;
+    a owl:ObjectProperty ;
     rdfs:comment "Use isResponsibleForFunction and isResponsibleForEntityType instead." ;
     rdfs:domain :Role ;
     rdfs:label "is responsible for "@en, "ist verantwortlich für"@de ;
@@ -231,7 +234,7 @@
     rdfs:domain :Role ;
     rdfs:label "role component"@en ;
     rdfs:range :Role ;
-    rdfs:subPropertyOf :isDecomposedIn .
+    rdfs:subPropertyOf :component.
 
 :softwareProduct
     a owl:ObjectProperty ;
@@ -254,14 +257,16 @@
     a owl:ObjectProperty ;
     rdfs:domain :Function ;
     rdfs:label "aktualisiert"@de, "updates"@en ;
-    rdfs:range :EntityType .
+    rdfs:range :EntityType ;
+    rdfs:subPropertyOf :accesses.
 
 :uses
     a owl:ObjectProperty ;
     rdfs:comment "Bei Durchführung der Aufgabe werden Daten über den Objekttyp benötigt."@de, "The function requires data about the entity type."@en ;
     rdfs:domain :Function ;
     rdfs:label "uses"@en ;
-    rdfs:range :EntityType .
+    rdfs:range :EntityType ;
+    rdfs:subPropertyOf :accesses.
 
 :Chapter
     a owl:Class ;
@@ -307,12 +312,6 @@
     a owl:ObjectProperty ;
     rdfs:domain :Top ;
     rdfs:label "component"@en ;
-    rdfs:range :Top .
-
-:responsibleFor
-    a owl:ObjectProperty ;
-    rdfs:domain :Role;
-    rdfs:label "responsible for"@en ;
     rdfs:range :Top .
 
 :approves
