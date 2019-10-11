@@ -1,0 +1,335 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://www.snik.eu/ontology/meta/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://www.snik.eu/ontology/meta>
+    ov:defines :ApplicationComponent, :ComputerBasedApplicationComponent, :DataSetType, :EntityType, :Function, :Method, :MethodApplication, :RepresentationType, :Role, :SoftwareProduct, :Subfunction, :Top, :approvesEntityType, :approvesFunction, :communicatesWith, :decreases, :entityTypeComponent, :functionComponent, :increases, :isAssociatedWith, :isBasedOn, :isInvolvedIn, :isResponsibleForEntityType, :isResponsibleForFunction, :quality, :represents, :roleComponent, :softwareProduct, :subTopClass, :supports, :updates, :uses , :Chapter, :chapter, :chapterNumber, :firstPage, :lastPage, :book, :subChapterOf, :component, :responsibleFor, :approves, :accesses, :changes;
+    dc:modified "2019-10-11"^^xsd:date ;
+    dc:source <http://www.snik.eu/mapping> ;
+    vann:preferredNamespacePrefix "snik-meta" ;
+    vann:preferredNamespaceUri <http://www.snik.eu/ontology/meta/> ;
+    a owl:Ontology ;
+    rdfs:label "SNIK Meta Ontology"@en ;
+    owl:versionInfo "0.9.0" ;
+    foaf:homepage <http://www.snik.eu> .
+
+:ApplicationComponent
+    :subTopClass :EntityType ;
+    a owl:Class ;
+    rdfs:label ""@de, "application component"@en ;
+    rdfs:subClassOf :EntityType .
+
+:ComputerBasedApplicationComponent
+    :subTopClass :EntityType ;
+    a owl:Class ;
+    rdfs:label ""@de, "computer based application component"@en ;
+    rdfs:subClassOf :ApplicationComponent .
+
+:DataSetType
+    :subTopClass :EntityType ;
+    a owl:Class ;
+    rdfs:label "data set type"@en ;
+    rdfs:subClassOf :RepresentationType .
+
+:EntityType
+    a owl:Class ;
+    rdfs:comment "An entity type is any kind of information that is consumed, produced or modified by a task. These can be documents, data structures, objects, roles, specified by data types or even paper based artifacts."@en ;
+    rdfs:label "Objekttyp"@de, "entity type"@en ;
+    rdfs:subClassOf :Top ;
+    owl:disjointWith :Function, :Role .
+
+:Function
+    a owl:Class ;
+    rdfs:comment "Functions describe what is to be done in IM departments. They update or use information which is represented by entity."@en ;
+    rdfs:label "Aufgabe"@de, "Function"@en ;
+    rdfs:subClassOf :Top ;
+    owl:disjointWith :EntityType, :Role .
+
+:Method
+    a owl:Class ;
+    rdfs:label "Methode"@de, "method"@en ;
+    rdfs:subClassOf :EntityType .
+
+:MethodApplication
+    a owl:Class ;
+    rdfs:comment ""@en ;
+    rdfs:label "Anwenden einer Methode"@de, "applying a function"@en ;
+    rdfs:subClassOf :Function, [
+        a owl:Restriction ;
+        owl:allValuesFrom :Method ;
+        owl:onProperty :uses
+    ], [
+        a owl:Restriction ;
+        owl:allValuesFrom :Subfunction ;
+        owl:onProperty :isDecomposedIn
+    ] .
+
+:RepresentationType
+    :subTopClass :EntityType ;
+    a owl:Class ;
+    rdfs:label "Repräsentationstyp"@de, "representation type"@en ;
+    rdfs:subClassOf :EntityType .
+
+:Role
+    a owl:Class ;
+    rdfs:comment "Rollen beschreiben Personen und Personengruppen, die im Rahmen des Informationsmanagements im Krankenhaus und der Patientenbehandlung anzutreffen sind."@de ;
+    rdfs:label "Rolle"@de, "role"@en ;
+    rdfs:subClassOf :Top ;
+    owl:disjointWith :EntityType, :Function ;
+    skos:definition "Unter einer Rolle verstehen wir die Summe von Erwartungen, die an eine Person gerichtet werden. Sie beschreibt ein Bündel von zu erfüllenden Aufgaben und den daraus abgeleiteten Pflichten und den hierfür notwendigen Rechten."@de .
+
+:SoftwareProduct
+    :subTopClass :EntityType ;
+    a owl:Class ;
+    rdfs:label "Softwareprodukt"@de, "software product"@en ;
+    rdfs:subClassOf :EntityType .
+
+:Subfunction
+    a owl:Class ;
+    rdfs:comment ""@en ;
+    rdfs:label "Teilaufgabe"@de, "subfunction"@en ;
+    rdfs:subClassOf :Function .
+
+:Top
+    a owl:Class ;
+    rdfs:comment "Superclass of entity type, role and function."@en ;
+    rdfs:label "top class"@en ;
+    rdfs:subClassOf owl:Thing .
+
+:approvesEntityType
+    a owl:ObjectProperty ;
+    rdfs:comment "Die Rolle stimmt dem Objekttyp zu oder kann potenziell diese Zustimmung geben."@de, "The role approves the entity type or can potentially approve it."@en ;
+    rdfs:domain :Role ;
+    rdfs:label "approves"@en ;
+    rdfs:range :EntityType .
+
+:approvesFunction
+    a owl:ObjectProperty ;
+    rdfs:comment "Die Rolle stimmt der Aufgabe zu Aufgabe oder kann potenziell diese Zustimmung geben."@de, "The role approves the Function or can potentially approve it."@en ;
+    rdfs:domain :Role ;
+    rdfs:label "approves"@en ;
+    rdfs:range :Function .
+
+:communicatesWith
+    a owl:ObjectProperty ;
+    rdfs:domain :ApplicationComponent ;
+    rdfs:label "communicates with"@en, "kommuniziert mit"@de ;
+    rdfs:range :ApplicationComponent .
+
+:decreases
+    a owl:ObjectProperty ;
+    rdfs:domain :Function ;
+    rdfs:label "decreases"@en, "senkt"@de ;
+    rdfs:range :EntityType .
+
+:defined
+    a owl:DatatypeProperty ;
+    rdfs:comment "Der Begriff besitzt eine nichtleere Definition."@de, "The concept has a nonempty definition. Does not need to be explictly modelled but can be inferred from the skos:definition property."@en ;
+    rdfs:domain :Top ;
+    rdfs:label "defined"@en, "definiert"@de ;
+    rdfs:range xsd:boolean .
+
+:entityTypeComponent
+    a owl:ObjectProperty ;
+    rdfs:domain :EntityType ;
+    rdfs:label "entity type component"@en ;
+    rdfs:range :EntityType ;
+    rdfs:subPropertyOf :isDecomposedIn .
+
+:evaluated
+    a owl:DatatypeProperty ;
+    rdfs:comment "Der Begriff oder das Tripel wurde manuell nach der Extraktion evaluiert."@de, "The concept or triple has been manually evaluated after extraction."@en ;
+    rdfs:label "evaluated"@en, "evaluiert"@de ;
+    rdfs:range xsd:boolean .
+
+:functionComponent
+    a owl:ObjectProperty ;
+    rdfs:domain :Function ;
+    rdfs:label "function component"@en ;
+    rdfs:range :Function ;
+    rdfs:subPropertyOf :isDecomposedIn .
+
+:homonym
+    a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:comment "Sounds similar but has a different meaning." ;
+    rdfs:domain :Top ;
+    rdfs:label "homonym"@en ;
+    rdfs:range :Top .
+
+:increases
+    a owl:ObjectProperty ;
+    rdfs:domain :Function ;
+    rdfs:label "erhöht"@de, "increases"@en ;
+    rdfs:range :EntityType .
+
+:isAssociatedWith
+    a owl:ObjectProperty ;
+    rdfs:domain :Top ;
+    rdfs:label "is associated with"@en ;
+    rdfs:range :Top .
+
+:isBasedOn
+    a owl:ObjectProperty ;
+    rdfs:comment "Der Objekttyp wird von einem anderen Objekttyp erzeugt."@de ;
+    rdfs:domain :EntityType ;
+    rdfs:label "basiert auf"@de, "is based on"@en ;
+    rdfs:range :EntityType .
+
+:isInvolvedIn
+    a owl:ObjectProperty ;
+    rdfs:comment "Die Rolle ist in der Aufgabe involviert, z.B. durch Teilnahme oder operative Mitarbeit"@de ;
+    rdfs:domain :Role ;
+    rdfs:label "is involved in"@en, "ist involviert in"@de ;
+    rdfs:range :Function .
+
+:isResponsibleFor
+    a owl:ObjectProperty, <owl:DeprecatedProperty> ;
+    rdfs:comment "Use isResponsibleForFunction and isResponsibleForEntityType instead." ;
+    rdfs:domain :Role ;
+    rdfs:label "is responsible for "@en, "ist verantwortlich für"@de ;
+    rdfs:range :Top .
+
+:isResponsibleForEntityType
+    a owl:ObjectProperty ;
+    rdfs:comment "is responsible for an entity type"@en, "ist verantwortlich für einen Objekttyp"@de ;
+    rdfs:domain :Role ;
+    rdfs:label "is responsible for "@en, "ist verantwortlich für"@de ;
+    rdfs:range :EntityType ;
+    rdfs:subPropertyOf :isResponsibleFor .
+
+:isResponsibleForFunction
+    a owl:ObjectProperty ;
+    rdfs:comment "is responsible for a function"@en, "ist verantwortlich für eine Aufgabe"@de ;
+    rdfs:domain :Role ;
+    rdfs:label "is responsible for "@en, "ist verantwortlich für"@de ;
+    rdfs:range :Function ;
+    rdfs:subPropertyOf :isResponsibleFor .
+
+:referenced
+    a owl:DatatypeProperty ;
+    rdfs:comment "Der Begriff hat eine Quellseite in einem Buch."@de, "The concept references a page from a book. Does not need to be explicitly modelled but can be inferred from the x:page properties."@en ;
+    rdfs:domain :Top ;
+    rdfs:label "referenced"@en, "referenziert"@de ;
+    rdfs:range xsd:boolean .
+
+:represents
+    a owl:ObjectProperty ;
+    rdfs:domain :RepresentationType ;
+    rdfs:label "represents"@en, "repräsentiert"@de ;
+    rdfs:range :EntityType .
+
+:roleComponent
+    a owl:ObjectProperty ;
+    rdfs:domain :Role ;
+    rdfs:label "role component"@en ;
+    rdfs:range :Role ;
+    rdfs:subPropertyOf :isDecomposedIn .
+
+:softwareProduct
+    a owl:ObjectProperty ;
+    rdfs:domain :ComputerBasedApplicationComponent ;
+    rdfs:label "Softwareprodukt"@de, "software product"@en ;
+    rdfs:range :SoftwareProduct .
+
+:subTopClass
+    a owl:ObjectProperty ;
+    rdfs:comment "Next to last class in the class hierarchy up to Top. Either Role, EntityType or Function."@en ;
+    rdfs:label "top class"@en .
+
+:supports
+    a owl:ObjectProperty ;
+    rdfs:domain :ApplicationComponent ;
+    rdfs:label "supports"@en, "unterstützt"@de ;
+    rdfs:range :Function .
+
+:updates
+    a owl:ObjectProperty ;
+    rdfs:domain :Function ;
+    rdfs:label "aktualisiert"@de, "updates"@en ;
+    rdfs:range :EntityType .
+
+:uses
+    a owl:ObjectProperty ;
+    rdfs:comment "Bei Durchführung der Aufgabe werden Daten über den Objekttyp benötigt."@de, "The function requires data about the entity type."@en ;
+    rdfs:domain :Function ;
+    rdfs:label "uses"@en ;
+    rdfs:range :EntityType .
+
+:Chapter
+    a owl:Class ;
+    rdfs:label "chapter"@en, "Kapitel"@de.
+
+:chapter
+    a owl:ObjectProperty ;
+    rdfs:label "chapter"@en, "Kapitel"@de;
+    rdfs:domain :Top;
+    rdfs:range :Chapter.
+
+:chapterNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "chapter number"@en, "Kapitelnummer"@de;
+    rdfs:domain :Chapter;
+    rdfs:range xsd:decimal.
+
+:firstPage
+    a owl:DatatypeProperty ;
+    rdfs:label "first page"@en, "erste Seite"@de;
+    rdfs:domain :Chapter;
+    rdfs:range xsd:positiveInteger.
+
+:lastPage
+    a owl:DatatypeProperty ;
+    rdfs:label "last page"@en, "letzte Seite"@de;
+    rdfs:domain :Chapter;
+    rdfs:range xsd:positiveInteger.
+
+:book
+    a owl:ObjectProperty ;
+    rdfs:label "book"@en, "Buch"@de;
+    rdfs:domain :Chapter;
+    rdfs:range owl:Ontology.
+
+:subChapterOf
+    a owl:ObjectProperty ;
+    rdfs:label "subchapter of"@en, "Unterkapitel von"@de;
+    rdfs:domain :Chapter;
+    rdfs:range :Chapter.
+
+:component
+    a owl:ObjectProperty ;
+    rdfs:domain :Top ;
+    rdfs:label "component"@en ;
+    rdfs:range :Top .
+
+:responsibleFor
+    a owl:ObjectProperty ;
+    rdfs:domain :Role;
+    rdfs:label "responsible for"@en ;
+    rdfs:range :Top .
+
+:approves
+    a owl:ObjectProperty ;
+    rdfs:domain :Role;
+    rdfs:label "approves"@en ;
+    rdfs:range :Top .
+
+:accesses
+    a owl:ObjectProperty ;
+    rdfs:domain :Function;
+    rdfs:label "accesses"@en ;
+    rdfs:range :EntityType.
+
+:changes
+    a owl:ObjectProperty ;
+    rdfs:domain :Function;
+    rdfs:label "changes"@en ;
+    rdfs:range :EntityType .
+
