@@ -133,13 +133,6 @@
     rdfs:label "decreases"@en, "senkt"@de ;
     rdfs:range :EntityType .
 
-:defined
-    a owl:DatatypeProperty ;
-    rdfs:comment "Der Begriff besitzt eine nichtleere Definition."@de, "The concept has a nonempty definition. Does not need to be explictly modelled but can be inferred from the skos:definition property."@en ;
-    rdfs:domain :Top ;
-    rdfs:label "defined"@en, "definiert"@de ;
-    rdfs:range xsd:boolean .
-
 :entityTypeComponent
     a owl:ObjectProperty ;
     rdfs:comment "The subject is an entity type that has another entity type as component (part)."@en ;
@@ -147,12 +140,6 @@
     rdfs:domain :EntityType ;
     rdfs:label "entity type component"@en ;
     rdfs:range :EntityType .
-
-:evaluated
-    a owl:DatatypeProperty ;
-    rdfs:comment "Der Begriff oder das Tripel wurde manuell nach der Extraktion evaluiert."@de, "The concept or triple has been manually evaluated after extraction."@en ;
-    rdfs:label "evaluated"@en, "evaluiert"@de ;
-    rdfs:range xsd:boolean .
 
 :functionComponent
     a owl:ObjectProperty ;
@@ -221,13 +208,6 @@
     rdfs:label "is responsible for "@en, "ist verantwortlich für"@de ;
     rdfs:range :Function ;
     rdfs:subPropertyOf :isResponsibleFor .
-
-:referenced
-    a owl:DatatypeProperty ;
-    rdfs:comment "Der Begriff hat eine Quellseite in einem Buch."@de, "The concept references a page from a book. Does not need to be explicitly modelled but can be inferred from the x:page properties."@en ;
-    rdfs:domain :Top ;
-    rdfs:label "referenced"@en, "referenziert"@de ;
-    rdfs:range xsd:boolean .
 
 :roleComponent
     a owl:ObjectProperty ;
