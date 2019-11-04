@@ -223,12 +223,6 @@
     rdfs:label "referenced"@en, "referenziert"@de ;
     rdfs:range xsd:boolean .
 
-:represents
-    a owl:ObjectProperty ;
-    rdfs:domain :RepresentationType ;
-    rdfs:label "represents"@en, "repräsentiert"@de ;
-    rdfs:range :EntityType .
-
 :roleComponent
     a owl:ObjectProperty ;
     rdfs:domain :Role ;
