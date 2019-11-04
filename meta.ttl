@@ -120,12 +120,14 @@
 
 :communicatesWith
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is an application component that communicates with another application component."@en ;
     rdfs:domain :ApplicationComponent ;
     rdfs:label "communicates with"@en, "kommuniziert mit"@de ;
     rdfs:range :ApplicationComponent .
 
 :decreases
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a function that decreases a measurable entity type."@en ;
     rdfs:subPropertyOf :changes ;
     rdfs:domain :Function ;
     rdfs:label "decreases"@en, "senkt"@de ;
@@ -140,6 +142,7 @@
 
 :entityTypeComponent
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is an entity type that has another entity type as component (part)."@en ;
     rdfs:subPropertyOf :component ;
     rdfs:domain :EntityType ;
     rdfs:label "entity type component"@en ;
@@ -153,6 +156,7 @@
 
 :functionComponent
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a function that has another function as component (part)."@en ;
     rdfs:subPropertyOf :component ;
     rdfs:domain :Function ;
     rdfs:label "function component"@en ;
@@ -161,13 +165,14 @@
 
 :homonym
     a owl:ObjectProperty, owl:SymmetricProperty ;
-    rdfs:comment "Sounds similar but has a different meaning." ;
+    rdfs:comment "Sounds similar but has a different meaning."@en ;
     rdfs:domain :Top ;
     rdfs:label "homonym"@en ;
     rdfs:range :Top .
 
 :increases
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a function that increases a measurable entity type."@en ;
     rdfs:subPropertyOf :changes ;
     rdfs:domain :Function ;
     rdfs:label "erhöht"@de, "increases"@en ;
@@ -175,6 +180,7 @@
 
 :isAssociatedWith
     a owl:ObjectProperty ;
+    rdfs:comment "The most generic relation of SNIK that should only be used if no more specific relation is applicable."@en ;
     rdfs:domain :Top ;
     rdfs:label "is associated with"@en ;
     rdfs:range :Top .
@@ -195,7 +201,7 @@
 
 :isResponsibleFor
     a owl:ObjectProperty ;
-    rdfs:comment "Use isResponsibleForFunction and isResponsibleForEntityType instead." ;
+    rdfs:comment "Use isResponsibleForFunction and isResponsibleForEntityType instead."@en ;
     rdfs:domain :Role ;
     rdfs:label "is responsible for "@en, "ist verantwortlich für"@de ;
     rdfs:range :Top .
@@ -225,6 +231,7 @@
 
 :roleComponent
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a role that has another role as component (part)."@en ;
     rdfs:domain :Role ;
     rdfs:label "role component"@en ;
     rdfs:range :Role ;
@@ -232,6 +239,7 @@
 
 :softwareProduct
     a owl:ObjectProperty ;
+    rdfs:comment "The software product under which a computer based application component is distributed."@en ;
     rdfs:domain :ComputerBasedApplicationComponent ;
     rdfs:label "Softwareprodukt"@de, "software product"@en ;
     rdfs:range :SoftwareProduct .
@@ -243,12 +251,14 @@
 
 :supports
     a owl:ObjectProperty ;
+    rdfs:comment "A function that an application component supports."@en ;
     rdfs:domain :ApplicationComponent ;
     rdfs:label "supports"@en, "unterstützt"@de ;
     rdfs:range :Function .
 
 :updates
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a function that updates an entity type."@en ;
     rdfs:domain :Function ;
     rdfs:label "aktualisiert"@de, "updates"@en ;
     rdfs:range :EntityType ;
@@ -264,64 +274,75 @@
 
 :Chapter
     a owl:Class ;
+    rdfs:comment "A chapter in a book."@en ;
     rdfs:label "chapter"@en, "Kapitel"@de.
 
 :chapter
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a class that is described in a book chapter."@en ;
     rdfs:label "chapter"@en, "Kapitel"@de;
     rdfs:domain :Top;
     rdfs:range :Chapter.
 
 :chapterNumber
     a owl:DatatypeProperty ;
+    rdfs:comment "The subject is a chapter that has a number, possibly including multiple dots, such as chapter 3.4.5."@en ;
     rdfs:label "chapter number"@en, "Kapitelnummer"@de;
     rdfs:domain :Chapter;
     rdfs:range xsd:decimal.
 
 :firstPage
     a owl:DatatypeProperty ;
+    rdfs:comment "The first page of the subject chapter."@en ;
     rdfs:label "first page"@en, "erste Seite"@de;
     rdfs:domain :Chapter;
     rdfs:range xsd:positiveInteger.
 
 :lastPage
     a owl:DatatypeProperty ;
+    rdfs:comment "The last page of the subject chapter."@en ;
     rdfs:label "last page"@en, "letzte Seite"@de;
     rdfs:domain :Chapter;
     rdfs:range xsd:positiveInteger.
 
 :book
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a chapter in a book."@en;
     rdfs:label "book"@en, "Buch"@de;
     rdfs:domain :Chapter;
     rdfs:range owl:Ontology.
 
 :subChapterOf
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a subchapter of a chapter."@en;
     rdfs:label "subchapter of"@en, "Unterkapitel von"@de;
     rdfs:domain :Chapter;
     rdfs:range :Chapter.
 
 :component
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a role, function or entity type that has another of the same type as a component. Use meta:roleComponent, meta:functionComponent, respectively meta:entityTypeComponent instead."@en;
     rdfs:domain :Top ;
     rdfs:label "component"@en ;
     rdfs:range :Top .
 
 :approves
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a role that approves a function or entity type."@en ;
     rdfs:domain :Role;
     rdfs:label "approves"@en ;
     rdfs:range :Top .
 
 :accesses
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a function that accesses the data represented or provided by an entity type."@en ;
     rdfs:domain :Function;
     rdfs:label "accesses"@en ;
     rdfs:range :EntityType.
 
 :changes
     a owl:ObjectProperty ;
+    rdfs:comment "The subject is a function that increases or decreases a measurable entity type. Use meta:increases or meta:decreases if possible."@en;
     rdfs:domain :Function;
     rdfs:label "changes"@en ;
     rdfs:range :EntityType .
