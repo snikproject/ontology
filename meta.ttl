@@ -327,3 +327,10 @@
     rdfs:label "changes"@en ;
     rdfs:range :EntityType .
 
+:master
+    a owl:ObjectProperty ;
+    rdfs:comment "The object is an application component which is responsible for the entity type subject."@en;
+    rdfs:domain :EntityType;
+    rdfs:label "master"@en ;
+    rdfs:range :ApplicationComponent.
+
