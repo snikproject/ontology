@@ -25024,16 +25024,14 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/CardTechnique> <http://www.w3.org/2004/02/skos/core#definition> "Kreativit\u00E4tsmethode, die auf schriftlich niedergelegten Ideen basiert. Die Teilnehmer notieren Ideen zu einem vorgegebenen Thema auf K\u00E4rtchen. Die K\u00E4rtchen werden eingesammelt, vorgelesen, sortiert und gemeinsam ausgewertet."@de .
 <http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/ItilVersion2> .
 <http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/ItilVersion3> .
-<http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/ob/ItilVersion2> .
-<http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/ob/ItilVersion3> .
-<http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.snik.eu/ontology/ob/Chapter> "13.3"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.snik.eu/ontology/ob/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.snik.eu/ontology/ob/ID> "589"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.snik.eu/ontology/ob/page> "" .
 <http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.w3.org/2000/01/rdf-schema#label> "Central Computer and Telecommunications Agency"@en .
-<http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.w3.org/2004/02/skos/core#altLabel> "CCTA"@en .
 <http://www.snik.eu/ontology/ob/CentralComputerAndTelecommunicationsAgency> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/ChangeManagement> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "323"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -28572,6 +28570,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/ItilVersion2> <http://www.snik.eu/ontology/ob/page> "" .
 <http://www.snik.eu/ontology/ob/ItilVersion2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ob/ItilVersion2> <http://www.w3.org/2000/01/rdf-schema#label> "ITIL Version 2"@en .
+<http://www.snik.eu/ontology/ob/ItilVersion2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Itil> .
 <http://www.snik.eu/ontology/ob/ItilVersion2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ob/ItilVersion2> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/ItilVersion3> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "288"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -28582,6 +28581,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/ItilVersion3> <http://www.snik.eu/ontology/ob/page> "" .
 <http://www.snik.eu/ontology/ob/ItilVersion3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ob/ItilVersion3> <http://www.w3.org/2000/01/rdf-schema#label> "ITIL Version 3"@en .
+<http://www.snik.eu/ontology/ob/ItilVersion3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Itil> .
 <http://www.snik.eu/ontology/ob/ItilVersion3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ob/ItilVersion3> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/ItilVersion3> <http://www.w3.org/2004/02/skos/core#definition> "In der seit 2007 aktuellen Version 3 wurde das IT Service Management als selbst\u00E4ndiges Servicemanagement-Konzept weiterentwickelt, welches sich an dem durch den IT-Betrieb zu erbringenden nachhaltigen wirtschaftlichen Mehrwert f\u00FCr den Kunden orientiert."@de .
