@@ -24610,12 +24610,12 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/AnalystTeam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/InformationManagement> .
 <http://www.snik.eu/ontology/ob/AnalystTeam> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "282"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/UserSupportConcept> .
 <http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ExecutionOfTrainingCourse> .
 <http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/OrganizationalDevelopment> .
 <http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/SystemOperation> .
 <http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/UserAdministration> .
 <http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/UserSupport> .
-<http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/UserSupportConcept> .
 <http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/ob/Chapter> "13.1"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/ApplicationAdministrator> <http://www.snik.eu/ontology/ob/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -24792,8 +24792,10 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/Bid> <http://www.snik.eu/ontology/ob/ID> "873"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/ob/Bid> <http://www.snik.eu/ontology/ob/page> "" .
 <http://www.snik.eu/ontology/ob/Bid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/ob/Bid> <http://www.w3.org/2000/01/rdf-schema#label> "Angebot"@de .
 <http://www.snik.eu/ontology/ob/Bid> <http://www.w3.org/2000/01/rdf-schema#label> "Bid"@en .
 <http://www.snik.eu/ontology/ob/Bid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/ob/Bid> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/Angebot> .
 <http://www.snik.eu/ontology/ob/Bid> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/BidPrioritization> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/ob/BidPrioritization> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/ob/PrioritizedBidList> .
@@ -25058,7 +25060,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/CheckList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ob/CheckList> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "324"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.snik.eu/ontology/ob/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ComputingCenter> .
+<http://www.snik.eu/ontology/ob/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/ComputingCenter> .
 <http://www.snik.eu/ontology/ob/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/InformationManagement> .
 <http://www.snik.eu/ontology/ob/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/ChiefInformationOfficer> <http://www.snik.eu/ontology/ob/Chapter> "16.0"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -25316,7 +25318,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/ConstructiveCostModel> <http://www.w3.org/2004/02/skos/core#altLabel> "COCOMO"@en .
 <http://www.snik.eu/ontology/ob/ConstructiveCostModel> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/Consultant> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/Customizing> .
-<http://www.snik.eu/ontology/ob/Consultant> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/FunctionalSpecificationDocument> .
+<http://www.snik.eu/ontology/ob/Consultant> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/FunctionalSpecificationDocument> .
 <http://www.snik.eu/ontology/ob/Consultant> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/Consultant> <http://www.snik.eu/ontology/ob/Chapter> "11.2"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/Consultant> <http://www.snik.eu/ontology/ob/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -25356,10 +25358,10 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "321"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/DefinitionOfProjectGoals> .
 <http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/ProjectManagement> .
+<http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/QualificationCriterion> .
 <http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/AcceptingAProjectOrder> .
 <http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectApproval> .
 <http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectExecution> .
-<http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/QualificationCriterion> .
 <http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/ob/approves> <http://www.snik.eu/ontology/ob/EvaluationPlan> .
 <http://www.snik.eu/ontology/ob/Contractor> <http://www.snik.eu/ontology/ob/approves> <http://www.snik.eu/ontology/ob/ProjectGoal> .
@@ -28384,7 +28386,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/InternalProcedureInstruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ob/InternalProcedureInstruction> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/Interviewer> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/Interview> .
-<http://www.snik.eu/ontology/ob/Interviewer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/Interview> .
+<http://www.snik.eu/ontology/ob/Interviewer> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/Interview> .
 <http://www.snik.eu/ontology/ob/Interviewer> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/Interviewer> <http://www.snik.eu/ontology/ob/Chapter> "8.3"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/Interviewer> <http://www.snik.eu/ontology/ob/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -28515,7 +28517,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/ItServiceManagement> <http://www.w3.org/2000/01/rdf-schema#label> "IT Service Management"@en .
 <http://www.snik.eu/ontology/ob/ItServiceManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/InformationManagement> .
 <http://www.snik.eu/ontology/ob/ItServiceManagement> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
-<http://www.snik.eu/ontology/ob/ItStaff> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/FunctionalSpecificationDocument> .
+<http://www.snik.eu/ontology/ob/ItStaff> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/FunctionalSpecificationDocument> .
 <http://www.snik.eu/ontology/ob/ItStaff> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/ItStaff> <http://www.snik.eu/ontology/ob/Chapter> "9.2"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/ItStaff> <http://www.snik.eu/ontology/ob/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -29414,7 +29416,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/ObservationProtocol> <http://www.w3.org/2000/01/rdf-schema#label> "Observation Protocol"@en .
 <http://www.snik.eu/ontology/ob/ObservationProtocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/ElicitationForm> .
 <http://www.snik.eu/ontology/ob/ObservationProtocol> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
-<http://www.snik.eu/ontology/ob/Observer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/Observation> .
+<http://www.snik.eu/ontology/ob/Observer> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/Observation> .
 <http://www.snik.eu/ontology/ob/Observer> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/Observer> <http://www.snik.eu/ontology/ob/Chapter> "8.3"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/Observer> <http://www.snik.eu/ontology/ob/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -30768,31 +30770,31 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "336"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/Project> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/ProjectApproval> .
+<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/FinalReport> .
+<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/InterimReport> .
+<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/JourFixe> .
+<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/Project> .
+<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/ProjectMember> .
+<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/ProjectStatusReport> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/CompletionOfProjectDocumentation> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ConflictManagement> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/DefiningAndSchedulingMilestones> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ExecutionOfAKickOffMeeting> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ExecutionOfAStakeholderAnalysis> .
-<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/FinalReport> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/FinalReportCreation> .
-<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/InterimReport> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/InterimReportCreation> .
-<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/JourFixe> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/MeetingManagement> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/PresentationOfIntermediateResults> .
-<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/Project> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectApproval> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectControlling> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectDirecting> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectDocumentation> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectManagement> .
-<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectMember> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectMonitoring> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectPlanApproval> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectPlanCreation> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectPlanning> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectRepresentation> .
-<http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectStatusReport> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectTeamCoordination> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectTeamLeading> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/RiskAnalysis> .
@@ -32473,7 +32475,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/SpecificationPlan> <http://www.w3.org/2004/02/skos/core#definition> "Basierend auf der Problembereichsdefinition und der Zieldefinition (inkl. Bewertungskriterien) wird vom Spezifikationsteam analog zum Analyseplan (vgl. Tab. 8.2 auf S. 127) nun noch ein Spezifikationsplan erstellt. Dieser beschreibt Schritte, Methoden und Werkzeuge zur Informationsbeschaffung, Aufbereitung und Modellierung sowie Veri-fikation."@de .
 <http://www.snik.eu/ontology/ob/SpecificationPlan> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/SpecificationTeam> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/SystemSpecification> .
-<http://www.snik.eu/ontology/ob/SpecificationTeam> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/FunctionalSpecificationDocument> .
+<http://www.snik.eu/ontology/ob/SpecificationTeam> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/FunctionalSpecificationDocument> .
 <http://www.snik.eu/ontology/ob/SpecificationTeam> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/SystemSpecification> .
 <http://www.snik.eu/ontology/ob/SpecificationTeam> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/ob/DomainExpert> .
 <http://www.snik.eu/ontology/ob/SpecificationTeam> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/ob/ProjectTeamMember> .
@@ -32529,15 +32531,15 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/SystemAnalysisPlanning> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/SystemHandover> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/VerificationSpecification> .
+<http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/ProjectOrder> .
+<http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/Requirement> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/DefiningAndSchedulingMilestones> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/PlacingAProjectOrder> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectApproval> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectExecution> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectInitiation> .
-<http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectOrder> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectTeamCoordination> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/ProjectTeamLeading> .
-<http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/Requirement> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/ob/approves> <http://www.snik.eu/ontology/ob/AnalysisPlan> .
 <http://www.snik.eu/ontology/ob/Sponsor> <http://www.snik.eu/ontology/ob/approves> <http://www.snik.eu/ontology/ob/EvaluationCriterion> .
@@ -34086,7 +34088,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/TopDownApproach> <http://www.w3.org/2000/01/rdf-schema#label> "Top-down Approach"@en .
 <http://www.snik.eu/ontology/ob/TopDownApproach> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ob/TopDownApproach> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
-<http://www.snik.eu/ontology/ob/TopManagement> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/OrganizationalUnit> .
+<http://www.snik.eu/ontology/ob/TopManagement> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/OrganizationalUnit> .
 <http://www.snik.eu/ontology/ob/TopManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/TopManagement> <http://www.snik.eu/ontology/ob/Chapter> "16.0"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/TopManagement> <http://www.snik.eu/ontology/ob/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -34588,7 +34590,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/WorkPackage> <http://www.w3.org/2004/02/skos/core#definition> "Abgegrenzbare Einheiten in einem Projekt, welche zusammengeh\u00F6rige Aktivit\u00E4ten sinnvoll b\u00FCndeln und von einem Arbeitspaket-Leiter geleitet werden. Arbeitspakete dienen der Erf\u00FCllung einer (Teil-) Aufgabe in einem Projekt. Arbeitspakete werden als Ergebnis der Strukturplanung w\u00E4hrend der Projektplanung formuliert."@de .
 <http://www.snik.eu/ontology/ob/WorkPackage> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/WorkPackageManager> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "337"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.snik.eu/ontology/ob/WorkPackageManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/WorkPackage> .
+<http://www.snik.eu/ontology/ob/WorkPackageManager> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ob/WorkPackage> .
 <http://www.snik.eu/ontology/ob/WorkPackageManager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ob/WorkPackageExecution> .
 <http://www.snik.eu/ontology/ob/WorkPackageManager> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ob/WorkPackageManager> <http://www.snik.eu/ontology/ob/Chapter> "16.0"^^<http://www.w3.org/2001/XMLSchema#string> .
