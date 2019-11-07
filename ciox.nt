@@ -361,9 +361,6 @@ _:b216117 <http://www.w3.org/2002/07/owl#subject> <http://www.snik.eu/ontology/c
 <http://www.snik.eu/ontology/ciox/CABDurchfuehrung> <http://www.w3.org/2000/01/rdf-schema#label> "CAB execution"@en .
 <http://www.snik.eu/ontology/ciox/CABDurchfuehrung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/ChangeManagement> .
 <http://www.snik.eu/ontology/ciox/CABDurchfuehrung> <http://www.w3.org/2004/02/skos/core#definition> "CAB - Change Advisory Board"@de .
-<http://www.snik.eu/ontology/ciox/ChangeAdvisoryBoard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/Abteilungsleiter> .
-<http://www.snik.eu/ontology/ciox/ChangeAdvisoryBoard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/Bereichsassistenz> .
-<http://www.snik.eu/ontology/ciox/ChangeAdvisoryBoard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/ChiefInformationOfficer> .
 <http://www.snik.eu/ontology/ciox/ChangeAdvisoryBoard> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ciox/CABDurchfuehrung> .
 <http://www.snik.eu/ontology/ciox/ChangeAdvisoryBoard> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ciox/ChangeRequestUeberwachung> .
 <http://www.snik.eu/ontology/ciox/ChangeAdvisoryBoard> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ciox/ChangeRequestEntscheidung> .
@@ -380,7 +377,6 @@ _:b216117 <http://www.w3.org/2002/07/owl#subject> <http://www.snik.eu/ontology/c
 <http://www.snik.eu/ontology/ciox/ChangeAdvisoryBoard> <http://www.w3.org/2004/02/skos/core#altLabel> "CAB"@en .
 <http://www.snik.eu/ontology/ciox/ChangeAdvisoryBoard> <http://www.w3.org/2004/02/skos/core#definition> "Das CAB unterst\u00FCtzt den Change-Manager, Changes hinsichtlich des Business Impacts einzusch\u00E4tzen und zu priorisieren. Wenn ein CAB einberufen wird, m\u00FCssen die ausgew\u00E4hlten Mitglieder f\u00E4hig sein, den Change sowohl vom Standpunkt des Gesch\u00E4fts, als auch vom technischen Standpunkt aus beurteilen zu k\u00F6nnen. Um diesen Mix zu erreichen, m\u00FCssen im CAB sowohl Personen mit einem klaren Verst\u00E4ndnis f\u00FCr die Gesch\u00E4ftsanforderungen des Kunden vertreten sein als auch Anwender und Vertreter aus den technischen Entwicklungs- und Supportbereichen."@de .
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ciox/ChangeAntragProtokoll> .
-<http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/ChangeAntragProtokoll> .
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.w3.org/2000/01/rdf-schema#label> "Change Antrag"@de .
@@ -547,7 +543,6 @@ _:b216117 <http://www.w3.org/2002/07/owl#subject> <http://www.snik.eu/ontology/c
 <http://www.snik.eu/ontology/ciox/ErwartungenFormulieren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/ErwartungenFormulieren> <http://www.w3.org/2000/01/rdf-schema#label> "Erwartungen an IT-Strategie formulieren"@de .
 <http://www.snik.eu/ontology/ciox/Etat> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ciox/Sachkonto> .
-<http://www.snik.eu/ontology/ciox/Etat> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/Sachkonto> .
 <http://www.snik.eu/ontology/ciox/Etat> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Etat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Etat> <http://www.w3.org/2000/01/rdf-schema#label> "Budget"@en .
@@ -1350,7 +1345,6 @@ _:b216117 <http://www.w3.org/2002/07/owl#subject> <http://www.snik.eu/ontology/c
 <http://www.snik.eu/ontology/ciox/Projekteskalation> <http://www.w3.org/2000/01/rdf-schema#label> "Projekteskalation"@de .
 <http://www.snik.eu/ontology/ciox/Projekteskalation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Projektmanagement> .
 <http://www.snik.eu/ontology/ciox/Projektewarteliste> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ciox/Projekt> .
-<http://www.snik.eu/ontology/ciox/Projektewarteliste> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/Projekt> .
 <http://www.snik.eu/ontology/ciox/Projektewarteliste> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projektewarteliste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projektewarteliste> <http://www.w3.org/2000/01/rdf-schema#label> "project waitlist"@en .
@@ -1366,7 +1360,6 @@ _:b216117 <http://www.w3.org/2002/07/owl#subject> <http://www.snik.eu/ontology/c
 <http://www.snik.eu/ontology/ciox/Projektfreigabe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Projektmanagement> .
 <http://www.snik.eu/ontology/ciox/Projekt> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ciox/Projektdefinition> .
 <http://www.snik.eu/ontology/ciox/Projekt> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/ciox/Projektwebsite> .
-<http://www.snik.eu/ontology/ciox/Projekt> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/Projektdefinition> .
 <http://www.snik.eu/ontology/ciox/Projekt> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projekt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projekt> <http://www.w3.org/2000/01/rdf-schema#label> "Project"@en .
@@ -1598,11 +1591,6 @@ _:b216117 <http://www.w3.org/2002/07/owl#subject> <http://www.snik.eu/ontology/c
 <http://www.snik.eu/ontology/ciox/SAPERP> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ciox/SAPIM> .
 <http://www.snik.eu/ontology/ciox/SAPERP> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ciox/SAPMM> .
 <http://www.snik.eu/ontology/ciox/SAPERP> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ciox/SAPXFlow> .
-<http://www.snik.eu/ontology/ciox/SAPERP> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/SAPCO> .
-<http://www.snik.eu/ontology/ciox/SAPERP> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/SAPFI> .
-<http://www.snik.eu/ontology/ciox/SAPERP> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/SAPIM> .
-<http://www.snik.eu/ontology/ciox/SAPERP> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/SAPMM> .
-<http://www.snik.eu/ontology/ciox/SAPERP> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/ciox/SAPXFlow> .
 <http://www.snik.eu/ontology/ciox/SAPERP> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/SAPERP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/SAPERP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

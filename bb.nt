@@ -18127,8 +18127,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/2TierArchitecture> <http://www.snik.eu/ontology/bb/page> "173" .
 <http://www.snik.eu/ontology/bb/2TierArchitecture> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ApplicationServer> .
 <http://www.snik.eu/ontology/bb/2TierArchitecture> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/DatabaseServer> .
-<http://www.snik.eu/ontology/bb/2TierArchitecture> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ApplicationServer> .
-<http://www.snik.eu/ontology/bb/2TierArchitecture> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DatabaseServer> .
 <http://www.snik.eu/ontology/bb/2TierArchitecture> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/2TierArchitecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/2TierArchitecture> <http://www.w3.org/2000/01/rdf-schema#label> "2-tier Architecture"@en .
@@ -18204,10 +18202,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/3LGM2DomainLayer> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2InformationProcess> .
 <http://www.snik.eu/ontology/bb/3LGM2DomainLayer> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2OrganizationalUnit> .
 <http://www.snik.eu/ontology/bb/3LGM2DomainLayer> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/3LGM2EnterpriseFunction> .
-<http://www.snik.eu/ontology/bb/3LGM2DomainLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2EnterpriseFunction> .
-<http://www.snik.eu/ontology/bb/3LGM2DomainLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2EntityType> .
-<http://www.snik.eu/ontology/bb/3LGM2DomainLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2InformationProcess> .
-<http://www.snik.eu/ontology/bb/3LGM2DomainLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2OrganizationalUnit> .
 <http://www.snik.eu/ontology/bb/3LGM2DomainLayer> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/3LGM2DomainLayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/3LGM2DomainLayer> <http://www.w3.org/2000/01/rdf-schema#label> "3LGM\u00B2 Domain Layer"@en .
@@ -18245,11 +18239,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/3LGM2> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> .
 <http://www.snik.eu/ontology/bb/3LGM2> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> .
 <http://www.snik.eu/ontology/bb/3LGM2> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/bb/UmlClassDiagram> .
-<http://www.snik.eu/ontology/bb/3LGM2> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2DomainLayer> .
-<http://www.snik.eu/ontology/bb/3LGM2> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2InterlayerRelationship> .
-<http://www.snik.eu/ontology/bb/3LGM2> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2IntralayerRelationship> .
-<http://www.snik.eu/ontology/bb/3LGM2> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> .
-<http://www.snik.eu/ontology/bb/3LGM2> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> .
 <http://www.snik.eu/ontology/bb/3LGM2> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/3LGM2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/3LGM2> <http://www.w3.org/2000/01/rdf-schema#label> "3LGM\u00B2"@en .
@@ -18267,8 +18256,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/3LGM2InformationProcess> <http://www.snik.eu/ontology/bb/page> "306" .
 <http://www.snik.eu/ontology/bb/3LGM2InformationProcess> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2EntityType> .
 <http://www.snik.eu/ontology/bb/3LGM2InformationProcess> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/3LGM2EnterpriseFunction> .
-<http://www.snik.eu/ontology/bb/3LGM2InformationProcess> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2EnterpriseFunction> .
-<http://www.snik.eu/ontology/bb/3LGM2InformationProcess> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2EntityType> .
 <http://www.snik.eu/ontology/bb/3LGM2InformationProcess> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/3LGM2InformationProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/3LGM2InformationProcess> <http://www.w3.org/2000/01/rdf-schema#label> "3LGM\u00B2 Information Process"@en .
@@ -18311,10 +18298,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2CommunicationInterface> .
 <http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2CommunicationLink> .
 <http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2SoftwareProduct> .
-<http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2ApplicationComponent> .
-<http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2CommunicationInterface> .
-<http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2CommunicationLink> .
-<http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2SoftwareProduct> .
 <http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.w3.org/2000/01/rdf-schema#label> "3LGM\u00B2 Logical Tool Layer"@en .
@@ -18349,9 +18332,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/3LGM2M> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2B> .
 <http://www.snik.eu/ontology/bb/3LGM2M> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2MCommunicationStandard> .
 <http://www.snik.eu/ontology/bb/3LGM2M> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2MMessageType> .
-<http://www.snik.eu/ontology/bb/3LGM2M> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2B> .
-<http://www.snik.eu/ontology/bb/3LGM2M> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2MCommunicationStandard> .
-<http://www.snik.eu/ontology/bb/3LGM2M> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2MMessageType> .
 <http://www.snik.eu/ontology/bb/3LGM2M> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/3LGM2M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/3LGM2M> <http://www.w3.org/2000/01/rdf-schema#label> "3LGM\u00B2-M"@en .
@@ -18403,11 +18383,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2PhysicalDataProcessingSystem> .
 <http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2ToolClass> .
 <http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2TransmittingMedium> .
-<http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2DataTransmissionConnection> .
-<http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2Location> .
-<http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2PhysicalDataProcessingSystem> .
-<http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2ToolClass> .
-<http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2TransmittingMedium> .
 <http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/3LGM2PhysicalToolLayer> <http://www.w3.org/2000/01/rdf-schema#label> "3LGM\u00B2 Physical Tool Layer"@en .
@@ -18441,10 +18416,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/3LGM2S> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2SService> .
 <http://www.snik.eu/ontology/bb/3LGM2S> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/3LGM2SServiceClass> .
 <http://www.snik.eu/ontology/bb/3LGM2S> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Soa> .
-<http://www.snik.eu/ontology/bb/3LGM2S> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2SInvokingInterface> .
-<http://www.snik.eu/ontology/bb/3LGM2S> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2SProvidingInterface> .
-<http://www.snik.eu/ontology/bb/3LGM2S> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2SService> .
-<http://www.snik.eu/ontology/bb/3LGM2S> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2SServiceClass> .
 <http://www.snik.eu/ontology/bb/3LGM2S> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/3LGM2S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/3LGM2S> <http://www.w3.org/2000/01/rdf-schema#label> "3LGM\u00B2-S"@en .
@@ -18550,8 +18521,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/3TierArchitecture> <http://www.snik.eu/ontology/bb/page> "173" .
 <http://www.snik.eu/ontology/bb/3TierArchitecture> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/T3ApplicationServer> .
 <http://www.snik.eu/ontology/bb/3TierArchitecture> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/T3DatabaseServer> .
-<http://www.snik.eu/ontology/bb/3TierArchitecture> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/T3ApplicationServer> .
-<http://www.snik.eu/ontology/bb/3TierArchitecture> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/T3DatabaseServer> .
 <http://www.snik.eu/ontology/bb/3TierArchitecture> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/3TierArchitecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/3TierArchitecture> <http://www.w3.org/2000/01/rdf-schema#label> "3-tier Architecture"@en .
@@ -18652,10 +18621,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Acid> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Consistency> .
 <http://www.snik.eu/ontology/bb/Acid> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Durability> .
 <http://www.snik.eu/ontology/bb/Acid> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Isolation> .
-<http://www.snik.eu/ontology/bb/Acid> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Atomicity> .
-<http://www.snik.eu/ontology/bb/Acid> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Consistency> .
-<http://www.snik.eu/ontology/bb/Acid> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Durability> .
-<http://www.snik.eu/ontology/bb/Acid> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Isolation> .
 <http://www.snik.eu/ontology/bb/Acid> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Acid> <http://www.w3.org/2000/01/rdf-schema#label> "ACID"@en .
@@ -18861,9 +18826,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/AdministrativePatientData> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/PatientInsuranceData> .
 <http://www.snik.eu/ontology/bb/AdministrativePatientData> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/PatientsRelatives> .
 <http://www.snik.eu/ontology/bb/AdministrativePatientData> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/TransferDiagnosis> .
-<http://www.snik.eu/ontology/bb/AdministrativePatientData> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PatientInsuranceData> .
-<http://www.snik.eu/ontology/bb/AdministrativePatientData> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PatientsRelatives> .
-<http://www.snik.eu/ontology/bb/AdministrativePatientData> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/TransferDiagnosis> .
 <http://www.snik.eu/ontology/bb/AdministrativePatientData> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/AdministrativePatientData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/AdministrativePatientData> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Patient Data"@en .
@@ -18921,10 +18883,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HL7MessageHeader> .
 <http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HL7PatientIdentification> .
 <http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HL7PatientVisitInformation> .
-<http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HL7EventDescription> .
-<http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HL7MessageHeader> .
-<http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HL7PatientIdentification> .
-<http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HL7PatientVisitInformation> .
 <http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Adt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Adt> <http://www.w3.org/2000/01/rdf-schema#label> "ADT"@en .
@@ -18948,7 +18906,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/AnnualHospitalOperatingCost> <http://www.snik.eu/ontology/bb/ID> "641"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/AnnualHospitalOperatingCost> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/AnnualHospitalOperatingCost> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/StaffCost> .
-<http://www.snik.eu/ontology/bb/AnnualHospitalOperatingCost> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StaffCost> .
 <http://www.snik.eu/ontology/bb/AnnualHospitalOperatingCost> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/AnnualHospitalOperatingCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/AnnualHospitalOperatingCost> <http://www.w3.org/2000/01/rdf-schema#label> "Annual Hospital Operating Cost"@en .
@@ -19119,9 +19076,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ArchivingOfPatientInformation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AdministrationAndAllocationOfPatientRecords> .
 <http://www.snik.eu/ontology/bb/ArchivingOfPatientInformation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/LongTermArchiving> .
 <http://www.snik.eu/ontology/bb/ArchivingOfPatientInformation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/OpeningAPatientRecord> .
-<http://www.snik.eu/ontology/bb/ArchivingOfPatientInformation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AdministrationAndAllocationOfPatientRecords> .
-<http://www.snik.eu/ontology/bb/ArchivingOfPatientInformation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/LongTermArchiving> .
-<http://www.snik.eu/ontology/bb/ArchivingOfPatientInformation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OpeningAPatientRecord> .
 <http://www.snik.eu/ontology/bb/ArchivingOfPatientInformation> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ArchivingOfPatientInformation> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/PatientRecord> .
 <http://www.snik.eu/ontology/bb/ArchivingOfPatientInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -19530,10 +19484,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/BusinessReferenceModel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/DataModel> .
 <http://www.snik.eu/ontology/bb/BusinessReferenceModel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/InformationProcessingModel> .
 <http://www.snik.eu/ontology/bb/BusinessReferenceModel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/OrganizationalModel> .
-<http://www.snik.eu/ontology/bb/BusinessReferenceModel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/BusinessProcessModel> .
-<http://www.snik.eu/ontology/bb/BusinessReferenceModel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DataModel> .
-<http://www.snik.eu/ontology/bb/BusinessReferenceModel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/InformationProcessingModel> .
-<http://www.snik.eu/ontology/bb/BusinessReferenceModel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OrganizationalModel> .
 <http://www.snik.eu/ontology/bb/BusinessReferenceModel> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/BusinessReferenceModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/BusinessReferenceModel> <http://www.w3.org/2000/01/rdf-schema#label> "Business Reference Model"@en .
@@ -19544,7 +19494,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/BusinessStrategy> <http://www.snik.eu/ontology/bb/ID> "708"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/BusinessStrategy> <http://www.snik.eu/ontology/bb/page> "78" .
 <http://www.snik.eu/ontology/bb/BusinessStrategy> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/StrategicGoalOfTheInstitution> .
-<http://www.snik.eu/ontology/bb/BusinessStrategy> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StrategicGoalOfTheInstitution> .
 <http://www.snik.eu/ontology/bb/BusinessStrategy> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/BusinessStrategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/BusinessStrategy> <http://www.w3.org/2000/01/rdf-schema#label> "Business Strategy"@en .
@@ -19638,7 +19587,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Cchit> <http://www.snik.eu/ontology/bb/ID> "592"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/Cchit> <http://www.snik.eu/ontology/bb/page> "271" .
 <http://www.snik.eu/ontology/bb/Cchit> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/CertificationByCCHIT> .
-<http://www.snik.eu/ontology/bb/Cchit> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/CertificationByCCHIT> .
 <http://www.snik.eu/ontology/bb/Cchit> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Cchit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Cchit> <http://www.w3.org/2000/01/rdf-schema#label> "CCHIT"@en .
@@ -19651,7 +19599,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Ccow> <http://www.snik.eu/ontology/bb/page> "296" .
 <http://www.snik.eu/ontology/bb/Ccow> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/HL7Standard> .
 <http://www.snik.eu/ontology/bb/Ccow> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/CcowStandard> .
-<http://www.snik.eu/ontology/bb/Ccow> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/CcowStandard> .
 <http://www.snik.eu/ontology/bb/Ccow> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Ccow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Ccow> <http://www.w3.org/2000/01/rdf-schema#label> "CCOW"@en .
@@ -19696,7 +19643,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Cen> <http://www.snik.eu/ontology/bb/ID> "547"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/Cen> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/Cen> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/StandardizationByCEN> .
-<http://www.snik.eu/ontology/bb/Cen> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/StandardizationByCEN> .
 <http://www.snik.eu/ontology/bb/Cen> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Cen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Cen> <http://www.w3.org/2000/01/rdf-schema#label> "CEN"@en .
@@ -19960,10 +19906,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/MedicalDocumentationSystem> .
 <http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/NursingManagementAndDocumentationSystem> .
 <http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/OutpatientManagementSystem> .
-<http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ComputerizedPhysicianOrderEntrySystem> .
-<http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MedicalDocumentationSystem> .
-<http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NursingManagementAndDocumentationSystem> .
-<http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OutpatientManagementSystem> .
 <http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical Information System"@en .
@@ -19977,7 +19919,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ClinicalPathway> <http://www.snik.eu/ontology/bb/ID> "702"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/ClinicalPathway> <http://www.snik.eu/ontology/bb/page> "76" .
 <http://www.snik.eu/ontology/bb/ClinicalPathway> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Activity> .
-<http://www.snik.eu/ontology/bb/ClinicalPathway> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Activity> .
 <http://www.snik.eu/ontology/bb/ClinicalPathway> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ClinicalPathway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ClinicalPathway> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical Pathway"@en .
@@ -20035,7 +19976,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/bb/page> "268, 297" .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/CobitDomain> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
-<http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/CobitDomain> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.w3.org/2000/01/rdf-schema#label> "COBIT"@en .
@@ -20047,8 +19987,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/CodingOfDiagnoses> .
 <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/CodingOfProcedures> .
-<http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/CodingOfDiagnoses> .
-<http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/CodingOfProcedures> .
 <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.w3.org/2000/01/rdf-schema#label> "Coding of Diagnoses and Procedures"@en .
@@ -20285,14 +20223,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/SocialContact> .
 <http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/TherapeuticProcedure> .
 <http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/VitalSign> .
-<http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/CommunicationAbility> .
-<http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Diagnosis> .
-<http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Nutrition> .
-<http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Orientation> .
-<http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PersonalHygiene> .
-<http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/SocialContact> .
-<http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/TherapeuticProcedure> .
-<http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/VitalSign> .
 <http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ComputerBasedNursingForm> <http://www.w3.org/2000/01/rdf-schema#label> "Computer-Based Nursing Form"@en .
@@ -20352,7 +20282,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ComputerSupportedInformationSystem> <http://www.snik.eu/ontology/bb/ID> "612"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/ComputerSupportedInformationSystem> <http://www.snik.eu/ontology/bb/page> "26" .
 <http://www.snik.eu/ontology/bb/ComputerSupportedInformationSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ComputerBasedTool> .
-<http://www.snik.eu/ontology/bb/ComputerSupportedInformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ComputerBasedTool> .
 <http://www.snik.eu/ontology/bb/ComputerSupportedInformationSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ComputerSupportedInformationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ComputerSupportedInformationSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Computer-Supported Information System"@en .
@@ -20533,10 +20462,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Controlling> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/MaterialControlling> .
 <http://www.snik.eu/ontology/bb/Controlling> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProcessControlling> .
 <http://www.snik.eu/ontology/bb/Controlling> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/StaffControlling> .
-<http://www.snik.eu/ontology/bb/Controlling> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/FinancialControlling> .
-<http://www.snik.eu/ontology/bb/Controlling> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MaterialControlling> .
-<http://www.snik.eu/ontology/bb/Controlling> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProcessControlling> .
-<http://www.snik.eu/ontology/bb/Controlling> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StaffControlling> .
 <http://www.snik.eu/ontology/bb/Controlling> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/Controlling> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/ControllingReport> .
 <http://www.snik.eu/ontology/bb/Controlling> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
@@ -20558,7 +20483,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ControllingReport> <http://www.snik.eu/ontology/bb/ID> "709"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/ControllingReport> <http://www.snik.eu/ontology/bb/page> "78" .
 <http://www.snik.eu/ontology/bb/ControllingReport> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
-<http://www.snik.eu/ontology/bb/ControllingReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
 <http://www.snik.eu/ontology/bb/ControllingReport> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ControllingReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ControllingReport> <http://www.w3.org/2000/01/rdf-schema#label> "Controlling Report"@en .
@@ -20800,8 +20724,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/DataModel> <http://www.snik.eu/ontology/bb/page> "48, 300" .
 <http://www.snik.eu/ontology/bb/DataModel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/EntityTypeModelingElement> .
 <http://www.snik.eu/ontology/bb/DataModel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/EntityTypeRelationModelingElement> .
-<http://www.snik.eu/ontology/bb/DataModel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/EntityTypeModelingElement> .
-<http://www.snik.eu/ontology/bb/DataModel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/EntityTypeRelationModelingElement> .
 <http://www.snik.eu/ontology/bb/DataModel> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/DataModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/DataModel> <http://www.w3.org/2000/01/rdf-schema#label> "Data Model"@en .
@@ -20936,8 +20858,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/DecisionMakingPlanningAndOrganizationOfPatientTreatment> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/DecisionMakingPlanningAndOrganizationOfPatientTreatment> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/DecisionMakingAndPatientInformation> .
 <http://www.snik.eu/ontology/bb/DecisionMakingPlanningAndOrganizationOfPatientTreatment> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/MedicalAndNursingCarePlanning> .
-<http://www.snik.eu/ontology/bb/DecisionMakingPlanningAndOrganizationOfPatientTreatment> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DecisionMakingAndPatientInformation> .
-<http://www.snik.eu/ontology/bb/DecisionMakingPlanningAndOrganizationOfPatientTreatment> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MedicalAndNursingCarePlanning> .
 <http://www.snik.eu/ontology/bb/DecisionMakingPlanningAndOrganizationOfPatientTreatment> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/DecisionMakingPlanningAndOrganizationOfPatientTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/DecisionMakingPlanningAndOrganizationOfPatientTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "Decision Making Planning and Organization of Patient Treatment"@en .
@@ -21100,7 +21020,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/DiagnosisClass> <http://www.snik.eu/ontology/bb/ID> "703"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/DiagnosisClass> <http://www.snik.eu/ontology/bb/page> "76" .
 <http://www.snik.eu/ontology/bb/DiagnosisClass> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Diagnosis> .
-<http://www.snik.eu/ontology/bb/DiagnosisClass> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Diagnosis> .
 <http://www.snik.eu/ontology/bb/DiagnosisClass> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/DiagnosisClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/DiagnosisClass> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnosis Class"@en .
@@ -21196,10 +21115,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/DicomStandard> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/DicomNetworkProtocol> .
 <http://www.snik.eu/ontology/bb/DicomStandard> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/DicomService> .
 <http://www.snik.eu/ontology/bb/DicomStandard> <http://www.snik.eu/ontology/meta/increases> <http://www.snik.eu/ontology/bb/DataIntegration> .
-<http://www.snik.eu/ontology/bb/DicomStandard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DicomFileFormat> .
-<http://www.snik.eu/ontology/bb/DicomStandard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DicomMessageFormat> .
-<http://www.snik.eu/ontology/bb/DicomStandard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DicomNetworkProtocol> .
-<http://www.snik.eu/ontology/bb/DicomStandard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DicomService> .
 <http://www.snik.eu/ontology/bb/DicomStandard> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/DicomStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/DicomStandard> <http://www.w3.org/2000/01/rdf-schema#label> "DICOM Standard"@en .
@@ -21272,9 +21187,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/DischargeSummary> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Diagnosis> .
 <http://www.snik.eu/ontology/bb/DischargeSummary> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/RecommendationsForFurtherTreatment> .
 <http://www.snik.eu/ontology/bb/DischargeSummary> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/TreatmentText> .
-<http://www.snik.eu/ontology/bb/DischargeSummary> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Diagnosis> .
-<http://www.snik.eu/ontology/bb/DischargeSummary> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/RecommendationsForFurtherTreatment> .
-<http://www.snik.eu/ontology/bb/DischargeSummary> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/TreatmentText> .
 <http://www.snik.eu/ontology/bb/DischargeSummary> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/DischargeSummary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/DischargeSummary> <http://www.w3.org/2000/01/rdf-schema#label> "Discharge Summary"@en .
@@ -21745,7 +21657,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/EuroRec> <http://www.snik.eu/ontology/bb/ID> "590"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/EuroRec> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/EuroRec> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/CertificationByEuroRec> .
-<http://www.snik.eu/ontology/bb/EuroRec> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/CertificationByEuroRec> .
 <http://www.snik.eu/ontology/bb/EuroRec> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/EuroRec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/EuroRec> <http://www.w3.org/2000/01/rdf-schema#label> "EuroRec"@en .
@@ -21790,11 +21701,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/EventModelingElement> .
 <http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/LogicalOperatorModelingElement> .
 <http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/RoleModelingElement> .
-<http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ActivityModelingElement> .
-<http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/EntityTypeModelingElement> .
-<http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/EventModelingElement> .
-<http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/LogicalOperatorModelingElement> .
-<http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/RoleModelingElement> .
 <http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/EventDrivenProcessChain> <http://www.w3.org/2000/01/rdf-schema#label> "Event-Driven Process Chain"@en .
@@ -21899,8 +21805,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrials> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrials> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/RecruitmentOfPatients> .
 <http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrials> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/StatisticalEvaluationOfPatientData> .
-<http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrials> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/RecruitmentOfPatients> .
-<http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrials> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StatisticalEvaluationOfPatientData> .
 <http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrials> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrials> <http://www.w3.org/2000/01/rdf-schema#label> "Execution of Clinical Trials"@en .
@@ -21930,8 +21834,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticTherapeuticAndNursingProcedures> <http://www.snik.eu/ontology/bb/page> "88" .
 <http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticTherapeuticAndNursingProcedures> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticAndTherapeuticProcedures> .
 <http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticTherapeuticAndNursingProcedures> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ExecutionOfNursingProcedures> .
-<http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticTherapeuticAndNursingProcedures> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticAndTherapeuticProcedures> .
-<http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticTherapeuticAndNursingProcedures> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ExecutionOfNursingProcedures> .
 <http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticTherapeuticAndNursingProcedures> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticTherapeuticAndNursingProcedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticTherapeuticAndNursingProcedures> <http://www.w3.org/2000/01/rdf-schema#label> "Execution of Diagnostic Therapeutic and Nursing Procedures"@en .
@@ -22396,8 +22298,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/FederatedDatabaseSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/DatabaseSystem> .
 <http://www.snik.eu/ontology/bb/FederatedDatabaseSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/FederatedDatabaseSchema> .
 <http://www.snik.eu/ontology/bb/FederatedDatabaseSystem> <http://www.snik.eu/ontology/meta/increases> <http://www.snik.eu/ontology/bb/DataIntegration> .
-<http://www.snik.eu/ontology/bb/FederatedDatabaseSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DatabaseSystem> .
-<http://www.snik.eu/ontology/bb/FederatedDatabaseSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/FederatedDatabaseSchema> .
 <http://www.snik.eu/ontology/bb/FederatedDatabaseSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/FederatedDatabaseSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/FederatedDatabaseSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Federated Database System"@en .
@@ -22420,9 +22320,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/FinancialAccounting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AssetAccounting> .
 <http://www.snik.eu/ontology/bb/FinancialAccounting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/CreditAccounting> .
 <http://www.snik.eu/ontology/bb/FinancialAccounting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/DebtorAccounting> .
-<http://www.snik.eu/ontology/bb/FinancialAccounting> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AssetAccounting> .
-<http://www.snik.eu/ontology/bb/FinancialAccounting> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/CreditAccounting> .
-<http://www.snik.eu/ontology/bb/FinancialAccounting> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DebtorAccounting> .
 <http://www.snik.eu/ontology/bb/FinancialAccounting> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/FinancialAccounting> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
 <http://www.snik.eu/ontology/bb/FinancialAccounting> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/Bill> .
@@ -22486,9 +22383,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/FirstLevelSupport> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/IncidentAnalysis> .
 <http://www.snik.eu/ontology/bb/FirstLevelSupport> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/IncidentTaking> .
 <http://www.snik.eu/ontology/bb/FirstLevelSupport> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProblemSolving> .
-<http://www.snik.eu/ontology/bb/FirstLevelSupport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/IncidentAnalysis> .
-<http://www.snik.eu/ontology/bb/FirstLevelSupport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/IncidentTaking> .
-<http://www.snik.eu/ontology/bb/FirstLevelSupport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProblemSolving> .
 <http://www.snik.eu/ontology/bb/FirstLevelSupport> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/FirstLevelSupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/FirstLevelSupport> <http://www.w3.org/2000/01/rdf-schema#label> "First-Level Support"@en .
@@ -22642,7 +22536,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/FunctionalModel> <http://www.snik.eu/ontology/bb/ID> "643"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/FunctionalModel> <http://www.snik.eu/ontology/bb/page> "45, 304" .
 <http://www.snik.eu/ontology/bb/FunctionalModel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/EnterpriseFunctionModelingElement> .
-<http://www.snik.eu/ontology/bb/FunctionalModel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/EnterpriseFunctionModelingElement> .
 <http://www.snik.eu/ontology/bb/FunctionalModel> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/FunctionalModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/FunctionalModel> <http://www.w3.org/2000/01/rdf-schema#label> "Aufgabenmodell"@de .
@@ -22801,14 +22694,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Hospital> .
 <http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Pharmacy> .
 <http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/RehabilitationCenter> .
-<http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/GeneralPractice> .
-<http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/GovernmentalAuthority> .
-<http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HealthCareInstitution> .
-<http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HealthInsuranceCompany> .
-<http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HomeCareInstitution> .
-<http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Hospital> .
-<http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Pharmacy> .
-<http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/RehabilitationCenter> .
 <http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HealthCareNetwork> <http://www.w3.org/2000/01/rdf-schema#label> "Gesundheitsversorgungsnetzwerk"@de .
@@ -22866,7 +22751,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HealthInsuranceCompany> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/HealthInsuranceCompany> <http://www.snik.eu/ontology/meta/communicatesWith> <http://www.snik.eu/ontology/bb/HealthCareNetwork> .
 <http://www.snik.eu/ontology/bb/HealthInsuranceCompany> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/DiseaseManagement> .
-<http://www.snik.eu/ontology/bb/HealthInsuranceCompany> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/DiseaseManagement> .
 <http://www.snik.eu/ontology/bb/HealthInsuranceCompany> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HealthInsuranceCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HealthInsuranceCompany> <http://www.w3.org/2000/01/rdf-schema#label> "Health Insurance Company"@en .
@@ -22907,8 +22791,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HisArchitecture> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ComputerBasedTool> .
 <http://www.snik.eu/ontology/bb/HisArchitecture> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/NonComputerBasedInformationProcessingTool> .
 <http://www.snik.eu/ontology/bb/HisArchitecture> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/QualityOfHISArchitecture> .
-<http://www.snik.eu/ontology/bb/HisArchitecture> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ComputerBasedTool> .
-<http://www.snik.eu/ontology/bb/HisArchitecture> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NonComputerBasedInformationProcessingTool> .
 <http://www.snik.eu/ontology/bb/HisArchitecture> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HisArchitecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HisArchitecture> <http://www.w3.org/2000/01/rdf-schema#label> "HIS Architecture"@en .
@@ -22990,7 +22872,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HisInfrastructure> <http://www.snik.eu/ontology/bb/ID> "526"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/HisInfrastructure> <http://www.snik.eu/ontology/bb/page> "171" .
 <http://www.snik.eu/ontology/bb/HisInfrastructure> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> .
-<http://www.snik.eu/ontology/bb/HisInfrastructure> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> .
 <http://www.snik.eu/ontology/bb/HisInfrastructure> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HisInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HisInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "HIS Infrastructure"@en .
@@ -23075,8 +22956,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HL7MessageTypeEventTypeCombination> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/HL7MessageTypeEventTypeCombination> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HL7EventType> .
 <http://www.snik.eu/ontology/bb/HL7MessageTypeEventTypeCombination> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HL7MessageType> .
-<http://www.snik.eu/ontology/bb/HL7MessageTypeEventTypeCombination> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HL7EventType> .
-<http://www.snik.eu/ontology/bb/HL7MessageTypeEventTypeCombination> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HL7MessageType> .
 <http://www.snik.eu/ontology/bb/HL7MessageTypeEventTypeCombination> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HL7MessageTypeEventTypeCombination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HL7MessageTypeEventTypeCombination> <http://www.w3.org/2000/01/rdf-schema#label> "HL7 Message Type Event Type Combination"@en .
@@ -23147,8 +23026,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HL7Version2> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/HL7Version2> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HL7EventType> .
 <http://www.snik.eu/ontology/bb/HL7Version2> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HL7MessageType> .
-<http://www.snik.eu/ontology/bb/HL7Version2> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HL7EventType> .
-<http://www.snik.eu/ontology/bb/HL7Version2> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HL7MessageType> .
 <http://www.snik.eu/ontology/bb/HL7Version2> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HL7Version2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HL7Version2> <http://www.w3.org/2000/01/rdf-schema#label> "HL7 Version 2"@en .
@@ -23162,8 +23039,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HL7Version3> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HL7Version3Message> .
 <http://www.snik.eu/ontology/bb/HL7Version3> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/TransinstitutionalHealthInformationSystem> .
 <http://www.snik.eu/ontology/bb/HL7Version3> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/bb/HL7ReferenceInformationModel> .
-<http://www.snik.eu/ontology/bb/HL7Version3> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HL7CDA> .
-<http://www.snik.eu/ontology/bb/HL7Version3> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HL7Version3Message> .
 <http://www.snik.eu/ontology/bb/HL7Version3> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HL7Version3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HL7Version3> <http://www.w3.org/2000/01/rdf-schema#label> "HL7 Version 3"@en .
@@ -23230,8 +23105,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HospitalAdministration> <http://www.snik.eu/ontology/bb/page> "96, 305" .
 <http://www.snik.eu/ontology/bb/HospitalAdministration> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/HospitalAdministration> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PatientAdministration> .
-<http://www.snik.eu/ontology/bb/HospitalAdministration> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/InformationManagement> .
-<http://www.snik.eu/ontology/bb/HospitalAdministration> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PatientAdministration> .
 <http://www.snik.eu/ontology/bb/HospitalAdministration> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/HospitalAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HospitalAdministration> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital Administration"@en .
@@ -23255,8 +23128,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HospitalBudget> <http://www.snik.eu/ontology/bb/page> "78" .
 <http://www.snik.eu/ontology/bb/HospitalBudget> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HospitalCost> .
 <http://www.snik.eu/ontology/bb/HospitalBudget> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HospitalRevenue> .
-<http://www.snik.eu/ontology/bb/HospitalBudget> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HospitalCost> .
-<http://www.snik.eu/ontology/bb/HospitalBudget> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HospitalRevenue> .
 <http://www.snik.eu/ontology/bb/HospitalBudget> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HospitalBudget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HospitalBudget> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital Budget"@en .
@@ -23267,7 +23138,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HospitalBusinessPlan> <http://www.snik.eu/ontology/bb/ID> "903"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/HospitalBusinessPlan> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/HospitalBusinessPlan> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HospitalStrategy> .
-<http://www.snik.eu/ontology/bb/HospitalBusinessPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HospitalStrategy> .
 <http://www.snik.eu/ontology/bb/HospitalBusinessPlan> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HospitalBusinessPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HospitalBusinessPlan> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital Business Plan"@en .
@@ -23297,8 +23167,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/bb/ID> "613"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Resource> .
-<http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Patient> .
-<http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Resource> .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/bb/Patient> .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -23310,11 +23178,8 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/bb/ID> "511"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/bb/page> "33, 305" .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HisComponent> .
-<http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HisComponent> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/InformationProcessing> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/InformationStorage> .
-<http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/InformationProcessing> .
-<http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/InformationStorage> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/bb/FulfillmentOfStrategicHospitalGoal> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -23370,8 +23235,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HospitalsBoardOfDirectors> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/HospitalsBoardOfDirectors> <http://www.snik.eu/ontology/bb/ID> "899"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/HospitalsBoardOfDirectors> <http://www.snik.eu/ontology/bb/page> "" .
-<http://www.snik.eu/ontology/bb/HospitalsBoardOfDirectors> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Ceo> .
-<http://www.snik.eu/ontology/bb/HospitalsBoardOfDirectors> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Cfo> .
 <http://www.snik.eu/ontology/bb/HospitalsBoardOfDirectors> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/bb/Ceo> .
 <http://www.snik.eu/ontology/bb/HospitalsBoardOfDirectors> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/bb/Cfo> .
 <http://www.snik.eu/ontology/bb/HospitalsBoardOfDirectors> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
@@ -23406,7 +23269,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HospitalStrategy> <http://www.snik.eu/ontology/bb/ID> "954"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/HospitalStrategy> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/HospitalStrategy> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/StrategicHospitalGoal> .
-<http://www.snik.eu/ontology/bb/HospitalStrategy> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StrategicHospitalGoal> .
 <http://www.snik.eu/ontology/bb/HospitalStrategy> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HospitalStrategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HospitalStrategy> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital Strategy"@en .
@@ -24788,10 +24650,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/HumanResourceManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AdministrationOfHumanResourceMasterData> .
 <http://www.snik.eu/ontology/bb/HumanResourceManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PayrollAccounting> .
 <http://www.snik.eu/ontology/bb/HumanResourceManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/WorkOrganizationAndTimeManagement> .
-<http://www.snik.eu/ontology/bb/HumanResourceManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AdministrationOfBusinessTripsAndFurtherTraining> .
-<http://www.snik.eu/ontology/bb/HumanResourceManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AdministrationOfHumanResourceMasterData> .
-<http://www.snik.eu/ontology/bb/HumanResourceManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PayrollAccounting> .
-<http://www.snik.eu/ontology/bb/HumanResourceManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/WorkOrganizationAndTimeManagement> .
 <http://www.snik.eu/ontology/bb/HumanResourceManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/HumanResourceManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/HumanResource> .
 <http://www.snik.eu/ontology/bb/HumanResourceManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/BedOccupation> .
@@ -24887,8 +24745,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/IheDomain> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/IheDomain> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/IheContentProfile> .
 <http://www.snik.eu/ontology/bb/IheDomain> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/IheIntegrationProfile> .
-<http://www.snik.eu/ontology/bb/IheDomain> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/IheContentProfile> .
-<http://www.snik.eu/ontology/bb/IheDomain> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/IheIntegrationProfile> .
 <http://www.snik.eu/ontology/bb/IheDomain> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/IheDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/IheDomain> <http://www.w3.org/2000/01/rdf-schema#label> "IHE Domain"@en .
@@ -24911,8 +24767,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/IheActor> .
 <http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/IheTransaction> .
-<http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/IheActor> .
-<http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/IheTransaction> .
 <http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.w3.org/2000/01/rdf-schema#label> "IHE Integration Profile"@en .
@@ -25001,7 +24855,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.snik.eu/ontology/bb/ID> "553"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/ElectronicHealthRecord> .
-<http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/ElectronicHealthRecord> .
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.w3.org/2000/01/rdf-schema#label> "Independent Health Record Bank"@en .
@@ -25025,8 +24878,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/InformationAndCommunicationTechnology> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/InformationAndCommunicationTechnology> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ComputerBasedApplicationComponent> .
 <http://www.snik.eu/ontology/bb/InformationAndCommunicationTechnology> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ComputerNetwork> .
-<http://www.snik.eu/ontology/bb/InformationAndCommunicationTechnology> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ComputerBasedApplicationComponent> .
-<http://www.snik.eu/ontology/bb/InformationAndCommunicationTechnology> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ComputerNetwork> .
 <http://www.snik.eu/ontology/bb/InformationAndCommunicationTechnology> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/InformationAndCommunicationTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InformationAndCommunicationTechnology> <http://www.w3.org/2000/01/rdf-schema#label> "Information and Communication Technology"@en .
@@ -25069,8 +24920,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/InformationManagementBoard> <http://www.snik.eu/ontology/bb/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/InformationManagementBoard> <http://www.snik.eu/ontology/bb/ID> "901"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/InformationManagementBoard> <http://www.snik.eu/ontology/bb/page> "250, 306" .
-<http://www.snik.eu/ontology/bb/InformationManagementBoard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Ceo> .
-<http://www.snik.eu/ontology/bb/InformationManagementBoard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> .
 <http://www.snik.eu/ontology/bb/InformationManagementBoard> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/bb/Ceo> .
 <http://www.snik.eu/ontology/bb/InformationManagementBoard> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> .
 <http://www.snik.eu/ontology/bb/InformationManagementBoard> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/bb/HisStakeholder> .
@@ -25095,7 +24944,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/InformationManagementDepartment> <http://www.snik.eu/ontology/bb/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/InformationManagementDepartment> <http://www.snik.eu/ontology/bb/ID> "947"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/InformationManagementDepartment> <http://www.snik.eu/ontology/bb/page> "251, 306" .
-<http://www.snik.eu/ontology/bb/InformationManagementDepartment> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/InformationManagementStaff> .
 <http://www.snik.eu/ontology/bb/InformationManagementDepartment> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/bb/InformationManagementStaff> .
 <http://www.snik.eu/ontology/bb/InformationManagementDepartment> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/InformationManagementDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -25144,9 +24992,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/TacticalInformationManagement> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/EnterpriseFunction> .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/TacticalInformationManagement> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/HospitalInformationSystem> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
@@ -25190,9 +25035,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/InformationManagementOperatingCost> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/MaintenanceCost> .
 <http://www.snik.eu/ontology/bb/InformationManagementOperatingCost> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/StaffCost> .
 <http://www.snik.eu/ontology/bb/InformationManagementOperatingCost> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/SupportCost> .
-<http://www.snik.eu/ontology/bb/InformationManagementOperatingCost> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MaintenanceCost> .
-<http://www.snik.eu/ontology/bb/InformationManagementOperatingCost> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StaffCost> .
-<http://www.snik.eu/ontology/bb/InformationManagementOperatingCost> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/SupportCost> .
 <http://www.snik.eu/ontology/bb/InformationManagementOperatingCost> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/InformationManagementOperatingCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InformationManagementOperatingCost> <http://www.w3.org/2000/01/rdf-schema#label> "Information Management Operating Cost"@en .
@@ -25225,8 +25067,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/bb/page> "306" .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ComputerBasedInformationProcessing> .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/NonComputerBasedInformationProcessing> .
-<http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ComputerBasedInformationProcessing> .
-<http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NonComputerBasedInformationProcessing> .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.w3.org/2000/01/rdf-schema#label> "Information Processing"@en .
@@ -25290,10 +25130,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/EnterpriseFunction> .
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/ArchitectureOfAnInformationSystem> .
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Data> .
-<http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
-<http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/BusinessProcess> .
-<http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/EnterpriseFunction> .
-<http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> .
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/bb/Documentation> .
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -25358,7 +25194,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/InfrastructureOfAnInformationSystem> <http://www.snik.eu/ontology/bb/ID> "933"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/InfrastructureOfAnInformationSystem> <http://www.snik.eu/ontology/bb/page> "307" .
 <http://www.snik.eu/ontology/bb/InfrastructureOfAnInformationSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/InformationProcessingTool> .
-<http://www.snik.eu/ontology/bb/InfrastructureOfAnInformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/InformationProcessingTool> .
 <http://www.snik.eu/ontology/bb/InfrastructureOfAnInformationSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/InfrastructureOfAnInformationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InfrastructureOfAnInformationSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure of an Information System"@en .
@@ -25398,7 +25233,7 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/bb/ID> "531"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/bb/page> "" .
-<http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/Patient> .
+<http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/meta/isResponsibleForRole> <http://www.snik.eu/ontology/bb/Patient> .
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Inpatient Unit"@en .
@@ -25439,10 +25274,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/IntegratedCareNetwork> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HomeOfThePatient> .
 <http://www.snik.eu/ontology/bb/IntegratedCareNetwork> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/NursingCenter> .
 <http://www.snik.eu/ontology/bb/IntegratedCareNetwork> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/RehabilitationCenter> .
-<http://www.snik.eu/ontology/bb/IntegratedCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/GeneralPractice> .
-<http://www.snik.eu/ontology/bb/IntegratedCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HomeOfThePatient> .
-<http://www.snik.eu/ontology/bb/IntegratedCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NursingCenter> .
-<http://www.snik.eu/ontology/bb/IntegratedCareNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/RehabilitationCenter> .
 <http://www.snik.eu/ontology/bb/IntegratedCareNetwork> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/IntegratedCareNetwork> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/bb/IntegratedCare> .
 <http://www.snik.eu/ontology/bb/IntegratedCareNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -25455,7 +25286,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/IntegratedHealthCareDeliverySystem> <http://www.snik.eu/ontology/bb/page> "307" .
 <http://www.snik.eu/ontology/bb/IntegratedHealthCareDeliverySystem> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "36"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/IntegratedHealthCareDeliverySystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HealthCareInstitution> .
-<http://www.snik.eu/ontology/bb/IntegratedHealthCareDeliverySystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HealthCareInstitution> .
 <http://www.snik.eu/ontology/bb/IntegratedHealthCareDeliverySystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/IntegratedHealthCareDeliverySystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/IntegratedHealthCareDeliverySystem> <http://www.w3.org/2000/01/rdf-schema#label> "Integrated Health Care Delivery System"@en .
@@ -25564,7 +25394,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/InternationalDICOMCommittee> <http://www.snik.eu/ontology/bb/ID> "545"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/InternationalDICOMCommittee> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/InternationalDICOMCommittee> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/DicomStandard> .
-<http://www.snik.eu/ontology/bb/InternationalDICOMCommittee> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/DicomStandard> .
 <http://www.snik.eu/ontology/bb/InternationalDICOMCommittee> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/InternationalDICOMCommittee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InternationalDICOMCommittee> <http://www.w3.org/2000/01/rdf-schema#label> "International DICOM Committee"@en .
@@ -25654,7 +25483,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ISO9241110> <http://www.snik.eu/ontology/bb/ID> "851"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/ISO9241110> <http://www.snik.eu/ontology/bb/page> "204" .
 <http://www.snik.eu/ontology/bb/ISO9241110> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ISO9241110UserInterfaceDesignQuality> .
-<http://www.snik.eu/ontology/bb/ISO9241110> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ISO9241110UserInterfaceDesignQuality> .
 <http://www.snik.eu/ontology/bb/ISO9241110> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ISO9241110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ISO9241110> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 9241-110"@en .
@@ -25674,7 +25502,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ISO9241> <http://www.snik.eu/ontology/bb/ID> "850"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/ISO9241> <http://www.snik.eu/ontology/bb/page> "204" .
 <http://www.snik.eu/ontology/bb/ISO9241> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ISO9241110> .
-<http://www.snik.eu/ontology/bb/ISO9241> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ISO9241110> .
 <http://www.snik.eu/ontology/bb/ISO9241> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ISO9241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ISO9241> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 9241"@en .
@@ -25761,11 +25588,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/OperationalizationOfMethodsAndDetailedStudyPlan> .
 <http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ReportAndPublicationOfStudy> .
 <http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/StudyExploration> .
-<http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ExecutionOfAnITEvaluationStudy> .
-<http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/FirstStudyDesign> .
-<http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OperationalizationOfMethodsAndDetailedStudyPlan> .
-<http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ReportAndPublicationOfStudy> .
-<http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StudyExploration> .
 <http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/ItEvaluationStudy> .
 <http://www.snik.eu/ontology/bb/ItEvaluationStudyManagementAndExecution> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ItEvaluationStudy> .
@@ -25793,11 +25615,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ServiceStrategy> .
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ServiceTransition> .
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Itil> .
-<http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ContinualServiceImprovement> .
-<http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ServiceDesign> .
-<http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ServiceOperation> .
-<http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ServiceStrategy> .
-<http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ServiceTransition> .
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.w3.org/2000/01/rdf-schema#label> "ITIL Service Lifecycle"@en .
@@ -25868,7 +25685,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/JointCommission> <http://www.snik.eu/ontology/bb/ID> "595"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/JointCommission> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/JointCommission> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/JointCommissionsCertificationProgram> .
-<http://www.snik.eu/ontology/bb/JointCommission> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/JointCommissionsCertificationProgram> .
 <http://www.snik.eu/ontology/bb/JointCommission> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/JointCommission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/JointCommission> <http://www.w3.org/2000/01/rdf-schema#label> "Joint Commission"@en .
@@ -26093,11 +25909,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/DeploymentOfStrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/UpdatingTheStrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/UseOfStrategicInformationManagementPlan> .
-<http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ApprovalToStrategicInformationManagementPlan> .
-<http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/CreationOfStrategicInformationManagementPlan> .
-<http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DeploymentOfStrategicInformationManagementPlan> .
-<http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/UpdatingTheStrategicInformationManagementPlan> .
-<http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/UseOfStrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/LifeCycleManagementOfStrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#label> "Life Cycle Management of Strategic Information Management Plan"@en .
@@ -26182,7 +25993,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/LongTermHISPlanning> <http://www.snik.eu/ontology/bb/ID> "394"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/LongTermHISPlanning> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/LongTermHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/StrategicAlignment> .
-<http://www.snik.eu/ontology/bb/LongTermHISPlanning> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StrategicAlignment> .
 <http://www.snik.eu/ontology/bb/LongTermHISPlanning> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/LongTermHISPlanning> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/LongTermHISPlanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -26345,9 +26155,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Management> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/Directing> .
 <http://www.snik.eu/ontology/bb/Management> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/Monitoring> .
 <http://www.snik.eu/ontology/bb/Management> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/Planning> .
-<http://www.snik.eu/ontology/bb/Management> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Directing> .
-<http://www.snik.eu/ontology/bb/Management> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Monitoring> .
-<http://www.snik.eu/ontology/bb/Management> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Planning> .
 <http://www.snik.eu/ontology/bb/Management> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/Management> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/EnterpriseOrganizationalStructure> .
 <http://www.snik.eu/ontology/bb/Management> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/StrategicGoalOfTheInstitution> .
@@ -26679,11 +26486,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/MedicalReport> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/PatientState> .
 <http://www.snik.eu/ontology/bb/MedicalReport> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/RecommendationsForFurtherTreatment> .
 <http://www.snik.eu/ontology/bb/MedicalReport> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/TherapeuticProcedure> .
-<http://www.snik.eu/ontology/bb/MedicalReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Diagnosis> .
-<http://www.snik.eu/ontology/bb/MedicalReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Finding> .
-<http://www.snik.eu/ontology/bb/MedicalReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PatientState> .
-<http://www.snik.eu/ontology/bb/MedicalReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/RecommendationsForFurtherTreatment> .
-<http://www.snik.eu/ontology/bb/MedicalReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/TherapeuticProcedure> .
 <http://www.snik.eu/ontology/bb/MedicalReport> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/MedicalReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/MedicalReport> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Report"@en .
@@ -26741,7 +26543,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Message> <http://www.snik.eu/ontology/bb/ID> "611"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/Message> <http://www.snik.eu/ontology/bb/page> "67, 311" .
 <http://www.snik.eu/ontology/bb/Message> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Data> .
-<http://www.snik.eu/ontology/bb/Message> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Data> .
 <http://www.snik.eu/ontology/bb/Message> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Message> <http://www.w3.org/2000/01/rdf-schema#label> "Message"@en .
@@ -26795,7 +26596,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/MigrationPath> <http://www.snik.eu/ontology/bb/ID> "527"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/MigrationPath> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/MigrationPath> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Project> .
-<http://www.snik.eu/ontology/bb/MigrationPath> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Project> .
 <http://www.snik.eu/ontology/bb/MigrationPath> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/MigrationPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/MigrationPath> <http://www.w3.org/2000/01/rdf-schema#label> "Migration Path"@en .
@@ -27236,9 +27036,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/NursingCarePlan> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/NursingGoal> .
 <http://www.snik.eu/ontology/bb/NursingCarePlan> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/NursingProblem> .
 <http://www.snik.eu/ontology/bb/NursingCarePlan> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/NursingProcedure> .
-<http://www.snik.eu/ontology/bb/NursingCarePlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NursingGoal> .
-<http://www.snik.eu/ontology/bb/NursingCarePlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NursingProblem> .
-<http://www.snik.eu/ontology/bb/NursingCarePlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NursingProcedure> .
 <http://www.snik.eu/ontology/bb/NursingCarePlan> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/NursingCarePlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/NursingCarePlan> <http://www.w3.org/2000/01/rdf-schema#label> "Nursing Care Plan"@en .
@@ -27376,9 +27173,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/NursingReport> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Diet> .
 <http://www.snik.eu/ontology/bb/NursingReport> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/PatientActivityLevel> .
 <http://www.snik.eu/ontology/bb/NursingReport> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/WoundCare> .
-<http://www.snik.eu/ontology/bb/NursingReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Diet> .
-<http://www.snik.eu/ontology/bb/NursingReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PatientActivityLevel> .
-<http://www.snik.eu/ontology/bb/NursingReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/WoundCare> .
 <http://www.snik.eu/ontology/bb/NursingReport> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/NursingReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/NursingReport> <http://www.w3.org/2000/01/rdf-schema#label> "Nursing Report"@en .
@@ -27459,7 +27253,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/OpenEHR> <http://www.snik.eu/ontology/bb/ID> "591"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/OpenEHR> <http://www.snik.eu/ontology/bb/page> "190" .
 <http://www.snik.eu/ontology/bb/OpenEHR> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/OpenEHROntology> .
-<http://www.snik.eu/ontology/bb/OpenEHR> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/OpenEHROntology> .
 <http://www.snik.eu/ontology/bb/OpenEHR> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/OpenEHR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OpenEHR> <http://www.w3.org/2000/01/rdf-schema#label> "OpenEHR"@en .
@@ -27489,8 +27282,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/OpenEHROntology> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/OpenEHROntology> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/OpenEHRModelOfContent> .
 <http://www.snik.eu/ontology/bb/OpenEHROntology> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/OpenEHRModelOfProcesses> .
-<http://www.snik.eu/ontology/bb/OpenEHROntology> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OpenEHRModelOfContent> .
-<http://www.snik.eu/ontology/bb/OpenEHROntology> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OpenEHRModelOfProcesses> .
 <http://www.snik.eu/ontology/bb/OpenEHROntology> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/OpenEHROntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OpenEHROntology> <http://www.w3.org/2000/01/rdf-schema#label> "OpenEHR Ontology"@en .
@@ -27539,12 +27330,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PlanningOfOrganizationalStructures> .
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PlanningOfRooms> .
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PlanningOfStaff> .
-<http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PlanningOfBuildings> .
-<http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PlanningOfFinances> .
-<http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PlanningOfOrganizationalProcedures> .
-<http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PlanningOfOrganizationalStructures> .
-<http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PlanningOfRooms> .
-<http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PlanningOfStaff> .
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.w3.org/2000/01/rdf-schema#label> "Operational HIS Planning"@en .
@@ -27574,15 +27359,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/OperationalHISMonitoring> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/OperationalHISPlanning> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/RiskManagement> .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/FailureManagement> .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HumanResourceManagement> .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ItSupport> .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NetworkManagement> .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NetworkMonitoring> .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OperationalHISDirecting> .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OperationalHISMonitoring> .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OperationalHISPlanning> .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/RiskManagement> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/Backbone> .
@@ -27688,8 +27464,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/OperationReport> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/OperationReport> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Diagnosis> .
 <http://www.snik.eu/ontology/bb/OperationReport> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/TherapeuticProcedure> .
-<http://www.snik.eu/ontology/bb/OperationReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Diagnosis> .
-<http://www.snik.eu/ontology/bb/OperationReport> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/TherapeuticProcedure> .
 <http://www.snik.eu/ontology/bb/OperationReport> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/OperationReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OperationReport> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Report"@en .
@@ -27746,8 +27520,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/OrderEntry> <http://www.snik.eu/ontology/bb/page> "313" .
 <http://www.snik.eu/ontology/bb/OrderEntry> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AppointmentScheduling> .
 <http://www.snik.eu/ontology/bb/OrderEntry> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PreparationOfAnOrder> .
-<http://www.snik.eu/ontology/bb/OrderEntry> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AppointmentScheduling> .
-<http://www.snik.eu/ontology/bb/OrderEntry> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PreparationOfAnOrder> .
 <http://www.snik.eu/ontology/bb/OrderEntry> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/OrderEntry> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/DiagnosticProcedure> .
 <http://www.snik.eu/ontology/bb/OrderEntry> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/TherapeuticProcedure> .
@@ -27772,8 +27544,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Order> <http://www.snik.eu/ontology/bb/page> "76" .
 <http://www.snik.eu/ontology/bb/Order> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/OrderForm> .
 <http://www.snik.eu/ontology/bb/Order> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Sample> .
-<http://www.snik.eu/ontology/bb/Order> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OrderForm> .
-<http://www.snik.eu/ontology/bb/Order> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Sample> .
 <http://www.snik.eu/ontology/bb/Order> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Order> <http://www.w3.org/2000/01/rdf-schema#label> "Order"@en .
@@ -27812,8 +27582,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/OrganizationalModel> <http://www.snik.eu/ontology/bb/page> "314" .
 <http://www.snik.eu/ontology/bb/OrganizationalModel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/OrganizationalUnitModelingElement> .
 <http://www.snik.eu/ontology/bb/OrganizationalModel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/RoleModelingElement> .
-<http://www.snik.eu/ontology/bb/OrganizationalModel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OrganizationalUnitModelingElement> .
-<http://www.snik.eu/ontology/bb/OrganizationalModel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/RoleModelingElement> .
 <http://www.snik.eu/ontology/bb/OrganizationalModel> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/OrganizationalModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OrganizationalModel> <http://www.w3.org/2000/01/rdf-schema#label> "Organisations-Modell"@de .
@@ -27997,7 +27765,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/OutpatientUnit> <http://www.snik.eu/ontology/bb/ID> "532"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/OutpatientUnit> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/OutpatientUnit> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/Outpatient> .
-<http://www.snik.eu/ontology/bb/OutpatientUnit> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/Outpatient> .
 <http://www.snik.eu/ontology/bb/OutpatientUnit> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/OutpatientUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OutpatientUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Outpatient Unit"@en .
@@ -28116,10 +27883,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/PatientAdministration> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AdministrativeDischargeAndBilling> .
 <http://www.snik.eu/ontology/bb/PatientAdministration> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PatientIdentificationAndCheckingForRecurrent> .
 <http://www.snik.eu/ontology/bb/PatientAdministration> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/VisitorAndInformationService> .
-<http://www.snik.eu/ontology/bb/PatientAdministration> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AdministrativeAdmission> .
-<http://www.snik.eu/ontology/bb/PatientAdministration> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AdministrativeDischargeAndBilling> .
-<http://www.snik.eu/ontology/bb/PatientAdministration> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PatientIdentificationAndCheckingForRecurrent> .
-<http://www.snik.eu/ontology/bb/PatientAdministration> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/VisitorAndInformationService> .
 <http://www.snik.eu/ontology/bb/PatientAdministration> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/PatientAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/PatientAdministration> <http://www.w3.org/2000/01/rdf-schema#label> "Patient Administration"@en .
@@ -28165,12 +27928,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/NursingAdmission> .
 <http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PatientIdentificationAndCheckingForRecurrent> .
 <http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/VisitorAndInformationService> .
-<http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AdministrativeAdmission> .
-<http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AppointmentScheduling> .
-<http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MedicalAdmission> .
-<http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NursingAdmission> .
-<http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PatientIdentificationAndCheckingForRecurrent> .
-<http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/VisitorAndInformationService> .
 <http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/Case> .
 <http://www.snik.eu/ontology/bb/PatientAdmission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -28223,12 +27980,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/PatientCare> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/OrderEntry> .
 <http://www.snik.eu/ontology/bb/PatientCare> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PatientAdmission> .
 <http://www.snik.eu/ontology/bb/PatientCare> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> .
-<http://www.snik.eu/ontology/bb/PatientCare> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> .
-<http://www.snik.eu/ontology/bb/PatientCare> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DecisionMakingPlanningAndOrganizationOfPatientTreatment> .
-<http://www.snik.eu/ontology/bb/PatientCare> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ExecutionOfDiagnosticTherapeuticAndNursingProcedures> .
-<http://www.snik.eu/ontology/bb/PatientCare> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/OrderEntry> .
-<http://www.snik.eu/ontology/bb/PatientCare> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PatientAdmission> .
-<http://www.snik.eu/ontology/bb/PatientCare> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> .
 <http://www.snik.eu/ontology/bb/PatientCare> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/PatientCare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/PatientCare> <http://www.w3.org/2000/01/rdf-schema#label> "Patient Care"@en .
@@ -28318,9 +28069,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AdministrativeDischargeAndBilling> .
 <http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/MedicalDischargeAndMedicalReportWriting> .
 <http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/NursingDischargeAndNursingReportWriting> .
-<http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AdministrativeDischargeAndBilling> .
-<http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MedicalDischargeAndMedicalReportWriting> .
-<http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NursingDischargeAndNursingReportWriting> .
 <http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/PatientDischargeAndTransferToOtherInstitutions> <http://www.w3.org/2000/01/rdf-schema#label> "Patient Discharge and Transfer to Other Institutions"@en .
@@ -28349,25 +28097,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/SocialHistory> .
 <http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/SystemsReview> .
 <http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Transfer> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ClinicalPathway> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Diagnosis> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DiagnosisClass> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DischargeSummary> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ExternalFinding> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/FamilyHistory> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Finding> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/InformedConsent> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MedicalAnamnesis> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MedicalProcedure> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Medication> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NursingAnamnesis> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/NursingProcedure> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Order> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PastMedicalHistory> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProcedureClass> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/SocialHistory> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/SystemsReview> .
-<http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Transfer> .
 <http://www.snik.eu/ontology/bb/PatientHistory> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/PatientHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/PatientHistory> <http://www.w3.org/2000/01/rdf-schema#label> "Patient History"@en .
@@ -28447,8 +28176,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/PatientRecordArchive> <http://www.snik.eu/ontology/bb/page> "78" .
 <http://www.snik.eu/ontology/bb/PatientRecordArchive> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ElectronicPatientRecord> .
 <http://www.snik.eu/ontology/bb/PatientRecordArchive> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/PaperBasedPatientRecord> .
-<http://www.snik.eu/ontology/bb/PatientRecordArchive> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ElectronicPatientRecord> .
-<http://www.snik.eu/ontology/bb/PatientRecordArchive> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PaperBasedPatientRecord> .
 <http://www.snik.eu/ontology/bb/PatientRecordArchive> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/PatientRecordArchive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/PatientRecordArchive> <http://www.w3.org/2000/01/rdf-schema#label> "Patient Record Archive"@en .
@@ -28460,8 +28187,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/PatientRecord> <http://www.snik.eu/ontology/bb/page> "38" .
 <http://www.snik.eu/ontology/bb/PatientRecord> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/DigitalImage> .
 <http://www.snik.eu/ontology/bb/PatientRecord> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/PatientHistory> .
-<http://www.snik.eu/ontology/bb/PatientRecord> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DigitalImage> .
-<http://www.snik.eu/ontology/bb/PatientRecord> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PatientHistory> .
 <http://www.snik.eu/ontology/bb/PatientRecord> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/PatientRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/PatientRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Patient Record"@en .
@@ -28605,7 +28330,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/PermanentMonitoring> <http://www.snik.eu/ontology/bb/ID> "397"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/PermanentMonitoring> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/PermanentMonitoring> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ContinuousHISAuditing> .
-<http://www.snik.eu/ontology/bb/PermanentMonitoring> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ContinuousHISAuditing> .
 <http://www.snik.eu/ontology/bb/PermanentMonitoring> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/PermanentMonitoring> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/ItEvaluationStudy> .
 <http://www.snik.eu/ontology/bb/PermanentMonitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -28992,7 +28716,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ProcedureClass> <http://www.snik.eu/ontology/bb/ID> "707"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/ProcedureClass> <http://www.snik.eu/ontology/bb/page> "77" .
 <http://www.snik.eu/ontology/bb/ProcedureClass> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Procedure> .
-<http://www.snik.eu/ontology/bb/ProcedureClass> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Procedure> .
 <http://www.snik.eu/ontology/bb/ProcedureClass> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ProcedureClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ProcedureClass> <http://www.w3.org/2000/01/rdf-schema#label> "Procedure Class"@en .
@@ -29013,8 +28736,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ProcessChain> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/ProcessChain> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ActivityModelingElement> .
 <http://www.snik.eu/ontology/bb/ProcessChain> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/RoleModelingElement> .
-<http://www.snik.eu/ontology/bb/ProcessChain> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ActivityModelingElement> .
-<http://www.snik.eu/ontology/bb/ProcessChain> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/RoleModelingElement> .
 <http://www.snik.eu/ontology/bb/ProcessChain> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ProcessChain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ProcessChain> <http://www.w3.org/2000/01/rdf-schema#label> "Process Chain"@en .
@@ -29105,10 +28826,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Project> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ProjectExecutionModule> .
 <http://www.snik.eu/ontology/bb/Project> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ProjectInitiationPhase> .
 <http://www.snik.eu/ontology/bb/Project> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ProjectPlanningPhase> .
-<http://www.snik.eu/ontology/bb/Project> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectCompletionPhase> .
-<http://www.snik.eu/ontology/bb/Project> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectExecutionModule> .
-<http://www.snik.eu/ontology/bb/Project> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectInitiationPhase> .
-<http://www.snik.eu/ontology/bb/Project> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectPlanningPhase> .
 <http://www.snik.eu/ontology/bb/Project> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Project> <http://www.w3.org/2000/01/rdf-schema#label> "Project"@en .
@@ -29138,10 +28855,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ProjectManagementBoard> <http://www.snik.eu/ontology/bb/ID> "588"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/ProjectManagementBoard> <http://www.snik.eu/ontology/bb/page> "273" .
 <http://www.snik.eu/ontology/bb/ProjectManagementBoard> <http://www.snik.eu/ontology/meta/communicatesWith> <http://www.snik.eu/ontology/bb/InformationManagementBoard> .
-<http://www.snik.eu/ontology/bb/ProjectManagementBoard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HospitalManagementStaff> .
-<http://www.snik.eu/ontology/bb/ProjectManagementBoard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectManager> .
-<http://www.snik.eu/ontology/bb/ProjectManagementBoard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/RepresentativeOfHospitalDepartment> .
-<http://www.snik.eu/ontology/bb/ProjectManagementBoard> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Vendor> .
 <http://www.snik.eu/ontology/bb/ProjectManagementBoard> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/ProjectConflictManagement> .
 <http://www.snik.eu/ontology/bb/ProjectManagementBoard> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/ProjectMonitoring> .
 <http://www.snik.eu/ontology/bb/ProjectManagementBoard> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/bb/HospitalManagementStaff> .
@@ -29227,7 +28940,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ProjectPortfolio> <http://www.snik.eu/ontology/bb/ID> "925"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/ProjectPortfolio> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/ProjectPortfolio> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Project> .
-<http://www.snik.eu/ontology/bb/ProjectPortfolio> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Project> .
 <http://www.snik.eu/ontology/bb/ProjectPortfolio> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ProjectPortfolio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ProjectPortfolio> <http://www.w3.org/2000/01/rdf-schema#label> "Project Portfolio"@en .
@@ -29549,8 +29261,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/QualityManagement> <http://www.snik.eu/ontology/bb/page> "99, 318" .
 <http://www.snik.eu/ontology/bb/QualityManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/InternalQualityManagement> .
 <http://www.snik.eu/ontology/bb/QualityManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PerformanceOfLegalNotificationRequirements> .
-<http://www.snik.eu/ontology/bb/QualityManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/InternalQualityManagement> .
-<http://www.snik.eu/ontology/bb/QualityManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PerformanceOfLegalNotificationRequirements> .
 <http://www.snik.eu/ontology/bb/QualityManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/QualityManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/StrategicHospitalGoal> .
 <http://www.snik.eu/ontology/bb/QualityManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/DiagnosticStandard> .
@@ -29906,8 +29616,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ReferenceModelForTheDomainLayerOfHospitalInformationSystems> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/3LGM2EnterpriseFunction> .
 <http://www.snik.eu/ontology/bb/ReferenceModelForTheDomainLayerOfHospitalInformationSystems> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/3LGM2DomainLayer> .
 <http://www.snik.eu/ontology/bb/ReferenceModelForTheDomainLayerOfHospitalInformationSystems> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/bb/HL7ReferenceInformationModel> .
-<http://www.snik.eu/ontology/bb/ReferenceModelForTheDomainLayerOfHospitalInformationSystems> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2EnterpriseFunction> .
-<http://www.snik.eu/ontology/bb/ReferenceModelForTheDomainLayerOfHospitalInformationSystems> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/3LGM2EntityType> .
 <http://www.snik.eu/ontology/bb/ReferenceModelForTheDomainLayerOfHospitalInformationSystems> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ReferenceModelForTheDomainLayerOfHospitalInformationSystems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ReferenceModelForTheDomainLayerOfHospitalInformationSystems> <http://www.w3.org/2000/01/rdf-schema#label> "Reference Model for the Domain Layer of Hospital Information Systems"@en .
@@ -30083,11 +29791,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/KnowledgeRetrievalAndLiteratureManagement> .
 <http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PublishingAndPresentation> .
 <http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ResearchManagement> .
-<http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Education> .
-<http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ExecutionOfClinicalTrialsAndExperiments> .
-<http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/KnowledgeRetrievalAndLiteratureManagement> .
-<http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PublishingAndPresentation> .
-<http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ResearchManagement> .
 <http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ResearchAndEducation> <http://www.w3.org/2000/01/rdf-schema#label> "Research and Education"@en .
@@ -30268,9 +29971,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/SchedulingAndResourceAllocation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AppointmentScheduling> .
 <http://www.snik.eu/ontology/bb/SchedulingAndResourceAllocation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/SchedulingAndResourcePlanningWithTheMedicalServiceUnit> .
 <http://www.snik.eu/ontology/bb/SchedulingAndResourceAllocation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/SchedulingAndResourcePlanningWithThePatientTransportService> .
-<http://www.snik.eu/ontology/bb/SchedulingAndResourceAllocation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AppointmentScheduling> .
-<http://www.snik.eu/ontology/bb/SchedulingAndResourceAllocation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/SchedulingAndResourcePlanningWithTheMedicalServiceUnit> .
-<http://www.snik.eu/ontology/bb/SchedulingAndResourceAllocation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/SchedulingAndResourcePlanningWithThePatientTransportService> .
 <http://www.snik.eu/ontology/bb/SchedulingAndResourceAllocation> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/SchedulingAndResourceAllocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/SchedulingAndResourceAllocation> <http://www.w3.org/2000/01/rdf-schema#label> "Scheduling and Resource Allocation"@en .
@@ -30314,7 +30014,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/SecondLevelSupport> <http://www.snik.eu/ontology/meta/communicatesWith> <http://www.snik.eu/ontology/bb/FirstLevelSupport> .
 <http://www.snik.eu/ontology/bb/SecondLevelSupport> <http://www.snik.eu/ontology/meta/communicatesWith> <http://www.snik.eu/ontology/bb/ThirdLevelSupport> .
 <http://www.snik.eu/ontology/bb/SecondLevelSupport> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/UserTraining> .
-<http://www.snik.eu/ontology/bb/SecondLevelSupport> <http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.snik.eu/ontology/bb/UserTraining> .
 <http://www.snik.eu/ontology/bb/SecondLevelSupport> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/SecondLevelSupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/SecondLevelSupport> <http://www.w3.org/2000/01/rdf-schema#label> "Second-Level Support"@en .
@@ -30406,7 +30105,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ServerCluster> <http://www.snik.eu/ontology/bb/ID> "839"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/ServerCluster> <http://www.snik.eu/ontology/bb/page> "169" .
 <http://www.snik.eu/ontology/bb/ServerCluster> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Server> .
-<http://www.snik.eu/ontology/bb/ServerCluster> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Server> .
 <http://www.snik.eu/ontology/bb/ServerCluster> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ServerCluster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ServerCluster> <http://www.w3.org/2000/01/rdf-schema#label> "Server Cluster"@en .
@@ -30435,7 +30133,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ServiceCatalog> <http://www.snik.eu/ontology/bb/ID> "756"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/ServiceCatalog> <http://www.snik.eu/ontology/bb/page> "78" .
 <http://www.snik.eu/ontology/bb/ServiceCatalog> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HospitalService> .
-<http://www.snik.eu/ontology/bb/ServiceCatalog> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HospitalService> .
 <http://www.snik.eu/ontology/bb/ServiceCatalog> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ServiceCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ServiceCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "Service Catalog"@en .
@@ -30489,9 +30186,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ServiceOperation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/IncidentManagement> .
 <http://www.snik.eu/ontology/bb/ServiceOperation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProblemManagement> .
 <http://www.snik.eu/ontology/bb/ServiceOperation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ServiceDeskManagement> .
-<http://www.snik.eu/ontology/bb/ServiceOperation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/IncidentManagement> .
-<http://www.snik.eu/ontology/bb/ServiceOperation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProblemManagement> .
-<http://www.snik.eu/ontology/bb/ServiceOperation> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ServiceDeskManagement> .
 <http://www.snik.eu/ontology/bb/ServiceOperation> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ServiceOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ServiceOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Service Operation"@en .
@@ -30515,9 +30209,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/ServiceTransition> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ChangeManagement> .
 <http://www.snik.eu/ontology/bb/ServiceTransition> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ConfigurationManagement> .
 <http://www.snik.eu/ontology/bb/ServiceTransition> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ServiceAssetManagement> .
-<http://www.snik.eu/ontology/bb/ServiceTransition> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ChangeManagement> .
-<http://www.snik.eu/ontology/bb/ServiceTransition> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ConfigurationManagement> .
-<http://www.snik.eu/ontology/bb/ServiceTransition> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ServiceAssetManagement> .
 <http://www.snik.eu/ontology/bb/ServiceTransition> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ServiceTransition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ServiceTransition> <http://www.w3.org/2000/01/rdf-schema#label> "Service Transition"@en .
@@ -30610,8 +30301,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Soa> <http://www.snik.eu/ontology/meta/increases> <http://www.snik.eu/ontology/bb/FunctionalIntegration> .
 <http://www.snik.eu/ontology/bb/Soa> <http://www.snik.eu/ontology/meta/increases> <http://www.snik.eu/ontology/bb/PresentationIntegration> .
 <http://www.snik.eu/ontology/bb/Soa> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/DB1Style> .
-<http://www.snik.eu/ontology/bb/Soa> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/IntegrationPlatform> .
-<http://www.snik.eu/ontology/bb/Soa> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/SoaService> .
 <http://www.snik.eu/ontology/bb/Soa> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Soa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Soa> <http://www.w3.org/2000/01/rdf-schema#label> "SOA"@en .
@@ -30651,8 +30340,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/SocioTechnicalSystem> <http://www.snik.eu/ontology/bb/page> "321" .
 <http://www.snik.eu/ontology/bb/SocioTechnicalSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ArtificialSystem> .
 <http://www.snik.eu/ontology/bb/SocioTechnicalSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ManMadeSystem> .
-<http://www.snik.eu/ontology/bb/SocioTechnicalSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ArtificialSystem> .
-<http://www.snik.eu/ontology/bb/SocioTechnicalSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ManMadeSystem> .
 <http://www.snik.eu/ontology/bb/SocioTechnicalSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/SocioTechnicalSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/SocioTechnicalSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Socio-Technical System"@en .
@@ -30842,7 +30529,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.snik.eu/ontology/bb/ID> "840"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.snik.eu/ontology/bb/page> "197" .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/StorageMedium> .
-<http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StorageMedium> .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.w3.org/2000/01/rdf-schema#label> "Storage Area Network"@en .
@@ -30930,11 +30616,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProjectInitiation> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProjectResourceAllocation> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProjectTimeAllocation> .
-<http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AdoptionOfProjectResult> .
-<http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MonitoringTheProjectProgress> .
-<http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectInitiation> .
-<http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectResourceAllocation> .
-<http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectTimeAllocation> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/Project> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/HisArchitecture> .
@@ -30955,9 +30636,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AdHocMonitoring> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/HisCertification> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PermanentMonitoring> .
-<http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AdHocMonitoring> .
-<http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HisCertification> .
-<http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PermanentMonitoring> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/StrategicDecision> .
@@ -30986,8 +30664,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/bb/page> "242" .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/LongTermHISPlanning> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ShortTermHISPlanning> .
-<http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/LongTermHISPlanning> .
-<http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ShortTermHISPlanning> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/HisArchitecture> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/HospitalInformationSystem> .
@@ -31024,9 +30700,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/StrategicHISDirecting> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/StrategicHISPlanning> .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StrategicHISDirecting> .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StrategicHISPlanning> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
@@ -31054,12 +30727,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/StrategicHospitalGoal> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AnalysisAndAssessmentOfTheCurrentHISState> .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/AnalysisAndAssessmentOfTheCurrentHISState> .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DescriptionOfTheCurrentHISState> .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DescriptionOfThePlannedHISState> .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MigrationPath> .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StrategicHospitalGoal> .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#label> "IT-Rahmenkonzept"@de .
@@ -31126,10 +30793,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/Study> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Resource> .
 <http://www.snik.eu/ontology/bb/Study> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/StudyObjective> .
 <http://www.snik.eu/ontology/bb/Study> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/StudyParticipant> .
-<http://www.snik.eu/ontology/bb/Study> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/EvaluationMethod> .
-<http://www.snik.eu/ontology/bb/Study> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Resource> .
-<http://www.snik.eu/ontology/bb/Study> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StudyObjective> .
-<http://www.snik.eu/ontology/bb/Study> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/StudyParticipant> .
 <http://www.snik.eu/ontology/bb/Study> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Study> <http://www.w3.org/2000/01/rdf-schema#label> "Study"@en .
@@ -31253,10 +30916,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/LaundryManagement> .
 <http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ManagementOfMedicalDevices> .
 <http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/MaterialAndMedicationManagement> .
-<http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Catering> .
-<http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/LaundryManagement> .
-<http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ManagementOfMedicalDevices> .
-<http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/MaterialAndMedicationManagement> .
 <http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Supply and Disposal Management"@en .
@@ -31371,7 +31030,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/SystemIntroduction> <http://www.snik.eu/ontology/bb/ID> "868"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/SystemIntroduction> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/SystemIntroduction> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/Customizing> .
-<http://www.snik.eu/ontology/bb/SystemIntroduction> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/Customizing> .
 <http://www.snik.eu/ontology/bb/SystemIntroduction> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/SystemIntroduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/SystemIntroduction> <http://www.w3.org/2000/01/rdf-schema#label> "System Introduction"@en .
@@ -31404,7 +31062,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/SystemSpecification> <http://www.snik.eu/ontology/bb/ID> "869"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/SystemSpecification> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/SystemSpecification> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/UserRequirementsAnalysis> .
-<http://www.snik.eu/ontology/bb/SystemSpecification> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/UserRequirementsAnalysis> .
 <http://www.snik.eu/ontology/bb/SystemSpecification> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/SystemSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/SystemSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "System Specification"@en .
@@ -31492,9 +31149,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProjectExecution> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProjectPlanning> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/EnterpriseFunction> .
-<http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectCompletion> .
-<http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectExecution> .
-<http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ProjectPlanning> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/HospitalInformationSystem> .
@@ -31530,9 +31184,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/TechnicalMetamodel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
 <http://www.snik.eu/ontology/bb/TechnicalMetamodel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/DataTransmissionConnection> .
 <http://www.snik.eu/ontology/bb/TechnicalMetamodel> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> .
-<http://www.snik.eu/ontology/bb/TechnicalMetamodel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
-<http://www.snik.eu/ontology/bb/TechnicalMetamodel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/DataTransmissionConnection> .
-<http://www.snik.eu/ontology/bb/TechnicalMetamodel> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> .
 <http://www.snik.eu/ontology/bb/TechnicalMetamodel> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/TechnicalMetamodel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/TechnicalMetamodel> <http://www.w3.org/2000/01/rdf-schema#label> "Technical Metamodel"@en .
@@ -31832,7 +31483,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/TransinstitutionalHealthInformationSystem> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/TransinstitutionalHealthInformationSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HospitalInformationSystem> .
 <http://www.snik.eu/ontology/bb/TransinstitutionalHealthInformationSystem> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/FunctionalRedundancyRate> .
-<http://www.snik.eu/ontology/bb/TransinstitutionalHealthInformationSystem> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/HospitalInformationSystem> .
 <http://www.snik.eu/ontology/bb/TransinstitutionalHealthInformationSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/TransinstitutionalHealthInformationSystem> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/bb/HealthCareNetwork> .
 <http://www.snik.eu/ontology/bb/TransinstitutionalHealthInformationSystem> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/bb/Telemicroscopy> .
@@ -31976,10 +31626,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/UmlClassDiagram> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/UmlAssociation> .
 <http://www.snik.eu/ontology/bb/UmlClassDiagram> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/UmlAssociationClass> .
 <http://www.snik.eu/ontology/bb/UmlClassDiagram> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/UmlClass> .
-<http://www.snik.eu/ontology/bb/UmlClassDiagram> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/UmlAbstractClass> .
-<http://www.snik.eu/ontology/bb/UmlClassDiagram> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/UmlAssociation> .
-<http://www.snik.eu/ontology/bb/UmlClassDiagram> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/UmlAssociationClass> .
-<http://www.snik.eu/ontology/bb/UmlClassDiagram> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/UmlClass> .
 <http://www.snik.eu/ontology/bb/UmlClassDiagram> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/UmlClassDiagram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/UmlClassDiagram> <http://www.w3.org/2000/01/rdf-schema#label> "UML Class Diagram"@en .
@@ -31992,8 +31638,6 @@ _:b216077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/on
 <http://www.snik.eu/ontology/bb/UmlClass> <http://www.snik.eu/ontology/bb/page> "52" .
 <http://www.snik.eu/ontology/bb/UmlClass> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/UmlAttribute> .
 <http://www.snik.eu/ontology/bb/UmlClass> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/UmlMethod> .
-<http://www.snik.eu/ontology/bb/UmlClass> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/UmlAttribute> .
-<http://www.snik.eu/ontology/bb/UmlClass> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/bb/UmlMethod> .
 <http://www.snik.eu/ontology/bb/UmlClass> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/UmlClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/UmlClass> <http://www.w3.org/2000/01/rdf-schema#label> "UML Class"@en .

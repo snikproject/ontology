@@ -1616,7 +1616,6 @@ _:b207504 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.
 <http://www.snik.eu/ontology/it4it/StartEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.snik.eu/ontology/it4it/StartEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Start Event"@en .
 <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> .
-<http://www.snik.eu/ontology/it4it/StrategyToPortfolio> <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> .
 <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> <http://www.w3.org/2000/01/rdf-schema#label> "Strategy To Portfolio"@en .
 <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/it4it/ValueStream> .
