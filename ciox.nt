@@ -257,7 +257,6 @@ _:b223793 <http://www.w3.org/2002/07/owl#subject> <http://www.snik.eu/ontology/c
 <http://www.snik.eu/ontology/ciox/Anwendungssystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Anwendungssystem> <http://www.w3.org/2000/01/rdf-schema#label> "Application System"@en .
 <http://www.snik.eu/ontology/ciox/Anwendungssystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/ApplicationComponent> .
-<http://www.snik.eu/ontology/ciox/Anwendungssystem> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ApplicationSystem> .
 <http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/ciox/SAPXFlow> .
 <http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Angebot> .
 <http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Rechnung> .
@@ -500,19 +499,20 @@ _:b223793 <http://www.w3.org/2002/07/owl#subject> <http://www.snik.eu/ontology/c
 <http://www.snik.eu/ontology/ciox/DocumentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/DocumentType> <http://www.w3.org/2000/01/rdf-schema#label> "Document Type"@de .
 <http://www.snik.eu/ontology/ciox/DocumentType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/RepresentationType> .
+<http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixeCEO> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/ciox/Projektueberwachung> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixeCEO> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/ciox/MSPowerpoint> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixeCEO> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixeCEO> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/ciox/JourFixeProtokoll> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixeCEO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixeCEO> <http://www.w3.org/2000/01/rdf-schema#label> "Durchfuehrung Jour-fixe CEO"@de .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixeCEO> <http://www.w3.org/2000/01/rdf-schema#label> "Jour-fixe Execution CEO"@en .
-<http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixeCEO> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Projektueberwachung> .
+<http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixeCEO> <http://www.w3.org/2004/02/skos/core#definition> "Regelm\u00E4\u00DFige Statusbesprechung zwischen CEO und CIO"@de .
+<http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixe> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/ciox/Projektueberwachung> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixe> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixe> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/ciox/Wartungsaktivitaetsprotokoll> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixe> <http://www.w3.org/2000/01/rdf-schema#label> "Durchfuehrung Jour-fixe"@de .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixe> <http://www.w3.org/2000/01/rdf-schema#label> "Jour Fixe Execution"@en .
-<http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Projektueberwachung> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixe> <http://www.w3.org/2004/02/skos/core#definition> "Statusabfrage der Projekte, 1x w\u00F6chentlich Projektleiter Jour fixe zur Besprechung laufender Projekte"@de .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungWartungsfenster> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/ciox/DurchfuehrungWartungsfenster> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/ciox/Wartungsaktivitaetsprotokoll> .

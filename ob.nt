@@ -24907,6 +24907,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/BusinessProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ob/BusinessProcess> <http://www.w3.org/2000/01/rdf-schema#label> "Business Process"@en .
 <http://www.snik.eu/ontology/ob/BusinessProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/ob/BusinessProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/ComponentOfAnInformationSystem> .
 <http://www.snik.eu/ontology/ob/BusinessProcess> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/BusinessProcess> <http://www.w3.org/2004/02/skos/core#definition> "Unter einem Gesch\u00E4ftsprozess verstehen wir eine Menge von zielgerichteten Aktivit\u00E4ten, die in einem logischen und zeitlichen Zusammenhang stehen und in ihrer Gesamtheit zur Erf\u00FCllung von Unternehmensaufgaben beitragen. Ein Gesch\u00E4ftsprozess wird durch ein Ereignis ausgel\u00F6st und ist in sich geschlossen. Zur Darstellung von Gesch\u00E4ftsprozessen steht eine Reihe von Methoden zur Gesch\u00E4ftsprozessmodellierung zur Verf\u00FCgung."@de .
 <http://www.snik.eu/ontology/ob/BusinessProcessMetamodel> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -25146,6 +25147,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/CommunicationDiagram> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/UmlDiagram> .
 <http://www.snik.eu/ontology/ob/CommunicationDiagram> <http://www.w3.org/2004/02/skos/core#definition> "beschreibt die Nachrichtenfl\u00FCsse zwischen Objekten"@de .
 <http://www.snik.eu/ontology/ob/CommunicationDiagram> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
+<http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ob/CommunicationLink> .
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/ob/StandardizationOfInterfaces> .
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.snik.eu/ontology/ob/Chapter> ""^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -25154,6 +25156,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.snik.eu/ontology/ob/page> "" .
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.w3.org/2000/01/rdf-schema#label> "Communication Interface"@en .
+<http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.w3.org/2000/01/rdf-schema#label> "Kommunikationsschnittstelle"@de .
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.w3.org/2004/02/skos/core#broader> <http://www.snik.eu/ontology/bb/InformationManagementEntityType> .
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
@@ -25939,27 +25942,21 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/DefinitionOfTargetValue> <http://www.w3.org/2000/01/rdf-schema#label> "Definition of Target Value"@en .
 <http://www.snik.eu/ontology/ob/DefinitionOfTargetValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/InformationManagement> .
 <http://www.snik.eu/ontology/ob/DefinitionOfTargetValue> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
-<http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "324"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "64"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.snik.eu/ontology/ob/Chapter> "16.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.snik.eu/ontology/ob/Chapter> "5.3"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.snik.eu/ontology/ob/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.snik.eu/ontology/ob/ID> "1131"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.snik.eu/ontology/ob/page> "" .
+<http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.snik.eu/ontology/ob/page> "64" .
 <http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Delphi-Methode"@de .
 <http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Delphi Method"@en .
 <http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/CreativityTechnique> .
+<http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/SystemEvaluationMethod> .
 <http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
-<http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.w3.org/2004/02/skos/core#definition> "Kreativit\u00E4tsmethode, welche auf der strukturierten Sammlung von Aussagen und Meinungen einer Expertengruppe beruht. Ausgew\u00E4hlte Experten werden gebeten, sich einzeln zu einer Aussage oder Meinung zu \u00E4u\u00DFern. Die Ergebnisse werden zusammengefasst an alle Teilnehmer zur\u00FCckgemeldet und die Befragung wird erneut durchgef\u00FChrt. Diese vorgehen wird solange wiederholt, bis ein befriedigender Konsens zwischen den Experten erreicht wurde."@de .
-<http://www.snik.eu/ontology/ob/DelphiStudy> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/ob/DelphiStudy> <http://www.snik.eu/ontology/ob/Chapter> "12.2"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.snik.eu/ontology/ob/DelphiStudy> <http://www.snik.eu/ontology/ob/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.snik.eu/ontology/ob/DelphiStudy> <http://www.snik.eu/ontology/ob/ID> "1243"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.snik.eu/ontology/ob/DelphiStudy> <http://www.snik.eu/ontology/ob/page> "" .
-<http://www.snik.eu/ontology/ob/DelphiStudy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.w3.org/2004/02/skos/core#definition> "Kreativit\u00E4tsmethode (eher Abstimmungsmethode), welche auf der strukturierten Sammlung von Aussagen und Meinungen einer Expertengruppe beruht. Ausgew\u00E4hlte Experten werden gebeten, sich einzeln zu einer Aussage oder Meinung zu \u00E4u\u00DFern. Die Ergebnisse werden zusammengefasst an alle Teilnehmer zur\u00FCckgemeldet und die Befragung wird erneut durchgef\u00FChrt. Diese vorgehen wird solange wiederholt, bis ein befriedigender Konsens zwischen den Experten erreicht wurde."@de .
 <http://www.snik.eu/ontology/ob/DelphiStudy> <http://www.w3.org/2000/01/rdf-schema#label> "Delphi-Studie"@de .
 <http://www.snik.eu/ontology/ob/DelphiStudy> <http://www.w3.org/2000/01/rdf-schema#label> "Delphi Study"@en .
-<http://www.snik.eu/ontology/ob/DelphiStudy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/SystemEvaluationMethod> .
 <http://www.snik.eu/ontology/ob/DelphiStudy> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/Department> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "326"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/Department> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ob/InformationAcquisition> .
@@ -28131,6 +28128,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/InformationManagement> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "26"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/ob/OperationalManagementOfInformationSystems> .
 <http://www.snik.eu/ontology/ob/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/ob/StrategicManagementOfInformationSystems> .
+<http://www.snik.eu/ontology/ob/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/ob/SystemAnalysis> .
 <http://www.snik.eu/ontology/ob/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/ob/TacticalManagementOfInformationSystems> .
 <http://www.snik.eu/ontology/ob/InformationManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/ob/InformationManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/ob/InformationSystem> .
@@ -29810,6 +29808,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/PhysicalDataProcessingSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ob/PhysicalDataProcessingSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Data Processing System"@en .
 <http://www.snik.eu/ontology/ob/PhysicalDataProcessingSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Physisches Datenverarbeitungssystem"@de .
+<http://www.snik.eu/ontology/ob/PhysicalDataProcessingSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/ComponentOfAnInformationSystem> .
 <http://www.snik.eu/ontology/ob/PhysicalDataProcessingSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/ComputerSystem> .
 <http://www.snik.eu/ontology/ob/PhysicalDataProcessingSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/InformationProcessingTool> .
 <http://www.snik.eu/ontology/ob/PhysicalDataProcessingSystem> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
@@ -30746,6 +30745,7 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ob/Resource> .
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ob/Result> .
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ob/Time> .
+<http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/ob/InformationManagement> .
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.snik.eu/ontology/ob/Chapter> ""^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.snik.eu/ontology/ob/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -30754,7 +30754,6 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.w3.org/2000/01/rdf-schema#label> "Magisches Dreieeck des Projektmanagements"@de .
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.w3.org/2000/01/rdf-schema#label> "Project Management Triangle"@en .
-<http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/InformationManagement> .
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/ProjectPlanningMethod> .
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/ProjectManagementTriangle> <http://www.w3.org/2004/02/skos/core#definition> "Zusammenhang zwischen den Faktoren Ergebnis (= Erreichen des geplanten Projektziels), verf\u00FCgbarer Zeit und verf\u00FCgbaren Ressourcen in einem Projekt. Das Magische Dreieck stellt dar, dass Ergebnis, Zeit und Ressourcen eng zusammenh\u00E4ngen. Ver\u00E4nderungen eines Faktors haben in der Regel Auswirkungen auf die anderen Faktoren."@de .
@@ -33183,7 +33182,6 @@ _:b219881 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ont
 <http://www.snik.eu/ontology/ob/SystemAnalysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ob/SystemAnalysis> <http://www.w3.org/2000/01/rdf-schema#label> "Systemanalyse"@de .
 <http://www.snik.eu/ontology/ob/SystemAnalysis> <http://www.w3.org/2000/01/rdf-schema#label> "System Analysis"@en .
-<http://www.snik.eu/ontology/ob/SystemAnalysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ob/InformationManagement> .
 <http://www.snik.eu/ontology/ob/SystemAnalysis> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/ob/SystemAnalysis> <http://www.w3.org/2004/02/skos/core#definition> "Ziel der Systemanalyse im Sinne des Managements von Informationssystemen ist die m\u00F6glichst exakte Beschreibung von Eigenschaften eines (Sub-)Informationssystems"@de .
 <http://www.snik.eu/ontology/ob/SystemAnalysisMethod> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .

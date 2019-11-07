@@ -19764,19 +19764,11 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/EstablishAndPromoteTheStrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/HisBudgetPlanning> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/OperationalHISDirecting> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/OperationalHISMonitoring> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/OperationalHISPlanning> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/ReportingToTheCEO> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/ReportToTheHospitalsBoardOfDirectors> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/StrategicAlignment> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/StrategicHISDirecting> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/StrategicHISPlanning> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/TacticalHISDirecting> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/TacticalHISPlanning> .
+<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/TacticalInformationManagement> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -20936,7 +20928,6 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/DelphiSurvey> <http://www.w3.org/2000/01/rdf-schema#label> "Delphi Survey"@en .
 <http://www.snik.eu/ontology/bb/DelphiSurvey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ConsensusMethod> .
 <http://www.snik.eu/ontology/bb/DelphiSurvey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/EvaluationMethod> .
-<http://www.snik.eu/ontology/bb/DelphiSurvey> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/DelphiStudy> .
 <http://www.snik.eu/ontology/bb/DelphiSurvey> <http://www.w3.org/2004/02/skos/core#definition> "Consensus method for the prediction of the future. A panel of experts is  \u2022 surveyed on a given topic in several iterative rounds. The result of each round is presented to each expert in anonymized form; the experts are then invited to modify their judgment in the next round.  "@en .
 <http://www.snik.eu/ontology/bb/DepartmentalSystemAdministrator> <http://www.snik.eu/ontology/bb/Chapter> ""^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/DepartmentalSystemAdministrator> <http://www.snik.eu/ontology/bb/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -21608,6 +21599,7 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/EstablishAndPromoteTheStrategicInformationManagementPlan> <http://www.snik.eu/ontology/bb/ID> "1727"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/EstablishAndPromoteTheStrategicInformationManagementPlan> <http://www.snik.eu/ontology/bb/page> "" .
 <http://www.snik.eu/ontology/bb/EstablishAndPromoteTheStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/bb/EstablishAndPromoteTheStrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/EstablishAndPromoteTheStrategicInformationManagementPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/EstablishAndPromoteTheStrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#label> "Establish and Promote the Strategic Information Management Plan"@en .
 <http://www.snik.eu/ontology/bb/EstablishAndPromoteTheStrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
@@ -24770,7 +24762,6 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.w3.org/2000/01/rdf-schema#label> "IHE Integration Profile"@en .
 <http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ReferenceModel> .
 <http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
-<http://www.snik.eu/ontology/bb/IheIntegrationProfile> <http://www.w3.org/2004/02/skos/core#related> <http://www.snik.eu/ontology/bb/Standard> .
 <http://www.snik.eu/ontology/bb/IhePatientDemographicsQuery> <http://www.snik.eu/ontology/bb/Chapter> "7.3"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/IhePatientDemographicsQuery> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/IhePatientDemographicsQuery> <http://www.snik.eu/ontology/bb/ID> "1461"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -25051,9 +25042,6 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/InformationManagementStaff> <http://www.snik.eu/ontology/bb/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/InformationManagementStaff> <http://www.snik.eu/ontology/bb/ID> "558"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/InformationManagementStaff> <http://www.snik.eu/ontology/bb/page> "" .
-<http://www.snik.eu/ontology/bb/InformationManagementStaff> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
-<http://www.snik.eu/ontology/bb/InformationManagementStaff> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
-<http://www.snik.eu/ontology/bb/InformationManagementStaff> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/TacticalInformationManagement> .
 <http://www.snik.eu/ontology/bb/InformationManagementStaff> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/bb/InformationManagementStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InformationManagementStaff> <http://www.w3.org/2000/01/rdf-schema#label> "Information Management Staff"@en .
@@ -27297,6 +27285,7 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/OperationalHISDirecting> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/OperationalHISDirecting> <http://www.snik.eu/ontology/bb/ID> "1859"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/OperationalHISDirecting> <http://www.snik.eu/ontology/bb/page> "244" .
+<http://www.snik.eu/ontology/bb/OperationalHISDirecting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
 <http://www.snik.eu/ontology/bb/OperationalHISDirecting> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/OperationalHISDirecting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OperationalHISDirecting> <http://www.w3.org/2000/01/rdf-schema#label> "Operational HIS Directing"@en .
@@ -27307,6 +27296,7 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/OperationalHISMonitoring> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/OperationalHISMonitoring> <http://www.snik.eu/ontology/bb/ID> "196"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/OperationalHISMonitoring> <http://www.snik.eu/ontology/bb/page> "244" .
+<http://www.snik.eu/ontology/bb/OperationalHISMonitoring> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
 <http://www.snik.eu/ontology/bb/OperationalHISMonitoring> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/OperationalHISMonitoring> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/OperationalManagementConcept> .
 <http://www.snik.eu/ontology/bb/OperationalHISMonitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -27318,6 +27308,7 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/bb/ID> "876"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/bb/page> "" .
+<http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PlanningOfBuildings> .
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PlanningOfFinances> .
 <http://www.snik.eu/ontology/bb/OperationalHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PlanningOfOrganizationalProcedures> .
@@ -27372,7 +27363,6 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Operational Information Management"@en .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Operatives Informationsmanagement"@de .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/OperationalManagementOfInformationSystems> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "Operational information management , finally, is responsible for operating the components of the information system"@en .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "Operational information management is responsible for operating the components of the hospital information system. It has to care for its operation in accordance with the strategic information management plan."@en .
@@ -28096,14 +28086,14 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/PatientHistory> <http://www.w3.org/2000/01/rdf-schema#label> "Patient History"@en .
 <http://www.snik.eu/ontology/bb/PatientHistory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/PatientCareEntityType> .
 <http://www.snik.eu/ontology/bb/PatientHistory> <http://www.w3.org/2004/02/skos/core#definition> "The patient history contains all clinical data about a patient, including medical and nursing anamnesis, finding discharge summery etc."@en .
-<http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/bb/admittingPhysician> <http://www.snik.eu/ontology/bb/Physician> .
-<http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/bb/case> <http://www.snik.eu/ontology/bb/Case> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/bb/Chapter> "6.5"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/bb/ID> "1007"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/bb/page> "76" .
-<http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/bb/relative> <http://www.snik.eu/ontology/bb/Relative> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Bed> .
+<http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Case> .
+<http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Physician> .
+<http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Relative> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Ward> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -29917,15 +29907,7 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/Sample> <http://www.w3.org/2000/01/rdf-schema#label> "Sample"@en .
 <http://www.snik.eu/ontology/bb/Sample> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/PatientCareEntityType> .
 <http://www.snik.eu/ontology/bb/Sample> <http://www.w3.org/2004/02/skos/core#definition> "Is a specimen taken from a patient , e.g., a blood sample or a urine sample"@en .
-<http://www.snik.eu/ontology/bb/San> <http://www.snik.eu/ontology/bb/Chapter> ""^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.snik.eu/ontology/bb/San> <http://www.snik.eu/ontology/bb/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.snik.eu/ontology/bb/San> <http://www.snik.eu/ontology/bb/ID> "503"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.snik.eu/ontology/bb/San> <http://www.snik.eu/ontology/bb/page> "" .
-<http://www.snik.eu/ontology/bb/San> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/bb/San> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/bb/StorageService> .
-<http://www.snik.eu/ontology/bb/San> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/San> <http://www.w3.org/2000/01/rdf-schema#label> "SAN"@en .
-<http://www.snik.eu/ontology/bb/San> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/StorageMedium> .
 <http://www.snik.eu/ontology/bb/San> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/bb/Saps> <http://www.snik.eu/ontology/bb/Chapter> ""^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/Saps> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -30431,6 +30413,7 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/Standard> <http://www.snik.eu/ontology/bb/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/Standard> <http://www.snik.eu/ontology/bb/ID> "519"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/Standard> <http://www.snik.eu/ontology/bb/page> "" .
+<http://www.snik.eu/ontology/bb/Standard> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/IheIntegrationProfile> .
 <http://www.snik.eu/ontology/bb/Standard> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Standard> <http://www.w3.org/2000/01/rdf-schema#label> "Standard"@en .
@@ -30510,9 +30493,11 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.snik.eu/ontology/bb/page> "197" .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/StorageMedium> .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/bb/StorageService> .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.w3.org/2000/01/rdf-schema#label> "Storage Area Network"@en .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Network> .
+<http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.w3.org/2004/02/skos/core#altLabel> "SAN"@en .
 <http://www.snik.eu/ontology/bb/StorageAreaNetwork> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/bb/StorageMedium> <http://www.snik.eu/ontology/bb/Chapter> ""^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/StorageMedium> <http://www.snik.eu/ontology/bb/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -30592,6 +30577,7 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/bb/ID> "185"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/bb/page> "242, 273" .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AdoptionOfProjectResult> .
+<http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/MonitoringTheProjectProgress> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProjectInitiation> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProjectResourceAllocation> .
@@ -30615,6 +30601,7 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/bb/page> "242" .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/AdHocMonitoring> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/HisCertification> .
+<http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PermanentMonitoring> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
@@ -30642,6 +30629,7 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/bb/ID> "375"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/bb/page> "242" .
+<http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/LongTermHISPlanning> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ShortTermHISPlanning> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
@@ -30693,7 +30681,6 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Strategic Information Management"@en .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Strategisches Informationsmanagement"@de .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicManagementOfInformationSystems> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "Strategic information management deals with information processing as a whole. Strategic information management deals with the hospital\u2019s information processing as a whole. It depends strictly on the hospital\u2019s business strategy and strategic goals and has to translate these into an appropriate information strategy. One part of information management. Deals with the enterprise\u2019s information processing as a whole and establishes strategies and principles for the evolution of the information system. An important result of strategic information management activities is a strategic information management plan which is aligned with the hospital\u2019s business strategy."@en .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/bb/Chapter> "Thesaurus"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -30710,8 +30697,11 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#label> "IT-Rahmenkonzept"@de .
+<http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#label> "IT-Strategie"@de .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#label> "IT-Strategieplan"@de .
+<http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#label> "Rahmenplan"@de .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#label> "Strategic Information Management Plan"@en .
+<http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#label> "Strategischer Rahmenplan des Informationsmanagements"@de .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementEntityType> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2004/02/skos/core#definition> "Is a strategic plan which gives directives for the construction and development of a hospital\u2019s information system. Written document that includes the direction and strategy of information management and the architecture of a health information system. Typically, it describes the hospital\u2019s goals, the information management goals, the current HIS state, the future HIS state, and the steps to transform the current HIS into the planned HIS. Its establishment is an important task of strategic HIS planning. The strategic information management plan should be written by the CIO and approved by the hospital management."@en .
@@ -31089,9 +31079,11 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.snik.eu/ontology/bb/ID> "193"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.snik.eu/ontology/bb/page> "244" .
+<http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/TacticalInformationManagement> .
 <http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/Project> .
 <http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ProjectPlan> .
+<http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.w3.org/2000/01/rdf-schema#label> "Tactical HIS Directing"@en .
 <http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
@@ -31101,9 +31093,11 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.snik.eu/ontology/bb/ID> "195"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.snik.eu/ontology/bb/page> "244" .
+<http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/TacticalInformationManagement> .
 <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/Project> .
 <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ProjectResult> .
+<http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.w3.org/2000/01/rdf-schema#label> "Tactical HIS Monitoring"@en .
 <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
@@ -31113,9 +31107,11 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.snik.eu/ontology/bb/ConceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.snik.eu/ontology/bb/ID> "377"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.snik.eu/ontology/bb/page> "243" .
+<http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/TacticalInformationManagement> .
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/Project> .
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/ProjectPlan> .
+<http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.w3.org/2000/01/rdf-schema#label> "Tactical HIS Planning"@en .
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
@@ -31145,7 +31141,6 @@ _:b223753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Tactical Information Management"@en .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Taktisches Informationsmanagement"@de .
-<http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "One part of information management. Deals with particular enterprise functions or application components that are introduced, removed, or changed. Usually these activities are done in the form of projects."@en .
 <http://www.snik.eu/ontology/bb/TansCriticalSuccessFactorApproach> <http://www.snik.eu/ontology/bb/Chapter> "9.4"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/TansCriticalSuccessFactorApproach> <http://www.snik.eu/ontology/bb/ConceptDomain> ""^^<http://www.w3.org/2001/XMLSchema#string> .
