@@ -287,7 +287,6 @@ _:b207504 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.
 <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.w3.org/2000/01/rdf-schema#label> "Enterprise Architecture Component"@en .
 <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/it4it/FunctionalComponent> .
-<http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <http://www.snik.eu/ontology/it4it/entityRelationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
 <http://www.snik.eu/ontology/it4it/entityRelationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.snik.eu/ontology/it4it/entityRelationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
