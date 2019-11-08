@@ -3505,7 +3505,6 @@
 <http://www.snik.eu/ontology/he/CorporateModeler> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/he/CorporateModeler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/he/CorporateModeler> <http://www.w3.org/2000/01/rdf-schema#label> "Corporate Modeler"@de .
-<http://www.snik.eu/ontology/he/CorporateModeler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Geschaeftsprozessmodellierungswerkzeug> .
 <http://www.snik.eu/ontology/he/CorporateModeler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Simulationswerkzeug> .
 <http://www.snik.eu/ontology/he/CRM> <http://www.snik.eu/ontology/meta/consolidated> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.snik.eu/ontology/he/CRM> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
@@ -5705,7 +5704,6 @@
 <http://www.snik.eu/ontology/he/Geschaeftsarchitektur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/he/Geschaeftsarchitektur> <http://www.w3.org/2000/01/rdf-schema#label> "Business Architecture"@en .
 <http://www.snik.eu/ontology/he/Geschaeftsarchitektur> <http://www.w3.org/2000/01/rdf-schema#label> "Gesch\u00E4ftsarchitektur"@de .
-<http://www.snik.eu/ontology/he/Geschaeftsarchitektur> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Teilarchitektur> .
 <http://www.snik.eu/ontology/he/Geschaeftsarchitektur> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Unternehmensarchitektur> .
 <http://www.snik.eu/ontology/he/Geschaeftsarchitektur> <http://www.w3.org/2004/02/skos/core#definition> "Modell der Organisation eines Unternehmens der wesentlichen Komponenten Ressourcen und deren Beziehungen sowie der Austauschbeziehungen des Unternehmens mit seiner Umwelt. Dazu geh\u00F6rt eine Beschreibung der zentralen\nKundengruppen und der Leistungen die das Unternehmen anbietet die betrieblichen Aufgaben und Aufgabentr\u00E4ger wesentliche Lieferanten Wettbewerber und Kooperationspartner sowie die Informationsfl\u00FCsse und Leitungsstrukturen des Unternehmens."@de .
 <http://www.snik.eu/ontology/he/Geschaeftsarchitektur> <http://www.w3.org/2004/02/skos/core#definition> "Modell der Organisation eines Unternehmens der wesentlichen Komponenten Ressourcen und deren Beziehungen sowie der Austauschbeziehungen des Unternehmens mit seiner Umwelt."@de .
@@ -8312,7 +8310,6 @@
 <http://www.snik.eu/ontology/he/iGrafxProcess> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/he/iGrafxProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/he/iGrafxProcess> <http://www.w3.org/2000/01/rdf-schema#label> "iGrafx Process"@de .
-<http://www.snik.eu/ontology/he/iGrafxProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Geschaeftsprozessmodellierungswerkzeug> .
 <http://www.snik.eu/ontology/he/iGrafxProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Simulationswerkzeug> .
 <http://www.snik.eu/ontology/he/IIm> <http://www.snik.eu/ontology/meta/consolidated> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.snik.eu/ontology/he/IIm> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .

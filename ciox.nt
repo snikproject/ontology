@@ -13,7 +13,7 @@
 <http://www.snik.eu/ontology/ciox/Abteilungsleiter> <http://www.w3.org/2000/01/rdf-schema#label> "Abteilungsleiter"@de .
 <http://www.snik.eu/ontology/ciox/Abteilungsleiter> <http://www.w3.org/2000/01/rdf-schema#label> "Department Manager"@en .
 <http://www.snik.eu/ontology/ciox/Abteilungsleiter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/InformationManagementStaff> .
-<http://www.snik.eu/ontology/ciox/AbteilungsleiterProjektUndProzessmanagement> <http://www.snik.eu/ontology/ciox/approves> <http://www.snik.eu/ontology/ciox/Projektdefinition> .
+<http://www.snik.eu/ontology/ciox/AbteilungsleiterProjektUndProzessmanagement> <http://www.snik.eu/ontology/meta/approvesEntityType> <http://www.snik.eu/ontology/ciox/Projektdefinition> .
 <http://www.snik.eu/ontology/ciox/AbteilungsleiterProjektUndProzessmanagement> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/ciox/Projektewarteliste> .
 <http://www.snik.eu/ontology/ciox/AbteilungsleiterProjektUndProzessmanagement> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ciox/Projektfreigabe> .
 <http://www.snik.eu/ontology/ciox/AbteilungsleiterProjektUndProzessmanagement> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/ciox/Projektleiterzuweisung> .
@@ -32,6 +32,7 @@
 <http://www.snik.eu/ontology/ciox/AnforderungFormulieren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/AnforderungFormulieren> <http://www.w3.org/2000/01/rdf-schema#label> "Anforderungen an IT-Strategie formulieren"@de .
 <http://www.snik.eu/ontology/ciox/Angebot> <http://purl.org/dc/terms/format> <http://www.snik.eu/ontology/ciox/PDFFile> .
+<http://www.snik.eu/ontology/ciox/Angebot> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> .
 <http://www.snik.eu/ontology/ciox/Angebot> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Angebot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Angebot> <http://www.w3.org/2000/01/rdf-schema#label> "Angebot"@de .
@@ -58,8 +59,6 @@
 <http://www.snik.eu/ontology/ciox/Anwendungssystem> <http://www.w3.org/2000/01/rdf-schema#label> "Application System"@en .
 <http://www.snik.eu/ontology/ciox/Anwendungssystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/ApplicationComponent> .
 <http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/ciox/SAPXFlow> .
-<http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Angebot> .
-<http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Rechnung> .
 <http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> <http://www.w3.org/2000/01/rdf-schema#label> "Arbeitsablaufsystem"@de .
@@ -123,6 +122,7 @@
 <http://www.snik.eu/ontology/ciox/Beschaffungsmanagement> <http://www.w3.org/2000/01/rdf-schema#label> "Beschaffungsmanagement"@de .
 <http://www.snik.eu/ontology/ciox/Beschaffungsmanagement> <http://www.w3.org/2000/01/rdf-schema#label> "Procurement Management"@en .
 <http://www.snik.eu/ontology/ciox/Beschaffungsmanagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/InformationManagement> .
+<http://www.snik.eu/ontology/ciox/Bestellung> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Materialwirtschaftssystem> .
 <http://www.snik.eu/ontology/ciox/Bestellung> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Bestellung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Bestellung> <http://www.w3.org/2000/01/rdf-schema#label> "Bestellung"@de .
@@ -138,6 +138,7 @@
 <http://www.snik.eu/ontology/ciox/Bestellungsbearbeitung> <http://www.w3.org/2000/01/rdf-schema#label> "Bestellungsbearbeitung"@de .
 <http://www.snik.eu/ontology/ciox/Bestellungsbearbeitung> <http://www.w3.org/2000/01/rdf-schema#label> "Purchase Order Processing"@en .
 <http://www.snik.eu/ontology/ciox/Bestellungsbearbeitung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Beschaffungsmanagement> .
+<http://www.snik.eu/ontology/ciox/Betriebskonzept> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Betriebskonzept> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Betriebskonzept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Betriebskonzept> <http://www.w3.org/2000/01/rdf-schema#label> "Betriebskonzept"@de .
@@ -376,6 +377,7 @@
 <http://www.snik.eu/ontology/ciox/ChangeAdvisoryBoard> <http://www.w3.org/2004/02/skos/core#altLabel> "CAB"@en .
 <http://www.snik.eu/ontology/ciox/ChangeAdvisoryBoard> <http://www.w3.org/2004/02/skos/core#definition> "Das CAB unterst\u00FCtzt den Change-Manager, Changes hinsichtlich des Business Impacts einzusch\u00E4tzen und zu priorisieren. Wenn ein CAB einberufen wird, m\u00FCssen die ausgew\u00E4hlten Mitglieder f\u00E4hig sein, den Change sowohl vom Standpunkt des Gesch\u00E4fts, als auch vom technischen Standpunkt aus beurteilen zu k\u00F6nnen. Um diesen Mix zu erreichen, m\u00FCssen im CAB sowohl Personen mit einem klaren Verst\u00E4ndnis f\u00FCr die Gesch\u00E4ftsanforderungen des Kunden vertreten sein als auch Anwender und Vertreter aus den technischen Entwicklungs- und Supportbereichen."@de .
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ciox/ChangeAntragProtokoll> .
+<http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.w3.org/2000/01/rdf-schema#label> "Change Antrag"@de .
@@ -385,6 +387,7 @@
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.w3.org/2004/02/skos/core#altLabel> "RfC"@en .
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ChangeRequest> .
 <http://www.snik.eu/ontology/ciox/ChangeAntrag> <http://www.w3.org/2004/02/skos/core#definition> "Ein Change Antrag kommt per Email und (papierbasiert) per Hauspost. F\u00FCr den B1 ist nur der unterschriebene RfC relevant."@de .
+<http://www.snik.eu/ontology/ciox/ChangeAntragProtokoll> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/ChangeAntragProtokoll> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/ChangeAntragProtokoll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/ChangeAntragProtokoll> <http://www.w3.org/2000/01/rdf-schema#label> "Change Antrag Protokoll"@de .
@@ -442,7 +445,7 @@
 <http://www.snik.eu/ontology/ciox/ChiefExecutiveOfficer> <http://www.w3.org/2004/02/skos/core#altLabel> "CEO"@en .
 <http://www.snik.eu/ontology/ciox/ChiefExecutiveOfficer> <http://www.w3.org/2004/02/skos/core#altLabel> "Gesch\u00E4ftsf\u00FChrer"@de .
 <http://www.snik.eu/ontology/ciox/ChiefInformationOfficer> <http://purl.org/dc/terms/source> <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> .
-<http://www.snik.eu/ontology/ciox/ChiefInformationOfficer> <http://www.snik.eu/ontology/ciox/approves> <http://www.snik.eu/ontology/ciox/Projektdefinition> .
+<http://www.snik.eu/ontology/ciox/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/approvesEntityType> <http://www.snik.eu/ontology/ciox/Projektdefinition> .
 <http://www.snik.eu/ontology/ciox/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ciox/CABDurchfuehrung> .
 <http://www.snik.eu/ontology/ciox/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixe> .
 <http://www.snik.eu/ontology/ciox/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/ciox/DurchfuehrungJourFixeCEO> .
@@ -480,11 +483,13 @@
 <http://www.snik.eu/ontology/ciox/ComputerbasiertesAnwendungssystem> <http://www.w3.org/2000/01/rdf-schema#label> "Computer-Based Application Component"@en .
 <http://www.snik.eu/ontology/ciox/ComputerbasiertesAnwendungssystem> <http://www.w3.org/2000/01/rdf-schema#label> "Computerbasiertes Anwendungssystem"@de .
 <http://www.snik.eu/ontology/ciox/ComputerbasiertesAnwendungssystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Anwendungssystem> .
+<http://www.snik.eu/ontology/ciox/ComputerbasiertesAnwendungssystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent> .
 <http://www.snik.eu/ontology/ciox/ComputerbasiertesAnwendungssystem> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/ComputerBasedApplicationComponent> .
 <http://www.snik.eu/ontology/ciox/DepartmentManagerSystemManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ciox/DepartmentManagerSystemManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/DepartmentManagerSystemManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Department Manager System Management"@en .
 <http://www.snik.eu/ontology/ciox/DepartmentManagerSystemManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Abteilungsleiter> .
+<http://www.snik.eu/ontology/ciox/Dienstanweisung> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Dienstanweisung> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Dienstanweisung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Dienstanweisung> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstanweisung"@de .
@@ -542,6 +547,7 @@
 <http://www.snik.eu/ontology/ciox/ErwartungenFormulieren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/ErwartungenFormulieren> <http://www.w3.org/2000/01/rdf-schema#label> "Erwartungen an IT-Strategie formulieren"@de .
 <http://www.snik.eu/ontology/ciox/Etat> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ciox/Sachkonto> .
+<http://www.snik.eu/ontology/ciox/Etat> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Etat> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Etat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Etat> <http://www.w3.org/2000/01/rdf-schema#label> "Budget"@en .
@@ -906,7 +912,6 @@
 <http://www.snik.eu/ontology/ciox/ITSachkontenplanung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/ITFinanzcontrolling> .
 <http://www.snik.eu/ontology/ciox/ITSachkontenplanung> <http://www.w3.org/2004/02/skos/core#definition> "Sachkonten werden einmal j\u00E4hrlich geplant auf Grundlage des Vorjahrs."@de .
 <http://www.snik.eu/ontology/ciox/ITServiceManagementSystem> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/ciox/MSSystemCenter> .
-<http://www.snik.eu/ontology/ciox/ITServiceManagementSystem> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Ticket> .
 <http://www.snik.eu/ontology/ciox/ITServiceManagementSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/ITServiceManagementSystem> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/ciox/IncidentManagement> .
 <http://www.snik.eu/ontology/ciox/ITServiceManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -932,12 +937,11 @@
 <http://www.snik.eu/ontology/ciox/ItStrategieEinhaltungBewertung> <http://www.w3.org/2004/02/skos/core#definition> "Problem: \nEinige IT-Ma\u00DFnahmen k\u00F6nnen nicht durchgef\u00FChrt oder vollst\u00E4ndig bearbeitet werden. Daf\u00FCr m\u00FCssen Argumente gefunden werden.\n\u00DCberpr\u00FCfung der IT-Strategie findet aktuell bei Neuerstellung der IT-Strategie statt. Eigentlich sollte die \u00DCberpr\u00FCfung jedoch regelm\u00E4\u00DFig explizit stattfinden. Daf\u00FCr sollte ein IT-Board etabliert werden. Politische Zw\u00E4nge haben das IT-Board jedoch verhindert.\nDazu geh\u00F6rt die Etablierung der Lenkungsgruppe IT-Board. Diese sollte halbj\u00E4hrlich Tagen und bewerten, was die IT im letzten halben Jahr gemacht hat und inwiefern die IT-Strategie erreicht werden kann. (Sind wir auf dem roten Pfad?). Das IT-Board pr\u00FCft die Abarbeitung der vereinbarten IT-Ma\u00DFnahmen. Das IT-Board existiert nicht."@de .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/ciox/ITStrategie> .
-<http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/ciox/Projektportfolio> .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.w3.org/2000/01/rdf-schema#label> "IT Strategieentwicklung"@de .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.w3.org/2000/01/rdf-schema#label> "IT strategy development"@en .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/InformationManagement> .
-<http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicHISPlanning> .
+<http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicInformationManagementPlanning> .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.w3.org/2004/02/skos/core#definition> "Aus der Erstellung der IT-Strategie ergibt sich das Projektportfolio."@de .
 <http://www.snik.eu/ontology/ciox/ItStrategieErstellung> <http://purl.org/dc/terms/source> <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> .
 <http://www.snik.eu/ontology/ciox/ItStrategieErstellung> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/ciox/ItStrategieManagement> .
@@ -978,6 +982,7 @@
 <http://www.snik.eu/ontology/ciox/ItStrategieHandlungsfelderPriorisierung> <http://www.w3.org/2000/01/rdf-schema#label> "IT-Strategie Handlungsfelder Priorisierung"@de .
 <http://www.snik.eu/ontology/ciox/ItStrategieHandlungsfelderPriorisierung> <http://www.w3.org/2004/02/skos/core#definition> "Zur Erarbeitung und Priorisierung von zuk\u00FCnftigen IT-Strategie-Themen werden Workshops mit den Stakeholdern durchgef\u00FChrt. \nInsgesamt 14 Workshops mit unterschiedlichen Themen wurden durchgef\u00FChrt. Dabei wird zentral die Frage bearbeitet: \u201EWelche Problemfelder gibt es in der Organisation \u00FCber die IT?\u201C und: \u201EWelche wichtigen Themen des B1 gibt es?\u201C. Die damit gewonnenen Themen werden zu Themenbereichen gruppiert (geclustert) und zu gr\u00F6\u00DFeren IT-Ma\u00DFnahmen synthetisiert. Jede IT-Ma\u00DFnahme l\u00E4sst sich ein oder mehreren Unternehmenszielen zuordnen."@de .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://purl.org/dc/terms/source> <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> .
+<http://www.snik.eu/ontology/ciox/ITStrategie> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/ITStrategie> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1033,31 +1038,13 @@
 <http://www.snik.eu/ontology/ciox/ItStrategieVerwendung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/ItStrategieVerwendung> <http://www.w3.org/2000/01/rdf-schema#label> "IT-Strategie Verwendung "@de .
 <http://www.snik.eu/ontology/ciox/ItStrategieVerwendung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/UseOfStrategicInformationManagementPlan> .
+<http://www.snik.eu/ontology/ciox/JourFixeProtokoll> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/JourFixeProtokoll> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/JourFixeProtokoll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/JourFixeProtokoll> <http://www.w3.org/2000/01/rdf-schema#label> "Jour fixe Protocol"@en .
 <http://www.snik.eu/ontology/ciox/JourFixeProtokoll> <http://www.w3.org/2000/01/rdf-schema#label> "Jour-fixe Protokoll"@de .
 <http://www.snik.eu/ontology/ciox/JourFixeProtokoll> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/ciox/MSSharePoint> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Betriebskonzept> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/ChangeAntrag> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/ChangeAntragProtokoll> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Dienstanweisung> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Etat> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/ITStrategie> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/JourFixeProtokoll> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Projektabschlussbericht> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Projektauftrag> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Projekteliste> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Projektewarteliste> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Projektplan> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Projektstatusbericht> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Projektuebergabeprotokoll> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Projektwebsite> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Rechnung> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Ressourcenplan> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Wartungsaktivitaetsprotokoll> .
-<http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Wartungsvertrag> .
 <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/ciox/Beschaffungsfreigabe> .
 <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/ciox/ChangeRequestEntscheidung> .
@@ -1083,7 +1070,6 @@
 <http://www.snik.eu/ontology/ciox/Kostenmanagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/InformationManagement> .
 <http://www.snik.eu/ontology/ciox/Kostenmanagement> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.snik.eu/ontology/bb/CostAccounting> .
 <http://www.snik.eu/ontology/ciox/Kostenrechnungssystem> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/ciox/SAPCO> .
-<http://www.snik.eu/ontology/ciox/Kostenrechnungssystem> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Wirtschaftsplan> .
 <http://www.snik.eu/ontology/ciox/Kostenrechnungssystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Kostenrechnungssystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Kostenrechnungssystem> <http://www.w3.org/2000/01/rdf-schema#label> "Kostenrechnungssystem"@de .
@@ -1122,7 +1108,6 @@
 <http://www.snik.eu/ontology/ciox/Materialbestellung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Bestellungsbearbeitung> .
 <http://www.snik.eu/ontology/ciox/Materialbestellung> <http://www.w3.org/2004/02/skos/core#broader> <http://www.snik.eu/ontology/bb/MaterialAndMedicationManagement> .
 <http://www.snik.eu/ontology/ciox/Materialwirtschaftssystem> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/ciox/SAPMM> .
-<http://www.snik.eu/ontology/ciox/Materialwirtschaftssystem> <http://www.snik.eu/ontology/meta/isMasterFor> <http://www.snik.eu/ontology/ciox/Bestellung> .
 <http://www.snik.eu/ontology/ciox/Materialwirtschaftssystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Materialwirtschaftssystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Materialwirtschaftssystem> <http://www.w3.org/2000/01/rdf-schema#label> "Materialwirtschaftssystem"@de .
@@ -1268,6 +1253,7 @@
 <http://www.snik.eu/ontology/ciox/PolypointPEP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Softwareprodukt> .
 <http://www.snik.eu/ontology/ciox/Priorit\u00E4t> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/Prioritaet> .
 <http://www.snik.eu/ontology/ciox/Projectueberwachung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ProjectMonitoring> .
+<http://www.snik.eu/ontology/ciox/Projektabschlussbericht> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Projektabschlussbericht> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projektabschlussbericht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projektabschlussbericht> <http://www.w3.org/2000/01/rdf-schema#label> "Project Completition Report"@en .
@@ -1280,6 +1266,7 @@
 <http://www.snik.eu/ontology/ciox/Projektauftraggeber> <http://www.w3.org/2000/01/rdf-schema#label> "Projektauftraggeber"@de .
 <http://www.snik.eu/ontology/ciox/Projektauftraggeber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/HISStakeholder> .
 <http://www.snik.eu/ontology/ciox/ProjektAuftraggeber> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Sponsor> .
+<http://www.snik.eu/ontology/ciox/Projektauftrag> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Projektauftrag> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projektauftrag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projektauftrag> <http://www.w3.org/2000/01/rdf-schema#label> "Project Order"@en .
@@ -1324,6 +1311,7 @@
 <http://www.snik.eu/ontology/ciox/Projektdurchfuehrung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/ProjectExecution> .
 <http://www.snik.eu/ontology/ciox/Projektdurchfuehrung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ProjectExecution> .
 <http://www.snik.eu/ontology/ciox/Projekteliste> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/ciox/Projektewarteliste> .
+<http://www.snik.eu/ontology/ciox/Projekteliste> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Projekteliste> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projekteliste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projekteliste> <http://www.w3.org/2000/01/rdf-schema#label> "Projects List"@en .
@@ -1343,6 +1331,7 @@
 <http://www.snik.eu/ontology/ciox/Projekteskalation> <http://www.w3.org/2000/01/rdf-schema#label> "Projekteskalation"@de .
 <http://www.snik.eu/ontology/ciox/Projekteskalation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Projektmanagement> .
 <http://www.snik.eu/ontology/ciox/Projektewarteliste> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/ciox/Projekt> .
+<http://www.snik.eu/ontology/ciox/Projektewarteliste> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Projektewarteliste> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projektewarteliste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projektewarteliste> <http://www.w3.org/2000/01/rdf-schema#label> "project waitlist"@en .
@@ -1394,6 +1383,7 @@
 <http://www.snik.eu/ontology/ciox/Projektnummer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.snik.eu/ontology/ciox/Projektnummer> <http://www.w3.org/2000/01/rdf-schema#label> "Projektnummer"@de .
 <http://www.snik.eu/ontology/ciox/Projektplan> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/ciox/Projektwebsite> .
+<http://www.snik.eu/ontology/ciox/Projektplan> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Projektplan> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projektplan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projektplan> <http://www.w3.org/2000/01/rdf-schema#label> "Project Plan"@en .
@@ -1479,11 +1469,13 @@
 <http://www.snik.eu/ontology/ciox/ProjektSicherheitskrititkalitaetsBewertung> <http://www.w3.org/2000/01/rdf-schema#label> "Projekt-Sicherheitskrititkalit\u00E4tsBewertung"@de .
 <http://www.snik.eu/ontology/ciox/ProjektSicherheitskrititkalitaetsBewertung> <http://www.w3.org/2004/02/skos/core#definition> "Jedes laufende Projekt der Projektliste wird betrachtet. Wenn es eine Sicherheitsrelevanz hat, wird dieses Projekt genauer betrachtet.  Nach Installation eines CISO (IT-Sicherheitsbeauftragter) ben\u00F6tigt dieser eine Zuordnung, welche Projekte welchen IT-Ma\u00DFnahmen beitragen. Der CISO bekommt ein Sicherheitsgremium. Die Kenntnis der sicherheitsrelevanten Projekte ist ein wesentliches Ergebnis. Sobald Projektplan/Budgets fertig geplant wurde, sollen die sicherheits-relevanten Projekte genehmigt werden. Evtl. Kritikalit\u00E4t in der Projektwarteliste pflegen."@de .
 <http://www.snik.eu/ontology/ciox/ProjektSicherheitskrititkalit\u00E4t> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.snik.eu/ontology/he/Sicherheit> .
+<http://www.snik.eu/ontology/ciox/Projektstatusbericht> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Projektstatusbericht> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projektstatusbericht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projektstatusbericht> <http://www.w3.org/2000/01/rdf-schema#label> "Projektstatusbericht"@de .
 <http://www.snik.eu/ontology/ciox/Projektstatusbericht> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projektstatusbericht> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/InterimReport> .
+<http://www.snik.eu/ontology/ciox/Projektuebergabeprotokoll> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Projektuebergabeprotokoll> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projektuebergabeprotokoll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projektuebergabeprotokoll> <http://www.w3.org/2000/01/rdf-schema#label> "Projekt\u00FCbergabeprotokoll"@de .
@@ -1497,6 +1489,7 @@
 <http://www.snik.eu/ontology/ciox/Projektueberwachung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Projektmanagement> .
 <http://www.snik.eu/ontology/ciox/Projektueberwachung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/ProjectMonitoring> .
 <http://www.snik.eu/ontology/ciox/Projektueberwachung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ProjectMonitoring> .
+<http://www.snik.eu/ontology/ciox/Projektwebsite> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Projektwebsite> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Projektwebsite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projektwebsite> <http://www.w3.org/2000/01/rdf-schema#label> "Project Web Site"@en .
@@ -1509,6 +1502,8 @@
 <http://www.snik.eu/ontology/ciox/ProspektiveRechtfertigung> <http://www.w3.org/2000/01/rdf-schema#label> "Prospektive Rechtfertigung"@de .
 <http://www.snik.eu/ontology/ciox/ProspektiveRechtfertigung> <http://www.w3.org/2004/02/skos/core#definition> "Die IT-Strategie hilft bei der Rechtfertigung, weshalb bestimmte Investitionen get\u00E4tigt werden m\u00FCssen. "@de .
 <http://www.snik.eu/ontology/ciox/ProspektiveRechtfertigung> <http://www.w3.org/2004/02/skos/core#narrower> <http://www.snik.eu/ontology/bb/ITInvestmentJustification> .
+<http://www.snik.eu/ontology/ciox/Rechnung> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> .
+<http://www.snik.eu/ontology/ciox/Rechnung> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Rechnung> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Rechnung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Rechnung> <http://www.w3.org/2000/01/rdf-schema#label> "Bill"@en .
@@ -1539,6 +1534,7 @@
 <http://www.snik.eu/ontology/ciox/Ressource> <http://www.w3.org/2000/01/rdf-schema#label> "Ressource"@de .
 <http://www.snik.eu/ontology/ciox/Ressource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Ressource> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Resource> .
+<http://www.snik.eu/ontology/ciox/Ressourcenplan> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Ressourcenplan> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Ressourcenplan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Ressourcenplan> <http://www.w3.org/2000/01/rdf-schema#label> "Resource Plan"@en .
@@ -1708,6 +1704,7 @@
 <http://www.snik.eu/ontology/ciox/Ticketbearbeitungszuweisung> <http://www.w3.org/2000/01/rdf-schema#label> "Ticketbearbeitungszuweisung"@de .
 <http://www.snik.eu/ontology/ciox/Ticketbearbeitungszuweisung> <http://www.w3.org/2000/01/rdf-schema#label> "Ticket Processing Assesment"@en .
 <http://www.snik.eu/ontology/ciox/Ticketbearbeitungszuweisung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/ServiceDesk> .
+<http://www.snik.eu/ontology/ciox/Ticket> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/ITServiceManagementSystem> .
 <http://www.snik.eu/ontology/ciox/Ticket> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Ticket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/ciox/DocumentType> .
 <http://www.snik.eu/ontology/ciox/Ticket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/RepresentationType> .
@@ -1740,6 +1737,7 @@
 <http://www.snik.eu/ontology/ciox/Verzeichnisdienstsystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/ComputerbasiertesAnwendungssystem> .
 <http://www.snik.eu/ontology/ciox/Vorstand> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/HospitalManagement> .
 <http://www.snik.eu/ontology/ciox/Vorstand> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/HospitalsBoardOfDirectors> .
+<http://www.snik.eu/ontology/ciox/Wartungsaktivitaetsprotokoll> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Wartungsaktivitaetsprotokoll> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Wartungsaktivitaetsprotokoll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Wartungsaktivitaetsprotokoll> <http://www.w3.org/2000/01/rdf-schema#label> "Wartungsaktivit\u00E4tsprotokoll"@de .
@@ -1762,6 +1760,7 @@
 <http://www.snik.eu/ontology/ciox/Wartungsvertragfreigabe> <http://www.w3.org/2000/01/rdf-schema#label> "Wartungsvertragfreigabe"@de .
 <http://www.snik.eu/ontology/ciox/Wartungsvertragfreigabe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/Vertragsmanagement> .
 <http://www.snik.eu/ontology/ciox/Wartungsvertragfreigabe> <http://www.w3.org/2004/02/skos/core#definition> "Wenn Vertragsbetrag < 25.000 Euro und Vertragslaufzeit begrenzt. Die Bereichsassistenz tr\u00E4gt die Kosten des Wartungsvertrags in den Wirtschaftsplan ein."@de .
+<http://www.snik.eu/ontology/ciox/Wartungsvertrag> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/Wartungsvertrag> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Wartungsvertrag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Wartungsvertrag> <http://www.w3.org/2000/01/rdf-schema#label> "Maintenance Contract"@en .
@@ -1789,6 +1788,7 @@
 <http://www.snik.eu/ontology/ciox/WirtschaftlicheRechtfertigung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/ITInvestmentJustification> .
 <http://www.snik.eu/ontology/ciox/WirtschaftlicheRechtfertigung> <http://www.w3.org/2004/02/skos/core#definition> "Die IT-Strategie hilft bei der Rechtfertigung, weshalb bestimmte Investitionen get\u00E4tigt werden m\u00FCssen.\n1) Geplante Investitionen werden in Frage gestellt und m\u00FCssen daher gerechtfertigt werden. Daf\u00FCr ist die IT-Strategie als Committment des Vorstandes eine Argumentationshilfe.\n2) Aktuell gibt es keine explizite Verkn\u00FCpfung zwischen Projekten (aus der Projektwarteliste) und der IT-Strategie\n3) Zus\u00E4tzliche Ressourcen bei Personalplanung k\u00F6nnen aktuell schlecht gerechtfertigt werden.\n"@de .
 <http://www.snik.eu/ontology/ciox/Wirtschaftsplan> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/ciox/Sachkonto> .
+<http://www.snik.eu/ontology/ciox/Wirtschaftsplan> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kostenrechnungssystem> .
 <http://www.snik.eu/ontology/ciox/Wirtschaftsplan> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Wirtschaftsplan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Wirtschaftsplan> <http://www.w3.org/2000/01/rdf-schema#label> "Wirtschaftsplan"@de .
