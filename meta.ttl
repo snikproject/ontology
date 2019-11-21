@@ -277,7 +277,7 @@
     rdfs:comment "The subject is a chapter that has a number, possibly including multiple dots, such as chapter 3.4.5."@en ;
     rdfs:label "chapter number"@en, "Kapitelnummer"@de;
     rdfs:domain :Chapter;
-    rdfs:range xsd:decimal.
+    rdfs:range xsd:string.
 
 :firstPage
     a owl:DatatypeProperty ;

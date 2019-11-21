@@ -1,3 +1,4 @@
+
 <http://www.snik.eu/ontology/bb/3LGM2> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ThreeLayerGraphBasedMetamodel> .
 <http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/3LGM2LogicalToolLayer> .
 <http://www.snik.eu/ontology/bb/Activity> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Activity> .

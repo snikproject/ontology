@@ -1,3 +1,4 @@
+
 <http://www.snik.eu/ontology/ciox/AbteilungsleiterApplikationsmanagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/ciox/AbteilungsleiterApplikationsmanagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/AbteilungsleiterApplikationsmanagement> <http://www.w3.org/2000/01/rdf-schema#label> "Abteilungsleiter Applikationsmanagement"@de .
