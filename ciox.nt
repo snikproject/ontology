@@ -677,7 +677,6 @@
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/ITSachkontenplanung> .
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/ITServiceManagementSystem> .
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/ItStrategie> .
-<http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/ITStrategie> .
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/ItStrategieAnforderung> .
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/ItStrategieAuftraggeber> .
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/ItStrategieEinhaltungBewertung> .
@@ -937,7 +936,7 @@
 <http://www.snik.eu/ontology/ciox/ItStrategieEinhaltungBewertung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> .
 <http://www.snik.eu/ontology/ciox/ItStrategieEinhaltungBewertung> <http://www.w3.org/2004/02/skos/core#definition> "Problem: \nEinige IT-Ma\u00DFnahmen k\u00F6nnen nicht durchgef\u00FChrt oder vollst\u00E4ndig bearbeitet werden. Daf\u00FCr m\u00FCssen Argumente gefunden werden.\n\u00DCberpr\u00FCfung der IT-Strategie findet aktuell bei Neuerstellung der IT-Strategie statt. Eigentlich sollte die \u00DCberpr\u00FCfung jedoch regelm\u00E4\u00DFig explizit stattfinden. Daf\u00FCr sollte ein IT-Board etabliert werden. Politische Zw\u00E4nge haben das IT-Board jedoch verhindert.\nDazu geh\u00F6rt die Etablierung der Lenkungsgruppe IT-Board. Diese sollte halbj\u00E4hrlich Tagen und bewerten, was die IT im letzten halben Jahr gemacht hat und inwiefern die IT-Strategie erreicht werden kann. (Sind wir auf dem roten Pfad?). Das IT-Board pr\u00FCft die Abarbeitung der vereinbarten IT-Ma\u00DFnahmen. Das IT-Board existiert nicht."@de .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
-<http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/ciox/ITStrategie> .
+<http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/ciox/ItStrategie> .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.w3.org/2000/01/rdf-schema#label> "IT Strategieentwicklung"@de .
 <http://www.snik.eu/ontology/ciox/ITStrategieentwicklung> <http://www.w3.org/2000/01/rdf-schema#label> "IT strategy development"@en .
@@ -983,21 +982,15 @@
 <http://www.snik.eu/ontology/ciox/ItStrategieHandlungsfelderPriorisierung> <http://www.w3.org/2000/01/rdf-schema#label> "IT-Strategie Handlungsfelder Priorisierung"@de .
 <http://www.snik.eu/ontology/ciox/ItStrategieHandlungsfelderPriorisierung> <http://www.w3.org/2004/02/skos/core#definition> "Zur Erarbeitung und Priorisierung von zuk\u00FCnftigen IT-Strategie-Themen werden Workshops mit den Stakeholdern durchgef\u00FChrt. \nInsgesamt 14 Workshops mit unterschiedlichen Themen wurden durchgef\u00FChrt. Dabei wird zentral die Frage bearbeitet: \u201EWelche Problemfelder gibt es in der Organisation \u00FCber die IT?\u201C und: \u201EWelche wichtigen Themen des B1 gibt es?\u201C. Die damit gewonnenen Themen werden zu Themenbereichen gruppiert (geclustert) und zu gr\u00F6\u00DFeren IT-Ma\u00DFnahmen synthetisiert. Jede IT-Ma\u00DFnahme l\u00E4sst sich ein oder mehreren Unternehmenszielen zuordnen."@de .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://purl.org/dc/terms/source> <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> .
-<http://www.snik.eu/ontology/ciox/ITStrategie> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
+<http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Kollaborationsplattform> .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/ciox/ITStrategie> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/ciox/ITStrategie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.w3.org/2000/01/rdf-schema#label> "IT-Strategie"@de .
-<http://www.snik.eu/ontology/ciox/ITStrategie> <http://www.w3.org/2000/01/rdf-schema#label> "IT-Strategie"@de .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.w3.org/2000/01/rdf-schema#label> "IT Strategy"@en .
-<http://www.snik.eu/ontology/ciox/ITStrategie> <http://www.w3.org/2000/01/rdf-schema#label> "IT Strategy"@en .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/ciox/ITStrategie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.w3.org/2004/02/skos/core#altLabel> "strategic information management plan"@en .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.w3.org/2004/02/skos/core#altLabel> "Strategischer Rahmenplan"@de .
 <http://www.snik.eu/ontology/ciox/ItStrategie> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
-<http://www.snik.eu/ontology/ciox/ITStrategie> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/ciox/ItStrategieManagement> <http://purl.org/dc/terms/source> <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> .
 <http://www.snik.eu/ontology/ciox/ItStrategieManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/ciox/ItStrategieErstellung> .
 <http://www.snik.eu/ontology/ciox/ItStrategieManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/ciox/ItStrategieVerwendung> .
@@ -1321,7 +1314,7 @@
 <http://www.snik.eu/ontology/ciox/Projekteplanung> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/ciox/MSProject> .
 <http://www.snik.eu/ontology/ciox/Projekteplanung> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/ciox/Projekteplanung> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/ciox/Projektewarteliste> .
-<http://www.snik.eu/ontology/ciox/Projekteplanung> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/ciox/ITStrategie> .
+<http://www.snik.eu/ontology/ciox/Projekteplanung> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/ciox/ItStrategie> .
 <http://www.snik.eu/ontology/ciox/Projekteplanung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projekteplanung> <http://www.w3.org/2000/01/rdf-schema#label> "Projects Planning"@en .
 <http://www.snik.eu/ontology/ciox/Projekteplanung> <http://www.w3.org/2000/01/rdf-schema#label> "Projekteplanung"@de .
