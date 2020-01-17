@@ -13,7 +13,6 @@
 <http://www.snik.eu/ontology/ciox/HospitalStaff> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/HospitalStaff> .
 <http://www.snik.eu/ontology/ciox/InformationManagementStaff> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/InformationManagementStaff> .
 <http://www.snik.eu/ontology/ciox/ITServiceManagementSystem> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/ItServicemanagementsystem> .
-<http://www.snik.eu/ontology/ciox/ITStrategie> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/ItStrategie> .
 <http://www.snik.eu/ontology/ciox/Kostenart> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/Kostenart> .
 <http://www.snik.eu/ontology/ciox/Kostenmanagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/Kostenmanagement> .
 <http://www.snik.eu/ontology/ciox/Krankenhausverwaltung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/HospitalAdministration> .
