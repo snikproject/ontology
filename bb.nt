@@ -609,6 +609,7 @@
 <http://www.snik.eu/ontology/bb/AnnualITBudget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/AnnualITBudget> <http://www.w3.org/2000/01/rdf-schema#label> "Annual IT Budget"@en .
 <http://www.snik.eu/ontology/bb/AnnualITBudget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ManagementEntityType> .
+<http://www.snik.eu/ontology/bb/ApplicationComponent> <http://www.snik.eu/ontology/bb/isAssociatedWith> <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> .
 <http://www.snik.eu/ontology/bb/ApplicationComponent> <http://www.snik.eu/ontology/bb/page> "333"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/ApplicationComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
 <http://www.snik.eu/ontology/bb/ApplicationComponent> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/HeterogeneityOfTheHISArchitecture> .
@@ -17456,11 +17457,11 @@
 <http://www.snik.eu/ontology/bb/ClinicalDataWarehouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/DataWarehouseSystem> .
 <http://www.snik.eu/ontology/bb/ClinicalDepartment> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/ClinicalDepartment> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.4> .
+<http://www.snik.eu/ontology/bb/ClinicalDepartment> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/HisStakeholder> .
 <http://www.snik.eu/ontology/bb/ClinicalDepartment> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/bb/LongTermHISPlanning> .
 <http://www.snik.eu/ontology/bb/ClinicalDepartment> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/bb/ClinicalDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ClinicalDepartment> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical Department"@en .
-<http://www.snik.eu/ontology/bb/ClinicalDepartment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HisStakeholder> .
 <http://www.snik.eu/ontology/bb/ClinicalDocumentation> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/ClinicalDocumentation> <http://www.snik.eu/ontology/bb/page> "296"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/ClinicalDocumentation> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
@@ -17837,8 +17838,8 @@
 <http://www.snik.eu/ontology/bb/ConsolidationOfApplicationSystems> <http://www.w3.org/2000/01/rdf-schema#label> "Consolidation of Application Systems"@en .
 <http://www.snik.eu/ontology/bb/ConsolidationOfApplicationSystems> <http://www.w3.org/2000/01/rdf-schema#label> "Konsolidierung von Anwendungssystemen"@de .
 <http://www.snik.eu/ontology/bb/Consultant> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.4> .
-<http://www.snik.eu/ontology/bb/Consultant> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/bb/LongTermHISPlanning> .
-<http://www.snik.eu/ontology/bb/Consultant> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/bb/Consultant> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/LongTermHISPlanning> .
+<http://www.snik.eu/ontology/bb/Consultant> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Consultant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Consultant> <http://www.w3.org/2000/01/rdf-schema#label> "Consultant"@en .
 <http://www.snik.eu/ontology/bb/Consultant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HisStakeholder> .
@@ -19558,8 +19559,8 @@
 <http://www.snik.eu/ontology/bb/FunctionalRedundancyRate> <http://www.w3.org/2000/01/rdf-schema#label> "Functional Redundancy Rate"@en .
 <http://www.snik.eu/ontology/bb/FunctionalRedundancyRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/FunctionalRedundancyRate> <http://www.w3.org/2004/02/skos/core#definition> "Functional redundancy deals with the adequate relationship between enterprise functions and application components to support these tasks."@en .
-<http://www.snik.eu/ontology/bb/FundingInstitution> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/bb/LongTermHISPlanning> .
-<http://www.snik.eu/ontology/bb/FundingInstitution> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/bb/FundingInstitution> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/LongTermHISPlanning> .
+<http://www.snik.eu/ontology/bb/FundingInstitution> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/FundingInstitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/FundingInstitution> <http://www.w3.org/2000/01/rdf-schema#label> "Funding Institution"@en .
 <http://www.snik.eu/ontology/bb/FundingInstitution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HisStakeholder> .
@@ -19576,8 +19577,8 @@
 <http://www.snik.eu/ontology/bb/GeneralPractice> <http://www.w3.org/2000/01/rdf-schema#label> "General Practice"@en .
 <http://www.snik.eu/ontology/bb/GeneralPractice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HealthCareInstitution> .
 <http://www.snik.eu/ontology/bb/GeneralPractitioner> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.snik.eu/ontology/bb/GeneralPractitioner> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/GeneralPractice> .
-<http://www.snik.eu/ontology/bb/GeneralPractitioner> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/bb/GeneralPractitioner> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/GeneralPractice> .
+<http://www.snik.eu/ontology/bb/GeneralPractitioner> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/GeneralPractitioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/GeneralPractitioner> <http://www.w3.org/2000/01/rdf-schema#label> "General Practitioner"@en .
 <http://www.snik.eu/ontology/bb/GeneralPractitioner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HisStakeholder> .
@@ -19999,8 +20000,8 @@
 <http://www.snik.eu/ontology/bb/HospitalFunction> <http://www.w3.org/2004/02/skos/core#definition> "actions to be undertaken in health care in order to process data and information and to thereby contribute to the mission of health care. A hospital function is an enterprise function of a hospital."@en .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter4.2> .
+<http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Patient> .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Resource> .
-<http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/meta/roleComponent> <http://www.snik.eu/ontology/bb/Patient> .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Hospital> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital"@en .
@@ -20644,7 +20645,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/IntroductionCost> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/isHeterogeneous> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/isHomogeneous> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/isNeededFor> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ISO14721> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ISO25000SoftwareQuality> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ISO9001> .
@@ -21860,7 +21860,7 @@
 <http://www.snik.eu/ontology/bb/Inpatient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Case> .
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter2.4> .
-<http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/meta/isResponsibleForRole> <http://www.snik.eu/ontology/bb/Patient> .
+<http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Patient> .
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InpatientUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Inpatient Unit"@en .
@@ -22047,12 +22047,6 @@
 <http://www.snik.eu/ontology/bb/isHeterogeneous> <http://www.w3.org/2000/01/rdf-schema#label> "is heterogeneous"@en .
 <http://www.snik.eu/ontology/bb/isHomogeneous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.snik.eu/ontology/bb/isHomogeneous> <http://www.w3.org/2000/01/rdf-schema#label> "is homogeneous"@en .
-<http://www.snik.eu/ontology/bb/isNeededFor> <http://www.snik.eu/ontology/bb/page> "171"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/isNeededFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.snik.eu/ontology/bb/isNeededFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> .
-<http://www.snik.eu/ontology/bb/isNeededFor> <http://www.w3.org/2000/01/rdf-schema#label> "is needed for"@en .
-<http://www.snik.eu/ontology/bb/isNeededFor> <http://www.w3.org/2000/01/rdf-schema#label> "wird gebraucht f\u00FCr"@de .
-<http://www.snik.eu/ontology/bb/isNeededFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
 <http://www.snik.eu/ontology/bb/ISO14721> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/DocumentArchivingSystem> .
 <http://www.snik.eu/ontology/bb/ISO14721> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/OAIS3> .
 <http://www.snik.eu/ontology/bb/ISO14721> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -23993,13 +23987,13 @@
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.5> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Bed> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Case> .
+<http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/HisStakeholder> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Physician> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Relative> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Ward> .
-<http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/bb/Patient> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.w3.org/2000/01/rdf-schema#label> "Patient"@en .
-<http://www.snik.eu/ontology/bb/Patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HisStakeholder> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/PatientCareEntityType> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
 <http://www.snik.eu/ontology/bb/Patient> <http://www.w3.org/2004/02/skos/core#definition> "Is a person who is a subject of care; information about a patient includes the patient identification number (PIN)"@en .
@@ -24210,7 +24204,6 @@
 <http://www.snik.eu/ontology/bb/PharmacyInformationSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Pharmacy Information System"@en .
 <http://www.snik.eu/ontology/bb/PharmacyInformationSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ComputerBasedApplicationComponent> .
 <http://www.snik.eu/ontology/bb/PharmacyInformationSystem> <http://www.w3.org/2004/02/skos/core#definition> "Supports the workfl ow in the pharmacy department: receiving drug orders , managing the drug stock, distributing drugs throughout the hospital"@en .
-<http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> <http://www.snik.eu/ontology/bb/isNeededFor> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
 <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> <http://www.snik.eu/ontology/bb/page> "316"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
 <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -25134,7 +25127,7 @@
 <http://www.snik.eu/ontology/bb/RehabilitationCenter> <http://www.w3.org/2000/01/rdf-schema#label> "Rehabilitation Center"@en .
 <http://www.snik.eu/ontology/bb/RehabilitationCenter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HealthCareInstitution> .
 <http://www.snik.eu/ontology/bb/Relative> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter8.4> .
-<http://www.snik.eu/ontology/bb/Relative> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/bb/Relative> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Relative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/relative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.snik.eu/ontology/bb/relative> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/bb/Patient> .
@@ -26656,13 +26649,13 @@
 <http://www.snik.eu/ontology/bb/V1Style> <http://www.w3.org/2004/02/skos/core#definition> "We denote a homogenous (sub-)HIS, that is, a (sub-)HIS with software from only one vendor as \u201CV 1.\u201D"@en .
 <http://www.snik.eu/ontology/bb/ValidateResults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
 <http://www.snik.eu/ontology/bb/ValidateResults> <http://www.w3.org/2000/01/rdf-schema#label> "Validate results"@en .
+<http://www.snik.eu/ontology/bb/Vendor> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/HisStakeholder> .
 <http://www.snik.eu/ontology/bb/Vendor> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/bb/ProjectManagementBoard> .
 <http://www.snik.eu/ontology/bb/Vendor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/SoftwareDevelopment> .
 <http://www.snik.eu/ontology/bb/Vendor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/ThirdLevelSupport> .
 <http://www.snik.eu/ontology/bb/Vendor> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/bb/Vendor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Vendor> <http://www.w3.org/2000/01/rdf-schema#label> "Vendor"@en .
-<http://www.snik.eu/ontology/bb/Vendor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HisStakeholder> .
 <http://www.snik.eu/ontology/bb/VendorStyle> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.5> .
 <http://www.snik.eu/ontology/bb/VendorStyle> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/VendorStyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
