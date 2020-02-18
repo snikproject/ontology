@@ -26650,7 +26650,6 @@
 <http://www.snik.eu/ontology/bb/ValidateResults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
 <http://www.snik.eu/ontology/bb/ValidateResults> <http://www.w3.org/2000/01/rdf-schema#label> "Validate results"@en .
 <http://www.snik.eu/ontology/bb/Vendor> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/HisStakeholder> .
-<http://www.snik.eu/ontology/bb/Vendor> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/bb/ProjectManagementBoard> .
 <http://www.snik.eu/ontology/bb/Vendor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/SoftwareDevelopment> .
 <http://www.snik.eu/ontology/bb/Vendor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/ThirdLevelSupport> .
 <http://www.snik.eu/ontology/bb/Vendor> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
