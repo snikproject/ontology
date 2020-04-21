@@ -46,6 +46,9 @@
     rdfs:subClassOf :Top ;
     owl:disjointWith :Function, :Role .
 
+:Feature a owl:Class ;
+    rdfs:label "feature"@en .
+
 :Function
     a owl:Class ;
     rdfs:comment "Functions describe what is to be done in IM departments. They update or use information which is represented by entity."@en ;
@@ -140,6 +143,11 @@
     rdfs:domain :EntityType ;
     rdfs:label "entity type component"@en ;
     rdfs:range :EntityType .
+
+:feature a owl:ObjectProperty ;
+    rdfs:domain :ComputerBasedApplicationComponent ;
+    rdfs:label "feature"@en ;
+    rdfs:range :Feature .
 
 :functionComponent
     a owl:ObjectProperty ;
