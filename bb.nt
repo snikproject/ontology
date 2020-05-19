@@ -21946,7 +21946,7 @@
 <http://www.snik.eu/ontology/bb/IntegrationTechnology> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/IntegrationTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/IntegrationTechnology> <http://www.w3.org/2000/01/rdf-schema#label> "Integration Technology"@en .
-<http://www.snik.eu/ontology/bb/IntegrationTechnology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementEntityType> .
+<http://www.snik.eu/ontology/bb/IntegrationTechnology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent> .
 <http://www.snik.eu/ontology/bb/IntegrationTechnology> <http://www.w3.org/2004/02/skos/core#definition> "Technologies used to achieve integration within distributed health information systems, including federated database systems, transaction management, and middleware (e. g. communication servers, remote function calls, SOA)."@en .
 <http://www.snik.eu/ontology/bb/Integrity> <http://www.snik.eu/ontology/bb/page> "308"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Integrity> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
