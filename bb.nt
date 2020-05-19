@@ -17767,6 +17767,9 @@
 <http://www.snik.eu/ontology/bb/ComputerizedPhysicianOrderEntrySystem> <http://www.w3.org/2000/01/rdf-schema#label> "Befundanforderungssystem"@de .
 <http://www.snik.eu/ontology/bb/ComputerizedPhysicianOrderEntrySystem> <http://www.w3.org/2000/01/rdf-schema#label> "Computerized Physician Order Entry System"@en .
 <http://www.snik.eu/ontology/bb/ComputerizedPhysicianOrderEntrySystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ComputerBasedApplicationComponent> .
+<http://www.snik.eu/ontology/bb/ComputerizedPhysicianOrderEntrySystem> <http://www.w3.org/2004/02/skos/core#altLabel> "CPOE"@en .
+<http://www.snik.eu/ontology/bb/ComputerizedPhysicianOrderEntrySystem> <http://www.w3.org/2004/02/skos/core#altLabel> "Physician Order Entry System"@en .
+<http://www.snik.eu/ontology/bb/ComputerizedPhysicianOrderEntrySystem> <http://www.w3.org/2004/02/skos/core#altLabel> "POE"@en .
 <http://www.snik.eu/ontology/bb/ComputerizedPhysicianOrderEntrySystem> <http://www.w3.org/2004/02/skos/core#definition> "Application component for order entry of diagnostic or therapeutic procedures (e.g., lab examinations) from specialized service units as well as for ordering of drugs."@en .
 <http://www.snik.eu/ontology/bb/ComputerNetwork> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ComputerNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
