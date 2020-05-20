@@ -1741,8 +1741,6 @@ _:f164ed21115374c6598557ae7aba461f7b6 <http://www.w3.org/2002/07/owl#annotatedTa
 <http://www.snik.eu/ontology/it4it/ValueStream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/it4it/ValueStream> <http://www.w3.org/2000/01/rdf-schema#label> "Value Stream"@en .
 <http://www.snik.eu/ontology/it4it/ValueStream> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/it4it/IT4IT> .
-<http://www.snik.eu/ontology/meta/EntityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/meta/Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.snik.eu/ontology/meta/supports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
