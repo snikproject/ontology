@@ -85,6 +85,7 @@
 <http://www.snik.eu/ontology/he/SAN> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/StorageAreaNetwork> .
 <http://www.snik.eu/ontology/he/Standard> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Standard> .
 <http://www.snik.eu/ontology/he/StrategicAlignment> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/StrategicAlignment> .
+<http://www.snik.eu/ontology/he/StrategischerItPlan> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://www.snik.eu/ontology/bb/ProjectPortfolio> .
 <http://www.snik.eu/ontology/he/Systemanalyse> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/SystemAnalysis> .
 <http://www.snik.eu/ontology/he/Systemanalyse> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/SystemAnalysis> .
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/CommunicationInterface> .
