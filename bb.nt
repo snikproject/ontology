@@ -19811,6 +19811,7 @@
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.w3.org/2000/01/rdf-schema#label> "HIS Quality"@en .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementEntityType> .
+<http://www.snik.eu/ontology/bb/HisQuality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Quality> .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.w3.org/2004/02/skos/core#definition> "HIS quality is a matter of finding optima in a multidimensional space with myriads of restrictions. Due to this it is hardly possible to provide information managers with a simple checklist to find out whether the HIS is good or not. Several specific approaches and initiatives are dealing with this issues of HIS quality.  [Anna L\u00F6rke according to Winter et al.]"@en .
 <http://www.snik.eu/ontology/bb/HisStakeholder> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/HisStakeholder> <http://www.snik.eu/ontology/bb/page> "322"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
