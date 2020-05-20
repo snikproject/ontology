@@ -21712,8 +21712,7 @@
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Information Management"@en .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Informationsmanagement"@de .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HospitalFunction> .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Management> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.w3.org/2004/02/skos/core#altLabel> "Management of Information Systems"@en .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "Information management comprises those management activities that deal with the management of information processing in an institution, for example, a hospital. Information management plans the information system of an enterprise and its architecture, directs its establishment and its operation, and monitors its development and operation with respect to the planned objectives. Different management levels have different perceptions and interests. The management of the business unit information processing is called information management. In general, information management should contribute to fulfill strategic enterprise goals."@en .
 <http://www.snik.eu/ontology/bb/InformationManagementInHealthCareNetworks> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
