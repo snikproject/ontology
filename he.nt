@@ -3444,7 +3444,6 @@
 <http://www.snik.eu/ontology/he/ControllingStelle> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/he/ControllingStelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/he/ControllingStelle> <http://www.w3.org/2000/01/rdf-schema#label> "Controlling-Stelle"@de .
-<http://www.snik.eu/ontology/he/ControllingStelle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Linienstelle> .
 <http://www.snik.eu/ontology/he/ControllingStelle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Stabsstelle> .
 <http://www.snik.eu/ontology/he/ControllingStelle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Stelle> .
 <http://www.snik.eu/ontology/he/ControlObjective> <http://www.snik.eu/ontology/he/page> "61"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
