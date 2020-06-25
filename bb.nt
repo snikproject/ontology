@@ -19806,6 +19806,9 @@
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/bb/page> "221"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter8.5> .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter8.6> .
+<http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/QualityOfHISOutcome> .
+<http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/QualityOfHISProcesses> .
+<http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/QualityOfHISStructures> .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/QualityOfPatientCare> .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -22533,7 +22536,6 @@
 <http://www.snik.eu/ontology/bb/Management> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/StrategicGoalOfTheInstitution> .
 <http://www.snik.eu/ontology/bb/Management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Management> <http://www.w3.org/2000/01/rdf-schema#label> "Management"@en .
-<http://www.snik.eu/ontology/bb/Management> <http://www.w3.org/2000/01/rdf-schema#label> "Management Function"@en .
 <http://www.snik.eu/ontology/bb/Management> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HospitalFunction> .
 <http://www.snik.eu/ontology/bb/Management> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/Management> <http://www.w3.org/2004/02/skos/core#definition> "management comprises all leadership activities that determine the institution\u2019s goals, structures, and behaviors. As an enterprise function, management comprises all leadership activities that determine the enterprise\u2019s goals, structures, and activities. Management can stand for an institution or an enterprise function. As an institution, management comprises all organizational units of an enterprise that make decisions about planning, monitoring, and directing all activities of subordinate units. As an enterprise function, management comprises all leadership activities that determine the enterprise\u2019s\ngoals, structures, and behaviors."@en .
@@ -24812,6 +24814,9 @@
 <http://www.snik.eu/ontology/bb/QualityAssessment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/EducationResearch> .
 <http://www.snik.eu/ontology/bb/Quality> <http://www.snik.eu/ontology/bb/page> "318"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Quality> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
+<http://www.snik.eu/ontology/bb/Quality> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/QualityOfOutcome> .
+<http://www.snik.eu/ontology/bb/Quality> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/QualityOfProcesses> .
+<http://www.snik.eu/ontology/bb/Quality> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/QualityOfStructures> .
 <http://www.snik.eu/ontology/bb/Quality> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Quality> <http://www.w3.org/2000/01/rdf-schema#label> "Qualit\u00E4t"@de .
@@ -24840,7 +24845,7 @@
 <http://www.snik.eu/ontology/bb/QualityOfComputerBasedApplicationComponentsAndTheirIntegration> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfComputerBasedApplicationComponentsAndTheirIntegration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/QualityOfComputerBasedApplicationComponentsAndTheirIntegration> <http://www.w3.org/2000/01/rdf-schema#label> "Quality of Computer-Based Application Components and Their Integration"@en .
-<http://www.snik.eu/ontology/bb/QualityOfComputerBasedApplicationComponentsAndTheirIntegration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/QualityOfHISStructures> .
+<http://www.snik.eu/ontology/bb/QualityOfComputerBasedApplicationComponentsAndTheirIntegration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementEntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfComputerBasedApplicationComponentsAndTheirIntegration> <http://www.w3.org/2004/02/skos/core#definition> "Quality characteristics for software and software ergonomics, which can be applied to computer-based application components, are provided by ISO 25000 and ISO 9241. Further quality criteria for software products that are of relevance for health care are adaptability, availability, sustainability, maturity, certification and standardized interfaces.  [Anna L\u00F6rke according to Winter et al.]"@en .
 <http://www.snik.eu/ontology/bb/QualityOfData> <http://www.snik.eu/ontology/bb/page> "318"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/QualityOfData> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
@@ -24848,7 +24853,7 @@
 <http://www.snik.eu/ontology/bb/QualityOfData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/QualityOfData> <http://www.w3.org/2000/01/rdf-schema#label> "Datenqualit\u00E4t"@de .
 <http://www.snik.eu/ontology/bb/QualityOfData> <http://www.w3.org/2000/01/rdf-schema#label> "Quality of Data"@en .
-<http://www.snik.eu/ontology/bb/QualityOfData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/QualityOfHISStructures> .
+<http://www.snik.eu/ontology/bb/QualityOfData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementEntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfData> <http://www.w3.org/2004/02/skos/core#definition> "Integrity, reliability, completeness, accuracy, relevancy, standardization, authenticity, availability, confidentiality, and security of data."@en .
 <http://www.snik.eu/ontology/bb/QualityOfHealthCareOutcome> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/QualityOfHealthCareOutcome> <http://www.snik.eu/ontology/bb/page> "201"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
@@ -24874,7 +24879,7 @@
 <http://www.snik.eu/ontology/bb/QualityOfHISArchitecture> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfHISArchitecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/QualityOfHISArchitecture> <http://www.w3.org/2000/01/rdf-schema#label> "Quality of HIS Architecture"@en .
-<http://www.snik.eu/ontology/bb/QualityOfHISArchitecture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/QualityOfHISStructures> .
+<http://www.snik.eu/ontology/bb/QualityOfHISArchitecture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementEntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfHISArchitecture> <http://www.w3.org/2004/02/skos/core#definition> "HIS architecture should ensure that the different computer-based and non-computer-based information processing tools can be smoothly and efficiently integrated, in order to provide a maximum quality of information processing."@en .
 <http://www.snik.eu/ontology/bb/QualityOfHISOutcome> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/QualityOfHISOutcome> <http://www.snik.eu/ontology/bb/page> "319"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
@@ -24883,7 +24888,7 @@
 <http://www.snik.eu/ontology/bb/QualityOfHISOutcome> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfHISOutcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/QualityOfHISOutcome> <http://www.w3.org/2000/01/rdf-schema#label> "Quality of HIS Outcome"@en .
-<http://www.snik.eu/ontology/bb/QualityOfHISOutcome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HisQuality> .
+<http://www.snik.eu/ontology/bb/QualityOfHISOutcome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementEntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfHISOutcome> <http://www.w3.org/2004/02/skos/core#definition> "Whether the goals of information management have been reached, or, in a broader sense, to what extent a hospital information system contributed to the goals of the hospital and to the expectations of different stakeholders, and how it fulfils information management laws."@en .
 <http://www.snik.eu/ontology/bb/QualityOfHISProcesses> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/QualityOfHISProcesses> <http://www.snik.eu/ontology/bb/page> "319"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
@@ -24892,17 +24897,20 @@
 <http://www.snik.eu/ontology/bb/QualityOfHISProcesses> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfHISProcesses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/QualityOfHISProcesses> <http://www.w3.org/2000/01/rdf-schema#label> "Quality of HIS Processes"@en .
-<http://www.snik.eu/ontology/bb/QualityOfHISProcesses> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HisQuality> .
+<http://www.snik.eu/ontology/bb/QualityOfHISProcesses> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementEntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfHISProcesses> <http://www.w3.org/2004/02/skos/core#altLabel> "Prozessqualit\u00E4t"@de .
 <http://www.snik.eu/ontology/bb/QualityOfHISProcesses> <http://www.w3.org/2004/02/skos/core#definition> "Quality of the information processes that are necessary to meet the user's needs, such as single recording and multiple usability of data, no transcription of data, leanness of information processing tools, efficiency of information logistics, and patient-centred information processing."@en .
 <http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.snik.eu/ontology/bb/page> "201"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter8.1> .
 <http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
+<http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/QualityOfComputerBasedApplicationComponentsAndTheirIntegration> .
+<http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/QualityOfData> .
+<http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/QualityOfHISArchitecture> .
 <http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.w3.org/2000/01/rdf-schema#label> "Quality of HIS Structures"@en .
-<http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HisQuality> .
+<http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementEntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.w3.org/2004/02/skos/core#altLabel> "Strukturqualit\u00E4t"@de .
 <http://www.snik.eu/ontology/bb/QualityOfHISStructures> <http://www.w3.org/2004/02/skos/core#definition> "Availability of technical or human resources needed for information processing. It comprises quality of data, quality of computer-based application components, quality of physical data processing systems, and quality of HIS architectures."@en .
 <http://www.snik.eu/ontology/bb/QualityOfInformationManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -24933,7 +24941,7 @@
 <http://www.snik.eu/ontology/bb/QualityOfOutcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/QualityOfOutcome> <http://www.w3.org/2000/01/rdf-schema#label> "Ergebnisqualit\u00E4t"@de .
 <http://www.snik.eu/ontology/bb/QualityOfOutcome> <http://www.w3.org/2000/01/rdf-schema#label> "Quality of Outcome"@en .
-<http://www.snik.eu/ontology/bb/QualityOfOutcome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Quality> .
+<http://www.snik.eu/ontology/bb/QualityOfOutcome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ManagementEntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfOutcome> <http://www.w3.org/2004/02/skos/core#definition> "Finally, quality of outcome describes the effects of patient care, that is, the changes in the health status of the patient (e.g., mortality, morbidity, costs)."@en .
 <http://www.snik.eu/ontology/bb/QualityOfPatientCare> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/QualityOfPatientCare> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -24948,7 +24956,7 @@
 <http://www.snik.eu/ontology/bb/QualityOfProcesses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/QualityOfProcesses> <http://www.w3.org/2000/01/rdf-schema#label> "Prozessqualit\u00E4t"@de .
 <http://www.snik.eu/ontology/bb/QualityOfProcesses> <http://www.w3.org/2000/01/rdf-schema#label> "Quality of Processes"@en .
-<http://www.snik.eu/ontology/bb/QualityOfProcesses> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Quality> .
+<http://www.snik.eu/ontology/bb/QualityOfProcesses> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ManagementEntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfProcesses> <http://www.w3.org/2004/02/skos/core#definition> "In medicine, quality of processes describes the quality of activities carried out by care providers (e.g., adherence to professional standards, appropriateness of care)."@en .
 <http://www.snik.eu/ontology/bb/QualityOfStructures> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/QualityOfStructures> <http://www.snik.eu/ontology/bb/page> "201"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
@@ -24957,7 +24965,7 @@
 <http://www.snik.eu/ontology/bb/QualityOfStructures> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfStructures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/QualityOfStructures> <http://www.w3.org/2000/01/rdf-schema#label> "Quality of Structures"@en .
-<http://www.snik.eu/ontology/bb/QualityOfStructures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Quality> .
+<http://www.snik.eu/ontology/bb/QualityOfStructures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ManagementEntityType> .
 <http://www.snik.eu/ontology/bb/QualityOfStructures> <http://www.w3.org/2004/02/skos/core#definition> "In the context of health care, the concept of quality of structures applies to the human, physical, and financial resources that are needed to provide medical care (e.g., educational level of staff, availability of medical equipment)."@en .
 <http://www.snik.eu/ontology/bb/QualityOfTacticalInformationManagement> <http://www.snik.eu/ontology/bb/page> "265"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/QualityOfTacticalInformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.5> .
@@ -26451,7 +26459,7 @@
 <http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.2> .
 <http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/2000/01/rdf-schema#label> "Behandlungsrechnung"@en .
+<http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/2000/01/rdf-schema#label> "Behandlungsrechnung"@de .
 <http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/2000/01/rdf-schema#label> "treatment bill"@en .
 <http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Bill> .
 <http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/2004/02/skos/core#definition> "Is demanded payment"@en .
