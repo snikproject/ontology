@@ -1483,9 +1483,6 @@
 <http://www.snik.eu/ontology/bb/InformationManagementDepartment>
     <http://www.w3.org/2000/01/rdf-schema#label> "گروه مدیریت اطلاعات"@fa .
 
-<http://www.snik.eu/ontology/bb/InformationManagementEntityType>
-    <http://www.w3.org/2000/01/rdf-schema#label> "نوع نهاد مدیریت اطلاعات"@fa .
-
 <http://www.snik.eu/ontology/bb/InformationManagementGoal>
     <http://www.w3.org/2000/01/rdf-schema#label> "هدف مدیریت اطلاعات"@fa .
 
