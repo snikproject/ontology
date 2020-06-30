@@ -1,0 +1,1122 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bb: <http://www.snik.eu/ontology/bb/> .
+bb:199993EG rdfs:label "1999/93/EG"@fa .
+bb:1TierArchitecture rdfs:label "معماری سطح 1"@fa .
+bb:2PhaseCommitProtocol rdfs:label "پروتکل دو مرحله ای"@fa .
+bb:2TierArchitecture rdfs:label "معماری 2 لایه"@fa .
+bb:3LGM2 rdfs:label "3LGMA2"@fa .
+bb:3LGM2ApplicationComponent rdfs:label "اجزای برنامه 3LGM2"@fa .
+bb:3LGM2B rdfs:label "3LGMA2-B"@fa .
+bb:3LGM2CommunicationInterface rdfs:label "رابط ارتباطی3LGM²"@fa .
+bb:3LGM2CommunicationLink rdfs:label "لینک ارتباط 3LGM ²"@fa .
+bb:3LGM2ComputerBasedApplicationComponent rdfs:label "ترکیب دهنده مبتنی بر رایانه 3LGM ²"@fa .
+bb:3LGM2DataTransmissionConnection rdfs:label "رابطه انتقال داده 3LGM²"@fa .
+bb:3LGM2DomainLayer rdfs:label "لایه دامنه 3LGM²"@fa .
+bb:3LGM2EnterpriseFunction rdfs:label "تابع سازمانی 3LGM2"@fa .
+bb:3LGM2EntityType rdfs:label "نوع عنصر 3LGM ²"@fa .
+bb:3LGM2InformationProcess rdfs:label "فرآیند اطلاعات 3LGM²"@fa .
+bb:3LGM2InterlayerRelationship rdfs:label "رابطه میان لایه 3LGM ² "@fa .
+bb:3LGM2IntralayerRelationship rdfs:label "رابطه  میان لایه 3LGM ²"@fa .
+bb:3LGM2Location rdfs:label "3LGM ² مکان"@fa .
+bb:3LGM2LogicalToolLayer rdfs:label "لایه ابزار منطقی 3LGM²"@fa .
+bb:3LGM2M rdfs:label "3LGMA2-M"@fa .
+bb:3LGM2MCommunicationStandard rdfs:label "استاندارد ارتباطات 3LGM²-M"@fa .
+bb:3LGM2MMessageType rdfs:label "انواع پیام 3LGM ²-M"@fa .
+bb:3LGM2MessageType rdfs:label "نوع پیام 3LGM²"@fa .
+bb:3LGM2OrganizationalSystem rdfs:label "سیستم سازمانی 3LGM²"@fa .
+bb:3LGM2OrganizationalUnit rdfs:label "واحد سازمانی 3LGM2"@fa .
+bb:3LGM2PhysicalDataProcessingSystem rdfs:label "3LGM² سیستم پردازش داده های فیزیکی"@fa .
+bb:3LGM2PhysicalToolLayer rdfs:label "لایه ابزار فیزیکی 3LGM2"@fa .
+bb:3LGM2ReceivingInterface rdfs:label " اینترفیس دریافت  3LGM2"@fa .
+bb:3LGM2S rdfs:label "3LGM2-S"@fa .
+bb:3LGM2SInvokingInterface rdfs:label "رابط کاربری 3LGM2-S"@fa .
+bb:3LGM2SProvidingInterface rdfs:label "ارائه رابط 3LGM2-S"@fa .
+bb:3LGM2SService rdfs:label "3LGM²-S سرویس"@fa .
+bb:3LGM2SServiceClass rdfs:label "کلاس خدمات 3LGM2-S"@fa .
+bb:3LGM2SendingInterface rdfs:label "3LGM ² ارسال رابط"@fa .
+bb:3LGM2SoftwareProduct rdfs:label "3LGMÂ² محصول نرم افزار"@fa .
+bb:3LGM2Support rdfs:label "پشتیبانی 3LGM2"@fa .
+bb:3LGM2Tool rdfs:label "ابزار 3LGM ²"@fa .
+bb:3LGM2ToolClass rdfs:label "کلاس ابزار 3LGM²"@fa .
+bb:3LGM2TransmittingMedium rdfs:label "رسانه فرستنده 3LGM²"@fa .
+bb:3LGM2Use rdfs:label "استفاده از 3LGM ²"@fa .
+bb:3TierArchitecture rdfs:label "معماری سطح 3"@fa .
+bb:A01 rdfs:label "A01"@fa .
+bb:A02 rdfs:label "A02"@fa .
+bb:A03 rdfs:label "A03"@fa .
+bb:AC1Style rdfs:label "سبک AC1"@fa,  "روش AC1"@fa .
+bb:ACnStyle rdfs:label "ACn سبک"@fa .
+bb:AccessControl rdfs:label "کنترل دسترسی"@fa .
+bb:AccessControlSystem rdfs:label "سیستم کنترل دسترسی"@fa .
+bb:AccessIntegration rdfs:label "یکپارچه سازی دسترسی"@fa .
+bb:Accuracy rdfs:label "دقت"@fa .
+bb:Acid rdfs:label "ACID"@fa .
+bb:AcquireAndImplement rdfs:label "به دست آوردن و پیاده سازی"@fa .
+bb:Activity rdfs:label "فعالیت"@fa .
+bb:ActivityModelingElement rdfs:label "عنصر مدل سازی فعالیت"@fa .
+bb:AdHocMonitoring rdfs:label "مانیتورینگ ویژه"@fa .
+bb:Adaptability rdfs:label "سازگاری"@fa .
+bb:AdaptabilityOfTheHIS rdfs:label "سازگاری HIS"@fa .
+bb:AdaptationCost rdfs:label "هزینه ادغام"@fa .
+bb:Administration rdfs:label "عملکرد اداری"@fa .
+bb:AdministrationAndAllocationOfPatientRecords rdfs:label "مدیریت و تخصیص پرونده های بیمار"@fa .
+bb:AdministrationManagement rdfs:label "مدیریت دولتی"@fa .
+bb:AdministrationOfBusinessTripsAndFurtherTraining rdfs:label "اداره سفرهای تجاری و آموزش بیشتر"@fa .
+bb:AdministrationOfHumanResourceMasterData rdfs:label "اداره منابع اصلی منابع انسانی"@fa .
+bb:AdministrativeAdmission rdfs:label "پذیرش اداری"@fa .
+bb:AdministrativeDischargeAndBilling rdfs:label "تخلف اداری و صورتحساب"@fa .
+bb:AdministrativeEntityType rdfs:label "انواع موجودیت اداری"@fa .
+bb:AdministrativeGuideline rdfs:label " راهنما اداری"@fa .
+bb:AdministrativePatientData rdfs:label "داده های اداری بیمار"@fa .
+bb:AdministrativeStaff rdfs:label "کارکنان اداری"@fa .
+bb:AdministrativeSticker rdfs:label "برچسب اداری"@fa .
+bb:AdmissionDiagnosis rdfs:label "تشخیص پذیرش"@fa .
+bb:AdoptionOfProjectResult rdfs:label "تصویب نتایج پروژه"@fa .
+bb:Adt rdfs:label "انتقال داده صورت حساب"@fa .
+bb:AnalysisAndAssessmentOfTheCurrentHISState rdfs:label "تجزیه و تحلیل و ارزیابی چگونگی فعلی HIS"@fa .
+bb:AnnualHospitalOperatingCost rdfs:label "هزینه عملیاتی سالانه بیمارستان "@fa .
+bb:AnnualITBudget rdfs:label "بودجه سالانه IT"@fa .
+bb:ApplicationComponent rdfs:label "عنصر نرم افزار"@fa .
+bb:ApplicationComponentStyle rdfs:label "سبک کامپوننت کاربرد"@fa .
+bb:ApplicationPortfolio rdfs:label "نمونه کار برنامه"@fa .
+bb:ApplicationServer rdfs:label "سروربرنامه "@fa .
+bb:Appointment rdfs:label "وقت ملاقات"@fa .
+bb:AppointmentScheduling rdfs:label "زمان بندی قرار ملاقات"@fa .
+bb:AppropriatePhysicalDataProcessingSystem rdfs:label "سیستم مناسب پردازش داده های فیزیکی"@fa .
+bb:ApprovalToAStudy rdfs:label "تصویب برای مطالعه"@fa .
+bb:ApprovalToStrategicInformationManagementPlan rdfs:label "تصویب طرح مدیریت اطلاعات استراتژیک"@fa .
+bb:ArchitecturalStyle rdfs:label "سبک معماری"@fa .
+bb:ArchitecturalStyleOfTheLogicalToolLayer rdfs:label "سبک معماری لایه ابزار منطقی"@fa .
+bb:ArchitecturalStyleOfThePhysicalToolLayer rdfs:label "سبک معماری لایه ابزار فیزیکی"@fa .
+bb:ArchitectureOfAnInformationSystem rdfs:label "معماری یک سیستم اطلاعاتی"@fa .
+bb:Archiving rdfs:label "آرشیو"@fa,  "بایگانی"@fa .
+bb:ArchivingOfPatientInformation rdfs:label "بایگانی اطلاعات بیمار"@fa .
+bb:ArtificialSystem rdfs:label "سیستم مصنوعی"@fa .
+bb:Ascii rdfs:label "اسکی"@fa .
+bb:AssetAccounting rdfs:label "حسابداری دارایی "@fa .
+bb:AsynchronousCommunication rdfs:label "ارتباط ناهمگام"@fa .
+bb:Atc rdfs:label "ATC"@fa .
+bb:Atomicity rdfs:label "اتمی بودن"@fa .
+bb:AuthenticityOfData rdfs:label "صحت داده ها"@fa .
+bb:AvailabilityOfApplicationComponents rdfs:label "در دسترس بودن اجزای برنامه"@fa .
+bb:AvailabilityOfData rdfs:label "در دسترس بودن داده ها"@fa .
+bb:AvailabilityOfTheApplicationComponent rdfs:label "در دسترس بودن کامپوننت برنامه"@fa .
+bb:AvailablePhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی در دسترس"@fa .
+bb:AvailableServer rdfs:label "سرور دسترس"@fa .
+bb:BPflV rdfs:label "BPflv"@fa .
+bb:Backbone rdfs:label "پشتیبان"@fa .
+bb:BalanceOfComputerBasedAndNonComputerBasedTools rdfs:label "تعادل ابزارهای مبتنی بر کامپیوتر و غیر کامپیوتری"@fa .
+bb:BalanceOfDataSecurityAndWorkingProcesses rdfs:label "تعادل امنیت اطلاعات و فرآیندهای کاری"@fa .
+bb:BalanceOfDocumentationQualityAndDocumentationEfforts rdfs:label "تعادل کیفیت مستندات و تلاش های مستند سازی"@fa .
+bb:BalanceOfFunctionalLeannessAndFunctionalRedundancy rdfs:label "تعادل اندکگری و افزونگری عملکردی"@fa .
+bb:BalanceOfHomegeneityAndHeterogeneity rdfs:label "تعادل یکنواختی و ناهمگونی"@fa .
+bb:BalancedNetwork rdfs:label "شبکه متعادل"@fa .
+bb:Bar rdfs:label "BAR"@fa .
+bb:Bdsg rdfs:label "قانون فدرال حفاظت از داده"@fa .
+bb:Bed rdfs:label "تخت"@fa .
+bb:BedOccupation rdfs:label "اشغال تخت"@fa .
+bb:BehavioralPerspective rdfs:label "دیدگاه رفتاری"@fa .
+bb:Benchmarking rdfs:label "معیار سنجش"@fa .
+bb:BestOfBreedArchitecture rdfs:label "معماری بهترین نژاد"@fa .
+bb:BestPracticeBenchmark rdfs:label "معیار بهترین شیوه"@fa .
+bb:Bill rdfs:label "صورتحساب"@fa .
+bb:BillingOfAccountableServices rdfs:label "صورتحساب خدمات قابل توضیح"@fa .
+bb:BloodBank rdfs:label "بانک خون"@fa .
+bb:BloodBankManagementSystem rdfs:label "سیستم مدیریت بانک خون"@fa .
+bb:BodyWashing rdfs:label "شستشو بدن"@fa .
+bb:Book rdfs:label "کتاب"@fa .
+bb:Bus rdfs:label "اتوبوس"@fa .
+bb:BusinessIntelligenceSystem rdfs:label "سیستم اطلاعات کسب و کار"@fa .
+bb:BusinessProcess rdfs:label "فرآیند کاری"@fa .
+bb:BusinessProcessMetamodel rdfs:label "متامودل فرایند کسب و کار"@fa .
+bb:BusinessProcessModel rdfs:label "مدل فرآیند کسب و کار"@fa .
+bb:BusinessProcessReferenceModel rdfs:label "مدل مرجع فرآیند کسب و کار"@fa .
+bb:BusinessReferenceModel rdfs:label "مدل مرجع کسب و کار"@fa .
+bb:BusinessStrategy rdfs:label "استراتژی کسب و کار"@fa .
+bb:CP1Style rdfs:label "سبک CP1"@fa .
+bb:CPnStyle rdfs:label "CPn سبک"@fa .
+bb:Car rdfs:label "ماشین"@fa,  "خودرو"@fa .
+bb:CardiovascularInformationSystem rdfs:label "سیستم اطلاعات قلب و عروق"@fa .
+bb:Case rdfs:label "مورد"@fa .
+bb:CaseMixIndex rdfs:label "شاخص نمونه مورد"@fa .
+bb:CaseStudy rdfs:label "مطالعه موردی"@fa .
+bb:Catering rdfs:label "پذیرایی"@fa .
+bb:Cchit rdfs:label "CCHIT"@fa .
+bb:CchitFunctionalCriterion rdfs:label "معیار کارکردی CCHIT"@fa .
+bb:Ccow rdfs:label "کارگروه شیء متن بالینی"@fa .
+bb:CcowStandard rdfs:label "استاندارد CCOW"@fa .
+bb:Cda rdfs:label "CDA"@fa .
+bb:Cdrom rdfs:label "CD-ROM"@fa .
+bb:Cen rdfs:label "CEN"@fa .
+bb:CentralizedComputingCenter rdfs:label "مرکز محاسبات متمرکز"@fa .
+bb:Ceo rdfs:label "��دیر اجرایی"@fa .
+bb:CertifiabilityOfSoftware rdfs:label "قابلیت اطمینان از نرم افزار"@fa .
+bb:CertifiablePhysicalDataProcessingSystem rdfs:label "گواهینامه سیستم پردازش داده های فیزیکی"@fa .
+bb:Certification rdfs:label "صدور گواهینامه"@fa .
+bb:CertificationByCCHIT rdfs:label "صدور گواهینامه CCHIT"@fa .
+bb:CertificationByEuroRec rdfs:label "صدور گواهینامه EuroRec"@fa .
+bb:CertificationByISO rdfs:label "صدور گواهینامه ISO"@fa .
+bb:Cfo rdfs:label "CFO"@fa .
+bb:ChangeManagement rdfs:label "مدیریت تغییر"@fa .
+bb:ChemotherapeuticTreatment rdfs:label "درمان شیمی درمانی"@fa .
+bb:ChiefInformationOfficer rdfs:label "مسئول ارشد اطلاعات"@fa .
+bb:ClassDiagram rdfs:label "نمودار کلاس"@fa .
+bb:Classification rdfs:label "طبقه بندی"@fa .
+bb:ClassificationOfDiagnoses rdfs:label "طبقه بندی تشخیص"@fa .
+bb:ClassificationOfProcedures rdfs:label "طبقه بندی روش ها"@fa .
+bb:ClientServerArchitecture rdfs:label "معماری مشتری-سرور"@fa .
+bb:ClinicalChemistryReport rdfs:label "گزارش شیمی بالینی"@fa .
+bb:ClinicalDataWarehouse rdfs:label "انبار داده بالینی"@fa .
+bb:ClinicalDepartment rdfs:label "گروه بالینی"@fa .
+bb:ClinicalDocumentation rdfs:label "مستندات بالینی"@fa .
+bb:ClinicalInformationSystem rdfs:label "سیستم اطلاعات بالینی"@fa .
+bb:ClinicalPathway rdfs:label "راه بالینی"@fa .
+bb:ClinicalResearch rdfs:label "تحقیقات بالینی"@fa .
+bb:ClinicalTrial rdfs:label "آزمایشات بالینی"@fa .
+bb:CloseToHierarchyNetwork rdfs:label "شبکه نزدیک به سلسله مراتب"@fa .
+bb:Cluster rdfs:label "خوشه"@fa .
+bb:Cobit rdfs:label "COBIT"@fa .
+bb:CobitDomain rdfs:label "دامنه COBIT"@fa .
+bb:CodingOfDiagnoses rdfs:label "کد گذاری تشخیص"@fa .
+bb:CodingOfDiagnosesAndProcedures rdfs:label "کد گذاری تشخیص و جراحی ها"@fa .
+bb:CodingOfProcedures rdfs:label "کد گذاری جراحی"@fa .
+bb:CodingSystem rdfs:label "سیستم کد گذاری"@fa .
+bb:Communication rdfs:label "ارتباطات"@fa .
+bb:CommunicationAbility rdfs:label "توانایی ارتباطی"@fa .
+bb:CommunicationInterface rdfs:label "رابط ارتباطی"@fa .
+bb:CommunicationLink rdfs:label "لینک ارتباط"@fa .
+bb:CommunicationNetwork rdfs:label "شبکه ارتباطی"@fa .
+bb:CommunicationPattern rdfs:label "الگوی ارتباطی"@fa .
+bb:CommunicationProtocol rdfs:label "پروتکل ارتباطی"@fa .
+bb:CommunicationServer rdfs:label "سرور ارتباطی"@fa .
+bb:CommunicationStandard rdfs:label "استاندارد ارتباطات"@fa .
+bb:Complaint rdfs:label "شکایت"@fa .
+bb:Completeness rdfs:label "تکمیل"@fa .
+bb:ComponentAlignmentModel rdfs:label "مدل سازگاری اجزا"@fa .
+bb:ComputedTomography rdfs:label "توموگرافی کامپیوتری"@fa .
+bb:ComputerBasedApplicationComponent rdfs:label "اجزا برنامه مبتنی بر کامپیوتر"@fa .
+bb:ComputerBasedInformationProcessing rdfs:label "پردازش اطلاعات مبتنی بر کامپیوتر"@fa .
+bb:ComputerBasedInformationSystem rdfs:label "سیستم اطلاعاتی مبتنی بر کامپیوتر"@fa .
+bb:ComputerBasedNursingForm rdfs:label "فرم پرستاری مبتنی بر کامپیوتر"@fa .
+bb:ComputerBasedPhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی کامپیوتری"@fa .
+bb:ComputerBasedTool rdfs:label "ابزارمبتنی بر کامپیوتر"@fa .
+bb:ComputerNetwork rdfs:label "شبکه ی کامپیوتری"@fa .
+bb:ComputerSupportedInformationSystem rdfs:label "سیستم اطلاعاتی پشتیبانی شده توسط کامپیوتر"@fa .
+bb:ComputerSystem rdfs:label "سیستم کامپیوتری"@fa .
+bb:ComputerizedPhysicianOrderEntrySystem rdfs:label "نظام ورود به سیستم درخاست یافته های پزشکی"@fa .
+bb:ComputingCenter rdfs:label "مرکز فناوری"@fa .
+bb:ComputingCenterManager rdfs:label "مدیر مرکز محاسبات"@fa .
+bb:Confidentiality rdfs:label "محرمانه بودن"@fa .
+bb:ConfigurationManagement rdfs:label "مدیریت پیکربندی"@fa .
+bb:ConformityWithUserExpectations rdfs:label "مطابقت با انتظارات کاربر"@fa .
+bb:ConsensusMethod rdfs:label "روش توافق عام"@fa .
+bb:Consistency rdfs:label "ثبات"@fa,  "استحکام"@fa .
+bb:Consultant rdfs:label "مشاور"@fa .
+bb:ContextualIntegration rdfs:label "ادغام متنی"@fa .
+bb:ContinualServiceImprovement rdfs:label "بهبود مستمر خدمات"@fa .
+bb:ContinuousHISAuditing rdfs:label "حسابرسی مستمر HIS"@fa .
+bb:ContinuousQualityImprovementProcess rdfs:label "فرآیند بهبود کیفیت مداوم"@fa .
+bb:Controllability rdfs:label "کنترل پذیری"@fa .
+bb:ControlledRedundancyOfData rdfs:label "کنترل افزونگی داده ها "@fa .
+bb:ControlledTranscriptionOfData rdfs:label "کنترل رونویسی داده ها"@fa .
+bb:Controlling rdfs:label "کنترل کردن"@fa,  "نظارت کردن"@fa .
+bb:ControllingReport rdfs:label "گزارش نظارت"@fa .
+bb:ConvergingTechnologies rdfs:label "فن آوریهای هم گرا"@fa .
+bb:CopperCable rdfs:label "کابل مسی"@fa .
+bb:CorrectInformation rdfs:label "اطلاعات صحیح"@fa .
+bb:CostAccounting rdfs:label "هزینه حسابداری "@fa .
+bb:CostBenefitAnalysis rdfs:label "تجزیه و تحلیل سود و هزینه"@fa .
+bb:CostEffectivenessAnalysis rdfs:label "تجزیه و تحلیل هزینه اثربخشی"@fa .
+bb:CostOfTreatment rdfs:label "هزینه درمان"@fa .
+bb:CostUnit rdfs:label "واحد هزینه"@fa .
+bb:CreationOfStrategicInformationManagementPlan rdfs:label "ایجاد برنامه مدیریت اطلاعات استراتژیک"@fa .
+bb:CreditAccounting rdfs:label "حسابداری اعتباری"@fa .
+bb:CrossEnterpriseDocumentSharing rdfs:label "اشتراک گذاری سازمانی اسناد"@fa .
+bb:CtScanner rdfs:label "CT اسکنر"@fa .
+bb:Customizing rdfs:label "سفارشی کردن"@fa .
+bb:DB1Style rdfs:label "DB1 Style"@fa .
+bb:DBnStyle rdfs:label "DBn سبک"@fa .
+bb:Data rdfs:label "داده"@fa .
+bb:DataCollectionEffort rdfs:label "تلاش برای جمع آوری داده ها"@fa .
+bb:DataIntegration rdfs:label "یکپارچگی داده ها"@fa,  "ادغام داده ها"@fa .
+bb:DataMetamodel rdfs:label "داده متامودل"@fa .
+bb:DataModel rdfs:label "مدل داده"@fa .
+bb:DataProtection rdfs:label "حفاظت اطلاعات"@fa .
+bb:DataReferenceModel rdfs:label "مدل داده مرجع "@fa .
+bb:DataSecurity rdfs:label "امنیت داده ها"@fa .
+bb:DataSecurityOfficer rdfs:label "مسئول امنیت اطلاعات"@fa .
+bb:DataTransmissionConnection rdfs:label "اتصال انتقال داده"@fa .
+bb:DataWarehouseSystem rdfs:label "سیستم انبار داده"@fa .
+bb:DatabaseServer rdfs:label "سرور بانک اطلاعاتی"@fa,  "سرور پایگاه داده"@fa .
+bb:DatabaseStyle rdfs:label "سبک پایگاه داده"@fa .
+bb:DatabaseSystem rdfs:label "سیستم پایگاه داده"@fa .
+bb:DebtorAccounting rdfs:label "بدهکارحسابداری "@fa .
+bb:DecisionMakingAndPatientInformation rdfs:label "تصمیم گیری و اطلاعات بیمار"@fa .
+bb:DecisionMakingPlanningAndOrganizationOfPatientTreatment rdfs:label "تصمیم گیری برنامه ریزی و سازماندهی درمان بیمار"@fa .
+bb:DecisionSupportSystem rdfs:label "سیستم پشتیبانی تصمیم"@fa .
+bb:Decomposition rdfs:label "تجزیه"@fa .
+bb:DecubitusProphylaxis rdfs:label "پیشگیری از انقباض"@fa .
+bb:DeductiveApproach rdfs:label "رویکرد قیاسی"@fa .
+bb:DegreeOfComputerSupport rdfs:label "درجه پشتی��انی کامپیوتر"@fa .
+bb:DeliverAndSupport rdfs:label "تحویل و پشتیبانی"@fa .
+bb:DeliveringOfCustomerCenteredServices rdfs:label "ارائه خدمات مشتری متمرکز"@fa .
+bb:DelphiSurvey rdfs:label "بررسی دلفی"@fa .
+bb:DepartmentOfFacilityManagement rdfs:label "بخش مدیریت تسهیلات"@fa .
+bb:DepartmentOfQualityManagement rdfs:label "گروه مدیریت کیفیت"@fa .
+bb:DepartmentalSystemAdministrator rdfs:label "مدیر بخشی سیستم"@fa .
+bb:DeploymentOfStrategicInformationManagementPlan rdfs:label "استقرار برنامه مدیریت اطلاعات استراتژیک"@fa .
+bb:DescriptionOfTheCurrentHISState rdfs:label "شرح چگونگی کنونی HIS"@fa .
+bb:DescriptionOfThePlannedHISState rdfs:label "توصیف وضعیت برنامه ریزی شده HIS"@fa .
+bb:DesigningCustomerCenteredServices rdfs:label "طراحی خدمات مشتری متمرکز"@fa .
+bb:DhcpServer rdfs:label "سرور DHCP"@fa .
+bb:Diagnosis rdfs:label "تشخیص"@fa .
+bb:DiagnosisClass rdfs:label "کلاس تشخیص"@fa .
+bb:DiagnosticProcedure rdfs:label "روش تشخیصی"@fa .
+bb:DiagnosticService rdfs:label "خدمات تشخیصی"@fa .
+bb:DiagnosticStandard rdfs:label "استاندارد تشخیصی"@fa .
+bb:DialysisInformationSystem rdfs:label "سیستم اطلاعاتی دیالیز"@fa .
+bb:DicomFileFormat rdfs:label "فرمت فایل DICOM"@fa .
+bb:DicomMessageFormat rdfs:label "فرمت پیام DICOM"@fa .
+bb:DicomNetworkProtocol rdfs:label "پروتکل شبکه DICOM"@fa .
+bb:DicomService rdfs:label "خدمات DICOM"@fa .
+bb:DicomStandard rdfs:label "استاندارد DICOM"@fa .
+bb:Diet rdfs:label "رژیم غذایی"@fa .
+bb:DigitalDictationSystem rdfs:label "سیستم  دیجیتال دیکته"@fa .
+bb:DigitalImage rdfs:label "تصویر دیجیتال"@fa .
+bb:DigitalXRay rdfs:label "X-Ray دیجیتال"@fa .
+bb:Directing rdfs:label "هدایت"@fa .
+bb:DirectiveForHISConstruction rdfs:label "دستورالعمل برای ساخت HIS"@fa,  "دستور ساخت HIS"@fa .
+bb:DischargeSummary rdfs:label "خلاصه تخلیه"@fa .
+bb:DiseaseManagement rdfs:label "مدیریت بیماری"@fa .
+bb:DnsServer rdfs:label "DNS سرور"@fa .
+bb:DocumentArchivingSystem rdfs:label "سیستم بایگانی سند"@fa .
+bb:DocumentStandard rdfs:label "استاندارد سند"@fa .
+bb:Documentation rdfs:label "مستندات"@fa .
+bb:DoubleExamination rdfs:label "بررسی دوگانه"@fa .
+bb:Drg rdfs:label "تشخیص گروه های مرتبط"@fa .
+bb:DrgCalculation rdfs:label "محاسبه DRG"@fa .
+bb:Drug rdfs:label "دارو"@fa .
+bb:DrugService rdfs:label "سرویس دارویی"@fa .
+bb:Durability rdfs:label "دوام"@fa .
+bb:EMailCommunication rdfs:label "ارتباطات ایمیل"@fa .
+bb:EN12538 rdfs:label "EN12538"@fa .
+bb:EN12539 rdfs:label "EN12539"@fa .
+bb:EN1613 rdfs:label "EN1613"@fa .
+bb:EconomicAnalysis rdfs:label "تحلیل اقتصادی"@fa .
+bb:Edifact rdfs:label "EDIFACT"@fa .
+bb:Education rdfs:label "اموزش"@fa .
+bb:EducationResearch rdfs:label "تحقیق و آموزش"@fa .
+bb:EffectivenessStudy rdfs:label "مطالعه اثربخشی"@fa .
+bb:Efficiency rdfs:label "بهره وری"@fa .
+bb:EfficiencyOfInformationLogistics rdfs:label "کارآیی لجستیک اطلاعات"@fa,  "کارآیی تدارکات اطلاعات"@fa .
+bb:EfqmExcellenceModel rdfs:label "مدل برتری EFQM"@fa .
+bb:EhrStrategy rdfs:label "EHR استراتژی"@fa .
+bb:ElectronicHealthRecord rdfs:label "پرونده الکترونیکی سلامت"@fa .
+bb:ElectronicPatientRecord rdfs:label "ثبت الکترونیکی بیمار"@fa .
+bb:EncryptionSoftware rdfs:label "نرم افزار رمزگذاری"@fa .
+bb:EnterpriseFunction rdfs:label "تابع سازمانی"@fa .
+bb:EnterpriseFunctionModelingElement rdfs:label "عنصر مدل سازی کار کرد شرکت"@fa .
+bb:EnterpriseOrganizationalStructure rdfs:label "ساختار سازمانی"@fa .
+bb:EnterpriseResourcePlanningSystem rdfs:label "سیستم برنامه ریزی منابع سازمانی"@fa .
+bb:EntityType rdfs:label "نوع نهاد"@fa .
+bb:EntityTypeModelingElement rdfs:label "نوع موجودیت عنصر مدل سازی"@fa .
+bb:EntityTypeRelation rdfs:label "ارتباط انواع موجودیت"@fa .
+bb:EntityTypeRelationModelingElement rdfs:label "انواع موجودیت عنصر مدل سازی رابطه"@fa .
+bb:ErrorTolerance rdfs:label "تحمل خطا"@fa .
+bb:EstablishAndPromoteTheStrategicInformationManagementPlan rdfs:label "ایجاد و ارتقاء برنامه مدیریت اطلاعات استراتژیک"@fa .
+bb:EstablishingReferentialIntegrity rdfs:label "ایجاد یکپارچگی ارجاع"@fa .
+bb:Ethernet rdfs:label "اترنت"@fa .
+bb:EuroRec rdfs:label "EuroRec"@fa .
+bb:EuroRecEHRQualitySeal rdfs:label "نشان کیفیت EHR از EuroRec "@fa .
+bb:EuropeanNorm rdfs:label "استاندارد اروپایی"@fa .
+bb:Evaluation rdfs:label "ارزیابی"@fa .
+bb:EvaluationMethod rdfs:label "روش ارزیابی"@fa .
+bb:Event rdfs:label "رویداد"@fa .
+bb:EventCountingStudy rdfs:label "بررسی شمارش رویداد"@fa .
+bb:EventDrivenProcessChain rdfs:label "زنجیره فرآیند مبتنی بر رویداد"@fa .
+bb:EventModelingElement rdfs:label "رویداد مدل سازی عنصر"@fa .
+bb:Excretion rdfs:label "دفع"@fa .
+bb:ExecutionOfAQuantitativeStudy rdfs:label "اجرای یک مطالعه کمی"@fa .
+bb:ExecutionOfAnITEvaluationStudy rdfs:label "اجرای یک مطالعه ارزیابی فناوری اطلاعات "@fa .
+bb:ExecutionOfAnOperation rdfs:label "اجرای یک عمل"@fa .
+bb:ExecutionOfChemotheraphy rdfs:label "اجرای شیمی درمانی"@fa .
+bb:ExecutionOfClinicalTrials rdfs:label "اجرای مطالعات پزشکی"@fa .
+bb:ExecutionOfClinicalTrialsAndExperiments rdfs:label "اجرای مطالعات پزشکی و آزمایش ها"@fa .
+bb:ExecutionOfDiagnosticAndTherapeuticProcedures rdfs:label "اجرای روشهای تشخیصی و درمانی"@fa .
+bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures rdfs:label "اجرای روش های تشخیصی درمانی و پرستاری"@fa .
+bb:ExecutionOfIrradiation rdfs:label "اجرای تابش"@fa .
+bb:ExecutionOfLabExaminations rdfs:label "انجام تست آزمایشگاه"@fa .
+bb:ExecutionOfNursingProcedures rdfs:label "اجرای روشهای پرستاری"@fa .
+bb:ExecutionOfProphylaxis rdfs:label "اجرای پیشگیری"@fa .
+bb:ExecutionOfRadiologicalProcedures rdfs:label "اجرای روال های رادیولوژیک"@fa .
+bb:ExperimentalStudyDesign rdfs:label "طراحی مطالعه تجربی"@fa .
+bb:ExternalFinding rdfs:label "کشف خارجی "@fa .
+bb:FacilityAndArea rdfs:label "تسهیلات و مساحت"@fa .
+bb:FacilityManagement rdfs:label "مدیریت امکانات"@fa .
+bb:FailureManagement rdfs:label "مدیریت خطا"@fa .
+bb:FamilyHistory rdfs:label "سابقه خانوادگی"@fa .
+bb:FaxMachine rdfs:label "دستگاه فکس"@fa .
+bb:Feature rdfs:label "ویژگی"@fa .
+bb:FederatedDatabaseSchema rdfs:label "طرح پایگاه داده متعهد"@fa .
+bb:FederatedDatabaseSystem rdfs:label "سیستم پایگاه داده متعهد"@fa .
+bb:FieldStudy rdfs:label "بررسی زمینه"@fa .
+bb:FinancialAccounting rdfs:label "حسابداری مالی"@fa .
+bb:FinancialAndControllingDepartment rdfs:label "بخش مالی و کنترل"@fa .
+bb:FinancialControlling rdfs:label "بازرسی مالی"@fa .
+bb:FinancialResource rdfs:label "منبع مالی"@fa .
+bb:FinancingOfHealthCare rdfs:label "تامین مالی مراقبت های بهداشتی"@fa .
+bb:Finding rdfs:label "یافته"@fa .
+bb:FirstLevelSupport rdfs:label "سطح اول پشتیبانی"@fa .
+bb:FirstStudyDesign rdfs:label "طرح اولیه مطالعه"@fa .
+bb:FlexiblePhysicalDataProcessingSystem rdfs:label "سیستم پردازش اطلاعات فیزیکی انعطاف پذیر"@fa .
+bb:Food rdfs:label "غذا"@fa .
+bb:ForkLift rdfs:label "بالابر"@fa .
+bb:Framework rdfs:label "فرم ورک"@fa .
+bb:FulfillmentOfLawsRelevantToInformationManagement rdfs:label "ارضاء قوانین وابسته به مدیریت اطلاعات"@fa .
+bb:FulfillmentOfStrategicHospitalGoal rdfs:label "اجرای هدف بیمارستان استراتژیک"@fa .
+bb:FulfillmentOfTheExpectationsOfDifferentStakeholders rdfs:label "برآورده شدن انتظارات متقاضیان مختلف"@fa .
+bb:FunctionalCoverageOfTheApplicationComponent rdfs:label "پوشش کاربردی اجزای برنامه"@fa .
+bb:FunctionalIntegration rdfs:label "یک پارچگی کار کردی"@fa .
+bb:FunctionalLeanness rdfs:label "مختصر بودن عملکرد"@fa .
+bb:FunctionalMetamodel rdfs:label "متامدل عملکردی"@fa .
+bb:FunctionalModel rdfs:label "مدل عملکردی"@fa .
+bb:FunctionalPerspective rdfs:label "دیدگاه کاربردی"@fa .
+bb:FunctionalRedundancy rdfs:label "اضافه بودن کارکرد"@fa .
+bb:FunctionalRedundancyRate rdfs:label "میزان افزونگی کارکرد"@fa .
+bb:Functionality rdfs:label "عملکرد"@fa .
+bb:FundingInstitution rdfs:label "مؤسسه مالی"@fa .
+bb:GeneralAdministrationDepartment rdfs:label "اداره کل عمومی"@fa .
+bb:GeneralPractice rdfs:label "عمل عمومی"@fa .
+bb:GeneralPractitioner rdfs:label "پزشک عمومی"@fa .
+bb:GermanLaw rdfs:label "قانون آلمانی"@fa .
+bb:GoalOfMedicalEducation rdfs:label "هدف آموزش پزشکی"@fa .
+bb:GoalOfMedicalResearch rdfs:label "هدف تحقیقات ��زشکی"@fa .
+bb:GovernmentalAuthority rdfs:label "مقام دولتی"@fa .
+bb:HL7CDA rdfs:label "HL7 CDA"@fa .
+bb:HL7EventDescription rdfs:label "شرح رویداد HL7"@fa .
+bb:HL7EventType rdfs:label "نوع رویداد HL7"@fa .
+bb:HL7MessageHeader rdfs:label "پیام هدر HL7"@fa .
+bb:HL7MessageType rdfs:label "نوع پیام HL7"@fa .
+bb:HL7MessageTypeEventTypeCombination rdfs:label " ترکیب نوع پیام نوع رویداد HL7"@fa .
+bb:HL7PatientIdentification rdfs:label "شناسایی بیمارHL7"@fa .
+bb:HL7PatientVisitInformation rdfs:label "اطلاعات مربوط به بیمار HL7"@fa .
+bb:HL7ReceiptMessage rdfs:label "پیام دریافت HL7"@fa .
+bb:HL7ReferenceInformationModel rdfs:label "مدل مرجع اطلاعات HL7"@fa .
+bb:HL7Standard rdfs:label "استاندارد HL7"@fa .
+bb:HL7Version2 rdfs:label " HL7 نسخه 2"@fa .
+bb:HL7Version3 rdfs:label "HL7 نسخه 3"@fa .
+bb:HL7Version3Message rdfs:label "HL7 پیام نسخه 3"@fa .
+bb:HairUndNailCare rdfs:label "مراقبت از مو و ناخن"@fa .
+bb:HardwareVendor rdfs:label "فروشنده سخت افزار"@fa .
+bb:HarmlessPhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی بی ضرر"@fa .
+bb:HealthCareInstitution rdfs:label "موسسه بهداشت و درمان"@fa .
+bb:HealthCareNetwork rdfs:label "شبکه بهداشت و درمان"@fa .
+bb:HealthCareProfessional rdfs:label "متخصصان مراقبت های بهداشتی"@fa .
+bb:HealthCareRegulation rdfs:label "مقررات مراقبت بهداشتی"@fa .
+bb:HealthInformationSystem rdfs:label "سیستم اطلاعات بهداشتی HIS"@fa .
+bb:HealthInsuranceCompany rdfs:label "شرکت بیمه درمانی"@fa .
+bb:HealthInsurancePortabilityAndAccountabilityAct rdfs:label "قانون قابلیت انتقال و مسئولیت بیمه سلامت"@fa .
+bb:HealthcareServicesSpecificationProject rdfs:label "مشخصات خدمات خدمات بهداشتی و درمانی"@fa .
+bb:HeterogeneityOfTheHISArchitecture rdfs:label "ناهمگونی معماری HIS"@fa .
+bb:HeterogeneousArchitecture rdfs:label "معماری ناهمگن"@fa .
+bb:HisArchitecture rdfs:label "معماری HIS"@fa .
+bb:HisBenchmarking rdfs:label "معیار سنجش HIS"@fa .
+bb:HisBenchmarkingMethod rdfs:label "روش سنجش HIS"@fa .
+bb:HisBudgetPlanning rdfs:label "برنامه ریزی بودجه HIS"@fa .
+bb:HisCertificate rdfs:label "گواهی HIS"@fa .
+bb:HisCertification rdfs:label "گواهینامه HIS"@fa .
+bb:HisComponent rdfs:label "کامپوننت HIS"@fa .
+bb:HisInfrastructure rdfs:label "زیرساخت HIS"@fa .
+bb:HisOperation rdfs:label "HIS عملکرد"@fa .
+bb:HisQuality rdfs:label "کیفیت HIS"@fa .
+bb:HisStakeholder rdfs:label "ذینفعان HIS"@fa .
+bb:HomeCareInstitution rdfs:label "مؤسسه مراقبت خانگی"@fa .
+bb:HomeOfThePatient rdfs:label "خانه بیمار"@fa .
+bb:HomogeneityOfTheHISArchitecture rdfs:label "همگنی معماری HIS"@fa .
+bb:HomogeneousArchitecture rdfs:label "معماری همگن"@fa .
+bb:Hospital rdfs:label "بیمارستان"@fa .
+bb:HospitalAdministration rdfs:label "مدیریت بیمارستان"@fa .
+bb:HospitalAdministrationDepartment rdfs:label "بخش مدیریت بیمارستان"@fa .
+bb:HospitalBilling rdfs:label "صورتحساب بیمارستان"@fa .
+bb:HospitalBudget rdfs:label "بودجه بیمارستان"@fa .
+bb:HospitalBusinessPlan rdfs:label "طرح کسب و کار بیمارستان"@fa .
+bb:HospitalCost rdfs:label "هزینه های بیمارستان"@fa .
+bb:HospitalFunction rdfs:label "عملکرد بیمارستان"@fa .
+bb:HospitalInformationSystem rdfs:label "سیستم اطلاعات بیمارستانی"@fa .
+bb:HospitalManagement rdfs:label "مدیریت بیمارستان"@fa .
+bb:HospitalManagementStaff rdfs:label "کارکنان مدیریت بیمارستان"@fa .
+bb:HospitalRevenue rdfs:label "در آمد بیمارستان"@fa .
+bb:HospitalService rdfs:label "خدمات بیمارستان"@fa .
+bb:HospitalStaff rdfs:label "کارکنان بیمارستان"@fa .
+bb:HospitalStrategy rdfs:label "استراتژی بیمارستان"@fa .
+bb:HospitalsBoardOfDirectors rdfs:label "هیئت مدیره بیمارستان"@fa .
+bb:HumanActor rdfs:label "بازیگر انسانی"@fa .
+bb:HumanResource rdfs:label "منابع انسانی"@fa .
+bb:HumanResourceManagement rdfs:label "مدیریت منابع انسانی"@fa .
+bb:HumanResourcesDepartment rdfs:label "منابع انسانی"@fa .
+bb:ICD10 rdfs:label "ICD10"@fa .
+bb:ISO14721 rdfs:label "ISO 14721"@fa .
+bb:ISO25000SoftwareQuality rdfs:label "کیفیت نرم افزار ISO 25000"@fa .
+bb:ISO9001 rdfs:label "ISO 9002"@fa .
+bb:ISO9241 rdfs:label "ISO 9241"@fa .
+bb:ISO9241109 rdfs:label "ISO 9241-109"@fa .
+bb:ISO9241110 rdfs:label "ISO 9241-110"@fa .
+bb:ISO9241110UserInterfaceDesignQuality rdfs:label "کیفیت طراحی رابط کاربری ISO 9241-110  "@fa .
+bb:ISOIEEE11073FamilyOfStandards rdfs:label "گروه استانداردهای ISO/IEEE 11073"@fa .
+bb:ISOTR22221 rdfs:label "ISO TR 22221"@fa .
+bb:ISOTR22222 rdfs:label "ISO TR 22222"@fa .
+bb:Icd rdfs:label "ICD"@fa .
+bb:Icpm rdfs:label "ICPM"@fa .
+bb:Ihe rdfs:label "IHE"@fa .
+bb:IheActor rdfs:label "IHE بازیگر"@fa .
+bb:IheContentProfile rdfs:label "مشخصات محتوا IHE"@fa .
+bb:IheCrossEnterpriseDocumentSharing rdfs:label "به اشتراک گذاری سند در همه جای سازمانی IHE"@fa .
+bb:IheDomain rdfs:label "دامنه IHE"@fa .
+bb:IheIntegrationProfile rdfs:label "یکپارچه سازی مشخصات IHE"@fa .
+bb:IhePatientDemographicsQuery rdfs:label "پرسشنامه جمعیتی بیمار IHE"@fa .
+bb:IheTechnicalFramework rdfs:label "چارچوب فنی IHE"@fa .
+bb:IheTransaction rdfs:label "انجام IHE"@fa .
+bb:ImagingModality rdfs:label "چگونگی تصویر برداری"@fa .
+bb:ImprovingCustomerCenteredServices rdfs:label "بهبود خدمات مشتری متمرکز"@fa .
+bb:IncidentAnalysis rdfs:label "تحلیل حادثه"@fa .
+bb:IncidentManagement rdfs:label "مدیریت حادثه"@fa .
+bb:IncidentTaking rdfs:label "برداشت رویداد"@fa .
+bb:IndependentHealthRecordBank rdfs:label "پایگاه داده مستقل داده های سلامت"@fa .
+bb:InductiveApproach rdfs:label "رویکرد القائی"@fa .
+bb:Information rdfs:label "اطلاعات"@fa .
+bb:InformationAndCommunicationTechnology rdfs:label "فناوری اطلاعات و ارتباطات"@fa .
+bb:InformationAndKnowledgeLogistics rdfs:label "تدارکات اطلاعات و دانش"@fa .
+bb:InformationDesk rdfs:label "میز اطلاعات"@fa .
+bb:InformationManagement rdfs:label "مدیریت اطلاعات"@fa,  "تابع مدیریت اطلاعات"@fa .
+bb:InformationManagementBoard rdfs:label "هیئت مدیره اطلاعات"@fa .
+bb:InformationManagementCost rdfs:label "هزینه مدیریت اطلاعات"@fa .
+bb:InformationManagementDepartment rdfs:label "گروه مدیریت اطلاعات"@fa .
+bb:InformationManagementGoal rdfs:label "هدف مدیریت اطلاعات"@fa .
+bb:InformationManagementGuideline rdfs:label "دستورالعمل مدیریت اطلاعات"@fa .
+bb:InformationManagementInHealthCareNetworks rdfs:label "مدیریت اطلاعات در شبکه های مراقبت های بهداشتی"@fa .
+bb:InformationManagementInHospitals rdfs:label "مدیریت اطلاعات در بیمارستان ها"@fa .
+bb:InformationManagementOperatingCost rdfs:label "هزینه های عملیاتی مدیریت اطلاعات"@fa .
+bb:InformationManagementOrganizationalStructure rdfs:label "ساختار سازمانی سازمان مدیریت اطلاعات"@fa .
+bb:InformationManagementStaff rdfs:label "کارکنان مدیریت اطلاعات"@fa .
+bb:InformationProcessing rdfs:label "پردازش اطلاعات"@fa .
+bb:InformationProcessingModel rdfs:label "مدل پردازش اطلاعات"@fa .
+bb:InformationProcessingTool rdfs:label "ابزار پردازش اطلاعات"@fa .
+bb:InformationProcessingToolModelingElement rdfs:label "عنصر مدل سازی ابزار پردازش اطلاعات"@fa .
+bb:InformationStorage rdfs:label "ذخیره سازی اطلاعات"@fa .
+bb:InformationSystem rdfs:label "سیستم اطلاعات"@fa .
+bb:InformationSystemEffectiveness rdfs:label "اثربخشی سیستم اطلاعاتی"@fa .
+bb:InformationSystemImprovement rdfs:label "بهبود سیستم اطلاعات"@fa .
+bb:InformationSystemMetamodel rdfs:label "متا مدل سیستم اطلاعات"@fa .
+bb:InformationSystemModel rdfs:label "مدل سیستم اطلاعاتی"@fa .
+bb:InformationSystemSafety rdfs:label "امنیت سیستم اطلاعات"@fa .
+bb:InformedConsent rdfs:label "رضایت نامه آگاهانه"@fa .
+bb:InfrastructureOfAnInformationSystem rdfs:label "زیرساخت سیستم اطلاعاتی"@fa .
+bb:Inpatient rdfs:label "بستری"@fa .
+bb:InpatientCareInstitution rdfs:label "موسسه مراقبت های سرپایی"@fa .
+bb:InpatientEHRCertification rdfs:label " گواهی بیمار بستری شده"@fa,  " گواهی پرونده الکترونیک بیمار بستری شده"@fa .
+bb:InpatientUnit rdfs:label "بخش سرپایی"@fa .
+bb:InstitutionalHealthInformationSystem rdfs:label "سیستم اطلاعات موسسات سلامت"@fa .
+bb:IntegratedCare rdfs:label "مراقبت یکپارچه"@fa .
+bb:IntegratedCareNetwork rdfs:label "شبکه مراقبت جامع"@fa .
+bb:IntegratedHIS rdfs:label "یگانه HIS"@fa .
+bb:IntegratedHealthCareDeliverySystem rdfs:label "سیستم یکپارچه تحویل مراقبتهای بهداشتی"@fa .
+bb:Integration rdfs:label "یکپارچگی"@fa .
+bb:IntegrationPlatform rdfs:label "پلت فرم یکپارچه سازی"@fa .
+bb:IntegrationTechnology rdfs:label "تکنولوژی یکپارچگی"@fa .
+bb:Integrity rdfs:label "تمامیت"@fa .
+bb:IntegrityOfData rdfs:label "یکپارچگی داده ها"@fa .
+bb:InternalQualityManagement rdfs:label "مدیریت کیفیت داخلی"@fa .
+bb:InternalReportingSystem rdfs:label "سیستم گزارش گیری داخلی"@fa .
+bb:InternationalDICOMCommittee rdfs:label "کمیته بین المللی DICOM"@fa .
+bb:Interoperability rdfs:label "قابلیت همکاری"@fa .
+bb:IntregrationPlatform rdfs:label "پلتفرم یکپارچگی"@fa,  "پلتفرم یکپارچه سازی"@fa .
+bb:IntroductionCost rdfs:label "هزینه معرفی"@fa .
+bb:IsoStandard rdfs:label "استاندارد ISO"@fa .
+bb:Isolation rdfs:label "جداسازی"@fa,  "قرنطینه"@fa .
+bb:IsoosiReferenceModel rdfs:label "مدل مرجع ISO/OSI"@fa .
+bb:ItEvaluationStudy rdfs:label "مطالعه ارزیابی فناوری اطلاعات"@fa .
+bb:ItEvaluationStudyManagementAndExecution rdfs:label "مدیریت و اجرای مطالعه ارزیا��ی کیفیت فناوری اطلاعات"@fa .
+bb:ItInvestmentJustification rdfs:label "تصدیق سرمایه گذاری فناوری اطلاعات"@fa .
+bb:ItInvestmentPlanning rdfs:label "برنامه ریزی سرمایه گذاری فناوری اطلاعات"@fa .
+bb:ItServiceManagement rdfs:label "خدمات مدیریت فناوری اطلاعات"@fa .
+bb:ItServiceManagementStaff rdfs:label "کارکنان مدیریت خدمات فناوری اطلاعات"@fa .
+bb:ItSupport rdfs:label "پشتیبانی فناوری اطلاعات"@fa .
+bb:Itil rdfs:label "ITIL"@fa .
+bb:ItilServiceLifecycle rdfs:label "چرخه سرویس ITIL"@fa .
+bb:IuKDG rdfs:label "luKDG"@fa .
+bb:JointCommission rdfs:label "کمیسیون مشترک"@fa .
+bb:JointCommissionsCertificationProgram rdfs:label "برنامه صدور گواهینامه مشترک"@fa .
+bb:Jpeg rdfs:label "JPEG"@fa .
+bb:KeyPerformanceIndicator rdfs:label "شاخص عملکرد کلیدی"@fa .
+bb:KhStatV rdfs:label "KHStatV"@fa .
+bb:Khg rdfs:label "قانون بیمارستان"@fa .
+bb:Khrg rdfs:label "قانون اصلاحات تامین مالی بیمارستانها در آلمان"@fa,  "KHRG"@fa .
+bb:Knowledge rdfs:label "دانش"@fa .
+bb:KnowledgeRetrievalAndLiteratureManagement rdfs:label "بازاریابی دانش و مدیریت ادبیات"@fa .
+bb:Laboratory rdfs:label "آزمایشگاه"@fa .
+bb:LaboratoryFinding rdfs:label "یافته آزمایشگاهی"@fa .
+bb:LaboratoryInformationSystem rdfs:label "سیستم اطلاعاتی آزمایشگاه"@fa,  "سیستم مدیریت اطلاعات آزمایشگاه"@fa .
+bb:LaboratoryResult rdfs:label "نتیجه آزمایشگاهی"@fa .
+bb:LaboratoryStudy rdfs:label "مطالعه آزمایشگاهی"@fa .
+bb:Laptop rdfs:label "لپ تاپ"@fa .
+bb:Laundry rdfs:label "خشکشویی"@fa .
+bb:LaundryManagement rdfs:label "مدیریت رختشو خانه"@fa .
+bb:Law rdfs:label "قانون"@fa .
+bb:LeannessOfInformationProcessingTools rdfs:label "کمبودابزار پردازش اطلاعات"@fa .
+bb:LegalRequirement rdfs:label "الزام قانونی"@fa .
+bb:Library rdfs:label "کتابخانه"@fa .
+bb:LifeCycleManagementOfStrategicInformationManagementPlan rdfs:label "مدیریت چرخه زندگی برنامه استراتژیک مدیریت اطلاعات "@fa .
+bb:Linear rdfs:label "خطی"@fa .
+bb:LogicalNetworkTopology rdfs:label "توپولوژی منطقی شبکه"@fa .
+bb:LogicalOperator rdfs:label "اپراتور منطقی"@fa .
+bb:LogicalOperatorModelingElement rdfs:label "عنصر مدل سازی اپراتور منطقی"@fa .
+bb:LogicalToolLayer rdfs:label "لایه ابزار منطفی"@fa .
+bb:Loinc rdfs:label "LOINC"@fa .
+bb:LongTermArchiving rdfs:label "بایگانی طولانی مدت"@fa .
+bb:LongTermHISPlanning rdfs:label "برنامه ریزی بلند مدت HIS"@fa .
+bb:LooselyCoupledNetwork rdfs:label "شبکه آزادانه وصل شده"@fa .
+bb:MagneticDisc rdfs:label "دیسک مغناطیسی"@fa .
+bb:MagneticResonanceImaging rdfs:label "تصویربرداری رزونانس مغناطیسی"@fa .
+bb:MagneticTape rdfs:label "نوار مغناطیسی"@fa .
+bb:MailServer rdfs:label "سرور پست ��لکترونیکی"@fa .
+bb:MainframeArchitecture rdfs:label "معماری رایانه"@fa .
+bb:MaintainabilityOfSoftware rdfs:label "قابلیت نگهداری نرم افزار"@fa .
+bb:MaintainablePhysicalDataProcessingSystem rdfs:label "سیستم پردازش اطلاعات فیزیکی قابل نگهداری"@fa .
+bb:MaintainableServer rdfs:label "سرور قابل نگهداری"@fa .
+bb:MaintenanceCost rdfs:label "هزینه نگهداری"@fa,  "هزینه تعمیر و نگهداری"@fa .
+bb:MakingABackup rdfs:label "ساخت یک پشتیبان"@fa .
+bb:MalcolmBaldrigeNationalQualityAward rdfs:label "جایزه کیفیت مل�� مالکوم بلدریج"@fa .
+bb:ManMadeSystem rdfs:label "سیستم ساخته شده توسط انسان"@fa .
+bb:Management rdfs:label "مدیریت"@fa .
+bb:ManagementBoardBuffer rdfs:label "حائل هیئت مدیره"@fa .
+bb:ManagementDepartment rdfs:label "بخش مدیریت"@fa .
+bb:ManagementEntityType rdfs:label "سبک عنصر مدیریت"@fa .
+bb:ManagementOfClinicalDepartment rdfs:label "مدیریت گروه بالینی"@fa .
+bb:ManagementOfMedicalDevices rdfs:label "مدیریت تجهیزات پزشکی"@fa .
+bb:ManagementOfNonClinicalDepartment rdfs:label "مدیریت گروه غیر بالینی"@fa .
+bb:ManagementOfUserAccounts rdfs:label "مدیریت حساب کاربری"@fa .
+bb:ManagementUnit rdfs:label "واحد مدیریت"@fa .
+bb:MasterApplicationComponent rdfs:label "رهبر اجزا برنامه"@fa .
+bb:MasterPatientIndex rdfs:label "فهرست ارشد بیمار"@fa .
+bb:Material rdfs:label "مواد"@fa .
+bb:MaterialAndMedicationManagement rdfs:label "مدیریت مواد و دارو"@fa .
+bb:MaterialControlling rdfs:label "کنترل مواد"@fa .
+bb:Maturity rdfs:label "بلوغ"@fa .
+bb:MeansOfTransport rdfs:label "وسایل حمل و نقل"@fa .
+bb:MediaCrack rdfs:label "شکاف رسانه ای"@fa .
+bb:MedicalAdmission rdfs:label "پذیرش پزشکی"@fa .
+bb:MedicalAnamnesis rdfs:label "پیشینه بیماری"@fa .
+bb:MedicalAndNursingCarePlanning rdfs:label "برنامه ریزی مراقبت های پزشکی و پرستاری"@fa .
+bb:MedicalAndNursingKnowledge rdfs:label "دانش پزشکی و پرستاری"@fa,  "علم پزشکی و پرستاری"@fa .
+bb:MedicalCarePlanning rdfs:label "برنامه ریزی مراقبت های پزشکی"@fa .
+bb:MedicalDataDictionary rdfs:label "دیکشنری اطلاعات پزشکی"@fa,  "واژه نامه اطلاعات پزشکی"@fa .
+bb:MedicalDevice rdfs:label "تجهیزات پزشکی"@fa .
+bb:MedicalDischargeAndMedicalReportWriting rdfs:label "تخلیه پزشکی و نوشتن گزارش پزشکی"@fa .
+bb:MedicalDocumentationSystem rdfs:label "سیستم مستندات پزشکی"@fa .
+bb:MedicalErrorReport rdfs:label "گزارش خطا پزشکی"@fa .
+bb:MedicalGuideline rdfs:label "دستورالعمل پزشکی"@fa .
+bb:MedicalInformatician rdfs:label "مهندس اطلاعات پزشکی"@fa .
+bb:MedicalKnowledge rdfs:label "دانش پزشکی"@fa .
+bb:MedicalProcedure rdfs:label "روش پزشکی"@fa .
+bb:MedicalReport rdfs:label "گزارش پزشکی"@fa .
+bb:MedicalService rdfs:label "خدمات پزشکی"@fa .
+bb:Medication rdfs:label "دارو"@fa .
+bb:MemoryStick rdfs:label "کارت حافظه"@fa .
+bb:Mesh rdfs:label "شبکه"@fa .
+bb:Message rdfs:label "پیام"@fa .
+bb:MessageEncryption rdfs:label "رمزگذاری پیام"@fa .
+bb:MessageType rdfs:label "نوع پیام"@fa .
+bb:Metamodel rdfs:label "متا مدل"@fa .
+bb:MicrobiologyReport rdfs:label "گزارش میکروبیولوژی"@fa .
+bb:Middleware rdfs:label "میان‌افزار"@fa .
+bb:MigrationPath rdfs:label "مسیر انتقال"@fa .
+bb:MixedApproach rdfs:label "رویکرد ترکیبی"@fa .
+bb:MixedDB1DBnStyle rdfs:label "ترکیب روش DB1-DBn"@fa .
+bb:MobileComputer rdfs:label "کامپیوتر سیار"@fa .
+bb:MobilePhone rdfs:label "تلفن همراه"@fa .
+bb:MobilePhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی تلفن همراه"@fa .
+bb:Model rdfs:label "مدل"@fa .
+bb:ModelOfTheCurrentHIS rdfs:label "مدل کنونی HIS"@fa .
+bb:ModelOfThePlannedHIS rdfs:label "مدل HIS برنامه ریزی شده"@fa,  "مدل HIS برن��مه ریزی شده (سیستم اطلاعاتی بیمارستان)"@fa .
+bb:ModelingHospitalInformationSystems rdfs:label "مدل سازی سیستم های اطلاعات بیمارستان"@fa .
+bb:ModelingInformationSystems rdfs:label "مدل سازی سیستم های اطلاعاتی "@fa .
+bb:MonitorAndEvaluate rdfs:label "نظارت و ارزیابی"@fa .
+bb:Monitoring rdfs:label "نظارت بر"@fa .
+bb:MonitoringOfNationalLegislation rdfs:label "نظارت بر تدوین و تصویب قانون ملی"@fa .
+bb:MonitoringOfNationalLocalPress rdfs:label "نظارت بر مطبوعات محلی "@fa,  "نظارت بر مطبوعات محلی کشور "@fa .
+bb:MonitoringOfStandardizationAndCertificationOrganizations rdfs:label "نظارت بر سازمان های استاندارد سازی و صدور گواهینامه"@fa .
+bb:MonitoringOfStandardizationInitiatives rdfs:label "نظارت برابتکارات استاندارد سازی"@fa .
+bb:MonitoringOfVitalSigns rdfs:label "نظارت بر علائم حیاتی"@fa .
+bb:MonitoringTheProjectProgress rdfs:label "نظارت بر پیشرفت پروژه"@fa .
+bb:MonolithicArchitecture rdfs:label "معماری یکپارچه"@fa .
+bb:Mpeg rdfs:label "گروه کارشناسان تصاویر متحرک"@fa .
+bb:MriScanner rdfs:label "اسکنر MRI"@fa .
+bb:MultifunctionalPhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی چند کاره"@fa .
+bb:MultipleUsabilityOfData rdfs:label "قابلیت استفاده چندگانه داده ها"@fa .
+bb:Nanda rdfs:label "NANDA"@fa .
+bb:Network rdfs:label "شبکه "@fa .
+bb:NetworkManagement rdfs:label "مدیریت شبکه"@fa .
+bb:NetworkMonitoring rdfs:label "نظارت بر شبکه"@fa .
+bb:NetworkStandard rdfs:label "استاندارد شبکه"@fa .
+bb:NetworkTopology rdfs:label "توپولوژی شبکه"@fa .
+bb:Nic rdfs:label "NIC"@fa .
+bb:Noc rdfs:label "NOC"@fa .
+bb:Nomenclature rdfs:label "مجموعه لغات"@fa,  "فهرست اصطلاحات/طبقه بندی"@fa .
+bb:NonComputerBasedApplicationComponent rdfs:label "کامپوننت نرم افزاری غیر کامپیوتری"@fa .
+bb:NonComputerBasedInformationProcessing rdfs:label "پردازش اطلاعات - بدون استفاده از کامپیوتر"@fa .
+bb:NonComputerBasedInformationProcessingTool rdfs:label "ابزار پردازش اطلاعات غیر مبتنی بر کامپیوتر"@fa .
+bb:NonComputerBasedPhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی غیر کامپیوتری"@fa .
+bb:NonSignalBasedTransmittingMedium rdfs:label "متوسط فرستنده بدون سیگنال"@fa .
+bb:NonexperimentalStudyDesign rdfs:label "طراحی مطالعه غیر تجربی"@fa .
+bb:Notification rdfs:label "خبر"@fa .
+bb:NuclearMedicineImaging rdfs:label "تصویربرداری پزشکی هسته ای"@fa .
+bb:Nurse rdfs:label "پرستار"@fa .
+bb:NursingAdmission rdfs:label "پذیرش پرستاری"@fa .
+bb:NursingAnamnesis rdfs:label "یادآوری پرستاری"@fa .
+bb:NursingCarePlan rdfs:label "طرح مراقبت پرستاری"@fa .
+bb:NursingCarePlanning rdfs:label "برنامه ریزی مراقبت پرستاری"@fa .
+bb:NursingCenter rdfs:label "مرکز پرستاری"@fa .
+bb:NursingClassification rdfs:label "طبقه بندی پرستاری"@fa .
+bb:NursingDischargeAndNursingReportWriting rdfs:label "ترخیص پرستاری و گزارش نویسی پرستاری"@fa .
+bb:NursingGoal rdfs:label "هدف پرستاری"@fa .
+bb:NursingGuideline rdfs:label "دستورالعمل پرستاری"@fa .
+bb:NursingHistory rdfs:label "تاریخ پرستاری"@fa .
+bb:NursingManagement rdfs:label "مدیریت پرستاری"@fa .
+bb:NursingManagementAndDocumentationSystem rdfs:label "سیستم مدیریت و مستندسازی پرستاری"@fa .
+bb:NursingProblem rdfs:label "مشکل پرستاری"@fa .
+bb:NursingProcedure rdfs:label "روند پرستاری"@fa .
+bb:NursingReport rdfs:label "گزارش پرستاری"@fa .
+bb:Nutrition rdfs:label "تغذیه"@fa .
+bb:OAIS3 rdfs:label "سیستم اطلاعات بایگانی باز 3 (OAIS3)"@fa .
+bb:ObjectClass rdfs:label "کلاس شی"@fa .
+bb:ObjectIdentity rdfs:label "هویت شی"@fa .
+bb:ObservationProtocol rdfs:label "پروتکل مشاهده"@fa .
+bb:OfficesAndWritingServiceForReportWriting rdfs:label "دفاتر و خدمات نوشتن برای گزارش نویسی"@fa .
+bb:OncologyInformationSystem rdfs:label "سیستم اطلاعات انکولوژی"@fa .
+bb:OpenEHR rdfs:label "OpenEHR"@fa .
+bb:OpenEHRModelOfContent rdfs:label "مدل محتوا OpenEHR"@fa .
+bb:OpenEHRModelOfProcesses rdfs:label "OpenEHR مدل روند"@fa .
+bb:OpenEHROntology rdfs:label "OpenEHR اونتولوژی"@fa .
+bb:OpeningAPatientRecord rdfs:label "افتتاح  پرونده یک بیمار"@fa .
+bb:Operation rdfs:label "عملکرد"@fa,  "جراحی"@fa .
+bb:OperationManagementSystem rdfs:label "سیست�� مدیریت عملکرد"@fa .
+bb:OperationReport rdfs:label "گزارش عملیات"@fa .
+bb:OperationRoom rdfs:label "اتاق عمل"@fa .
+bb:OperationalHISDirecting rdfs:label "عملیات هدایت HIS"@fa .
+bb:OperationalHISMonitoring rdfs:label "دیده بانی عملیاتی HIS"@fa .
+bb:OperationalHISPlanning rdfs:label "برنامه ریزی عملیاتی HIS"@fa .
+bb:OperationalInformationManagement rdfs:label "مدیریت اطلاعات عملیاتی"@fa .
+bb:OperationalInformationManagementGoal rdfs:label "هدف مدیریت اطلاعات عملیاتی"@fa .
+bb:OperationalInformationManagementStaff rdfs:label "کارکنان عملیاتی مدیریت اطلاعات"@fa .
+bb:OperationalManagementConcept rdfs:label "مفهوم مدیریت عملیاتی"@fa .
+bb:OperationalizationOfMethodsAndDetailedStudyPlan rdfs:label "عملی کردن روش ها و برنامه دقیق مطالعه "@fa .
+bb:OpticalFiber rdfs:label "فیبر نوری"@fa .
+bb:OpticalMedium rdfs:label "رسانه نوری"@fa .
+bb:OralAndDentalCare rdfs:label "مراقبتهای ��هان و دندان"@fa .
+bb:Order rdfs:label "سفارش"@fa .
+bb:OrderCatalog rdfs:label "سفارش کاتالوگ"@fa .
+bb:OrderEntry rdfs:label "عملکرد مورد نیاز/ ورودی سفارش"@fa .
+bb:OrderForm rdfs:label "فرم سفارش"@fa .
+bb:OrderingOfDrugs rdfs:label "سفارش داروها"@fa .
+bb:Organization rdfs:label "سازمان"@fa .
+bb:OrganizationOfHealthCare rdfs:label "سازمان بهداشت و درمان"@fa .
+bb:OrganizationalInfrastructure rdfs:label "زیرساخت سازمانی"@fa .
+bb:OrganizationalMetamodel rdfs:label "متامودال سازمانی"@fa .
+bb:OrganizationalModel rdfs:label "مدل سازمانی"@fa .
+bb:OrganizationalPerspective rdfs:label "دیدگاه سازمانی"@fa .
+bb:OrganizationalPlan rdfs:label "طرح سازمانی"@fa .
+bb:OrganizationalSystem rdfs:label "سیستم سازمانی"@fa .
+bb:OrganizationalUnit rdfs:label "واحد سازمانی"@fa .
+bb:OrganizationalUnitModelingElement rdfs:label "عنصر مدل سازی واحد سازمانی"@fa .
+bb:OrganizationalUnitOfAHospital rdfs:label "واحد سازمانی یک بیمارستان"@fa .
+bb:Orientation rdfs:label "جهت"@fa,  "گرایش"@fa .
+bb:Orm rdfs:label "ORM"@fa .
+bb:OrthopedicsInformationSystem rdfs:label "سیستم اطلاعات ارتوپدی"@fa .
+bb:Oru rdfs:label "ORU"@fa .
+bb:Outpatient rdfs:label "بیمار سرپایی"@fa .
+bb:OutpatientCareInstitution rdfs:label "موسسه مراقبت سرپایی"@fa .
+bb:OutpatientEHRCertification rdfs:label "صدور گواهینامه EHR بیمار سرپایی"@fa .
+bb:OutpatientManagementSystem rdfs:label "سیستم مدیریت سرپایی"@fa .
+bb:OutpatientUnit rdfs:label "واحد سرپایی"@fa .
+bb:PRINCE2 rdfs:label "PRINCE 2"@fa .
+bb:Pager rdfs:label "پیجر"@fa .
+bb:PaperBasedApplicationComponent rdfs:label "اجزا برنامه مبتنی بر کاغذ"@fa .
+bb:PaperBasedPatientChart rdfs:label "نمودار مبتنی بر کاغذ"@fa .
+bb:PaperBasedPatientRecord rdfs:label "پیشینه بیمار مبتنی بر کاغذ"@fa .
+bb:PaperBasedPhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی مبتنی بر کاغذ"@fa .
+bb:PastMedicalHistory rdfs:label "تاریخ پزشکی گذشته"@fa .
+bb:Pathology rdfs:label "آسيب شناسي"@fa .
+bb:PathologyInformationSystem rdfs:label "سیستم اطلاعاتی پاتولوژی"@fa .
+bb:PathologyReport rdfs:label "گزارش پاتولوژی"@fa .
+bb:Patient rdfs:label "بیمار"@fa .
+bb:PatientActivityLevel rdfs:label "سطح فعالیت بیمار"@fa .
+bb:PatientAdministration rdfs:label "مدیریت بیمار"@fa .
+bb:PatientAdministrationDepartment rdfs:label "بخش مدیریت بیمار"@fa .
+bb:PatientAdministrationSystem rdfs:label "سیستم مدیریت بیمار"@fa .
+bb:PatientAdmission rdfs:label "پذیرش بیمار"@fa .
+bb:PatientAge rdfs:label "سن بیمار"@fa .
+bb:PatientBilling rdfs:label "صورتحساب بیمار"@fa .
+bb:PatientCare rdfs:label "تابع مراقبت از بیمار"@fa .
+bb:PatientCareEntityType rdfs:label "نوع عنصردرمان بیمار"@fa .
+bb:PatientCenteredInformationProcessing rdfs:label "پردازش اطلاعات بیمار محور"@fa .
+bb:PatientCentricStrategy rdfs:label "استراتژی بیمار محور"@fa .
+bb:PatientChartSystem rdfs:label "سیستم نمودار بیمار"@fa .
+bb:PatientDataManagementSystem rdfs:label "سیستم مدیریت اطلاعات بیمار"@fa .
+bb:PatientDischargeAndTransferToOtherInstitutions rdfs:label "تخلیه و انتقال بیمار به موسسات دیگر"@fa .
+bb:PatientHistory rdfs:label "پیشینه بیمار"@fa .
+bb:PatientIdentification rdfs:label "شناسنایی بیمار"@fa .
+bb:PatientIdentificationNumber rdfs:label "شماره شناسایی بیمار"@fa,  "کدشناسایی بیمار"@fa .
+bb:PatientInsuranceData rdfs:label "اطلاعات بیمه بیمار"@fa .
+bb:PatientLink rdfs:label "لینک بیمار"@fa .
+bb:PatientRecord rdfs:label "سابقه بیمار"@fa .
+bb:PatientRecordArchive rdfs:label "بایگانی سوابق بیمار"@fa .
+bb:PatientRecordSystem rdfs:label "سیستم سوابق بیمار"@fa .
+bb:PatientSatisfactionSurvey rdfs:label "بررسی رضایت بیمار"@fa .
+bb:PatientState rdfs:label "حال بیمار"@fa .
+bb:PatientTransfer rdfs:label "R01-ORU"@fa .
+bb:PatientTransport rdfs:label "حمل و نقل بیمار"@fa .
+bb:PatientVisitInformation rdfs:label "اطلاعات مربوط به بازدید بیمار"@fa .
+bb:PatientsRelatives rdfs:label "بستگان بیمار"@fa,  "همراه بیمار"@fa .
+bb:PayrollAccounting rdfs:label "حسابداری حقوق و دستمزد"@fa .
+bb:Pdfa rdfs:label "PDF/A"@fa .
+bb:Pencil rdfs:label "مداد"@fa .
+bb:PerformanceOfApplicationComponents rdfs:label "عملکرد اجزاء برنامه"@fa .
+bb:PerformanceOfLegalNotificationRequirements rdfs:label "اجرای الزامات اخطار قانونی"@fa .
+bb:PerformanceOfTheApplicationComponent rdfs:label "کارایی اجزای برنامه"@fa .
+bb:PerformantPhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی عملکردی"@fa,  "سیستم پردازش داده های فیزیکی اجرا کننده"@fa .
+bb:PerformantServer rdfs:label "سرور اجرایی"@fa .
+bb:PermanentMonitoring rdfs:label "نظارت دائمی"@fa .
+bb:PersonalComputer rdfs:label "کامپیوتر شخصی"@fa .
+bb:PersonalDigitalAssistant rdfs:label "دستیار شخصی دیجیتال"@fa .
+bb:PersonalHealthRecord rdfs:label "پرونده شخصی سلامت"@fa .
+bb:PersonalHygiene rdfs:label "بهداشت شخصی"@fa .
+bb:PertinentInformation rdfs:label "اطلاعات مربوطه"@fa .
+bb:PetriNet rdfs:label "Petri شبکه"@fa .
+bb:Pharmacy rdfs:label "داروخانه"@fa .
+bb:PharmacyDepartment rdfs:label "بخش داروخانه"@fa .
+bb:PharmacyInformationSystem rdfs:label "سیستم اطلاعات داروسازی"@fa .
+bb:PhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی"@fa .
+bb:PhysicalIntegration rdfs:label "یکپارچگی فیزیکی"@fa .
+bb:PhysicalNetworkTopology rdfs:label "توپولوژی شبکه فیزیکی"@fa .
+bb:PhysicalToolLayer rdfs:label "لایه ابزار فی��یکی"@fa .
+bb:Physician rdfs:label "پزشک"@fa .
+bb:PictureArchivingAndCommunicationSystem rdfs:label "سامانه بایگانی و تبادل تصویر"@fa .
+bb:PlanAndOrganize rdfs:label "برنامه ریزی و سازماندهی"@fa .
+bb:Planning rdfs:label "برنامه ریزی"@fa .
+bb:PlanningOfBuildings rdfs:label "برنامه ریزی ساختمان"@fa .
+bb:PlanningOfFinances rdfs:label "برنامه ریزی مالی"@fa .
+bb:PlanningOfOrganizationalProcedures rdfs:label "برنامه ریزی روند سازمانی"@fa .
+bb:PlanningOfOrganizationalStructures rdfs:label "برنامه ریزی ساختار سازمانی"@fa .
+bb:PlanningOfRooms rdfs:label "برنامه ریزی اتاقها"@fa .
+bb:PlanningOfStaff rdfs:label "برنامه ریزی کارکنان"@fa .
+bb:Pmbok rdfs:label "PMBOK"@fa .
+bb:Portability rdfs:label "قابلیت حمل"@fa .
+bb:PortfolioManagement rdfs:label "مدیریت نمونه کارها"@fa .
+bb:PreliminaryOutlineOfAStudy rdfs:label "مقدمات طرح کلی مطالعه"@fa .
+bb:PreparationOfAnOrder rdfs:label "تدارک یک سفارش"@fa .
+bb:PreparationOfHealthStatistics rdfs:label "تهیه آمار سلامت"@fa .
+bb:PresentationIntegration rdfs:label "ادغام ارائه"@fa .
+bb:PrintedForm rdfs:label "فرم چاپ شده"@fa .
+bb:PrinterServer rdfs:label "سرور چاپگر"@fa .
+bb:ProblemManagement rdfs:label "مدیریت مشکل ها"@fa .
+bb:ProblemSolving rdfs:label "مشکل حل کردن"@fa .
+bb:Procedure rdfs:label "عمل کرد"@fa,  "جراحی"@fa .
+bb:ProcedureClass rdfs:label "کلاس روش"@fa .
+bb:ProcessChain rdfs:label "ز��جیره فرآیند"@fa .
+bb:ProcessControlling rdfs:label "کنترل فرایند"@fa .
+bb:ProcessIntegration rdfs:label "یکپارچگی فرایند"@fa .
+bb:Project rdfs:label "پروژه"@fa .
+bb:ProjectCompletion rdfs:label "تکمیل پروژه"@fa .
+bb:ProjectCompletionPhase rdfs:label "مرحله تکمیل پروژه"@fa .
+bb:ProjectConflictManagement rdfs:label "مدیریت تضاد پروژه"@fa,  "مدیریت درگیری در پروژه"@fa .
+bb:ProjectExecution rdfs:label "اجرای پروژه"@fa .
+bb:ProjectExecutionModule rdfs:label "مدول اجرای پروژه"@fa .
+bb:ProjectInitiation rdfs:label "آغاز پروژه"@fa .
+bb:ProjectInitiationPhase rdfs:label "مرحله آغاز پروژه"@fa .
+bb:ProjectManagementBoard rdfs:label "هیئت مدیره پروژه"@fa .
+bb:ProjectManagementMethod rdfs:label "روش مدیریت پروژه"@fa .
+bb:ProjectManager rdfs:label "مدیر پروژه"@fa .
+bb:ProjectMonitoring rdfs:label "نظارت بر پروژه"@fa .
+bb:ProjectPlan rdfs:label "طرح پروژه"@fa .
+bb:ProjectPlanning rdfs:label "برنامه ریزی پروژه"@fa .
+bb:ProjectPlanningPhase rdfs:label "مرحله برنامه ریزی پروژه"@fa .
+bb:ProjectPortfolio rdfs:label "نمونه پروژه"@fa .
+bb:ProjectResourceAllocation rdfs:label "اختصاص منابع پروژه"@fa .
+bb:ProjectResult rdfs:label "نتیجه پروژه"@fa .
+bb:ProjectTimeAllocation rdfs:label "اختصاص زمان پروژه"@fa .
+bb:Projector rdfs:label "پروژکتور"@fa .
+bb:ProvidingCustomerCenteredServices rdfs:label "ارائه خدمات محور مشتری "@fa .
+bb:PublishingAndPresentation rdfs:label "انتشار و ارائه"@fa .
+bb:QualifiedElectronicSignature rdfs:label "امضا الکترونیکی واجد شرایط"@fa .
+bb:QualitativeContentAnalysis rdfs:label "تجزیه و تحلیل محتوا کیفی"@fa .
+bb:QualitativeEvaluationMethod rdfs:label "روش ارزیابی کیفی"@fa .
+bb:QualitativeInterview rdfs:label "مصاحبه کیفی"@fa .
+bb:QualitativeObservation rdfs:label "مشاهدات کیفی"@fa .
+bb:Quality rdfs:label "کیفیت"@fa .
+bb:QualityAssessment rdfs:label "ارزیابی کیفی"@fa .
+bb:QualityManagement rdfs:label "مدیریت کیفیت"@fa .
+bb:QualityOfComputerBasedApplicationComponentsAndTheirIntegration rdfs:label "کیفیت اجزای نرم افزار مبتنی بر کامپیوتر و یکپارچگی آنها"@fa .
+bb:QualityOfData rdfs:label "کیفیت اطلاعات"@fa .
+bb:QualityOfHISArchitecture rdfs:label "کیفیت معماری HIS"@fa .
+bb:QualityOfHISOutcome rdfs:label "کیفیت خروجی HIS"@fa .
+bb:QualityOfHISProcesses rdfs:label "کیفیت فرآیندهای HIS"@fa .
+bb:QualityOfHISStructures rdfs:label "کیفیت ساختارهای HIS"@fa .
+bb:QualityOfHealthCareOutcome rdfs:label "کیفیت نتایج مراقبت های بهداشتی"@fa,  "کیفیت نتایج سلامت"@fa .
+bb:QualityOfHealthCareProcesses rdfs:label "کیفیت فرآیندهای مراقبت های بهداشتی"@fa .
+bb:QualityOfITServiceManagement rdfs:label "کیفیت مدیریت خدمات فناوری اطلاعات"@fa .
+bb:QualityOfITSupport rdfs:label "کیفیت پشتیبانی از فناوری اطلاعات"@fa .
+bb:QualityOfITTraining rdfs:label "کیفیت آموزش IT"@fa .
+bb:QualityOfInformationManagement rdfs:label "کیفیت مدیریت اطلاعات"@fa .
+bb:QualityOfOutcome rdfs:label "کیفیت نتیجه"@fa,  "کیفیت نتایج"@fa .
+bb:QualityOfPatientCare rdfs:label "کیفیت درمان بیمار"@fa .
+bb:QualityOfProcesses rdfs:label "کیفیت فرآیندها"@fa .
+bb:QualityOfStructures rdfs:label "کیفیت سازه ها"@fa .
+bb:QualityOfTacticalInformationManagement rdfs:label "کیفیت مدیریت اطلاعای تاکتیکی"@fa .
+bb:QualityReport rdfs:label "گزارش کیفیت"@fa .
+bb:QuantitativeEvaluationMethod rdfs:label "روش ارزیابی کمی"@fa .
+bb:QuantitativeQuestionnaire rdfs:label "پرسشنامه صفاتی"@fa .
+bb:QuasiExperimentalStudyDesign rdfs:label "طراحی مطالعه نی��ه تجربی"@fa .
+bb:QueueManager rdfs:label "مدیر صف"@fa .
+bb:R01 rdfs:label "R01"@fa .
+bb:R01ORU rdfs:label "مشتری"@fa .
+bb:RadiologicalExamination rdfs:label "آزمایش رادیولوژی"@fa .
+bb:RadiologicalFinding rdfs:label "یافته رادیولوژی"@fa .
+bb:RadiologyDepartment rdfs:label "بخش رادیولوژی"@fa .
+bb:RadiologyInformationSystem rdfs:label "سیستم اطلاعاتی رادیولوژی"@fa .
+bb:RadiologyReport rdfs:label "گزارش رادیولوژی"@fa .
+bb:Radiotherapy rdfs:label "رادیوتراپی"@fa,  "پرتو درمانی"@fa .
+bb:RecommendationsForFurtherTreatment rdfs:label "توصیه ها برای درمان بیشتر"@fa .
+bb:RecruitmentOfPatients rdfs:label "ثبت نام بیماران برای مطالعه پژوهشی"@fa .
+bb:RedundantComputingCenter rdfs:label "مرکز محاسبات بیرونی"@fa .
+bb:RedundantServer rdfs:label "سرور اضافی"@fa .
+bb:ReferenceModel rdfs:label "مدل مرجع"@fa .
+bb:ReferenceModelForTheDomainLayerOfHospitalInformationSystems rdfs:label "مدل مرجع برای لایه دامنه سیستم های اطلاعات بیمارستانی"@fa .
+bb:ReferentialIntegrity rdfs:label "یکپارچگی ارجاعی"@fa .
+bb:RehabilitationCenter rdfs:label "مرکز توانبخشی"@fa .
+bb:Relative rdfs:label "نسبی"@fa .
+bb:Relevancy rdfs:label "مربوط بودن"@fa .
+bb:Reliability rdfs:label "قابلیت اطمینان"@fa .
+bb:ReliabilityOfData rdfs:label "قابلیت اطمینان داده ها"@fa .
+bb:ReliablePhysicalDataProcesssingSystem rdfs:label "سیستم قابل اعتماد فیزیکی پردازش داده ها"@fa .
+bb:RemoteFunctionCall rdfs:label "تماس از راه دور با عمل کرد"@fa .
+bb:ReportAndPublicationOfStudy rdfs:label "گزارش و چاپ مطالعه"@fa .
+bb:ReportToTheCEO rdfs:label "گزارش به مدیرعامل"@fa .
+bb:ReportToTheHospitalsBoardOfDirectors rdfs:label "گزارش به هیئت مدیره بیمارستان"@fa .
+bb:ReportWriting rdfs:label "نوشتن گزارش"@fa .
+bb:RepresentativeOfHospitalDepartment rdfs:label "نماینده بخش بیمارستان"@fa .
+bb:RequirementOfHISStakeholder rdfs:label "احتیاج ذی نفع HIS"@fa .
+bb:ResearchAndEducation rdfs:label "پژوهش و آموزش"@fa .
+bb:ResearchAndEducationEntityType rdfs:label "نوع نهاد تحقیق و آموزش و پرورش"@fa .
+bb:ResearchDocument rdfs:label "سند پژوهشی"@fa .
+bb:ResearchInstitution rdfs:label "سازمان پژوهشی"@fa .
+bb:ResearchManagement rdfs:label "مدیریت تحقیق"@fa .
+bb:Resource rdfs:label "منابع"@fa .
+bb:ReturnOnInvestmentStudy rdfs:label "مطالعه بازگشت سرمایه گذاری"@fa .
+bb:Ring rdfs:label "حلقه"@fa .
+bb:RiskManagement rdfs:label "مدیریت ریسک"@fa .
+bb:RobotSystem rdfs:label "سیستم روباتی"@fa .
+bb:RoleModelingElement rdfs:label "نقش عنصر مدل سازی"@fa .
+bb:Room rdfs:label "اتاق"@fa .
+bb:RotaryPhone rdfs:label "تلفن چرخشی"@fa .
+bb:Router rdfs:label "روتر"@fa .
+bb:Sample rdfs:label "نمونه"@fa .
+bb:San rdfs:label "شبکه ذخیره سازی"@fa .
+bb:Saps rdfs:label "SAPS"@fa .
+bb:Saturation rdfs:label "اشباع"@fa .
+bb:SchedulingAndResourceAllocation rdfs:label "برنامه ریزی و اختصاص منابع"@fa .
+bb:SchedulingAndResourcePlanningWithTheMedicalServiceUnit rdfs:label "برنامه ریزی و برنامه ریزی منابع با واحد خدمات پزشکی"@fa .
+bb:SchedulingAndResourcePlanningWithThePatientTransportService rdfs:label "زمانبندی و برنامه ریزی مطابق  با سرویس نقل وانتقال بیمار"@fa .
+bb:SecondLevelSupport rdfs:label "پشتیبانی سطح دوم"@fa .
+bb:SecurePhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی امن"@fa .
+bb:Security rdfs:label "امنیت"@fa .
+bb:SecurityOfData rdfs:label "امنیت داده ها"@fa .
+bb:SelfDescriptiveness rdfs:label "خود توصیفی"@fa .
+bb:SelfDevelopedSoftware rdfs:label "نرم افزار خود نوشته شده"@fa .
+bb:SemanticIntegration rdfs:label "ادغام معنایی"@fa .
+bb:SemistructuredInterview rdfs:label "مصاحبه نیمه ساختاریافته"@fa .
+bb:SeniorPhysician rdfs:label "پزشک ارشد "@fa .
+bb:Server rdfs:label "سرور"@fa .
+bb:ServerCluster rdfs:label "کلاستر سرور"@fa .
+bb:Service rdfs:label "خدمت"@fa .
+bb:ServiceAssetManagement rdfs:label "مدیریت سرویس دارایی"@fa .
+bb:ServiceCatalog rdfs:label "کاتالوگ خدمات"@fa .
+bb:ServiceDesign rdfs:label "خدمات طراحی "@fa .
+bb:ServiceDeskManagement rdfs:label "میز مدیریت خدمات"@fa .
+bb:ServiceDeskStaff rdfs:label "کارکنان دفتر خدمات"@fa .
+bb:ServiceOperation rdfs:label "عملیات سرویس"@fa .
+bb:ServiceStrategy rdfs:label "استراتژی خدمات"@fa .
+bb:ServiceTransition rdfs:label "انتقال خدمات"@fa .
+bb:Sgbv rdfs:label "کتاب قانون اجتماعی V"@fa .
+bb:SheetOfPaper rdfs:label "برگ کاغذ"@fa .
+bb:ShortTermHISPlanning rdfs:label "برنامه ریزی کوتاه مدت HIS"@fa .
+bb:SigG rdfs:label "قانون امضا"@fa .
+bb:SignalBasedTransmittingMedium rdfs:label "سخت افزار انتقال مبتنی بر سیگنال"@fa .
+bb:SingleSignOn rdfs:label "ورودی یک طرفه"@fa .
+bb:SkinCare rdfs:label "مراقبت از پوست"@fa .
+bb:Snomed rdfs:label "SNOMED (نام گذاری سیستمی پزشکی)"@fa .
+bb:Soa rdfs:label "معماری سرویس گرا"@fa .
+bb:SoaService rdfs:label "SOA سرویس"@fa .
+bb:SocialContact rdfs:label "رابطه اجتماعی"@fa .
+bb:SocialHistory rdfs:label "تاریخ اجتماعی"@fa .
+bb:SocioTechnicalSystem rdfs:label "سیستم اجتماعی و فنی"@fa .
+bb:SoftwareDevelopment rdfs:label "توسعه نرم افزار"@fa .
+bb:SoftwareErgonomics rdfs:label "نرم افزار ارگونومی"@fa .
+bb:SoftwareProduct rdfs:label "محصول نرم افزاری"@fa .
+bb:SoftwareQuality rdfs:label "کیفیت نرم افزار"@fa .
+bb:SoftwareVendor rdfs:label "فروشنده نرم افزار"@fa .
+bb:Specialization rdfs:label "تخصص"@fa .
+bb:Stability rdfs:label "ثبات"@fa .
+bb:StabilityOfApplicationComponents rdfs:label "پایداری اجزای برنامه"@fa .
+bb:StableServer rdfs:label "سرور ثابت"@fa .
+bb:StaffControlling rdfs:label "کنترل کارکنان"@fa .
+bb:StaffCost rdfs:label "هزینه کارکنان"@fa .
+bb:Standard rdfs:label "استاندارد"@fa .
+bb:StandardizationByCEN rdfs:label "استاندارد کردن توسط CEN"@fa .
+bb:StandardizationOfData rdfs:label "استاندارد سازی داده ها"@fa .
+bb:StandardizationOfHISArchitecture rdfs:label "استاندارد سازی معماری HIS"@fa .
+bb:StandardizationOfInterfaces rdfs:label "استاندارد سازی رابط ها"@fa .
+bb:StandardizedPhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی استاندارد شده"@fa .
+bb:Star rdfs:label "ستاره"@fa .
+bb:StatisticalEvaluationOfPatientData rdfs:label "ارزیابی آماری داده های بیمار"@fa .
+bb:StorageAreaNetwork rdfs:label "شبکه ذخیره سازی"@fa .
+bb:StorageMedium rdfs:label "سخت افزار ذخیره سازی"@fa .
+bb:StorageService rdfs:label "خدمات ذخیره سازی"@fa .
+bb:StrategicAlignment rdfs:label "هم راستایی استراتژیک"@fa .
+bb:StrategicAlignmentModel rdfs:label "مدل سازگاری استراتژیک"@fa .
+bb:StrategicDecision rdfs:label "تصمیم استراتژیک"@fa .
+bb:StrategicGoalOfTheInstitution rdfs:label "هدف استراتژیک موسسه"@fa .
+bb:StrategicGoalOfTheNetwork rdfs:label "هدف استراتژیک شبکه"@fa .
+bb:StrategicHISDirecting rdfs:label "هدایت استراتژیک HIS"@fa .
+bb:StrategicHISMonitoring rdfs:label "نظارت استراتژیک HIS"@fa .
+bb:StrategicHISMonitoringResult rdfs:label "نتایج نظارت استراتژیک HIS"@fa .
+bb:StrategicHISPlanning rdfs:label "برنامه ریزی استراتژیک  HIS"@fa .
+bb:StrategicHospitalGoal rdfs:label "هدف استراتژیک بیمارستان"@fa .
+bb:StrategicInformationManagement rdfs:label "مدیریت استراتژیک اطلاعات "@fa .
+bb:StrategicInformationManagementGoal rdfs:label "هدف مدیریت اطلاعات استراتژیک"@fa .
+bb:StrategicInformationManagementPlan rdfs:label "طرح مدیریت اطلاعات استراتژیک"@fa .
+bb:StructuralQualityAssessment rdfs:label "ارزیابی کیفیت ساختاری"@fa .
+bb:Study rdfs:label "مطالعه"@fa,  "بررسی"@fa .
+bb:StudyDesign rdfs:label "طرح مطالعه"@fa .
+bb:StudyExploration rdfs:label "شناسایی مطالعات"@fa .
+bb:StudyHypothesis rdfs:label "فرضیه مطالعه"@fa .
+bb:StudyObjective rdfs:label "هدف مطالعه"@fa .
+bb:StudyOutline rdfs:label "طرح کلی"@fa .
+bb:StudyParticipant rdfs:label "شرکت کننده مطالعه"@fa .
+bb:StudyPlan rdfs:label "برنامه مطالعه"@fa .
+bb:StudyReport rdfs:label "گزارش مطالعه"@fa .
+bb:StudyResult rdfs:label "نتایج مطالعه"@fa .
+bb:SubInformationSystem rdfs:label "زیرسیستم اطلاعاتی"@fa .
+bb:Subsystem rdfs:label "زیر سیستم"@fa .
+bb:SuitabilityForIndividualization rdfs:label "مناسبت برای شخصی سازی"@fa .
+bb:SuitabilityForLearning rdfs:label "مناسب برای یادگیری"@fa .
+bb:SuitabilityForTheTask rdfs:label "مناسب برای این کار"@fa .
+bb:SupplyAndDisposalManagement rdfs:label "مدیریت عرضه و دفع/تقاضا"@fa .
+bb:SupportCost rdfs:label "هزینه پشتیبانی"@fa .
+bb:Surgeon rdfs:label "پزشک جراح"@fa .
+bb:Sustainability rdfs:label "پایداری"@fa .
+bb:Switch rdfs:label "تعویض"@fa .
+bb:SwotAnalysis rdfs:label "تجزیه و تحلیل SWOT (ارزیابی نقاط قوت، ضعف، فرصت ها و تهدیدات)"@fa .
+bb:SynchronousCommunication rdfs:label "ارتباط همزمان"@fa .
+bb:System rdfs:label "سیستم"@fa .
+bb:SystemAnalysis rdfs:label "تحلیل سیستم"@fa .
+bb:SystemEvaluation rdfs:label "ارزیابی سیستم"@fa .
+bb:SystemIntroduction rdfs:label "معرفی سیستم"@fa .
+bb:SystemOfConcepts rdfs:label "سیستم مفاهیم"@fa .
+bb:SystemSelection rdfs:label "انتخاب سیستم"@fa .
+bb:SystemSpecification rdfs:label "مشخصات سیستم"@fa .
+bb:SystematicInformationProcessing rdfs:label "پردازش اطلاعات سیستماتیک"@fa .
+bb:SystemsReview rdfs:label "بررسی سیستم ها"@fa .
+bb:T3ApplicationServer rdfs:label "سرور برنامه T3"@fa .
+bb:T3DatabaseServer rdfs:label "سرور پایگاه داده T3"@fa .
+bb:TabletPC rdfs:label "رایانه لوحی"@fa .
+bb:TacticalHISDirecting rdfs:label "هدایت تاکتیکی HIS"@fa .
+bb:TacticalHISMonitoring rdfs:label "نظارت تاکتیکی بر HIS"@fa .
+bb:TacticalHISPlanning rdfs:label "برنامه ریزی تاکتیکی HIS"@fa .
+bb:TacticalInformationManagement rdfs:label "مدیریت اطلاعات تاکتیکی"@fa .
+bb:TansCriticalSuccessFactorApproach rdfs:label "رویکرد فاکتور موفقیت بحرانی TanA"@fa .
+bb:TechnicalMetamodel rdfs:label "متا مدل فنی"@fa .
+bb:TechnicalModel rdfs:label "مدل فنی"@fa .
+bb:TechnicalStaff rdfs:label "کارکنان فنی"@fa .
+bb:Teleconsultation rdfs:label "مشاوره از راه دور"@fa .
+bb:Telemicroscopy rdfs:label "تله میکروسکوپی "@fa .
+bb:Teleradiology rdfs:label "تله رادیولوژی"@fa .
+bb:TeleradiologySystem rdfs:label "سیستم تله رادیولوژی"@fa .
+bb:Terminal rdfs:label "ترمینال "@fa .
+bb:TerminalServer rdfs:label "ترمینال سرور "@fa .
+bb:TheProviderCentricStrategy rdfs:label "استراتژی ارائه دهنده مرکزی"@fa .
+bb:TheRegionalOrNationalCentricStrategy rdfs:label "استراتژی منطقه ای یا ملی"@fa .
+bb:TheStrategyOfIndependentHealthBanks rdfs:label "استراتژی بانک های مستقل بهداشت"@fa .
+bb:TherapeuticDepartment rdfs:label "گروه درمانی"@fa .
+bb:TherapeuticProcedure rdfs:label "روند درمانی"@fa .
+bb:TherapeuticService rdfs:label "خدمات درمانی"@fa .
+bb:TherapeuticStandard rdfs:label "استاندارد درمانی"@fa .
+bb:ThirdLevelSupport rdfs:label "سطح سوم پشتیبانی"@fa .
+bb:ThirdPartyFund rdfs:label "صندوق شخص ثالث"@fa,  "پشتوانه مالی از شخص ثالث"@fa .
+bb:ThrombosisProphylaxis rdfs:label "پیشگیری ترومبوز"@fa .
+bb:Tiff rdfs:label "TIFF (فرمات برچسب دار فایل تصویر)"@fa .
+bb:TimeMeasurement rdfs:label "اندازه گیری زمان"@fa .
+bb:TimeMotionAnalysis rdfs:label "تجزیه و تحلیل زمان-حرکت"@fa .
+bb:Tiss rdfs:label "TISS"@fa .
+bb:TokenRing rdfs:label "حلقه توکن"@fa .
+bb:TransactionManagement rdfs:label "مدیریت تراکنش"@fa .
+bb:TransactionManagementTechnology rdfs:label "فناوری مدیریت تراکنش"@fa .
+bb:Transcription rdfs:label "رونویسی"@fa .
+bb:Transfer rdfs:label "انتقال"@fa .
+bb:TransferDiagnosis rdfs:label "تشخیص انتقال"@fa .
+bb:TransinstitutionalHealthCareFunction rdfs:label "تابع مراقبت های بهداشتی میان سازمانی"@fa .
+bb:TransinstitutionalHealthInformationSystem rdfs:label "سیستم اطالاعاتی درمانی میان سازمانی"@fa .
+bb:TransmittingMedium rdfs:label "وسیله فرستنده"@fa .
+bb:Transparency rdfs:label "شفافیت"@fa .
+bb:TreatmentBill rdfs:label "پرونده درمان"@fa .
+bb:TreatmentText rdfs:label "متن درمانی"@fa .
+bb:Tree rdfs:label "درخت"@fa .
+bb:TroubleShooting rdfs:label "عیب یابی"@fa .
+bb:Typewriter rdfs:label "ماشین تحریر"@fa .
+bb:Ultrasound rdfs:label "سونوگرافی"@fa .
+bb:UmlAbstractClass rdfs:label "کلاس انتزاعی UML"@fa .
+bb:UmlActivityDiagram rdfs:label "نمودار فعالیت UML"@fa .
+bb:UmlAssociation rdfs:label "انجمن UML"@fa .
+bb:UmlAssociationClass rdfs:label "کلاس وابستگی UML"@fa .
+bb:UmlAttribute rdfs:label "خصیصه UML"@fa .
+bb:UmlClass rdfs:label "کلاسUML"@fa .
+bb:UmlClassDiagram rdfs:label "نمودار کلاس UML"@fa .
+bb:UmlMethod rdfs:label "روش UML"@fa .
+bb:Umls rdfs:label "سیستم یگانه زبان پزشکی"@fa .
+bb:UniversityMedicalCenter rdfs:label "مرکز بهداشتی دانشگاه"@fa,  "مرکز پزشکی دانشگاه"@fa .
+bb:UnstructuredInterview rdfs:label "مصاحبه بدون ساختار"@fa .
+bb:UpToDateInformation rdfs:label "اطلاعات تا به تاریخ"@fa .
+bb:UpToDatePhysicalDataProcessingSystem rdfs:label "تا به تاریخ بودن"@fa .
+bb:UpdatingTheStrategicInformationManagementPlan rdfs:label "به روز رسانی برنامه مدیریت اطلاعات استراتژیک"@fa,  "آپدیت برنامه مدیریت اطلاعات استراتژیک"@fa .
+bb:UsLaw rdfs:label "قانونUS"@fa, "قانون ایالات متحده آمریکا "@fa .
+bb:Usability rdfs:label "قابلیت استفاده"@fa .
+bb:UsabilityStudy rdfs:label "برسی قابلی�� استفاده"@fa .
+bb:UsablePhysicalDataProcessingSystem rdfs:label "سیستم پردازش داده های فیزیکی قابل استفاده"@fa .
+bb:UseOfStrategicInformationManagementPlan rdfs:label "استفاده از برنامه استراتژیک مدیریت اطلاعات"@fa .
+bb:UserRequirementsAnalysis rdfs:label "تجزیه و تحلیل نیاز کاربر"@fa .
+bb:UserSatisfaction rdfs:label "رضایت کاربر"@fa .
+bb:UserSurvey rdfs:label "نظرسنجی کاربر"@fa .
+bb:UserTraining rdfs:label "آموزش کاربر"@fa .
+bb:UtilityAnalysis rdfs:label "تجزیه و تحلیل سودمندی"@fa .
+bb:V1Style rdfs:label "سبک V1"@fa .
+bb:Vendor rdfs:label "فروشنده"@fa .
+bb:VendorStyle rdfs:label "سبک فروشنده"@fa .
+bb:VideoConferencingSystem rdfs:label "سیستم کنفرانس ویدیویی"@fa .
+bb:VirtualPrivateNetwork rdfs:label "شبکه خصوصی مجازی"@fa .
+bb:VirtualServer rdfs:label "سرور مجازی"@fa .
+bb:Virtualization rdfs:label "مجازی سازی"@fa .
+bb:VisitorAndInformationService rdfs:label "سرویس بازدید کننده و اطلاعاتی"@fa .
+bb:VitalSign rdfs:label "علائم حیاتی"@fa .
+bb:VnStyle rdfs:label "سبک Vn"@fa .
+bb:Ward rdfs:label "بخش"@fa .
+bb:WardPhysician rdfs:label "پزشک بخش"@fa .
+bb:WebServer rdfs:label "وب سرور"@fa .
+bb:WorkOrganizationAndTimeManagement rdfs:label "سازمان کار و مدیریت زمان"@fa .
+bb:WorkSampling rdfs:label "نمونه برداری کار"@fa .
+bb:WorkingList rdfs:label "لیست کار"@fa .
+bb:Workstation rdfs:label "ایستگاه کاری"@fa .
+bb:WoundCare rdfs:label "مراقبت زخم"@fa .
+bb:WoundTreatment rdfs:label "درمان زخم"@fa .
+bb:WrittenAgreementOnTheStudyOutline rdfs:label "توافقنامه نوشتاری درباره طرح مطالعه"@fa .
+bb:Xml rdfs:label "XML"@fa .
+
