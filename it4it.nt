@@ -1300,7 +1300,11 @@
 <http://www.snik.eu/ontology/it4it/OperatingModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/it4it/OperatingModel> <http://www.w3.org/2000/01/rdf-schema#label> "Operating Model"@en .
 <http://www.snik.eu/ontology/it4it/OperatingModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/it4it/IT4IT> .
-<http://www.snik.eu/ontology/it4it/page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.snik.eu/ontology/it4it/page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.snik.eu/ontology/it4it/page> <http://www.w3.org/2000/01/rdf-schema#comment> "Seite in \"The Open Group IT4ITTM Reference Architecture\", Version 2.0, Document Number: C155, ISBN: 1-937218-69-0, The Open Group, October 2015"@de .
+<http://www.snik.eu/ontology/it4it/page> <http://www.w3.org/2000/01/rdf-schema#label> "page"@en .
+<http://www.snik.eu/ontology/it4it/page> <http://www.w3.org/2000/01/rdf-schema#label> "Seite"@de .
+<http://www.snik.eu/ontology/it4it/page> <http://www.w3.org/2001/XMLSchema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <http://www.snik.eu/ontology/it4it/Performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.snik.eu/ontology/it4it/Performance> <http://www.w3.org/2000/01/rdf-schema#label> "Performance"@en .
 <http://www.snik.eu/ontology/it4it/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
