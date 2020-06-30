@@ -1086,6 +1086,7 @@
 <http://www.snik.eu/ontology/it4it> <http://www.snik.eu/ontology/it4it/ontologyUser> "Information Managers, Studends, Consultants, Software Developer, Researcher"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/it4it> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://www.snik.eu/ontology/it4it> <http://www.w3.org/2000/01/rdf-schema#comment> "The Open Group IT4ITTM Reference Architecture, Version 2.0, Document Number: C155, ISBN: 1-937218-69-0, The Open Group, October 2015"@en .
+<http://www.snik.eu/ontology/it4it> <http://www.w3.org/2000/01/rdf-schema#label> "IT4IT" .
 <http://www.snik.eu/ontology/it4it> <http://www.w3.org/2000/01/rdf-schema#label> "IT4IT Ontology"@en .
 <http://www.snik.eu/ontology/it4it> <http://xmlns.com/foaf/0.1/homepage> <http://www.snik.eu> .
 <http://www.snik.eu/ontology/it4it/HumanResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/it4it/SupportingActivity> .
