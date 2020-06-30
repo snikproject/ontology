@@ -8852,7 +8852,6 @@
 <http://www.snik.eu/ontology/he/Informationssystem> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/he/CONTR> .
 <http://www.snik.eu/ontology/he/Informationssystem> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/he/GOVER> .
 <http://www.snik.eu/ontology/he/Informationssystem> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/he/WIMAN> .
-<http://www.snik.eu/ontology/he/Informationssystem> <http://www.snik.eu/ontology/meta/consolidated> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.snik.eu/ontology/he/Informationssystem> <http://www.snik.eu/ontology/meta/consolidated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.snik.eu/ontology/he/Informationssystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/he/Informationssystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -12738,6 +12737,11 @@
 <http://www.snik.eu/ontology/he/Paarvergleichsmatrix> <http://www.w3.org/2000/01/rdf-schema#label> "Paired Comparison Matrix"@en .
 <http://www.snik.eu/ontology/he/Paarvergleichsmatrix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/he/Paarvergleichsmatrix> <http://www.w3.org/2004/02/skos/core#definition> "eine Tabelle in der die relative Bedeutung von Kriterien zueinander erfasst wird wobei die Anzahl der durchzuf\u00FChrenden Paarvergleiche in der Matrix durch die Formel n \u00D7 (n-1) / 2 bestimmt wird; n = Anzahl der zu vergleichenden Kriterien."@de .
+<http://www.snik.eu/ontology/he/page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.snik.eu/ontology/he/page> <http://www.w3.org/2000/01/rdf-schema#comment> "Seite in \"Informationsmanagement\""@de .
+<http://www.snik.eu/ontology/he/page> <http://www.w3.org/2000/01/rdf-schema#label> "page"@en .
+<http://www.snik.eu/ontology/he/page> <http://www.w3.org/2000/01/rdf-schema#label> "Seite"@de .
+<http://www.snik.eu/ontology/he/page> <http://www.w3.org/2001/XMLSchema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <http://www.snik.eu/ontology/he/Paradigma> <http://www.snik.eu/ontology/meta/consolidated> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.snik.eu/ontology/he/Paradigma> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/he/Paradigma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -16602,13 +16606,14 @@
 <http://www.snik.eu/ontology/he/StrategischerItPlan> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/he/strategischerItPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/he/StrategischerItPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/he/StrategischerItPlan> <http://www.w3.org/2000/01/rdf-schema#label> "startegic IT plan"@en .
+<http://www.snik.eu/ontology/he/StrategischerItPlan> <http://www.w3.org/2000/01/rdf-schema#comment> "Ergebnis der strategischen Ma\u00DFnahmenplanung."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://www.snik.eu/ontology/he/strategischerItPlan> <http://www.w3.org/2000/01/rdf-schema#label> "strategic IT plan"@en .
+<http://www.snik.eu/ontology/he/StrategischerItPlan> <http://www.w3.org/2000/01/rdf-schema#label> "strategic IT plan"@en .
 <http://www.snik.eu/ontology/he/strategischerItPlan> <http://www.w3.org/2000/01/rdf-schema#label> "strategischer IT-Plan"@de .
 <http://www.snik.eu/ontology/he/StrategischerItPlan> <http://www.w3.org/2000/01/rdf-schema#label> "Strategischer IT-Plan"@de .
 <http://www.snik.eu/ontology/he/StrategischerItPlan> <http://www.w3.org/2004/02/skos/core#altLabel> "strategisches Projektportfolio"@de .
-<http://www.snik.eu/ontology/he/StrategischerItPlan> <http://www.w3.org/2004/02/skos/core#definition> "Ergebnis der strategischen Ma\u00DFnahmenplanung."@de .
 <http://www.snik.eu/ontology/he/strategischerItPlan> <http://www.w3.org/2004/02/skos/core#definition> "Ergebnis der strategischen Ma\u00DFnahmenplanung.\nSynonym: strategisches Projektportfolio."@de .
+<http://www.snik.eu/ontology/he/StrategischerItPlan> <http://www.w3.org/2004/02/skos/core#definition> "Inhalt des strategischen IT-Plans sind die in geeigneter Weise geordneten Projekte zur langfristigen, unternehmensweit wirksamen, die kritischen Wettbewerbsfaktoren positiv beeinflussenden Ver\u00E4nderungen der IT. Diese auf \u00F6konomischen Kriterien beruhende Projektauswahl und Projektordnung wird als Portfoliomanagement bezeichnet. Ergebnis dieser Managementaufgabe ist der strategische IT-Plan bzw. das strategische Projektportfolio. Was \u201Ein geeigneter Weise geordnet\" konkret hei\u00DFt, h\u00E4ngt von den strategischen Unternehmenszielen ab. Grunds\u00E4tzlich wird davon ausgegangen, dass die Projekte nach ihrem Beitrag zum Untemehmenserfolg (oder andere Bezeichnungen wie Gesch\u00E4ftswert) geordnet werden. Wegen der schwierigen Messbarkeit dieses Projektbeitrags (Wertbegriff) werden Ordnungskriterien mit geringen Messproblemen verwendet (vgl. den Abschnitt Evaluieren der generierten Projektideen)."@de .
 <http://www.snik.eu/ontology/he/strategischeRolleInformationsfunktion> <http://www.snik.eu/ontology/he/page> "92"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/he/strategischeRolleInformationsfunktion> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/he/SITAN> .
 <http://www.snik.eu/ontology/he/strategischeRolleInformationsfunktion> <http://www.snik.eu/ontology/meta/consolidated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
@@ -19781,3 +19786,7 @@
 <http://www.snik.eu/ontology/he/Zuverlaessigkeit> <http://www.w3.org/2000/01/rdf-schema#label> "Zuverl\u00E4ssigkeit"@de .
 <http://www.snik.eu/ontology/he/Zuverlaessigkeit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Softwarequalitaet> .
 <http://www.snik.eu/ontology/he/Zuverlaessigkeit> <http://www.w3.org/2004/02/skos/core#definition> "F\u00E4higkeit eines Softwareproduktes unter spezifizierten Bedingungen ein bestimmtes Leistungsniveau zu bewahren."@de .
+<http://www.snik.eu/ontology/meta/StrategischerItPlan> <http://www.w3.org/2000/01/rdf-schema#label> "startegic IT plan"@en .
+<http://www.snik.eu/ontology/meta/StrategischerItPlan> <http://www.w3.org/2000/01/rdf-schema#label> "Strategischer IT-Plan"@de .
+<http://www.snik.eu/ontology/meta/StrategischerItPlan> <http://www.w3.org/2004/02/skos/core#altLabel> "strategisches Projektportfolio"@de .
+<http://www.snik.eu/ontology/meta/StrategischerItPlan> <http://www.w3.org/2004/02/skos/core#definition> "Ergebnis der strategischen Ma\u00DFnahmenplanung."@de .
