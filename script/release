@@ -1,0 +1,2 @@
+files="bb.nt ob.nt ciox.nt he.nt it4it.nt limes-exact.nt match.nt meta.ttl persian.ttl"
+zip snik.zip $files 
