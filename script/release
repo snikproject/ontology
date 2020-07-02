@@ -6,4 +6,4 @@ for f in "${fileArray[@]}"
 do
 	rapper -q -i turtle -o ntriples $f >> /tmp/snik.nt
 done
-wc -l /tmp/snik.nt
+grep -v "^$" /tmp/snik.nt | wc -l
