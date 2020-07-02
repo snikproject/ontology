@@ -1,9 +1,9 @@
 files="bb.nt ob.nt ciox.nt he.nt it4it.nt limes-exact.nt match.nt meta.ttl persian.ttl"
 fileArray=("bb.nt" "ob.nt" "ciox.nt" "he.nt" "it4it.nt" "limes-exact.nt" "match.nt" "meta.ttl" "persian.ttl")
 zip snik.zip $files
-echo "" > /tmp/count
+echo "" > /tmp/snik.nt
 for f in "${fileArray[@]}"
 do
-	rapper -q -i turtle -o ntriples $f >> /tmp/count
+	rapper -q -i turtle -o ntriples $f >> /tmp/snik.nt
 done
-wc -l /tmp/count
+wc -l /tmp/snik.nt
