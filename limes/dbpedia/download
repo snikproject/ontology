@@ -1,0 +1,6 @@
+wget 'https://downloads.dbpedia.org/repo/dbpedia/generic/labels/2020.06.01/labels_lang=en.ttl.bz2' -O en.ttl.bz2
+echo "Decompressing DBpedia Labels"
+bunzip2 en.ttl.bz2 -v
+mv en.ttl dbpedia.ttl
+echo "Removing non-ASCII characters for better LIMES compatibility"
+grep -P '^[[:ascii:]]+$' dbpedia.ttl > dbpedia-ascii.ttl
