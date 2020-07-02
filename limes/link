@@ -52,36 +52,3 @@ do
 done
 exit 0
 
-    mkdir -p ${s}/out
-    echo "** Generating main triples ******************************"
-    tarql ${s}/tmp/main.tarql | rapper -i turtle - http://www.snik.eu/ontology/${s}/ > ${s}/tmp/main.nt
-    echo "** Generating axioms *************************************"
-    sed "s|{SUB}|${s}|g" axiom.tarql.template > ${s}/tmp/axiom.tarql
-    tarql ${s}/tmp/axiom.tarql | rapper -i turtle - http://www.snik.eu/ontology/${s}/  > ${s}/tmp/axiom.nt
-    
-    if [ -e "${s}/instance.csv" ]
-    then
-    echo "** Generating instances *************************************"
-    sed "s|{SUB}|${s}|g" instance.tarql.template > ${s}/tmp/instance.tarql
-    tarql ${s}/tmp/instance.tarql | rapper -i turtle - http://www.snik.eu/ontology/${s}/ > ${s}/tmp/instance.nt
-    else
-    echo "** WARNING: ${s}/instance.csv DOES NOT EXIST. SKIPPING INSTANCES. ************************************"
-    fi
-
-    if [ -e "${s}/property.csv" ]
-    then
-    echo "** Generating properties ***********************************"
-    sed "s|{SUB}|${s}|g" property.tarql.template > ${s}/tmp/property.tarql
-    tarql ${s}/tmp/property.tarql | rapper -i turtle - http://www.snik.eu/ontology/${s}/ > ${s}/tmp/property.nt
-    else
-    echo "** WARNING: ${s}/property.csv DOES NOT EXIST. SKIPPING PROPERTIES ************************************"
-    fi
-    
-    echo "** Merging ***********************************x************"
-    rapper -i turtle ${s}/ontology.ttl > ${s}/tmp/ontology.nt 
-    cat prefix.ttl ${s}/tmp/*.nt | rapper -i turtle -o turtle - http://www.snik.eu/ontology/${s}/ > ${s}/out/all.ttl
-    echo "** Testing ************************************************"
-    rapper -i turtle -c ${s}/out/all.ttl
-    echo "********************************************************************************************************"
-   fi
-done
