@@ -42,32 +42,32 @@
 		<PAGESIZE>-1</PAGESIZE>
 		<RESTRICTION>?snik a owl:Class</RESTRICTION>
 		<PROPERTY>rdfs:label AS nolang RENAME label</PROPERTY>
-		<PROPERTY>skos:altLabel AS nolang RENAME altLabel</PROPERTY>
+		<!--<PROPERTY>skos:altLabel AS nolang RENAME altLabel</PROPERTY>-->
 		<TYPE>N-TRIPLE</TYPE>
 	</SOURCE>
 
 	<TARGET>
 		<ID>dbpedia</ID>
-		<ENDPOINT>dbpedia-ascii.ttl</ENDPOINT>
+		<ENDPOINT>dbpedia-ascii-5m.ttl</ENDPOINT><!-- first 5 million lines of dbpedia-ascii.ttl, more didn't fit in 10GB heap space -->
 		<VAR>?dbpedia</VAR>
 		<PAGESIZE>-1</PAGESIZE>
-		<RESTRICTION></RESTRICTION>
+		<RESTRICTION>?dbpedia rdfs:label ?v1</RESTRICTION>
 		<PROPERTY>rdfs:label AS nolang RENAME label</PROPERTY>
-		<TYPE>TURTLE</TYPE>
+		<TYPE>N-TRIPLE</TYPE> <!--The DBpedia label dump has type ttl but in fact is only ntriples. -->
 	</TARGET>
 
-<!--<METRIC>trigrams(snik.label,dbpedia.label)</METRIC>-->
-<METRIC>OR(exactMatch(x.label,y.label),exactMatch(x.altLabel,y.label))</METRIC>
+<METRIC>exactMatch(snik.label,dbpedia.label)</METRIC>
+<!--<METRIC>OR(exactMatch(x.label,y.label),exactMatch(x.altLabel,y.label))</METRIC>-->
 	
 	<ACCEPTANCE>
 		<THRESHOLD>1</THRESHOLD>
-		<FILE>snik-dbpedia-exact.ttl</FILE>
+		<FILE>out/snik-dbpedia-exact.ttl</FILE>
 		<RELATION>skos:exactMatch</RELATION>
 	</ACCEPTANCE>
 	
 	<REVIEW>
 		<THRESHOLD>0.8</THRESHOLD>
-		<FILE>snik-dbpedia-close.ttl</FILE>
+		<FILE>out/snik-dbpedia-close.ttl</FILE>
 		<RELATION>skos:closeMatch</RELATION>
 	</REVIEW>
 
@@ -77,5 +77,5 @@
 		<ENGINE>default</ENGINE>
 	</EXECUTION>
 
-	<OUTPUT>TAB</OUTPUT>
+	<OUTPUT>N3</OUTPUT>
 </LIMES>
