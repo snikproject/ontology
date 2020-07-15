@@ -1,0 +1,85 @@
+{
+  "name": "snik",
+  "title": "SNIK",
+  "resources": [
+    {
+      "path": "bb.nt",
+      "pathType": "local",
+      "name": "bb",
+      "format": "nt",
+      "mediatype": "application/n-triples",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "ciox.nt",
+      "pathType": "local",
+      "name": "ciox",
+      "format": "nt",
+      "mediatype": "application/n-triples",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "he.nt",
+      "pathType": "local",
+      "name": "he",
+      "format": "nt",
+      "mediatype": "application/n-triples",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "limes.nt",
+      "pathType": "local",
+      "name": "limes",
+      "format": "nt",
+      "mediatype": "application/n-triples",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "it4it.nt",
+      "pathType": "local",
+      "name": "it4it",
+      "format": "nt",
+      "mediatype": "application/n-triples",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "match.nt",
+      "pathType": "local",
+      "name": "match",
+      "format": "nt",
+      "mediatype": "application/n-triples",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "meta.ttl",
+      "pathType": "local",
+      "name": "meta",
+      "format": "ttl",
+      "mediatype": "text/turtle",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "ob.nt",
+      "pathType": "local",
+      "name": "ob",
+      "format": "nt",
+      "mediatype": "application/n-triples",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "persian.ttl",
+      "pathType": "local",
+      "name": "persian",
+      "format": "ttl",
+      "mediatype": "text/turtle",
+      "encoding": "UTF-8"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-NC-SA-4.0",
+      "path": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "title": "Attribution-NonCommercial-ShareAlike 4.0 International"
+    }
+  ]
+}
