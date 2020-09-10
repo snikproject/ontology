@@ -22,6 +22,7 @@
 <http://www.snik.eu/ontology/bb/Knowledge> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Knowledge> .
 <http://www.snik.eu/ontology/bb/Law> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Law> .
 <http://www.snik.eu/ontology/bb/LogicalToolLayer> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/LogicalToolLayer> .
+<http://www.snik.eu/ontology/bb/Medium> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/Medium> .
 <http://www.snik.eu/ontology/bb/Message> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Message> .
 <http://www.snik.eu/ontology/bb/Metamodel> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Metamodel> .
 <http://www.snik.eu/ontology/bb/Model> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Model> .
