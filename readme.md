@@ -17,10 +17,9 @@ To generate an up-to-date dump of a subontology, enter `DESCRIBE <http://www.sni
 * Edit only with a text editor.
 * Please make sure that you produce the smallest diff possible for your changes, e.g. don't use a tool that shuffles the definition locations around or changes line endings or indentation.
 * Verify after editing with:
-```
-xmllint --noout filename.rdf
-rapper -i rdfxml -c filename.rdf
-````
+    
+    xmllint --noout filename.rdf
+    rapper -i rdfxml -c filename.rdf
 
 ## Filling your own SPARQL Endpoint
 
@@ -39,16 +38,44 @@ Check if it worked by querying `select count(*) {?s ?p ?o.}` for each graph.
 
 2. Add graphs to graph group
 
-```
-DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/bb');
-DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/ob');
-DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/meta');
-DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/ciox');
-```
+    DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/bb');
+    DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/ob');
+    DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/meta');
+    DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/ciox');
 
 3. (Optional) Add virtual Triples
    1. Query `sparql/construct_virtual_triples_and_missing.sparql.txt` as N-Triples
    2. Upload the result to the graph `http://www.snik.eu/ontology/virtual`
+
+## Updating from SPARQL endpoint
+The source of truth for most files is now the SPARQL endpoint, but this repository is still regularily updated in the following manner.
+Exceptions are match.nt, limes-exact.nt and persian.nt, whose source of truth is still the repository.
+
+### Save SPARQL dump on the server
+Replace YYYYMMDD with the current date.
+
+    dump_one_graph ('http://www.snik.eu/ontology/meta', './dumps/YYYYMMDDmeta', 1000000000);
+    dump_one_graph ('http://www.snik.eu/ontology/he', './dumps/YYYYMMDDhe', 1000000000);
+    dump_one_graph ('http://www.snik.eu/ontology/he-unconsolidated', './dumps/YYYYMMDDhe-unconsolidated', 1000000000);
+    dump_one_graph ('http://www.snik.eu/ontology/bb', './dumps/YYYYMMDDbb', 1000000000);
+    dump_one_graph ('http://www.snik.eu/ontology/ob', './dumps/YYYYMMDDob', 1000000000); 
+    dump_one_graph ('http://www.snik.eu/ontology/ciox', './dumps/YYYYMMDDciox', 1000000000); 
+    dump_one_graph ('http://www.snik.eu/ontology/it', './dumps/YYYYMMDDit', 1000000000); 
+    dump_one_graph ('http://www.snik.eu/ontology/it4it', './dumps/YYYYMMDDit4it', 1000000000); 
+
+### Download SPARQL dump from the server
+1. Change directory to your dump folder and run `scp -r "root@bruchtal:/var/lib/docker/volumes/sniktoolset_virtuoso-data/_data/dumps/YYYYMMDD*" .`
+2. Use virtuoso2git to overwrite the source files in your repository, e.g. `dumps$ virtuoso2git . ~/projekte/snik/ontology 20201117`
+3. Merge he.nt and he-unconsolidated.nt
+
+```
+$ cat he.nt he-unconsolidated.nt| LC_ALL=en_US.UTF-8 sort | uniq | less > /tmp/he.nt
+$ mv /tmp/he.nt .
+```
+
+### Inspect, commit and push
+Use vimdiff to check for irregularites, such as massive diffs due to differences in sort order or blank node renamings. If everything is OK, commit and push as normal.
+
 
 ## License
 Because we extracted the triples from copyrighted books with permission of the publishers, we chose a noncommercial license with copyleft, the *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International*, see LICENCE for details.
