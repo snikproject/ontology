@@ -21447,7 +21447,6 @@
 <http://www.snik.eu/ontology/bb/IncreasingCustomerSatisfaction> <http://www.w3.org/2000/01/rdf-schema#label> "Steigerung der Kundenzufriedenheit"@de .
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter7.3> .
-<http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/ElectronicHealthRecord> .
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> <http://www.w3.org/2000/01/rdf-schema#label> "Independent Health Record Bank"@en .
@@ -21537,12 +21536,7 @@
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter3.4> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.3> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.2> .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/TacticalInformationManagement> .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/EnterpriseFunction> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/HospitalInformationSystem> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ArchitectureOfAnInformationSystem> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> .
@@ -23272,6 +23266,7 @@
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Operational Information Management"@en .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Operatives Informationsmanagement"@de .
+<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "Operational information management , finally, is responsible for operating the components of the information system"@en .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "Operational information management is responsible for operating the components of the hospital information system. It has to care for its operation in accordance with the strategic information management plan."@en .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagementStaff> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/AvailabilityOfApplicationComponents> .
@@ -24134,7 +24129,7 @@
 <http://www.snik.eu/ontology/bb/Planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Planning> <http://www.w3.org/2000/01/rdf-schema#label> "Planning"@en .
 <http://www.snik.eu/ontology/bb/Planning> <http://www.w3.org/2000/01/rdf-schema#label> "Planung"@de .
-<http://www.snik.eu/ontology/bb/Planning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Management> .
+<http://www.snik.eu/ontology/bb/Planning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/Planning> <http://www.w3.org/2004/02/skos/core#definition> "One task of information management is planning the hospital information system and its architecture. Planning in strategic information management comprises strategic alignment, establishing a strategic information management plan, and managing portfolios. Planning in tactical management means planning projects and all resources needed for them. Planning in operational information management means planning organizational structures, procedures, and all resources such as finances, staff, rooms, or buildings that are necessary to ensure the faultless operation of all components of the hospital information system."@en .
 <http://www.snik.eu/ontology/bb/PlanningOfBuildings> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.2> .
 <http://www.snik.eu/ontology/bb/PlanningOfBuildings> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
@@ -25674,8 +25669,8 @@
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/bb/page> "242"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.2> .
-<http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/LongTermHISPlanning> .
+<http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/PortfolioManagement> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ShortTermHISPlanning> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/HisArchitecture> .
@@ -25699,7 +25694,7 @@
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> <http://www.w3.org/2000/01/rdf-schema#label> "Strategic Information Management Goal"@en .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementGoal> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> <http://www.w3.org/2004/02/skos/core#definition> "Based on a description of the hospital\u201Fs strategic goals (e.g., presented in a mission statement), the strategic information management goals should be derived using the method of strategic alignment. (chapter 9.4) The challenge of information management is to keep the balance between the different - and possible contradicting- goals of the hospital. (chapter 8.5)"@en .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/bb/page> "242"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.snik.eu/ontology/bb/page> "30"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
@@ -25719,6 +25714,7 @@
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Strategic Information Management"@en .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Strategisches Informationsmanagement"@de .
+<http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicManagementOfInformationSystems> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "Strategic information management deals with information processing as a whole. Strategic information management deals with the hospital\u2019s information processing as a whole. It depends strictly on the hospital\u2019s business strategy and strategic goals and has to translate these into an appropriate information strategy. One part of information management. Deals with the enterprise\u2019s information processing as a whole and establishes strategies and principles for the evolution of the information system. An important result of strategic information management activities is a strategic information management plan which is aligned with the hospital\u2019s business strategy."@en .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/bb/page> "78"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
@@ -26026,6 +26022,7 @@
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Tactical Information Management"@en .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Taktisches Informationsmanagement"@de .
+<http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "One part of information management. Deals with particular enterprise functions or application components that are introduced, removed, or changed. Usually these activities are done in the form of projects."@en .
 <http://www.snik.eu/ontology/bb/TansCriticalSuccessFactorApproach> <http://www.snik.eu/ontology/bb/page> "256"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/TansCriticalSuccessFactorApproach> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.4> .
