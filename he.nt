@@ -2270,8 +2270,6 @@
 <http://www.snik.eu/ontology/he/Benutzeranalyse> <http://www.w3.org/2000/01/rdf-schema#label> "Benutzeranalyse"@de .
 <http://www.snik.eu/ontology/he/Benutzeranalyse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/he/Benutzerforschung> .
 <http://www.snik.eu/ontology/he/Benutzeranalyse> <http://www.w3.org/2004/02/skos/core#definition> "Mit Benutzeranalysen werden werden die Gruppenzugeh\u00F6rigkeit von Benutzern und deren Rollenzugeh\u00F6rigkeit untersucht. Dabei ist zu ermitteln welche unterschiedlichen Gruppen von Benutzern es gibt."@de .
-<http://www.snik.eu/ontology/he/BenutzerforschungDurchfuehren> <http://www.snik.eu/ontology/he/page> "423"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/he/BenutzerforschungDurchfuehren> <http://www.snik.eu/ontology/he/page> "426"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/he/BenutzerforschungDurchfuehren> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/he/INBAN> .
 <http://www.snik.eu/ontology/he/BenutzerforschungDurchfuehren> <http://www.snik.eu/ontology/meta/consolidated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.snik.eu/ontology/he/BenutzerforschungDurchfuehren> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
