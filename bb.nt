@@ -17214,14 +17214,7 @@
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/AnnualITBudget> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/InformationManagementDepartment> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/EstablishAndPromoteTheStrategicInformationManagementPlan> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/HisBudgetPlanning> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/ReportingToTheCEO> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/ReportToTheHospitalsBoardOfDirectors> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/StrategicAlignment> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
-<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/TacticalInformationManagement> .
+<http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ChiefInformationOfficer> <http://www.w3.org/2000/01/rdf-schema#label> "Chief Information Officer"@en .
