@@ -244,6 +244,7 @@
 <http://www.snik.eu/ontology/he/ItIL> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Itil> .
 <http://www.snik.eu/ontology/he/ItIL> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/InformationTechnologyInfrastructureLibrary> .
 <http://www.snik.eu/ontology/he/Kostentraeger> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/CostUnit> .
+<http://www.snik.eu/ontology/he/OperativesInformationsmanagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ProjectManager> .
 <http://www.snik.eu/ontology/he/SAN> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/StorageAreaNetwork> .
 <http://www.snik.eu/ontology/he/Standard> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Standard> .

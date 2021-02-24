@@ -142,7 +142,6 @@
 <http://www.snik.eu/ontology/he/Motivation> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ProjectMotivation> .
 <http://www.snik.eu/ontology/he/Nutzwertanalyse> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/UtilityAnalysis> .
 <http://www.snik.eu/ontology/he/Operation> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Operation> .
-<http://www.snik.eu/ontology/he/OperativesInformationsmanagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
 <http://www.snik.eu/ontology/he/OperativesInformationsmanagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/OperationalManagementOfInformationSystems> .
 <http://www.snik.eu/ontology/he/Operator> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Operator> .
 <http://www.snik.eu/ontology/he/Outsourcing> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Outsourcing> .
