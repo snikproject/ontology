@@ -826,7 +826,6 @@ bb:ProcessChain rdfs:label "ز��جیره فرآیند"@fa .
 bb:ProcessControlling rdfs:label "کنترل فرایند"@fa .
 bb:ProcessIntegration rdfs:label "یکپارچگی فرایند"@fa .
 bb:Project rdfs:label "پروژه"@fa .
-bb:ProjectCompletion rdfs:label "تکمیل پروژه"@fa .
 bb:ProjectCompletionPhase rdfs:label "مرحله تکمیل پروژه"@fa .
 bb:ProjectConflictManagement rdfs:label "مدیریت تضاد پروژه"@fa,  "مدیریت درگیری در پروژه"@fa .
 bb:ProjectExecution rdfs:label "اجرای پروژه"@fa .
