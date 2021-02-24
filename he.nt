@@ -13748,7 +13748,6 @@
 <http://www.snik.eu/ontology/he/Projektmanagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/he/Projektmanagement> <http://www.w3.org/2000/01/rdf-schema#label> "Projektmanagement"@de .
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/he/page> "241"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/he/page> "38"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/he/page> "44"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/he/ARCHI> .
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/he/PERSM> .
