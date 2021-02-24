@@ -413,7 +413,7 @@
 <http://www.snik.eu/ontology/bb/AcquireAndImplement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/AcquireAndImplement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/AcquireAndImplement> <http://www.w3.org/2000/01/rdf-schema#label> "Acquire and Implement"@en .
-<http://www.snik.eu/ontology/bb/AcquireAndImplement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb/AcquireAndImplement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/Activity> <http://www.snik.eu/ontology/bb/page> "55"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Activity> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
 <http://www.snik.eu/ontology/bb/Activity> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/EnterpriseFunction> .
@@ -1279,7 +1279,7 @@
 <http://www.snik.eu/ontology/bb/blank220279> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
 <http://www.snik.eu/ontology/bb/blank220280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.snik.eu/ontology/bb/blank220280> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isDecomposedIn> .
-<http://www.snik.eu/ontology/bb/blank220280> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb/blank220280> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/blank220281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.snik.eu/ontology/bb/blank220281> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isAssociatedWith> .
 <http://www.snik.eu/ontology/bb/blank220281> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/ACnStyle> .
@@ -4481,7 +4481,7 @@
 <http://www.snik.eu/ontology/bb/blank221331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank221331> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
 <http://www.snik.eu/ontology/bb/blank221331> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/AcquireAndImplement> .
-<http://www.snik.eu/ontology/bb/blank221331> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb/blank221331> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/blank221332> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/blank221332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank221332> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
@@ -6709,7 +6709,7 @@
 <http://www.snik.eu/ontology/bb/blank221782> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank221782> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
 <http://www.snik.eu/ontology/bb/blank221782> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/DeliverAndSupport> .
-<http://www.snik.eu/ontology/bb/blank221782> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb/blank221782> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/blank221783> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/blank221783> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank221783> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
@@ -10741,7 +10741,7 @@
 <http://www.snik.eu/ontology/bb/blank222612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank222612> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
 <http://www.snik.eu/ontology/bb/blank222612> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/MonitorAndEvaluate> .
-<http://www.snik.eu/ontology/bb/blank222612> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb/blank222612> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/blank222613> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/blank222613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank222613> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
@@ -12891,7 +12891,7 @@
 <http://www.snik.eu/ontology/bb/blank223052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank223052> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
 <http://www.snik.eu/ontology/bb/blank223052> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/PlanAndOrganize> .
-<http://www.snik.eu/ontology/bb/blank223052> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb/blank223052> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/blank223053> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/blank223053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank223053> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
@@ -17385,19 +17385,19 @@
 <http://www.snik.eu/ontology/bb/Cluster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Cluster> <http://www.w3.org/2000/01/rdf-schema#label> "Cluster"@en .
 <http://www.snik.eu/ontology/bb/Cluster> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> .
-<http://www.snik.eu/ontology/bb/CobitDomain> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
-<http://www.snik.eu/ontology/bb/CobitDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/bb/CobitDomain> <http://www.w3.org/2000/01/rdf-schema#label> "COBIT Domain"@en .
-<http://www.snik.eu/ontology/bb/CobitDomain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/bb/page> "268"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
-<http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.w3.org/2000/01/rdf-schema#label> "COBIT"@en .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Framework> .
 <http://www.snik.eu/ontology/bb/Cobit> <http://www.w3.org/2004/02/skos/core#definition> "COBIT is developed by the IT Governance Institute. It provides a common language for executives to communicate goals, objectives and expected results of IT systems and IT projects. COBIT is built on a process model that defines 34 IT-related processes within four domains: plan and organize; acquire and implement; deliver and support; monitor and evaluate. Provides a common language to communicate goals, objectives, and expected results of application components and related projects. COBIT defines 34 IT-related business processes. For each of them, information on how the specific process goals can be measured, what the key activities and major deliverables are, and who is responsible for them is provided."@en .
+<http://www.snik.eu/ontology/bb/CobitProcess> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/bb/CobitProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/bb/CobitProcess> <http://www.w3.org/2000/01/rdf-schema#label> "COBIT Processes for IT Governance"@en .
+<http://www.snik.eu/ontology/bb/CobitProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/CodingOfDiagnoses> .
 <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/CodingOfProcedures> .
@@ -18112,7 +18112,7 @@
 <http://www.snik.eu/ontology/bb/DeliverAndSupport> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/DeliverAndSupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/DeliverAndSupport> <http://www.w3.org/2000/01/rdf-schema#label> "Deliver and Support"@en .
-<http://www.snik.eu/ontology/bb/DeliverAndSupport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb/DeliverAndSupport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#label> "Delivering of Customer-Centered Services"@en .
@@ -20135,7 +20135,7 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/CloseToHierarchyNetwork> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Cluster> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Cobit> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/CodingOfDiagnoses> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/CodingOfDiagnosesAndProcedures> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/CodingOfProcedures> .
@@ -22798,7 +22798,7 @@
 <http://www.snik.eu/ontology/bb/MonitorAndEvaluate> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/MonitorAndEvaluate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/MonitorAndEvaluate> <http://www.w3.org/2000/01/rdf-schema#label> "Monitor and Evaluate"@en .
-<http://www.snik.eu/ontology/bb/MonitorAndEvaluate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb/MonitorAndEvaluate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/Monitoring> <http://www.snik.eu/ontology/bb/page> "312"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Monitoring> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
 <http://www.snik.eu/ontology/bb/Monitoring> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
@@ -24129,7 +24129,7 @@
 <http://www.snik.eu/ontology/bb/PlanAndOrganize> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/PlanAndOrganize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/PlanAndOrganize> <http://www.w3.org/2000/01/rdf-schema#label> "Plan and Organize"@en .
-<http://www.snik.eu/ontology/bb/PlanAndOrganize> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/CobitDomain> .
+<http://www.snik.eu/ontology/bb/PlanAndOrganize> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/Planning> <http://www.snik.eu/ontology/bb/page> "317"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Planning> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
 <http://www.snik.eu/ontology/bb/Planning> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .

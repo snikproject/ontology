@@ -177,7 +177,7 @@ bb:ClinicalTrial rdfs:label "آزمایشات بالینی"@fa .
 bb:CloseToHierarchyNetwork rdfs:label "شبکه نزدیک به سلسله مراتب"@fa .
 bb:Cluster rdfs:label "خوشه"@fa .
 bb:Cobit rdfs:label "COBIT"@fa .
-bb:CobitDomain rdfs:label "دامنه COBIT"@fa .
+bb:CobitProcess rdfs:label "دامنه COBIT"@fa .
 bb:CodingOfDiagnoses rdfs:label "کد گذاری تشخیص"@fa .
 bb:CodingOfDiagnosesAndProcedures rdfs:label "کد گذاری تشخیص و جراحی ها"@fa .
 bb:CodingOfProcedures rdfs:label "کد گذاری جراحی"@fa .
