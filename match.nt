@@ -198,6 +198,7 @@
 <http://www.snik.eu/ontology/bb/SecondLevelSupport> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/SecondLevelSupport> .
 <http://www.snik.eu/ontology/bb/SelectOrdersFromOrderSets> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://hitontology.eu/ontology/SelectOrdersFromOrderSets> .
 <http://www.snik.eu/ontology/bb/SoftwareProduct> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/SoftwareProduct> .
+<http://www.snik.eu/ontology/bb/StrategicGoalOfTheInstitution> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/BusinessStrategy> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicHISDirecting> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicHISMonitoring> .
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicInformationManagementPlanning> .
