@@ -20565,6 +20565,7 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/managementFinancingForm> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/managementLegalForm> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ManagementOfClinicalDepartment> .
+<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ManagementOfEhr> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ManagementOfMedicalDevices> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ManagementOfNonClinicalDepartment> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ManagementOfUserAccounts> .
@@ -20643,6 +20644,7 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/NetworkMonitoring> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/NetworkStandard> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/NetworkTopology> .
+<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/NeutralIhrbActor> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Nic> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Noc> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Nomenclature> .
@@ -22379,6 +22381,14 @@
 <http://www.snik.eu/ontology/bb/ManagementOfClinicalDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ManagementOfClinicalDepartment> <http://www.w3.org/2000/01/rdf-schema#label> "Management of Clinical Department"@en .
 <http://www.snik.eu/ontology/bb/ManagementOfClinicalDepartment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ManagementDepartment> .
+<http://www.snik.eu/ontology/bb/ManagementOfEhr> <http://www.snik.eu/ontology/bb/page> "192"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.snik.eu/ontology/bb/ManagementOfEhr> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter7.3> .
+<http://www.snik.eu/ontology/bb/ManagementOfEhr> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/bb/ManagementOfEhr> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/ElectronicHealthRecord> .
+<http://www.snik.eu/ontology/bb/ManagementOfEhr> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ElectronicHealthRecord> .
+<http://www.snik.eu/ontology/bb/ManagementOfEhr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/bb/ManagementOfEhr> <http://www.w3.org/2000/01/rdf-schema#label> "management of electronic health records"@en .
+<http://www.snik.eu/ontology/bb/ManagementOfEhr> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Management> .
 <http://www.snik.eu/ontology/bb/ManagementOfMedicalDevices> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/ManagementOfMedicalDevices> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ManagementOfMedicalDevices> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/MedicalDevice> .
@@ -22892,6 +22902,14 @@
 <http://www.snik.eu/ontology/bb/NetworkTopology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/NetworkTopology> <http://www.w3.org/2000/01/rdf-schema#label> "Network Topology"@en .
 <http://www.snik.eu/ontology/bb/NetworkTopology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/bb/NeutralIhrbActor> <http://www.snik.eu/ontology/bb/page> "199"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.snik.eu/ontology/bb/NeutralIhrbActor> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter7.7> .
+<http://www.snik.eu/ontology/bb/NeutralIhrbActor> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/IndependentHealthRecordBank> .
+<http://www.snik.eu/ontology/bb/NeutralIhrbActor> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/ManagementOfEhr> .
+<http://www.snik.eu/ontology/bb/NeutralIhrbActor> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/bb/NeutralIhrbActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/bb/NeutralIhrbActor> <http://www.w3.org/2000/01/rdf-schema#label> "neutral independent health bank actor"@en .
+<http://www.snik.eu/ontology/bb/NeutralIhrbActor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/bb/Nic> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/Nic> <http://www.snik.eu/ontology/bb/page> "116"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Nic> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.4> .
