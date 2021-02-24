@@ -878,7 +878,6 @@
 <http://www.snik.eu/ontology/ciox/ItMassnahme> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/ItMassnahme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/ItMassnahme> <http://www.w3.org/2000/01/rdf-schema#label> "IT-Ma\u00DFnahme"@de .
-<http://www.snik.eu/ontology/ciox/ItMassnahme> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/InformationManagementGoal> .
 <http://www.snik.eu/ontology/ciox/ItMassnahmenDokumentation> <http://purl.org/dc/terms/source> <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> .
 <http://www.snik.eu/ontology/ciox/ItMassnahmenDokumentation> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/ciox/ItStrategieErstellung> .
 <http://www.snik.eu/ontology/ciox/ItMassnahmenDokumentation> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
