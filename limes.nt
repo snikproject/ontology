@@ -234,7 +234,6 @@
 <http://www.snik.eu/ontology/ob/ProjectResult> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/ProjectResult> .
 <http://www.snik.eu/ontology/ob/QualityOfHISStructures> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/QualityOfHISStructures> .
 <http://www.snik.eu/ontology/ob/QualityOfStructures> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/QualityOfStructures> .
-<http://www.snik.eu/ontology/ob/ReferenceModel> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/ReferenceModel> .
 <http://www.snik.eu/ontology/ob/SocioTechnicalSystem> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/SocioTechnicalSystem> .
 <http://www.snik.eu/ontology/ob/StandardizationOfInterfaces> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/StandardizationOfInterfaces> .
 <http://www.snik.eu/ontology/ob/SubInformationSystem> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/SubInformationSystem> .

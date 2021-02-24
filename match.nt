@@ -260,5 +260,6 @@
 <http://www.snik.eu/ontology/ob/ItServiceManagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/ItServiceManagement> .
 <http://www.snik.eu/ontology/ob/KeyPerformanceIndicator> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/KeyPerformanceIndicator> .
 <http://www.snik.eu/ontology/ob/ProjectManager> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/ProjectManager> .
+<http://www.snik.eu/ontology/ob/ReferenceModel> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/ReferenceModel> .
 <http://www.snik.eu/ontology/ob/SystemAnalysis> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/SystemAnalysis> .
 <http://www.snik.eu/ontology/ob/SystemAnalysis> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/Informationssystemanalyse> .
