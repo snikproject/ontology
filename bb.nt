@@ -17772,7 +17772,6 @@
 <http://www.snik.eu/ontology/bb/Controlling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Controlling> <http://www.w3.org/2000/01/rdf-schema#label> "Controlling"@en .
 <http://www.snik.eu/ontology/bb/Controlling> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Administration> .
-<http://www.snik.eu/ontology/bb/Controlling> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Management> .
 <http://www.snik.eu/ontology/bb/Controlling> <http://www.w3.org/2004/02/skos/core#definition> "Gathering and aggregating financial and other data about the hospital\u2019s operation in order to control and optimize them. This covers, for example, staff controlling, process controlling, material controlling, and financial controlling."@en .
 <http://www.snik.eu/ontology/bb/ControllingReport> <http://www.snik.eu/ontology/bb/page> "78"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/ControllingReport> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.2> .
