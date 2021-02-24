@@ -19642,12 +19642,6 @@
 <http://www.snik.eu/ontology/bb/HisInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HisInfrastructure> <http://www.w3.org/2004/02/skos/core#definition> "The set of all physical data processing systems in a health care institution is called the infrastructure of its HIS. This infrastructure can be described by the overall number of physical data processing systems, by the average number of physical data processing systems per unit (e.g., two personal computers and one laptop per ward), or per staff member."@en .
 <http://www.snik.eu/ontology/bb/HisInfrastructure> <http://www.w3.org/2004/02/skos/core#related> <http://www.snik.eu/ontology/bb/PhysicalToolLayer> .
-<http://www.snik.eu/ontology/bb/HisOperation> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.snik.eu/ontology/bb/HisOperation> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.2> .
-<http://www.snik.eu/ontology/bb/HisOperation> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
-<http://www.snik.eu/ontology/bb/HisOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/bb/HisOperation> <http://www.w3.org/2000/01/rdf-schema#label> "HIS Operation"@en .
-<http://www.snik.eu/ontology/bb/HisOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/bb/page> "221"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/HisQuality> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter8.5> .
@@ -20380,7 +20374,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/HisCertification> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/HisComponent> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/HisInfrastructure> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/HisOperation> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/HisQuality> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/HisStakeholder> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/HL7CDA> .
