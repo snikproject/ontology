@@ -4043,9 +4043,6 @@
 <http://www.snik.eu/ontology/bb/blank221201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.snik.eu/ontology/bb/blank221201> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isAssociatedWith> .
 <http://www.snik.eu/ontology/bb/blank221201> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/EnterpriseFunction> .
-<http://www.snik.eu/ontology/bb/blank221202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.snik.eu/ontology/bb/blank221202> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isDecomposedIn> .
-<http://www.snik.eu/ontology/bb/blank221202> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/ProjectCompletion> .
 <http://www.snik.eu/ontology/bb/blank221203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.snik.eu/ontology/bb/blank221203> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isDecomposedIn> .
 <http://www.snik.eu/ontology/bb/blank221203> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/ProjectExecution> .
@@ -13132,7 +13129,6 @@
 <http://www.snik.eu/ontology/bb/blank223102> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/blank223102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank223102> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
-<http://www.snik.eu/ontology/bb/blank223102> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/ProjectCompletion> .
 <http://www.snik.eu/ontology/bb/blank223102> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/blank223103> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/blank223103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
@@ -20826,7 +20822,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ProcessControlling> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ProcessIntegration> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Project> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ProjectCompletion> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ProjectCompletionPhase> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ProjectConflictManagement> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ProjectExecution> .
@@ -24297,11 +24292,6 @@
 <http://www.snik.eu/ontology/bb/ProcessIntegration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Integration> .
 <http://www.snik.eu/ontology/bb/ProcessIntegration> <http://www.w3.org/2004/02/skos/core#definition> "Process integration is guaranteed when business processes are effectively supported by a set of interacting application components. Condition of an information system where business processes are effectively supported by a set of interacting application components."@en .
 <http://www.snik.eu/ontology/bb/ProcessIntegration> <http://www.w3.org/2004/02/skos/core#definition> "Process integration is guaranteed when business processes are effectively supported           by a set of interacting application components."@en .
-<http://www.snik.eu/ontology/bb/ProjectCompletion> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.2> .
-<http://www.snik.eu/ontology/bb/ProjectCompletion> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
-<http://www.snik.eu/ontology/bb/ProjectCompletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/bb/ProjectCompletion> <http://www.w3.org/2000/01/rdf-schema#label> "Project Completion"@en .
-<http://www.snik.eu/ontology/bb/ProjectCompletion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/ProjectCompletionPhase> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ProjectCompletionPhase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ProjectCompletionPhase> <http://www.w3.org/2000/01/rdf-schema#label> "Project Completion Phase"@en .
@@ -25911,9 +25901,9 @@
 <http://www.snik.eu/ontology/bb/SystemAnalysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ProjectExecution> .
 <http://www.snik.eu/ontology/bb/SystematicInformationProcessing> <http://schema.org/error> "Exact subclass relationship unclear: is a goal a function?" .
 <http://www.snik.eu/ontology/bb/SystematicInformationProcessing> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter2.4> .
-<http://www.snik.eu/ontology/bb/SystematicInformationProcessing> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/StrategicGoalOfTheInstitution> .
-<http://www.snik.eu/ontology/bb/SystematicInformationProcessing> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> .
 <http://www.snik.eu/ontology/bb/SystematicInformationProcessing> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/bb/SystematicInformationProcessing> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/StrategicGoalOfTheInstitution> .
+<http://www.snik.eu/ontology/bb/SystematicInformationProcessing> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> .
 <http://www.snik.eu/ontology/bb/SystematicInformationProcessing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/SystematicInformationProcessing> <http://www.w3.org/2000/01/rdf-schema#label> "Systematic Information Processing"@en .
 <http://www.snik.eu/ontology/bb/SystematicInformationProcessing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
@@ -26002,7 +25992,6 @@
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.w3.org/2004/02/skos/core#definition> "Planning in tactical information management means planning projects and all the resources needed for them."@en .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/bb/page> "243"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
-<http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProjectCompletion> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProjectExecution> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ProjectPlanning> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/EnterpriseFunction> .
