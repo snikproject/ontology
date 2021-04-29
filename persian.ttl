@@ -1066,7 +1066,6 @@ bb:TransinstitutionalHealthCareFunction rdfs:label "تابع مراقبت های
 bb:TransinstitutionalHealthInformationSystem rdfs:label "سیستم اطالاعاتی درمانی میان سازمانی"@fa .
 bb:TransmittingMedium rdfs:label "وسیله فرستنده"@fa .
 bb:Transparency rdfs:label "شفافیت"@fa .
-bb:TreatmentBill rdfs:label "پرونده درمان"@fa .
 bb:TreatmentText rdfs:label "متن درمانی"@fa .
 bb:Tree rdfs:label "درخت"@fa .
 bb:TroubleShooting rdfs:label "عیب یابی"@fa .
