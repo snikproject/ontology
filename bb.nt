@@ -934,7 +934,7 @@
 <http://www.snik.eu/ontology/bb/BestPracticeBenchmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/BestPracticeBenchmark> <http://www.w3.org/2000/01/rdf-schema#label> "Best-Practice-Benchmark"@en .
 <http://www.snik.eu/ontology/bb/BestPracticeBenchmark> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/bb/Bill> <http://www.snik.eu/ontology/bb/page> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://www.snik.eu/ontology/bb/Bill> <http://www.snik.eu/ontology/bb/page> "78"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Bill> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.2> .
 <http://www.snik.eu/ontology/bb/Bill> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Bill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -21186,7 +21186,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/TransinstitutionalHealthInformationSystem> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/TransmittingMedium> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Transparency> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/TreatmentBill> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/TreatmentText> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Tree> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/tripelPage> .
@@ -26290,14 +26289,6 @@
 <http://www.snik.eu/ontology/bb/Transparency> <http://www.w3.org/2000/01/rdf-schema#label> "Transparency"@en .
 <http://www.snik.eu/ontology/bb/Transparency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/QualityOfHISArchitecture> .
 <http://www.snik.eu/ontology/bb/Transparency> <http://www.w3.org/2004/02/skos/core#definition> "The details of the HIS architecture are described in an up-to-date documentation (e.g., using 3LGM \u00B2 as modeling language)."@en .
-<http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.snik.eu/ontology/bb/page> "78"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.2> .
-<http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/2000/01/rdf-schema#label> "Behandlungsrechnung"@de .
-<http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/2000/01/rdf-schema#label> "treatment bill"@en .
-<http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Bill> .
-<http://www.snik.eu/ontology/bb/TreatmentBill> <http://www.w3.org/2004/02/skos/core#definition> "Is demanded payment"@en .
 <http://www.snik.eu/ontology/bb/TreatmentText> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/TreatmentText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/TreatmentText> <http://www.w3.org/2000/01/rdf-schema#label> "Behandlung"@de .
