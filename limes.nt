@@ -218,7 +218,6 @@
 <http://www.snik.eu/ontology/ob/HisCertification> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/HisCertification> .
 <http://www.snik.eu/ontology/ob/HospitalInformationSystem> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/HospitalInformationSystem> .
 <http://www.snik.eu/ontology/ob/HumanResource> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/HumanResource> .
-<http://www.snik.eu/ontology/ob/InformationAndKnowledgeLogistics> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> .
 <http://www.snik.eu/ontology/ob/MigrationPath> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/MigrationPath> .
 <http://www.snik.eu/ontology/ob/NonComputerBasedApplicationComponent> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/NonComputerBasedApplicationComponent> .
 <http://www.snik.eu/ontology/ob/OrganizationalSystem> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/OrganizationalSystem> .

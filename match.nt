@@ -259,6 +259,7 @@
 <http://www.snik.eu/ontology/he/Systemanalyse> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/SystemAnalysis> .
 <http://www.snik.eu/ontology/ob/CommunicationInterface> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/CommunicationInterface> .
 <http://www.snik.eu/ontology/ob/DelphiMethod> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/DelphiSurvey> .
+<http://www.snik.eu/ontology/ob/InformationAndKnowledgeLogistics> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> .
 <http://www.snik.eu/ontology/ob/InformationProcessingTool> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/InformationProcessingTool> .
 <http://www.snik.eu/ontology/ob/InformationSystemModel> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/InformationSystemModel> .
 <http://www.snik.eu/ontology/ob/ItServiceManagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/ItServiceManagement> .
