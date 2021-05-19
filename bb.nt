@@ -573,7 +573,7 @@
 <http://www.snik.eu/ontology/bb/AdoptionOfProjectResult> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ProjectResult> .
 <http://www.snik.eu/ontology/bb/AdoptionOfProjectResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/AdoptionOfProjectResult> <http://www.w3.org/2000/01/rdf-schema#label> "Adoption of Project Result"@en .
-<http://www.snik.eu/ontology/bb/AdoptionOfProjectResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/AdoptionOfProjectResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/bb/page> "150"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Adt> <http://www.snik.eu/ontology/bb/page> "294"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
@@ -17957,7 +17957,7 @@
 <http://www.snik.eu/ontology/bb/DataProtection> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/DataProtection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/DataProtection> <http://www.w3.org/2000/01/rdf-schema#label> "Data Protection"@en .
-<http://www.snik.eu/ontology/bb/DataProtection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/DataProtection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/DataReferenceModel> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/bb/DataMetamodel> .
 <http://www.snik.eu/ontology/bb/DataReferenceModel> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/DataReferenceModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -18626,7 +18626,7 @@
 <http://www.snik.eu/ontology/bb/EstablishingReferentialIntegrity> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/ReferentialIntegrity> .
 <http://www.snik.eu/ontology/bb/EstablishingReferentialIntegrity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/EstablishingReferentialIntegrity> <http://www.w3.org/2000/01/rdf-schema#label> "Establishing Referential Integrity"@en .
-<http://www.snik.eu/ontology/bb/EstablishingReferentialIntegrity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/EstablishingReferentialIntegrity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/Ethernet> <http://www.snik.eu/ontology/meta/isBasedOn> <http://www.snik.eu/ontology/bb/LogicalNetworkTopology> .
 <http://www.snik.eu/ontology/bb/Ethernet> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Ethernet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -18706,7 +18706,7 @@
 <http://www.snik.eu/ontology/bb/ExecutionOfAnITEvaluationStudy> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/StudyPlan> .
 <http://www.snik.eu/ontology/bb/ExecutionOfAnITEvaluationStudy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ExecutionOfAnITEvaluationStudy> <http://www.w3.org/2000/01/rdf-schema#label> "Execution of an IT Evaluation Study"@en .
-<http://www.snik.eu/ontology/bb/ExecutionOfAnITEvaluationStudy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/ExecutionOfAnITEvaluationStudy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ExecutionOfAnOperation> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/ExecutionOfAnOperation> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ExecutionOfAnOperation> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/OperationReport> .
@@ -18864,7 +18864,7 @@
 <http://www.snik.eu/ontology/bb/FailureManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/FailureManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/FailureManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Failure Management"@en .
-<http://www.snik.eu/ontology/bb/FailureManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/FailureManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/FamilyHistory> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/FamilyHistory> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/FamilyHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -19313,7 +19313,7 @@
 <http://www.snik.eu/ontology/bb/FulfillmentOfLawsRelevantToInformationManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/SigG> .
 <http://www.snik.eu/ontology/bb/FulfillmentOfLawsRelevantToInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/FulfillmentOfLawsRelevantToInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Fulfillment of Laws relevant to Information Management"@en .
-<http://www.snik.eu/ontology/bb/FulfillmentOfLawsRelevantToInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/FulfillmentOfLawsRelevantToInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/FulfillmentOfLawsRelevantToInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "In each country, different laws affect health information processing, addressing, for example, organization of health care, financing of health care, and health statistics. Those laws must be taken into account by information management. "@en .
 <http://www.snik.eu/ontology/bb/FulfillmentOfStrategicHospitalGoal> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/FulfillmentOfStrategicHospitalGoal> <http://www.snik.eu/ontology/bb/page> "213"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
@@ -19328,7 +19328,7 @@
 <http://www.snik.eu/ontology/bb/FulfillmentOfTheExpectationsOfDifferentStakeholders> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/RequirementOfHISStakeholder> .
 <http://www.snik.eu/ontology/bb/FulfillmentOfTheExpectationsOfDifferentStakeholders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/FulfillmentOfTheExpectationsOfDifferentStakeholders> <http://www.w3.org/2000/01/rdf-schema#label> "Fulfillment of the Expectations of Different Stakeholders"@en .
-<http://www.snik.eu/ontology/bb/FulfillmentOfTheExpectationsOfDifferentStakeholders> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/FulfillmentOfTheExpectationsOfDifferentStakeholders> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/FunctionalCoverageOfTheApplicationComponent> <http://www.snik.eu/ontology/bb/page> "265"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/FunctionalCoverageOfTheApplicationComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.5> .
 <http://www.snik.eu/ontology/bb/FunctionalCoverageOfTheApplicationComponent> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -19851,8 +19851,8 @@
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/bb/page> "33"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/HisComponent> .
-<http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/InformationProcessing> .
-<http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/InformationStorage> .
+<http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/InformationProcessing> .
+<http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/InformationStorage> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/bb/FulfillmentOfStrategicHospitalGoal> .
 <http://www.snik.eu/ontology/bb/HospitalInformationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -21254,6 +21254,7 @@
 <http://www.snik.eu/ontology/bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://www.snik.eu/ontology/bb> <http://www.w3.org/2000/01/rdf-schema#comment> "Winter A, Haux R, Ammenwerth E, Brigl B, Hellrung N, Jahn F. Health Information Systems - Architectures and Strategies. London: Springer; 2011."@en .
 <http://www.snik.eu/ontology/bb> <http://www.w3.org/2000/01/rdf-schema#label> "bb" .
+<http://www.snik.eu/ontology/bb> <http://www.w3.org/2000/01/rdf-schema#label> "BB" .
 <http://www.snik.eu/ontology/bb> <http://www.w3.org/2000/01/rdf-schema#label> "Health Information Systems Ontology"@en .
 <http://www.snik.eu/ontology/bb> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2000/01/rdf-schema#> .
 <http://www.snik.eu/ontology/bb> <http://www.w3.org/2002/07/owl#versionInfo> "0.3.0" .
@@ -21405,7 +21406,7 @@
 <http://www.snik.eu/ontology/bb/ImprovingCustomerCenteredServices> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ImprovingCustomerCenteredServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ImprovingCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#label> "Improving Customer-Centered Services"@en .
-<http://www.snik.eu/ontology/bb/ImprovingCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/ImprovingCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ImprovingDigitalization> <http://purl.org/dc/terms/source> <http://subs.emis.de/LNI/Proceedings/Proceedings259/685.pdf> .
 <http://www.snik.eu/ontology/bb/ImprovingDigitalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> .
 <http://www.snik.eu/ontology/bb/ImprovingDigitalization> <http://www.w3.org/2000/01/rdf-schema#label> "Digitalisierung verbessern"@de .
@@ -21463,11 +21464,13 @@
 <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.snik.eu/ontology/bb/page> "305"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
 <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.snik.eu/ontology/meta/DefinitionDEPage> "35"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Information> .
+<http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Knowledge> .
 <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.w3.org/2000/01/rdf-schema#label> "Information and Knowledge Logistics"@en .
 <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.w3.org/2000/01/rdf-schema#label> "Informations- und Wissenslogistik"@de .
-<http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.w3.org/2004/02/skos/core#definition> "To make available the right information and knowledge at the right time, at the right place, to the right people, in the right form, so that people can make the right decisions."@en .
 <http://www.snik.eu/ontology/bb/InformationAndKnowledgeLogistics> <http://www.w3.org/2004/02/skos/core#definition> "When hospital information systems make available  the right information and knowledge at the right time at the right place  to the right people in the right form, so that these people can make the right decisions, this is also described as information and knowledge logistics. \u2022 the right information and knowledge \u2022 at the right time \u2022 at the right place \u2022 to the right people \u2022 in the right form,"@en .
 <http://www.snik.eu/ontology/bb/InformationDesk> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/VisitorAndInformationService> .
@@ -21529,6 +21532,7 @@
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter3.4> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.3> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.2> .
+<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ItServiceManagement.> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ArchitectureOfAnInformationSystem> .
@@ -21574,14 +21578,12 @@
 <http://www.snik.eu/ontology/bb/InformationManagementStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HospitalStaff> .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/bb/page> "306"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
-<http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ComputerBasedInformationProcessing> .
-<http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/NonComputerBasedInformationProcessing> .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.w3.org/2000/01/rdf-schema#label> "Information Processing"@en .
 <http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.w3.org/2000/01/rdf-schema#label> "Informationsverarbeitung"@de .
-<http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
-<http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.w3.org/2004/02/skos/core#definition> "In the context of hospital information systems, it refers to the processing of data together with their related information, and knowledge.341"@en .
+<http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/bb/InformationProcessing> <http://www.w3.org/2004/02/skos/core#definition> "In the context of hospital information systems, it refers to the processing of data together with their related information, and knowledge."@en .
 <http://www.snik.eu/ontology/bb/InformationProcessingModel> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/InformationProcessingModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InformationProcessingModel> <http://www.w3.org/2000/01/rdf-schema#label> "Information Processing Model"@en .
@@ -22016,7 +22018,7 @@
 <http://www.snik.eu/ontology/bb/ItServiceManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/Itil> .
 <http://www.snik.eu/ontology/bb/ItServiceManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ItServiceManagement> <http://www.w3.org/2000/01/rdf-schema#label> "IT Service Management"@en .
-<http://www.snik.eu/ontology/bb/ItServiceManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/ItServiceManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ItServiceManagement> <http://www.w3.org/2004/02/skos/core#definition> "IT service management (ITSM) is information management centered on the customer\u2019s perspective of IT\u2019s contribution to the business, in contrast to technology-centered approaches. It comprises all measures and methods that are necessary to support the business processes. Information management that is centered on the customer\u2019s perspective of the contribution of a HIS to a business, in contrast to more technology-centered approaches. The IT Infrastructure Library (ITIL) is the de-facto standard framework for IT service management."@en .
 <http://www.snik.eu/ontology/bb/ItServiceManagementStaff> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices> .
 <http://www.snik.eu/ontology/bb/ItServiceManagementStaff> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/bb/DesigningCustomerCenteredServices> .
@@ -22029,7 +22031,7 @@
 <http://www.snik.eu/ontology/bb/ItSupport> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ItSupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ItSupport> <http://www.w3.org/2000/01/rdf-schema#label> "IT Support"@en .
-<http://www.snik.eu/ontology/bb/ItSupport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/ItSupport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/IuKDG> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/IuKDG> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter8.4> .
 <http://www.snik.eu/ontology/bb/IuKDG> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
