@@ -1427,7 +1427,6 @@
 <http://www.snik.eu/ontology/ciox/Projektpriorisierung> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/ciox/Projektewarteliste> .
 <http://www.snik.eu/ontology/ciox/Projektpriorisierung> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/ciox/Projektrisiko> .
 <http://www.snik.eu/ontology/ciox/Projektpriorisierung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/ciox/ProjektPriorisierung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Projektpriorisierung> <http://www.w3.org/2000/01/rdf-schema#label> "Project Priorisation"@en .
 <http://www.snik.eu/ontology/ciox/Projektpriorisierung> <http://www.w3.org/2000/01/rdf-schema#label> "Projektpriorisierung"@de .
 <http://www.snik.eu/ontology/ciox/ProjektPriorisierung> <http://www.w3.org/2000/01/rdf-schema#label> "Projekt Priorisierung"@de .
