@@ -18264,7 +18264,7 @@
 <http://www.snik.eu/ontology/bb/Directing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/Directing> <http://www.w3.org/2000/01/rdf-schema#label> "Directing"@en .
 <http://www.snik.eu/ontology/bb/Directing> <http://www.w3.org/2000/01/rdf-schema#label> "Steuerung"@de .
-<http://www.snik.eu/ontology/bb/Directing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Management> .
+<http://www.snik.eu/ontology/bb/Directing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/Directing> <http://www.w3.org/2004/02/skos/core#definition> "Executing a plan. Directing in strategic information management means to transform a strategic information management plan into projects. Directing in tactical information management means the execution of projects, based on a project plan. Directing in operational information management means the sum of all management activities that are necessary to ensure proper reactions to operating problems of components of a hospital information system."@en .
 <http://www.snik.eu/ontology/bb/DirectiveForHISConstruction> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/DirectiveForHISConstruction> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
