@@ -1,0 +1,65 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix meta: <http://www.snik.eu/ontology/meta/> .
+@prefix bb: <http://www.snik.eu/ontology/bb/> .
+@prefix ob: <http://www.snik.eu/ontology/ob/> .
+@prefix ciox: <http://www.snik.eu/ontology/ciox/> .
+@prefix it: <http://www.snik.eu/ontology/it/> .
+@prefix it4it: <http://www.snik.eu/ontology/it4it/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+bb:ItService
+	rdfs:label "IT Service"@en;
+	skos:definition "Built on top of strategic and tactical information management, operational information management thus offers users comprehensive services. These services go beyond simply delivering hardware and software. Rather, they are designed to help users use these components in a way that is helpful for their professional work. Such services are also known as IT services. Thus, the information management department of a health care facility is an IT service provider that delivers IT services to its customers, the users of the facility's information system. The management activities that serve to provide quality IT services are grouped under the term IT service management (ITSM). So, IT service management has the task to design, provide, deliver and improve such customer-centered services. The IT Infrastructure Library (ITIL) is the de-facto standard framework for IT service management. ITIL was developed for the British Government in order to define best practices for all governmental computing centers."@en;
+	rdfs:subClassOf meta:EntityType.
+
+bb:DesigningCustomerCenteredServices meta:updates bb:ItService.
+bb:ItilServiceLifecycle meta:updates bb:ItService.
+bb:ItilServiceLifecycle meta:uses bb:ItService.
+bb:DeliveringOfCustomerCenteredServices meta:uses bb:ItService.
+
+# Is this necessary? I think subclasses are better.
+bb:ItServiceArt
+	rdfs:label "IT-Service-Art"@en;
+	rdfs:subClassOf meta:EntityType.
+
+# Modelling as subclasses for now, can change to instances of bb:ItServiceArt. ########################################
+
+bb:ApplicationSupport rdfs:subClassOf bb:ItService;
+	rdfs:label "Applikationsbetreuung"@de;
+	rdfs:label "Application Support"@en;
+	bb:tripelPage "manuell hinzugefügt"@de;	
+	skos:definition "Applikationsbetreuung umfasst den Betrieb in den Rechenzentren des Bereiches 1 (bei Client-Server-Systemen) bzw. auf den Client-PCs, Sicherstellung der Aktualität der Software (update-Service etc.), die Bereitstellung eines Ansprechpartners aus dem Bereich 1 (Administrator), die Möglichkeit, Fehler (incidents) und Anfragen (service requests) am IT ServiceDesk zu platzieren, die Möglichkeit, neue Anforderungen zur Umsetzung im Bereich 1 zu beantragen (IT Change Management-Verfahren)."@de.
+
+bb:HardwareHosting rdfs:subClassOf bb:ItService;
+	rdfs:label "Hardware-Hosting"@de;
+	rdfs:label "Hardware Hosting"@en;
+	bb:tripelPage "manuell hinzugefügt"@de;	
+	skos:definition "Hardware-Hosting umfasst die Bereitstellung eines (virtuellen) Servers oder einer (virtuellen) Maschine in den Rechenzentren des Bereiches 1, Sicherstellung der Aktualität des Betriebssystems (abhängig vom vereinbarten ServiceLevel)."@de.
+
+bb:ApplicationHosting rdfs:subClassOf bb:ItService;
+	rdfs:label "Applikation-Hosting"@de;
+	rdfs:label "Application Hosting"@en;
+	bb:tripelPage "manuell hinzugefügt"@de;	
+	skos:definition "Applikation-Hosting umfasst Bereitstellung der Applikation auf einem (virtuellen) Server oder einer (virtuellen) Maschine in den Rechenzentren des Bereiches 1, Bereitstellung einer lokalen Installation auf Client-PCs und Sicherungsmaßnahmen im Rahmen des vereinbarten ServiceLevels."@de.
+
+bb:AdministrativeSupport rdfs:subClassOf bb:ItService;
+	rdfs:label "Administrativer Support"@de;
+	rdfs:label "Administrative Support"@en;
+	bb:tripelPage "manuell hinzugefügt"@de;	
+	skos:definition "Administrativer Support umfasst die Beschaffung von Lizenzen und ggf. Begleitung der Installation (Zurverfügungstellung von Administrationsrechten)."@de.
+
+bb:InternalItService rdfs:subClassOf bb:ItService;
+	rdfs:label "Interner IT-Service"@de;
+	rdfs:label "Internal IT Service"@en;
+	bb:tripelPage "manuell hinzugefügt"@de;	
+	skos:definition "Ein interner IT-Service ist eine Aktivität des Bereiches 1, der notwendig ist, um andere IT-Services bereitzustellen (enabling services) und von Kunden nicht explizit gebucht werden kann."@de.
+
+#######################################################################################################################
+
