@@ -833,6 +833,7 @@
 <http://www.snik.eu/ontology/ciox> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.snik.eu/ontology/ciox/" .
 <http://www.snik.eu/ontology/ciox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://www.snik.eu/ontology/ciox> <http://www.w3.org/2000/01/rdf-schema#comment> "Based on interviews about the Health Information System with Department B1, the Department for Information Management, of the Uniklinikum Leipzig."@de .
+<http://www.snik.eu/ontology/ciox> <http://www.w3.org/2000/01/rdf-schema#label> "ciox" .
 <http://www.snik.eu/ontology/ciox> <http://www.w3.org/2000/01/rdf-schema#label> "CIOX Ontology"@en .
 <http://www.snik.eu/ontology/ciox> <http://www.w3.org/2000/01/rdf-schema#label> "CIOX Uniklinikum Leipzig HIS Ontologie"@de .
 <http://www.snik.eu/ontology/ciox> <http://www.w3.org/2002/07/owl#versionInfo> "0.3.0" .
