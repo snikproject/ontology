@@ -216,6 +216,7 @@
 <http://www.snik.eu/ontology/bb/TacticalHISDirecting> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/TacticalHISDirecting> .
 <http://www.snik.eu/ontology/bb/TacticalHISMonitoring> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/TacticalHISMonitoring> .
 <http://www.snik.eu/ontology/bb/TacticalHISPlanning> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/TacticalHISPlanning> .
+<http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/TacticalManagementOfInformationSystems> .
 <http://www.snik.eu/ontology/bb/ThirdLevelSupport> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ThirdLevelSupport> .
 <http://www.snik.eu/ontology/bb/TimeMeasurement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/TimeMeasurement> .
 <http://www.snik.eu/ontology/bb/TransmittingMedium> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.snik.eu/ontology/he/Medium> .
