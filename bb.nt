@@ -25669,7 +25669,7 @@
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.w3.org/2000/01/rdf-schema#label> "Strategic HIS Directing"@en .
-<http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
+<http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/StrategicHISDirecting> <http://www.w3.org/2004/02/skos/core#definition> "Directing as part of strategic information management means to transform the strategic information management plan into action, that is, to systematically manipulate the hospital information system to make it conform to the strategic plan. Strategic directing of HIS is a consequence of planning and monitoring hospital functions, HIS architectures, and information management organizations."@en .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> <http://www.snik.eu/ontology/bb/page> "242"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
