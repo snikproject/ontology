@@ -21556,7 +21556,10 @@
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter3.4> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.3> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.2> .
-<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ItServiceManagement.> .
+<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ItServiceManagement> .
+<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
+<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/StrategicInformationManagement> .
+<http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/TacticalInformationManagement> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ApplicationComponent> .
 <http://www.snik.eu/ontology/bb/InformationManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ArchitectureOfAnInformationSystem> .
@@ -23294,7 +23297,7 @@
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Operational Information Management"@en .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Operatives Informationsmanagement"@de .
-<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "Operational information management , finally, is responsible for operating the components of the information system"@en .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "Operational information management is responsible for operating the components of the hospital information system. It has to care for its operation in accordance with the strategic information management plan."@en .
 <http://www.snik.eu/ontology/bb/OperationalInformationManagementStaff> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/bb/AvailabilityOfApplicationComponents> .
@@ -25737,7 +25740,7 @@
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Strategic Information Management"@en .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Strategisches Informationsmanagement"@de .
-<http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicManagementOfInformationSystems> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "Strategic information management deals with information processing as a whole. Strategic information management deals with the hospital\u2019s information processing as a whole. It depends strictly on the hospital\u2019s business strategy and strategic goals and has to translate these into an appropriate information strategy. One part of information management. Deals with the enterprise\u2019s information processing as a whole and establishes strategies and principles for the evolution of the information system. An important result of strategic information management activities is a strategic information management plan which is aligned with the hospital\u2019s business strategy."@en .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.snik.eu/ontology/bb/page> "78"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
@@ -26044,7 +26047,7 @@
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Tactical Information Management"@en .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Taktisches Informationsmanagement"@de .
-<http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
+<http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/TacticalInformationManagement> <http://www.w3.org/2004/02/skos/core#definition> "One part of information management. Deals with particular enterprise functions or application components that are introduced, removed, or changed. Usually these activities are done in the form of projects."@en .
 <http://www.snik.eu/ontology/bb/TansCriticalSuccessFactorApproach> <http://www.snik.eu/ontology/bb/page> "256"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/TansCriticalSuccessFactorApproach> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.4> .
