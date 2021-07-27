@@ -25,9 +25,9 @@ bb:ItilServiceLifecycle meta:uses bb:ItService.
 bb:DeliveringOfCustomerCenteredServices meta:uses bb:ItService.
 
 # Is this necessary? I think subclasses are better.
-bb:ItServiceArt
-	rdfs:label "IT-Service-Art"@en;
-	rdfs:subClassOf meta:EntityType.
+#bb:ItServiceArt
+#	rdfs:label "IT-Service-Art"@en;
+#	rdfs:subClassOf meta:EntityType.
 
 # Modelling as subclasses for now, can change to instances of bb:ItServiceArt. ########################################
 
