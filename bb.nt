@@ -557,6 +557,11 @@
 <http://www.snik.eu/ontology/bb/AdministrativeSticker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/AdministrativeSticker> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Sticker"@en .
 <http://www.snik.eu/ontology/bb/AdministrativeSticker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/NonComputerBasedPhysicalDataProcessingSystem> .
+<http://www.snik.eu/ontology/bb/AdministrativeSupport> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"@de .
+<http://www.snik.eu/ontology/bb/AdministrativeSupport> <http://www.w3.org/2000/01/rdf-schema#label> "Administrativer Support"@de .
+<http://www.snik.eu/ontology/bb/AdministrativeSupport> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Support"@en .
+<http://www.snik.eu/ontology/bb/AdministrativeSupport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ItService> .
+<http://www.snik.eu/ontology/bb/AdministrativeSupport> <http://www.w3.org/2004/02/skos/core#definition> "Administrativer Support umfasst die Beschaffung von Lizenzen und ggf. Begleitung der Installation (Zurverf\u00FCgungstellung von Administrationsrechten)."@de .
 <http://www.snik.eu/ontology/bb/AdmissionDiagnosis> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/AdmissionDiagnosis> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.3> .
 <http://www.snik.eu/ontology/bb/AdmissionDiagnosis> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -628,6 +633,11 @@
 <http://www.snik.eu/ontology/bb/ApplicationComponentStyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ApplicationComponentStyle> <http://www.w3.org/2000/01/rdf-schema#label> "Application Component Style"@en .
 <http://www.snik.eu/ontology/bb/ApplicationComponentStyle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ArchitecturalStyleOfTheLogicalToolLayer> .
+<http://www.snik.eu/ontology/bb/ApplicationHosting> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"@de .
+<http://www.snik.eu/ontology/bb/ApplicationHosting> <http://www.w3.org/2000/01/rdf-schema#label> "Application Hosting"@en .
+<http://www.snik.eu/ontology/bb/ApplicationHosting> <http://www.w3.org/2000/01/rdf-schema#label> "Applikation-Hosting"@de .
+<http://www.snik.eu/ontology/bb/ApplicationHosting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ItService> .
+<http://www.snik.eu/ontology/bb/ApplicationHosting> <http://www.w3.org/2004/02/skos/core#definition> "Applikation-Hosting umfasst Bereitstellung der Applikation auf einem (virtuellen) Server oder einer (virtuellen) Maschine in den Rechenzentren des Bereiches 1, Bereitstellung einer lokalen Installation auf Client-PCs und Sicherungsma\u00DFnahmen im Rahmen des vereinbarten ServiceLevels."@de .
 <http://www.snik.eu/ontology/bb/ApplicationPortfolio> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter9.4> .
 <http://www.snik.eu/ontology/bb/ApplicationPortfolio> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ApplicationPortfolio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -642,6 +652,11 @@
 <http://www.snik.eu/ontology/bb/ApplicationServer> <http://www.w3.org/2000/01/rdf-schema#label> "Application Server"@en .
 <http://www.snik.eu/ontology/bb/ApplicationServer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Server> .
 <http://www.snik.eu/ontology/bb/ApplicationServer> <http://www.w3.org/2004/02/skos/core#definition> "Server can run the back-end part of application software"@en .
+<http://www.snik.eu/ontology/bb/ApplicationSupport> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"@de .
+<http://www.snik.eu/ontology/bb/ApplicationSupport> <http://www.w3.org/2000/01/rdf-schema#label> "Application Support"@en .
+<http://www.snik.eu/ontology/bb/ApplicationSupport> <http://www.w3.org/2000/01/rdf-schema#label> "Applikationsbetreuung"@de .
+<http://www.snik.eu/ontology/bb/ApplicationSupport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ItService> .
+<http://www.snik.eu/ontology/bb/ApplicationSupport> <http://www.w3.org/2004/02/skos/core#definition> "Applikationsbetreuung umfasst den Betrieb in den Rechenzentren des Bereiches 1 (bei Client-Server-Systemen) bzw. auf den Client-PCs, Sicherstellung der Aktualit\u00E4t der Software (update-Service etc.), die Bereitstellung eines Ansprechpartners aus dem Bereich 1 (Administrator), die M\u00F6glichkeit, Fehler (incidents) und Anfragen (service requests) am IT ServiceDesk zu platzieren, die M\u00F6glichkeit, neue Anforderungen zur Umsetzung im Bereich 1 zu beantragen (IT Change Management-Verfahren)."@de .
 <http://www.snik.eu/ontology/bb/Appointment> <http://www.snik.eu/ontology/bb/page> "77"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Appointment> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.2> .
 <http://www.snik.eu/ontology/bb/Appointment> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -18096,9 +18111,10 @@
 <http://www.snik.eu/ontology/bb/DeliverAndSupport> <http://www.w3.org/2000/01/rdf-schema#label> "Deliver and Support"@en .
 <http://www.snik.eu/ontology/bb/DeliverAndSupport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/CobitProcess> .
 <http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ItService> .
 <http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#label> "Delivering of Customer-Centered Services"@en .
-<http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ItServiceManagement> .
+<http://www.snik.eu/ontology/bb/DeliveringOfCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function.> .
 <http://www.snik.eu/ontology/bb/DelphiSurvey> <http://www.snik.eu/ontology/bb/page> "227"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/DelphiSurvey> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter8.6> .
 <http://www.snik.eu/ontology/bb/DelphiSurvey> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -18139,9 +18155,10 @@
 <http://www.snik.eu/ontology/bb/DescriptionOfThePlannedHISState> <http://www.w3.org/2000/01/rdf-schema#label> "Description of the Planned HIS State"@en .
 <http://www.snik.eu/ontology/bb/DescriptionOfThePlannedHISState> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/DesigningCustomerCenteredServices> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/bb/DesigningCustomerCenteredServices> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/ItService> .
 <http://www.snik.eu/ontology/bb/DesigningCustomerCenteredServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/DesigningCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#label> "Designing Customer-Centered Services"@en .
-<http://www.snik.eu/ontology/bb/DesigningCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ItServiceManagement> .
+<http://www.snik.eu/ontology/bb/DesigningCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/DhcpServer> <http://www.snik.eu/ontology/bb/page> "169"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/DhcpServer> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.6> .
 <http://www.snik.eu/ontology/bb/DhcpServer> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -19461,6 +19478,11 @@
 <http://www.snik.eu/ontology/bb/HairUndNailCare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/HairUndNailCare> <http://www.w3.org/2000/01/rdf-schema#label> "Hair und Nail Care"@en .
 <http://www.snik.eu/ontology/bb/HairUndNailCare> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/NursingProcedure> .
+<http://www.snik.eu/ontology/bb/HardwareHosting> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"@de .
+<http://www.snik.eu/ontology/bb/HardwareHosting> <http://www.w3.org/2000/01/rdf-schema#label> "Hardware-Hosting"@de .
+<http://www.snik.eu/ontology/bb/HardwareHosting> <http://www.w3.org/2000/01/rdf-schema#label> "Hardware Hosting"@en .
+<http://www.snik.eu/ontology/bb/HardwareHosting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ItService> .
+<http://www.snik.eu/ontology/bb/HardwareHosting> <http://www.w3.org/2004/02/skos/core#definition> "Hardware-Hosting umfasst die Bereitstellung eines (virtuellen) Servers oder einer (virtuellen) Maschine in den Rechenzentren des Bereiches 1, Sicherstellung der Aktualit\u00E4t des Betriebssystems (abh\u00E4ngig vom vereinbarten ServiceLevel)."@de .
 <http://www.snik.eu/ontology/bb/HardwareVendor> <http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.snik.eu/ontology/bb/LongTermHISPlanning> .
 <http://www.snik.eu/ontology/bb/HardwareVendor> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/bb/HardwareVendor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -21792,6 +21814,11 @@
 <http://www.snik.eu/ontology/bb/IntegrityOfData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Integrity> .
 <http://www.snik.eu/ontology/bb/IntegrityOfData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/QualityOfData> .
 <http://www.snik.eu/ontology/bb/IntegrityOfData> <http://www.w3.org/2004/02/skos/core#definition> "Comprises the mere correctness (e.g., correct diagnosis ), object identity (e.g., correct identification of every patient by a unique patient identification number), referential integrity (e.g., each clinical report can uniquely be linked to a patient ), and consistency of redundant data (e.g., the name of a patient is not spelled differently in different databases)."@en .
+<http://www.snik.eu/ontology/bb/InternalItService> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"@de .
+<http://www.snik.eu/ontology/bb/InternalItService> <http://www.w3.org/2000/01/rdf-schema#label> "Internal IT Service"@en .
+<http://www.snik.eu/ontology/bb/InternalItService> <http://www.w3.org/2000/01/rdf-schema#label> "Interner IT-Service"@de .
+<http://www.snik.eu/ontology/bb/InternalItService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ItService> .
+<http://www.snik.eu/ontology/bb/InternalItService> <http://www.w3.org/2004/02/skos/core#definition> "Ein interner IT-Service ist eine Aktivit\u00E4t des Bereiches 1, der notwendig ist, um andere IT-Services bereitzustellen (enabling services) und von Kunden nicht explizit gebucht werden kann."@de .
 <http://www.snik.eu/ontology/bb/InternalQualityManagement> <http://www.snik.eu/ontology/bb/page> "99"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/InternalQualityManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.3> .
 <http://www.snik.eu/ontology/bb/InternalQualityManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
@@ -22000,9 +22027,11 @@
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/functionComponent> <http://www.snik.eu/ontology/bb/ServiceTransition> .
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Itil> .
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/ItService> .
+<http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/ItService> .
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.w3.org/2000/01/rdf-schema#label> "ITIL Service Lifecycle"@en .
-<http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ItServiceManagement> .
+<http://www.snik.eu/ontology/bb/ItilServiceLifecycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ItInvestmentJustification> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ItInvestmentJustification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ItInvestmentJustification> <http://www.w3.org/2000/01/rdf-schema#label> "IT Investment Justification"@en .
@@ -22011,6 +22040,9 @@
 <http://www.snik.eu/ontology/bb/ItInvestmentPlanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ItInvestmentPlanning> <http://www.w3.org/2000/01/rdf-schema#label> "IT Investment Planning"@en .
 <http://www.snik.eu/ontology/bb/ItInvestmentPlanning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/StrategicHISPlanning> .
+<http://www.snik.eu/ontology/bb/ItService> <http://www.w3.org/2000/01/rdf-schema#label> "IT Service"@en .
+<http://www.snik.eu/ontology/bb/ItService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/bb/ItService> <http://www.w3.org/2004/02/skos/core#definition> "Built on top of strategic and tactical information management, operational information management thus offers users comprehensive services. These services go beyond simply delivering hardware and software. Rather, they are designed to help users use these components in a way that is helpful for their professional work. Such services are also known as IT services. Thus, the information management department of a health care facility is an IT service provider that delivers IT services to its customers, the users of the facility's information system. The management activities that serve to provide quality IT services are grouped under the term IT service management (ITSM). So, IT service management has the task to design, provide, deliver and improve such customer-centered services. The IT Infrastructure Library (ITIL) is the de-facto standard framework for IT service management. ITIL was developed for the British Government in order to define best practices for all governmental computing centers."@en .
 <http://www.snik.eu/ontology/bb/ItServiceManagement> <http://www.snik.eu/ontology/bb/page> "246"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/ItServiceManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
 <http://www.snik.eu/ontology/bb/ItServiceManagement> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/OperationalInformationManagement> .
