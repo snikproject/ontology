@@ -12,13 +12,13 @@
 
 <http://www.snik.eu/ontology/meta>
     ov:defines :ApplicationComponent, :ComputerBasedApplicationComponent, :DataSetType, :EntityType, :Function, :Method, :MethodApplication, :RepresentationType, :Role, :SoftwareProduct, :Subfunction, :Top, :approvesEntityType, :approvesFunction, :communicatesWith, :decreases, :entityTypeComponent, :functionComponent, :increases, :isAssociatedWith, :isBasedOn, :isInvolvedIn, :isResponsibleFor, :isResponsibleForEntityType, :isResponsibleForFunction, :isResponsibleForRole, :quality, :represents, :roleComponent, :softwareProduct, :subTopClass, :supports, :updates, :uses , :Chapter, :chapter, :chapterNumber, :firstPage, :lastPage, :book, :subChapterOf, :component, :approves, :accesses, :changes;
-    dc:modified "2019-11-06"^^xsd:date ;
+    dc:modified "2021-07-29"^^xsd:date ;
     dc:source <http://www.snik.eu/mapping> ;
-    vann:preferredNamespacePrefix "snik-meta" ;
+    vann:preferredNamespacePrefix "meta" ;
     vann:preferredNamespaceUri <http://www.snik.eu/ontology/meta/> ;
     a owl:Ontology ;
     rdfs:label "SNIK Meta Ontology"@en ;
-    owl:versionInfo "0.9.1" ;
+    owl:versionInfo "1.0.0" ;
     foaf:homepage <http://www.snik.eu> .
 
 :ApplicationComponent
