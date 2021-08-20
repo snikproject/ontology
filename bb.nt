@@ -458,8 +458,6 @@
 <http://www.snik.eu/ontology/bb/AdHocMonitoring> <http://www.w3.org/2000/01/rdf-schema#label> "Ad Hoc Monitoring"@en .
 <http://www.snik.eu/ontology/bb/AdHocMonitoring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/StrategicHISMonitoring> .
 <http://www.snik.eu/ontology/bb/AdHocMonitoring> <http://www.w3.org/2004/02/skos/core#definition> "Ad Hoc Monitoring may be initiated when larger changes of a component are planned, or when sudden larger problems of HIS components have been observed. Ad hoc activities help to analyze a certain situation in detail, in order to better understand reasons and consequences of an observed or expected problem. The execution of those ad hoc activities entails systems evaluation studies which are planned and conducted by tactical information management."@en .
-<http://www.snik.eu/ontology/bb/AdministrateTheMasterPatientIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/AdministrateTheMasterPatientIndex> <http://www.w3.org/2000/01/rdf-schema#label> "Administrate the master patient index (MPI)"@en .
 <http://www.snik.eu/ontology/bb/AdministrationAndAllocationOfPatientRecords> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/AdministrationAndAllocationOfPatientRecords> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/AdministrationAndAllocationOfPatientRecords> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/PatientRecordArchive> .
@@ -18851,98 +18849,52 @@
 <http://www.snik.eu/ontology/bb/FaxMachine> <http://www.w3.org/2000/01/rdf-schema#label> "Fax Machine"@en .
 <http://www.snik.eu/ontology/bb/FaxMachine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/NonComputerBasedPhysicalDataProcessingSystem> .
 <http://www.snik.eu/ontology/bb/FeatureAdministrateTheMasterPatientIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAdministrateTheMasterPatientIndex> <http://www.w3.org/2000/01/rdf-schema#label> "administrate the master patient index" .
+<http://www.snik.eu/ontology/bb/FeatureAdministrateTheMasterPatientIndex> <http://www.w3.org/2000/01/rdf-schema#label> "Administrate the master patient index (MPI)"@en .
 <http://www.snik.eu/ontology/bb/FeatureAdmitPatientsToTheWard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAdmitPatientsToTheWard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAdmitPatientsToTheWard> <http://www.w3.org/2000/01/rdf-schema#label> "admit patients to the ward" .
 <http://www.snik.eu/ontology/bb/FeatureAdmitPatientsToTheWard> <http://www.w3.org/2000/01/rdf-schema#label> "Admit patients to the ward"@en .
 <http://www.snik.eu/ontology/bb/FeatureAnalyzeData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAnalyzeData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAnalyzeData> <http://www.w3.org/2000/01/rdf-schema#label> "analyze data" .
 <http://www.snik.eu/ontology/bb/FeatureAnalyzeData> <http://www.w3.org/2000/01/rdf-schema#label> "Analyze data"@en .
 <http://www.snik.eu/ontology/bb/FeatureArchivePictures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureArchivePictures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureArchivePictures> <http://www.w3.org/2000/01/rdf-schema#label> "archive pictures" .
 <http://www.snik.eu/ontology/bb/FeatureArchivePictures> <http://www.w3.org/2000/01/rdf-schema#label> "Archive pictures"@en .
 <http://www.snik.eu/ontology/bb/FeatureAssignDoctorsToPatientsOrRooms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignDoctorsToPatientsOrRooms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignDoctorsToPatientsOrRooms> <http://www.w3.org/2000/01/rdf-schema#label> "assign doctors to patients or rooms" .
 <http://www.snik.eu/ontology/bb/FeatureAssignDoctorsToPatientsOrRooms> <http://www.w3.org/2000/01/rdf-schema#label> "Assign doctors to patients or rooms"@en .
 <http://www.snik.eu/ontology/bb/FeatureAssignOrderAndBloodSamplesToDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignOrderAndBloodSamplesToDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignOrderAndBloodSamplesToDevices> <http://www.w3.org/2000/01/rdf-schema#label> "assign order and blood samples to devices" .
 <http://www.snik.eu/ontology/bb/FeatureAssignOrderAndBloodSamplesToDevices> <http://www.w3.org/2000/01/rdf-schema#label> "Assign order and blood samples to devices"@en .
 <http://www.snik.eu/ontology/bb/FeatureAssignOrdersToModalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignOrdersToModalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignOrdersToModalities> <http://www.w3.org/2000/01/rdf-schema#label> "assign orders to modalities" .
 <http://www.snik.eu/ontology/bb/FeatureAssignOrdersToModalities> <http://www.w3.org/2000/01/rdf-schema#label> "Assign orders to modalities"@en .
 <http://www.snik.eu/ontology/bb/FeatureAssignPatientsToModalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignPatientsToModalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignPatientsToModalities> <http://www.w3.org/2000/01/rdf-schema#label> "assign patients to modalities" .
 <http://www.snik.eu/ontology/bb/FeatureAssignPatientsToModalities> <http://www.w3.org/2000/01/rdf-schema#label> "Assign patients to modalities"@en .
 <http://www.snik.eu/ontology/bb/FeatureAssignPatientsToRoomsAndBeds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignPatientsToRoomsAndBeds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignPatientsToRoomsAndBeds> <http://www.w3.org/2000/01/rdf-schema#label> "assign patients to rooms and beds" .
 <http://www.snik.eu/ontology/bb/FeatureAssignPatientsToRoomsAndBeds> <http://www.w3.org/2000/01/rdf-schema#label> "Assign patients to rooms and beds"@en .
 <http://www.snik.eu/ontology/bb/FeatureAssignStaffToPatientsOrOutpatientUnits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignStaffToPatientsOrOutpatientUnits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignStaffToPatientsOrOutpatientUnits> <http://www.w3.org/2000/01/rdf-schema#label> "assign staff to patients or outpatient units" .
 <http://www.snik.eu/ontology/bb/FeatureAssignStaffToPatientsOrOutpatientUnits> <http://www.w3.org/2000/01/rdf-schema#label> "Assign staff to patients or outpatient units"@en .
 <http://www.snik.eu/ontology/bb/FeatureAssignStaffToPatientsOrRooms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignStaffToPatientsOrRooms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAssignStaffToPatientsOrRooms> <http://www.w3.org/2000/01/rdf-schema#label> "assign staff to patients or rooms" .
 <http://www.snik.eu/ontology/bb/FeatureAssignStaffToPatientsOrRooms> <http://www.w3.org/2000/01/rdf-schema#label> "Assign staff to patients or rooms"@en .
 <http://www.snik.eu/ontology/bb/FeatureAttachDigitalSignatures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAttachDigitalSignatures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureAttachDigitalSignatures> <http://www.w3.org/2000/01/rdf-schema#label> "attach digital signatures" .
 <http://www.snik.eu/ontology/bb/FeatureAttachDigitalSignatures> <http://www.w3.org/2000/01/rdf-schema#label> "Attach digital signatures"@en .
 <http://www.snik.eu/ontology/bb/FeatureCalculateDosageOfDrugs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCalculateDosageOfDrugs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCalculateDosageOfDrugs> <http://www.w3.org/2000/01/rdf-schema#label> "calculate dosage of drugs" .
 <http://www.snik.eu/ontology/bb/FeatureCalculateDosageOfDrugs> <http://www.w3.org/2000/01/rdf-schema#label> "Calculate dosage of drugs"@en .
 <http://www.snik.eu/ontology/bb/FeatureCollectResultsFromDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCollectResultsFromDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCollectResultsFromDevices> <http://www.w3.org/2000/01/rdf-schema#label> "collect results from devices" .
 <http://www.snik.eu/ontology/bb/FeatureCollectResultsFromDevices> <http://www.w3.org/2000/01/rdf-schema#label> "Collect results from devices"@en .
 <http://www.snik.eu/ontology/bb/FeatureCommunicateDischargeInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCommunicateDischargeInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCommunicateDischargeInformation> <http://www.w3.org/2000/01/rdf-schema#label> "communicate discharge information" .
 <http://www.snik.eu/ontology/bb/FeatureCommunicateDischargeInformation> <http://www.w3.org/2000/01/rdf-schema#label> "Communicate discharge information"@en .
 <http://www.snik.eu/ontology/bb/FeatureCommunicateDocumentsToOtherApplications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCommunicateDocumentsToOtherApplications> <http://www.w3.org/2000/01/rdf-schema#label> "communicate documents to other applications" .
 <http://www.snik.eu/ontology/bb/FeatureCommunicatePictures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCommunicatePictures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCommunicatePictures> <http://www.w3.org/2000/01/rdf-schema#label> "communicate pictures" .
 <http://www.snik.eu/ontology/bb/FeatureCommunicatePictures> <http://www.w3.org/2000/01/rdf-schema#label> "Communicate pictures"@en .
 <http://www.snik.eu/ontology/bb/FeatureCommunicateReportToOrderingUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCommunicateReportToOrderingUnit> <http://www.w3.org/2000/01/rdf-schema#label> "communicate report to ordering unit" .
 <http://www.snik.eu/ontology/bb/FeatureCreateWorklistForAGroupOfPatients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCreateWorklistForAGroupOfPatients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCreateWorklistForAGroupOfPatients> <http://www.w3.org/2000/01/rdf-schema#label> "create worklist for a group of patients" .
 <http://www.snik.eu/ontology/bb/FeatureCreateWorklistForAGroupOfPatients> <http://www.w3.org/2000/01/rdf-schema#label> "Create worklist for a group of patients"@en .
 <http://www.snik.eu/ontology/bb/FeatureCreatingARoster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCreatingARoster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCreatingARoster> <http://www.w3.org/2000/01/rdf-schema#label> "creating a roster" .
 <http://www.snik.eu/ontology/bb/FeatureCreatingARoster> <http://www.w3.org/2000/01/rdf-schema#label> "Creating a roster"@en .
 <http://www.snik.eu/ontology/bb/FeatureCreationOfRadiologyReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCreationOfRadiologyReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureCreationOfRadiologyReports> <http://www.w3.org/2000/01/rdf-schema#label> "creation of radiology reports" .
 <http://www.snik.eu/ontology/bb/FeatureCreationOfRadiologyReports> <http://www.w3.org/2000/01/rdf-schema#label> "Creation of Radiology Reports"@en .
 <http://www.snik.eu/ontology/bb/FeatureDisplayEarlierLabResultsOfAPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureDisplayEarlierLabResultsOfAPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureDisplayEarlierLabResultsOfAPatient> <http://www.w3.org/2000/01/rdf-schema#label> "display earlier lab results of a patient" .
 <http://www.snik.eu/ontology/bb/FeatureDisplayEarlierLabResultsOfAPatient> <http://www.w3.org/2000/01/rdf-schema#label> "Display earlier lab results of a patient"@en .
 <http://www.snik.eu/ontology/bb/FeatureDisplayPictures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureDisplayPictures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureDisplayPictures> <http://www.w3.org/2000/01/rdf-schema#label> "display pictures" .
 <http://www.snik.eu/ontology/bb/FeatureDisplayPictures> <http://www.w3.org/2000/01/rdf-schema#label> "Display pictures"@en .
 <http://www.snik.eu/ontology/bb/FeatureDisplayVitalParametersFromMonitoringDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureDisplayVitalParametersFromMonitoringDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureDisplayVitalParametersFromMonitoringDevices> <http://www.w3.org/2000/01/rdf-schema#label> "display vital parameters from monitoring devices" .
 <http://www.snik.eu/ontology/bb/FeatureDisplayVitalParametersFromMonitoringDevices> <http://www.w3.org/2000/01/rdf-schema#label> "Display vital parameters from monitoring devices"@en .
 <http://www.snik.eu/ontology/bb/FeatureDisplayWarningMessages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureDisplayWarningMessages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureDisplayWarningMessages> <http://www.w3.org/2000/01/rdf-schema#label> "display warning messages" .
 <http://www.snik.eu/ontology/bb/FeatureDisplayWarningMessages> <http://www.w3.org/2000/01/rdf-schema#label> "Display warning messages"@en .
 <http://www.snik.eu/ontology/bb/Feature> <http://www.snik.eu/ontology/bb/page> "110"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Feature> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.4> .
@@ -18953,503 +18905,255 @@
 <http://www.snik.eu/ontology/bb/Feature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Feature> <http://www.w3.org/2004/02/skos/core#definition> "A functionality offered by a software product which directly contributes to the fulfillment of one or more enterprise functions"@en .
 <http://www.snik.eu/ontology/bb/FeatureImportDocuments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureImportDocuments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureImportDocuments> <http://www.w3.org/2000/01/rdf-schema#label> "import documents" .
 <http://www.snik.eu/ontology/bb/FeatureImportDocuments> <http://www.w3.org/2000/01/rdf-schema#label> "Import documents"@en .
 <http://www.snik.eu/ontology/bb/FeatureIndexDocumentContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureIndexDocumentContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureIndexDocumentContent> <http://www.w3.org/2000/01/rdf-schema#label> "index document content" .
 <http://www.snik.eu/ontology/bb/FeatureIndexDocumentContent> <http://www.w3.org/2000/01/rdf-schema#label> "Index document content"@en .
 <http://www.snik.eu/ontology/bb/FeatureIntegrateDataFromDifferentApplicationComponents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureIntegrateDataFromDifferentApplicationComponents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureIntegrateDataFromDifferentApplicationComponents> <http://www.w3.org/2000/01/rdf-schema#label> "integrate data from different application components" .
 <http://www.snik.eu/ontology/bb/FeatureIntegrateDataFromDifferentApplicationComponents> <http://www.w3.org/2000/01/rdf-schema#label> "Integrate data from different application components"@en .
 <http://www.snik.eu/ontology/bb/FeatureManageModalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureManageModalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureManageModalities> <http://www.w3.org/2000/01/rdf-schema#label> "manage modalities" .
 <http://www.snik.eu/ontology/bb/FeatureManageModalities> <http://www.w3.org/2000/01/rdf-schema#label> "Manage modalities"@en .
 <http://www.snik.eu/ontology/bb/FeatureManageStorageFormats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureManageStorageFormats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureManageStorageFormats> <http://www.w3.org/2000/01/rdf-schema#label> "manage storage formats" .
 <http://www.snik.eu/ontology/bb/FeatureManageStorageFormats> <http://www.w3.org/2000/01/rdf-schema#label> "Manage storage formats"@en .
 <http://www.snik.eu/ontology/bb/FeatureManageStorageMedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureManageStorageMedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureManageStorageMedia> <http://www.w3.org/2000/01/rdf-schema#label> "manage storage media" .
 <http://www.snik.eu/ontology/bb/FeatureManageStorageMedia> <http://www.w3.org/2000/01/rdf-schema#label> "Manage storage media"@en .
 <http://www.snik.eu/ontology/bb/FeatureMergePatientInformationFromTwoRecords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureMergePatientInformationFromTwoRecords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureMergePatientInformationFromTwoRecords> <http://www.w3.org/2000/01/rdf-schema#label> "merge patient information from two records" .
 <http://www.snik.eu/ontology/bb/FeatureMergePatientInformationFromTwoRecords> <http://www.w3.org/2000/01/rdf-schema#label> "Merge patient information from two records"@en .
 <http://www.snik.eu/ontology/bb/FeatureMessageQueuing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureMessageQueuing> <http://www.w3.org/2000/01/rdf-schema#label> "message queuing" .
+<http://www.snik.eu/ontology/bb/FeatureMessageQueuing> <http://www.w3.org/2000/01/rdf-schema#label> "message queuing"@en .
 <http://www.snik.eu/ontology/bb/FeatureModifyPresentationOfPictures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureModifyPresentationOfPictures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureModifyPresentationOfPictures> <http://www.w3.org/2000/01/rdf-schema#label> "modify presentation of pictures" .
 <http://www.snik.eu/ontology/bb/FeatureModifyPresentationOfPictures> <http://www.w3.org/2000/01/rdf-schema#label> "Modify presentation of pictures"@en .
 <http://www.snik.eu/ontology/bb/FeatureMulticasting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureMulticasting> <http://www.w3.org/2000/01/rdf-schema#label> " multicasting" .
+<http://www.snik.eu/ontology/bb/FeatureMulticasting> <http://www.w3.org/2000/01/rdf-schema#label> "multicasting"@en .
 <http://www.snik.eu/ontology/bb/FeatureOfferDecisionSupportForCarePlanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureOfferDecisionSupportForCarePlanning> <http://www.w3.org/2000/01/rdf-schema#label> "offer decision support for care planning" .
+<http://www.snik.eu/ontology/bb/FeatureOfferDecisionSupportForCarePlanning> <http://www.w3.org/2000/01/rdf-schema#label> "offer decision support for care planning"@en .
 <http://www.snik.eu/ontology/bb/FeatureOrganizePatientTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureOrganizePatientTransport> <http://www.w3.org/2000/01/rdf-schema#label> "organize patient transport" .
+<http://www.snik.eu/ontology/bb/FeatureOrganizePatientTransport> <http://www.w3.org/2000/01/rdf-schema#label> "organize patient transport"@en .
 <http://www.snik.eu/ontology/bb/FeaturePrepareReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeaturePrepareReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeaturePrepareReport> <http://www.w3.org/2000/01/rdf-schema#label> "prepare report" .
 <http://www.snik.eu/ontology/bb/FeaturePrepareReport> <http://www.w3.org/2000/01/rdf-schema#label> "Prepare report"@en .
 <http://www.snik.eu/ontology/bb/FeaturePreparingStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeaturePreparingStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeaturePreparingStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "preparing statistics" .
 <http://www.snik.eu/ontology/bb/FeaturePreparingStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "Preparing Statistics"@en .
 <http://www.snik.eu/ontology/bb/FeaturePrintForms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeaturePrintForms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeaturePrintForms> <http://www.w3.org/2000/01/rdf-schema#label> "print forms" .
 <http://www.snik.eu/ontology/bb/FeaturePrintForms> <http://www.w3.org/2000/01/rdf-schema#label> "Print forms"@en .
 <http://www.snik.eu/ontology/bb/FeaturePrintingOfLabels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeaturePrintingOfLabels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeaturePrintingOfLabels> <http://www.w3.org/2000/01/rdf-schema#label> "printing of labels" .
 <http://www.snik.eu/ontology/bb/FeaturePrintingOfLabels> <http://www.w3.org/2000/01/rdf-schema#label> "Printing of Labels"@en .
 <http://www.snik.eu/ontology/bb/FeaturePrintReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeaturePrintReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeaturePrintReports> <http://www.w3.org/2000/01/rdf-schema#label> "print reports" .
 <http://www.snik.eu/ontology/bb/FeaturePrintReports> <http://www.w3.org/2000/01/rdf-schema#label> "Print reports"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideAccessToArchivedInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideAccessToArchivedInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideAccessToArchivedInformation> <http://www.w3.org/2000/01/rdf-schema#label> "provide access to archived information" .
 <http://www.snik.eu/ontology/bb/FeatureProvideAccessToArchivedInformation> <http://www.w3.org/2000/01/rdf-schema#label> "Provide access to archived information"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideACollectionOfInternalProcessesAndRegulations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideACollectionOfInternalProcessesAndRegulations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideACollectionOfInternalProcessesAndRegulations> <http://www.w3.org/2000/01/rdf-schema#label> "provide a collection of internal processes and regulations" .
 <http://www.snik.eu/ontology/bb/FeatureProvideACollectionOfInternalProcessesAndRegulations> <http://www.w3.org/2000/01/rdf-schema#label> "Provide a collection of internal processes and regulations"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis> <http://www.w3.org/2000/01/rdf-schema#label> "provide catalogs and other means for coding of nursing diagnosis" .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis> <http://www.w3.org/2000/01/rdf-schema#label> "Provide catalogs and other means for coding of nursing diagnosis"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures> <http://www.w3.org/2000/01/rdf-schema#label> "provide catalogs and other means for coding of nursing procedures" .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures> <http://www.w3.org/2000/01/rdf-schema#label> "Provide catalogs and other means for coding of nursing procedures"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures> <http://www.w3.org/2000/01/rdf-schema#label> "provide catalogs and other means for coding patient related procedures" .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures> <http://www.w3.org/2000/01/rdf-schema#label> "Provide catalogs and other means for coding patient-related procedures"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses> <http://www.w3.org/2000/01/rdf-schema#label> "provide catalogs and other means for coding patients diagnoses" .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses> <http://www.w3.org/2000/01/rdf-schema#label> "Provide catalogs and other means for coding patients\u2019 diagnoses"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses> <http://www.w3.org/2000/01/rdf-schema#label> "provide catalogs and other means for coding radiological diagnoses" .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses> <http://www.w3.org/2000/01/rdf-schema#label> "Provide catalogs and other means for coding radiological diagnoses"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures> <http://www.w3.org/2000/01/rdf-schema#label> "provide catalogs and other means for coding radiological procedures" .
 <http://www.snik.eu/ontology/bb/FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures> <http://www.w3.org/2000/01/rdf-schema#label> "Provide catalogs and other means for coding radiological procedures"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideContextRelatedMedicalKnowledge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideContextRelatedMedicalKnowledge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideContextRelatedMedicalKnowledge> <http://www.w3.org/2000/01/rdf-schema#label> "provide context related medical knowledge" .
 <http://www.snik.eu/ontology/bb/FeatureProvideContextRelatedMedicalKnowledge> <http://www.w3.org/2000/01/rdf-schema#label> "Provide context-related medical knowledge"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideDrugCatalogs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideDrugCatalogs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideDrugCatalogs> <http://www.w3.org/2000/01/rdf-schema#label> "provide drug catalogs" .
 <http://www.snik.eu/ontology/bb/FeatureProvideDrugCatalogs> <http://www.w3.org/2000/01/rdf-schema#label> "Provide drug catalogs"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForClinicalReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForClinicalReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForClinicalReports> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for clinical reports" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForClinicalReports> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for clinical reports"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingClinicalProcedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingClinicalProcedures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingClinicalProcedures> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting clinical procedures" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingClinicalProcedures> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting clinical procedures"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingDiagnosisAndProblems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingDiagnosisAndProblems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingDiagnosisAndProblems> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting diagnosis and problems" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingDiagnosisAndProblems> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting diagnosis and problems"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingDiagnosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingDiagnosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingDiagnosis> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting diagnosis" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingDiagnosis> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting diagnosis"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingMedicalAnamnesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingMedicalAnamnesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingMedicalAnamnesis> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting medical anamnesis" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingMedicalAnamnesis> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting medical anamnesis"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingMedications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingMedications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingMedications> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting medications" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingMedications> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting medications"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingNursingAims> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingNursingAims> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingNursingAims> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting nursing aims" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingNursingAims> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting nursing aims"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingNursingTasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingNursingTasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingNursingTasks> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting nursing tasks" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingNursingTasks> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting nursing tasks"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPatientsInformedConsent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPatientsInformedConsent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPatientsInformedConsent> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting patients informed consent" .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPatientsInformedConsent> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting patients \u2019 informed consent"@en .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPatientsInformedConsent> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting patient\u2019s informed consent"@en .
+<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPatientsInformedConsent> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting patient's informed consent"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPerformedTasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPerformedTasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPerformedTasks> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting performed tasks" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPerformedTasks> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting performed tasks"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPlannedTasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPlannedTasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPlannedTasks> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting planned tasks" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingPlannedTasks> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting planned tasks"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingProceduresAndOutcomes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingProceduresAndOutcomes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingProceduresAndOutcomes> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting procedures and outcomes" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingProceduresAndOutcomes> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting procedures and outcomes"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingTheNursingHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingTheNursingHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingTheNursingHistory> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting the nursing history" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingTheNursingHistory> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting the nursing history"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for documenting the outcome of nursing tasks" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for documenting the outcome of nursing tasks"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForEnteringClinicalData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForEnteringClinicalData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForEnteringClinicalData> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for entering clinical data" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForEnteringClinicalData> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for entering clinical data (free-text or structured)"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for entering or updating patient administrative information" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for entering or updating patient administrative information"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForPatientsInformedConsent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForPatientsInformedConsent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForPatientsInformedConsent> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for patients informed consent" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForPatientsInformedConsent> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for patients \u2019 informed consent"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingABillForThePatientInsurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingABillForThePatientInsurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingABillForThePatientInsurance> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for preparing a bill for the patient insurance" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingABillForThePatientInsurance> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for preparing a bill for the patient insurance"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingClinicalReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingClinicalReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingClinicalReports> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for preparing clinical reports" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingClinicalReports> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for preparing clinical reports"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingOperationReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingOperationReports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingOperationReports> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for preparing operation reports" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForPreparingOperationReports> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for preparing operation reports"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingAReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingAReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingAReport> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for writing a report" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingAReport> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for writing a report"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingATransferLetterOrDischargeReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingATransferLetterOrDischargeReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingATransferLetterOrDischargeReport> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for writing a transfer letter or discharge report" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingATransferLetterOrDischargeReport> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for writing a transfer letter or discharge report"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for writing the discharge letter or discharge report" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for writing the discharge letter or discharge report"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheDischargeReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheDischargeReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheDischargeReport> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for writing the discharge report" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheDischargeReport> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for writing the discharge report"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheNursingDischargeReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheNursingDischargeReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheNursingDischargeReport> <http://www.w3.org/2000/01/rdf-schema#label> "provide forms for writing the nursing discharge report" .
 <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheNursingDischargeReport> <http://www.w3.org/2000/01/rdf-schema#label> "Provide forms for writing the nursing discharge report"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideGuidelinesForCarePlanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideGuidelinesForCarePlanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideGuidelinesForCarePlanning> <http://www.w3.org/2000/01/rdf-schema#label> "provide guidelines for care planning" .
 <http://www.snik.eu/ontology/bb/FeatureProvideGuidelinesForCarePlanning> <http://www.w3.org/2000/01/rdf-schema#label> "Provide guidelines for care planning"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideGuidelinesForTreatmentPlanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideGuidelinesForTreatmentPlanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideGuidelinesForTreatmentPlanning> <http://www.w3.org/2000/01/rdf-schema#label> "provide guidelines for treatment planning" .
 <http://www.snik.eu/ontology/bb/FeatureProvideGuidelinesForTreatmentPlanning> <http://www.w3.org/2000/01/rdf-schema#label> "Provide guidelines for treatment planning"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForAccountsPayable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForAccountsPayable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForAccountsPayable> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for accounts payable" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForAccountsPayable> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for accounts payable"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForAccountsReceivable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForAccountsReceivable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForAccountsReceivable> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for accounts receivable" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForAccountsReceivable> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for accounts receivable"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForAssetAccounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForAssetAccounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForAssetAccounting> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for asset accounting" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForAssetAccounting> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for asset accounting"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCheckInOfPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCheckInOfPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCheckInOfPatient> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for check in of patient" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCheckInOfPatient> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for check-in of patient"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForControlOfSecurityIssues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForControlOfSecurityIssues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForControlOfSecurityIssues> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for control of security issues" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForControlOfSecurityIssues> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for control of security issues"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCostCenterAccounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCostCenterAccounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCostCenterAccounting> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for cost center accounting" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCostCenterAccounting> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for cost center accounting"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCostElementAccounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCostElementAccounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCostElementAccounting> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for cost element accounting" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCostElementAccounting> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for cost element accounting"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingARoster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingARoster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingARoster> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for creating a roster" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingARoster> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for creating a roster"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingOperationPlans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingOperationPlans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingOperationPlans> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for creating operation plans" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingOperationPlans> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for creating operation plans (daily weekly)"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for creating statistics" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForCreatingStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for creating statistics"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForDataMining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForDataMining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForDataMining> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for data mining" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForDataMining> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for data mining"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations> <http://www.w3.org/2000/01/rdf-schema#label> "provideMeansForEditing and graphically illustrating collections of internal processes and regulations" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for editing and graphically illustrating collections of internal processes and regulations"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForFinalizingDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForFinalizingDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForFiNalizingDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForFiNalizingDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForFinalizingDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for finalizing documentation" .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForFiNalizingDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for fi nalizing documentation" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForFinalizingDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for finalizing documentation"@en .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForFiNalizingDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for finalizing documentation"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForFinalizingNursingDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForFinalizingNursingDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForFinalizingNursingDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for finalizing nursing documentation" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForFinalizingNursingDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for finalizing nursing documentation"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForGeneralLedgerAccounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForGeneralLedgerAccounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForGeneralLedgerAccounting> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for general ledger accounting" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForGeneralLedgerAccounting> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for general ledger accounting"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForIncidentTracking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForIncidentTracking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForIncidentTracking> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for incident tracking" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForIncidentTracking> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for incident tracking"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for initiating final billing for outpatient treatment" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for initiating final billing for outpatient treatment"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForInitiationOfFinalBilling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForInitiationOfFinalBilling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForInitiationOfFinalBilling> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for initiation of final billing" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForInitiationOfFinalBilling> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for initiation of final billing"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingAndMonitoringDisposal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingAndMonitoringDisposal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingAndMonitoringDisposal> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for managing and monitoring disposal" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingAndMonitoringDisposal> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for managing and monitoring disposal"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingAppointments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingAppointments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingAppointments> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for managing appointments" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingAppointments> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for managing appointments"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingLogistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingLogistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingLogistics> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for managing logistics" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingLogistics> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for managing logistics"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingMedicalDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingMedicalDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingMedicalDevices> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for managing medical devices" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingMedicalDevices> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for managing medical devices"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingOutpatientUnitsStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingOutpatientUnitsStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingOutpatientUnitsStaff> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for managing outpatient units staff" .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingOutpatientUnitsStaff> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for managing outpatient unit\u2019s staff"@en .
+<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingOutpatientUnitsStaff> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for managing outpatient unit's staff"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingRooms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingRooms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingRooms> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for managing rooms" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingRooms> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for managing rooms"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingWardStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingWardStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingWardStaff> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for managing ward staff" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForManagingWardStaff> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for managing ward staff"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForMinimizingAdverseDrugEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForMinimizingAdverseDrugEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForMinimizingAdverseDrugEvents> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for minimizing adverse drug events" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForMinimizingAdverseDrugEvents> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for minimizing adverse drug events"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingConsumables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingConsumables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingConsumables> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for ordering consumables" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingConsumables> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for ordering consumables"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingDrugs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingDrugs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingDrugs> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for ordering drugs" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingDrugs> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for ordering drugs"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for ordering drugs materials and laundry" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for ordering drugs materials and laundry"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingLaundry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingLaundry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingLaundry> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for ordering laundry" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingLaundry> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for ordering laundry"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferToOtherUnits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferToOtherUnits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferToOtherUnits> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for ordering patient transfer to other units" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferToOtherUnits> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for ordering patient transfer to other units"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferToWard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferToWard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferToWard> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for ordering patient transfer to ward" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferToWard> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for ordering patient transfer to ward"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for ordering patient transfer within the institution" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for ordering patient transfer within the institution"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingTransportServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingTransportServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingTransportServices> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for ordering transport services" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderingTransportServices> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for ordering transport services"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderManagement> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for order management" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrderManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for order management"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingCareerDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingCareerDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingCareerDevelopment> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for organizing career development" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingCareerDevelopment> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for organizing career development"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingRecruitment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingRecruitment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingRecruitment> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for organizing recruitment" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingRecruitment> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for organizing recruitment"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingTraining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingTraining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingTraining> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for organizing training" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOrganizingTraining> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for organizing training"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOverheadCostManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOverheadCostManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForOverheadCostManagement> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for overhead cost management" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForOverheadCostManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for overhead cost management"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPerformanceEvaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPerformanceEvaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPerformanceEvaluation> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for performance evaluation" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPerformanceEvaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for performance evaluation"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingACarePlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingACarePlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingACarePlan> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for preparing a care plan" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingACarePlan> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for preparing a care plan"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingHospitalWideStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingHospitalWideStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingHospitalWideStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for preparing hospital wide statistics" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingHospitalWideStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for preparing hospital-wide statistics"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for preparing statistics" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for preparing statistics"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingWardRelatedStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingWardRelatedStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingWardRelatedStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for preparing ward related statistics" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingWardRelatedStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for preparing ward-related statistics"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingWorkSchedules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingWorkSchedules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingWorkSchedules> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for preparing work schedules" .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreparingWorkSchedules> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for preparing work schedules"@en .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreventiveMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreventiveMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreventiveMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for preventive maintenance" .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForPreventiveMaintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for preventive maintenance"@en .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForProductCosting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForProductCosting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForProductCosting> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for product costing" .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForProductCosting> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for product costing"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForRecruitingOfPatients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForRecruitingOfPatients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForRecruitingOfPatients> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for recruiting of patients" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForRecruitingOfPatients> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for recruiting of patients"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForSchedulingAPatientSAppointment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForSchedulingAPatientSAppointment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForSchedulingAPatientSAppointment> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for scheduling a patient s appointment" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForSchedulingAPatientSAppointment> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for scheduling a patient \u2019s appointment"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForSchedulingPatientsAppointments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForSchedulingPatientsAppointments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForSchedulingPatientsAppointments> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for scheduling patients appointments" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForSchedulingPatientsAppointments> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for scheduling patients \u2019 appointments"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForStockKeeping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForStockKeeping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForStockKeeping> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for stock keeping" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForStockKeeping> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for stock keeping"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForVerifyingCodingDoneInDepartments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForVerifyingCodingDoneInDepartments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideMeansForVerifyingCodingDoneInDepartments> <http://www.w3.org/2000/01/rdf-schema#label> "provide means for verifying coding done in departments" .
 <http://www.snik.eu/ontology/bb/FeatureProvideMeansForVerifyingCodingDoneInDepartments> <http://www.w3.org/2000/01/rdf-schema#label> "Provide means for verifying coding done in departments"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideOrdersForPatientRelatedDrugs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideOrdersForPatientRelatedDrugs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideOrdersForPatientRelatedDrugs> <http://www.w3.org/2000/01/rdf-schema#label> "provide orders for patient related drugs" .
 <http://www.snik.eu/ontology/bb/FeatureProvideOrdersForPatientRelatedDrugs> <http://www.w3.org/2000/01/rdf-schema#label> "Provide orders for patient-related drugs"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideOrdersForPatientRelatedExaminations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideOrdersForPatientRelatedExaminations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideOrdersForPatientRelatedExaminations> <http://www.w3.org/2000/01/rdf-schema#label> "provide orders for patient related examinations" .
 <http://www.snik.eu/ontology/bb/FeatureProvideOrdersForPatientRelatedExaminations> <http://www.w3.org/2000/01/rdf-schema#label> "Provide orders for patient-related examinations"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideRelativesWithInformationOnTheLocationOfAPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideRelativesWithInformationOnTheLocationOfAPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideRelativesWithInformationOnTheLocationOfAPatient> <http://www.w3.org/2000/01/rdf-schema#label> "provide relatives with information on the location of a patient" .
 <http://www.snik.eu/ontology/bb/FeatureProvideRelativesWithInformationOnTheLocationOfAPatient> <http://www.w3.org/2000/01/rdf-schema#label> "Provide relatives with information on the location of a patient"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvideReminderForFulfillingOfLegalReportingRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideReminderForFulfillingOfLegalReportingRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvideReminderForFulfillingOfLegalReportingRequirements> <http://www.w3.org/2000/01/rdf-schema#label> "provide reminder for fulfilling of legal reporting requirements" .
 <http://www.snik.eu/ontology/bb/FeatureProvideReminderForFulfillingOfLegalReportingRequirements> <http://www.w3.org/2000/01/rdf-schema#label> "Provide reminder for fulfilling of legal reporting requirements"@en .
 <http://www.snik.eu/ontology/bb/FeatureProvisionOfPatientDataAndExaminationParameters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvisionOfPatientDataAndExaminationParameters> <http://www.w3.org/2000/01/rdf-schema#label> "provision of patient data and examination parameters" .
+<http://www.snik.eu/ontology/bb/FeatureProvisionOfPatientDataAndExaminationParameters> <http://www.w3.org/2000/01/rdf-schema#label> "provision of patient data and examination parameters"@en .
 <http://www.snik.eu/ontology/bb/FeatureReceiveBloodSamples> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureReceiveBloodSamples> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureReceiveBloodSamples> <http://www.w3.org/2000/01/rdf-schema#label> "receive blood samples" .
 <http://www.snik.eu/ontology/bb/FeatureReceiveBloodSamples> <http://www.w3.org/2000/01/rdf-schema#label> "Receive blood samples"@en .
 <http://www.snik.eu/ontology/bb/FeatureReceiveOrders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureReceiveOrders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureReceiveOrders> <http://www.w3.org/2000/01/rdf-schema#label> "receive orders" .
 <http://www.snik.eu/ontology/bb/FeatureReceiveOrders> <http://www.w3.org/2000/01/rdf-schema#label> "Receive orders"@en .
 <http://www.snik.eu/ontology/bb/FeatureRegisteringPatients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureRegisteringPatients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureRegisteringPatients> <http://www.w3.org/2000/01/rdf-schema#label> "registering patients" .
 <http://www.snik.eu/ontology/bb/FeatureRegisteringPatients> <http://www.w3.org/2000/01/rdf-schema#label> "Registering Patients"@en .
 <http://www.snik.eu/ontology/bb/FeatureRetrievePatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureRetrievePatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureRetrievePatient> <http://www.w3.org/2000/01/rdf-schema#label> "retrieve patient" .
 <http://www.snik.eu/ontology/bb/FeatureRetrievePatient> <http://www.w3.org/2000/01/rdf-schema#label> "Retrieve patient"@en .
 <http://www.snik.eu/ontology/bb/FeatureScanDocuments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureScanDocuments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureScanDocuments> <http://www.w3.org/2000/01/rdf-schema#label> "scan documents" .
 <http://www.snik.eu/ontology/bb/FeatureScanDocuments> <http://www.w3.org/2000/01/rdf-schema#label> "Scan documents"@en .
 <http://www.snik.eu/ontology/bb/FeatureScanningDocumentsFromReferringPhysicianAndOtherSources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureScanningDocumentsFromReferringPhysicianAndOtherSources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureScanningDocumentsFromReferringPhysicianAndOtherSources> <http://www.w3.org/2000/01/rdf-schema#label> "scanning documents from referring physician and other sources" .
 <http://www.snik.eu/ontology/bb/FeatureScanningDocumentsFromReferringPhysicianAndOtherSources> <http://www.w3.org/2000/01/rdf-schema#label> "Scanning documents from referring physician and other sources"@en .
 <http://www.snik.eu/ontology/bb/FeatureScoringOfThePatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureScoringOfThePatient> <http://www.w3.org/2000/01/rdf-schema#label> "scoring of the patient" .
+<http://www.snik.eu/ontology/bb/FeatureScoringOfThePatient> <http://www.w3.org/2000/01/rdf-schema#label> "scoring of the patient"@en .
 <http://www.snik.eu/ontology/bb/FeatureSearchForOldPictures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureSearchForOldPictures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureSearchForOldPictures> <http://www.w3.org/2000/01/rdf-schema#label> "search for old pictures" .
 <http://www.snik.eu/ontology/bb/FeatureSearchForOldPictures> <http://www.w3.org/2000/01/rdf-schema#label> "Search for old pictures"@en .
 <http://www.snik.eu/ontology/bb/FeatureSelectOrdersFromOrderSets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureSelectOrdersFromOrderSets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureSelectOrdersFromOrderSets> <http://www.w3.org/2000/01/rdf-schema#label> "select orders from order sets" .
 <http://www.snik.eu/ontology/bb/FeatureSelectOrdersFromOrderSets> <http://www.w3.org/2000/01/rdf-schema#label> "Select orders from order sets"@en .
 <http://www.snik.eu/ontology/bb/FeatureServiceCombination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureServiceCombination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureServiceCombination> <http://www.w3.org/2000/01/rdf-schema#label> "service combination" .
 <http://www.snik.eu/ontology/bb/FeatureServiceCombination> <http://www.w3.org/2000/01/rdf-schema#label> "Service Combination"@en .
 <http://www.snik.eu/ontology/bb/FeatureServiceOrchestration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureServiceOrchestration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureServiceOrchestration> <http://www.w3.org/2000/01/rdf-schema#label> "service orchestration" .
 <http://www.snik.eu/ontology/bb/FeatureServiceOrchestration> <http://www.w3.org/2000/01/rdf-schema#label> "Service Orchestration"@en .
 <http://www.snik.eu/ontology/bb/FeatureStructureData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureStructureData> <http://www.w3.org/2000/01/rdf-schema#label> "structure data" .
+<http://www.snik.eu/ontology/bb/FeatureStructureData> <http://www.w3.org/2000/01/rdf-schema#label> "structure data"@en .
 <http://www.snik.eu/ontology/bb/FeatureSupportCreationOfANursingCarePlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureSupportCreationOfANursingCarePlan> <http://www.w3.org/2000/01/rdf-schema#label> "support creation of a nursing care plan" .
+<http://www.snik.eu/ontology/bb/FeatureSupportCreationOfANursingCarePlan> <http://www.w3.org/2000/01/rdf-schema#label> "support creation of a nursing care plan"@en .
 <http://www.snik.eu/ontology/bb/FeatureValidateResults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureValidateResults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureValidateResults> <http://www.w3.org/2000/01/rdf-schema#label> "validate results" .
 <http://www.snik.eu/ontology/bb/FeatureValidateResults> <http://www.w3.org/2000/01/rdf-schema#label> "Validate results"@en .
 <http://www.snik.eu/ontology/bb/FeatureViewPatientRelatedAppointments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureViewPatientRelatedAppointments> <http://www.w3.org/2000/01/rdf-schema#label> "view patient related appointments" .
+<http://www.snik.eu/ontology/bb/FeatureViewPatientRelatedAppointments> <http://www.w3.org/2000/01/rdf-schema#label> "view patient related appointments"@en .
 <http://www.snik.eu/ontology/bb/FeatureWorkflowManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureWorkflowManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureWorkflowManagement> <http://www.w3.org/2000/01/rdf-schema#label> "workflow management" .
 <http://www.snik.eu/ontology/bb/FeatureWorkflowManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Workflow Management"@en .
 <http://www.snik.eu/ontology/bb/FeatureWorkScheduling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureWorkScheduling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureWorkScheduling> <http://www.w3.org/2000/01/rdf-schema#label> "work scheduling" .
 <http://www.snik.eu/ontology/bb/FeatureWorkScheduling> <http://www.w3.org/2000/01/rdf-schema#label> "Work scheduling"@en .
 <http://www.snik.eu/ontology/bb/FederatedDatabaseSchema> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/FederatedDatabaseSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -20237,7 +19941,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/AdaptabilityOfTheHIS> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/AdaptationCost> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/AdHocMonitoring> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/AdministrateTheMasterPatientIndex> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Administration> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/AdministrationAndAllocationOfPatientRecords> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/AdministrationManagement> .
@@ -20555,6 +20258,7 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FamilyHistory> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FaxMachine> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Feature> .
+<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureAdministrateTheMasterPatientIndex> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureAdmitPatientsToTheWard> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureAnalyzeData> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureArchivePictures> .
@@ -20640,7 +20344,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvideMeansForDataMining> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvideMeansForFinalizingDocumentation> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvideMeansForFiNalizingDocumentation> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvideMeansForFinalizingNursingDocumentation> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvideMeansForGeneralLedgerAccounting> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvideMeansForIncidentTracking> .
@@ -22847,7 +22550,6 @@
 <http://www.snik.eu/ontology/bb/MedicalDocumentationSystem> <http://www.snik.eu/ontology/meta/typicalFeature> <http://www.snik.eu/ontology/bb/FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport> .
 <http://www.snik.eu/ontology/bb/MedicalDocumentationSystem> <http://www.snik.eu/ontology/meta/typicalFeature> <http://www.snik.eu/ontology/bb/FeatureProvideGuidelinesForCarePlanning> .
 <http://www.snik.eu/ontology/bb/MedicalDocumentationSystem> <http://www.snik.eu/ontology/meta/typicalFeature> <http://www.snik.eu/ontology/bb/FeatureProvideGuidelinesForTreatmentPlanning> .
-<http://www.snik.eu/ontology/bb/MedicalDocumentationSystem> <http://www.snik.eu/ontology/meta/typicalFeature> <http://www.snik.eu/ontology/bb/FeatureProvideMeansForFiNalizingDocumentation> .
 <http://www.snik.eu/ontology/bb/MedicalDocumentationSystem> <http://www.snik.eu/ontology/meta/typicalFeature> <http://www.snik.eu/ontology/bb/FeatureScanningDocumentsFromReferringPhysicianAndOtherSources> .
 <http://www.snik.eu/ontology/bb/MedicalDocumentationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/MedicalDocumentationSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Documentation System"@en .
