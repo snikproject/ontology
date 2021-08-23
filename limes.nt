@@ -411,7 +411,6 @@
 <http://www.snik.eu/ontology/he/Efficiency> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Efficiency> .
 <http://www.snik.eu/ontology/bb/Information> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Information> .
 <http://www.snik.eu/ontology/bb/CostAccounting> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Cost_Accounting> .
-<http://www.snik.eu/ontology/ciox/PDFFile> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/PDF_File> .
 <http://www.snik.eu/ontology/bb/Nanda> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/NANDA> .
 <http://www.snik.eu/ontology/bb/GeneralPractitioner> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/General_Practitioner> .
 <http://www.snik.eu/ontology/bb/ClinicalResearch> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Clinical_Research> .

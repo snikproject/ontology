@@ -32,7 +32,6 @@
 <http://www.snik.eu/ontology/ciox/AnforderungFormulieren> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/ciox/ItStrategieAnforderung> .
 <http://www.snik.eu/ontology/ciox/AnforderungFormulieren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/AnforderungFormulieren> <http://www.w3.org/2000/01/rdf-schema#label> "Anforderungen an IT-Strategie formulieren"@de .
-<http://www.snik.eu/ontology/ciox/Angebot> <http://purl.org/dc/terms/format> <http://www.snik.eu/ontology/ciox/PDFFile> .
 <http://www.snik.eu/ontology/ciox/Angebot> <http://www.snik.eu/ontology/meta/master> <http://www.snik.eu/ontology/ciox/Arbeitsablaufsystem> .
 <http://www.snik.eu/ontology/ciox/Angebot> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/ciox/Angebot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -729,7 +728,6 @@
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/MSWord> .
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/Officepaket> .
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/PDF> .
-<http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/PDFFile> .
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/PDFViewer> .
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/Personaleinsatzplanung> .
 <http://www.snik.eu/ontology/ciox> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/ciox/Personaleinsatzplanungsystem> .
@@ -1196,11 +1194,6 @@
 <http://www.snik.eu/ontology/ciox/Officepaket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/ciox/Officepaket> <http://www.w3.org/2000/01/rdf-schema#label> "Officepaket"@de .
 <http://www.snik.eu/ontology/ciox/Officepaket> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/ciox/ComputerbasiertesAnwendungssystem> .
-<http://www.snik.eu/ontology/ciox/PDFFile> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/ciox/PDFFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/ciox/PDFFile> <http://www.w3.org/2000/01/rdf-schema#label> "PDF File"@de .
-<http://www.snik.eu/ontology/ciox/PDFFile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/DatasetType> .
-<http://www.snik.eu/ontology/ciox/PDFFile> <http://www.w3.org/2004/02/skos/core#narrower> <http://www.snik.eu/ontology/bb/PDFA> .
 <http://www.snik.eu/ontology/ciox/PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> .
 <http://www.snik.eu/ontology/ciox/PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/RepresentationType> .
 <http://www.snik.eu/ontology/ciox/PDF> <http://www.w3.org/2000/01/rdf-schema#label> "PDF"@en .
