@@ -204,6 +204,7 @@
 <http://www.snik.eu/ontology/bb/StrategicHISPlanning> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicInformationManagementPlanning> .
 <http://www.snik.eu/ontology/bb/StrategicHospitalGoal> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/HospitalGoal> .
 <http://www.snik.eu/ontology/bb/StrategicHospitalGoal> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.snik.eu/ontology/he/StrategischesUnternehmensziel> .
+<http://www.snik.eu/ontology/bb/StrategicInformationManagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicManagementOfInformationSystems> .
 <http://www.snik.eu/ontology/bb/StrategicInformationManagementPlan> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StrategicInformationManagementPlan> .
 <http://www.snik.eu/ontology/bb/StudyDesign> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StudyDesign> .
 <http://www.snik.eu/ontology/bb/StudyObjective> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/StudyObjective> .
