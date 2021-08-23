@@ -20288,7 +20288,11 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureManageStorageFormats> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureManageStorageMedia> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureMergePatientInformationFromTwoRecords> .
+<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureMessageQueuing> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureModifyPresentationOfPictures> .
+<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureMulticasting> .
+<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureOfferDecisionSupportForCarePlanning> .
+<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureOrganizePatientTransport> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeaturePrepareReport> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeaturePreparingStatistics> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeaturePrintForms> .
@@ -20387,6 +20391,7 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvideOrdersForPatientRelatedExaminations> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvideRelativesWithInformationOnTheLocationOfAPatient> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvideReminderForFulfillingOfLegalReportingRequirements> .
+<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvisionOfPatientDataAndExaminationParameters> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureReceiveBloodSamples> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureReceiveOrders> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureRegisteringPatients> .
@@ -20397,6 +20402,7 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureSelectOrdersFromOrderSets> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureServiceCombination> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureServiceOrchestration> .
+<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureSupportCreationOfANursingCarePlan> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureValidateResults> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureWorkflowManagement> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureWorkScheduling> .
@@ -20681,7 +20687,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Mesh> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Message> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MessageEncryption> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureMessageQueuing> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MessageType> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Metamodel> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MicrobiologyReport> .
@@ -20709,7 +20714,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MonolithicArchitecture> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Mpeg> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MriScanner> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureMulticasting> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MultifunctionalPhysicalDataProcessingSystem> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MultipleUsability> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MultipleUsabilityOfData> .
@@ -20752,7 +20756,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ObjectClass> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ObjectIdentity> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ObservationProtocol> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureOfferDecisionSupportForCarePlanning> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/OfficesAndWritingServiceForReportWriting> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/officialUserGroup> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/OncologyInformationSystem> .
@@ -20792,7 +20795,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/OrganizationalUnitModelingElement> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/OrganizationalUnitOfAHospital> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/OrganizationOfHealthCare> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureOrganizePatientTransport> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Orientation> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Orm> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/OrthopedicsInformationSystem> .
@@ -20915,7 +20917,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ProjectResult> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ProjectTimeAllocation> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ProvidingCustomerCenteredServices> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureProvisionOfPatientDataAndExaminationParameters> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/PublishingAndPresentation> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/QualifiedElectronicSignature> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/QualitativeContentAnalysis> .
@@ -21097,7 +21098,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/SuitabilityForTheTask> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/SupplyAndDisposalManagement> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/SupportCost> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/FeatureSupportCreationOfANursingCarePlan> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Surgeon> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Sustainability> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Switch> .
@@ -22635,8 +22635,6 @@
 <http://www.snik.eu/ontology/bb/Message> <http://www.w3.org/2000/01/rdf-schema#label> "Nachricht"@de .
 <http://www.snik.eu/ontology/bb/Message> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Message> <http://www.w3.org/2004/02/skos/core#definition> "Set of data that are arranged as a unit in order to be communicated between application components."@en .
-<http://www.snik.eu/ontology/bb/FeatureMessageQueuing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureMessageQueuing> <http://www.w3.org/2000/01/rdf-schema#label> "Message Queuing"@en .
 <http://www.snik.eu/ontology/bb/MessageType> <http://www.snik.eu/ontology/bb/page> "311"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/MessageType> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
 <http://www.snik.eu/ontology/bb/MessageType> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -22805,8 +22803,6 @@
 <http://www.snik.eu/ontology/bb/MriScanner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/MriScanner> <http://www.w3.org/2000/01/rdf-schema#label> "MRI Scanner"@en .
 <http://www.snik.eu/ontology/bb/MriScanner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ImagingModality> .
-<http://www.snik.eu/ontology/bb/FeatureMulticasting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureMulticasting> <http://www.w3.org/2000/01/rdf-schema#label> "Multicasting"@en .
 <http://www.snik.eu/ontology/bb/MultifunctionalPhysicalDataProcessingSystem> <http://www.snik.eu/ontology/bb/page> "205"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/MultifunctionalPhysicalDataProcessingSystem> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter8.2> .
 <http://www.snik.eu/ontology/bb/MultifunctionalPhysicalDataProcessingSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -23103,8 +23099,6 @@
 <http://www.snik.eu/ontology/bb/ObservationProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ObservationProtocol> <http://www.w3.org/2000/01/rdf-schema#label> "Observation Protocol"@en .
 <http://www.snik.eu/ontology/bb/ObservationProtocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ResearchAndEducationEntityType> .
-<http://www.snik.eu/ontology/bb/FeatureOfferDecisionSupportForCarePlanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureOfferDecisionSupportForCarePlanning> <http://www.w3.org/2000/01/rdf-schema#label> "Offer decision support for care planning"@en .
 <http://www.snik.eu/ontology/bb/OfficesAndWritingServiceForReportWriting> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/OfficesAndWritingServiceForReportWriting> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter4.2> .
 <http://www.snik.eu/ontology/bb/OfficesAndWritingServiceForReportWriting> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -23437,8 +23431,6 @@
 <http://www.snik.eu/ontology/bb/OrganizationOfHealthCare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/OrganizationOfHealthCare> <http://www.w3.org/2000/01/rdf-schema#label> "Organization of Health Care"@en .
 <http://www.snik.eu/ontology/bb/OrganizationOfHealthCare> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/TransinstitutionalHealthCareFunction> .
-<http://www.snik.eu/ontology/bb/FeatureOrganizePatientTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureOrganizePatientTransport> <http://www.w3.org/2000/01/rdf-schema#label> "Organize patient transport"@en .
 <http://www.snik.eu/ontology/bb/Orientation> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/Orientation> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/Orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -24367,8 +24359,6 @@
 <http://www.snik.eu/ontology/bb/ProvidingCustomerCenteredServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ProvidingCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#label> "Providing Customer-Centered Services"@en .
 <http://www.snik.eu/ontology/bb/ProvidingCustomerCenteredServices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
-<http://www.snik.eu/ontology/bb/FeatureProvisionOfPatientDataAndExaminationParameters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureProvisionOfPatientDataAndExaminationParameters> <http://www.w3.org/2000/01/rdf-schema#label> "Provision of Patient Data and Examination Parameters"@en .
 <http://www.snik.eu/ontology/bb/PublishingAndPresentation> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/PublishingAndPresentation> <http://www.snik.eu/ontology/meta/updates> <http://www.snik.eu/ontology/bb/MedicalAndNursingKnowledge> .
 <http://www.snik.eu/ontology/bb/PublishingAndPresentation> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/MedicalAndNursingKnowledge> .
@@ -25597,8 +25587,6 @@
 <http://www.snik.eu/ontology/bb/SupportCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/SupportCost> <http://www.w3.org/2000/01/rdf-schema#label> "Support Cost"@en .
 <http://www.snik.eu/ontology/bb/SupportCost> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagementCost> .
-<http://www.snik.eu/ontology/bb/FeatureSupportCreationOfANursingCarePlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Feature> .
-<http://www.snik.eu/ontology/bb/FeatureSupportCreationOfANursingCarePlan> <http://www.w3.org/2000/01/rdf-schema#label> "Support creation of a nursing care plan"@en .
 <http://www.snik.eu/ontology/bb/SupportingEfficientCare> <http://purl.org/dc/terms/source> <http://subs.emis.de/LNI/Proceedings/Proceedings259/685.pdf> .
 <http://www.snik.eu/ontology/bb/SupportingEfficientCare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/bb/StrategicInformationManagementGoal> .
 <http://www.snik.eu/ontology/bb/SupportingEfficientCare> <http://www.w3.org/2000/01/rdf-schema#label> "Effizienz in Patientenversorgung, Forschung und Lehre unterst\u00FCtzen"@de .
