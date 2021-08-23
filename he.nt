@@ -13756,7 +13756,6 @@
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/he/Projektcontrolling> .
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/he/Projektorganisation> .
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.snik.eu/ontology/he/Projekt> .
-<http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/he/LeitungsaufgabeInformationsinfrastruktur> .
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.snik.eu/ontology/he/Projektmanagement> .
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Role> .
 <http://www.snik.eu/ontology/he/Projektmanager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
