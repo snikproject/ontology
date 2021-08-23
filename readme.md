@@ -65,7 +65,7 @@ Replace YYYYMMDD with the current date.
 
 ### Download SPARQL dump from the server
 1. Change directory to your dump folder and run `scp -r "root@bruchtal:/var/lib/docker/volumes/sniktoolset_virtuoso-data/_data/dumps/YYYYMMDD*" .`
-2. Use virtuoso2git to overwrite the source files in your repository, e.g. `dumps$ virtuoso2git . ~/projekte/snik/ontology 20201117`
+2. Use [virtuoso2git](https://github.com/KonradHoeffner/virtuoso2git) to overwrite the source files in your repository, e.g. `dumps$ virtuoso2git . ~/projekte/snik/ontology 20201117`
 3. Merge he.nt and he-unconsolidated.nt
 
 ```
