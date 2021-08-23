@@ -1,5 +1,3 @@
-<http://www.snik.eu/ontology/ciox/Angebot> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/Angebot> .
-<http://www.snik.eu/ontology/ciox/Angebot> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Bid> .
 <http://www.snik.eu/ontology/ciox/Anwendungssystem> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/Anwendungssystem> .
 <http://www.snik.eu/ontology/ciox/Betriebskonzept> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/OperationalConcept> .
 <http://www.snik.eu/ontology/ciox/ChiefExecutiveOfficer> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/CEO> .
