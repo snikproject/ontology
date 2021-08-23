@@ -457,7 +457,7 @@
 <http://www.snik.eu/ontology/he/Angebot> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/he/Angebot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/he/Angebot> <http://www.w3.org/2000/01/rdf-schema#label> "Angebot"@de .
-<http://www.snik.eu/ontology/he/Angebot> <http://www.w3.org/2000/01/rdf-schema#label> "tender"@en .
+<http://www.snik.eu/ontology/he/Angebot> <http://www.w3.org/2000/01/rdf-schema#label> "bid"@en .
 <http://www.snik.eu/ontology/he/Angebot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/he/Angebot> <http://www.w3.org/2004/02/skos/core#altLabel> "Request for Proposal"@en .
 <http://www.snik.eu/ontology/he/Angebot> <http://www.w3.org/2004/02/skos/core#definition> "1. zeitlich befristeter Vertragsantrag eines potenziellen Auftragnehmers an einen potenziellen Auftraggeber \u00FCber die Realisierung eines Beschaffungsprojekts (Lerneinheit TECHM).; 2. empfangsbed\u00FCrftige Willenserkl\u00E4rung die alle wesentlichen Vertragsbestandteile enth\u00E4lt sodass das Zustandekommen des Vertrags nur vom Einverst\u00E4ndnis des Empf\u00E4ngers abh\u00E4ngt. (Lerneinheit VERMA)."@de .
@@ -471,7 +471,7 @@
 <http://www.snik.eu/ontology/he/Angebotsanalyse> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/he/Kriterienkatalog> .
 <http://www.snik.eu/ontology/he/Angebotsanalyse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/he/Angebotsanalyse> <http://www.w3.org/2000/01/rdf-schema#label> "Angebotsanalyse"@de .
-<http://www.snik.eu/ontology/he/Angebotsanalyse> <http://www.w3.org/2000/01/rdf-schema#label> "tender analysis"@en .
+<http://www.snik.eu/ontology/he/Angebotsanalyse> <http://www.w3.org/2000/01/rdf-schema#label> "bid analysis"@en .
 <http://www.snik.eu/ontology/he/Angebotsanalyse> <http://www.w3.org/2004/02/skos/core#altLabel> "Angebotsanalyse und -evaluierung"@de .
 <http://www.snik.eu/ontology/he/Angebotsanalyse> <http://www.w3.org/2004/02/skos/core#definition> "Untersuchung und Evaluierung von Angeboten mit dem Ziel das optimale Angebot zu bestimmen."@de .
 <http://www.snik.eu/ontology/he/AngebotsorientierterAnsatz> <http://www.snik.eu/ontology/he/page> "128"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
