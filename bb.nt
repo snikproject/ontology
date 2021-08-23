@@ -18409,11 +18409,14 @@
 <http://www.snik.eu/ontology/bb/EfqmExcellenceModel> <http://www.w3.org/2000/01/rdf-schema#label> "EFQM Excellence Model"@en .
 <http://www.snik.eu/ontology/bb/EfqmExcellenceModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HisCertificate> .
 <http://www.snik.eu/ontology/bb/EhrStrategy> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.snik.eu/ontology/bb/EhrStrategy> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/ElectronicHealthRecord> .
 <http://www.snik.eu/ontology/bb/EhrStrategy> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/EhrStrategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/EhrStrategy> <http://www.w3.org/2000/01/rdf-schema#label> "EHR Strategy"@en .
 <http://www.snik.eu/ontology/bb/EhrStrategy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/bb/ElectronicHealthRecordFunction> <http://purl.org/dc/elements/1.1/source> "Vom SNIK-Team zum besseren Verständnis eingefügt."@en .
+<http://www.snik.eu/ontology/bb/ElectronicHealthRecordFunction> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EnterpriseFunction> .
+<http://www.snik.eu/ontology/bb/ElectronicHealthRecordFunction> <http://www.w3.org/2000/01/rdf-schema#label> "Electronic Health Record Function"@en .
+<http://www.snik.eu/ontology/bb/ElectronicHealthRecordFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EnterpriseFunction> .
 <http://www.snik.eu/ontology/bb/ElectronicHealthRecord> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/ElectronicHealthRecord> <http://www.snik.eu/ontology/bb/page> "38"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/ElectronicHealthRecord> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
