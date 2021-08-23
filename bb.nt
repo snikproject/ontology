@@ -2435,9 +2435,6 @@
 <http://www.snik.eu/ontology/bb/blank220668> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.snik.eu/ontology/bb/blank220668> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isDecomposedIn> .
 <http://www.snik.eu/ontology/bb/blank220668> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/PhysicalDataProcessingSystem> .
-<http://www.snik.eu/ontology/bb/blank220669> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.snik.eu/ontology/bb/blank220669> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/supports> .
-<http://www.snik.eu/ontology/bb/blank220669> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/Documentation> .
 <http://www.snik.eu/ontology/bb/blank220670> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.snik.eu/ontology/bb/blank220670> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isAssociatedWith> .
 <http://www.snik.eu/ontology/bb/blank220670> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/BusinessProcessModel> .
@@ -5589,11 +5586,6 @@
 <http://www.snik.eu/ontology/bb/blank221557> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
 <http://www.snik.eu/ontology/bb/blank221557> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/ClinicalDepartment> .
 <http://www.snik.eu/ontology/bb/blank221557> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/blank220293> .
-<http://www.snik.eu/ontology/bb/blank221558> <http://www.snik.eu/ontology/bb/tripelPage> "296"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/blank221558> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-<http://www.snik.eu/ontology/bb/blank221558> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
-<http://www.snik.eu/ontology/bb/blank221558> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/ClinicalDocumentation> .
-<http://www.snik.eu/ontology/bb/blank221558> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/Documentation> .
 <http://www.snik.eu/ontology/bb/blank221559> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/blank221559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank221559> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
@@ -9430,11 +9422,6 @@
 <http://www.snik.eu/ontology/bb/blank222342> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
 <http://www.snik.eu/ontology/bb/blank222342> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/InformationSystem> .
 <http://www.snik.eu/ontology/bb/blank222342> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/blank220668> .
-<http://www.snik.eu/ontology/bb/blank222343> <http://www.snik.eu/ontology/bb/tripelPage> "34"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/blank222343> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-<http://www.snik.eu/ontology/bb/blank222343> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
-<http://www.snik.eu/ontology/bb/blank222343> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/InformationSystem> .
-<http://www.snik.eu/ontology/bb/blank222343> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/blank220669> .
 <http://www.snik.eu/ontology/bb/blank222344> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/blank222344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank222344> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
@@ -17300,7 +17287,7 @@
 <http://www.snik.eu/ontology/bb/ClinicalDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ClinicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Clinical Documentation"@en .
 <http://www.snik.eu/ontology/bb/ClinicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Klinische Dokumentation"@de .
-<http://www.snik.eu/ontology/bb/ClinicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/Documentation> .
+<http://www.snik.eu/ontology/bb/ClinicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
 <http://www.snik.eu/ontology/bb/ClinicalDocumentation> <http://www.w3.org/2004/02/skos/core#definition> "Documentation in clinical environment. Recording all clinically relevant patient data that arise during patient care as completely, correctly, and quickly as possible. This supports the coordination of patient treatment between all involved health care professionals, and also the legal justification of the actions taken. Structured documentation of data is a precondition for data aggregation and statistics, computerized decision support, and retrieval of data. Is supported by medical documentation systems and nursing management and documentation systems. Is not considered as enterprise function but takes place every time an enterprise function is executed, new information is generated, and respective data are stored."@en .
 <http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.snik.eu/ontology/bb/conceptDomain> "health care specific"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/ClinicalInformationSystem> <http://www.snik.eu/ontology/bb/page> "297"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
@@ -18293,14 +18280,6 @@
 <http://www.snik.eu/ontology/bb/DocumentArchivingSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Document Archiving System"@en .
 <http://www.snik.eu/ontology/bb/DocumentArchivingSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/ComputerBasedApplicationComponent> .
 <http://www.snik.eu/ontology/bb/DocumentArchivingSystem> <http://www.w3.org/2004/02/skos/core#definition> "Application component that supports long-term archiving of patient-related and other data and documents based on sustainable standardized data formats, documents formats, and interfaces."@en .
-<http://www.snik.eu/ontology/bb/Documentation> <http://www.snik.eu/ontology/bb/page> "65"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/Documentation> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
-<http://www.snik.eu/ontology/bb/Documentation> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/bb/Documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/bb/Documentation> <http://www.w3.org/2000/01/rdf-schema#label> "Documentation"@en .
-<http://www.snik.eu/ontology/bb/Documentation> <http://www.w3.org/2000/01/rdf-schema#label> "Dokumentation"@de .
-<http://www.snik.eu/ontology/bb/Documentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/bb/Documentation> <http://www.w3.org/2004/02/skos/core#definition> "If an entity type E is updated by an enterprise function and this entity type\u2019s data are stored in an application component, we call this combination the \u2018 documentation of entity type E\u2019. Recording of data. Is not considered as enterprise function but takes place every time an enterprise function is executed, new information is generated, and respective data are stored."@en .
 <http://www.snik.eu/ontology/bb/DocumentStandard> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.4> .
 <http://www.snik.eu/ontology/bb/DocumentStandard> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/DocumentStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -20193,7 +20172,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/DiseaseManagement> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/DnsServer> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/DocumentArchivingSystem> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Documentation> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/DocumentStandard> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/DoubleExamination> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Drg> .
@@ -21587,7 +21565,6 @@
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/ArchitectureOfAnInformationSystem> .
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/Data> .
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/bb/InformationSystem> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/bb/Documentation> .
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Informationssystem"@de .
 <http://www.snik.eu/ontology/bb/InformationSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Information System"@en .
