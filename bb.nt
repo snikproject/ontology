@@ -20621,8 +20621,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MalcolmBaldrigeNationalQualityAward> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Management> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ManagementBoardBuffer> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/managementCentralityOfInformationManagement> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/managementCentralityOfNetworkManagement> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ManagementDepartment> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/ManagementEntityType> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/managementFinancingForm> .
@@ -22277,16 +22275,6 @@
 <http://www.snik.eu/ontology/bb/ManagementBoardBuffer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/ManagementBoardBuffer> <http://www.w3.org/2000/01/rdf-schema#label> "Management Board Buffer"@en .
 <http://www.snik.eu/ontology/bb/ManagementBoardBuffer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/FinancialResource> .
-<http://www.snik.eu/ontology/bb/managementCentralityOfInformationManagement> <http://www.snik.eu/ontology/bb/page> "283"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/managementCentralityOfInformationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.snik.eu/ontology/bb/managementCentralityOfInformationManagement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/bb/NetworkManagement> .
-<http://www.snik.eu/ontology/bb/managementCentralityOfInformationManagement> <http://www.w3.org/2000/01/rdf-schema#label> "management centrality of information management"@en .
-<http://www.snik.eu/ontology/bb/managementCentralityOfInformationManagement> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.snik.eu/ontology/bb/managementCentralityOfNetworkManagement> <http://www.snik.eu/ontology/bb/page> "285"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/managementCentralityOfNetworkManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.snik.eu/ontology/bb/managementCentralityOfNetworkManagement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/bb/NetworkManagement> .
-<http://www.snik.eu/ontology/bb/managementCentralityOfNetworkManagement> <http://www.w3.org/2000/01/rdf-schema#label> "management centrality of network management"@en .
-<http://www.snik.eu/ontology/bb/managementCentralityOfNetworkManagement> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/bb/ManagementDepartment> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter4.2> .
 <http://www.snik.eu/ontology/bb/ManagementDepartment> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/ManagementDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
