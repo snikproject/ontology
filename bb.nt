@@ -10604,11 +10604,6 @@
 <http://www.snik.eu/ontology/bb/blank222589> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
 <http://www.snik.eu/ontology/bb/blank222589> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/Message> .
 <http://www.snik.eu/ontology/bb/blank222589> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/blank220771> .
-<http://www.snik.eu/ontology/bb/blank222590> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/blank222590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-<http://www.snik.eu/ontology/bb/blank222590> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
-<http://www.snik.eu/ontology/bb/blank222590> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/MessageEncryption> .
-<http://www.snik.eu/ontology/bb/blank222590> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/InformationManagement> .
 <http://www.snik.eu/ontology/bb/blank222591> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank222591> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
 <http://www.snik.eu/ontology/bb/blank222591> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/MessageType> .
@@ -20668,7 +20663,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MemoryStick> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Mesh> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Message> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MessageEncryption> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MessageType> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Metamodel> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/MicrobiologyReport> .
@@ -22599,13 +22593,6 @@
 <http://www.snik.eu/ontology/bb/Mesh> <http://www.w3.org/2000/01/rdf-schema#label> "Mesh"@en .
 <http://www.snik.eu/ontology/bb/Mesh> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/PhysicalNetworkTopology> .
 <http://www.snik.eu/ontology/bb/Mesh> <http://www.w3.org/2004/02/skos/core#definition> "Each physical data processing system is connected with one or more devices; if each device is connected with all other devices on the network the mesh is said to be fully connected."@en .
-<http://www.snik.eu/ontology/bb/MessageEncryption> <http://www.snik.eu/ontology/bb/page> "189"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/MessageEncryption> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter7.3> .
-<http://www.snik.eu/ontology/bb/MessageEncryption> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
-<http://www.snik.eu/ontology/bb/MessageEncryption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/bb/MessageEncryption> <http://www.w3.org/2000/01/rdf-schema#label> "Message Encryption"@en .
-<http://www.snik.eu/ontology/bb/MessageEncryption> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/InformationManagement> .
-<http://www.snik.eu/ontology/bb/MessageEncryption> <http://www.w3.org/2004/02/skos/core#definition> "Those messages transferred during communication in the context of notifications , teleconsultations, or teleconferences, and for the global use of patient records, have to be protected from unauthorized third party access. Encryption procedures based on public key infrastructures exist for these cases. They are sufficiently secure and can be obtained as commercial encryption software."@en .
 <http://www.snik.eu/ontology/bb/Message> <http://www.snik.eu/ontology/bb/page> "67"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/Message> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
 <http://www.snik.eu/ontology/bb/Message> <http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.snik.eu/ontology/bb/Data> .

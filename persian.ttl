@@ -624,7 +624,6 @@ bb:Medication rdfs:label "دارو"@fa .
 bb:MemoryStick rdfs:label "کارت حافظه"@fa .
 bb:Mesh rdfs:label "شبکه"@fa .
 bb:Message rdfs:label "پیام"@fa .
-bb:MessageEncryption rdfs:label "رمزگذاری پیام"@fa .
 bb:MessageType rdfs:label "نوع پیام"@fa .
 bb:Metamodel rdfs:label "متا مدل"@fa .
 bb:MicrobiologyReport rdfs:label "گزارش میکروبیولوژی"@fa .
