@@ -235,7 +235,6 @@
 <http://www.snik.eu/ontology/ob/SwotAnalysis> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/SwotAnalysis> .
 <http://www.snik.eu/ontology/ob/System> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/System> .
 <http://www.snik.eu/ontology/ob/Transparency> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Transparency> .
-<http://www.snik.eu/ontology/ob/TroubleShooting> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/TroubleShooting> .
 <http://www.snik.eu/ontology/ob/UmlActivityDiagram> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/UmlActivityDiagram> .
 <http://www.snik.eu/ontology/ob/UmlClassDiagram> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/UmlClassDiagram> .
 <http://www.snik.eu/ontology/ob/Usability> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Usability> .

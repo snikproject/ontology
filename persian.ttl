@@ -1066,7 +1066,7 @@ bb:TransmittingMedium rdfs:label "وسیله فرستنده"@fa .
 bb:Transparency rdfs:label "شفافیت"@fa .
 bb:TreatmentText rdfs:label "متن درمانی"@fa .
 bb:Tree rdfs:label "درخت"@fa .
-bb:TroubleShooting rdfs:label "عیب یابی"@fa .
+bb:TroubleShootingInItServiceManagement rdfs:label "عیب یابی"@fa .
 bb:Typewriter rdfs:label "ماشین تحریر"@fa .
 bb:Ultrasound rdfs:label "سونوگرافی"@fa .
 bb:UmlAbstractClass rdfs:label "کلاس انتزاعی UML"@fa .
