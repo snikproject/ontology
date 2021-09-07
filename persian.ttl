@@ -1056,7 +1056,6 @@ bb:TimeMeasurement rdfs:label "اندازه گیری زمان"@fa .
 bb:TimeMotionAnalysis rdfs:label "تجزیه و تحلیل زمان-حرکت"@fa .
 bb:Tiss rdfs:label "TISS"@fa .
 bb:TokenRing rdfs:label "حلقه توکن"@fa .
-bb:TransactionManagement rdfs:label "مدیریت تراکنش"@fa .
 bb:TransactionManagementTechnology rdfs:label "فناوری مدیریت تراکنش"@fa .
 bb:Transcription rdfs:label "رونویسی"@fa .
 bb:Transfer rdfs:label "انتقال"@fa .

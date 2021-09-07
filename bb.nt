@@ -16,7 +16,6 @@
 <http://www.snik.eu/ontology/bb/1TierArchitecture> <http://www.w3.org/2004/02/skos/core#definition> "1-tier architectures are architectures with one centralized physical data processing system (denoted as \u201CT 1 \u201D)."@en .
 <http://www.snik.eu/ontology/bb/2PhaseCommitProtocol> <http://www.snik.eu/ontology/bb/page> "156"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/2PhaseCommitProtocol> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.5> .
-<http://www.snik.eu/ontology/bb/2PhaseCommitProtocol> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/bb/TransactionManagement> .
 <http://www.snik.eu/ontology/bb/2PhaseCommitProtocol> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/bb/2PhaseCommitProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/2PhaseCommitProtocol> <http://www.w3.org/2000/01/rdf-schema#label> "2-Phase-Commit-Protocol"@en .
@@ -4091,9 +4090,6 @@
 <http://www.snik.eu/ontology/bb/blank221223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.snik.eu/ontology/bb/blank221223> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/uses> .
 <http://www.snik.eu/ontology/bb/blank221223> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/Acid> .
-<http://www.snik.eu/ontology/bb/blank221224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.snik.eu/ontology/bb/blank221224> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/supports> .
-<http://www.snik.eu/ontology/bb/blank221224> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/TransactionManagement> .
 <http://www.snik.eu/ontology/bb/blank221225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.snik.eu/ontology/bb/blank221225> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isAssociatedWith> .
 <http://www.snik.eu/ontology/bb/blank221225> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/MediaCrack> .
@@ -4175,9 +4171,6 @@
 <http://www.snik.eu/ontology/bb/blank221251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.snik.eu/ontology/bb/blank221251> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isAssociatedWith> .
 <http://www.snik.eu/ontology/bb/blank221251> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/QualifiedElectronicSignature> .
-<http://www.snik.eu/ontology/bb/blank221252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.snik.eu/ontology/bb/blank221252> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isAssociatedWith> .
-<http://www.snik.eu/ontology/bb/blank221252> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/TransactionManagement> .
 <http://www.snik.eu/ontology/bb/blank221253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.snik.eu/ontology/bb/blank221253> <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/isDecomposedIn> .
 <http://www.snik.eu/ontology/bb/blank221253> <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.snik.eu/ontology/bb/ApplicationServer> .
@@ -15286,16 +15279,6 @@
 <http://www.snik.eu/ontology/bb/blank223552> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
 <http://www.snik.eu/ontology/bb/blank223552> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/TokenRing> .
 <http://www.snik.eu/ontology/bb/blank223552> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/LogicalNetworkTopology> .
-<http://www.snik.eu/ontology/bb/blank223553> <http://www.snik.eu/ontology/bb/tripelPage> "manuell hinzugef\u00FCgt"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/blank223553> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-<http://www.snik.eu/ontology/bb/blank223553> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
-<http://www.snik.eu/ontology/bb/blank223553> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/TransactionManagement> .
-<http://www.snik.eu/ontology/bb/blank223553> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/InformationManagement> .
-<http://www.snik.eu/ontology/bb/blank223554> <http://www.snik.eu/ontology/bb/tripelPage> "156"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/blank223554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-<http://www.snik.eu/ontology/bb/blank223554> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
-<http://www.snik.eu/ontology/bb/blank223554> <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.snik.eu/ontology/bb/TransactionManagement> .
-<http://www.snik.eu/ontology/bb/blank223554> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.snik.eu/ontology/bb/blank221223> .
 <http://www.snik.eu/ontology/bb/blank223555> <http://www.snik.eu/ontology/bb/tripelPage> "155"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/blank223555> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 <http://www.snik.eu/ontology/bb/blank223555> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
@@ -21112,7 +21095,6 @@
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Tiss> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/TokenRing> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/TopManagement> .
-<http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/TransactionManagement> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/TransactionManagementTechnology> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Transcription> .
 <http://www.snik.eu/ontology/bb> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/bb/Transfer> .
@@ -25894,19 +25876,9 @@
 <http://www.snik.eu/ontology/bb/TopManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Top Management"@en .
 <http://www.snik.eu/ontology/bb/TopManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/HospitalStaff> .
 <http://www.snik.eu/ontology/bb/TopManagement> <http://www.w3.org/2004/02/skos/core#altLabel> "Hospital Management Staff"@en .
-<http://www.snik.eu/ontology/bb/TransactionManagement> <http://www.snik.eu/ontology/bb/page> "324"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/bb/TransactionManagement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/Thesaurus> .
-<http://www.snik.eu/ontology/bb/TransactionManagement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/Function> .
-<http://www.snik.eu/ontology/bb/TransactionManagement> <http://www.snik.eu/ontology/meta/uses> <http://www.snik.eu/ontology/bb/Acid> .
-<http://www.snik.eu/ontology/bb/TransactionManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.snik.eu/ontology/bb/TransactionManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Transaction Management"@en .
-<http://www.snik.eu/ontology/bb/TransactionManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Transaktionsmanagement"@de .
-<http://www.snik.eu/ontology/bb/TransactionManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
-<http://www.snik.eu/ontology/bb/TransactionManagement> <http://www.w3.org/2004/02/skos/core#definition> "Ensures that every update of data which have been consistent will lead to another state in which data are consistent again."@en .
 <http://www.snik.eu/ontology/bb/TransactionManagementTechnology> <http://www.snik.eu/ontology/bb/page> "155"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/bb/TransactionManagementTechnology> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/bb/chapter6.5> .
 <http://www.snik.eu/ontology/bb/TransactionManagementTechnology> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
-<http://www.snik.eu/ontology/bb/TransactionManagementTechnology> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/bb/TransactionManagement> .
 <http://www.snik.eu/ontology/bb/TransactionManagementTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/bb/TransactionManagementTechnology> <http://www.w3.org/2000/01/rdf-schema#label> "Transaction Management Technology"@en .
 <http://www.snik.eu/ontology/bb/TransactionManagementTechnology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/bb/IntegrationTechnology> .

@@ -370,7 +370,6 @@
 <http://www.snik.eu/ontology/he/ASP> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Application_Service_Provider> .
 <http://www.snik.eu/ontology/ob/Scenario> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Scenario> .
 <http://www.snik.eu/ontology/bb/RemoteFunctionCall> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Remote_Function_Call> .
-<http://www.snik.eu/ontology/bb/TransactionManagement> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Transaction_Management> .
 <http://www.snik.eu/ontology/bb/Catering> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Catering> .
 <http://www.snik.eu/ontology/bb/PersonalDigitalAssistant> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Personal_Digital_Assistant> .
 <http://www.snik.eu/ontology/ob/Knowledge> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Knowledge> .
