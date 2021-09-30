@@ -69,10 +69,6 @@
         a owl:Restriction ;
         owl:allValuesFrom :Method ;
         owl:onProperty :uses
-    ], [
-        a owl:Restriction ;
-        owl:allValuesFrom :Subfunction ;
-        owl:onProperty :isDecomposedIn
     ] .
 
 :RepresentationType
@@ -94,11 +90,6 @@
     a owl:Class ;
     rdfs:label "Softwareprodukt"@de, "software product"@en ;
     rdfs:subClassOf :EntityType .
-
-:Subfunction
-    a owl:Class ;
-    rdfs:label "Teilaufgabe"@de, "subfunction"@en ;
-    rdfs:subClassOf :Function .
 
 :Top
     a owl:Class ;

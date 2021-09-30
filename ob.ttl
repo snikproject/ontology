@@ -2238,7 +2238,6 @@ ob:DomainExpert
 ob:DomainLayer
     meta:DefinitionDEPage "168"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-3 ;
-    meta:functionComponent ob:EnterpriseFunction ;
     meta:subTopClass meta:EntityType ;
     a owl:Class ;
     rdfs:label "Domain Layer"@en, "Fachliche Ebene (3LGM²)"@de ;

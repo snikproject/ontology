@@ -2394,21 +2394,3 @@ it4it:serviceModelBackboneDataObject
     rdfs:label "service Model Backbone Data Object"@en ;
     rdfs:subPropertyOf it4it:keyDataObject .
 
-meta:isAssociatedWith
-    a owl:ObjectProperty .
-
-meta:isDecomposedIn
-    a owl:ObjectProperty .
-
-meta:supports
-    a owl:ObjectProperty .
-
-meta:updates
-    a owl:ObjectProperty .
-
-meta:uses
-    a owl:ObjectProperty .
-
-skos:definition
-    a owl:AnnotationProperty .
-
