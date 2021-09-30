@@ -1,0 +1,1953 @@
+@base <http://www.snik.eu/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix meta: <meta/> .
+@prefix bb: <bb/> .
+@prefix ob: <ob/> .
+@prefix ciox: <ciox/> .
+@prefix he: <he/> .
+@prefix it: <it/> .
+@prefix it4it: <it4it/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<ciox>
+    ov:defines ciox:Abteilungsleiter, ciox:AbteilungsleiterApplikationsmanagement, ciox:AbteilungsleiterProjektUndProzessmanagement, ciox:AktivierbareDienstleistungsmittel, ciox:AnforderungFormulieren, ciox:Angebot, ciox:Anlagenmanagementsystem, ciox:AnlegenHardwarereparatur, ciox:AnlegenSoftwarereparatur, ciox:Anwendungssystem, ciox:Arbeitsablaufsystem, ciox:Bereich1Informationsmanagement, ciox:Bereich2, ciox:Bereich3, ciox:Bereich3FinanzenPlanungUndControlling, ciox:BereichFinanzenPlanungUndControlling, ciox:BereichInformationsmanagement, ciox:BereichMaterialwirtschaftDienstleistungen, ciox:Bereichsassistenz, ciox:Beschaffungsbeauftragung, ciox:Beschaffungsfreigabe, ciox:Beschaffungsmanagement, ciox:Bestellung, ciox:Bestellungsbearbeitung, ciox:Betriebskonzept, ciox:Budgetplanung, ciox:CABDurchfuehrung, ciox:ChangeAdvisoryBoard, ciox:ChangeAntrag, ciox:ChangeAntragProtokoll, ciox:ChangeBewertung, ciox:ChangeManagement, ciox:ChangeRequestEntscheidung, ciox:ChangeRequestErfassung, ciox:ChangeRequestPruefung, ciox:ChangeRequestUeberwachung, ciox:ChiefExecutiveOfficer, ciox:ChiefInformationOfficer, ciox:ComputerbasiertesAnwendungssystem, ciox:DepartmentManagerSystemManagement, ciox:Dienstanweisung, ciox:Dienstleistungsmittel, ciox:DocumentType, ciox:DurchfuehrungJourFixe, ciox:DurchfuehrungJourFixeCEO, ciox:DurchfuehrungWartungsfenster, ciox:EMailTransportServerSystem, ciox:Emailverwaltungssystem, ciox:EnterpriseResourcePlanningSystem, ciox:ErwartungenFormulieren, ciox:Etat, ciox:ExcelFile, ciox:FAMOS, ciox:Finanzwesensystem, ciox:Fremdmittel, ciox:GeplanteAktivierbareDienstleistungsmittel, ciox:GeplanterPersonalaufwand, ciox:HISStakeholder, ciox:HospitalStaff, ciox:ITFinanzcontrolling, ciox:ITSachkontenplanung, ciox:ITServiceManagementSystem, ciox:ITStrategieentwicklung, ciox:IncidentManagement, ciox:InformationManagementStaff, ciox:InstantMessagingSystem, ciox:InterneBudgetkontierung, ciox:Investitionsmanagementsystem, ciox:Investitionsmittel, ciox:ItMassnahme, ciox:ItMassnahmenDokumentation, ciox:ItMassnahmenPriorisierung, ciox:ItStrategie, ciox:ItStrategieAnforderung, ciox:ItStrategieAuftraggeber, ciox:ItStrategieEinhaltungBewertung, ciox:ItStrategieErstellung, ciox:ItStrategieErwartung, ciox:ItStrategieFinanzierungsantraegeVerwendung, ciox:ItStrategieHandlungsfelder, ciox:ItStrategieHandlungsfelderGenehmigung, ciox:ItStrategieHandlungsfelderPriorisierung, ciox:ItStrategieManagement, ciox:ItStrategiePraesentation, ciox:ItStrategieStakeholder, ciox:ItStrategieStakeholderGenehmigung, ciox:ItStrategieVerwendung, ciox:JourFixeProtokoll, ciox:Kollaborationsplattform, ciox:Kostenart, ciox:Kostenmanagement, ciox:Kostenrechnungssystem, ciox:Krankenhausverwaltung, ciox:Lenkungsausschuss, ciox:LenkungsausschussAbstimmung, ciox:MSActiveDirectory, ciox:MSExcel, ciox:MSExchange, ciox:MSExchangeServer, ciox:MSLync, ciox:MSOutlook, ciox:MSPowerpoint, ciox:MSProject, ciox:MSSCSM, ciox:MSServer, ciox:MSSharePoint, ciox:MSSystemCenter, ciox:MSWord, ciox:Massnahmenkatalog, ciox:Materialbestellung, ciox:Materialwirtschaftssystem, ciox:Microsoft, ciox:MicrosoftExcel, ciox:MicrosoftExchangeServer, ciox:MicrosoftLync, ciox:MicrosoftOutlook, ciox:MicrosoftProjectServer, ciox:MicrosoftSharepoint, ciox:MicrosoftSystemCenter, ciox:MicrosoftWord, ciox:MitarbeiterVertragsmanagement, ciox:Officepaket, ciox:PDF, ciox:PDFViewer, ciox:Personaleinsatzplanung, ciox:Personaleinsatzplanungsystem, ciox:Personalmanagement, ciox:PlansummeDienstleistungsmittel, ciox:PlansummeFremdmittel, ciox:PlansummeInvestitionsmittel, ciox:PolypointPEP, ciox:Projekt, ciox:ProjektPriorisierung, ciox:ProjektSicherheitskrititkalitaet, ciox:ProjektSicherheitskrititkalitaetsBewertung, ciox:Projektabschlussbericht, ciox:Projektauftrag, ciox:Projektauftraggeber, ciox:Projektbudget, ciox:Projektbudgetverwaltung, ciox:Projektdarstellung, ciox:Projektdefinition, ciox:Projektdurchfuehrung, ciox:Projekteliste, ciox:Projekteplanung, ciox:Projekteskalation, ciox:Projektewarteliste, ciox:Projektfreigabe, ciox:Projektleiter, ciox:Projektleiterzuweisung, ciox:Projektmanagement, ciox:Projektmanagementsystem, ciox:Projektnummer, ciox:Projektplan, ciox:Projektplanung, ciox:Projektportfolio, ciox:Projektportfolioplanung, ciox:Projektpriorisierung, ciox:Projektprioritaet, ciox:Projektreview, ciox:Projektrisiko, ciox:Projektstatusbericht, ciox:Projektuebergabeprotokoll, ciox:Projektueberwachung, ciox:Projektwebsite, ciox:ProspektiveRechtfertigung, ciox:Rechnung, ciox:Rechnungsfreigabe, ciox:Rechnungspruefung, ciox:Ressource, ciox:Ressourcenplan, ciox:RetrospektiveRechtfertigung, ciox:SAP, ciox:SAPCO, ciox:SAPCats, ciox:SAPERP, ciox:SAPFI, ciox:SAPHRPEP, ciox:SAPIM, ciox:SAPMM, ciox:SAPXFlow, ciox:SCSMFile, ciox:Sachkonto, ciox:SachkontoHardwarereparaturen, ciox:SachkontoITDienstleistungen, ciox:SachkontoITInvestitionen, ciox:SachkontoSoftwarereparaturen, ciox:ServiceDesk, ciox:Softwareprodukt, ciox:StakeholderForschungUndLehre, ciox:StakeholderInformationsmanagement, ciox:StakeholderPatientenversorgung, ciox:StefanCioX, ciox:Stoerungserfassung, ciox:Tabellenkalkulationssystem, ciox:Textverarbeitungssoftware, ciox:Ticket, ciox:TicketBearbeitung, ciox:Ticketauswertung, ciox:Ticketbearbeitungszuweisung, ciox:Ticketklassifikation, ciox:Ticketueberwachung, ciox:Vertragsmanagement, ciox:Verzeichnisdienstsystem, ciox:Wartungsaktivitaetsprotokoll, ciox:Wartungsfensterfreigabe, ciox:Wartungsfensterkoordinator, ciox:Wartungsvertrag, ciox:Wartungsvertragfreigabe, ciox:Wartungsvertragsentscheidung, ciox:Wartungsvertragserstellung, ciox:WirtschaftlicheRechtfertigung, ciox:Wirtschaftsplan, ciox:Wirtschaftsplanung, ciox:WordFile, ciox:Workshop, ciox:WorkshopErgebnisse, ciox:WorkshopErgebnisseEvaluation, ciox:gering, ciox:hoch, ciox:mittel ;
+    dc:creator <../de/Team> ;
+    dc:modified "2016-11-18"^^xsd:date ;
+    dc:publisher <../de/Team> ;
+    dc:source <../mapping> ;
+    vann:preferredNamespacePrefix "snik-ciox" ;
+    vann:preferredNamespaceUri "http://www.snik.eu/ontology/ciox/" ;
+    a owl:Ontology ;
+    rdfs:comment "Based on interviews about the Health Information System with Department B1, the Department for Information Management, of the Uniklinikum Leipzig."@de ;
+    rdfs:label "CIOX Ontology"@en, "CIOX Uniklinikum Leipzig HIS Ontologie"@de, "ciox" ;
+    owl:versionInfo "0.3.0" ;
+    foaf:homepage <http://www.snik.eu> .
+
+ciox:Abteilungsleiter
+    meta:isInvolvedIn ciox:CABDurchfuehrung, ciox:DurchfuehrungJourFixe, ciox:Projektdurchfuehrung, ciox:Projektplanung, ciox:Rechnungspruefung ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Abteilungsleiter"@de, "Department Manager"@en ;
+    rdfs:subClassOf ciox:InformationManagementStaff .
+
+ciox:AbteilungsleiterApplikationsmanagement
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Abteilungsleiter Applikationsmanagement"@de, "Department Manager Application Management"@en ;
+    rdfs:subClassOf ciox:Abteilungsleiter .
+
+ciox:AbteilungsleiterProjektUndProzessmanagement
+    meta:approvesEntityType ciox:Projektdefinition ;
+    meta:isResponsibleForEntityType ciox:Projektewarteliste ;
+    meta:isResponsibleForFunction ciox:Projektfreigabe, ciox:Projektleiterzuweisung ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Abteilungsleiter Projekt- und Prozessmanagement"@de, "Department Manager Project and Process Management"@en ;
+    rdfs:subClassOf ciox:Abteilungsleiter .
+
+ciox:AktivierbareDienstleistungsmittel
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Aktivierbare Dienstleistungsmittel"@de ;
+    rdfs:subClassOf ciox:Kostenart .
+
+ciox:AnforderungFormulieren
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:ItStrategieAnforderung ;
+    a owl:Class ;
+    rdfs:label "Anforderungen an IT-Strategie formulieren"@de .
+
+ciox:Angebot
+    meta:master ciox:Arbeitsablaufsystem ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Angebot"@de, "Bid"@en ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:Bid .
+
+ciox:Anlagenmanagementsystem
+    meta:isBasedOn ciox:FAMOS ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Anlagenmanagementsystem"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:AnlegenHardwarereparatur
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:SachkontoHardwarereparaturen ;
+    a owl:Class ;
+    rdfs:label "Anlegen Hardwarereparatur"@de ;
+    rdfs:subClassOf ciox:Bestellungsbearbeitung .
+
+ciox:AnlegenSoftwarereparatur
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:SachkontoSoftwarereparaturen ;
+    a owl:Class ;
+    rdfs:label "Anlegen Softwarereparatur"@de ;
+    rdfs:subClassOf ciox:Bestellungsbearbeitung .
+
+ciox:Anwendungssystem
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Application System"@en ;
+    rdfs:subClassOf meta:ApplicationComponent .
+
+ciox:Arbeitsablaufsystem
+    meta:isBasedOn ciox:SAPXFlow ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Arbeitsablaufsystem"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:Bereich1Informationsmanagement
+    a ciox:BereichInformationsmanagement, owl:NamedIndividual .
+
+ciox:Bereich2
+    a ciox:BereichMaterialwirtschaftDienstleistungen, owl:NamedIndividual .
+
+ciox:Bereich3
+    a ciox:BereichFinanzenPlanungUndControlling, owl:NamedIndividual .
+
+ciox:Bereich3FinanzenPlanungUndControlling
+    a owl:NamedIndividual ;
+    rdfs:label ""@de .
+
+ciox:BereichFinanzenPlanungUndControlling
+    meta:isInvolvedIn ciox:ITSachkontenplanung ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Bereich Finanzen, Planung und Controlling"@de ;
+    rdfs:subClassOf ciox:Krankenhausverwaltung .
+
+ciox:BereichInformationsmanagement
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Sachkonto ;
+    meta:uses ciox:Sachkonto ;
+    a owl:Class ;
+    rdfs:label "Bereich Informationsmanagement"@de ;
+    rdfs:subClassOf ciox:Krankenhausverwaltung ;
+    skos:closeMatch bb:DepartmentOfInformationManagement, bb:InformationManagementDepartment .
+
+ciox:BereichMaterialwirtschaftDienstleistungen
+    meta:isInvolvedIn ciox:Wartungsvertragsentscheidung ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Bereich Materialwirtschaft/Dienstleistungen"@de ;
+    rdfs:subClassOf ciox:Krankenhausverwaltung .
+
+ciox:Bereichsassistenz
+    meta:isInvolvedIn ciox:CABDurchfuehrung, ciox:ITSachkontenplanung, ciox:Wartungsvertragfreigabe, ciox:Wartungsvertragserstellung ;
+    meta:isResponsibleForEntityType ciox:Projektbudget ;
+    meta:isResponsibleForFunction ciox:Bestellungsbearbeitung, ciox:ChangeRequestErfassung, ciox:Rechnungspruefung ;
+    meta:subTopClass meta:Role ;
+    meta:uses ciox:Projektbudget ;
+    a owl:Class ;
+    rdfs:label "Bereichsassistenz"@de, "Department Asisstant"@en ;
+    rdfs:subClassOf ciox:InformationManagementStaff .
+
+ciox:Beschaffungsbeauftragung
+    meta:isAssociatedWith ciox:SAPMM ;
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Projektauftrag ;
+    meta:uses ciox:SachkontoITInvestitionen ;
+    a owl:Class ;
+    rdfs:label "Beschaffungsbeauftragung"@de ;
+    rdfs:subClassOf ciox:Bestellungsbearbeitung ;
+    skos:definition "Die Beschaffung wird beauftragt und auf das entsprechende Budget geschaut. Anschließend geht ein Auftrag aus SAP raus und eine Rückmeldung geht an den Auftraggeber zurück."@de .
+
+ciox:Beschaffungsfreigabe
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Projektauftrag ;
+    a owl:Class ;
+    rdfs:label "Beschaffungsfreigabe"@de, "Procurement Release"@en ;
+    rdfs:subClassOf ciox:Beschaffungsmanagement .
+
+ciox:Beschaffungsmanagement
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Beschaffungsmanagement"@de, "Procurement Management"@en ;
+    rdfs:subClassOf ciox:InformationManagement .
+
+ciox:Bestellung
+    meta:master ciox:Materialwirtschaftssystem ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Bestellung"@de ;
+    rdfs:subClassOf ciox:Beschaffungsmanagement .
+
+ciox:Bestellungsbearbeitung
+    meta:isAssociatedWith ciox:Materialwirtschaftssystem ;
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Bestellung, ciox:Etat, ciox:Projektauftrag ;
+    meta:uses ciox:Etat, ciox:SachkontoITInvestitionen ;
+    a owl:Class ;
+    rdfs:label "Bestellungsbearbeitung"@de, "Purchase Order Processing"@en ;
+    rdfs:subClassOf ciox:Beschaffungsmanagement .
+
+ciox:Betriebskonzept
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Betriebskonzept"@de, "Operational Concept"@en ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:OperationalConcept .
+
+ciox:Budgetplanung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Etat ;
+    meta:uses ciox:Etat ;
+    a owl:Class ;
+    rdfs:label "Budget Planning"@en, "Budgetplanung"@de ;
+    rdfs:subClassOf ciox:Kostenmanagement ;
+    skos:definition "Planung der Kosten für das Folgejahr auf Basis der Vorjahre"@de .
+
+ciox:CABDurchfuehrung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:ChangeAntrag ;
+    meta:uses ciox:ChangeAntrag ;
+    a owl:Class ;
+    rdfs:label "CAB Durchfuehrung"@de, "CAB execution"@en ;
+    rdfs:subClassOf ciox:ChangeManagement ;
+    skos:definition "CAB - Change Advisory Board"@de .
+
+ciox:Change
+    skos:closeMatch bb:ChangeRequest .
+
+ciox:ChangeAdvisoryBoard
+    meta:isInvolvedIn ciox:CABDurchfuehrung, ciox:ChangeRequestUeberwachung ;
+    meta:isResponsibleForFunction ciox:ChangeRequestEntscheidung, ciox:ChangeRequestErfassung, ciox:ChangeRequestPruefung ;
+    meta:roleComponent ciox:Abteilungsleiter, ciox:Bereichsassistenz, ciox:ChiefInformationOfficer ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:isDefinedBy "Wikipedia"@de ;
+    rdfs:label "Change Advisory Board"@en ;
+    rdfs:subClassOf ciox:InformationManagementStaff ;
+    skos:altLabel "CAB"@en ;
+    skos:definition "Das CAB unterstützt den Change-Manager, Changes hinsichtlich des Business Impacts einzuschätzen und zu priorisieren. Wenn ein CAB einberufen wird, müssen die ausgewählten Mitglieder fähig sein, den Change sowohl vom Standpunkt des Geschäfts, als auch vom technischen Standpunkt aus beurteilen zu können. Um diesen Mix zu erreichen, müssen im CAB sowohl Personen mit einem klaren Verständnis für die Geschäftsanforderungen des Kunden vertreten sein als auch Anwender und Vertreter aus den technischen Entwicklungs- und Supportbereichen."@de .
+
+ciox:ChangeAntrag
+    meta:entityTypeComponent ciox:ChangeAntragProtokoll ;
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Change Antrag"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:altLabel "Change Request"@en, "Request for Change"@en, "RfC"@en ;
+    skos:closeMatch ob:ChangeRequest ;
+    skos:definition "Ein Change Antrag kommt per Email und (papierbasiert) per Hauspost. Für den B1 ist nur der unterschriebene RfC relevant."@de .
+
+ciox:ChangeAntragProtokoll
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Change Antrag Protokoll"@de, "Change Request Protocol"@en ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:ChangeBewertung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieVerwendung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:ItStrategie ;
+    a owl:Class ;
+    rdfs:label "Change Bewertung "@de ;
+    skos:definition """Bewertung ob ein Change einer IT-Maßnahme beiträgt. Der Change wird angenommen, wenn er einer IT-Maßnahme beiträgt. 
+Diese Bewertung wird aktuell implizit (und durch Kenntnis der IT-Strategie durch den CIO) durchgeführt. 
+"""@de .
+
+ciox:ChangeManagement
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Change Management"@de, "Änderungsverwaltung"@de ;
+    rdfs:subClassOf ciox:InformationManagement ;
+    skos:closeMatch bb:ChangeManagement, ob:ChangeManagement ;
+    skos:definition "Change-Management ist ein Themengebiet aus der IT Infrastructure Library (ITIL) und wird dort im Buch Service Transition als Prozess definiert, der das Ziel hat, dass alle Anpassungen an der IT-Infrastruktur kontrolliert, effizient und unter Minimierung von Risiken für den Betrieb bestehender Business-Services durchgeführt werden."@de .
+
+ciox:ChangeRequestEntscheidung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:ChangeAntragProtokoll, ciox:Projektewarteliste ;
+    a owl:Class ;
+    rdfs:label "Change Request Decision"@en, "Change Request Entscheidung"@de ;
+    rdfs:subClassOf ciox:ChangeManagement .
+
+ciox:ChangeRequestErfassung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:ChangeAntragProtokoll ;
+    meta:uses ciox:ChangeAntrag ;
+    a owl:Class ;
+    rdfs:label "Change Request Aquisition"@en, "Change Request Erfassung"@de ;
+    rdfs:subClassOf ciox:ChangeManagement ;
+    skos:broadMatch ob:ChangeRequestList .
+
+ciox:ChangeRequestPruefung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:ChangeAntragProtokoll ;
+    a owl:Class ;
+    rdfs:label "Change Request Check"@en, "Change Request Prüfung"@de ;
+    rdfs:subClassOf ciox:ChangeManagement .
+
+ciox:ChangeRequestUeberwachung
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:ChangeAntragProtokoll ;
+    a owl:Class ;
+    rdfs:label "Change Request Monitoring"@en, "Change Request Überwachung"@de ;
+    rdfs:subClassOf ciox:ChangeManagement .
+
+ciox:ChiefExecutiveOfficer
+    meta:isInvolvedIn ciox:DurchfuehrungJourFixeCEO, ciox:Projektreview ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Chief Executive Officer"@de ;
+    rdfs:subClassOf ciox:HISStakeholder ;
+    skos:altLabel "CEO"@en, "Geschäftsführer"@de .
+
+ciox:ChiefInformationOfficer
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:approvesEntityType ciox:Projektdefinition ;
+    meta:isInvolvedIn ciox:CABDurchfuehrung, ciox:DurchfuehrungJourFixe, ciox:DurchfuehrungJourFixeCEO, ciox:IncidentManagement, ciox:Projektbudgetverwaltung, ciox:Rechnungspruefung, ciox:Ticketauswertung ;
+    meta:isResponsibleForEntityType ciox:Projektbudget, ciox:Projektewarteliste ;
+    meta:isResponsibleForFunction ciox:Beschaffungsfreigabe, ciox:ITSachkontenplanung, ciox:ITStrategieentwicklung, ciox:ItStrategieManagement, ciox:Projektdarstellung, ciox:Projekteskalation, ciox:Projektfreigabe, ciox:Projektleiterzuweisung, ciox:Projektpriorisierung, ciox:Projektueberwachung, ciox:Rechnungsfreigabe, ciox:Ticketauswertung, ciox:Wartungsfensterfreigabe, ciox:Wartungsvertragfreigabe ;
+    meta:isResponsibleForRole ciox:Projektleiter ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Chief Information Officer"@en, "Leiter B1"@de, "chief information officer"@en ;
+    rdfs:subClassOf ciox:InformationManagementStaff ;
+    skos:altLabel "CIO"@en ;
+    skos:closeMatch bb:ChiefInformationOfficer .
+
+ciox:ComputerbasiertesAnwendungssystem
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Computer-Based Application Component"@en, "Computerbasiertes Anwendungssystem"@de ;
+    rdfs:subClassOf ciox:Anwendungssystem, meta:ComputerBasedApplicationComponent ;
+    skos:closeMatch bb:ComputerBasedApplicationComponent .
+
+ciox:DepartmentManagerSystemManagement
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Department Manager System Management"@en ;
+    rdfs:subClassOf ciox:Abteilungsleiter .
+
+ciox:Dienstanweisung
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Dienstanweisung"@de, "Organisation Instruction"@en ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:Dienstleistungsmittel
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Dienstleistungsmittel"@de ;
+    rdfs:subClassOf ciox:Kostenart .
+
+ciox:DocumentType
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Document Type"@de ;
+    rdfs:subClassOf meta:RepresentationType .
+
+ciox:DurchfuehrungJourFixe
+    meta:functionComponent ciox:Projektueberwachung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:Wartungsaktivitaetsprotokoll ;
+    a owl:Class ;
+    rdfs:label "Durchfuehrung Jour-fixe"@de, "Jour Fixe Execution"@en ;
+    skos:definition "Statusabfrage der Projekte, 1x wöchentlich Projektleiter Jour fixe zur Besprechung laufender Projekte"@de .
+
+ciox:DurchfuehrungJourFixeCEO
+    meta:functionComponent ciox:Projektueberwachung ;
+    meta:isAssociatedWith ciox:MSPowerpoint ;
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:JourFixeProtokoll ;
+    a owl:Class ;
+    rdfs:label "Durchfuehrung Jour-fixe CEO"@de, "Jour-fixe Execution CEO"@en ;
+    skos:definition "Regelmäßige Statusbesprechung zwischen CEO und CIO"@de .
+
+ciox:DurchfuehrungWartungsfenster
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Wartungsaktivitaetsprotokoll ;
+    a owl:Class ;
+    rdfs:label "Durchfuehrung Wartungsfenster"@de, "Maintenance Window Execution"@en ;
+    rdfs:subClassOf ciox:InformationManagement ;
+    skos:broadMatch ob:MaintenanceOfApplicationSystems .
+
+ciox:EMailTransportServerSystem
+    meta:isBasedOn ciox:MSExchangeServer ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "E-Mail-Transport-Server-System"@de ;
+    rdfs:subClassOf ciox:Officepaket .
+
+ciox:Emailverwaltungssystem
+    meta:isBasedOn ciox:MSOutlook ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Emailverwaltungssystem"@de ;
+    rdfs:subClassOf ciox:Officepaket .
+
+ciox:EnterpriseResourcePlanningSystem
+    meta:isBasedOn ciox:SAPERP ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Enterprise Resource Planning System"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem ;
+    skos:closeMatch bb:EnterpriseResourcePlanningSystem .
+
+ciox:ErwartungenFormulieren
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:ItStrategieErwartung ;
+    a owl:Class ;
+    rdfs:label "Erwartungen an IT-Strategie formulieren"@de .
+
+ciox:Etat
+    meta:entityTypeComponent ciox:Sachkonto ;
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Budget"@en, "Etat"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch bb:AnnualITBudget ;
+    skos:definition "Geldmittel für Dienstleistungen, Softwarewartung, Hardwarewartung, Reparatur, Ersatzteile und Investitionsmittel"@de .
+
+ciox:ExcelFile
+    a dc:MediaType, ciox:DocumentType, meta:RepresentationType ;
+    rdfs:label "Excel File"@de, "excel file"@en .
+
+ciox:FAMOS
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Fast Analysis And Monitoring Of Signals"@en ;
+    rdfs:subClassOf ciox:Softwareprodukt ;
+    skos:altLabel "FAMOS"@de .
+
+ciox:Finanzwesensystem
+    meta:isBasedOn ciox:SAPFI ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Finanzwesensystem"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:Fremdmittel
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Fremdmittel"@de ;
+    rdfs:subClassOf ciox:Kostenart .
+
+ciox:GenehmigungItStrategieStakeholder
+    skos:broader bb:HisStakeholder .
+
+ciox:GeplanteAktivierbareDienstleistungsmittel
+    meta:isAssociatedWith ciox:AktivierbareDienstleistungsmittel ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Geplante Aktivierbare Dienstleistungsmittel"@de ;
+    rdfs:subClassOf ciox:Ressource .
+
+ciox:GeplanterPersonalaufwand
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Geplanter Personalaufwand"@de, "Planned Personnel Costs"@en ;
+    rdfs:subClassOf ciox:Ressource .
+
+ciox:HISStakeholder
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "HIS Stakeholder"@en ;
+    rdfs:subClassOf meta:Role .
+
+ciox:HospitalStaff
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Hospital Staff"@de ;
+    rdfs:subClassOf ciox:HISStakeholder ;
+    skos:closeMatch bb:HospitalStaff .
+
+ciox:ITFinanzcontrolling
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT Financial Controlling"@en, "IT-Finanzcontrolling"@de ;
+    rdfs:subClassOf ciox:InformationManagement ;
+    skos:broader bb:FinancialControlling .
+
+ciox:ITSachkontenplanung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:SachkontoHardwarereparaturen, ciox:SachkontoITDienstleistungen, ciox:SachkontoITInvestitionen, ciox:SachkontoSoftwarereparaturen ;
+    meta:uses ciox:SachkontoHardwarereparaturen, ciox:SachkontoITDienstleistungen, ciox:SachkontoITInvestitionen, ciox:SachkontoSoftwarereparaturen ;
+    a owl:Class ;
+    rdfs:label "IT General Ledger Account Planning"@en, "IT-Sachkontenplanung"@de ;
+    rdfs:subClassOf ciox:ITFinanzcontrolling ;
+    skos:definition "Sachkonten werden einmal jährlich geplant auf Grundlage des Vorjahrs."@de .
+
+ciox:ITServiceManagementSystem
+    meta:isBasedOn ciox:MSSystemCenter ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports ciox:IncidentManagement ;
+    a owl:Class ;
+    rdfs:label "IT Service Management System"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:ITStrategieentwicklung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:ItStrategie ;
+    a owl:Class ;
+    rdfs:label "IT Strategieentwicklung"@de, "IT strategy development"@en ;
+    rdfs:subClassOf ciox:InformationManagement ;
+    skos:closeMatch ob:StrategicInformationManagementPlanning ;
+    skos:definition "Aus der Erstellung der IT-Strategie ergibt sich das Projektportfolio."@de .
+
+ciox:IncidentManagement
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Incident Management"@de ;
+    rdfs:subClassOf ciox:InformationManagement .
+
+ciox:InformationManagementStaff
+    meta:isAssociatedWith ciox:InformationManagement ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Information Management Staff"@de ;
+    rdfs:subClassOf ciox:HospitalStaff ;
+    skos:closeMatch bb:InformationManagementStaff .
+
+ciox:InstantMessagingSystem
+    meta:isBasedOn ciox:MSLync ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Instant Messaging System"@de ;
+    rdfs:subClassOf ciox:Officepaket .
+
+ciox:InterneBudgetkontierung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Etat ;
+    a owl:Class ;
+    rdfs:label "Internal Budget Account Assignment"@en, "Interne Budgetkontierung"@de ;
+    rdfs:subClassOf ciox:Kostenmanagement .
+
+ciox:Investition
+    skos:closeMatch he:ItInvestition .
+
+ciox:Investitionsmanagementsystem
+    meta:isBasedOn ciox:SAPIM ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Investitionsmanagementsystem"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:Investitionsmittel
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Investitionsmittel"@de ;
+    rdfs:subClassOf ciox:Kostenart .
+
+ciox:ItMassnahme
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT-Maßnahme"@de .
+
+ciox:ItMassnahmenDokumentation
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieErstellung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:WorkshopErgebnisse ;
+    a owl:Class ;
+    rdfs:label "IT Maßnahmen Dokumentation"@de, "IT-Maßnahmen Dokumentation"@de ;
+    skos:definition "Ausgehend von den Ergebnissen der Workshops wird der Maßnahmenkatalog erstellt. IT-Maßnahmen sind große, breite Themen, die in der Strategie textuell beschrieben werden. "@de .
+
+ciox:ItMassnahmenPriorisierung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieErstellung ;
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Massnahmenkatalog ;
+    meta:uses ciox:ItMassnahme ;
+    a owl:Class ;
+    rdfs:label "IT Maßnahmen Priorisierung"@de, "IT-Maßnahmen Priorisierung "@de ;
+    skos:broadMatch he:VergebenvonPrioritaetenfuerdieProjektrealisierung ;
+    skos:definition "Der Maßnahmenkatalog wird priorisiert. Weniger wichtige IT-Maßnahmen werden nicht berücksichtigt. Dadurch wird die Auswahl der zu berücksichtigenden IT-Maßnahmen getroffen. Nicht alle priorisierten IT-Maßnahmen kommen letztendlich in die IT-Strategie. "@de .
+
+ciox:ItStrategie
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT Strategy"@en, "IT-Strategie"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:altLabel "Strategischer Rahmenplan"@de, "strategic information management plan"@en ;
+    skos:closeMatch bb:StrategicInformationManagementPlan .
+
+ciox:ItStrategieAnforderung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT-Strategieanforderung"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch bb:RequirementOfHISStakeholder .
+
+ciox:ItStrategieAuftraggeber
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Auftraggeber"@de ;
+    skos:broader bb:HisStakeholder .
+
+ciox:ItStrategieEinhaltungBewertung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieVerwendung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:ItStrategie ;
+    a owl:Class ;
+    rdfs:label "ItStrategieEinhaltungBewertung"@de ;
+    skos:closeMatch bb:StrategicHISMonitoring ;
+    skos:definition """Problem: 
+Einige IT-Maßnahmen können nicht durchgeführt oder vollständig bearbeitet werden. Dafür müssen Argumente gefunden werden.
+Überprüfung der IT-Strategie findet aktuell bei Neuerstellung der IT-Strategie statt. Eigentlich sollte die Überprüfung jedoch regelmäßig explizit stattfinden. Dafür sollte ein IT-Board etabliert werden. Politische Zwänge haben das IT-Board jedoch verhindert.
+Dazu gehört die Etablierung der Lenkungsgruppe IT-Board. Diese sollte halbjährlich Tagen und bewerten, was die IT im letzten halben Jahr gemacht hat und inwiefern die IT-Strategie erreicht werden kann. (Sind wir auf dem roten Pfad?). Das IT-Board prüft die Abarbeitung der vereinbarten IT-Maßnahmen. Das IT-Board existiert nicht."""@de .
+
+ciox:ItStrategieErstellung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieManagement, ciox:ItStrategieStakeholderGenehmigung ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Erstellung"@de ;
+    skos:closeMatch bb:CreationOfStrategicInformationManagementPlan .
+
+ciox:ItStrategieErwartung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT-Strategieerwartung"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:broadMatch bb:FulfillmentOfTheExpectationsOfDifferentStakeholders ;
+    skos:narrowMatch bb:RequirementOfHISStakeholder .
+
+ciox:ItStrategieFinanzierungsantraegeVerwendung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieVerwendung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:ItStrategie ;
+    a owl:Class ;
+    rdfs:label "Verwenden der IT-Strategie für Finanzierungsanträge"@de ;
+    skos:definition "Die IT-Strategie ist eine Grundlage für einige Finanzierungsanträge beim Bund oder Land. Nicht nur bei IT-Anträgen, sondern auch bei anderweitigen Großgeräten, Förderprogrammen, oder Klinische Studien. "@de .
+
+ciox:ItStrategieHandlungsfelder
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:entityTypeComponent ciox:ItStrategie ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Handlungsfelder"@de .
+
+ciox:ItStrategieHandlungsfelderGenehmigung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieErstellung ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Handlungsfelder Genehmigung "@de ;
+    skos:broadMatch bb:ApprovalToStrategicInformationManagementPlan ;
+    skos:definition "Das Projektteam erarbeitet Handlungsfelder (Themen) für Workshops, in denen Themen für die IT-Maßnahmen erarbeitet werden. "@de .
+
+ciox:ItStrategieHandlungsfelderPriorisierung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieErstellung ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Handlungsfelder Priorisierung"@de ;
+    skos:definition """Zur Erarbeitung und Priorisierung von zukünftigen IT-Strategie-Themen werden Workshops mit den Stakeholdern durchgeführt. 
+Insgesamt 14 Workshops mit unterschiedlichen Themen wurden durchgeführt. Dabei wird zentral die Frage bearbeitet: „Welche Problemfelder gibt es in der Organisation über die IT?“ und: „Welche wichtigen Themen des B1 gibt es?“. Die damit gewonnenen Themen werden zu Themenbereichen gruppiert (geclustert) und zu größeren IT-Maßnahmen synthetisiert. Jede IT-Maßnahme lässt sich ein oder mehreren Unternehmenszielen zuordnen."""@de .
+
+ciox:ItStrategieManagement
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieErstellung, ciox:ItStrategieVerwendung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:ItStrategie ;
+    a owl:Class ;
+    rdfs:label "IT-Strategiemanagement"@de ;
+    skos:altLabel "strategisches Informationsmanagement"@de ;
+    skos:broadMatch bb:StrategicInformationManagament ;
+    skos:definition "Der Begriff IT-Strategie hat im UKL sowohl die Bedeutung des Dokument \"IT Strategie\", also Strategischer Rahmenplan, als auch die Aufgabe des CIOs, sich um die IT-Strategie zu kümmern. In der CIOx Ontologie wird die Aufgabe als ItStrategyManagement bezeichnet und der Strategische Rahmenplan als ItStrategie."@de ;
+    skos:narrowMatch bb:StrategicInformationManagement .
+
+ciox:ItStrategiePraesentation
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieErstellung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:Massnahmenkatalog ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Präsentation "@de, "ITStrategiePräsentation "@de ;
+    skos:definition "Informationskampagne zur IT-Strategie muss durchgeführt werden. D.h. die Existenz und der Inhalt, sowie der verbindliche Charakter wird gegenüber der gesamten UML (UKL und MF) bekannt gegeben. "@de .
+
+ciox:ItStrategiePräsentation
+    skos:broadMatch ob:ProjectRepresentation ;
+    skos:closeMatch bb:EstablishAndPromoteTheStrategicInformationManagementPlan .
+
+ciox:ItStrategieStakeholder
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:isResponsibleForFunction ciox:AnforderungFormulieren, ciox:ErwartungenFormulieren ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Stakeholder"@de ;
+    skos:altLabel "Stakeholder"@de ;
+    skos:closeMatch bb:HISStakeholder .
+
+ciox:ItStrategieStakeholderGenehmigung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Genehmigung IT-Strategie Stakeholder"@de ;
+    rdfs:subClassOf meta:Function ;
+    skos:definition """Der Lenkungsausschuss der IT-Strategie muss neu zusammengesetzt werden und dabei Stakeholder aus den Bereichen (nicht limitiert auf) Patientenversorgung, Forschung und Lehre, Informationsmanagement. 
+Stakeholder benennen ihre Erwartungen und Anforderungen an die IT-Strategie aus ihren Bereichen. Präsentation und Abstimmung des Vorschlags des Lenkungsausschuss bei Auftraggeber (Vorstand und Fakultätsleitung"""@de .
+
+ciox:ItStrategieVerwendung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieManagement ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "IT-Strategie Verwendung "@de ;
+    skos:closeMatch bb:UseOfStrategicInformationManagementPlan .
+
+ciox:JourFixeProtokoll
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Jour fixe Protocol"@en, "Jour-fixe Protokoll"@de ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:Kollaborationsplattform
+    meta:isBasedOn ciox:MSSharePoint ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports ciox:Beschaffungsfreigabe, ciox:ChangeRequestEntscheidung, ciox:ChangeRequestErfassung, ciox:ChangeRequestPruefung, ciox:ChangeRequestUeberwachung, ciox:DurchfuehrungWartungsfenster, ciox:ITStrategieentwicklung, ciox:Wartungsfensterfreigabe, ciox:Wartungsvertragfreigabe ;
+    a owl:Class ;
+    rdfs:label "Kollaborationsplattform"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:Kostenart
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Cost Type"@en, "Kostenart"@de ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:Kostenmanagement
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Cost Management"@en, "Kostenmanagement"@de ;
+    rdfs:subClassOf ciox:InformationManagement ;
+    skos:broadMatch bb:CostAccounting .
+
+ciox:Kostenrechnungssystem
+    meta:isBasedOn ciox:SAPCO ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Kostenrechnungssystem"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:Krankenhausverwaltung
+    meta:isAssociatedWith ciox:Sachkonto ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Hospital Administration"@en, "Krankenhausverwaltung"@de ;
+    rdfs:subClassOf meta:Function ;
+    skos:closeMatch bb:HospitalAdministrationDepartment .
+
+ciox:Lenkungsausschuss
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:approvesEntityType ciox:Massnahmenkatalog ;
+    meta:roleComponent ciox:ItStrategieStakeholder ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Lenkungsausschuss "@de ;
+    skos:closeMatch bb:InformationManagementBoard ;
+    skos:definition "Der Lenkungsausschuss besteht aus ITStrategieStakeholdern"@de .
+
+ciox:LenkungsausschussAbstimmung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieErstellung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:Massnahmenkatalog ;
+    a owl:Class ;
+    rdfs:label "LenkungsausschussAbstimmung "@de ;
+    skos:broadMatch bb:ApprovalToStrategicInformationManagementPlan .
+
+ciox:MSActiveDirectory
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS Active Directory"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSExcel
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS Excel"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSExchange
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS Exchange"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSExchangeServer
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS Exchange Server"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSLync
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS Lync"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSOutlook
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS Outlook"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSPowerpoint
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS Powerpoint"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSProject
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS Project"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSSCSM
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "System Center Service Manager"@en ;
+    rdfs:subClassOf ciox:Microsoft ;
+    skos:altLabel "MS SCSM"@en .
+
+ciox:MSServer
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS Server"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSSharePoint
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS SharePoint"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSSystemCenter
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS System Center"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:MSWord
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "MS Word"@de ;
+    rdfs:subClassOf ciox:Microsoft .
+
+ciox:Massnahmenkatalog
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:isAssociatedWith ciox:ItMassnahme ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Maßnahmenkatalog "@de ;
+    skos:altLabel "ITStrategie"@de .
+
+ciox:Materialbestellung
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Materialbestellung"@de ;
+    rdfs:subClassOf ciox:Bestellungsbearbeitung ;
+    skos:broader bb:MaterialAndMedicationManagement .
+
+ciox:Materialwirtschaftssystem
+    meta:isBasedOn ciox:SAPMM ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Materialwirtschaftssystem"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:Microsoft
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Microsoft"@de ;
+    rdfs:subClassOf ciox:Softwareprodukt ;
+    skos:altLabel "MS"@en .
+
+ciox:MicrosoftExcel
+    a dc:MediaType ;
+    rdfs:label "Microsoft Excel"@en .
+
+ciox:MicrosoftExchangeServer
+    a owl:NamedIndividual ;
+    rdfs:label "Microsoft Exchange Server"@en .
+
+ciox:MicrosoftLync
+    a ciox:InstantMessagingSystem, owl:NamedIndividual .
+
+ciox:MicrosoftOutlook
+    a owl:NamedIndividual ;
+    rdfs:label "Microsoft Outlook"@en .
+
+ciox:MicrosoftProjectServer
+    a owl:NamedIndividual ;
+    rdfs:label "Microsoft Project Server"@en .
+
+ciox:MicrosoftSharepoint
+    a owl:NamedIndividual ;
+    rdfs:label "Microsoft Sharepoint"@en .
+
+ciox:MicrosoftSystemCenter
+    a owl:NamedIndividual ;
+    rdfs:label "Microsoft System Center"@en .
+
+ciox:MicrosoftWord
+    a dc:MediaType ;
+    rdfs:label "Microsoft Word"@en .
+
+ciox:MitarbeiterVertragsmanagement
+    meta:isInvolvedIn ciox:DurchfuehrungJourFixe ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Contract Management Staff"@en, "Mitarbeiter Vertragsmanagement"@de ;
+    rdfs:subClassOf ciox:InformationManagementStaff .
+
+ciox:Officepaket
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Officepaket"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:PDF
+    a dc:MediaType, meta:RepresentationType ;
+    rdfs:label "PDF"@en .
+
+ciox:PDFViewer
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "PDF Viewer"@de ;
+    rdfs:subClassOf ciox:Officepaket .
+
+ciox:Personaleinsatzplanung
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Personaleinsatzplanung"@de, "Personnel Management"@en ;
+    rdfs:subClassOf ciox:Personalmanagement ;
+    skos:closeMatch bb:PlanningOfStaff .
+
+ciox:Personaleinsatzplanungsystem
+    meta:isBasedOn ciox:PolypointPEP ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports ciox:Personaleinsatzplanung ;
+    a owl:Class ;
+    rdfs:label "Personaleinsatzplanungsystem"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:Personalmanagement
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Personalmanagement"@de, "Personnel Management"@en ;
+    rdfs:subClassOf ciox:InformationManagement ;
+    skos:closeMatch bb:HumanResourceManagement .
+
+ciox:PlansummeDienstleistungsmittel
+    meta:isAssociatedWith ciox:Dienstleistungsmittel ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Plansumme Dienstleistungsmittel"@de ;
+    rdfs:subClassOf ciox:Ressource .
+
+ciox:PlansummeFremdmittel
+    meta:isAssociatedWith ciox:Fremdmittel ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Plansumme Fremdmittel"@de ;
+    rdfs:subClassOf ciox:Ressource .
+
+ciox:PlansummeInvestitionsmittel
+    meta:isAssociatedWith ciox:Investitionsmittel ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Plansumme Investitionsmittel"@de ;
+    rdfs:subClassOf ciox:Ressource .
+
+ciox:PolypointPEP
+    meta:subTopClass meta:EntityType ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:label "Polypoint PEP"@de, "Polypoint PEP"@en ;
+    rdfs:subClassOf ciox:Softwareprodukt .
+
+ciox:Priorität
+    skos:closeMatch he:Prioritaet .
+
+ciox:Projectueberwachung
+    skos:closeMatch ob:ProjectMonitoring .
+
+ciox:Projekt
+    meta:entityTypeComponent ciox:Projektdefinition ;
+    meta:isAssociatedWith ciox:Projektwebsite ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Project"@en, "Projekt"@de ;
+    rdfs:subClassOf ciox:EntityType ;
+    skos:closeMatch bb:Project, ob:Project ;
+    skos:definition "Projekte werden definiert als Tätigkeiten, die länger als 5 Personentage dauern und das eigene Budget beanspruchen"@de .
+
+ciox:ProjektAuftraggeber
+    skos:closeMatch ob:Sponsor .
+
+ciox:ProjektPriorisierung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieVerwendung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:ItStrategie, ciox:Projektdefinition ;
+    rdfs:label "Projekt Priorisierung"@de ;
+    skos:altLabel "PortfolioManagement"@en ;
+    skos:closeMatch bb:PortfolioManagement, he:VergebenvonPrioritaetenfuerdieProjektrealisierung ;
+    skos:definition """Neu hinzukommende Projekte (aus Anträgen oder Changes), müssen ggü. der IT-Strategie bewertet werden. Welchen IT-Maßnahmen tragen diese Projekte bei? Wenn ein Beitrag geleistet wird, wird das Projekt gefördert. Dieser Beitrag ist Priorisierungskriterium.
+Diese Bewertung wird aktuell implizit (und durch Kenntnis der IT-Strategie durch den CIO) durchgeführt."""@de .
+
+ciox:ProjektSicherheitskrititkalitaet
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Projekt-Sicherheitskrititkalität"@de .
+
+ciox:ProjektSicherheitskrititkalitaetsBewertung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieVerwendung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:ProjektSicherheitskrititkalitaet ;
+    a owl:Class ;
+    rdfs:label "Projekt-SicherheitskrititkalitätsBewertung"@de ;
+    skos:definition "Jedes laufende Projekt der Projektliste wird betrachtet. Wenn es eine Sicherheitsrelevanz hat, wird dieses Projekt genauer betrachtet.  Nach Installation eines CISO (IT-Sicherheitsbeauftragter) benötigt dieser eine Zuordnung, welche Projekte welchen IT-Maßnahmen beitragen. Der CISO bekommt ein Sicherheitsgremium. Die Kenntnis der sicherheitsrelevanten Projekte ist ein wesentliches Ergebnis. Sobald Projektplan/Budgets fertig geplant wurde, sollen die sicherheits-relevanten Projekte genehmigt werden. Evtl. Kritikalität in der Projektwarteliste pflegen."@de .
+
+ciox:ProjektSicherheitskrititkalität
+    skos:broadMatch he:Sicherheit .
+
+ciox:Projektabschlussbericht
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Project Completition Report"@en, "Projektabschlussbericht"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:FinalReport .
+
+ciox:Projektauftrag
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Project Order"@en, "Projektauftrag"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:ProjectOrder .
+
+ciox:Projektauftraggeber
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Project Sponsor"@en, "Projektauftraggeber"@de ;
+    rdfs:subClassOf ciox:HISStakeholder .
+
+ciox:Projektbudget
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Project Budget"@en, "Projektbudget"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:ProjectBudget .
+
+ciox:Projektbudgetverwaltung
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Project Budget Administration"@en, "Projektbudgetverwaltung"@de ;
+    rdfs:subClassOf ciox:Projektmanagement .
+
+ciox:Projektdarstellung
+    meta:isAssociatedWith ciox:MSPowerpoint ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:Projekt, ciox:Projektewarteliste ;
+    a owl:Class ;
+    rdfs:label "Project Presentation"@en, "Projektdarstellung"@de ;
+    rdfs:subClassOf ciox:Projektmanagement .
+
+ciox:Projektdefinition
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Project Definition"@en, "Projektdefinition"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:ProjectOutlineProposal, ob:ProjectPlan .
+
+ciox:Projektdurchfuehrung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Projektabschlussbericht, ciox:Projektstatusbericht, ciox:Projektuebergabeprotokoll, ciox:Wartungsvertrag ;
+    a owl:Class ;
+    rdfs:label "Project Execution"@en, "Projektdurchfuehrung"@de ;
+    rdfs:subClassOf ciox:Projektmanagement ;
+    skos:closeMatch bb:ProjectExecution, ob:ProjectExecution .
+
+ciox:Projekteliste
+    meta:isAssociatedWith ciox:Projektewarteliste ;
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Projects List"@en, "Projekteliste"@de ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:Projekteplanung
+    meta:isAssociatedWith ciox:MSProject ;
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Projektewarteliste ;
+    meta:uses ciox:ItStrategie ;
+    a owl:Class ;
+    rdfs:label "Projects Planning"@en, "Projekteplanung"@de ;
+    rdfs:subClassOf ciox:Projektmanagement .
+
+ciox:Projekteskalation
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Project Escalation"@en, "Projekteskalation"@de ;
+    rdfs:subClassOf ciox:Projektmanagement .
+
+ciox:Projektewarteliste
+    meta:entityTypeComponent ciox:Projekt ;
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Projektewarteliste"@de, "project waitlist"@en ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:definition "Grundlage für jährliche Projektplanung"@de .
+
+ciox:Projektfreigabe
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Projektportfolio ;
+    meta:uses ciox:Projekteliste ;
+    a owl:Class ;
+    rdfs:label "Project Release"@en, "Projektfreigabe"@de ;
+    rdfs:subClassOf ciox:Projektmanagement .
+
+ciox:Projektleiter
+    meta:isInvolvedIn ciox:Wartungsvertragserstellung ;
+    meta:isResponsibleForEntityType ciox:Projekt ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Project Manager"@en, "Projektleiter"@de ;
+    rdfs:subClassOf ciox:InformationManagementStaff ;
+    skos:closeMatch ob:ProjectManager .
+
+ciox:Projektleiterzuweisung
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Project Manager Assignment"@en, "Projektleiterzuweisung"@de ;
+    rdfs:subClassOf ciox:Projektmanagement .
+
+ciox:Projektliste
+    skos:closeMatch bb:ProjectPortfolio .
+
+ciox:Projektmanagement
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Project Management"@en, "Projektmanagement"@de ;
+    rdfs:subClassOf ciox:InformationManagement ;
+    skos:closeMatch ob:ProjectManagement .
+
+ciox:Projektmanagementsystem
+    meta:isBasedOn ciox:MSProject ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Projektmanagementsystem"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:Projektnummer
+    a owl:DatatypeProperty ;
+    rdfs:label "Projektnummer"@de .
+
+ciox:Projektplan
+    meta:isAssociatedWith ciox:Projektwebsite ;
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Project Plan"@en, "Projektplan"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch bb:ProjectPlan, ob:ProjectPlan .
+
+ciox:Projektplanung
+    meta:isAssociatedWith ciox:MSExcel, ciox:MSProject, ciox:MSSharePoint, ciox:SAPCats ;
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Projektdefinition, ciox:Projektplan, ciox:Projektwebsite ;
+    meta:uses ciox:Projektbudget, ciox:Projektportfolio ;
+    a owl:Class ;
+    rdfs:label "Project Planning"@en, "Projektplanung"@de ;
+    rdfs:subClassOf ciox:Projektmanagement ;
+    skos:closeMatch bb:ProjectPlanning, ob:ProjectPlanning ;
+    skos:definition "Zeitplanung, Priorisieren, Aufgaben zuweisen, Berechtigungen einstellen u.a."@de .
+
+ciox:Projektportfolio
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Project Portfolio"@en ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch bb:ProjectPortfolio .
+
+ciox:Projektportfolioplanung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Projektportfolio, ciox:Ressourcenplan ;
+    meta:uses ciox:Projektewarteliste ;
+    a owl:Class ;
+    rdfs:label "Project Portfolio Planning"@en, "Projektportfolioplanung"@de ;
+    rdfs:subClassOf ciox:Projektmanagement ;
+    skos:broader bb:PortfolioManagement .
+
+ciox:Projektpriorisierung
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:Projektbudget, ciox:Projektewarteliste, ciox:Projektrisiko ;
+    a owl:Class ;
+    rdfs:label "Project Priorisation"@en, "Projektpriorisierung"@de ;
+    rdfs:subClassOf ciox:Projektmanagement .
+
+ciox:Projektprioritaet
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Project Priority"@en ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:Projektreview
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:Projektbudgetverwaltung, ciox:Projekteliste ;
+    a owl:Class ;
+    rdfs:label "Project Review"@en, "Projektreview"@de ;
+    rdfs:subClassOf ciox:Projektmanagement ;
+    skos:closeMatch ob:ProjectReview .
+
+ciox:Projektrisiko
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Project Risk"@en ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:Projektstatusbericht
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Projektstatusbericht"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:InterimReport .
+
+ciox:Projektuebergabeprotokoll
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Projektübergabeprotokoll"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:HandoverCertificate .
+
+ciox:Projektueberwachung
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:Projektwebsite ;
+    a owl:Class ;
+    rdfs:label "Project Monitoring"@en, "Projektüberwachung"@de ;
+    rdfs:subClassOf ciox:Projektmanagement ;
+    skos:closeMatch bb:ProjectMonitoring, ob:ProjectMonitoring .
+
+ciox:Projektwebsite
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Project Web Site"@en, "Projektwebseite"@de ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:ProspektiveRechtfertigung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:WirtschaftlicheRechtfertigung ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Prospektive Rechtfertigung"@de ;
+    skos:definition "Die IT-Strategie hilft bei der Rechtfertigung, weshalb bestimmte Investitionen getätigt werden müssen. "@de ;
+    skos:narrower bb:ITInvestmentJustification .
+
+ciox:Rechnung
+    meta:master ciox:Arbeitsablaufsystem, ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Bill"@en, "Rechnung"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch bb:Bill .
+
+ciox:Rechnungsfreigabe
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Rechnung ;
+    meta:uses ciox:Rechnung ;
+    a owl:Class ;
+    rdfs:label "Invoice Release"@en, "Rechnungsfreigabe"@de ;
+    rdfs:subClassOf ciox:Kostenmanagement .
+
+ciox:Rechnungspruefung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Projektbudget, ciox:Rechnung ;
+    meta:uses ciox:Angebot, ciox:Projektauftrag, ciox:Rechnung ;
+    a owl:Class ;
+    rdfs:label "Invoice Verification"@en, "Rechnungsprüfung"@de ;
+    rdfs:subClassOf ciox:Kostenmanagement ;
+    skos:definition "Nach Eingang der Rechnung wird diese geprüft. man unterscheidet zwischen Prüfung auf inhaltliche und sachliche Korrektheit. Im Anschluss erfolgt die finanzielle Prüfung."@de .
+
+ciox:Ressource
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Resource"@en, "Ressource"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:Resource .
+
+ciox:Ressourcenplan
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Resource Plan"@en, "Ressourcenplan"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:ResourcePlan .
+
+ciox:RetrospektiveRechtfertigung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:WirtschaftlicheRechtfertigung ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Retrospektive Rechtfertigung"@de ;
+    skos:narrower bb:ITInvestmentJustification .
+
+ciox:SAP
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Systemanalyse und Programmentwicklung"@de ;
+    rdfs:subClassOf ciox:Softwareprodukt ;
+    skos:altLabel "SAP"@de .
+
+ciox:SAPCO
+    meta:subTopClass meta:EntityType ;
+    meta:supports ciox:ITFinanzcontrolling ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:label "SAP Controlling"@en, "SAPCO"@en ;
+    rdfs:subClassOf ciox:SAP ;
+    skos:altLabel "SAP CO"@de .
+
+ciox:SAPCats
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "SAP Cats"@de ;
+    rdfs:subClassOf ciox:SAP .
+
+ciox:SAPERP
+    meta:entityTypeComponent ciox:SAPCO, ciox:SAPFI, ciox:SAPIM, ciox:SAPMM, ciox:SAPXFlow ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:label "SAP Enterprise Resource Planning"@en, "SAPERP"@en ;
+    rdfs:subClassOf ciox:SAP ;
+    skos:altLabel "SAP ERP"@de .
+
+ciox:SAPFI
+    meta:subTopClass meta:EntityType ;
+    meta:supports ciox:Rechnungspruefung ;
+    a ciox:Finanzwesensystem, owl:Class, owl:NamedIndividual ;
+    rdfs:label "SAP FI"@de, "SAPFI"@en ;
+    rdfs:subClassOf ciox:SAP .
+
+ciox:SAPHRPEP
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "SAP Human Resource Personaleinsatzplanung"@de ;
+    rdfs:subClassOf ciox:SAP ;
+    skos:altLabel "SAP HR PEP"@de .
+
+ciox:SAPIM
+    meta:subTopClass meta:EntityType ;
+    meta:supports ciox:ITFinanzcontrolling ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:label ""@en, "SAP IM"@de ;
+    rdfs:subClassOf ciox:SAP .
+
+ciox:SAPMM
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "SAP MM"@de, "SAP Material Management"@en ;
+    rdfs:subClassOf ciox:SAP, meta:EntityType .
+
+ciox:SAPXFlow
+    meta:subTopClass meta:EntityType ;
+    meta:supports ciox:Rechnungspruefung ;
+    a owl:Class ;
+    rdfs:label "SAP xFlow"@de ;
+    rdfs:subClassOf ciox:SAP .
+
+ciox:SCSMFile
+    a dc:MediaType ;
+    rdfs:label "SCSM File"@de .
+
+ciox:Sachkonto
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Sachkonto"@de ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:SachkontoHardwarereparaturen
+    meta:isAssociatedWith ciox:SachkontoSoftwarereparaturen ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Sachkonto Hardwarereparaturen"@de ;
+    rdfs:subClassOf ciox:Sachkonto .
+
+ciox:SachkontoITDienstleistungen
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Sachkonto IT-Dienstleistungen"@de ;
+    rdfs:subClassOf ciox:Sachkonto .
+
+ciox:SachkontoITInvestitionen
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Sachkonto IT-Investitionen"@de ;
+    rdfs:subClassOf ciox:Sachkonto .
+
+ciox:SachkontoSoftwarereparaturen
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Sachkonto Softwarereparaturen"@de ;
+    rdfs:subClassOf ciox:Sachkonto .
+
+ciox:ServiceDesk
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Service Desk"@de ;
+    rdfs:subClassOf ciox:IncidentManagement ;
+    skos:closeMatch bb:ServiceDeskManagement .
+
+ciox:Softwareprodukt
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Software Product"@en, "Softwareprodukt"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch bb:SoftwareProduct, ob:SoftwareProduct .
+
+ciox:Stakeholder
+    skos:closeMatch bb:HISStakeholder .
+
+ciox:StakeholderForschungUndLehre
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Stakeholder aus Forschung und Lehre"@de ;
+    rdfs:subClassOf ciox:ItStrategieStakeholder ;
+    skos:closeMatch bb:EducationResearch .
+
+ciox:StakeholderInformationsmanagement
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Stakeholder aus dem Informationsmanagement"@de ;
+    rdfs:subClassOf ciox:ItStrategieStakeholder ;
+    skos:closeMatch bb:HISStakeholder .
+
+ciox:StakeholderPatientenversorgung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Stakeholder aus der Patientenversorgung"@de ;
+    rdfs:subClassOf ciox:ItStrategieStakeholder ;
+    skos:closeMatch bb:PatientCare .
+
+ciox:StefanCioX
+    a ciox:ChiefInformationOfficer, owl:NamedIndividual ;
+    rdfs:label "Stefan Smers"@de .
+
+ciox:Stoerungserfassung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Ticket ;
+    a owl:Class ;
+    rdfs:label "Störungserfassung"@de, "incident taking"@en ;
+    rdfs:subClassOf ciox:ServiceDesk ;
+    skos:closeMatch bb:IncidentTaking .
+
+ciox:Tabellenkalkulationssystem
+    meta:isBasedOn ciox:MSExcel ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports ciox:Budgetplanung, ciox:InterneBudgetkontierung, ciox:Wirtschaftsplanung ;
+    a owl:Class ;
+    rdfs:label "Tabellenkalkulationssystem"@de ;
+    rdfs:subClassOf ciox:Officepaket .
+
+ciox:Textverarbeitungssoftware
+    meta:isBasedOn ciox:MSWord ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports ciox:CABDurchfuehrung, ciox:ITStrategieentwicklung, ciox:Projekteskalation, ciox:Wartungsvertragserstellung ;
+    a owl:Class ;
+    rdfs:label "Textverarbeitungssoftware"@de ;
+    rdfs:subClassOf ciox:Officepaket .
+
+ciox:Ticket
+    meta:master ciox:ITServiceManagementSystem ;
+    meta:subTopClass meta:EntityType ;
+    a ciox:DocumentType, meta:RepresentationType, owl:Class, owl:NamedIndividual ;
+    rdfs:label "Ticket"@de, "ticket"@en ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:TicketBearbeitung
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Ticket Bearbeitung"@de, "Ticket Processing"@en ;
+    rdfs:subClassOf ciox:IncidentManagement .
+
+ciox:Ticketauswertung
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:Ticket ;
+    a owl:Class ;
+    rdfs:label "Ticket Evaluation"@en, "Ticketauswertung"@de ;
+    rdfs:subClassOf ciox:IncidentManagement .
+
+ciox:Ticketbearbeitungszuweisung
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Ticket Processing Assesment"@en, "Ticketbearbeitungszuweisung"@de ;
+    rdfs:subClassOf ciox:ServiceDesk .
+
+ciox:Ticketklassifikation
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Ticket Classification"@en, "Ticketklassifikation"@de ;
+    rdfs:subClassOf ciox:ServiceDesk .
+
+ciox:Ticketueberwachung
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:Ticket ;
+    a owl:Class ;
+    rdfs:label "Ticket Monitoring"@en, "Ticketüberwachung"@de ;
+    rdfs:subClassOf ciox:IncidentManagement .
+
+ciox:Unternehmensziel
+    skos:closeMatch ob:HospitalGoal .
+
+ciox:Vertragsmanagement
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Contract Management"@en, "Vertragsmanagement"@de ;
+    rdfs:subClassOf ciox:InformationManagement .
+
+ciox:Verzeichnisdienstsystem
+    meta:isBasedOn ciox:MSActiveDirectory ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Verzeichnisdienstsystem"@de ;
+    rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
+
+ciox:Vorstand
+    skos:closeMatch bb:HospitalManagement, bb:HospitalsBoardOfDirectors .
+
+ciox:Wartungsaktivitaetsprotokoll
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Wartungsaktivitätsprotokoll"@de ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:Wartungsfensterfreigabe
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Wartungsfensterfreigabe"@de ;
+    rdfs:subClassOf ciox:InformationManagement .
+
+ciox:Wartungsfensterkoordinator
+    meta:isResponsibleForFunction ciox:DurchfuehrungWartungsfenster ;
+    meta:subTopClass meta:Role ;
+    a owl:Class ;
+    rdfs:label "Maintenance Window Coordinator"@en, "Wartungsfensterkoordinator"@de ;
+    rdfs:subClassOf ciox:InformationManagementStaff .
+
+ciox:Wartungsvertrag
+    meta:master ciox:Kollaborationsplattform ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Maintenance Contract"@en, "Wartungsvertrag"@de ;
+    rdfs:subClassOf meta:EntityType ;
+    skos:closeMatch ob:MaintenanceContract .
+
+ciox:Wartungsvertragfreigabe
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Wirtschaftsplan ;
+    meta:uses ciox:Wartungsvertrag ;
+    a owl:Class ;
+    rdfs:label "Maintenance Contract Release"@en, "Wartungsvertragfreigabe"@de ;
+    rdfs:subClassOf ciox:Vertragsmanagement ;
+    skos:definition "Wenn Vertragsbetrag < 25.000 Euro und Vertragslaufzeit begrenzt. Die Bereichsassistenz trägt die Kosten des Wartungsvertrags in den Wirtschaftsplan ein."@de .
+
+ciox:Wartungsvertragsentscheidung
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Maintenance Contract Conclusion"@en, "Wartungsvertragsentscheidung"@de ;
+    rdfs:subClassOf ciox:Vertragsmanagement .
+
+ciox:Wartungsvertragserstellung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Wartungsvertrag ;
+    a owl:Class ;
+    rdfs:label "Maintenance Contract Creation"@en, "Wartungsvertagserstellung"@de ;
+    rdfs:subClassOf ciox:Vertragsmanagement, meta:Function .
+
+ciox:WirtschaftlicheRechtfertigung
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieVerwendung ;
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Wirtschaftliche Rechtfertigung"@de, "wirtschaftliche Rechtfertigung"@de ;
+    skos:closeMatch bb:ITInvestmentJustification ;
+    skos:definition """Die IT-Strategie hilft bei der Rechtfertigung, weshalb bestimmte Investitionen getätigt werden müssen.
+1) Geplante Investitionen werden in Frage gestellt und müssen daher gerechtfertigt werden. Dafür ist die IT-Strategie als Committment des Vorstandes eine Argumentationshilfe.
+2) Aktuell gibt es keine explizite Verknüpfung zwischen Projekten (aus der Projektwarteliste) und der IT-Strategie
+3) Zusätzliche Ressourcen bei Personalplanung können aktuell schlecht gerechtfertigt werden.
+"""@de .
+
+ciox:Wirtschaftsplan
+    meta:isAssociatedWith ciox:Sachkonto ;
+    meta:master ciox:Kostenrechnungssystem ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Wirtschaftsplan"@de ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:Wirtschaftsplanung
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:Wirtschaftsplan ;
+    a owl:Class ;
+    rdfs:label "Economic Planning"@en, "Wirtschaftsplanung"@de ;
+    rdfs:subClassOf ciox:Kostenmanagement ;
+    skos:definition "Schätzung des Budgets für die Sachkonten des B1"@de .
+
+ciox:WordFile
+    a dc:MediaType, ciox:DocumentType, meta:RepresentationType ;
+    rdfs:label "Word-Datei"@de, "Word-File"@de .
+
+ciox:Workshop
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieErstellung ;
+    meta:subTopClass meta:Function ;
+    meta:updates ciox:WorkshopErgebnisse ;
+    a owl:Class ;
+    rdfs:label "Workshop"@de .
+
+ciox:WorkshopErgebnisse
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Workshop Ergebnisse"@de ;
+    rdfs:subClassOf meta:EntityType .
+
+ciox:WorkshopErgebnisseEvaluation
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    meta:functionComponent ciox:ItStrategieErstellung ;
+    meta:subTopClass meta:Function ;
+    meta:uses ciox:WorkshopErgebnisse ;
+    a owl:Class ;
+    rdfs:label "Workshop Ergebnisse Evaluation "@de ;
+    skos:definition "Die Analyse und Synthese der Workshop-Ergebnisse liefert die Liste der IT-Maßnahmen. Dies passiert in Zusammenarbeit des CIO mit dem B1 Teil des Projektteams (Abteilungsleiter"@de .
+
+ciox:blank223754
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:ChangeRequest ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Change .
+
+ciox:blank223755
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:ChiefInformationOfficer ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ChiefInformationOfficer .
+
+ciox:blank223756
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:HisStakeholder ;
+    owl:predicate skos:broader ;
+    owl:subject ciox:GenehmigungItStrategieStakeholder .
+
+ciox:blank223757
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object he:ItInvestition ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Investition .
+
+ciox:blank223758
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:InformationManagementGoal ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ItMassnahme .
+
+ciox:blank223759
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object he:VergebenvonPrioritaetenfuerdieProjektrealisierung ;
+    owl:predicate skos:broadMatch ;
+    owl:subject ciox:ItMassnahmenPriorisierung .
+
+ciox:blank223760
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:StrategicInformationManagementPlan ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ItStrategie .
+
+ciox:blank223761
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:StrategicInformationManagement ;
+    owl:predicate skos:narrowMatch ;
+    owl:subject ciox:ItStrategieManagement .
+
+ciox:blank223762
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:RequirementOfHISStakeholder ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ItStrategieAnforderung .
+
+ciox:blank223763
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:HisStakeholder ;
+    owl:predicate skos:broader ;
+    owl:subject ciox:ItStrategieAuftraggeber .
+
+ciox:blank223764
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:StrategicHISMonitoring ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ItStrategieEinhaltungBewertung .
+
+ciox:blank223765
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:CreationOfStrategicInformationManagementPlan ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ItStrategieErstellung .
+
+ciox:blank223766
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:FulfillmentOfTheExpectationsOfDifferentStakeholders ;
+    owl:predicate skos:broadMatch ;
+    owl:subject ciox:ItStrategieErwartung .
+
+ciox:blank223767
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:RequirementOfHISStakeholder ;
+    owl:predicate skos:narrowMatch ;
+    owl:subject ciox:ItStrategieErwartung .
+
+ciox:blank223768
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:ApprovalToStrategicInformationManagementPlan ;
+    owl:predicate skos:broadMatch ;
+    owl:subject ciox:ItStrategieHandlungsfelderGenehmigung .
+
+ciox:blank223769
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:StrategicInformationManagament ;
+    owl:predicate skos:broadMatch ;
+    owl:subject ciox:ItStrategieManagement .
+
+ciox:blank223770
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:EstablishAndPromoteTheStrategicInformationManagementPlan ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ItStrategiePräsentation .
+
+ciox:blank223771
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object ob:ProjectRepresentation ;
+    owl:predicate skos:broadMatch ;
+    owl:subject ciox:ItStrategiePräsentation .
+
+ciox:blank223772
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:HISStakeholder ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ItStrategieStakeholder .
+
+ciox:blank223773
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:UseOfStrategicInformationManagementPlan ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ItStrategieVerwendung .
+
+ciox:blank223774
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object ob:ProjectSteeringCommittee ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Lenkungsausschuss .
+
+ciox:blank223775
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:InformationManagementBoard ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Lenkungsausschuss .
+
+ciox:blank223776
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:ApprovalToStrategicInformationManagementPlan ;
+    owl:predicate skos:broadMatch ;
+    owl:subject ciox:LenkungsausschussAbstimmung .
+
+ciox:blank223777
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object he:Prioritaet ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Priorität .
+
+ciox:blank223778
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object ob:Project ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Projekt .
+
+ciox:blank223779
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:ProjectPortfolio ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Projektliste .
+
+ciox:blank223780
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object ob:ProjectOutlineProposal ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Projektdefinition .
+
+ciox:blank223781
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object he:VergebenvonPrioritaetenfuerdieProjektrealisierung ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ProjektPriorisierung .
+
+ciox:blank223782
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:PortfolioManagement ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:ProjektPriorisierung .
+
+ciox:blank223783
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object he:Sicherheit ;
+    owl:predicate skos:broadMatch ;
+    owl:subject ciox:ProjektSicherheitskrititkalität .
+
+ciox:blank223784
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:ITInvestmentJustification ;
+    owl:predicate skos:narrower ;
+    owl:subject ciox:ProspektiveRechtfertigung .
+
+ciox:blank223785
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:ITInvestmentJustification ;
+    owl:predicate skos:narrower ;
+    owl:subject ciox:RetrospektiveRechtfertigung .
+
+ciox:blank223786
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:HISStakeholder ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Stakeholder .
+
+ciox:blank223787
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:EducationResearch ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:StakeholderForschungUndLehre .
+
+ciox:blank223788
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:HISStakeholder ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:StakeholderInformationsmanagement .
+
+ciox:blank223789
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:PatientCare ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:StakeholderPatientenversorgung .
+
+ciox:blank223790
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object ob:HospitalGoal ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Unternehmensziel .
+
+ciox:blank223791
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:HospitalManagement ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Vorstand .
+
+ciox:blank223792
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:HospitalsBoardOfDirectors ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:Vorstand .
+
+ciox:blank223793
+    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
+    a owl:Axiom ;
+    owl:object bb:ITInvestmentJustification ;
+    owl:predicate skos:closeMatch ;
+    owl:subject ciox:WirtschaftlicheRechtfertigung .
+
+ciox:gering
+    a ciox:Projektprioritaet, ciox:Projektrisiko, owl:NamedIndividual ;
+    rdfs:label "gering"@de .
+
+ciox:hoch
+    a ciox:Projektprioritaet, ciox:Projektrisiko, owl:NamedIndividual ;
+    rdfs:label "hoch"@de .
+
+ciox:mittel
+    a ciox:Projektprioritaet, ciox:Projektrisiko, owl:NamedIndividual ;
+    rdfs:label "mittel"@de .
+
+<http://www.w3.org/2002/07/isMasterFor>
+    a owl:ObjectProperty ;
+    rdfs:domain meta:ApplicationComponent ;
+    rdfs:label "Hauptkomponente für"@de, "master for"@en ;
+    rdfs:range meta:EntityType .
+

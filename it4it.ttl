@@ -1,0 +1,2414 @@
+@base <http://www.snik.eu/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix meta: <meta/> .
+@prefix bb: <bb/> .
+@prefix ob: <ob/> .
+@prefix ciox: <ciox/> .
+@prefix he: <he/> .
+@prefix it: <it/> .
+@prefix it4it: <it4it/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+dc:source
+    a owl:AnnotationProperty .
+
+<it4it>
+    ov:defines <it4it>, it4it:Acceptance, it4it:AccessRight, it4it:Activity, it4it:ActualServiceCIs, it4it:ActualValue, it4it:AdmittingPhysician, it4it:ApprovalOfITPolicies, it4it:AuditOfITPolicies, it4it:Availibility, it4it:BindingCharacter, it4it:Build, it4it:BuildComponent, it4it:BuildKeyDataObject, it4it:BuildPackage, it4it:BuildPackageComponent, it4it:BusinessValueChain, it4it:CIN, it4it:CareComprisedGroupsOfPatients, it4it:CareCoordinationOfCareProcess, it4it:CatalogCompositionComponent, it4it:ChangeControlComponent, it4it:ChargebackContract, it4it:ChargebackShowbackComponent, it4it:ClassName, it4it:ConceptDomain, it4it:ConceptType, it4it:ConceptualService, it4it:ConceptualServiceBlueprint, it4it:ConfigurationManagementComponent, it4it:Consumption, it4it:Correctness, it4it:CostModelingComponent, it4it:CreationOfBuildPackages, it4it:CreationOfBuilds, it4it:CreationOfITInitiatives, it4it:CreationOfITPolicies, it4it:CreationOfLontermITInvestment, it4it:CreationOfScopeAgreementsForProjects, it4it:CreationOfSourceCode, it4it:DataObject, it4it:Deadline, it4it:Defect, it4it:DefectComponent, it4it:DegreeOfNormativity, it4it:Deliver, it4it:DesignOfLogicalServicesBlueprints, it4it:DesiredServiceModel, it4it:DetectToCorrect, it4it:DiagnosticsRemediationComponent, it4it:Duration, it4it:EndDate, it4it:EnterpriseArchitectureComponent, it4it:Error, it4it:Event, it4it:EventComponent, it4it:ExecutionPlanOfAction, it4it:Extent, it4it:FeatureAdministrateTheMasterPatientIndex, it4it:FeatureAdmitPatientsToTheWard, it4it:FeatureAnalyzeData, it4it:FeatureArchivePictures, it4it:FeatureAssignDoctorsToPatientsOrRooms, it4it:FeatureAssignOrderAndBloodSamplesToDevices, it4it:FeatureAssignOrdersToModalities, it4it:FeatureAssignPatientsToModalities, it4it:FeatureAssignPatientsToRoomsAndBeds, it4it:FeatureAssignStaffToPatientsOrOutpatientUnits, it4it:FeatureAssignStaffToPatientsOrRooms, it4it:FeatureAttachDigitalSignatures, it4it:FeatureCalculateDosageOfDrugs, it4it:FeatureCollectResultsFromDevices, it4it:FeatureCommunicateDischargeInformation, it4it:FeatureCommunicateDocumentsToOtherApplications, it4it:FeatureCommunicatePictures, it4it:FeatureCommunicateReportToOrderingUnit, it4it:FeatureCreateWorklistForAGroupOfPatients, it4it:FeatureCreatingARoster, it4it:FeatureCreationOfRadiologyReports, it4it:FeatureDisplayEarlierLabResultsOfAPatient, it4it:FeatureDisplayPictures, it4it:FeatureDisplayVitalParametersFromMonitoringDevices, it4it:FeatureDisplayWarningMessages, it4it:FeatureImportDocuments, it4it:FeatureIndexDocumentContent, it4it:FeatureIntegrateDataFromDifferentApplicationComponents, it4it:FeatureManageModalities, it4it:FeatureManageStorageFormats, it4it:FeatureManageStorageMedia, it4it:FeatureMergePatientInformationFromTwoRecords, it4it:FeatureMessageQueuing, it4it:FeatureModifyPresentationOfPictures, it4it:FeatureMulticasting, it4it:FeatureOfferDecisionSupportForCarePlanning, it4it:FeatureOrganizePatientTransport, it4it:FeaturePrepareReport, it4it:FeaturePreparingStatistics, it4it:FeaturePrintForms, it4it:FeaturePrintReports, it4it:FeaturePrintingOfLabels, it4it:FeatureProvideACollectionOfInternalProcessesAndRegulations, it4it:FeatureProvideAccessToArchivedInformation, it4it:FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis, it4it:FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures, it4it:FeatureProvideCatalogsAndOtherMeansForCodingPatient-relatedProcedures, <it4it/FeatureProvideCatalogsAndOtherMeansForCodingPatients’Diagnoses>, it4it:FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses, it4it:FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures, it4it:FeatureProvideContext-relatedMedicalKnowledge, it4it:FeatureProvideDrugCatalogs, it4it:FeatureProvideFormsForClinicalReports, it4it:FeatureProvideFormsForDocumentingClinicalProcedures, it4it:FeatureProvideFormsForDocumentingDiagnosis, it4it:FeatureProvideFormsForDocumentingDiagnosisAndProblems, it4it:FeatureProvideFormsForDocumentingMedicalAnamnesis, it4it:FeatureProvideFormsForDocumentingMedications, it4it:FeatureProvideFormsForDocumentingNursingAims, it4it:FeatureProvideFormsForDocumentingNursingTasks, <it4it/FeatureProvideFormsForDocumentingPatients_’InformedConsent>, <it4it/FeatureProvideFormsForDocumentingPatient’sInformedConsent>, it4it:FeatureProvideFormsForDocumentingPerformedTasks, it4it:FeatureProvideFormsForDocumentingPlannedTasks, it4it:FeatureProvideFormsForDocumentingProceduresAndOutcomes, it4it:FeatureProvideFormsForDocumentingTheNursingHistory, it4it:FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks, it4it:FeatureProvideFormsForEnteringClinicalData, it4it:FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation, <it4it/FeatureProvideFormsForPatients_’InformedConsent>, it4it:FeatureProvideFormsForPreparingABillForThePatientInsurance, it4it:FeatureProvideFormsForPreparingClinicalReports, it4it:FeatureProvideFormsForPreparingOperationReports, it4it:FeatureProvideFormsForWritingAReport, it4it:FeatureProvideFormsForWritingATransferLetterOrDischargeReport, it4it:FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport, it4it:FeatureProvideFormsForWritingTheDischargeReport, it4it:FeatureProvideFormsForWritingTheNursingDischargeReport, it4it:FeatureProvideGuidelinesForCarePlanning, it4it:FeatureProvideGuidelinesForTreatmentPlanning, it4it:FeatureProvideMeansForAccountsPayable, it4it:FeatureProvideMeansForAccountsReceivable, it4it:FeatureProvideMeansForAssetAccounting, it4it:FeatureProvideMeansForCheck-inOfPatient, it4it:FeatureProvideMeansForControlOfSecurityIssues, it4it:FeatureProvideMeansForCostCenterAccounting, it4it:FeatureProvideMeansForCostElementAccounting, it4it:FeatureProvideMeansForCreatingARoster, it4it:FeatureProvideMeansForCreatingOperationPlans, it4it:FeatureProvideMeansForCreatingStatistics, it4it:FeatureProvideMeansForDataMining, it4it:FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations, it4it:FeatureProvideMeansForFiNalizingDocumentation, it4it:FeatureProvideMeansForFinalizingDocumentation, it4it:FeatureProvideMeansForFinalizingNursingDocumentation, it4it:FeatureProvideMeansForGeneralLedgerAccounting, it4it:FeatureProvideMeansForIncidentTracking, it4it:FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment, it4it:FeatureProvideMeansForInitiationOfFinalBilling, it4it:FeatureProvideMeansForManagingAndMonitoringDisposal, it4it:FeatureProvideMeansForManagingAppointments, it4it:FeatureProvideMeansForManagingLogistics, it4it:FeatureProvideMeansForManagingMedicalDevices, <it4it/FeatureProvideMeansForManagingOutpatientUnit’sStaff>, it4it:FeatureProvideMeansForManagingRooms, it4it:FeatureProvideMeansForManagingWardStaff, it4it:FeatureProvideMeansForMinimizingAdverseDrugEvents, it4it:FeatureProvideMeansForOrderManagement, it4it:FeatureProvideMeansForOrderingConsumables, it4it:FeatureProvideMeansForOrderingDrugs, it4it:FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry, it4it:FeatureProvideMeansForOrderingLaundry, it4it:FeatureProvideMeansForOrderingPatientTransferToOtherUnits, it4it:FeatureProvideMeansForOrderingPatientTransferToWard, it4it:FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution, it4it:FeatureProvideMeansForOrderingTransportServices, it4it:FeatureProvideMeansForOrganizingCareerDevelopment, it4it:FeatureProvideMeansForOrganizingRecruitment, it4it:FeatureProvideMeansForOrganizingTraining, it4it:FeatureProvideMeansForOverheadCostManagement, it4it:FeatureProvideMeansForPerformanceEvaluation, it4it:FeatureProvideMeansForPreparingACarePlan, it4it:FeatureProvideMeansForPreparingHospital-wideStatistics, it4it:FeatureProvideMeansForPreparingStatistics, it4it:FeatureProvideMeansForPreparingWard-relatedStatistics, it4it:FeatureProvideMeansForPreparingWorkSchedules, it4it:FeatureProvideMeansForPreventiveMaintenance, it4it:FeatureProvideMeansForProductCosting, it4it:FeatureProvideMeansForRecruitingOfPatients, <it4it/FeatureProvideMeansForSchedulingAPatient_’sAppointment>, <it4it/FeatureProvideMeansForSchedulingPatients_’Appointments>, it4it:FeatureProvideMeansForStockKeeping, it4it:FeatureProvideMeansForVerifyingCodingDoneInDepartments, it4it:FeatureProvideOrdersForPatient-relatedDrugs, it4it:FeatureProvideOrdersForPatient-relatedExaminations, it4it:FeatureProvideRelativesWithInformationOnTheLocationOfAPatient, it4it:FeatureProvideReminderForFulfillingOfLegalReportingRequirements, it4it:FeatureProvisionOfPatientDataAndExaminationParameters, it4it:FeatureReceiveBloodSamples, it4it:FeatureReceiveOrders, it4it:FeatureRegisteringPatients, it4it:FeatureRetrievePatient, it4it:FeatureScanDocuments, it4it:FeatureScanningDocumentsFromReferringPhysicianAndOtherSources, it4it:FeatureScoringOfThePatient, it4it:FeatureSearchForOldPictures, it4it:FeatureSelectOrdersFromOrderSets, it4it:FeatureServiceCombination, it4it:FeatureServiceOrchestration, it4it:FeatureStructureData, it4it:FeatureSupportCreationOfANursingCarePlan, it4it:FeatureValidateResults, it4it:FeatureViewPatient-relatedAppointments, it4it:FeatureWorkScheduling, it4it:FeatureWorkflowManagement, it4it:Finance, it4it:Fulfillment, it4it:FulfillmentExecutionComponent, it4it:FulfillmentRequest, it4it:FunctionalComponent, it4it:Governance, it4it:HumanResource, it4it:ICDCode, it4it:ID, it4it:IT4IT, it4it:ITAssetManagement, it4it:ITBudget, it4it:ITCostModel, it4it:ITInitiative, it4it:ITInvestmentPortfolioComponent, it4it:ITValueChain, it4it:Incident, it4it:IncidentComponent, it4it:Insurance, it4it:IsCentralized, it4it:IsObjective, it4it:IsProlective, it4it:IsRedundant, it4it:IsRetrolective, it4it:IsSubjective, it4it:It4ItFunction, it4it:LaborManagement, it4it:Location, it4it:LogicalServiceBlueprint, it4it:Maintainability, it4it:ManagementCentralityOfInformationManagement, it4it:ManagementCentralityOfNetworkManagement, it4it:ManagementFinancingForm, it4it:ManagementLegalForm, it4it:ManagementOfBuildPackages, it4it:ManagementOfBuilds, it4it:ManagementOfDemands, it4it:ManagementOfITInitiatives, it4it:ManagementOfITInvestments, it4it:ManagementOfITPolicies, it4it:ManagementOfITProposals, it4it:ManagementOfLontermITInvestment, it4it:ManagementOfProblems, it4it:ManagementOfRequirements, it4it:ManagementOfServicePortfolio, it4it:ManagementOfSourceCode, it4it:ManagementOpenness, it4it:Measurability, it4it:Offer, it4it:OfferConsumptionComponent, it4it:OfferManagementComponent, it4it:OfficialUserGroup, it4it:Ontology, it4it:OntologyMaintainer, it4it:OntologyQuestion-Types, it4it:OperatingModel, it4it:PIN, it4it:Performance, it4it:Person, it4it:Pertinency, it4it:Place, it4it:Plan, it4it:Planning, it4it:Policy, it4it:PolicyComponent, it4it:PortfolioBacklogItem, it4it:PortfolioDemandComponent, it4it:PrimaryActivity, it4it:Priority, it4it:ProblemComponent, it4it:ProblemKnownError, it4it:Production, it4it:ProjectComponent, it4it:ProposalComponent, it4it:Quantifiability, it4it:RFC, it4it:Redundancy, it4it:Relative, it4it:ReleaseComposotionComponent, it4it:Relevancy, it4it:Request, it4it:RequestRealisationComponent, it4it:RequestToFullfil, it4it:Requirement, it4it:RequirementComponent, it4it:RequirementsToDeploy, it4it:ResponsiblePerson, it4it:ReviewOfITPolicies, it4it:Run, it4it:RunBook, it4it:ScopeAgreement, it4it:ServiceArchitecture, it4it:ServiceCatalogEntry, it4it:ServiceContract, it4it:ServiceDesignComponent, it4it:ServiceLevelComponent, it4it:ServiceMonitor, it4it:ServiceMonitoringComponent, it4it:ServicePortfolioComponent, it4it:ServiceRelease, it4it:ServiceReleaseBlueprint, it4it:ShoppingCart, it4it:Source, it4it:SourceControlComponent, it4it:Stability, it4it:StartDate, it4it:StartEvent, it4it:StrategyToPortfolio, it4it:StructureConfiguration, it4it:StructureRange, it4it:StructureSize, it4it:StructureStability, it4it:Subscription, it4it:SupplierManagement, it4it:Support, it4it:SupportingActivity, it4it:Synonym, it4it:SystemOfRecord, it4it:TargetValue, it4it:TemporalDevelopmentStage, it4it:TemporalLifeSpan, it4it:TestCase, it4it:TestComponent, it4it:Timeslot, it4it:TransferDiagnosis, it4it:TripelPage, it4it:TripelRowNr, it4it:Type, it4it:Understandability, it4it:Up-to-Dateness, it4it:UsageComponent, it4it:UsageDescription, it4it:UsageRecord, it4it:ValueChain, it4it:ValueStream, it4it:assetsAvailability, it4it:auxiliaryDataObject, it4it:auxiliaryFunctionalComponent, it4it:chapter, it4it:competencyAvailability, it4it:conceptualServiceBlueprint, it4it:currentPracticeEngagementDataflow, it4it:currentPracticeEntityRelationship, it4it:dataObject, it4it:engagementDataflow, it4it:entityRelationship, it4it:functionalComponent, <it4it/in_€>, it4it:isHeterogeneous, it4it:isHomogeneous, it4it:it4itObjectProperty, it4it:keyDataObject, it4it:keyFunctionalComponent, it4it:mainFunctions, it4it:ontologyDomain, it4it:ontologyUse, it4it:ontologyUser, it4it:policy, it4it:policyToConceptualService, it4it:portfolioBacklogItem, it4it:portfolioBacklogItemRationalizedPrioritzed, it4it:purpose, it4it:recordFabricIntegration, it4it:scopeAgreement, it4it:serviceArchitectureToConceptualService, it4it:serviceModelBackboneDataObject ;
+    dc:modified "2017-08-02" ;
+    dc:publisher <../de/Team> ;
+    vann:preferredNamespacePrefix "it4it" ;
+    vann:preferredNamespaceUri "http://www.snik.eu/ontology/it4it/" ;
+    it4it:ontologyDomain "The Domain of this ontology is information management of a company."^^xsd:string ;
+    it4it:ontologyQuestionTypes "Relevant concept and their relationship of the domain."^^xsd:string ;
+    it4it:ontologyUse """- Overview of the Domain.
+- Teaching.
+- Basis for Software Artifacts: CIONs and CIONw."""^^xsd:string ;
+    it4it:ontologyUser "Information Managers, Studends, Consultants, Software Developer, Researcher"^^xsd:string ;
+    a owl:Ontology ;
+    rdfs:comment "The Open Group IT4ITTM Reference Architecture, Version 2.0, Document Number: C155, ISBN: 1-937218-69-0, The Open Group, October 2015"@en ;
+    rdfs:label "IT4IT", "IT4IT Ontology"@en ;
+    foaf:homepage <http://www.snik.eu> .
+
+it4it:Acceptance
+    a owl:DatatypeProperty ;
+    rdfs:label "Acceptance"@en .
+
+it4it:AccessRight
+    a owl:DatatypeProperty ;
+    rdfs:label "Access Right"@en .
+
+it4it:Activity
+    a owl:Class ;
+    rdfs:label "Activity"@en ;
+    rdfs:subClassOf it4it:IT4IT .
+
+it4it:ActualServiceCIs
+    it4it:serviceModelBackboneDataObject it4it:ConfigurationManagementComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Actual Service CIs"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ActualValue
+    a owl:DatatypeProperty ;
+    rdfs:label "Actual Value"@en .
+
+it4it:AdmittingPhysician
+    a owl:DatatypeProperty ;
+    rdfs:label "Admitting Physician"@en .
+
+it4it:ApprovalOfITPolicies
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Approval Of ITPolicies"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:AuditOfITPolicies
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Audit Of ITPolicies"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:Availibility
+    a owl:DatatypeProperty ;
+    rdfs:label "Availibility"@en .
+
+it4it:BindingCharacter
+    a owl:DatatypeProperty ;
+    rdfs:label "Binding Character"@en .
+
+it4it:Build
+    a owl:Class ;
+    rdfs:label "Build"@en ;
+    rdfs:subClassOf it4it:PrimaryActivity ;
+    owl:equivalentClass it4it:RequirementsToDeploy .
+
+it4it:BuildComponent
+    it4it:purpose """* Receive the Source data object from the Source Control functional component and manage the creation, implementation, automation, and security and storage of all Builds.
+  * Create Build from the Source data object for a particular service component.
+  * Automate the Build process to support the Build schedule and build frequency requirements in order to support daily Build and smoke test plans or continuous integration plans.
+  * Run dynamic application security testing no later than when the final Build data object is received and before the RFCs are created for moving the new or changed service into production.
+  * Manage Builds and versioning in a Definitive Media Library (DML).
+  * Develop automated Build storage procedures and automated compilation techniques and tools.
+  * Monitor and report on the results of each integration Build.
+  * Initiate or automate the delivery of Builds to the Build Package functional component for validation by the acceptance testing team as candidate release builds.""" ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:CreationOfBuilds, it4it:ManagementOfBuilds ;
+    a owl:Class ;
+    rdfs:label "Build Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:BuildKeyDataObject
+    it4it:keyDataObject it4it:BuildComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Build Key Data Object"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:BuildPackage
+    it4it:keyDataObject it4it:BuildPackageComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Build Package"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:BuildPackageComponent
+    it4it:purpose """* Creation of a deployable package made up of one or many Builds.
+  * Manage the Build Packages and relationships to the Service Release Blueprints.""" ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:CreationOfBuildPackages, it4it:ManagementOfBuildPackages ;
+    a owl:Class ;
+    rdfs:label "Build Package Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:BusinessValueChain
+    a owl:Class ;
+    rdfs:label "Business Value Chain"@en .
+
+it4it:CIN
+    a owl:DatatypeProperty ;
+    rdfs:label "CIN"@en .
+
+it4it:CareComprisedGroupsOfPatients
+    a owl:DatatypeProperty ;
+    rdfs:label "Care Comprised Groups of Patients"@en .
+
+it4it:CareCoordinationOfCareProcess
+    a owl:DatatypeProperty ;
+    rdfs:label "Care Coordination of care process"@en .
+
+it4it:CatalogCompositionComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Catalog Composition Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ChangeControlComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Change Control Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:Chapter2-8
+    meta:book <it4it> ;
+    meta:chapterNumber "2.8" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 2.8" .
+
+it4it:Chapter5-4-1
+    meta:book <it4it> ;
+    meta:chapterNumber "5.4.1" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 5.4.1" .
+
+it4it:Chapter5-4-2
+    meta:book <it4it> ;
+    meta:chapterNumber "5.4.2" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 5.4.2" .
+
+it4it:Chapter5-4-3
+    meta:book <it4it> ;
+    meta:chapterNumber "5.4.3" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 5.4.3" .
+
+it4it:Chapter5-4-4
+    meta:book <it4it> ;
+    meta:chapterNumber "5.4.4" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 5.4.4" .
+
+it4it:Chapter5-4-5
+    meta:book <it4it> ;
+    meta:chapterNumber "5.4.5" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 5.4.5" .
+
+it4it:Chapter5-4-6
+    meta:book <it4it> ;
+    meta:chapterNumber "5.4.6" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 5.4.6" .
+
+it4it:Chapter6-4-1
+    meta:book <it4it> ;
+    meta:chapterNumber "6.4.1" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 6.4.1" .
+
+it4it:Chapter6-4-2
+    meta:book <it4it> ;
+    meta:chapterNumber "6.4.2" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 6.4.2" .
+
+it4it:Chapter6-4-3
+    meta:book <it4it> ;
+    meta:chapterNumber "6.4.3" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 6.4.3" .
+
+it4it:Chapter8-4-4
+    meta:book <it4it> ;
+    meta:chapterNumber "8.4.4" ;
+    a meta:Chapter ;
+    rdfs:label "chapter 8.4.4" .
+
+it4it:ChargebackContract
+    it4it:keyDataObject it4it:ChargebackShowbackComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Chargeback Contract"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ChargebackShowbackComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Chargeback / Showback Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ClassName
+    a owl:DatatypeProperty ;
+    rdfs:label "Class Name"@en .
+
+it4it:ConceptDomain
+    a owl:AnnotationProperty ;
+    rdfs:label "Concept Domain"@en .
+
+it4it:ConceptType
+    a owl:AnnotationProperty ;
+    rdfs:label "Concept Type"@en .
+
+it4it:ConceptualService
+    it4it:entityRelationship it4it:ITBudget, it4it:Policy ;
+    it4it:page "56"^^xsd:positiveInteger ;
+    it4it:serviceModelBackboneDataObject it4it:ServicePortfolioComponent ;
+    meta:chapter it4it:Chapter5-4-5 ;
+    meta:isAssociatedWith it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:comment """Key Attributes
+The Conceptual Service data object shall have the following key data attributes:
+  * ServiceID: Unique identifier of the Conceptual Service.
+  * ConceptualServiceDetails: Details of the Conceptual Service.
+  * ServiceOwner: Owner of the Conceptual Service.
+  * ServiceStatus: Status; e.g., planned, retired, etc."""@en, """Key Data Object Relationships
+The Conceptual Service data object shall maintain the following relationships:
+  * Service Architecture to Conceptual Service (n:m): Traceability is maintained between one or more Conceptual Services and the Enterprise Architecture drawings, diagrams, and other documents that describe those services.
+  * Conceptual Service to Portfolio Backlog Item (1:n): One Conceptual Service may be related to one or more Portfolio Backlog Items.
+  * Conceptual Service to IT Budget (n:m): Budget for one Conceptual Service may be spread across multiple budget items and one budget item could hold budget for multiple Conceptual Services.
+  * Conceptual Service to Policy (n:m): Multiple Policies might be applicable for a single service or a single Policy may be applicable for multiple services."""@en ;
+    rdfs:label "Conceptual Service"@en ;
+    rdfs:subClassOf it4it:DataObject ;
+    skos:definition "The Service Model is an authoritative source for the list of services that the enterprise consumes. It represents services planned, in transition, in production, or retired."^^xsd:string .
+
+it4it:ConceptualServiceBlueprint
+    it4it:page "56"^^xsd:positiveInteger ;
+    it4it:serviceModelBackboneDataObject it4it:ServicePortfolioComponent ;
+    meta:chapter it4it:Chapter5-4-5 ;
+    meta:isAssociatedWith it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:comment """Key Attributes
+The Conceptual Service Blueprint data object shall have the following key data attributes:
+  * ConceptualServiceBlueprintID: Unique identifier of the Conceptual Service Blueprint.
+  * ConceptualServiceBlueprint: Details of the Conceptual Service Blueprint.
+  * ServiceID: Unique identifier of the Conceptual Service to which Blueprint is associated."""@en, """Key Data Object Relationships
+The Conceptual Service Blueprint data object shall maintain the following relationships:
+  * Conceptual Service to Conceptual Service Blueprint (1:n): One Conceptual Service may have multiple Conceptual Service Blueprints.
+  * IT Cost Model to Conceptual Service Blueprint (1:n): One IT cost model (rule engine) can be applicable for multiple Conceptual Service Blueprints.
+  * Conceptual Service Blueprint to Logical Service Blueprint (1:n): One Conceptual Service Blueprint could have one or more Logical Service Blueprints."""@en ;
+    rdfs:label "Conceptual Service Blueprint"@en ;
+    rdfs:subClassOf it4it:DataObject ;
+    skos:definition "The Conceptual Service Blueprint contains the list of all service blueprints associated with a given Conceptual Service. (Each Conceptual Service Blueprint has a comprehensive view of the service that depicts endpoints and interfaces that can be understood by Architects and BRMs)."^^xsd:string .
+
+it4it:ConfigurationManagementComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Configuration Management Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:Consumption
+    a it4it:PrimaryActivity, owl:NamedIndividual ;
+    rdfs:label "Consumption"@en .
+
+it4it:Correctness
+    a owl:DatatypeProperty ;
+    rdfs:label "Correctness"@en .
+
+it4it:CostModelingComponent
+    it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Cost Modeling Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:CreationOfBuildPackages
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Creation Of Build Packages"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:CreationOfBuilds
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Creation Of Builds"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:CreationOfITInitiatives
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:comment "Creation of IT initiatives is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProjectComponent."@en ;
+    rdfs:label "Creation Of ITInitiatives"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:CreationOfITPolicies
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Creation Of ITPolicies"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:CreationOfLontermITInvestment
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Creation Of Lonterm ITInvestment"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:CreationOfScopeAgreementsForProjects
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Creation Of Scope Agreements For Projects"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:CreationOfSourceCode
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Creation Of Source Code"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:DataObject
+    it4it:entityRelationship it4it:DataObject ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "DataObject"^^xsd:string, "LifecycleDataObject"^^xsd:string ;
+    rdfs:subClassOf meta:EntityType .
+
+it4it:Deadline
+    a owl:DatatypeProperty ;
+    rdfs:label "Deadline"@en .
+
+it4it:Defect
+    it4it:keyDataObject it4it:DefectComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Defect"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:DefectComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Defect Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:DegreeOfNormativity
+    a owl:DatatypeProperty ;
+    rdfs:label "Degree Of Normativity"@en .
+
+it4it:Deliver
+    a owl:Class ;
+    rdfs:label "Deliver"@en ;
+    rdfs:subClassOf it4it:PrimaryActivity ;
+    owl:equivalentClass it4it:RequestToFullfil .
+
+it4it:DesignOfLogicalServicesBlueprints
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Design Of Logical Services Blueprints"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:DesiredServiceModel
+    it4it:serviceModelBackboneDataObject it4it:FulfillmentExecutionComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Desired Service Model"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:DetectToCorrect
+    a owl:Class ;
+    rdfs:label "Detect To Correct"@en ;
+    rdfs:subClassOf it4it:ValueStream ;
+    owl:equivalentClass it4it:Run .
+
+it4it:DiagnosticsRemediationComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Diagnostics & Remediation Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:Duration
+    a owl:DatatypeProperty ;
+    rdfs:label "Duration"@en .
+
+it4it:EndDate
+    a owl:DatatypeProperty ;
+    rdfs:label "End Date"@en .
+
+it4it:EnterpriseArchitectureComponent
+    it4it:conceptualServiceBlueprint it4it:ServicePortfolioComponent ;
+    it4it:keyDataObject it4it:ServiceArchitecture ;
+    it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:mainFunctions """The Enterprise Architecture functional component:
+  * Shall identify strategic IT architectural components based on current business vision, strategy, goals, and requirements.
+  * Shall develop target state business, information, application, technology, and security blueprints based on strategies, principles, and policies.
+  * Shall develop IT roadmaps based on business roadmap and input.
+  * Shall develop and maintain enterprise guiding principles.
+  * Shall manage IT architecture guideline and standards."""@en ;
+    it4it:page "48"^^xsd:positiveInteger ;
+    it4it:purpose """Create and manage long-term IT investment and execution plan-of-action that are critical to
+business strategic objectives."""@en ;
+    meta:chapter it4it:Chapter5-4-1 ;
+    meta:isAssociatedWith it4it:ServiceArchitecture, it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:CreationOfLontermITInvestment, it4it:ExecutionPlanOfAction, it4it:ManagementOfLontermITInvestment ;
+    meta:updates it4it:ServiceArchitecture ;
+    meta:uses it4it:ServiceArchitecture ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:label "Enterprise Architecture Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:Error
+    a owl:AnnotationProperty ;
+    rdfs:label "Error"@en .
+
+it4it:Event
+    it4it:keyDataObject it4it:EventComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Event"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:EventComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Event Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ExecutionPlanOfAction
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Execution Plan Of Action"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:Extent
+    a owl:DatatypeProperty ;
+    rdfs:label "Extent"@en .
+
+it4it:FeatureAdministrateTheMasterPatientIndex
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Administrate the master patient index (MPI)"@en .
+
+it4it:FeatureAdmitPatientsToTheWard
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Admit patients to the ward"@en .
+
+it4it:FeatureAnalyzeData
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Analyze data"@en .
+
+it4it:FeatureArchivePictures
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Archive pictures"@en .
+
+it4it:FeatureAssignDoctorsToPatientsOrRooms
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Assign doctors to patients or rooms"@en .
+
+it4it:FeatureAssignOrderAndBloodSamplesToDevices
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Assign order and blood samples to devices"@en .
+
+it4it:FeatureAssignOrdersToModalities
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Assign orders to modalities"@en .
+
+it4it:FeatureAssignPatientsToModalities
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Assign patients to modalities"@en .
+
+it4it:FeatureAssignPatientsToRoomsAndBeds
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Assign patients to rooms and beds"@en .
+
+it4it:FeatureAssignStaffToPatientsOrOutpatientUnits
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Assign staff to patients or outpatient units"@en .
+
+it4it:FeatureAssignStaffToPatientsOrRooms
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Assign staff to patients or rooms"@en .
+
+it4it:FeatureAttachDigitalSignatures
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Attach digital signatures"@en .
+
+it4it:FeatureCalculateDosageOfDrugs
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Calculate dosage of drugs"@en .
+
+it4it:FeatureCollectResultsFromDevices
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Collect results from devices"@en .
+
+it4it:FeatureCommunicateDischargeInformation
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Communicate discharge information"@en .
+
+it4it:FeatureCommunicateDocumentsToOtherApplications
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Communicate documents to other applications"@en .
+
+it4it:FeatureCommunicatePictures
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Communicate pictures"@en .
+
+it4it:FeatureCommunicateReportToOrderingUnit
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Communicate report to ordering unit"@en .
+
+it4it:FeatureCreateWorklistForAGroupOfPatients
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Create worklist for a group of patients"@en .
+
+it4it:FeatureCreatingARoster
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Creating a roster"@en .
+
+it4it:FeatureCreationOfRadiologyReports
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Creation of Radiology Reports"@en .
+
+it4it:FeatureDisplayEarlierLabResultsOfAPatient
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Display earlier lab results of a patient"@en .
+
+it4it:FeatureDisplayPictures
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Display pictures"@en .
+
+it4it:FeatureDisplayVitalParametersFromMonitoringDevices
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Display vital parameters from monitoring devices"@en .
+
+it4it:FeatureDisplayWarningMessages
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Display warning messages"@en .
+
+it4it:FeatureImportDocuments
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Import documents"@en .
+
+it4it:FeatureIndexDocumentContent
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Index document content"@en .
+
+it4it:FeatureIntegrateDataFromDifferentApplicationComponents
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Integrate data from different application components"@en .
+
+it4it:FeatureManageModalities
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Manage modalities"@en .
+
+it4it:FeatureManageStorageFormats
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Manage storage formats"@en .
+
+it4it:FeatureManageStorageMedia
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Manage storage media"@en .
+
+it4it:FeatureMergePatientInformationFromTwoRecords
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Merge patient information from two records"@en .
+
+it4it:FeatureMessageQueuing
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Message Queuing"@en .
+
+it4it:FeatureModifyPresentationOfPictures
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Modify presentation of pictures"@en .
+
+it4it:FeatureMulticasting
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Multicasting"@en .
+
+it4it:FeatureOfferDecisionSupportForCarePlanning
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Offer decision support for care planning"@en .
+
+it4it:FeatureOrganizePatientTransport
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Organize patient transport"@en .
+
+it4it:FeaturePrepareReport
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Prepare report"@en .
+
+it4it:FeaturePreparingStatistics
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Preparing Statistics"@en .
+
+it4it:FeaturePrintForms
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Print forms"@en .
+
+it4it:FeaturePrintReports
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Print reports"@en .
+
+it4it:FeaturePrintingOfLabels
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Printing of Labels"@en .
+
+it4it:FeatureProvideACollectionOfInternalProcessesAndRegulations
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide a collection of internal processes and regulations"@en .
+
+it4it:FeatureProvideAccessToArchivedInformation
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide access to archived information"@en .
+
+it4it:FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide catalogs and other means for coding of nursing diagnosis"@en .
+
+it4it:FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide catalogs and other means for coding of nursing procedures"@en .
+
+it4it:FeatureProvideCatalogsAndOtherMeansForCodingPatient-relatedProcedures
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide catalogs and other means for coding patient-related procedures"@en .
+
+<it4it/FeatureProvideCatalogsAndOtherMeansForCodingPatients’Diagnoses>
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide catalogs and other means for coding patients’ diagnoses"@en .
+
+it4it:FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide catalogs and other means for coding radiological diagnoses"@en .
+
+it4it:FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide catalogs and other means for coding radiological procedures"@en .
+
+it4it:FeatureProvideContext-relatedMedicalKnowledge
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide context-related medical knowledge"@en .
+
+it4it:FeatureProvideDrugCatalogs
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide drug catalogs"@en .
+
+it4it:FeatureProvideFormsForClinicalReports
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for clinical reports"@en .
+
+it4it:FeatureProvideFormsForDocumentingClinicalProcedures
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting clinical procedures"@en .
+
+it4it:FeatureProvideFormsForDocumentingDiagnosis
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting diagnosis"@en .
+
+it4it:FeatureProvideFormsForDocumentingDiagnosisAndProblems
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting diagnosis and problems"@en .
+
+it4it:FeatureProvideFormsForDocumentingMedicalAnamnesis
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting medical anamnesis"@en .
+
+it4it:FeatureProvideFormsForDocumentingMedications
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting medications"@en .
+
+it4it:FeatureProvideFormsForDocumentingNursingAims
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting nursing aims"@en .
+
+it4it:FeatureProvideFormsForDocumentingNursingTasks
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting nursing tasks"@en .
+
+<it4it/FeatureProvideFormsForDocumentingPatients_’InformedConsent>
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting patients ’ informed consent"@en .
+
+<it4it/FeatureProvideFormsForDocumentingPatient’sInformedConsent>
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting patient’s informed consent"@en .
+
+it4it:FeatureProvideFormsForDocumentingPerformedTasks
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting performed tasks"@en .
+
+it4it:FeatureProvideFormsForDocumentingPlannedTasks
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting planned tasks"@en .
+
+it4it:FeatureProvideFormsForDocumentingProceduresAndOutcomes
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting procedures and outcomes"@en .
+
+it4it:FeatureProvideFormsForDocumentingTheNursingHistory
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting the nursing history"@en .
+
+it4it:FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for documenting the outcome of nursing tasks"@en .
+
+it4it:FeatureProvideFormsForEnteringClinicalData
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for entering clinical data (free-text or structured)"@en .
+
+it4it:FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for entering or updating patient administrative information"@en .
+
+<it4it/FeatureProvideFormsForPatients_’InformedConsent>
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for patients ’ informed consent"@en .
+
+it4it:FeatureProvideFormsForPreparingABillForThePatientInsurance
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for preparing a bill for the patient insurance"@en .
+
+it4it:FeatureProvideFormsForPreparingClinicalReports
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for preparing clinical reports"@en .
+
+it4it:FeatureProvideFormsForPreparingOperationReports
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for preparing operation reports"@en .
+
+it4it:FeatureProvideFormsForWritingAReport
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for writing a report"@en .
+
+it4it:FeatureProvideFormsForWritingATransferLetterOrDischargeReport
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for writing a transfer letter or discharge report"@en .
+
+it4it:FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for writing the discharge letter or discharge report"@en .
+
+it4it:FeatureProvideFormsForWritingTheDischargeReport
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for writing the discharge report"@en .
+
+it4it:FeatureProvideFormsForWritingTheNursingDischargeReport
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide forms for writing the nursing discharge report"@en .
+
+it4it:FeatureProvideGuidelinesForCarePlanning
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide guidelines for care planning"@en .
+
+it4it:FeatureProvideGuidelinesForTreatmentPlanning
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide guidelines for treatment planning"@en .
+
+it4it:FeatureProvideMeansForAccountsPayable
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for accounts payable"@en .
+
+it4it:FeatureProvideMeansForAccountsReceivable
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for accounts receivable"@en .
+
+it4it:FeatureProvideMeansForAssetAccounting
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for asset accounting"@en .
+
+it4it:FeatureProvideMeansForCheck-inOfPatient
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for check-in of patient"@en .
+
+it4it:FeatureProvideMeansForControlOfSecurityIssues
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for control of security issues"@en .
+
+it4it:FeatureProvideMeansForCostCenterAccounting
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for cost center accounting"@en .
+
+it4it:FeatureProvideMeansForCostElementAccounting
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for cost element accounting"@en .
+
+it4it:FeatureProvideMeansForCreatingARoster
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for creating a roster"@en .
+
+it4it:FeatureProvideMeansForCreatingOperationPlans
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for creating operation plans (daily weekly)"@en .
+
+it4it:FeatureProvideMeansForCreatingStatistics
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for creating statistics"@en .
+
+it4it:FeatureProvideMeansForDataMining
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for data mining"@en .
+
+it4it:FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for editing and graphically illustrating collections of internal processes and regulations"@en .
+
+it4it:FeatureProvideMeansForFiNalizingDocumentation
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for fi nalizing documentation"@en .
+
+it4it:FeatureProvideMeansForFinalizingDocumentation
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for finalizing documentation"@en .
+
+it4it:FeatureProvideMeansForFinalizingNursingDocumentation
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for finalizing nursing documentation"@en .
+
+it4it:FeatureProvideMeansForGeneralLedgerAccounting
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for general ledger accounting"@en .
+
+it4it:FeatureProvideMeansForIncidentTracking
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for incident tracking"@en .
+
+it4it:FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for initiating final billing for outpatient treatment"@en .
+
+it4it:FeatureProvideMeansForInitiationOfFinalBilling
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for initiation of final billing"@en .
+
+it4it:FeatureProvideMeansForManagingAndMonitoringDisposal
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for managing and monitoring disposal"@en .
+
+it4it:FeatureProvideMeansForManagingAppointments
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for managing appointments"@en .
+
+it4it:FeatureProvideMeansForManagingLogistics
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for managing logistics"@en .
+
+it4it:FeatureProvideMeansForManagingMedicalDevices
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for managing medical devices"@en .
+
+<it4it/FeatureProvideMeansForManagingOutpatientUnit’sStaff>
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for managing outpatient unit’s staff"@en .
+
+it4it:FeatureProvideMeansForManagingRooms
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for managing rooms"@en .
+
+it4it:FeatureProvideMeansForManagingWardStaff
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for managing ward staff"@en .
+
+it4it:FeatureProvideMeansForMinimizingAdverseDrugEvents
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for minimizing adverse drug events"@en .
+
+it4it:FeatureProvideMeansForOrderManagement
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for order management"@en .
+
+it4it:FeatureProvideMeansForOrderingConsumables
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for ordering consumables"@en .
+
+it4it:FeatureProvideMeansForOrderingDrugs
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for ordering drugs"@en .
+
+it4it:FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for ordering drugs materials and laundry"@en .
+
+it4it:FeatureProvideMeansForOrderingLaundry
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for ordering laundry"@en .
+
+it4it:FeatureProvideMeansForOrderingPatientTransferToOtherUnits
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for ordering patient transfer to other units"@en .
+
+it4it:FeatureProvideMeansForOrderingPatientTransferToWard
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for ordering patient transfer to ward"@en .
+
+it4it:FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for ordering patient transfer within the institution"@en .
+
+it4it:FeatureProvideMeansForOrderingTransportServices
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for ordering transport services"@en .
+
+it4it:FeatureProvideMeansForOrganizingCareerDevelopment
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for organizing career development"@en .
+
+it4it:FeatureProvideMeansForOrganizingRecruitment
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for organizing recruitment"@en .
+
+it4it:FeatureProvideMeansForOrganizingTraining
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for organizing training"@en .
+
+it4it:FeatureProvideMeansForOverheadCostManagement
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for overhead cost management"@en .
+
+it4it:FeatureProvideMeansForPerformanceEvaluation
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for performance evaluation"@en .
+
+it4it:FeatureProvideMeansForPreparingACarePlan
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for preparing a care plan"@en .
+
+it4it:FeatureProvideMeansForPreparingHospital-wideStatistics
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for preparing hospital-wide statistics"@en .
+
+it4it:FeatureProvideMeansForPreparingStatistics
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for preparing statistics"@en .
+
+it4it:FeatureProvideMeansForPreparingWard-relatedStatistics
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for preparing ward-related statistics"@en .
+
+it4it:FeatureProvideMeansForPreparingWorkSchedules
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for preparing work schedules"@en .
+
+it4it:FeatureProvideMeansForPreventiveMaintenance
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for preventive maintenance"@en .
+
+it4it:FeatureProvideMeansForProductCosting
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for product costing"@en .
+
+it4it:FeatureProvideMeansForRecruitingOfPatients
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for recruiting of patients"@en .
+
+<it4it/FeatureProvideMeansForSchedulingAPatient_’sAppointment>
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for scheduling a patient ’s appointment"@en .
+
+<it4it/FeatureProvideMeansForSchedulingPatients_’Appointments>
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for scheduling patients ’ appointments"@en .
+
+it4it:FeatureProvideMeansForStockKeeping
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for stock keeping"@en .
+
+it4it:FeatureProvideMeansForVerifyingCodingDoneInDepartments
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide means for verifying coding done in departments"@en .
+
+it4it:FeatureProvideOrdersForPatient-relatedDrugs
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide orders for patient-related drugs"@en .
+
+it4it:FeatureProvideOrdersForPatient-relatedExaminations
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide orders for patient-related examinations"@en .
+
+it4it:FeatureProvideRelativesWithInformationOnTheLocationOfAPatient
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide relatives with information on the location of a patient"@en .
+
+it4it:FeatureProvideReminderForFulfillingOfLegalReportingRequirements
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provide reminder for fulfilling of legal reporting requirements"@en .
+
+it4it:FeatureProvisionOfPatientDataAndExaminationParameters
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Provision of Patient Data and Examination Parameters"@en .
+
+it4it:FeatureReceiveBloodSamples
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Receive blood samples"@en .
+
+it4it:FeatureReceiveOrders
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Receive orders"@en .
+
+it4it:FeatureRegisteringPatients
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Registering Patients"@en .
+
+it4it:FeatureRetrievePatient
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Retrieve patient"@en .
+
+it4it:FeatureScanDocuments
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Scan documents"@en .
+
+it4it:FeatureScanningDocumentsFromReferringPhysicianAndOtherSources
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Scanning documents from referring physician and other sources"@en .
+
+it4it:FeatureScoringOfThePatient
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Scoring of the patient (eg TISS SAPSII)"@en .
+
+it4it:FeatureSearchForOldPictures
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Search for old pictures"@en .
+
+it4it:FeatureSelectOrdersFromOrderSets
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Select orders from order sets"@en .
+
+it4it:FeatureServiceCombination
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Service Combination"@en .
+
+it4it:FeatureServiceOrchestration
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Service Orchestration"@en .
+
+it4it:FeatureStructureData
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Structure data"@en .
+
+it4it:FeatureSupportCreationOfANursingCarePlan
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Support creation of a nursing care plan"@en .
+
+it4it:FeatureValidateResults
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Validate results"@en .
+
+it4it:FeatureViewPatient-relatedAppointments
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature View patient-related appointments"@en .
+
+it4it:FeatureWorkScheduling
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Work scheduling"@en .
+
+it4it:FeatureWorkflowManagement
+    a owl:DatatypeProperty ;
+    rdfs:label "Feature Workflow Management"@en .
+
+it4it:Finance
+    a it4it:SupportingActivity, owl:NamedIndividual ;
+    rdfs:label "Finance"@en .
+
+it4it:Fulfillment
+    a it4it:PrimaryActivity, owl:NamedIndividual ;
+    rdfs:label "Fulfillment"@en .
+
+it4it:FulfillmentExecutionComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Fulfillment Execution Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:FulfillmentRequest
+    it4it:keyDataObject it4it:FulfillmentExecutionComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Fulfillment Request"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:FunctionalComponent
+    it4it:currentPracticeEngagementDataflow it4it:FunctionalComponent ;
+    it4it:dataObject it4it:DataObject ;
+    it4it:engagementDataflow it4it:FunctionalComponent ;
+    it4it:recordFabricIntegration it4it:FunctionalComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Functional Component"@en ;
+    rdfs:subClassOf it4it:IT4IT, meta:EntityType .
+
+it4it:Governance
+    a it4it:SupportingActivity, owl:NamedIndividual ;
+    rdfs:label "Governance"@en .
+
+it4it:HumanResource
+    a it4it:SupportingActivity, owl:NamedIndividual ;
+    rdfs:label "Human Resource"@en .
+
+it4it:ICDCode
+    a owl:DatatypeProperty ;
+    rdfs:label "ICD Code"@en .
+
+it4it:ID
+    a owl:AnnotationProperty, owl:DatatypeProperty ;
+    rdfs:label "ID"@en .
+
+it4it:IT4IT
+    a owl:AnnotationProperty, owl:Class ;
+    rdfs:label "IT4IT"@en .
+
+it4it:ITAssetManagement
+    it4it:assetsAvailability it4it:ProposalComponent ;
+    it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT Asset Management"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ITBudget
+    it4it:keyDataObject it4it:ITInvestmentPortfolioComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT Budget"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ITCostModel
+    it4it:keyDataObject it4it:CostModelingComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "IT Cost Model"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ITInitiative
+    it4it:keyDataObject it4it:ProjectComponent ;
+    it4it:page "69"^^xsd:positiveInteger ;
+    meta:chapter it4it:Chapter6-4-1 ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:comment """Key Attributes
+The IT Initiative data object shall have the following key data attributes:
+  * ITInitiativeID: Unique identifier of the effort/initiative.
+  * ITInitiativeName: Full name of the effort/initiative.
+  * ITInitiativeStatus: Status of the effort/initiative.
+  * ServiceReleaseID: Identifier of one or more Service Releases.
+  * RFCID: Identifier of one or more RFCs.
+  * ScopeAgreementID: Unique identifier of the related Scope Agreement."""@en, """Key Data Object Relationships
+The IT Initiative data object shall maintain the following relationships:
+  * Scope Agreement to IT Initiative (1:n): Maintain a linkage between the proposal which authorized one or more IT Initiatives.
+  * IT Initiative to Service Release (1:n): An IT Initiative will manage the creation of one or more Service Releases required to deliver the IT Initiative.
+  * IT Initiative to Request for Change (RFC) (1:n): An Initiative will be related to one or many RFC records in order to manage all changes resulting from a single work effort (initiative)."""@en ;
+    rdfs:label "IT Initiative"@en ;
+    rdfs:subClassOf it4it:DataObject ;
+    skos:definition "Details the scope of the work to be performed and created from and associated with the Scope Agreement."^^xsd:string .
+
+it4it:ITInvestmentPortfolioComponent
+    it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:mainFunctions """The IT Investment Portfolio functional component:
+  * Shall be the system of records for all IT investments.
+  * Shall manage the entire IT investment lifecycle.
+  * Shall provide labor & non-labor cost estimates and other guidelines to the Proposal functional component. This should be used by proposal managers to estimate the cost of proposed IT Initiatives. Various proposal managers working on their respective proposals should send the information on proposed IT investments to the IT Investment Portfolio functional component.
+  * Shall accept inputs from the Service Portfolio functional component to include OpEx budget requests for keeping live services operational.
+  * Shall take these proposals/budget requests for necessary approvals with the respective governing committee.
+  * Shall communicate the status of the final investment decisions back to the respective stakeholders.""" ;
+    it4it:page "58"^^xsd:positiveInteger ;
+    it4it:purpose """This functional component is auxiliary to the S2P Value Stream and is primary in the IT Financial Management guidance document.
+Its main purpose includes:
+  * Manage the authoritative list of all IT investments.
+  * Facilitate all activities required to effectively carry out forecasting and budgeting.
+  * Facilitate proposal managers with guidelines and information (e.g., unit costs) to be followed while estimating costs of proposed IT Initiatives.
+  * Establish a common governance and control mechanism for approval/rejections of any proposed IT Initiatives.""" ;
+    meta:chapter it4it:Chapter5-4-6 ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:ManagementOfITInvestments ;
+    a owl:Class ;
+    rdfs:label "IT Investment Portfolio Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ITValueChain
+    meta:isDecomposedIn it4it:SupportingActivity, it4it:ValueStream ;
+    a owl:Class ;
+    rdfs:label "ITValue Chain"@en ;
+    rdfs:subClassOf it4it:ValueChain .
+
+it4it:Incident
+    it4it:keyDataObject it4it:IncidentComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Incident"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:IncidentComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Incident Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:Insurance
+    a owl:DatatypeProperty ;
+    rdfs:label "Insurance"@en .
+
+it4it:IsCentralized
+    a owl:DatatypeProperty ;
+    rdfs:label "Is Centralized"@en .
+
+it4it:IsObjective
+    a owl:DatatypeProperty ;
+    rdfs:label "Is Objective"@en .
+
+it4it:IsProlective
+    a owl:DatatypeProperty ;
+    rdfs:label "Is Prolective"@en .
+
+it4it:IsRedundant
+    a owl:DatatypeProperty ;
+    rdfs:label "Is Redundant"@en .
+
+it4it:IsRetrolective
+    a owl:DatatypeProperty ;
+    rdfs:label "Is Retrolective"@en .
+
+it4it:IsSubjective
+    a owl:DatatypeProperty ;
+    rdfs:label "Is Subjective"@en .
+
+it4it:It4ItFunction
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:comment """Wie ordnen sich die Aufgaben ein, die von IT4IT Functional Components unterstützt werden?
+Function->EnterpriseFunction->InformationManagementFunction? [ToDo] Einordnung prüfen."""@de ;
+    rdfs:label "IT4IT Function"@de ;
+    rdfs:subClassOf meta:Function .
+
+it4it:LaborManagement
+    it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:competencyAvailability it4it:ProposalComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Labor Management"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:Location
+    a owl:DatatypeProperty ;
+    rdfs:label "Location"@en .
+
+it4it:LogicalServiceBlueprint
+    it4it:serviceModelBackboneDataObject it4it:ServiceDesignComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Logical Service Blueprint"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:Maintainability
+    a owl:DatatypeProperty ;
+    rdfs:label "Maintainability"@en .
+
+it4it:ManagementCentralityOfInformationManagement
+    a owl:DatatypeProperty ;
+    rdfs:label "Management Centrality of information Management"@en .
+
+it4it:ManagementCentralityOfNetworkManagement
+    a owl:DatatypeProperty ;
+    rdfs:label "Management Centrality of Network Management"@en .
+
+it4it:ManagementFinancingForm
+    a owl:DatatypeProperty ;
+    rdfs:label "Management Financing Form"@en .
+
+it4it:ManagementLegalForm
+    a owl:DatatypeProperty ;
+    rdfs:label "Management Legal Form"@en .
+
+it4it:ManagementOfBuildPackages
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Management Of Build Packages"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfBuilds
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Management Of Builds"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfDemands
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:comment """Management of demands is in detail, what ist described in attribute IT4IT:Purpose of PortfolioDemandComponent:
+\"Log, maintain, and evaluate all demands (new service, enhancements, defects) coming into IT
+through a single funnel. Correlate incoming demand to similar existing demand or create new
+demand. The “single funnel” may be a virtual concept encompassing project ideation, service
+request management, Incident Management, continuous improvement, and other well-known
+demand channels.\""""@en ;
+    rdfs:label "Management Of Demands"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfITInitiatives
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:comment "Management of IT initiatives is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProjectComponent."@en ;
+    rdfs:label "Management Of ITInitiatives"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfITInvestments
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Management Of ITInvestments"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfITPolicies
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Management Of ITPolicies"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfITProposals
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Management Of ITProposals"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfLontermITInvestment
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Management Of Lonterm ITInvestment"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfProblems
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:comment "Management of Problems is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProblemComponent."@en ;
+    rdfs:label "Management Of Problems"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfRequirements
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:comment "Management of Requirements is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of RequirementComponent."@en ;
+    rdfs:label "Management Of Requirements"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfServicePortfolio
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Management Of Service Portfolio"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOfSourceCode
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Management Of Source Code"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:ManagementOpenness
+    a owl:DatatypeProperty ;
+    rdfs:label "Management Openness"@en .
+
+it4it:Measurability
+    a owl:DatatypeProperty ;
+    rdfs:label "Measurability"@en .
+
+it4it:Offer
+    it4it:keyDataObject it4it:OfferManagementComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Offer"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:OfferConsumptionComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Offer Consumption Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:OfferManagementComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Offer Management Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:OfficialUserGroup
+    a owl:DatatypeProperty ;
+    rdfs:label "Official User Group"@en .
+
+it4it:Ontology
+    a owl:AnnotationProperty ;
+    rdfs:label "Ontology"@en .
+
+it4it:OntologyMaintainer
+    a owl:AnnotationProperty ;
+    rdfs:label "Ontology Maintainer"@en ;
+    rdfs:subPropertyOf it4it:Ontology .
+
+it4it:OntologyQuestion-Types
+    a owl:AnnotationProperty ;
+    rdfs:label "Ontology Question-Types"@en ;
+    rdfs:subPropertyOf it4it:Ontology .
+
+it4it:OperatingModel
+    a owl:Class ;
+    rdfs:label "Operating Model"@en ;
+    rdfs:subClassOf it4it:IT4IT .
+
+it4it:PIN
+    a owl:DatatypeProperty ;
+    rdfs:label "PIN"@en .
+
+it4it:Performance
+    a owl:DatatypeProperty ;
+    rdfs:label "Performance"@en .
+
+it4it:Person
+    a owl:DatatypeProperty ;
+    rdfs:label "Person"@en .
+
+it4it:Pertinency
+    a owl:DatatypeProperty ;
+    rdfs:label "Pertinency"@en .
+
+it4it:Place
+    a owl:DatatypeProperty ;
+    rdfs:label "Place"@en .
+
+it4it:Plan
+    a owl:Class ;
+    rdfs:label "Plan"@en ;
+    rdfs:subClassOf it4it:PrimaryActivity ;
+    owl:equivalentClass it4it:StrategyToPortfolio .
+
+it4it:Planning
+    a it4it:PrimaryActivity, owl:NamedIndividual ;
+    rdfs:label "Planning"@en .
+
+it4it:Policy
+    it4it:entityRelationship it4it:Requirement ;
+    it4it:keyDataObject it4it:PolicyComponent ;
+    it4it:page "50"^^xsd:positiveInteger ;
+    it4it:policyToConceptualService it4it:ConceptualService ;
+    it4it:policyToRequirementFunctionalComponent it4it:Requirement ;
+    meta:chapter it4it:Chapter5-4-2 ;
+    meta:isAssociatedWith it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:comment """Key Attributes
+The Policy data object shall have the following key data attributes:
+  * PolicyID: Unique identifier; e.g., number of the Policy.
+  * PolicyDescription: Description/details of the Policy.
+  * ApplicableGeography: Which geographies does the Policy apply to; e.g., certain policies could be country-specific or may have country-specific customizations."""@en, """Key Data Object Relationships
+The Policy data object shall maintain the following relationships:
+  * Policy to Conceptual Service (n:m): Multiple policies might be applicable for a single service or a single policy may be applicable for multiple services.
+  * Policy to Requirement Functional Component (n:m): Requirements may be sourced from policies or may reference policies in order to remain in compliance with previously agreed policies for an organization."""@en ;
+    rdfs:label "Policy"@en ;
+    rdfs:subClassOf it4it:DataObject ;
+    skos:definition "It is a central repository for storing and organizing all types of IT policies based on various templates and classification criteria."^^xsd:string .
+
+it4it:PolicyComponent
+    it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:mainFunctions """The Policy functional component:
+  * Shall align and map IT Policies to Service Architectures.
+  * Shall review and approve IT policies based on roles and responsibilities. It shall manage Policy distribution and acceptance based on predefined templates and schedules for designated IT stakeholders.
+  * Should maintain complete Policy revision history, and review period or obsolescence rules set for all Policies.
+  * May log and track IT Policy exceptions through an issue management mechanism. It may provide a consistent tracking feature for exception identification, evaluation, and status report leading to corrective action.
+  * Shall provide visibility into IT Policy attributes such as types, status, non-compliance, audit history, and issues.
+  * Shall manage overall IT governance Policies, and Policies applied to or associated with the particular services that may be managed downstream during service design.
+  * Shall manage IT security and regulatory Policies by incorporating external and internal security and regulatory compliances.
+  * Shall define pricing/costing Policies and capture information related to Service Contracts.
+If a Service Portfolio functional component exists, the Policy functional component:
+  * Shall associate one or more policies to one or more Conceptual Services."""@en ;
+    it4it:page "50"^^xsd:positiveInteger ;
+    it4it:policy it4it:ServicePortfolioComponent ;
+    it4it:purpose "Manage creation, review, approval, and audit of all IT policies."@en ;
+    meta:chapter it4it:Chapter5-4-2 ;
+    meta:isAssociatedWith it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:ApprovalOfITPolicies, it4it:AuditOfITPolicies, it4it:CreationOfITPolicies, it4it:ManagementOfITPolicies, it4it:ReviewOfITPolicies ;
+    meta:updates it4it:Policy ;
+    meta:uses it4it:Policy ;
+    a owl:Class ;
+    rdfs:label "Policy Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:PortfolioBacklogItem
+    it4it:keyDataObject it4it:PortfolioDemandComponent ;
+    it4it:page "54"^^xsd:positiveInteger ;
+    meta:chapter it4it:Chapter5-4-4 ;
+    meta:isAssociatedWith it4it:PortfolioDemandComponent, it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:comment """Key Attributes
+The Portfolio Backlog Item data object shall have the following key data attributes:
+  * DemandID: Unique identifier of the Portfolio Backlog Item (demand request).
+  * DemandDescription: Description/details of the Portfolio Backlog Item (demand request).
+  * Source: Where did the demand originate from (e.g., person/department)?
+  * ITServiceID: Is demand related to a live service (e.g., enhancement requests)?
+  * DemandFulfillmentStatus: Status information.
+  * DecisionMaker: Information on who took the decisions related to the demand."""@en, """Key Data Object Relationships
+The Portfolio Backlog Item data object shall maintain the following relationships:
+  * Portfolio Backlog Item to Conceptual Service (n:1): One Conceptual Service may be related to one or more Portfolio Backlog Items.
+  * Portfolio Backlog Item to Requirement (1:n): A Portfolio Backlog Item is mapped to one or more Requirements which will need to be delivered to successfully fulfill the demand.
+  * Portfolio Backlog Item to Scope Agreement (n:1): One or more Portfolio Backlog Items may be included in a Scope Agreement."""@en ;
+    rdfs:label "Portfolio Backlog Item"@en ;
+    rdfs:subClassOf it4it:DataObject ;
+    skos:definition "Portfolio Backlog Items represent the repository of all incoming demands including but not limited to new requests, enhancement requests, and defect fix requests."^^xsd:string .
+
+it4it:PortfolioDemandComponent
+    it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:mainFunctions """The Portfolio Demand functional component:
+  * Shall capture Portfolio Backlog Items from business.
+  * Shall capture Portfolio Backlog Items from Problem Management activities.
+  * Shall capture Portfolio Backlog Items from the Service Portfolio functional component activities.
+If a Proposal functional component exists, then the Portfolio Demand functional component:
+  * Shall categorize and group the demands and push demands to the Proposal functional component.
+If a Requirement functional component exists, the Portfolio Demand functional component:
+  * Shall associate one or more Requirements (user stories, use-cases, business rules, etc.) to a Portfolio Backlog Item.
+The Portfolio Demand functional component may support backlog item data object backlog
+ranking, trending, and analysis based on requested services, timeline, business unit origination,
+etc."""@en ;
+    it4it:page "54"^^xsd:positiveInteger ;
+    it4it:portfolioBacklogItemRationalizedPrioritzed it4it:ProposalComponent ;
+    it4it:purpose "Log, maintain, and evaluate all demands (new service, enhancements, defects) coming into IT through a single funnel. Correlate incoming demand to similar existing demand or create new demand. The “single funnel” may be a virtual concept encompassing project ideation, service request management, Incident Management, continuous improvement, and other well-known demand channels."@en ;
+    meta:chapter it4it:Chapter5-4-4 ;
+    meta:isAssociatedWith it4it:PortfolioBacklogItem, it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:ManagementOfDemands ;
+    meta:updates it4it:PortfolioBacklogItem ;
+    meta:uses it4it:PortfolioBacklogItem ;
+    a owl:Class ;
+    rdfs:comment "Functions extracted from IT4IT:Purpose are aggregated to \"management of Demands\"."@en ;
+    rdfs:label "Portfolio Demand Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:PrimaryActivity
+    a owl:Class ;
+    rdfs:label "Primary Activity"@en ;
+    rdfs:subClassOf it4it:Activity ;
+    owl:equivalentClass it4it:ValueStream .
+
+it4it:Priority
+    a owl:DatatypeProperty ;
+    rdfs:label "Priority"@en .
+
+it4it:ProblemComponent
+    it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:mainFunctions """The Problem functional component:
+  * Shall be the system of record for all Problem records.
+  * Shall manage the state and lifecycle of the Problem.
+  * Shall associate Problem(s) to CI(s).
+  * Shall create Known Error data object instances from unsolved Problems.
+If a Diagnostics & Remediation functional component exists, the Problem functional component:
+  * Can push Problem data to trigger the execution of a Run Book data object (either automated or manual) to provide diagnostics information or remediation steps.
+If a Change Control functional component exists, the Problem functional component:
+  * Shall create an RFC associated to a Problem in order to implement a fix to the issue that is documented by the Problem.
+If a Knowledge & Collaboration functional component exists, the Problem functional component:
+  * Shall use existing Knowledge data to solve a Problem.
+  * Can create a new Knowledge data object based on Problem Management activities (from the Known Error data object instances).
+If an Incident functional component exists, the Problem functional component:
+  * Shall associate Incident data to the corresponding Problem record and continue the investigation around the Incident reported fault within the Problem lifecycle.
+If a Defect functional component exists, the Problem functional component:
+  * Shall push Problem data requiring emergency/specific development to the Defect functional component (R2D Value Stream).
+If a Portfolio Demand functional component exists, the Problem functional component:
+  * May push a Portfolio Backlog Item to the Portfolio Demand functional component for backlog processing."""@en ;
+    it4it:page "132"^^xsd:positiveInteger ;
+    it4it:portfolioBacklogItem it4it:PortfolioDemandComponent ;
+    it4it:purpose "The Problem functional component is responsible for managing the lifecycle of all Problems. The objectives of the Problem functional component are to solve severe/repeating Incidents, prevent Incidents from happening, and minimize the impact of Incidents that cannot be prevented. The Problem cause is not usually known at the time of the Problem data object instance creation, and the Problem functional component is responsible for the investigation. The Problem functional component also serves as the main exit point from the D2C Value Stream for the feedback information about IT services issues. The feedback is reported to the R2D Value Stream in the form of Defects and to the S2P Value Stream in the form of Portfolio Backlog Items (demand request)."@en ;
+    meta:chapter it4it:Chapter8-4-4 ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:ManagementOfProblems ;
+    a owl:Class ;
+    rdfs:label "Problem Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ProblemKnownError
+    it4it:keyDataObject it4it:ProblemComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Problem/Known Error"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:Production
+    a it4it:PrimaryActivity, owl:NamedIndividual ;
+    rdfs:label "Production"@en .
+
+it4it:ProjectComponent
+    it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:mainFunctions """The Project functional component:
+  * Shall be the system of record (authoritative source) for all IT Initiatives.
+  * Shall manage the lifecycle of the IT Initiative.
+  * Shall manage the status of the IT Initiative.
+  * Shall allow recursive relationships between IT Initiatives.
+  * Shall associate an IT Initiative to a service.
+  * May associate an IT Initiative with IT budget in the IT Financial Management supporting function.
+If a Change Control functional component exists, the Project functional component:
+  * Shall associate an IT Initiative to one or more RFCs.
+  * Can submit one or more RFCs required for the IT Initiative.
+If a Fulfillment Execution functional component exists, the Project functional component:
+  * Can manage the Fulfillment Request data flow to the Fulfillment Execution functional component.
+  * Can send a request to the Fulfillment Execution functional component when resources are required for the IT Initiative.
+If a Proposal functional component exists, the Project functional component:
+  * Shall associate a Scope Agreement to one or more IT Initiatives.
+  * Shall be able to receive the Scope Agreement from the Proposal functional component.
+If a Service Design functional component exists, the Project functional component:
+  * Can provide IT Initiative information required for Service Design to the Service Design
+functional component."""@en ;
+    it4it:purpose """The Project Component:
+  * Coordinate the creation and provide ongoing execution oversight of IT Initiatives aimed at the creation of new or enhancements to existing services.
+  * Create IT Initiatives based on the specifications outlined in the Scope Agreement, including cost, time, scope, and quality.
+  * Aggregate, track, and report status, resources consumed against project plan, or project burn down, and communicate these to stakeholders via auxiliary functional components such as Resource Management, Supplier Management, and IT Financial Management.
+  * Govern, coordinate, influence, and direct initiative execution.
+  * Ensure financial goals and boundary conditions are adhered to.
+  * Maintain the connection between initiatives and associated applications and service(s) being developed.
+  * Maintain the linkage/traceability between Scope Agreements, IT Initiatives, and Service Releases.
+  * Produce various request artifacts associated with financial, human, and technology resources (that is, feedback to the S2P Value Stream when variances cross thresholds).
+  * Coordinate the acquisition of resources (hardware, software, and people) required to source/create a service in a particular project."""@en ;
+    meta:isAssociatedWith it4it:ITInitiative ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:CreationOfITInitiatives, it4it:ManagementOfITInitiatives ;
+    meta:updates it4it:ITInitiative ;
+    meta:uses it4it:ITInitiative ;
+    a owl:Class ;
+    rdfs:comment "Functions extracted from IT4IT:Purpose and IT4IT:MainFunctions are aggregated to \"creation of IT initiatives\" and \"management of IT initiatives\"."@en ;
+    rdfs:label "Project Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ProposalComponent
+    it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:mainFunctions """The Proposal functional component:
+  * Shall create a Scope Agreement from rationalized Portfolio Backlog Items in the data object repository. A Scope Agreement can follow an expedited analysis and approval for high priority urgent items or agile development proposals. A Scope Agreement can also follow a structured analysis and approval via IT annual planning activities.
+  * Activities for Scope Agreements requiring an expedited analysis and approval:
+    * Proposal created from a rationalized backlog item where the item requires high urgency due to business impact on an existing service.
+    * Quickly evaluate the proposal and decide on the approval. If rejected, then notify the Portfolio Demand functional component.
+    * Is there an existing IT Initiative that can be associated with the approved proposal? If yes, then create an updated Scope Agreement and update corresponding in-flight IT Initiative data object in the R2D Value Stream. In the context of the IT4IT Reference Architecture, an IT Initiative is any one of the class of temporary endeavors such as projects or programs with a defined beginning and end, undertaken to achieve an objective or outcome, at a specified cost.
+    * Create a new Scope Agreement. A new IT Initiative data object is created in the R2D Value Stream.
+  * Activities for proposals requiring structured analysis and approval:
+    * Proposals are created from rationalized Portfolio Backlog Items in the Portfolio Backlog Item data object repository. Rationalized items are grouped based on priority and themes for a proposal creation purpose. Not all rationalized items will be grouped within proposals as priority and cut-off must be decided.
+    * Proposals are created periodically throughout the year or once a year during annual planning activities.
+    * Create a high-level labor consumption model for a proposal (for example, one project manager, five developers, and two QAs for the proposal). Validate labor consumption model against available internal and external labor pools.
+    * Create a high-level asset (non-labor) consumption model for a proposal. Validate asset consumption model against available internal and external assets (for example, traditional/private cloud/managed cloud/public cloud).
+    * Model ongoing labor and non-labor budget for annual and future operations.
+    * Define tangible and intangible benefits for each proposal. Tangible benefit may be cost savings or revenue growth, whereas intangible benefit may be strategic initiative support, competitive advantage, or compliance achieved. Work with a finance organization to validate tangible benefits. This can involve utilizing industry-specific methods of measuring the value of business processes and estimating the impact of the proposal on performance metrics.
+    * Ensure proposal meets the technology policies.
+    * Rank proposals based on benefits and risks, labor and non-labor consumption models, and ROI or other defined evaluation criteria.
+    * Build proposal portfolio scenarios using proposals, conduct “what if” analysis on the proposal scenarios, and approve the optimal proposal scenario and its proposals.
+    * Create resulting Scope Agreement(s). Retain Scope Agreement information to compare approved baseline and actual resulting benefits derived from completing the IT Initiatives.
+The Proposal functional component:
+  * Shall review the Scope Agreement change request from the R2D Value Stream. The IT Initiative team working to deliver on the approved Scope Agreement may ask for change requests related to budget, resource, or timeline. Evaluate the change request and take action to update the existing Scope Agreement.
+  * The R2D Value Stream project portfolio is the authoritative source for the list of IT deliverables or services that will be rendered during a project lifecycle. The project portfolio views can be created for specific organizations like line of business portfolio or functions like financial views. The project portfolio is used for rationalizing and tracking resources across projects to best deliver on all projects. The project portfolio entries are actuated through a Project Management system. The project portfolio reports back to the investment portfolio in order to accurately track progress and outcomes for a given Scope Agreement.
+  * Shall identify security controls necessary for protecting the various classifications of data."""@en ;
+    it4it:page "52"^^xsd:positiveInteger ;
+    it4it:purpose "Manage the portfolio of IT proposals that are proposed, approved, active, deferred, or rejected. This is the authoritative source for the list of IT proposals requested over a given time period that may result in the creation of Scope Agreements for projects."@en ;
+    it4it:scopeAgreement it4it:ProjectComponent ;
+    meta:chapter it4it:Chapter5-4-3 ;
+    meta:isAssociatedWith it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:CreationOfScopeAgreementsForProjects, it4it:ManagementOfITProposals ;
+    meta:updates it4it:ScopeAgreement ;
+    meta:uses it4it:ScopeAgreement ;
+    a owl:Class ;
+    rdfs:label "Proposal Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:Quantifiability
+    a owl:DatatypeProperty ;
+    rdfs:label "Quantifiability"@en .
+
+it4it:RFC
+    it4it:keyDataObject it4it:ChangeControlComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "RFC"@en, "Request for Change"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:Redundancy
+    a owl:DatatypeProperty ;
+    rdfs:label "Redundancy"@en .
+
+it4it:Relative
+    a owl:DatatypeProperty ;
+    rdfs:label "Relative"@en .
+
+it4it:ReleaseComposotionComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Release Composotion Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:Relevancy
+    a owl:DatatypeProperty ;
+    rdfs:label "Relevancy"@en .
+
+it4it:Request
+    it4it:keyDataObject it4it:RequestRealisationComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Request"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:RequestRealisationComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Request Realisation Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:RequestToFullfil
+    a owl:Class ;
+    rdfs:label "Request To Fullfil"@en ;
+    rdfs:subClassOf it4it:ValueStream .
+
+it4it:Requirement
+    it4it:keyDataObject it4it:RequirementComponent ;
+    it4it:page "71"^^xsd:positiveInteger ;
+    meta:chapter it4it:Chapter6-4-2 ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:comment """Key Attributes
+The Requirement data object shall have the following key data attributes:
+  * RequirementID: Unique identifier of a given Requirement.
+  * RequirementType: Identifies the category of a Requirement (i.e., epic, theme, feature, user story, non-functional, functional, etc.).
+  * RequirementSummary: Represents the short description/title/summary of a given Requirement.
+  * LogicalServiceBlueprintID: Unique identifier of the related Logical Service Blueprint.
+  * PolicyID: Unique identifier of the related Policy.
+  * PortfolioBacklogID: Unique identifier of the related Portfolio Backlog Item.
+  * ServiceReleaseID: Unique identifier of the related Service Release.
+  * SourceID: Unique identifier of the related Source.
+  * TestCaseID: Identifier of the related Test Cases."""@en, """Key Data Object Relationships
+The Requirement data object shall maintain the following relationships:
+  * Logical Service Blueprint to Requirement (1:n): The Logical Service Blueprint is the Service Design which fulfills one or more Requirements.
+  * Service Release to Requirement (1:n): The Service Release delivers a service which fulfills one or more Requirements.
+  * Requirement to Test Case (1:n): A Requirement is traced to one or more Test Cases to ensure stated needs or conditions have been successfully delivered or met.
+  * Portfolio Backlog Item to Requirement (1:n): A Portfolio Backlog Item is mapped to one or more Requirements which will need to be delivered to successfully fulfill the demand.
+  * Policy to Requirement (n:m): Requirements may be sourced from policies or may reference policies in order to remain in compliance to previously agreed policies for an organization."""@en ;
+    rdfs:label "Requirement"@en ;
+    rdfs:subClassOf it4it:DataObject ;
+    skos:definition "Record which details the needs or conditions to meet for a new or altered service."^^xsd:string .
+
+it4it:RequirementComponent
+    it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:mainFunctions """The Requirement functional component:
+  * Shall be the system of record (authoritative source) for all Requirements.
+  * Shall manage the lifecycle of the Requirement.
+  * Shall manage the state of a Requirement.
+  * Shall allow recursive relationships between Requirements.
+  * Shall allow hierarchical relationships between Requirements.
+  * Shall associate a requirement to a service.
+If a Portfolio Demand functional component exists, the Requirement functional component:
+  * Shall associate one or more Requirements to a Portfolio Backlog Item that these Requirements originate from.
+If a Service Design functional component exists, the Requirement functional component:
+  * Can manage the data flow to provide Requirement information to the Service Design functional component.
+  * Shall associate one or more Requirements to a single Logical Service Model.
+If a Release Composition functional component exists, the Requirement functional component:
+  * Shall associate one or more Requirements to a Service Release that will fulfill these Requirements.
+If a Test functional component exists, the Requirement functional component:
+  * Shall allow a Requirement to be traced to one or more Test Cases designed to test this Requirement.
+If a Policy functional component exists, the Requirement functional component:
+  * Shall allow one or more Requirements to be associated to one or more policies that these Requirements originate from.
+If a Source data object exists, the Requirement functional component:
+  * Shall allow one or more Requirements to be traced to one or more Sources."""@en ;
+    it4it:page "69"^^xsd:positiveInteger ;
+    it4it:purpose """The Requirement Component:
+  * Manage Requirements through the lifecycle of a service.
+  * Service-level requirements are captured as Requirements.
+  * Collect, refine, scope, and track progress of Requirements even before and after an IT Initiative has concluded.
+  * Maintain traceability of each Requirement to the original source (demand, IT or business standard or policy, and/or requestor) and to appropriate source and/or test cases throughout the service lifecycle.
+  * Derive product or program backlogs which will ultimately serve as queues for enhancing IT services."""@en ;
+    meta:chapter it4it:Chapter6-4-2 ;
+    meta:isAssociatedWith it4it:Requirement ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:ManagementOfRequirements ;
+    meta:updates it4it:Requirement ;
+    meta:uses it4it:Requirement ;
+    a owl:Class ;
+    rdfs:comment "Functions extracted from IT4IT:Purpose and IT4IT:MainFunctions are aggregated to \"Management of Requirement\""@en ;
+    rdfs:label "Requirement Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:RequirementsToDeploy
+    a owl:Class ;
+    rdfs:label "Requirements To Deploy"@en ;
+    rdfs:subClassOf it4it:ValueStream .
+
+it4it:ResponsiblePerson
+    a owl:DatatypeProperty ;
+    rdfs:label "Responsible Person"@en .
+
+it4it:ReviewOfITPolicies
+    meta:subTopClass meta:Function ;
+    a owl:Class ;
+    rdfs:label "Review Of ITPolicies"@en ;
+    rdfs:subClassOf it4it:It4ItFunction .
+
+it4it:Run
+    a owl:Class ;
+    rdfs:label "Run"@en ;
+    rdfs:subClassOf it4it:PrimaryActivity .
+
+it4it:RunBook
+    it4it:keyDataObject it4it:DiagnosticsRemediationComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Run Book"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ScopeAgreement
+    it4it:keyDataObject it4it:ProposalComponent ;
+    it4it:page "52"^^xsd:positiveInteger ;
+    meta:chapter it4it:Chapter5-4-3 ;
+    meta:isAssociatedWith it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:comment """Key Attributes
+The Scope Agreement data object shall have the following key data attributes:
+  * ScopeAgreementID: Unique identifier of the Scope Agreement.
+  * ScopeAgreementDescription: Details of the Scope Agreement.
+  * BusinessEntity: Business or geographic unit."""@en, """Key Data Object Relationships
+The Scope Agreement data object shall maintain the following relationships:
+  * Scope Agreement to Portfolio Backlog Item (1:m): One Scope Agreement can be associated to one or more demand data objects.
+  * Scope Agreement to IT Budget (n:1): This relationship helps track budget allocated to which Scope Agreement.
+  * Scope Agreement to IT Initiative (1:n): This relationship helps track IT Initiative(s) to which Scope Agreement."""@en ;
+    rdfs:label "Scope Agreement"@en ;
+    rdfs:subClassOf it4it:DataObject ;
+    skos:definition "Proposals are created from rationalized Portfolio Backlog Items and, upon approval, Scope Agreements are created. Scope Agreements reflect budget, cost/benefit projections, scope, and other key attributes of proposed work. Views can be created for specific functions, such as line of business, or holistically, such as company-wide. Used for building the IT investment plan of record for the company or a specific line of business or function."^^xsd:string .
+
+it4it:ServiceArchitecture
+    it4it:entityRelationship it4it:ConceptualService ;
+    it4it:keyDataObject it4it:EnterpriseArchitectureComponent ;
+    it4it:page "49"^^xsd:positiveInteger ;
+    it4it:serviceArchitectureToConceptualService it4it:ConceptualService ;
+    meta:chapter it4it:Chapter5-4-1 ;
+    meta:isAssociatedWith it4it:EnterpriseArchitectureComponent, it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:comment """Key Attributes
+The Service Architecture data object shall have the following key data attributes:
+  * ServiceID: Unique identifier of the IT service.
+  * ServiceComponent: Architectural components required to enable the desired IT service (e.g., application, infrastructure, etc.).
+  * ServiceDiagram: As-is builds of service diagram that may vary by location or service lifecycle stage."""@en, """Key Data Object Relationships
+The Service Architecture data object shall maintain the following relationships:
+  * Service Architecture to Conceptual Service (n:m): This relationship helps track which service components and service diagrams are allocated to which IT service(s)."""@en ;
+    rdfs:label "Service Architecture"@en ;
+    rdfs:subClassOf it4it:DataObject ;
+    skos:definition "A data object within the S2P Value Stream managed by the Enterprise Architecture functional component. It includes service blueprints, enterprise guiding principles, and technology roadmaps."^^xsd:string .
+
+it4it:ServiceCatalogEntry
+    it4it:keyDataObject it4it:CatalogCompositionComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Service Catalog Entry"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ServiceContract
+    it4it:keyDataObject it4it:ServiceLevelComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Service Contract"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ServiceDesignComponent
+    it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:mainFunctions """The Service Design functional component:
+  * Shall be the system of record (authoritative source) for all Logical Service Blueprints.
+  * Shall associate a Logical Service Blueprint to a service.
+  * Can associate a Logical Service Blueprint to a Service Design Package.
+If a Service Portfolio functional component exists, the Service Design functional component:
+  * Shall associate one or more Logical Service Blueprints to a Conceptual Service Blueprint.
+  * Can receive the Conceptual Service specification and design several Logical Service Blueprints that represent it.
+If a Project functional component exists, the Service Design functional component:
+  * Can receive IT Initiative information which includes the scope and some content based on which the service is designed.
+If a Requirement functional component exists, the Service Design functional component:
+  * Shall associate one or more Requirements to the Logical Service Blueprint.
+  * Can receive Requirement information from the Requirement functional component used to design the Logical Service Blueprint and create design specifications.
+If a Release Composition functional component exists, the Service Design functional component:
+  * Shall associate a Logical Service Blueprint to one or more Service Releases which are detailed and designed to deliver the Logical Service Blueprint."""@en ;
+    it4it:page "74"^^xsd:positiveInteger ;
+    it4it:purpose """The Service Design Component:
+  * Identify the new or existing services required to meet the needs of the Scope Agreement and IT Initiative, including both service systems and service offers.
+  * Leverage the Conceptual Service Blueprint and Portfolio Backlog Items from the S2P Value Stream along with requirements to produce a Logical Service Blueprint that describes the service structure and behavior considering both the service system and the service offer.
+  * Creation of various architectural artifacts (data flow diagrams, technical schematics, etc.) that comply with the IT Initiative specifications and boundaries.
+  * Creation of the service design specification document (Service Design Package).
+  * Identification of the service delivery model (in-source, outsource, etc.).
+  * Identification of service suppliers to meet the requirements within the chosen delivery model.
+  * Enable interaction with IT operations to develop support plan/requirements for an IT service.
+  * Ensure that the architecture and Service Design Package are compliant with all standards and policies, including security standards and policies.
+  * Ensure that the architecture and Service Design Package meets all requirements including security requirements to ensure the confidentiality, integrity, and availability of the service.
+  * Put instrumentation in place so that IT can capture empirical data about how IT services are performing rather than relying only on anecdotal input from the user community.
+  * Ensure that the service is architected to meet the KPIs and SLAs.
+  * The output of the Service Design functional component is used by the Source data object to source, create, and secure the service."""@en ;
+    meta:chapter it4it:Chapter6-4-3 ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:DesignOfLogicalServicesBlueprints ;
+    a owl:Class ;
+    rdfs:label "Service Design Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ServiceLevelComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Service Level Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ServiceMonitor
+    it4it:keyDataObject it4it:ServiceMonitoringComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Service Monitor"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ServiceMonitoringComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Service Monitoring Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ServicePortfolioComponent
+    it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
+    it4it:mainFunctions """The Service Portfolio functional component:
+  * Shall assess the effectiveness and efficiency of current services delivered to business.
+  * Shall manage all inventory information about services or applications; including business benefits, risk, quality, fit to purpose, etc.
+  * Shall compare similar services or applications to identify rationalization opportunities.
+  * Shall evaluate the portfolio with regard to value/cost performance and risk/criticality. These methods are used to maximize portfolio value, align and prioritize resource allocations, and balance supply and demand.
+  * Shall review proposed portfolio changes; decide whether to keep, retire, or modernize services or applications.
+  * Shall create, review, and update service roadmaps.
+  * Shall determine and track service budgets/actuals information.
+  * Shall create and maintain service blueprints and endpoints. A service blueprint is a set of service endpoints that support business processes. A service blueprint provides service process and delivery visualization from the customer’s point of view. A service blueprint also maintains traceability of Logical and Physical (realized) Service Models.
+If a Portfolio Backlog Item exists, the Service Portfolio functional component:
+  * Shall associate a Conceptual Service to one or more Portfolio Backlog Items.
+If a Policy exists, the Service Portfolio functional component:
+  * Should comply with one or more applicable Policies."""@en ;
+    it4it:page "56"^^xsd:positiveInteger ;
+    it4it:purpose "Manage the portfolio of services in plan, transition, production, and retirement. Authoritative source for the list of services that IT delivers, has delivered in the past, or brokers to itself and business. Any IT service within the Service Portfolio functional component often corresponds to one or more entries in the Offer Catalog."@en ;
+    it4it:serviceModelBackboneDataObject it4it:ConceptualService, it4it:ConceptualServiceBlueprint ;
+    meta:chapter it4it:Chapter5-4-5 ;
+    meta:isAssociatedWith it4it:StrategyToPortfolio ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:ManagementOfServicePortfolio ;
+    a owl:Class ;
+    rdfs:label "Service Portfolio Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:ServiceRelease
+    it4it:serviceModelBackboneDataObject it4it:ReleaseComposotionComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Service Release"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ServiceReleaseBlueprint
+    it4it:serviceModelBackboneDataObject it4it:ReleaseComposotionComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Service Release Blueprint"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ShoppingCart
+    it4it:auxiliaryDataObject it4it:OfferConsumptionComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class, owl:NamedIndividual ;
+    rdfs:label "Shopping Cart"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:Source
+    it4it:keyDataObject it4it:SourceControlComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:AnnotationProperty, owl:Class ;
+    rdfs:label "Source"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:SourceControlComponent
+    it4it:purpose """* Develop source code or infrastructure based on the Logical Service Blueprint, Service Design Package, and IT Initiative priorities.
+  * Ensure that the source code meets the design specifications, organizational policies, standards, and non-functional requirements so that the service can be operated successfully and meets customer expectations.
+  * Manage the development backlog of Requirements and Defects in accordance with the Service Design Package and Service Release.
+  * Receive Defects and input from the Defect functional component to enable the development of fixes or documented workarounds.
+  * Create automated test scripts including unit testing and scripts for static application security testing that follow a formal software security assurance methodology.
+  * On existing services being changed, run security tests on core code to identify existing security issues at the start of the development cycle so that assessment of scope/requirements set/schedule can be negotiated early.
+  * Manage source code images and store them in a Source data object repository.
+  * Develop automated Source compilation tools and procedures.
+  * Deliver the Source data object to the Build functional component to generate Builds.""" ;
+    meta:subTopClass meta:EntityType ;
+    meta:supports it4it:CreationOfSourceCode, it4it:ManagementOfSourceCode ;
+    a owl:Class ;
+    rdfs:label "Source Control Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:Stability
+    a owl:DatatypeProperty ;
+    rdfs:label "Stability"@en .
+
+it4it:StartDate
+    a owl:DatatypeProperty ;
+    rdfs:label "Start Date"@en .
+
+it4it:StartEvent
+    a owl:DatatypeProperty ;
+    rdfs:label "Start Event"@en .
+
+it4it:StrategyToPortfolio
+    meta:entityTypeComponent it4it:EnterpriseArchitectureComponent ;
+    a owl:Class ;
+    rdfs:label "Strategy To Portfolio"@en ;
+    rdfs:subClassOf it4it:ValueStream .
+
+it4it:StructureConfiguration
+    a owl:DatatypeProperty ;
+    rdfs:label "Structure Configuration"@en .
+
+it4it:StructureRange
+    a owl:DatatypeProperty ;
+    rdfs:label "Structure Range"@en .
+
+it4it:StructureSize
+    a owl:DatatypeProperty ;
+    rdfs:label "Structure Size"@en .
+
+it4it:StructureStability
+    a owl:DatatypeProperty ;
+    rdfs:label "Structure Stability"@en .
+
+it4it:Subscription
+    it4it:keyDataObject it4it:RequestRealisationComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Subscription"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:SupplierManagement
+    a it4it:SupportingActivity, owl:NamedIndividual ;
+    rdfs:label "Supplier Management"@en .
+
+it4it:Support
+    a it4it:PrimaryActivity, owl:NamedIndividual ;
+    rdfs:label "Support"@en .
+
+it4it:SupportingActivity
+    a owl:Class ;
+    rdfs:label "Supporting Activity"@en ;
+    rdfs:subClassOf it4it:Activity .
+
+it4it:Synonym
+    a owl:AnnotationProperty ;
+    rdfs:label "Synonym"@en .
+
+it4it:SystemOfRecord
+    dc:source "Open Group Standard, The Open Group IT4IT Reference Architecture, Version 2.0, Document Number C155, 2015, ISBN: 1-937218-69-0"^^xsd:string ;
+    it4it:page "25"^^xsd:positiveInteger ;
+    meta:chapter it4it:Chapter2-8 ;
+    a owl:Class ;
+    rdfs:label "System Of Record"@en ;
+    rdfs:subClassOf it4it:IT4IT ;
+    skos:definition "A synonym for a system that contains and/or controls authoritative source data."^^xsd:string .
+
+it4it:TargetValue
+    a owl:DatatypeProperty ;
+    rdfs:label "Target Value"@en .
+
+it4it:TemporalDevelopmentStage
+    a owl:DatatypeProperty ;
+    rdfs:label "Temporal Development stage"@en .
+
+it4it:TemporalLifeSpan
+    a owl:DatatypeProperty ;
+    rdfs:label "Temporal Life Span"@en .
+
+it4it:TestCase
+    it4it:keyDataObject it4it:TestComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Test Case"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:TestComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Test Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:Timeslot
+    a owl:DatatypeProperty ;
+    rdfs:label "Timeslot"@en .
+
+it4it:TransferDiagnosis
+    a owl:DatatypeProperty ;
+    rdfs:label "Transfer Diagnosis"@en .
+
+it4it:TripelPage
+    a owl:AnnotationProperty ;
+    rdfs:label "Tripel Page"@en .
+
+it4it:TripelRowNr
+    a owl:AnnotationProperty ;
+    rdfs:label "Tripel Row Nr"@en .
+
+it4it:Type
+    a owl:DatatypeProperty ;
+    rdfs:label "Type"@en .
+
+it4it:Understandability
+    a owl:DatatypeProperty ;
+    rdfs:label "Understandability"@en .
+
+it4it:Up-to-Dateness
+    a owl:DatatypeProperty ;
+    rdfs:label "Up-to-Dateness"@en .
+
+it4it:UsageComponent
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Usage Component"@en ;
+    rdfs:subClassOf it4it:FunctionalComponent .
+
+it4it:UsageDescription
+    a owl:DatatypeProperty ;
+    rdfs:label "Usage Description"@en .
+
+it4it:UsageRecord
+    it4it:keyDataObject it4it:UsageComponent ;
+    meta:subTopClass meta:EntityType ;
+    a owl:Class ;
+    rdfs:label "Usage Record"@en ;
+    rdfs:subClassOf it4it:DataObject .
+
+it4it:ValueChain
+    a owl:Class ;
+    rdfs:label "Value Chain"@en ;
+    rdfs:subClassOf it4it:IT4IT .
+
+it4it:ValueStream
+    it4it:functionalComponent it4it:FunctionalComponent ;
+    a owl:Class ;
+    rdfs:label "Value Stream"@en ;
+    rdfs:subClassOf it4it:IT4IT .
+
+it4it:assetsAvailability
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:ITAssetManagement ;
+    rdfs:label "assets (availability)"@en ;
+    rdfs:range it4it:ProposalComponent ;
+    rdfs:subPropertyOf it4it:engagementDataflow .
+
+it4it:auxiliaryDataObject
+    a owl:ObjectProperty ;
+    rdfs:label "auxiliary Data Object"@en ;
+    rdfs:subPropertyOf it4it:dataObject .
+
+it4it:auxiliaryFunctionalComponent
+    a owl:ObjectProperty ;
+    rdfs:label "auxiliary Functional Component"@en ;
+    rdfs:subPropertyOf it4it:functionalComponent .
+
+it4it:blank207468
+    a owl:Axiom ;
+    rdfs:label "n:1"^^xsd:string ;
+    owl:annotatedProperty rdfs:subClassOf ;
+    owl:annotatedSource it4it:ConceptualService ;
+    owl:annotatedTarget it4it:blank207469 .
+
+it4it:blank207469
+    a owl:Restriction ;
+    owl:onClass it4it:ConceptualServiceBlueprint ;
+    owl:onProperty it4it:entityRelationship ;
+    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+it4it:blank207474
+    a owl:Axiom ;
+    rdfs:label "n:1"^^xsd:string ;
+    owl:annotatedProperty rdfs:subClassOf ;
+    owl:annotatedSource it4it:ConceptualServiceBlueprint ;
+    owl:annotatedTarget it4it:blank207475 .
+
+it4it:blank207475
+    a owl:Restriction ;
+    owl:onClass it4it:ITCostModel ;
+    owl:onProperty it4it:entityRelationship ;
+    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+it4it:blank207503
+    a owl:Axiom ;
+    rdfs:label "n:1"^^xsd:string ;
+    owl:annotatedProperty rdfs:subClassOf ;
+    owl:annotatedSource it4it:LogicalServiceBlueprint ;
+    owl:annotatedTarget it4it:blank207504 .
+
+it4it:blank207504
+    a owl:Restriction ;
+    owl:onClass it4it:ConceptualServiceBlueprint ;
+    owl:onProperty it4it:entityRelationship ;
+    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger .
+
+it4it:chapter
+    a owl:AnnotationProperty ;
+    rdfs:label "Chapter"@en .
+
+it4it:competencyAvailability
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:LaborManagement ;
+    rdfs:label "competency (availability)"@en ;
+    rdfs:range it4it:ProposalComponent ;
+    rdfs:subPropertyOf it4it:engagementDataflow .
+
+it4it:conceptualServiceBlueprint
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:EnterpriseArchitectureComponent ;
+    rdfs:label "conceptual Service Blueprint"@en ;
+    rdfs:range it4it:ServicePortfolioComponent ;
+    rdfs:subPropertyOf it4it:recordFabricIntegration .
+
+it4it:currentPracticeEngagementDataflow
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:FunctionalComponent ;
+    rdfs:label "current Practice Engagement Dataflow"@en ;
+    rdfs:range it4it:FunctionalComponent ;
+    rdfs:subPropertyOf it4it:engagementDataflow .
+
+it4it:currentPracticeEntityRelationship
+    a owl:ObjectProperty ;
+    rdfs:label "current Practice Entity Relationship"@en ;
+    rdfs:subPropertyOf it4it:entityRelationship .
+
+it4it:dataObject
+    a owl:InverseFunctionalProperty, owl:ObjectProperty ;
+    rdfs:domain it4it:FunctionalComponent ;
+    rdfs:label "data Object"@en ;
+    rdfs:range it4it:DataObject ;
+    rdfs:subPropertyOf it4it:it4itObjectProperty .
+
+it4it:engagementDataflow
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:FunctionalComponent ;
+    rdfs:label "engagement Dataflow"@en ;
+    rdfs:range it4it:FunctionalComponent ;
+    rdfs:subPropertyOf it4it:it4itObjectProperty .
+
+it4it:entityRelationship
+    a owl:IrreflexiveProperty, owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:domain it4it:DataObject ;
+    rdfs:label "entity Relationship"@en ;
+    rdfs:range it4it:DataObject ;
+    rdfs:subPropertyOf it4it:it4itObjectProperty .
+
+it4it:functionalComponent
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:ValueStream ;
+    rdfs:label "functional Component"@en ;
+    rdfs:range it4it:FunctionalComponent ;
+    rdfs:subPropertyOf it4it:it4itObjectProperty .
+
+<it4it/in_€>
+    a owl:DatatypeProperty ;
+    rdfs:label "in €"@en .
+
+it4it:isHeterogeneous
+    a owl:DatatypeProperty ;
+    rdfs:label "is Heterogeneous"@en .
+
+it4it:isHomogeneous
+    a owl:DatatypeProperty ;
+    rdfs:label "is Homogeneous"@en .
+
+it4it:it4itObjectProperty
+    a owl:ObjectProperty ;
+    rdfs:label "it4it Object Property"@en .
+
+it4it:keyDataObject
+    a owl:ObjectProperty ;
+    rdfs:label "key Data Object"@en ;
+    rdfs:subPropertyOf it4it:dataObject .
+
+it4it:keyFunctionalComponent
+    a owl:ObjectProperty ;
+    rdfs:label "key Functional Component"@en ;
+    rdfs:subPropertyOf it4it:functionalComponent .
+
+it4it:mainFunctions
+    a owl:AnnotationProperty ;
+    rdfs:label "Main Functions"@en ;
+    rdfs:subPropertyOf it4it:IT4IT .
+
+it4it:ontologyDomain
+    a owl:AnnotationProperty ;
+    rdfs:label "Ontology Domain"@en ;
+    rdfs:subPropertyOf it4it:Ontology .
+
+it4it:ontologyUse
+    a owl:AnnotationProperty ;
+    rdfs:label "Ontology Use"@en ;
+    rdfs:subPropertyOf it4it:Ontology .
+
+it4it:ontologyUser
+    a owl:AnnotationProperty ;
+    rdfs:label "Ontology User"@en ;
+    rdfs:subPropertyOf it4it:Ontology .
+
+it4it:page
+    a owl:DatatypeProperty ;
+    rdfs:comment "Seite in \"The Open Group IT4ITTM Reference Architecture\", Version 2.0, Document Number: C155, ISBN: 1-937218-69-0, The Open Group, October 2015"@de ;
+    rdfs:label "Seite"@de, "page"@en ;
+    xsd:range xsd:nonNegativeInteger .
+
+it4it:policy
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:PolicyComponent ;
+    rdfs:label "policy"@en ;
+    rdfs:range it4it:ServicePortfolioComponent ;
+    rdfs:subPropertyOf it4it:engagementDataflow .
+
+it4it:policyToConceptualService
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:Policy ;
+    rdfs:label "policy To Conceptual Service"@en ;
+    rdfs:range it4it:ConceptualService ;
+    rdfs:subPropertyOf it4it:entityRelationship .
+
+it4it:policyToRequirementFunctionalComponent
+    a owl:ObjectProperty ;
+    rdfs:comment "Label is missleading. Range is object type \"Requirement\" but name / label is \"Requirement Component\" which is a functional component. Entity Relationship relation is allowed only between object types."@en ;
+    rdfs:domain it4it:Policy ;
+    rdfs:label "policy To Requirement Functional Component"@en ;
+    rdfs:range it4it:Requirement ;
+    rdfs:subPropertyOf it4it:entityRelationship .
+
+it4it:portfolioBacklogItem
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:ProblemComponent ;
+    rdfs:label "portfolio Backlog Item"@en ;
+    rdfs:range it4it:PortfolioDemandComponent ;
+    rdfs:subPropertyOf it4it:currentPracticeEngagementDataflow .
+
+it4it:portfolioBacklogItemRationalizedPrioritzed
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:PortfolioDemandComponent ;
+    rdfs:label "portfolio backlog item (rationalized/prioritized)"@en ;
+    rdfs:range it4it:ProposalComponent ;
+    rdfs:subPropertyOf it4it:engagementDataflow .
+
+it4it:purpose
+    a owl:AnnotationProperty ;
+    rdfs:label "Purpose"@en ;
+    rdfs:subPropertyOf it4it:IT4IT .
+
+it4it:recordFabricIntegration
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:FunctionalComponent ;
+    rdfs:label "record Fabric Integration"@en ;
+    rdfs:range it4it:FunctionalComponent ;
+    rdfs:subPropertyOf it4it:it4itObjectProperty .
+
+it4it:scopeAgreement
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:ProposalComponent ;
+    rdfs:label "scope Agreement"@en ;
+    rdfs:range it4it:ProjectComponent ;
+    rdfs:subPropertyOf it4it:recordFabricIntegration .
+
+it4it:serviceArchitectureToConceptualService
+    a owl:ObjectProperty ;
+    rdfs:domain it4it:ServiceArchitecture ;
+    rdfs:label "service Architecture To Conceptual Service"@en ;
+    rdfs:range it4it:ConceptualService ;
+    rdfs:subPropertyOf it4it:entityRelationship .
+
+it4it:serviceModelBackboneDataObject
+    a owl:ObjectProperty ;
+    rdfs:label "service Model Backbone Data Object"@en ;
+    rdfs:subPropertyOf it4it:keyDataObject .
+
+meta:isAssociatedWith
+    a owl:ObjectProperty .
+
+meta:isDecomposedIn
+    a owl:ObjectProperty .
+
+meta:supports
+    a owl:ObjectProperty .
+
+meta:updates
+    a owl:ObjectProperty .
+
+meta:uses
+    a owl:ObjectProperty .
+
+skos:definition
+    a owl:AnnotationProperty .
+
