@@ -710,7 +710,7 @@ bb:AnnualITBudget
     meta:subTopClass meta:EntityType ;
     a owl:Class ;
     rdfs:label "Annual IT Budget"@en ;
-    rdfs:subClassOf bb:ManagementEntityType .
+    rdfs:subClassOf bb:HospitalBudget .
 
 bb:ApplicationComponent
     bb:isAssociatedWith bb:PhysicalDataProcessingSystem ;
@@ -4441,6 +4441,7 @@ bb:HisBenchmarkingMethod
 bb:HisBudgetPlanning
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:subTopClass meta:Function ;
+    meta:updates bb:AnnualITBudget ;
     a owl:Class ;
     rdfs:label "HIS Budget Planning"@en ;
     rdfs:subClassOf bb:StrategicHISPlanning .
