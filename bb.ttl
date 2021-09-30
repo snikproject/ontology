@@ -4462,7 +4462,7 @@ bb:HisCertification
     meta:uses bb:EfqmExcellenceModel, bb:HisCertificate, bb:HisQuality, bb:ISO9001, bb:JointCommissionsCertificationProgram, bb:MalcolmBaldrigeNationalQualityAward ;
     a owl:Class ;
     rdfs:label "HIS Certification"@en ;
-    rdfs:subClassOf bb:StrategicHISDirecting ;
+    rdfs:subClassOf bb:Certification ;
     skos:definition "Certification in general means to confirm that an object or organization has certain characteristics. HIS certification in general describes a process where an accredited body confirms that the HIS fulfills certain pre-defined quality characteristics."@en .
 
 bb:HisComponent
