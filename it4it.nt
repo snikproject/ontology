@@ -108,50 +108,50 @@
 <http://www.snik.eu/ontology/it4it/ChangeControlComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/it4it/ChangeControlComponent> <http://www.w3.org/2000/01/rdf-schema#label> "Change Control Component"@en .
 <http://www.snik.eu/ontology/it4it/ChangeControlComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/it4it/FunctionalComponent> .
-<http://www.snik.eu/ontology/it4it/Chapter2.8> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter2.8> <http://www.snik.eu/ontology/meta/chapterNumber> "2.8" .
-<http://www.snik.eu/ontology/it4it/Chapter2.8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter2.8> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 2.8" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.1> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.1> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.1" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.1> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.1" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.2> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.2> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.2" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.2> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.2" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.3> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.3> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.3" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.3> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.3" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.4> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.4> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.4" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.4> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.4" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.5> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.5> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.5" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.5> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.5" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.6> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.6> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.6" .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter5.4.6> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.6" .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.1> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.1> <http://www.snik.eu/ontology/meta/chapterNumber> "6.4.1" .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.1> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 6.4.1" .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.2> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.2> <http://www.snik.eu/ontology/meta/chapterNumber> "6.4.2" .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.2> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 6.4.2" .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.3> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.3> <http://www.snik.eu/ontology/meta/chapterNumber> "6.4.3" .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter6.4.3> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 6.4.3" .
-<http://www.snik.eu/ontology/it4it/Chapter8.4.4> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
-<http://www.snik.eu/ontology/it4it/Chapter8.4.4> <http://www.snik.eu/ontology/meta/chapterNumber> "8.4.4" .
-<http://www.snik.eu/ontology/it4it/Chapter8.4.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
-<http://www.snik.eu/ontology/it4it/Chapter8.4.4> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 8.4.4" .
+<http://www.snik.eu/ontology/it4it/Chapter2-8> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter2-8> <http://www.snik.eu/ontology/meta/chapterNumber> "2.8" .
+<http://www.snik.eu/ontology/it4it/Chapter2-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter2-8> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 2.8" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-1> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-1> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.1" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-1> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.1" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-2> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-2> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.2" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-2> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.2" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-3> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-3> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.3" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-3> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.3" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-4> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-4> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.4" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-4> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.4" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-5> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-5> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.5" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-5> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.5" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-6> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-6> <http://www.snik.eu/ontology/meta/chapterNumber> "5.4.6" .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter5-4-6> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 5.4.6" .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-1> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-1> <http://www.snik.eu/ontology/meta/chapterNumber> "6.4.1" .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-1> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 6.4.1" .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-2> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-2> <http://www.snik.eu/ontology/meta/chapterNumber> "6.4.2" .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-2> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 6.4.2" .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-3> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-3> <http://www.snik.eu/ontology/meta/chapterNumber> "6.4.3" .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter6-4-3> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 6.4.3" .
+<http://www.snik.eu/ontology/it4it/Chapter8-4-4> <http://www.snik.eu/ontology/meta/book> <http://www.snik.eu/ontology/it4it> .
+<http://www.snik.eu/ontology/it4it/Chapter8-4-4> <http://www.snik.eu/ontology/meta/chapterNumber> "8.4.4" .
+<http://www.snik.eu/ontology/it4it/Chapter8-4-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/it4it/Chapter8-4-4> <http://www.w3.org/2000/01/rdf-schema#label> "chapter 8.4.4" .
 <http://www.snik.eu/ontology/it4it/chapter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://www.snik.eu/ontology/it4it/chapter> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter"@en .
 <http://www.snik.eu/ontology/it4it/ChargebackContract> <http://www.snik.eu/ontology/it4it/keyDataObject> <http://www.snik.eu/ontology/it4it/ChargebackShowbackComponent> .
@@ -178,7 +178,7 @@
 <http://www.snik.eu/ontology/it4it/ConceptType> <http://www.w3.org/2000/01/rdf-schema#label> "Concept Type"@en .
 <http://www.snik.eu/ontology/it4it/ConceptualServiceBlueprint> <http://www.snik.eu/ontology/it4it/page> "56"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/ConceptualServiceBlueprint> <http://www.snik.eu/ontology/it4it/serviceModelBackboneDataObject> <http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> .
-<http://www.snik.eu/ontology/it4it/ConceptualServiceBlueprint> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.5> .
+<http://www.snik.eu/ontology/it4it/ConceptualServiceBlueprint> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-5> .
 <http://www.snik.eu/ontology/it4it/ConceptualServiceBlueprint> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/ConceptualServiceBlueprint> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/ConceptualServiceBlueprint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -197,7 +197,7 @@
 <http://www.snik.eu/ontology/it4it/ConceptualService> <http://www.snik.eu/ontology/it4it/entityRelationship> <http://www.snik.eu/ontology/it4it/Policy> .
 <http://www.snik.eu/ontology/it4it/ConceptualService> <http://www.snik.eu/ontology/it4it/page> "56"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/ConceptualService> <http://www.snik.eu/ontology/it4it/serviceModelBackboneDataObject> <http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> .
-<http://www.snik.eu/ontology/it4it/ConceptualService> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.5> .
+<http://www.snik.eu/ontology/it4it/ConceptualService> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-5> .
 <http://www.snik.eu/ontology/it4it/ConceptualService> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/ConceptualService> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/ConceptualService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -319,7 +319,7 @@
 <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.snik.eu/ontology/it4it/mainFunctions> "The Enterprise Architecture functional component:\n  * Shall identify strategic IT architectural components based on current business vision, strategy, goals, and requirements.\n  * Shall develop target state business, information, application, technology, and security blueprints based on strategies, principles, and policies.\n  * Shall develop IT roadmaps based on business roadmap and input.\n  * Shall develop and maintain enterprise guiding principles.\n  * Shall manage IT architecture guideline and standards."@en .
 <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.snik.eu/ontology/it4it/page> "48"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.snik.eu/ontology/it4it/purpose> "Create and manage long-term IT investment and execution plan-of-action that are critical to\nbusiness strategic objectives."@en .
-<http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.1> .
+<http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-1> .
 <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/ServiceArchitecture> .
 <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -1155,7 +1155,7 @@
 <http://www.snik.eu/ontology/it4it/ITCostModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/it4it/DataObject> .
 <http://www.snik.eu/ontology/it4it/ITInitiative> <http://www.snik.eu/ontology/it4it/keyDataObject> <http://www.snik.eu/ontology/it4it/ProjectComponent> .
 <http://www.snik.eu/ontology/it4it/ITInitiative> <http://www.snik.eu/ontology/it4it/page> "69"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/it4it/ITInitiative> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter6.4.1> .
+<http://www.snik.eu/ontology/it4it/ITInitiative> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter6-4-1> .
 <http://www.snik.eu/ontology/it4it/ITInitiative> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/ITInitiative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/it4it/ITInitiative> <http://www.w3.org/2000/01/rdf-schema#comment> "Key Attributes\nThe IT Initiative data object shall have the following key data attributes:\n  * ITInitiativeID: Unique identifier of the effort/initiative.\n  * ITInitiativeName: Full name of the effort/initiative.\n  * ITInitiativeStatus: Status of the effort/initiative.\n  * ServiceReleaseID: Identifier of one or more Service Releases.\n  * RFCID: Identifier of one or more RFCs.\n  * ScopeAgreementID: Unique identifier of the related Scope Agreement."@en .
@@ -1167,7 +1167,7 @@
 <http://www.snik.eu/ontology/it4it/ITInvestmentPortfolioComponent> <http://www.snik.eu/ontology/it4it/mainFunctions> "The IT Investment Portfolio functional component:\n  * Shall be the system of records for all IT investments.\n  * Shall manage the entire IT investment lifecycle.\n  * Shall provide labor & non-labor cost estimates and other guidelines to the Proposal functional component. This should be used by proposal managers to estimate the cost of proposed IT Initiatives. Various proposal managers working on their respective proposals should send the information on proposed IT investments to the IT Investment Portfolio functional component.\n  * Shall accept inputs from the Service Portfolio functional component to include OpEx budget requests for keeping live services operational.\n  * Shall take these proposals/budget requests for necessary approvals with the respective governing committee.\n  * Shall communicate the status of the final investment decisions back to the respective stakeholders." .
 <http://www.snik.eu/ontology/it4it/ITInvestmentPortfolioComponent> <http://www.snik.eu/ontology/it4it/page> "58"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/ITInvestmentPortfolioComponent> <http://www.snik.eu/ontology/it4it/purpose> "This functional component is auxiliary to the S2P Value Stream and is primary in the IT Financial Management guidance document.\nIts main purpose includes:\n  * Manage the authoritative list of all IT investments.\n  * Facilitate all activities required to effectively carry out forecasting and budgeting.\n  * Facilitate proposal managers with guidelines and information (e.g., unit costs) to be followed while estimating costs of proposed IT Initiatives.\n  * Establish a common governance and control mechanism for approval/rejections of any proposed IT Initiatives." .
-<http://www.snik.eu/ontology/it4it/ITInvestmentPortfolioComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.6> .
+<http://www.snik.eu/ontology/it4it/ITInvestmentPortfolioComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-6> .
 <http://www.snik.eu/ontology/it4it/ITInvestmentPortfolioComponent> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/ITInvestmentPortfolioComponent> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/it4it/ManagementOfITInvestments> .
 <http://www.snik.eu/ontology/it4it/ITInvestmentPortfolioComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1328,7 +1328,7 @@
 <http://www.snik.eu/ontology/it4it/PolicyComponent> <http://www.snik.eu/ontology/it4it/page> "50"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/PolicyComponent> <http://www.snik.eu/ontology/it4it/policy> <http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> .
 <http://www.snik.eu/ontology/it4it/PolicyComponent> <http://www.snik.eu/ontology/it4it/purpose> "Manage creation, review, approval, and audit of all IT policies."@en .
-<http://www.snik.eu/ontology/it4it/PolicyComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.2> .
+<http://www.snik.eu/ontology/it4it/PolicyComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-2> .
 <http://www.snik.eu/ontology/it4it/PolicyComponent> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/PolicyComponent> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/PolicyComponent> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/it4it/ApprovalOfITPolicies> .
@@ -1346,7 +1346,7 @@
 <http://www.snik.eu/ontology/it4it/Policy> <http://www.snik.eu/ontology/it4it/page> "50"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/Policy> <http://www.snik.eu/ontology/it4it/policyToConceptualService> <http://www.snik.eu/ontology/it4it/ConceptualService> .
 <http://www.snik.eu/ontology/it4it/Policy> <http://www.snik.eu/ontology/it4it/policyToRequirementFunctionalComponent> <http://www.snik.eu/ontology/it4it/Requirement> .
-<http://www.snik.eu/ontology/it4it/Policy> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.2> .
+<http://www.snik.eu/ontology/it4it/Policy> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-2> .
 <http://www.snik.eu/ontology/it4it/Policy> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/Policy> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1374,7 +1374,7 @@
 <http://www.snik.eu/ontology/it4it/policyToRequirementFunctionalComponent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/it4it/entityRelationship> .
 <http://www.snik.eu/ontology/it4it/PortfolioBacklogItem> <http://www.snik.eu/ontology/it4it/keyDataObject> <http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> .
 <http://www.snik.eu/ontology/it4it/PortfolioBacklogItem> <http://www.snik.eu/ontology/it4it/page> "54"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/it4it/PortfolioBacklogItem> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.4> .
+<http://www.snik.eu/ontology/it4it/PortfolioBacklogItem> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-4> .
 <http://www.snik.eu/ontology/it4it/PortfolioBacklogItem> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> .
 <http://www.snik.eu/ontology/it4it/PortfolioBacklogItem> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/PortfolioBacklogItem> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -1400,7 +1400,7 @@
 <http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> <http://www.snik.eu/ontology/it4it/page> "54"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> <http://www.snik.eu/ontology/it4it/portfolioBacklogItemRationalizedPrioritzed> <http://www.snik.eu/ontology/it4it/ProposalComponent> .
 <http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> <http://www.snik.eu/ontology/it4it/purpose> "Log, maintain, and evaluate all demands (new service, enhancements, defects) coming into IT through a single funnel. Correlate incoming demand to similar existing demand or create new demand. The \u201Csingle funnel\u201D may be a virtual concept encompassing project ideation, service request management, Incident Management, continuous improvement, and other well-known demand channels."@en .
-<http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.4> .
+<http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-4> .
 <http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/PortfolioBacklogItem> .
 <http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -1422,7 +1422,7 @@
 <http://www.snik.eu/ontology/it4it/ProblemComponent> <http://www.snik.eu/ontology/it4it/page> "132"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/ProblemComponent> <http://www.snik.eu/ontology/it4it/portfolioBacklogItem> <http://www.snik.eu/ontology/it4it/PortfolioDemandComponent> .
 <http://www.snik.eu/ontology/it4it/ProblemComponent> <http://www.snik.eu/ontology/it4it/purpose> "The Problem functional component is responsible for managing the lifecycle of all Problems. The objectives of the Problem functional component are to solve severe/repeating Incidents, prevent Incidents from happening, and minimize the impact of Incidents that cannot be prevented. The Problem cause is not usually known at the time of the Problem data object instance creation, and the Problem functional component is responsible for the investigation. The Problem functional component also serves as the main exit point from the D2C Value Stream for the feedback information about IT services issues. The feedback is reported to the R2D Value Stream in the form of Defects and to the S2P Value Stream in the form of Portfolio Backlog Items (demand request)."@en .
-<http://www.snik.eu/ontology/it4it/ProblemComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter8.4.4> .
+<http://www.snik.eu/ontology/it4it/ProblemComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter8-4-4> .
 <http://www.snik.eu/ontology/it4it/ProblemComponent> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/ProblemComponent> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/it4it/ManagementOfProblems> .
 <http://www.snik.eu/ontology/it4it/ProblemComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1454,7 +1454,7 @@
 <http://www.snik.eu/ontology/it4it/ProposalComponent> <http://www.snik.eu/ontology/it4it/page> "52"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/ProposalComponent> <http://www.snik.eu/ontology/it4it/purpose> "Manage the portfolio of IT proposals that are proposed, approved, active, deferred, or rejected. This is the authoritative source for the list of IT proposals requested over a given time period that may result in the creation of Scope Agreements for projects."@en .
 <http://www.snik.eu/ontology/it4it/ProposalComponent> <http://www.snik.eu/ontology/it4it/scopeAgreement> <http://www.snik.eu/ontology/it4it/ProjectComponent> .
-<http://www.snik.eu/ontology/it4it/ProposalComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.3> .
+<http://www.snik.eu/ontology/it4it/ProposalComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-3> .
 <http://www.snik.eu/ontology/it4it/ProposalComponent> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/ProposalComponent> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/ProposalComponent> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/it4it/CreationOfScopeAgreementsForProjects> .
@@ -1500,7 +1500,7 @@
 <http://www.snik.eu/ontology/it4it/RequirementComponent> <http://www.snik.eu/ontology/it4it/mainFunctions> "The Requirement functional component:\n  * Shall be the system of record (authoritative source) for all Requirements.\n  * Shall manage the lifecycle of the Requirement.\n  * Shall manage the state of a Requirement.\n  * Shall allow recursive relationships between Requirements.\n  * Shall allow hierarchical relationships between Requirements.\n  * Shall associate a requirement to a service.\nIf a Portfolio Demand functional component exists, the Requirement functional component:\n  * Shall associate one or more Requirements to a Portfolio Backlog Item that these Requirements originate from.\nIf a Service Design functional component exists, the Requirement functional component:\n  * Can manage the data flow to provide Requirement information to the Service Design functional component.\n  * Shall associate one or more Requirements to a single Logical Service Model.\nIf a Release Composition functional component exists, the Requirement functional component:\n  * Shall associate one or more Requirements to a Service Release that will fulfill these Requirements.\nIf a Test functional component exists, the Requirement functional component:\n  * Shall allow a Requirement to be traced to one or more Test Cases designed to test this Requirement.\nIf a Policy functional component exists, the Requirement functional component:\n  * Shall allow one or more Requirements to be associated to one or more policies that these Requirements originate from.\nIf a Source data object exists, the Requirement functional component:\n  * Shall allow one or more Requirements to be traced to one or more Sources."@en .
 <http://www.snik.eu/ontology/it4it/RequirementComponent> <http://www.snik.eu/ontology/it4it/page> "69"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/RequirementComponent> <http://www.snik.eu/ontology/it4it/purpose> "The Requirement Component:\n  * Manage Requirements through the lifecycle of a service.\n  * Service-level requirements are captured as Requirements.\n  * Collect, refine, scope, and track progress of Requirements even before and after an IT Initiative has concluded.\n  * Maintain traceability of each Requirement to the original source (demand, IT or business standard or policy, and/or requestor) and to appropriate source and/or test cases throughout the service lifecycle.\n  * Derive product or program backlogs which will ultimately serve as queues for enhancing IT services."@en .
-<http://www.snik.eu/ontology/it4it/RequirementComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter6.4.2> .
+<http://www.snik.eu/ontology/it4it/RequirementComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter6-4-2> .
 <http://www.snik.eu/ontology/it4it/RequirementComponent> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/Requirement> .
 <http://www.snik.eu/ontology/it4it/RequirementComponent> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/RequirementComponent> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/it4it/ManagementOfRequirements> .
@@ -1512,7 +1512,7 @@
 <http://www.snik.eu/ontology/it4it/RequirementComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/it4it/FunctionalComponent> .
 <http://www.snik.eu/ontology/it4it/Requirement> <http://www.snik.eu/ontology/it4it/keyDataObject> <http://www.snik.eu/ontology/it4it/RequirementComponent> .
 <http://www.snik.eu/ontology/it4it/Requirement> <http://www.snik.eu/ontology/it4it/page> "71"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/it4it/Requirement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter6.4.2> .
+<http://www.snik.eu/ontology/it4it/Requirement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter6-4-2> .
 <http://www.snik.eu/ontology/it4it/Requirement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/Requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/it4it/Requirement> <http://www.w3.org/2000/01/rdf-schema#comment> "Key Attributes\nThe Requirement data object shall have the following key data attributes:\n  * RequirementID: Unique identifier of a given Requirement.\n  * RequirementType: Identifies the category of a Requirement (i.e., epic, theme, feature, user story, non-functional, functional, etc.).\n  * RequirementSummary: Represents the short description/title/summary of a given Requirement.\n  * LogicalServiceBlueprintID: Unique identifier of the related Logical Service Blueprint.\n  * PolicyID: Unique identifier of the related Policy.\n  * PortfolioBacklogID: Unique identifier of the related Portfolio Backlog Item.\n  * ServiceReleaseID: Unique identifier of the related Service Release.\n  * SourceID: Unique identifier of the related Source.\n  * TestCaseID: Identifier of the related Test Cases."@en .
@@ -1545,7 +1545,7 @@
 <http://www.snik.eu/ontology/it4it/Run> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/it4it/PrimaryActivity> .
 <http://www.snik.eu/ontology/it4it/ScopeAgreement> <http://www.snik.eu/ontology/it4it/keyDataObject> <http://www.snik.eu/ontology/it4it/ProposalComponent> .
 <http://www.snik.eu/ontology/it4it/ScopeAgreement> <http://www.snik.eu/ontology/it4it/page> "52"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/it4it/ScopeAgreement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.3> .
+<http://www.snik.eu/ontology/it4it/ScopeAgreement> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-3> .
 <http://www.snik.eu/ontology/it4it/ScopeAgreement> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/ScopeAgreement> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/ScopeAgreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1564,7 +1564,7 @@
 <http://www.snik.eu/ontology/it4it/ServiceArchitecture> <http://www.snik.eu/ontology/it4it/keyDataObject> <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> .
 <http://www.snik.eu/ontology/it4it/ServiceArchitecture> <http://www.snik.eu/ontology/it4it/page> "49"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/ServiceArchitecture> <http://www.snik.eu/ontology/it4it/serviceArchitectureToConceptualService> <http://www.snik.eu/ontology/it4it/ConceptualService> .
-<http://www.snik.eu/ontology/it4it/ServiceArchitecture> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.1> .
+<http://www.snik.eu/ontology/it4it/ServiceArchitecture> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-1> .
 <http://www.snik.eu/ontology/it4it/ServiceArchitecture> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/EnterpriseArchitectureComponent> .
 <http://www.snik.eu/ontology/it4it/ServiceArchitecture> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/ServiceArchitecture> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
@@ -1594,7 +1594,7 @@
 <http://www.snik.eu/ontology/it4it/ServiceDesignComponent> <http://www.snik.eu/ontology/it4it/mainFunctions> "The Service Design functional component:\n  * Shall be the system of record (authoritative source) for all Logical Service Blueprints.\n  * Shall associate a Logical Service Blueprint to a service.\n  * Can associate a Logical Service Blueprint to a Service Design Package.\nIf a Service Portfolio functional component exists, the Service Design functional component:\n  * Shall associate one or more Logical Service Blueprints to a Conceptual Service Blueprint.\n  * Can receive the Conceptual Service specification and design several Logical Service Blueprints that represent it.\nIf a Project functional component exists, the Service Design functional component:\n  * Can receive IT Initiative information which includes the scope and some content based on which the service is designed.\nIf a Requirement functional component exists, the Service Design functional component:\n  * Shall associate one or more Requirements to the Logical Service Blueprint.\n  * Can receive Requirement information from the Requirement functional component used to design the Logical Service Blueprint and create design specifications.\nIf a Release Composition functional component exists, the Service Design functional component:\n  * Shall associate a Logical Service Blueprint to one or more Service Releases which are detailed and designed to deliver the Logical Service Blueprint."@en .
 <http://www.snik.eu/ontology/it4it/ServiceDesignComponent> <http://www.snik.eu/ontology/it4it/page> "74"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://www.snik.eu/ontology/it4it/ServiceDesignComponent> <http://www.snik.eu/ontology/it4it/purpose> "The Service Design Component:\n  * Identify the new or existing services required to meet the needs of the Scope Agreement and IT Initiative, including both service systems and service offers.\n  * Leverage the Conceptual Service Blueprint and Portfolio Backlog Items from the S2P Value Stream along with requirements to produce a Logical Service Blueprint that describes the service structure and behavior considering both the service system and the service offer.\n  * Creation of various architectural artifacts (data flow diagrams, technical schematics, etc.) that comply with the IT Initiative specifications and boundaries.\n  * Creation of the service design specification document (Service Design Package).\n  * Identification of the service delivery model (in-source, outsource, etc.).\n  * Identification of service suppliers to meet the requirements within the chosen delivery model.\n  * Enable interaction with IT operations to develop support plan/requirements for an IT service.\n  * Ensure that the architecture and Service Design Package are compliant with all standards and policies, including security standards and policies.\n  * Ensure that the architecture and Service Design Package meets all requirements including security requirements to ensure the confidentiality, integrity, and availability of the service.\n  * Put instrumentation in place so that IT can capture empirical data about how IT services are performing rather than relying only on anecdotal input from the user community.\n  * Ensure that the service is architected to meet the KPIs and SLAs.\n  * The output of the Service Design functional component is used by the Source data object to source, create, and secure the service."@en .
-<http://www.snik.eu/ontology/it4it/ServiceDesignComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter6.4.3> .
+<http://www.snik.eu/ontology/it4it/ServiceDesignComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter6-4-3> .
 <http://www.snik.eu/ontology/it4it/ServiceDesignComponent> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/ServiceDesignComponent> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/it4it/DesignOfLogicalServicesBlueprints> .
 <http://www.snik.eu/ontology/it4it/ServiceDesignComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1622,7 +1622,7 @@
 <http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> <http://www.snik.eu/ontology/it4it/purpose> "Manage the portfolio of services in plan, transition, production, and retirement. Authoritative source for the list of services that IT delivers, has delivered in the past, or brokers to itself and business. Any IT service within the Service Portfolio functional component often corresponds to one or more entries in the Offer Catalog."@en .
 <http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> <http://www.snik.eu/ontology/it4it/serviceModelBackboneDataObject> <http://www.snik.eu/ontology/it4it/ConceptualService> .
 <http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> <http://www.snik.eu/ontology/it4it/serviceModelBackboneDataObject> <http://www.snik.eu/ontology/it4it/ConceptualServiceBlueprint> .
-<http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5.4.5> .
+<http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter5-4-5> .
 <http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> <http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.snik.eu/ontology/it4it/StrategyToPortfolio> .
 <http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> <http://www.snik.eu/ontology/meta/subTopClass> <http://www.snik.eu/ontology/meta/EntityType> .
 <http://www.snik.eu/ontology/it4it/ServicePortfolioComponent> <http://www.snik.eu/ontology/meta/supports> <http://www.snik.eu/ontology/it4it/ManagementOfServicePortfolio> .
@@ -1694,7 +1694,7 @@
 <http://www.snik.eu/ontology/it4it/Synonym> <http://www.w3.org/2000/01/rdf-schema#label> "Synonym"@en .
 <http://www.snik.eu/ontology/it4it/SystemOfRecord> <http://purl.org/dc/terms/source> "Open Group Standard, The Open Group IT4IT Reference Architecture, Version 2.0, Document Number C155, 2015, ISBN: 1-937218-69-0"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.snik.eu/ontology/it4it/SystemOfRecord> <http://www.snik.eu/ontology/it4it/page> "25"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.snik.eu/ontology/it4it/SystemOfRecord> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter2.8> .
+<http://www.snik.eu/ontology/it4it/SystemOfRecord> <http://www.snik.eu/ontology/meta/chapter> <http://www.snik.eu/ontology/it4it/Chapter2-8> .
 <http://www.snik.eu/ontology/it4it/SystemOfRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.snik.eu/ontology/it4it/SystemOfRecord> <http://www.w3.org/2000/01/rdf-schema#label> "System Of Record"@en .
 <http://www.snik.eu/ontology/it4it/SystemOfRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/it4it/IT4IT> .
