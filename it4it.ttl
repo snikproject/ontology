@@ -1121,7 +1121,7 @@ it4it:FunctionalComponent
     meta:subTopClass meta:EntityType ;
     a owl:Class ;
     rdfs:label "Functional Component"@en ;
-    rdfs:subClassOf it4it:IT4IT, meta:EntityType .
+    rdfs:subClassOf it4it:IT4IT, meta:ComputerBasedApplicationComponent .
 
 it4it:Governance
     a it4it:SupportingActivity, owl:NamedIndividual ;
