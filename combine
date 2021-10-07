@@ -1,0 +1,2 @@
+cat *.ttl *.nt | rapper -i turtle -o turtle  - http://www.snik.eu/ontology/ > /tmp/snik.ttl
+rapper -i turtle -o ntriples /tmp/snik.ttl > /tmp/snik.nt
