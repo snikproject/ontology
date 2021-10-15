@@ -47,9 +47,9 @@ Check if it worked by querying `select count(*) {?s ?p ?o.}` for each graph.
    1. Query `sparql/construct_virtual_triples_and_missing.sparql.txt` as N-Triples
    2. Upload the result to the graph `http://www.snik.eu/ontology/virtual`
 
-## Updating from SPARQL endpoint
-The source of truth for most files is now the SPARQL endpoint, but this repository is still regularily updated in the following manner.
-Exceptions are match.nt, limes-exact.nt and persian.nt, whose source of truth is still the repository.
+## Updating from SPARQL endpoint---Outdated
+The source of truth for most files used to be the SPARQL endpoint, but this repository is still regularily updated in the following manner.
+Exceptions are match.nt, limes-exact.nt and persian.nt, whose source of truth has always been the repository.
 
 ### Save SPARQL dump on the server
 Replace YYYYMMDD with the current date.
