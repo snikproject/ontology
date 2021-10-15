@@ -29,7 +29,7 @@
     rdfs:comment "Informationsmanagement: Grundlagen Aufgaben Methoden. Lutz J. Heinrich René Riedl, Dirk Stelzer, Herrmann Sikora."@de, "The Ontology extracted from 'Informationsmanagement: Grundlagen Aufgaben Methoden'."@en ;
     rdfs:label "HE", "Information Management Ontology"@en, "Informationsmanagement-Ontologie"@de ;
     owl:imports <http://www.w3.org/2000/01/rdf-schema#> ;
-    foaf:homepage <http://www.snik.eu>, "http://www.snik.eu/"^^xsd:positiveInteger .
+    foaf:homepage <http://www.snik.eu> .
 
 <he-unconsolidated>
     a owl:Ontology ;

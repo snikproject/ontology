@@ -5344,7 +5344,7 @@ ob:ProjectTransparency
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectWork
-    meta:DefinitionDEPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    meta:DefinitionDEPage "manuell hinzugefügt"@de ;
     meta:functionComponent ob:ProjectClosure, ob:ProjectExecution, ob:ProjectInitiation, ob:ProjectPlanning ;
     meta:subTopClass meta:Function ;
     a owl:Class ;
@@ -8216,7 +8216,7 @@ ob:blank207738
     owl:someValuesFrom ob:FunctionalSpecificationDocument .
 
 ob:blank207739
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:BidPrioritization ;
@@ -8388,7 +8388,7 @@ ob:blank207776
     owl:annotatedTarget ob:BusinessProcessModelingMethod .
 
 ob:blank207777
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:BusinessProcessModelingMethod ;
@@ -8679,7 +8679,7 @@ ob:blank207842
     owl:annotatedTarget ob:UmlDiagram .
 
 ob:blank207844
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:CommunicationInterface ;
@@ -9275,7 +9275,7 @@ ob:blank207986
     owl:someValuesFrom ob:ApplicationSystem .
 
 ob:blank207987
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:Customizing ;
@@ -9567,7 +9567,7 @@ ob:blank208045
     owl:someValuesFrom ob:Milestone .
 
 ob:blank208053
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:DecisionAndContractConclusion ;
@@ -9759,7 +9759,7 @@ ob:blank208097
     owl:someValuesFrom ob:IntroductionStrategy .
 
 ob:blank208098
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:DefinitionOfIntroductionStrategy ;
@@ -11181,7 +11181,7 @@ ob:blank208435
     owl:someValuesFrom ob:ProjectRule .
 
 ob:blank208438
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ExecutionOfAProjectOrganizationForm ;
@@ -11193,7 +11193,7 @@ ob:blank208439
     owl:someValuesFrom ob:ProjectOrganization .
 
 ob:blank208440
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ExecutionOfAProjectOrganizationForm ;
@@ -12266,7 +12266,7 @@ ob:blank208689
     owl:annotatedTarget ob:MethodOfSystemAnalysisAndAssessment .
 
 ob:blank208691
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationProcess ;
@@ -12321,7 +12321,7 @@ ob:blank208705
     owl:someValuesFrom ob:BusinessProcess .
 
 ob:blank208706
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationSystem ;
@@ -12357,7 +12357,7 @@ ob:blank208711
     owl:someValuesFrom ob:PhysicalDataProcessingTool .
 
 ob:blank208713
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationSystemModeling ;
@@ -12388,7 +12388,7 @@ ob:blank208718
     owl:someValuesFrom ob:InformationSystem .
 
 ob:blank208721
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationAndKnowledgeLogistics ;
@@ -12509,7 +12509,7 @@ ob:blank208744
     owl:someValuesFrom ob:ProjectProgression .
 
 ob:blank208746
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InterimReportCreation ;
@@ -12688,7 +12688,7 @@ ob:blank208785
     owl:someValuesFrom ob:Data .
 
 ob:blank208786
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:LawForAwarding ;
@@ -13013,7 +13013,7 @@ ob:blank208852
     owl:someValuesFrom ob:Metamodel .
 
 ob:blank208853
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ModelingMethod ;
@@ -13048,7 +13048,7 @@ ob:blank208857
     owl:annotatedTarget ob:Resource .
 
 ob:blank208858
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:NegotiatedTender ;
@@ -13121,7 +13121,7 @@ ob:blank208870
     owl:someValuesFrom ob:NetPlan .
 
 ob:blank208872
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:NonComputerBasedApplicationComponent ;
@@ -13152,7 +13152,7 @@ ob:blank208877
     owl:someValuesFrom ob:OrganizationalRule .
 
 ob:blank208878
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:NonComputerBasedPhysicalTool ;
@@ -13639,7 +13639,7 @@ ob:blank208989
     owl:annotatedTarget ob:ModelingMethod .
 
 ob:blank208990
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:OrganizationalSystem ;
@@ -13691,7 +13691,7 @@ ob:blank208999
     owl:annotatedTarget ob:Observation .
 
 ob:blank209001
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:PatientIdentificationAndCheckingForRecurrent ;
@@ -14062,7 +14062,7 @@ ob:blank209087
     owl:someValuesFrom ob:ObservationForm .
 
 ob:blank209091
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:PreparationOfQuestionnaire ;
@@ -14326,7 +14326,7 @@ ob:blank209153
     owl:someValuesFrom ob:Questionnaire .
 
 ob:blank209155
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:PresentationOfIntermediateResults ;
@@ -14359,7 +14359,7 @@ ob:blank209159
     owl:annotatedTarget ob:ModelingMethod .
 
 ob:blank209161
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:Product ;
@@ -14486,7 +14486,7 @@ ob:blank209192
     owl:someValuesFrom ob:ProjectOrganization .
 
 ob:blank209193
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:Project ;
@@ -14872,7 +14872,7 @@ ob:blank209285
     owl:annotatedTarget ob:ProjectPhase .
 
 ob:blank209286
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ProjectClosurePhase ;
@@ -15294,7 +15294,7 @@ ob:blank209395
     owl:someValuesFrom ob:ProjectStatusReport .
 
 ob:blank209396
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ProjectExecution ;
@@ -15409,7 +15409,7 @@ ob:blank209417
     owl:annotatedTarget ob:ProjectPhase .
 
 ob:blank209418
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ProjectExecutionPhase ;
@@ -15804,7 +15804,7 @@ ob:blank209511
     owl:someValuesFrom ob:MinimumProjectDurationCalculation .
 
 ob:blank209515
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ProjectManagementTriangle ;
@@ -17112,7 +17112,7 @@ ob:blank209831
     owl:annotatedTarget ob:ProjectPhase .
 
 ob:blank209832
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ProjectPlanningPhase ;
@@ -18099,7 +18099,7 @@ ob:blank210058
     owl:someValuesFrom ob:WorkPackage .
 
 ob:blank210060
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ResponseRate ;
@@ -18185,7 +18185,7 @@ ob:blank210079
     owl:someValuesFrom ob:CreativityTechnique .
 
 ob:blank210080
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:RiskAnalysis ;
@@ -18631,7 +18631,7 @@ ob:blank210179
     owl:someValuesFrom ob:Prototype .
 
 ob:blank210180
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SelfDevelopment ;
@@ -19830,7 +19830,7 @@ ob:blank210465
     owl:someValuesFrom ob:EvaluationReport .
 
 ob:blank210466
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SubInformationSystem ;
@@ -20278,7 +20278,7 @@ ob:blank210575
     owl:annotatedTarget ob:ProjectModule .
 
 ob:blank210576
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemAnalysisAndAssessmentModule ;
@@ -20477,7 +20477,7 @@ ob:blank210623
     owl:annotatedTarget ob:ProjectModule .
 
 ob:blank210624
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemEvaluationModule ;
@@ -20760,7 +20760,7 @@ ob:blank210693
     owl:annotatedTarget ob:ProjectModule .
 
 ob:blank210694
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemIntroductionModule ;
@@ -21048,7 +21048,7 @@ ob:blank210773
     owl:someValuesFrom ob:SoftwareProduct .
 
 ob:blank210774
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemSelection ;
@@ -21163,7 +21163,7 @@ ob:blank210793
     owl:annotatedTarget ob:ProjectModule .
 
 ob:blank210794
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemSelectionModule ;
@@ -21386,7 +21386,7 @@ ob:blank210847
     owl:annotatedTarget ob:ProjectModule .
 
 ob:blank210848
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemSpecificationModule ;
@@ -22200,7 +22200,7 @@ ob:blank211042
     owl:someValuesFrom ob:ApplicationSystem .
 
 ob:blank211043
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:TestOperation ;
@@ -22357,7 +22357,7 @@ ob:blank211077
     owl:annotatedTarget ob:DataModelingMethod .
 
 ob:blank211078
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:UmlClassDiagram ;
@@ -22878,7 +22878,7 @@ ob:blank211192
     owl:onProperty ob:IsSubjective .
 
 ob:blank211194
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <ob/3LGM2CommunicationInterface> ;
@@ -22914,7 +22914,7 @@ ob:blank211201
     owl:someValuesFrom <ob/3LGM2CommunicationInterface> .
 
 ob:blank211203
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <ob/3LGM2OrganizationalUnit> ;
@@ -23029,7 +23029,7 @@ ob:blank211229
     owl:someValuesFrom ob:WorkPackage .
 
 ob:blank211238
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationAcquisitionEvaluation ;
@@ -23156,7 +23156,7 @@ ob:blank211258
     owl:someValuesFrom ob:WrittenSurvey .
 
 ob:blank211262
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationAcquisitionSpecification ;
@@ -23211,7 +23211,7 @@ ob:blank211270
     owl:someValuesFrom ob:InformationAcquisitionMethodSpecification .
 
 ob:blank211274
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationAcquisitionSystemAnalysis ;
@@ -23266,7 +23266,7 @@ ob:blank211282
     owl:someValuesFrom ob:InformationAcquisitionMethod .
 
 ob:blank211283
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationAcquisitionMethodSpecification ;
@@ -23369,14 +23369,14 @@ ob:blank211307
     owl:someValuesFrom ob:TargetConcept .
 
 ob:blank211308
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:VerificationEvaluation ;
     owl:annotatedTarget ob:Verification .
 
 ob:blank211316
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:VerificationSpecification ;
@@ -23467,7 +23467,7 @@ ob:blank211330
     owl:someValuesFrom ob:TargetStateModel .
 
 ob:blank211337
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:VerificationSystemAnalysis ;
@@ -24183,7 +24183,7 @@ ob:blank216268
     owl:someValuesFrom ob:FunctionalSpecificationDocument .
 
 ob:blank216269
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:BidPrioritization ;
@@ -24355,7 +24355,7 @@ ob:blank216306
     owl:annotatedTarget ob:BusinessProcessModelingMethod .
 
 ob:blank216307
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:BusinessProcessModelingMethod ;
@@ -24646,7 +24646,7 @@ ob:blank216372
     owl:annotatedTarget ob:UmlDiagram .
 
 ob:blank216374
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:CommunicationInterface ;
@@ -25242,7 +25242,7 @@ ob:blank216516
     owl:someValuesFrom ob:ApplicationSystem .
 
 ob:blank216517
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:Customizing ;
@@ -25534,7 +25534,7 @@ ob:blank216575
     owl:someValuesFrom ob:Milestone .
 
 ob:blank216583
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:DecisionAndContractConclusion ;
@@ -25726,7 +25726,7 @@ ob:blank216627
     owl:someValuesFrom ob:IntroductionStrategy .
 
 ob:blank216628
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:DefinitionOfIntroductionStrategy ;
@@ -27148,7 +27148,7 @@ ob:blank216965
     owl:someValuesFrom ob:ProjectRule .
 
 ob:blank216968
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ExecutionOfAProjectOrganizationForm ;
@@ -27160,7 +27160,7 @@ ob:blank216969
     owl:someValuesFrom ob:ProjectOrganization .
 
 ob:blank216970
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ExecutionOfAProjectOrganizationForm ;
@@ -28233,7 +28233,7 @@ ob:blank217219
     owl:annotatedTarget ob:MethodOfSystemAnalysisAndAssessment .
 
 ob:blank217221
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationProcess ;
@@ -28288,7 +28288,7 @@ ob:blank217235
     owl:someValuesFrom ob:BusinessProcess .
 
 ob:blank217236
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationSystem ;
@@ -28324,7 +28324,7 @@ ob:blank217241
     owl:someValuesFrom ob:PhysicalDataProcessingTool .
 
 ob:blank217243
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationSystemModeling ;
@@ -28355,7 +28355,7 @@ ob:blank217248
     owl:someValuesFrom ob:InformationSystem .
 
 ob:blank217251
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationAndKnowledgeLogistics ;
@@ -28476,7 +28476,7 @@ ob:blank217274
     owl:someValuesFrom ob:ProjectProgression .
 
 ob:blank217276
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InterimReportCreation ;
@@ -28655,7 +28655,7 @@ ob:blank217315
     owl:someValuesFrom ob:Data .
 
 ob:blank217316
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:LawForAwarding ;
@@ -28980,7 +28980,7 @@ ob:blank217382
     owl:someValuesFrom ob:Metamodel .
 
 ob:blank217383
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ModelingMethod ;
@@ -29015,7 +29015,7 @@ ob:blank217387
     owl:annotatedTarget ob:Resource .
 
 ob:blank217388
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:NegotiatedTender ;
@@ -29088,7 +29088,7 @@ ob:blank217400
     owl:someValuesFrom ob:NetPlan .
 
 ob:blank217402
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:NonComputerBasedApplicationComponent ;
@@ -29119,7 +29119,7 @@ ob:blank217407
     owl:someValuesFrom ob:OrganizationalRule .
 
 ob:blank217408
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:NonComputerBasedPhysicalTool ;
@@ -29606,7 +29606,7 @@ ob:blank217519
     owl:annotatedTarget ob:ModelingMethod .
 
 ob:blank217520
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:OrganizationalSystem ;
@@ -29658,7 +29658,7 @@ ob:blank217529
     owl:annotatedTarget ob:Observation .
 
 ob:blank217531
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:PatientIdentificationAndCheckingForRecurrent ;
@@ -30029,7 +30029,7 @@ ob:blank217617
     owl:someValuesFrom ob:ObservationForm .
 
 ob:blank217621
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:PreparationOfQuestionnaire ;
@@ -30293,7 +30293,7 @@ ob:blank217683
     owl:someValuesFrom ob:Questionnaire .
 
 ob:blank217685
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:PresentationOfIntermediateResults ;
@@ -30326,7 +30326,7 @@ ob:blank217689
     owl:annotatedTarget ob:ModelingMethod .
 
 ob:blank217691
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:Product ;
@@ -30453,7 +30453,7 @@ ob:blank217722
     owl:someValuesFrom ob:ProjectOrganization .
 
 ob:blank217723
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:Project ;
@@ -30839,7 +30839,7 @@ ob:blank217815
     owl:annotatedTarget ob:ProjectPhase .
 
 ob:blank217816
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ProjectClosurePhase ;
@@ -31261,7 +31261,7 @@ ob:blank217925
     owl:someValuesFrom ob:ProjectStatusReport .
 
 ob:blank217926
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ProjectExecution ;
@@ -31376,7 +31376,7 @@ ob:blank217947
     owl:annotatedTarget ob:ProjectPhase .
 
 ob:blank217948
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ProjectExecutionPhase ;
@@ -31771,7 +31771,7 @@ ob:blank218041
     owl:someValuesFrom ob:MinimumProjectDurationCalculation .
 
 ob:blank218045
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ProjectManagementTriangle ;
@@ -33079,7 +33079,7 @@ ob:blank218361
     owl:annotatedTarget ob:ProjectPhase .
 
 ob:blank218362
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ProjectPlanningPhase ;
@@ -34066,7 +34066,7 @@ ob:blank218588
     owl:someValuesFrom ob:WorkPackage .
 
 ob:blank218590
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:ResponseRate ;
@@ -34152,7 +34152,7 @@ ob:blank218609
     owl:someValuesFrom ob:CreativityTechnique .
 
 ob:blank218610
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:RiskAnalysis ;
@@ -34598,7 +34598,7 @@ ob:blank218709
     owl:someValuesFrom ob:Prototype .
 
 ob:blank218710
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SelfDevelopment ;
@@ -35797,7 +35797,7 @@ ob:blank218995
     owl:someValuesFrom ob:EvaluationReport .
 
 ob:blank218996
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SubInformationSystem ;
@@ -36245,7 +36245,7 @@ ob:blank219105
     owl:annotatedTarget ob:ProjectModule .
 
 ob:blank219106
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemAnalysisAndAssessmentModule ;
@@ -36444,7 +36444,7 @@ ob:blank219153
     owl:annotatedTarget ob:ProjectModule .
 
 ob:blank219154
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemEvaluationModule ;
@@ -36727,7 +36727,7 @@ ob:blank219223
     owl:annotatedTarget ob:ProjectModule .
 
 ob:blank219224
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemIntroductionModule ;
@@ -37015,7 +37015,7 @@ ob:blank219303
     owl:someValuesFrom ob:SoftwareProduct .
 
 ob:blank219304
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemSelection ;
@@ -37130,7 +37130,7 @@ ob:blank219323
     owl:annotatedTarget ob:ProjectModule .
 
 ob:blank219324
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemSelectionModule ;
@@ -37353,7 +37353,7 @@ ob:blank219377
     owl:annotatedTarget ob:ProjectModule .
 
 ob:blank219378
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:SystemSpecificationModule ;
@@ -38167,7 +38167,7 @@ ob:blank219572
     owl:someValuesFrom ob:ApplicationSystem .
 
 ob:blank219573
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:TestOperation ;
@@ -38324,7 +38324,7 @@ ob:blank219607
     owl:annotatedTarget ob:DataModelingMethod .
 
 ob:blank219608
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:UmlClassDiagram ;
@@ -38845,7 +38845,7 @@ ob:blank219722
     owl:onProperty ob:IsSubjective .
 
 ob:blank219724
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <ob/3LGM2CommunicationInterface> ;
@@ -38881,7 +38881,7 @@ ob:blank219731
     owl:someValuesFrom <ob/3LGM2CommunicationInterface> .
 
 ob:blank219733
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <ob/3LGM2OrganizationalUnit> ;
@@ -38996,7 +38996,7 @@ ob:blank219759
     owl:someValuesFrom ob:WorkPackage .
 
 ob:blank219768
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationAcquisitionEvaluation ;
@@ -39123,7 +39123,7 @@ ob:blank219788
     owl:someValuesFrom ob:WrittenSurvey .
 
 ob:blank219792
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationAcquisitionSpecification ;
@@ -39178,7 +39178,7 @@ ob:blank219800
     owl:someValuesFrom ob:InformationAcquisitionMethodSpecification .
 
 ob:blank219804
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationAcquisitionSystemAnalysis ;
@@ -39233,7 +39233,7 @@ ob:blank219812
     owl:someValuesFrom ob:InformationAcquisitionMethod .
 
 ob:blank219813
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:InformationAcquisitionMethodSpecification ;
@@ -39336,14 +39336,14 @@ ob:blank219837
     owl:someValuesFrom ob:TargetConcept .
 
 ob:blank219838
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:VerificationEvaluation ;
     owl:annotatedTarget ob:Verification .
 
 ob:blank219846
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:VerificationSpecification ;
@@ -39434,7 +39434,7 @@ ob:blank219860
     owl:someValuesFrom ob:TargetStateModel .
 
 ob:blank219867
-    ob:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    ob:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:VerificationSystemAnalysis ;

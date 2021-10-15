@@ -9992,7 +9992,7 @@ bb:TransinstitutionalHealthCareFunction
 bb:TransinstitutionalHealthInformationSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "324"^^xsd:positiveInteger ;
-    meta:DefinitionDEPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    meta:DefinitionDEPage "manuell hinzugefügt"@de ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:HospitalInformationSystem ;
     meta:isAssociatedWith bb:FunctionalRedundancyRate ;
@@ -16143,7 +16143,7 @@ bb:blank221314
     owl:annotatedTarget bb:blank220172 .
 
 bb:blank221315
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Acid .
@@ -16212,14 +16212,14 @@ bb:blank221324
     owl:annotatedTarget bb:Classification .
 
 bb:blank221325
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AccessControl ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221326
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AccessControlSystem ;
@@ -16261,14 +16261,14 @@ bb:blank221331
     owl:annotatedTarget bb:CobitProcess .
 
 bb:blank221332
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AcquireAndImplement ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221333
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Activity ;
@@ -16282,14 +16282,14 @@ bb:blank221334
     owl:annotatedTarget bb:blank220179 .
 
 bb:blank221335
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ActivityModelingElement ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank221336
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AdHocMonitoring ;
@@ -16345,7 +16345,7 @@ bb:blank221343
     owl:annotatedTarget bb:ManagementDepartment .
 
 bb:blank221344
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AdministrationAndAllocationOfPatientRecords ;
@@ -16366,7 +16366,7 @@ bb:blank221346
     owl:annotatedTarget bb:blank220184 .
 
 bb:blank221347
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AdministrationOfBusinessTripsAndFurtherTraining ;
@@ -16394,7 +16394,7 @@ bb:blank221350
     owl:annotatedTarget bb:blank220187 .
 
 bb:blank221351
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AdministrationOfHumanResourceMasterData ;
@@ -16422,7 +16422,7 @@ bb:blank221354
     owl:annotatedTarget bb:blank220190 .
 
 bb:blank221355
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AdministrativeAdmission ;
@@ -16576,7 +16576,7 @@ bb:blank221376
     owl:annotatedTarget bb:blank220210 .
 
 bb:blank221377
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Administration ;
@@ -16639,28 +16639,28 @@ bb:blank221385
     owl:annotatedTarget bb:NonComputerBasedPhysicalDataProcessingSystem .
 
 bb:blank221386
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AdmissionDiagnosis ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank221387
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AdoptionOfProjectResult ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221388
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AdoptionOfProjectResult ;
     owl:annotatedTarget bb:blank220215 .
 
 bb:blank221389
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AnalysisAndAssessmentOfTheCurrentHISState ;
@@ -16695,14 +16695,14 @@ bb:blank221393
     owl:annotatedTarget bb:blank220218 .
 
 bb:blank221394
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AnnualITBudget ;
     owl:annotatedTarget bb:ManagementEntityType .
 
 bb:blank221395
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ApplicationComponent .
@@ -16826,21 +16826,21 @@ bb:blank221412
     owl:annotatedTarget bb:blank220230 .
 
 bb:blank221413
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ApprovalToStrategicInformationManagementPlan ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221414
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ApprovalToStrategicInformationManagementPlan ;
     owl:annotatedTarget bb:blank220231 .
 
 bb:blank221415
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ApprovalToAStudy ;
@@ -16853,21 +16853,21 @@ bb:blank221416
     owl:annotatedSource bb:ArchitecturalStyle .
 
 bb:blank221417
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ArchitecturalStyleOfThePhysicalToolLayer ;
     owl:annotatedTarget bb:ArchitecturalStyle .
 
 bb:blank221418
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ArchitecturalStyleOfTheLogicalToolLayer ;
     owl:annotatedTarget bb:ArchitecturalStyle .
 
 bb:blank221419
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ArchitectureOfAnInformationSystem .
@@ -16880,14 +16880,14 @@ bb:blank221420
     owl:annotatedTarget bb:blank220232 .
 
 bb:blank221421
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Archiving ;
     owl:annotatedTarget bb:Administration .
 
 bb:blank221422
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ArchivingOfPatientInformation ;
@@ -16922,13 +16922,13 @@ bb:blank221426
     owl:annotatedTarget bb:blank220236 .
 
 bb:blank221427
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ArtificialSystem .
 
 bb:blank221428
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AssetAccounting ;
@@ -16949,7 +16949,7 @@ bb:blank221430
     owl:annotatedTarget bb:blank220237 .
 
 bb:blank221431
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Atomicity .
@@ -16962,7 +16962,7 @@ bb:blank221432
     owl:annotatedTarget bb:QualityOfData .
 
 bb:blank221433
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:AvailabilityOfApplicationComponents ;
@@ -17066,7 +17066,7 @@ bb:blank221447
     owl:annotatedTarget bb:Resource .
 
 bb:blank221448
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:BedOccupation ;
@@ -17079,13 +17079,13 @@ bb:blank221449
     owl:annotatedSource bb:BehavioralPerspective .
 
 bb:blank221450
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:BestPracticeBenchmark .
 
 bb:blank221451
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:BestOfBreedArchitecture ;
@@ -17120,7 +17120,7 @@ bb:blank221455
     owl:annotatedTarget bb:AdministrativeEntityType .
 
 bb:blank221456
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:BillingOfAccountableServices ;
@@ -17189,7 +17189,7 @@ bb:blank221465
     owl:annotatedTarget bb:Metamodel .
 
 bb:blank221466
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:BusinessProcessModel ;
@@ -17217,7 +17217,7 @@ bb:blank221469
     owl:annotatedTarget bb:blank220244 .
 
 bb:blank221470
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:BusinessProcessReferenceModel .
@@ -17230,7 +17230,7 @@ bb:blank221471
     owl:annotatedTarget bb:blank220245 .
 
 bb:blank221472
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:BusinessReferenceModel ;
@@ -17265,7 +17265,7 @@ bb:blank221476
     owl:annotatedTarget bb:blank220249 .
 
 bb:blank221477
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:BusinessStrategy ;
@@ -17293,13 +17293,13 @@ bb:blank221480
     owl:annotatedTarget bb:blank220251 .
 
 bb:blank221481
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CchitFunctionalCriterion .
 
 bb:blank221482
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Ccow ;
@@ -17355,7 +17355,7 @@ bb:blank221489
     owl:annotatedTarget bb:NonSignalBasedTransmittingMedium .
 
 bb:blank221490
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Cda ;
@@ -17369,7 +17369,7 @@ bb:blank221491
     owl:annotatedTarget bb:blank220257 .
 
 bb:blank221492
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Cen ;
@@ -17383,14 +17383,14 @@ bb:blank221493
     owl:annotatedTarget bb:blank220258 .
 
 bb:blank221494
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ChiefExecutiveOfficer ;
     owl:annotatedTarget bb:HospitalStaff .
 
 bb:blank221495
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ChiefFinancialOfficer ;
@@ -17404,7 +17404,7 @@ bb:blank221496
     owl:annotatedTarget bb:ObjectIdentity .
 
 bb:blank221497
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ChiefInformationOfficer ;
@@ -17489,7 +17489,7 @@ bb:blank221508
     owl:annotatedTarget bb:blank220269 .
 
 bb:blank221509
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ChiefInformationOfficer ;
@@ -17601,7 +17601,7 @@ bb:blank221524
     owl:annotatedTarget bb:CommunicationPattern .
 
 bb:blank221525
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CtScanner ;
@@ -17629,7 +17629,7 @@ bb:blank221528
     owl:annotatedTarget bb:ComputerBasedApplicationComponent .
 
 bb:blank221529
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Case ;
@@ -17643,7 +17643,7 @@ bb:blank221530
     owl:annotatedTarget bb:blank220284 .
 
 bb:blank221531
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CaseMixIndex ;
@@ -17685,7 +17685,7 @@ bb:blank221536
     owl:annotatedTarget bb:SoftwareQuality .
 
 bb:blank221537
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CertificationByCCHIT ;
@@ -17713,7 +17713,7 @@ bb:blank221540
     owl:annotatedTarget bb:blank220289 .
 
 bb:blank221541
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CertificationByEuroRec ;
@@ -17727,7 +17727,7 @@ bb:blank221542
     owl:annotatedTarget bb:blank220290 .
 
 bb:blank221543
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CertificationByISO ;
@@ -17741,7 +17741,7 @@ bb:blank221544
     owl:annotatedTarget bb:blank220291 .
 
 bb:blank221545
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ChangeManagement ;
@@ -17762,7 +17762,7 @@ bb:blank221547
     owl:annotatedTarget bb:DataModel .
 
 bb:blank221548
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Classification ;
@@ -17783,7 +17783,7 @@ bb:blank221550
     owl:annotatedTarget bb:Classification .
 
 bb:blank221551
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Client ;
@@ -17832,7 +17832,7 @@ bb:blank221557
     owl:annotatedTarget bb:blank220293 .
 
 bb:blank221559
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ClinicalInformationSystem ;
@@ -17867,7 +17867,7 @@ bb:blank221563
     owl:annotatedTarget bb:blank220297 .
 
 bb:blank221564
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ClinicalPathway ;
@@ -17881,7 +17881,7 @@ bb:blank221565
     owl:annotatedTarget bb:blank220298 .
 
 bb:blank221566
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ClinicalResearch ;
@@ -17916,7 +17916,7 @@ bb:blank221570
     owl:annotatedTarget bb:PhysicalDataProcessingSystem .
 
 bb:blank221571
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CodingSystem ;
@@ -18021,7 +18021,7 @@ bb:blank221585
     owl:annotatedTarget bb:blank220303 .
 
 bb:blank221586
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CodingOfDiagnosesAndProcedures ;
@@ -18084,7 +18084,7 @@ bb:blank221594
     owl:annotatedTarget bb:blank220311 .
 
 bb:blank221595
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Communication .
@@ -18118,7 +18118,7 @@ bb:blank221599
     owl:annotatedTarget bb:ArchitecturalStyleOfTheLogicalToolLayer .
 
 bb:blank221600
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CommunicationProtocol .
@@ -18152,21 +18152,21 @@ bb:blank221604
     owl:annotatedTarget bb:FeatureMulticasting .
 
 bb:blank221605
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CommunicationStandard ;
     owl:annotatedTarget bb:Standard .
 
 bb:blank221606
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CommunicationStandard ;
     owl:annotatedTarget bb:blank220314 .
 
 bb:blank221607
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Complaint .
@@ -18193,14 +18193,14 @@ bb:blank221610
     owl:annotatedTarget bb:ImagingModality .
 
 bb:blank221611
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ComputerBasedApplicationComponent ;
     owl:annotatedTarget bb:ApplicationComponent .
 
 bb:blank221612
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ComputerBasedApplicationComponent ;
@@ -18214,14 +18214,14 @@ bb:blank221613
     owl:annotatedTarget bb:blank220316 .
 
 bb:blank221614
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ComputerBasedInformationProcessing ;
     owl:annotatedTarget bb:InformationProcessing .
 
 bb:blank221615
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ComputerBasedNursingForm ;
@@ -18304,7 +18304,7 @@ bb:blank221626
     owl:annotatedSource bb:ComputerBasedTool .
 
 bb:blank221627
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ComputerSupportedInformationSystem .
@@ -18317,7 +18317,7 @@ bb:blank221628
     owl:annotatedTarget bb:blank220326 .
 
 bb:blank221629
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ComputerNetwork .
@@ -18421,7 +18421,7 @@ bb:blank221643
     owl:annotatedTarget bb:FeatureProvideMeansForSchedulingAPatientSAppointment .
 
 bb:blank221644
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ComputingCenter .
@@ -18434,7 +18434,7 @@ bb:blank221645
     owl:annotatedTarget bb:blank220329 .
 
 bb:blank221646
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ComputingCenterManager ;
@@ -18476,7 +18476,7 @@ bb:blank221651
     owl:annotatedTarget bb:QualityOfData .
 
 bb:blank221652
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ConfigurationManagement ;
@@ -18546,14 +18546,14 @@ bb:blank221661
     owl:annotatedTarget bb:blank220336 .
 
 bb:blank221662
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ContinualServiceImprovement ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221663
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ContinuousHISAuditing ;
@@ -18567,7 +18567,7 @@ bb:blank221664
     owl:annotatedTarget bb:blank220337 .
 
 bb:blank221665
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ContinuousQualityImprovementProcess ;
@@ -18609,7 +18609,7 @@ bb:blank221670
     owl:annotatedTarget bb:Administration .
 
 bb:blank221671
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Controlling ;
@@ -18728,7 +18728,7 @@ bb:blank221687
     owl:annotatedTarget bb:blank220352 .
 
 bb:blank221688
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ConvergingTechnologies .
@@ -18804,7 +18804,7 @@ bb:blank221698
     owl:annotatedTarget bb:blank220358 .
 
 bb:blank221699
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CostUnit ;
@@ -18818,14 +18818,14 @@ bb:blank221700
     owl:annotatedTarget bb:HospitalCost .
 
 bb:blank221701
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CreationOfStrategicInformationManagementPlan ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221702
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CreditAccounting ;
@@ -18839,7 +18839,7 @@ bb:blank221703
     owl:annotatedTarget bb:IheIntegrationProfile .
 
 bb:blank221704
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Customizing ;
@@ -18895,25 +18895,25 @@ bb:blank221711
     owl:annotatedTarget bb:Server .
 
 bb:blank221712
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DicomFileFormat .
 
 bb:blank221713
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DicomMessageFormat .
 
 bb:blank221714
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DicomNetworkProtocol .
 
 bb:blank221715
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DicomService .
@@ -18975,21 +18975,21 @@ bb:blank221723
     owl:annotatedTarget bb:Server .
 
 bb:blank221724
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Drg ;
     owl:annotatedTarget bb:Classification .
 
 bb:blank221725
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DrgCalculation ;
     owl:annotatedTarget bb:Administration .
 
 bb:blank221726
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DrgCalculation ;
@@ -19017,14 +19017,14 @@ bb:blank221729
     owl:annotatedTarget bb:blank220371 .
 
 bb:blank221730
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Data ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank221731
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DataCollectionEffort .
@@ -19072,7 +19072,7 @@ bb:blank221737
     owl:annotatedTarget bb:Metamodel .
 
 bb:blank221738
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DataModel ;
@@ -19093,7 +19093,7 @@ bb:blank221740
     owl:annotatedTarget bb:blank220377 .
 
 bb:blank221741
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DataProtection ;
@@ -19107,7 +19107,7 @@ bb:blank221742
     owl:annotatedTarget bb:blank220378 .
 
 bb:blank221743
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DataReferenceModel ;
@@ -19127,21 +19127,21 @@ bb:blank221745
     owl:annotatedSource bb:DataSecurity .
 
 bb:blank221746
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DataSecurityOfficer ;
     owl:annotatedTarget bb:HospitalStaff .
 
 bb:blank221747
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DataSecurityOfficer ;
     owl:annotatedTarget bb:blank220380 .
 
 bb:blank221748
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DataTransmissionConnection .
@@ -19224,20 +19224,20 @@ bb:blank221759
     owl:annotatedTarget bb:ArchitecturalStyleOfTheLogicalToolLayer .
 
 bb:blank221760
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DatabaseSystem .
 
 bb:blank221761
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DebtorAccounting ;
     owl:annotatedTarget bb:Administration .
 
 bb:blank221762
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DecisionMakingPlanningAndOrganizationOfPatientTreatment ;
@@ -19258,7 +19258,7 @@ bb:blank221764
     owl:annotatedTarget bb:blank220385 .
 
 bb:blank221765
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DecisionMakingAndPatientInformation ;
@@ -19363,14 +19363,14 @@ bb:blank221779
     owl:annotatedTarget bb:NursingProcedure .
 
 bb:blank221780
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DeductiveApproach ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank221781
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DegreeOfComputerSupport ;
@@ -19384,7 +19384,7 @@ bb:blank221782
     owl:annotatedTarget bb:CobitProcess .
 
 bb:blank221783
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DeliveringOfCustomerCenteredServices ;
@@ -19419,7 +19419,7 @@ bb:blank221787
     owl:annotatedTarget bb:HospitalAdministrationDepartment .
 
 bb:blank221788
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DepartmentalSystemAdministrator ;
@@ -19433,40 +19433,40 @@ bb:blank221789
     owl:annotatedTarget bb:blank220397 .
 
 bb:blank221790
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DeploymentOfStrategicInformationManagementPlan ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221791
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DescriptionOfTheCurrentHISState .
 
 bb:blank221792
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DescriptionOfThePlannedHISState .
 
 bb:blank221793
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DesigningCustomerCenteredServices ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221794
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Diagnosis ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank221795
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DiagnosisClass ;
@@ -19480,7 +19480,7 @@ bb:blank221796
     owl:annotatedTarget bb:blank220398 .
 
 bb:blank221797
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DiagnosticProcedure ;
@@ -19494,7 +19494,7 @@ bb:blank221798
     owl:annotatedTarget bb:MedicalService .
 
 bb:blank221799
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DiagnosticStandard ;
@@ -19508,14 +19508,14 @@ bb:blank221800
     owl:annotatedTarget bb:ComputerBasedApplicationComponent .
 
 bb:blank221801
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Diet ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank221802
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DigitalDictationSystem ;
@@ -19529,7 +19529,7 @@ bb:blank221803
     owl:annotatedTarget bb:blank220399 .
 
 bb:blank221804
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DigitalImage .
@@ -19542,14 +19542,14 @@ bb:blank221805
     owl:annotatedTarget bb:ImagingModality .
 
 bb:blank221806
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Directing ;
     owl:annotatedTarget bb:Management .
 
 bb:blank221807
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DirectiveForHISConstruction .
@@ -19583,14 +19583,14 @@ bb:blank221811
     owl:annotatedTarget bb:blank220402 .
 
 bb:blank221812
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DiseaseManagement ;
     owl:annotatedTarget bb:TransinstitutionalHealthCareFunction .
 
 bb:blank221813
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DocumentArchivingSystem ;
@@ -19695,7 +19695,7 @@ bb:blank221827
     owl:annotatedTarget bb:Standard .
 
 bb:blank221828
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:DoubleExamination ;
@@ -19758,20 +19758,20 @@ bb:blank221836
     owl:annotatedTarget bb:blank220410 .
 
 bb:blank221837
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EfqmExcellenceModel ;
     owl:annotatedTarget bb:HisCertificate .
 
 bb:blank221838
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EhrStrategy .
 
 bb:blank221839
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EN12538 ;
@@ -19785,7 +19785,7 @@ bb:blank221840
     owl:annotatedTarget bb:blank220411 .
 
 bb:blank221841
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EN12539 ;
@@ -19799,7 +19799,7 @@ bb:blank221842
     owl:annotatedTarget bb:blank220412 .
 
 bb:blank221843
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EN1613 ;
@@ -19813,7 +19813,7 @@ bb:blank221844
     owl:annotatedTarget bb:blank220413 .
 
 bb:blank221845
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EconomicAnalysis ;
@@ -19834,7 +19834,7 @@ bb:blank221847
     owl:annotatedTarget bb:blank220414 .
 
 bb:blank221848
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EffectivenessStudy ;
@@ -19876,7 +19876,7 @@ bb:blank221853
     owl:annotatedTarget bb:ComputerBasedApplicationComponent .
 
 bb:blank221854
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EnterpriseFunction ;
@@ -19890,14 +19890,14 @@ bb:blank221855
     owl:annotatedTarget bb:blank220415 .
 
 bb:blank221856
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EnterpriseFunctionModelingElement ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank221857
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EnterpriseOrganizationalStructure ;
@@ -20177,20 +20177,20 @@ bb:blank221896
     owl:annotatedTarget bb:FeatureProvideMeansForManagingOutpatientUnitsStaff .
 
 bb:blank221897
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EntityTypeModelingElement ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank221898
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EntityTypeRelation .
 
 bb:blank221899
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EntityTypeRelationModelingElement ;
@@ -20204,28 +20204,28 @@ bb:blank221900
     owl:annotatedTarget bb:ISO9241110UserInterfaceDesignQuality .
 
 bb:blank221901
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EstablishAndPromoteTheStrategicInformationManagementPlan ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221902
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EstablishingReferentialIntegrity ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221903
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EstablishingReferentialIntegrity ;
     owl:annotatedTarget bb:blank220425 .
 
 bb:blank221904
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Ethernet .
@@ -20245,21 +20245,21 @@ bb:blank221906
     owl:annotatedTarget bb:Organization .
 
 bb:blank221907
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EuroRec ;
     owl:annotatedTarget bb:blank220427 .
 
 bb:blank221908
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EuroRecEHRQualitySeal ;
     owl:annotatedTarget bb:HisCertificate .
 
 bb:blank221909
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EuropeanNorm .
@@ -20272,7 +20272,7 @@ bb:blank221910
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank221911
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EvaluationMethod ;
@@ -20286,7 +20286,7 @@ bb:blank221912
     owl:annotatedTarget bb:blank220428 .
 
 bb:blank221913
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Event .
@@ -20348,7 +20348,7 @@ bb:blank221921
     owl:annotatedTarget bb:blank220434 .
 
 bb:blank221922
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EventModelingElement ;
@@ -20369,7 +20369,7 @@ bb:blank221924
     owl:annotatedTarget bb:ExecutionOfDiagnosticAndTherapeuticProcedures .
 
 bb:blank221925
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfClinicalTrials ;
@@ -20390,7 +20390,7 @@ bb:blank221927
     owl:annotatedTarget bb:blank220436 .
 
 bb:blank221928
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfClinicalTrialsAndExperiments ;
@@ -20446,21 +20446,21 @@ bb:blank221935
     owl:annotatedTarget bb:blank220443 .
 
 bb:blank221936
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures ;
     owl:annotatedTarget bb:PatientCare .
 
 bb:blank221937
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures ;
     owl:annotatedTarget bb:blank220444 .
 
 bb:blank221938
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures ;
@@ -20474,7 +20474,7 @@ bb:blank221939
     owl:annotatedTarget bb:ExecutionOfDiagnosticAndTherapeuticProcedures .
 
 bb:blank221940
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfDiagnosticAndTherapeuticProcedures ;
@@ -20642,7 +20642,7 @@ bb:blank221963
     owl:annotatedTarget bb:ExecutionOfDiagnosticAndTherapeuticProcedures .
 
 bb:blank221964
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfAQuantitativeStudy ;
@@ -20663,14 +20663,14 @@ bb:blank221966
     owl:annotatedTarget bb:blank220465 .
 
 bb:blank221967
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfAnITEvaluationStudy ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221968
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfAnITEvaluationStudy ;
@@ -20698,7 +20698,7 @@ bb:blank221971
     owl:annotatedTarget bb:blank220468 .
 
 bb:blank221972
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfAnITEvaluationStudy ;
@@ -20719,7 +20719,7 @@ bb:blank221974
     owl:annotatedTarget bb:blank220471 .
 
 bb:blank221975
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfAnITEvaluationStudy ;
@@ -20733,7 +20733,7 @@ bb:blank221976
     owl:annotatedTarget bb:blank220473 .
 
 bb:blank221977
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ExecutionOfAnOperation ;
@@ -20761,7 +20761,7 @@ bb:blank221980
     owl:annotatedTarget bb:Finding .
 
 bb:blank221981
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FacilityManagement ;
@@ -20789,21 +20789,21 @@ bb:blank221984
     owl:annotatedTarget bb:blank220477 .
 
 bb:blank221985
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FacilityAndArea ;
     owl:annotatedTarget bb:AdministrativeEntityType .
 
 bb:blank221986
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FailureManagement ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank221987
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FamilyHistory ;
@@ -20817,20 +20817,20 @@ bb:blank221988
     owl:annotatedTarget bb:NonComputerBasedPhysicalDataProcessingSystem .
 
 bb:blank221989
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Feature .
 
 bb:blank221990
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Feature ;
     owl:annotatedTarget bb:blank220478 .
 
 bb:blank221991
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FederatedDatabaseSchema ;
@@ -20921,14 +20921,14 @@ bb:blank222003
     owl:annotatedTarget bb:blank220487 .
 
 bb:blank222004
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FinancialControlling ;
     owl:annotatedTarget bb:Administration .
 
 bb:blank222005
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FinancialResource ;
@@ -20942,28 +20942,28 @@ bb:blank222006
     owl:annotatedTarget bb:HospitalAdministrationDepartment .
 
 bb:blank222007
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FinancingOfHealthCare ;
     owl:annotatedTarget bb:TransinstitutionalHealthCareFunction .
 
 bb:blank222008
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FinancingOfHealthCare ;
     owl:annotatedTarget bb:blank220488 .
 
 bb:blank222009
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FinancingOfHealthCare ;
     owl:annotatedTarget bb:blank220489 .
 
 bb:blank222010
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FinancingOfHealthCare ;
@@ -21005,14 +21005,14 @@ bb:blank222015
     owl:annotatedTarget bb:blank220493 .
 
 bb:blank222016
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FirstStudyDesign ;
     owl:annotatedTarget bb:EducationResearch .
 
 bb:blank222017
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FirstStudyDesign ;
@@ -21047,13 +21047,13 @@ bb:blank222021
     owl:annotatedTarget bb:NonComputerBasedPhysicalDataProcessingSystem .
 
 bb:blank222022
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Framework .
 
 bb:blank222023
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfLawsRelevantToInformationManagement ;
@@ -21067,63 +21067,63 @@ bb:blank222024
     owl:annotatedTarget bb:QualityOfHISOutcome .
 
 bb:blank222025
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfLawsRelevantToInformationManagement ;
     owl:annotatedTarget bb:blank220497 .
 
 bb:blank222026
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfLawsRelevantToInformationManagement ;
     owl:annotatedTarget bb:blank220498 .
 
 bb:blank222027
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfLawsRelevantToInformationManagement ;
     owl:annotatedTarget bb:blank220499 .
 
 bb:blank222028
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfLawsRelevantToInformationManagement ;
     owl:annotatedTarget bb:blank220500 .
 
 bb:blank222029
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfLawsRelevantToInformationManagement ;
     owl:annotatedTarget bb:blank220501 .
 
 bb:blank222030
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfLawsRelevantToInformationManagement ;
     owl:annotatedTarget bb:blank220502 .
 
 bb:blank222031
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfLawsRelevantToInformationManagement ;
     owl:annotatedTarget bb:blank220503 .
 
 bb:blank222032
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfLawsRelevantToInformationManagement ;
     owl:annotatedTarget bb:blank220504 .
 
 bb:blank222033
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfLawsRelevantToInformationManagement ;
@@ -21137,14 +21137,14 @@ bb:blank222034
     owl:annotatedTarget bb:QualityOfHISOutcome .
 
 bb:blank222035
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfStrategicHospitalGoal ;
     owl:annotatedTarget bb:blank220506 .
 
 bb:blank222036
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FulfillmentOfTheExpectationsOfDifferentStakeholders ;
@@ -21193,7 +21193,7 @@ bb:blank222042
     owl:annotatedTarget bb:Metamodel .
 
 bb:blank222043
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FunctionalModel ;
@@ -21207,7 +21207,7 @@ bb:blank222044
     owl:annotatedTarget bb:blank220508 .
 
 bb:blank222045
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FunctionalPerspective .
@@ -21234,14 +21234,14 @@ bb:blank222048
     owl:annotatedTarget bb:ISO25000SoftwareQuality .
 
 bb:blank222049
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FundingInstitution ;
     owl:annotatedTarget bb:HisStakeholder .
 
 bb:blank222050
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:FundingInstitution ;
@@ -21269,7 +21269,7 @@ bb:blank222053
     owl:annotatedTarget bb:HealthCareInstitution .
 
 bb:blank222054
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:GeneralPractitioner ;
@@ -21304,14 +21304,14 @@ bb:blank222058
     owl:annotatedTarget bb:StrategicHospitalGoal .
 
 bb:blank222059
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:GovernmentalAuthority ;
     owl:annotatedTarget bb:Organization .
 
 bb:blank222060
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisArchitecture ;
@@ -21339,14 +21339,14 @@ bb:blank222063
     owl:annotatedTarget bb:blank220513 .
 
 bb:blank222064
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisBenchmarking ;
     owl:annotatedTarget bb:Benchmarking .
 
 bb:blank222065
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisBenchmarking ;
@@ -21367,7 +21367,7 @@ bb:blank222067
     owl:annotatedTarget bb:blank220514 .
 
 bb:blank222068
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisBenchmarking ;
@@ -21381,7 +21381,7 @@ bb:blank222069
     owl:annotatedTarget bb:blank220516 .
 
 bb:blank222070
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisBenchmarking ;
@@ -21395,7 +21395,7 @@ bb:blank222071
     owl:annotatedTarget bb:blank220518 .
 
 bb:blank222072
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisBenchmarking ;
@@ -21409,26 +21409,26 @@ bb:blank222073
     owl:annotatedTarget bb:blank220520 .
 
 bb:blank222074
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisBenchmarkingMethod .
 
 bb:blank222075
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisBudgetPlanning ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222076
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisCertificate .
 
 bb:blank222077
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisCertification ;
@@ -21491,13 +21491,13 @@ bb:blank222085
     owl:annotatedTarget bb:blank220528 .
 
 bb:blank222086
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisComponent .
 
 bb:blank222087
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisInfrastructure .
@@ -21517,7 +21517,7 @@ bb:blank222089
     owl:annotatedTarget bb:blank220530 .
 
 bb:blank222091
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HisQuality .
@@ -21530,7 +21530,7 @@ bb:blank222092
     owl:annotatedTarget bb:blank220531 .
 
 bb:blank222093
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7CDA .
@@ -21550,51 +21550,51 @@ bb:blank222095
     owl:annotatedTarget bb:blank220533 .
 
 bb:blank222096
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7EventDescription .
 
 bb:blank222097
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7EventType .
 
 bb:blank222098
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7MessageHeader .
 
 bb:blank222099
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7MessageType .
 
 bb:blank222100
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7MessageType ;
     owl:annotatedTarget bb:MessageType .
 
 bb:blank222101
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7MessageTypeEventTypeCombination .
 
 bb:blank222102
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7MessageTypeEventTypeCombination ;
     owl:annotatedTarget bb:blank220534 .
 
 bb:blank222103
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7MessageTypeEventTypeCombination ;
@@ -21607,7 +21607,7 @@ bb:blank222104
     owl:annotatedSource bb:HL7PatientIdentification .
 
 bb:blank222105
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7PatientVisitInformation .
@@ -21627,7 +21627,7 @@ bb:blank222107
     owl:annotatedTarget bb:DataMetamodel .
 
 bb:blank222108
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7ReferenceInformationModel ;
@@ -21704,7 +21704,7 @@ bb:blank222118
     owl:annotatedTarget bb:blank220541 .
 
 bb:blank222119
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HL7Version3Message .
@@ -21724,7 +21724,7 @@ bb:blank222121
     owl:annotatedTarget bb:NursingProcedure .
 
 bb:blank222122
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HardwareVendor ;
@@ -21738,7 +21738,7 @@ bb:blank222123
     owl:annotatedTarget bb:blank220543 .
 
 bb:blank222124
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HealthCareInstitution ;
@@ -21857,7 +21857,7 @@ bb:blank222140
     owl:annotatedTarget bb:blank220558 .
 
 bb:blank222141
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HealthCareRegulation .
@@ -21919,7 +21919,7 @@ bb:blank222149
     owl:annotatedTarget bb:Organization .
 
 bb:blank222150
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HeterogeneityOfTheHISArchitecture ;
@@ -21933,14 +21933,14 @@ bb:blank222151
     owl:annotatedTarget bb:HisArchitecture .
 
 bb:blank222152
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HomeCareInstitution ;
     owl:annotatedTarget bb:HealthCareInstitution .
 
 bb:blank222153
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HomeOfThePatient ;
@@ -22010,7 +22010,7 @@ bb:blank222162
     owl:annotatedTarget bb:OrganizationalUnitOfAHospital .
 
 bb:blank222163
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalBilling ;
@@ -22052,7 +22052,7 @@ bb:blank222168
     owl:annotatedTarget bb:blank220570 .
 
 bb:blank222169
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalBusinessPlan ;
@@ -22066,7 +22066,7 @@ bb:blank222170
     owl:annotatedTarget bb:blank220571 .
 
 bb:blank222171
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalCost ;
@@ -22094,7 +22094,7 @@ bb:blank222174
     owl:annotatedTarget bb:InstitutionalHealthInformationSystem .
 
 bb:blank222175
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalInformationSystem ;
@@ -22136,7 +22136,7 @@ bb:blank222180
     owl:annotatedTarget bb:blank220577 .
 
 bb:blank222181
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalManagement ;
@@ -22213,7 +22213,7 @@ bb:blank222191
     owl:annotatedTarget bb:blank220588 .
 
 bb:blank222192
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:TopManagement ;
@@ -22234,42 +22234,42 @@ bb:blank222194
     owl:annotatedTarget bb:blank220590 .
 
 bb:blank222195
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalRevenue ;
     owl:annotatedTarget bb:ManagementEntityType .
 
 bb:blank222196
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalService ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank222197
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalStaff ;
     owl:annotatedTarget bb:HisStakeholder .
 
 bb:blank222198
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalStaff ;
     owl:annotatedTarget meta:Role .
 
 bb:blank222199
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalStrategy ;
     owl:annotatedTarget bb:ManagementEntityType .
 
 bb:blank222200
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalStrategy ;
@@ -22439,14 +22439,14 @@ bb:blank222225
     owl:annotatedSource bb:IheDomain .
 
 bb:blank222226
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:IheDomain ;
     owl:annotatedTarget bb:blank220604 .
 
 bb:blank222227
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:IheDomain ;
@@ -22460,14 +22460,14 @@ bb:blank222228
     owl:annotatedTarget bb:ReferenceModel .
 
 bb:blank222229
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:IheIntegrationProfile ;
     owl:annotatedTarget bb:blank220606 .
 
 bb:blank222230
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:IheIntegrationProfile ;
@@ -22502,7 +22502,7 @@ bb:blank222234
     owl:annotatedTarget bb:blank220609 .
 
 bb:blank222235
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:IheTransaction .
@@ -22593,7 +22593,7 @@ bb:blank222248
     owl:annotatedTarget bb:QualityOfComputerBasedApplicationComponentsAndTheirIntegration .
 
 bb:blank222249
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:IsoStandard ;
@@ -22626,7 +22626,7 @@ bb:blank222253
     owl:annotatedTarget bb:Framework .
 
 bb:blank222254
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ItilServiceLifecycle ;
@@ -22675,7 +22675,7 @@ bb:blank222260
     owl:annotatedTarget bb:blank220621 .
 
 bb:blank222261
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ItEvaluationStudy .
@@ -22757,35 +22757,35 @@ bb:blank222272
     owl:annotatedTarget bb:blank220631 .
 
 bb:blank222273
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ItEvaluationStudyManagementAndExecution ;
     owl:annotatedTarget bb:blank220632 .
 
 bb:blank222274
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ItEvaluationStudyManagementAndExecution ;
     owl:annotatedTarget bb:blank220633 .
 
 bb:blank222275
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ItInvestmentJustification ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222276
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ItInvestmentPlanning ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222277
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ItServiceManagement ;
@@ -22860,28 +22860,28 @@ bb:blank222287
     owl:annotatedTarget bb:blank220640 .
 
 bb:blank222288
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ImprovingCustomerCenteredServices ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222289
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:IncidentAnalysis ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222290
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:IncidentManagement ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222291
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:IncidentTaking ;
@@ -22909,7 +22909,7 @@ bb:blank222294
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank222295
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Information .
@@ -22934,7 +22934,7 @@ bb:blank222298
     owl:annotatedTarget bb:blank220643 .
 
 bb:blank222299
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationManagement ;
@@ -22996,7 +22996,7 @@ bb:blank222307
     owl:annotatedTarget bb:blank220651 .
 
 bb:blank222308
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationManagementBoard ;
@@ -23017,7 +23017,7 @@ bb:blank222310
     owl:annotatedTarget bb:blank220653 .
 
 bb:blank222311
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationManagementCost .
@@ -23037,33 +23037,33 @@ bb:blank222313
     owl:annotatedTarget bb:HospitalAdministrationDepartment .
 
 bb:blank222314
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationManagementDepartment ;
     owl:annotatedTarget bb:blank220654 .
 
 bb:blank222315
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationManagement ;
     owl:annotatedTarget bb:HospitalFunction .
 
 bb:blank222316
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationManagementGoal .
 
 bb:blank222317
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationManagementGuideline .
 
 bb:blank222318
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationManagementOperatingCost ;
@@ -23091,7 +23091,7 @@ bb:blank222321
     owl:annotatedTarget bb:blank220657 .
 
 bb:blank222322
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationManagementOrganizationalStructure .
@@ -23138,7 +23138,7 @@ bb:blank222328
     owl:annotatedTarget bb:blank220661 .
 
 bb:blank222329
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationManagementInHospitals ;
@@ -23152,7 +23152,7 @@ bb:blank222330
     owl:annotatedTarget bb:blank220662 .
 
 bb:blank222331
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationProcessing ;
@@ -23173,34 +23173,34 @@ bb:blank222333
     owl:annotatedTarget bb:blank220664 .
 
 bb:blank222334
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationProcessingModel ;
     owl:annotatedTarget bb:Model .
 
 bb:blank222335
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationProcessingTool .
 
 bb:blank222336
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationProcessingToolModelingElement ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank222337
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationStorage ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222338
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationSystem .
@@ -23234,13 +23234,13 @@ bb:blank222342
     owl:annotatedTarget bb:blank220668 .
 
 bb:blank222344
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationSystemEffectiveness .
 
 bb:blank222345
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationSystemImprovement .
@@ -23294,7 +23294,7 @@ bb:blank222352
     owl:annotatedTarget bb:Model .
 
 bb:blank222353
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationSystemSafety .
@@ -23319,7 +23319,7 @@ bb:blank222356
     owl:annotatedTarget bb:blank220675 .
 
 bb:blank222357
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InformationAndKnowledgeLogistics ;
@@ -23381,7 +23381,7 @@ bb:blank222365
     owl:annotatedTarget bb:blank220678 .
 
 bb:blank222366
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InstitutionalHealthInformationSystem ;
@@ -23565,7 +23565,7 @@ bb:blank222394
     owl:annotatedSource bb:IntegrationTechnology .
 
 bb:blank222395
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:IntegrityOfData ;
@@ -23670,7 +23670,7 @@ bb:blank222409
     owl:annotatedTarget bb:blank220702 .
 
 bb:blank222410
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:InternalReportingSystem ;
@@ -23718,7 +23718,7 @@ bb:blank222416
     owl:annotatedTarget bb:InformationManagementCost .
 
 bb:blank222417
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Isolation .
@@ -23777,7 +23777,7 @@ bb:blank222425
     owl:annotatedSource bb:KeyPerformanceIndicator .
 
 bb:blank222426
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Knowledge ;
@@ -23978,7 +23978,7 @@ bb:blank222454
     owl:annotatedTarget bb:blank220714 .
 
 bb:blank222455
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Law .
@@ -23991,13 +23991,13 @@ bb:blank222456
     owl:annotatedTarget bb:QualityOfHISProcesses .
 
 bb:blank222457
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:LegalRequirement .
 
 bb:blank222458
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:LegalRequirement ;
@@ -24011,7 +24011,7 @@ bb:blank222459
     owl:annotatedTarget bb:OrganizationalUnitOfAHospital .
 
 bb:blank222460
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:LifeCycleManagementOfStrategicInformationManagementPlan ;
@@ -24067,13 +24067,13 @@ bb:blank222467
     owl:annotatedTarget bb:NetworkTopology .
 
 bb:blank222468
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:LogicalOperator .
 
 bb:blank222469
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:LogicalOperatorModelingElement ;
@@ -24099,7 +24099,7 @@ bb:blank222472
     owl:annotatedTarget bb:blank220722 .
 
 bb:blank222473
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:LongTermHISPlanning ;
@@ -24120,7 +24120,7 @@ bb:blank222475
     owl:annotatedTarget bb:blank220724 .
 
 bb:blank222476
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:LongTermArchiving ;
@@ -24218,13 +24218,13 @@ bb:blank222489
     owl:annotatedTarget bb:ISO25000SoftwareQuality .
 
 bb:blank222490
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MaintenanceCost .
 
 bb:blank222491
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MakingABackup ;
@@ -24297,7 +24297,7 @@ bb:blank222501
     owl:annotatedTarget bb:OrganizationalUnitOfAHospital .
 
 bb:blank222502
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Management ;
@@ -24318,7 +24318,7 @@ bb:blank222504
     owl:annotatedTarget bb:ManagementDepartment .
 
 bb:blank222505
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ManagementOfMedicalDevices ;
@@ -24346,14 +24346,14 @@ bb:blank222508
     owl:annotatedTarget bb:ManagementDepartment .
 
 bb:blank222509
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ManagementOfUserAccounts ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222510
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MasterApplicationComponent .
@@ -24373,14 +24373,14 @@ bb:blank222512
     owl:annotatedTarget bb:Resource .
 
 bb:blank222513
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MaterialControlling ;
     owl:annotatedTarget bb:Administration .
 
 bb:blank222514
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MaterialAndMedicationManagement ;
@@ -24429,13 +24429,13 @@ bb:blank222520
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank222521
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MediaCrack .
 
 bb:blank222522
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MedicalAdmission ;
@@ -24518,7 +24518,7 @@ bb:blank222533
     owl:annotatedTarget bb:Resource .
 
 bb:blank222534
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MedicalDischargeAndMedicalReportWriting ;
@@ -24721,7 +24721,7 @@ bb:blank222562
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank222563
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MedicalGuideline ;
@@ -24735,7 +24735,7 @@ bb:blank222564
     owl:annotatedTarget bb:InformationManagementStaff .
 
 bb:blank222565
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MedicalKnowledge ;
@@ -24749,7 +24749,7 @@ bb:blank222566
     owl:annotatedTarget bb:Procedure .
 
 bb:blank222567
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MedicalReport ;
@@ -24791,14 +24791,14 @@ bb:blank222572
     owl:annotatedTarget bb:blank220761 .
 
 bb:blank222573
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MedicalService ;
     owl:annotatedTarget bb:HospitalService .
 
 bb:blank222574
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MedicalAndNursingCarePlanning ;
@@ -24934,7 +24934,7 @@ bb:blank222594
     owl:annotatedTarget bb:IntegrationTechnology .
 
 bb:blank222595
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MigrationPath .
@@ -24954,7 +24954,7 @@ bb:blank222597
     owl:annotatedTarget bb:blank220773 .
 
 bb:blank222598
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MixedApproach .
@@ -24981,7 +24981,7 @@ bb:blank222601
     owl:annotatedTarget bb:MobileComputer .
 
 bb:blank222602
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Model .
@@ -25020,7 +25020,7 @@ bb:blank222607
     owl:annotatedTarget bb:Model .
 
 bb:blank222608
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ModelingHospitalInformationSystems ;
@@ -25034,7 +25034,7 @@ bb:blank222609
     owl:annotatedTarget bb:blank220775 .
 
 bb:blank222610
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ModelingInformationSystems ;
@@ -25055,14 +25055,14 @@ bb:blank222612
     owl:annotatedTarget bb:CobitProcess .
 
 bb:blank222613
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MonitorAndEvaluate ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222614
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Monitoring ;
@@ -25111,7 +25111,7 @@ bb:blank222620
     owl:annotatedTarget bb:blank220778 .
 
 bb:blank222621
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MonitoringOfVitalSigns ;
@@ -25124,7 +25124,7 @@ bb:blank222622
     owl:annotatedTarget bb:blank220779 .
 
 bb:blank222623
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:MonitoringTheProjectProgress ;
@@ -25193,7 +25193,7 @@ bb:blank222632
     owl:annotatedTarget bb:NursingClassification .
 
 bb:blank222633
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Network .
@@ -25206,47 +25206,47 @@ bb:blank222634
     owl:annotatedTarget bb:blank220784 .
 
 bb:blank222635
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:NetworkManagement ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222636
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:NetworkMonitoring ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222637
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:NetworkStandard .
 
 bb:blank222638
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:NetworkTopology .
 
 bb:blank222639
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Nomenclature ;
     owl:annotatedTarget bb:SystemOfConcepts .
 
 bb:blank222640
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:NonComputerBasedInformationProcessing ;
     owl:annotatedTarget bb:InformationProcessing .
 
 bb:blank222641
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:NonComputerBasedInformationProcessingTool .
@@ -25489,7 +25489,7 @@ bb:blank222676
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank222677
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:NursingHistory ;
@@ -25683,7 +25683,7 @@ bb:blank222704
     owl:annotatedTarget bb:blank220815 .
 
 bb:blank222705
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Nutrition ;
@@ -25710,7 +25710,7 @@ bb:blank222708
     owl:annotatedTarget bb:HL7MessageType .
 
 bb:blank222709
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ObjectClass ;
@@ -25744,7 +25744,7 @@ bb:blank222713
     owl:annotatedTarget bb:ComputerBasedApplicationComponent .
 
 bb:blank222714
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OpenEHR ;
@@ -25763,7 +25763,7 @@ bb:blank222716
     owl:annotatedTarget bb:Model .
 
 bb:blank222717
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OpenEHROntology .
@@ -26020,14 +26020,14 @@ bb:blank222753
     owl:annotatedTarget bb:TherapeuticDepartment .
 
 bb:blank222754
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OperationalHISDirecting ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank222755
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OperationalHISMonitoring ;
@@ -26041,7 +26041,7 @@ bb:blank222756
     owl:annotatedTarget bb:blank220834 .
 
 bb:blank222757
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OperationalHISPlanning ;
@@ -26090,7 +26090,7 @@ bb:blank222763
     owl:annotatedTarget bb:blank220840 .
 
 bb:blank222764
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OperationalInformationManagement ;
@@ -26297,7 +26297,7 @@ bb:blank222793
     owl:annotatedTarget bb:blank220867 .
 
 bb:blank222794
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OperationalManagementConcept .
@@ -26385,7 +26385,7 @@ bb:blank222806
     owl:annotatedTarget bb:blank220874 .
 
 bb:blank222807
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OrderCatalog ;
@@ -26434,7 +26434,7 @@ bb:blank222813
     owl:annotatedTarget bb:blank220879 .
 
 bb:blank222814
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OrderForm ;
@@ -26448,7 +26448,7 @@ bb:blank222815
     owl:annotatedTarget bb:OrderEntry .
 
 bb:blank222816
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OrganizationOfHealthCare ;
@@ -26496,7 +26496,7 @@ bb:blank222822
     owl:annotatedTarget bb:blank220882 .
 
 bb:blank222823
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OrganizationalPerspective .
@@ -26514,14 +26514,14 @@ bb:blank222825
     owl:annotatedTarget bb:blank220883 .
 
 bb:blank222826
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OrganizationalUnitModelingElement ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank222827
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:OrganizationalUnitOfAHospital ;
@@ -26728,14 +26728,14 @@ bb:blank222856
     owl:annotatedTarget bb:blank220892 .
 
 bb:blank222857
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Pmbok ;
     owl:annotatedTarget bb:ProjectManagementMethod .
 
 bb:blank222858
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PRINCE2 ;
@@ -26776,7 +26776,7 @@ bb:blank222863
     owl:annotatedTarget bb:NonComputerBasedPhysicalDataProcessingSystem .
 
 bb:blank222864
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PastMedicalHistory ;
@@ -27110,14 +27110,14 @@ bb:blank222911
     owl:annotatedTarget bb:blank220914 .
 
 bb:blank222912
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PatientAge ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank222913
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PatientBilling ;
@@ -27207,7 +27207,7 @@ bb:blank222925
     owl:annotatedTarget bb:blank220925 .
 
 bb:blank222926
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PatientCare ;
@@ -27473,7 +27473,7 @@ bb:blank222963
     owl:annotatedTarget bb:FeatureProvideMeansForPreparingACarePlan .
 
 bb:blank222964
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PatientDischargeAndTransferToOtherInstitutions ;
@@ -27501,7 +27501,7 @@ bb:blank222967
     owl:annotatedTarget bb:blank220941 .
 
 bb:blank222968
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PatientHistory ;
@@ -27693,7 +27693,7 @@ bb:blank222995
     owl:annotatedSource bb:PatientLink .
 
 bb:blank222996
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PatientRecord ;
@@ -27742,7 +27742,7 @@ bb:blank223002
     owl:annotatedTarget bb:QuantitativeEvaluationMethod .
 
 bb:blank223003
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PatientState ;
@@ -27762,14 +27762,14 @@ bb:blank223005
     owl:annotatedTarget bb:Resource .
 
 bb:blank223006
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PatientVisitInformation ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank223007
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PayrollAccounting ;
@@ -27804,7 +27804,7 @@ bb:blank223011
     owl:annotatedTarget bb:NonComputerBasedPhysicalDataProcessingSystem .
 
 bb:blank223012
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PerformanceOfApplicationComponents ;
@@ -27898,7 +27898,7 @@ bb:blank223025
     owl:annotatedTarget bb:BusinessProcessModel .
 
 bb:blank223026
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Pharmacy ;
@@ -27919,13 +27919,13 @@ bb:blank223028
     owl:annotatedTarget bb:ComputerBasedApplicationComponent .
 
 bb:blank223029
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PhysicalDataProcessingSystem .
 
 bb:blank223030
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PhysicalDataProcessingSystem ;
@@ -27946,7 +27946,7 @@ bb:blank223032
     owl:annotatedTarget bb:NetworkTopology .
 
 bb:blank223033
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PhysicalToolLayer .
@@ -28085,56 +28085,56 @@ bb:blank223052
     owl:annotatedTarget bb:CobitProcess .
 
 bb:blank223053
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PlanAndOrganize ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223054
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Planning ;
     owl:annotatedTarget bb:Management .
 
 bb:blank223055
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PlanningOfBuildings ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223056
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PlanningOfFinances ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223057
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PlanningOfOrganizationalProcedures ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223058
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PlanningOfOrganizationalStructures ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223059
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PlanningOfRooms ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223060
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PlanningOfStaff ;
@@ -28148,7 +28148,7 @@ bb:blank223061
     owl:annotatedTarget bb:ISO25000SoftwareQuality .
 
 bb:blank223062
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PortfolioManagement ;
@@ -28190,14 +28190,14 @@ bb:blank223067
     owl:annotatedTarget bb:blank220992 .
 
 bb:blank223068
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PreliminaryOutlineOfAStudy ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank223069
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PreparationOfHealthStatistics ;
@@ -28293,28 +28293,28 @@ bb:blank223082
     owl:annotatedTarget bb:Server .
 
 bb:blank223083
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProblemManagement ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223084
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProblemSolving ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223085
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Procedure ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank223086
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProcedureClass ;
@@ -28349,7 +28349,7 @@ bb:blank223090
     owl:annotatedTarget bb:blank221003 .
 
 bb:blank223091
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProcessControlling ;
@@ -28377,7 +28377,7 @@ bb:blank223094
     owl:annotatedTarget bb:blank221005 .
 
 bb:blank223095
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Project .
@@ -28425,26 +28425,26 @@ bb:blank223101
     owl:annotatedTarget bb:blank221011 .
 
 bb:blank223102
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223103
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectCompletionPhase .
 
 bb:blank223104
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectConflictManagement ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223105
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectExecution ;
@@ -28472,7 +28472,7 @@ bb:blank223108
     owl:annotatedTarget bb:blank221014 .
 
 bb:blank223109
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectExecution ;
@@ -28485,26 +28485,26 @@ bb:blank223110
     owl:annotatedTarget bb:blank221016 .
 
 bb:blank223111
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectExecutionModule .
 
 bb:blank223112
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectInitiation ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223113
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectInitiationPhase .
 
 bb:blank223114
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectManagementBoard .
@@ -28559,13 +28559,13 @@ bb:blank223121
     owl:annotatedTarget bb:blank221023 .
 
 bb:blank223122
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectManagementMethod .
 
 bb:blank223123
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectManager ;
@@ -28579,33 +28579,33 @@ bb:blank223124
     owl:annotatedTarget bb:blank221024 .
 
 bb:blank223125
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectMonitoring ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223126
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectPlan .
 
 bb:blank223127
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectPlanning ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223128
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectPlanningPhase .
 
 bb:blank223129
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectPortfolio .
@@ -28618,20 +28618,20 @@ bb:blank223130
     owl:annotatedTarget bb:blank221025 .
 
 bb:blank223131
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectResourceAllocation ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223132
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectResult .
 
 bb:blank223133
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProjectTimeAllocation ;
@@ -28645,14 +28645,14 @@ bb:blank223134
     owl:annotatedTarget bb:Client .
 
 bb:blank223135
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ProvidingCustomerCenteredServices ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223136
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PublishingAndPresentation ;
@@ -28673,7 +28673,7 @@ bb:blank223138
     owl:annotatedTarget bb:blank221027 .
 
 bb:blank223139
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:QualifiedElectronicSignature .
@@ -28728,14 +28728,14 @@ bb:blank223146
     owl:annotatedTarget bb:blank221030 .
 
 bb:blank223147
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Quality ;
     owl:annotatedTarget bb:ManagementEntityType .
 
 bb:blank223148
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:QualityAssessment ;
@@ -28811,7 +28811,7 @@ bb:blank223158
     owl:annotatedTarget bb:blank221039 .
 
 bb:blank223159
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:QualityReport ;
@@ -28908,7 +28908,7 @@ bb:blank223172
     owl:annotatedTarget bb:QualityOfITServiceManagement .
 
 bb:blank223173
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:QualityOfInformationManagement .
@@ -29178,21 +29178,21 @@ bb:blank223211
     owl:annotatedTarget bb:TherapeuticProcedure .
 
 bb:blank223212
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:RecommendationsForFurtherTreatment ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank223213
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:RecruitmentOfPatients ;
     owl:annotatedTarget bb:EducationResearch .
 
 bb:blank223214
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ReferenceModel .
@@ -29329,7 +29329,7 @@ bb:blank223233
     owl:annotatedTarget bb:PatientCare .
 
 bb:blank223234
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ReportAndPublicationOfStudy ;
@@ -29350,7 +29350,7 @@ bb:blank223236
     owl:annotatedTarget bb:blank221063 .
 
 bb:blank223237
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ReportingToTheCEO ;
@@ -29370,7 +29370,7 @@ bb:blank223239
     owl:annotatedTarget bb:blank221064 .
 
 bb:blank223240
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:RequirementOfHISStakeholder .
@@ -29479,14 +29479,14 @@ bb:blank223255
     owl:annotatedTarget bb:blank221075 .
 
 bb:blank223256
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:EducationResearch ;
     owl:annotatedTarget bb:HospitalFunction .
 
 bb:blank223257
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Resource ;
@@ -29514,7 +29514,7 @@ bb:blank223260
     owl:annotatedTarget bb:PhysicalNetworkTopology .
 
 bb:blank223261
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:RiskManagement ;
@@ -29528,7 +29528,7 @@ bb:blank223262
     owl:annotatedTarget bb:blank221076 .
 
 bb:blank223263
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:RobotSystem ;
@@ -29542,7 +29542,7 @@ bb:blank223264
     owl:annotatedTarget bb:blank221077 .
 
 bb:blank223265
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:RoleModelingElement ;
@@ -29583,7 +29583,7 @@ bb:blank223270
     owl:annotatedTarget bb:blank221078 .
 
 bb:blank223271
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Saps ;
@@ -29660,7 +29660,7 @@ bb:blank223281
     owl:annotatedTarget bb:blank221085 .
 
 bb:blank223282
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SoaService .
@@ -29680,7 +29680,7 @@ bb:blank223284
     owl:annotatedTarget bb:blank221086 .
 
 bb:blank223285
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Sample ;
@@ -29807,7 +29807,7 @@ bb:blank223303
     owl:annotatedTarget bb:ItSupport .
 
 bb:blank223304
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SecondLevelSupport ;
@@ -29890,14 +29890,14 @@ bb:blank223315
     owl:annotatedTarget bb:AdministrativeEntityType .
 
 bb:blank223316
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ServiceAssetManagement ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223317
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ServiceCatalog ;
@@ -29911,14 +29911,14 @@ bb:blank223318
     owl:annotatedTarget bb:blank221104 .
 
 bb:blank223319
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ServiceDesign ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223320
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ServiceDeskManagement ;
@@ -29952,7 +29952,7 @@ bb:blank223324
     owl:annotatedTarget bb:blank221107 .
 
 bb:blank223325
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ServiceOperation ;
@@ -29980,14 +29980,14 @@ bb:blank223328
     owl:annotatedTarget bb:blank221110 .
 
 bb:blank223329
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ServiceStrategy ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223330
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ServiceTransition ;
@@ -30022,7 +30022,7 @@ bb:blank223334
     owl:annotatedTarget bb:NonSignalBasedTransmittingMedium .
 
 bb:blank223335
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ShortTermHISPlanning ;
@@ -30050,7 +30050,7 @@ bb:blank223338
     owl:annotatedTarget bb:TransmittingMedium .
 
 bb:blank223339
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SingleSignOn .
@@ -30063,21 +30063,21 @@ bb:blank223340
     owl:annotatedTarget bb:NursingProcedure .
 
 bb:blank223341
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SocialContact ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank223342
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SocialHistory ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank223343
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SocioTechnicalSystem .
@@ -30097,14 +30097,14 @@ bb:blank223345
     owl:annotatedTarget bb:blank221116 .
 
 bb:blank223346
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SoftwareDevelopment ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223347
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SoftwareErgonomics ;
@@ -30118,7 +30118,7 @@ bb:blank223348
     owl:annotatedTarget bb:blank221117 .
 
 bb:blank223349
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SoftwareProduct .
@@ -30149,7 +30149,7 @@ bb:blank223353
     owl:annotatedTarget bb:blank221119 .
 
 bb:blank223354
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SelfDevelopedSoftware ;
@@ -30163,7 +30163,7 @@ bb:blank223355
     owl:annotatedTarget bb:UmlAssociation .
 
 bb:blank223356
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StabilityOfApplicationComponents ;
@@ -30176,14 +30176,14 @@ bb:blank223357
     owl:annotatedTarget bb:Administration .
 
 bb:blank223358
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StaffCost ;
     owl:annotatedTarget bb:AdministrativeEntityType .
 
 bb:blank223359
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Standard .
@@ -30196,7 +30196,7 @@ bb:blank223360
     owl:annotatedTarget bb:blank221120 .
 
 bb:blank223361
-    bb:tripelPage "manuell ergänzt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell ergänzt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StandardizationByCEN ;
@@ -30299,7 +30299,7 @@ bb:blank223375
     owl:annotatedTarget bb:blank221127 .
 
 bb:blank223377
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicAlignment ;
@@ -30327,7 +30327,7 @@ bb:blank223380
     owl:annotatedTarget bb:blank221130 .
 
 bb:blank223381
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicAlignment ;
@@ -30341,34 +30341,34 @@ bb:blank223382
     owl:annotatedTarget bb:blank221132 .
 
 bb:blank223383
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicAlignmentModel ;
     owl:annotatedTarget bb:Model .
 
 bb:blank223384
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicDecision .
 
 bb:blank223385
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicGoalOfTheInstitution ;
     owl:annotatedTarget bb:ManagementEntityType .
 
 bb:blank223386
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicGoalOfTheNetwork ;
     owl:annotatedTarget bb:ManagementEntityType .
 
 bb:blank223387
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicHISDirecting ;
@@ -30459,7 +30459,7 @@ bb:blank223399
     owl:annotatedTarget bb:blank221144 .
 
 bb:blank223400
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicHISMonitoring ;
@@ -30487,7 +30487,7 @@ bb:blank223403
     owl:annotatedTarget bb:blank221147 .
 
 bb:blank223404
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicHISMonitoring ;
@@ -30521,7 +30521,7 @@ bb:blank223408
     owl:annotatedTarget bb:blank221152 .
 
 bb:blank223409
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicHISMonitoring ;
@@ -30535,13 +30535,13 @@ bb:blank223410
     owl:annotatedTarget bb:blank221154 .
 
 bb:blank223411
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicHISMonitoringResult .
 
 bb:blank223412
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicHISPlanning ;
@@ -30603,14 +30603,14 @@ bb:blank223420
     owl:annotatedTarget bb:ManagementEntityType .
 
 bb:blank223421
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicInformationManagement ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223422
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicInformationManagement ;
@@ -30701,13 +30701,13 @@ bb:blank223434
     owl:annotatedTarget bb:blank221173 .
 
 bb:blank223435
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicInformationManagementGoal .
 
 bb:blank223436
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StrategicInformationManagementPlan .
@@ -30755,14 +30755,14 @@ bb:blank223442
     owl:annotatedTarget bb:blank221179 .
 
 bb:blank223443
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StructuralQualityAssessment ;
     owl:annotatedTarget bb:StrategicHISMonitoring .
 
 bb:blank223444
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Study ;
@@ -30797,14 +30797,14 @@ bb:blank223448
     owl:annotatedTarget bb:blank221183 .
 
 bb:blank223449
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StudyDesign ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank223450
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StudyExploration ;
@@ -30825,35 +30825,35 @@ bb:blank223452
     owl:annotatedTarget bb:blank221185 .
 
 bb:blank223453
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StudyHypothesis ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank223454
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StudyObjective ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank223455
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StudyOutline ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank223456
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StudyParticipant ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank223457
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StudyPlan ;
@@ -30866,7 +30866,7 @@ bb:blank223458
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank223459
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:StudyResult ;
@@ -30976,14 +30976,14 @@ bb:blank223474
     owl:annotatedTarget bb:blank221191 .
 
 bb:blank223475
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:System ;
     owl:annotatedTarget meta:EntityType .
 
 bb:blank223476
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SystemAnalysis ;
@@ -30997,7 +30997,7 @@ bb:blank223477
     owl:annotatedTarget bb:ProjectExecution .
 
 bb:blank223478
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SystemEvaluation ;
@@ -31011,7 +31011,7 @@ bb:blank223479
     owl:annotatedTarget bb:ProjectExecution .
 
 bb:blank223480
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SystemIntroduction ;
@@ -31032,7 +31032,7 @@ bb:blank223482
     owl:annotatedTarget bb:blank221192 .
 
 bb:blank223483
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SystemSelection ;
@@ -31046,7 +31046,7 @@ bb:blank223484
     owl:annotatedTarget bb:ProjectExecutionModule .
 
 bb:blank223485
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SystemSpecification ;
@@ -31067,7 +31067,7 @@ bb:blank223487
     owl:annotatedTarget bb:blank221193 .
 
 bb:blank223488
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SystemOfConcepts .
@@ -31080,21 +31080,21 @@ bb:blank223490
     owl:annotatedTarget bb:blank221194 .
 
 bb:blank223491
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:SystemsReview ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank223492
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:T3ApplicationServer ;
     owl:annotatedTarget bb:Server .
 
 bb:blank223493
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:T3DatabaseServer ;
@@ -31108,7 +31108,7 @@ bb:blank223494
     owl:annotatedTarget bb:DocumentStandard .
 
 bb:blank223495
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Tiss ;
@@ -31122,7 +31122,7 @@ bb:blank223496
     owl:annotatedTarget bb:MobileComputer .
 
 bb:blank223497
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:TacticalHISDirecting ;
@@ -31143,7 +31143,7 @@ bb:blank223499
     owl:annotatedTarget bb:blank221196 .
 
 bb:blank223500
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:TacticalHISMonitoring ;
@@ -31164,7 +31164,7 @@ bb:blank223502
     owl:annotatedTarget bb:blank221198 .
 
 bb:blank223503
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:TacticalHISPlanning ;
@@ -31185,7 +31185,7 @@ bb:blank223505
     owl:annotatedTarget bb:blank221200 .
 
 bb:blank223506
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:TacticalInformationManagement ;
@@ -31363,7 +31363,7 @@ bb:blank223531
     owl:annotatedTarget bb:TransinstitutionalHealthCareFunction .
 
 bb:blank223532
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Teleradiology ;
@@ -31522,7 +31522,7 @@ bb:blank223556
     owl:annotatedTarget bb:blank221224 .
 
 bb:blank223557
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Transcription .
@@ -31535,28 +31535,28 @@ bb:blank223558
     owl:annotatedTarget bb:blank221225 .
 
 bb:blank223559
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Transfer ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank223560
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:TransferDiagnosis ;
     owl:annotatedTarget bb:Diagnosis .
 
 bb:blank223561
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:TransinstitutionalHealthCareFunction ;
     owl:annotatedTarget meta:Function .
 
 bb:blank223562
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:TransinstitutionalHealthInformationSystem ;
@@ -31605,7 +31605,7 @@ bb:blank223568
     owl:annotatedTarget bb:blank221231 .
 
 bb:blank223569
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:TransmittingMedium .
@@ -31645,7 +31645,7 @@ bb:blank223574
     owl:annotatedTarget bb:LogicalNetworkTopology .
 
 bb:blank223575
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:TroubleShootingInItServiceManagement ;
@@ -31666,7 +31666,7 @@ bb:blank223577
     owl:annotatedTarget bb:SystemOfConcepts .
 
 bb:blank223578
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UmlAbstractClass .
@@ -31679,26 +31679,26 @@ bb:blank223579
     owl:annotatedTarget bb:BusinessProcessModel .
 
 bb:blank223580
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UmlAssociation ;
     owl:annotatedTarget bb:ResearchAndEducationEntityType .
 
 bb:blank223581
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UmlAssociationClass .
 
 bb:blank223582
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UmlAttribute .
 
 bb:blank223583
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UmlClass .
@@ -31718,7 +31718,7 @@ bb:blank223585
     owl:annotatedTarget bb:blank221234 .
 
 bb:blank223586
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UmlClassDiagram ;
@@ -31753,7 +31753,7 @@ bb:blank223590
     owl:annotatedTarget bb:blank221238 .
 
 bb:blank223591
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UmlMethod .
@@ -31787,7 +31787,7 @@ bb:blank223595
     owl:annotatedTarget bb:QualitativeInterview .
 
 bb:blank223596
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UpdatingTheStrategicInformationManagementPlan ;
@@ -31808,14 +31808,14 @@ bb:blank223598
     owl:annotatedTarget bb:EvaluationMethod .
 
 bb:blank223599
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UseOfStrategicInformationManagementPlan ;
     owl:annotatedTarget bb:InformationManagement .
 
 bb:blank223600
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UserRequirementsAnalysis ;
@@ -31836,7 +31836,7 @@ bb:blank223602
     owl:annotatedTarget bb:QuantitativeEvaluationMethod .
 
 bb:blank223603
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:UserTraining ;
@@ -31924,13 +31924,13 @@ bb:blank223615
     owl:annotatedTarget bb:Server .
 
 bb:blank223616
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Virtualization .
 
 bb:blank223617
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:VisitorAndInformationService ;
@@ -31951,7 +31951,7 @@ bb:blank223619
     owl:annotatedTarget bb:blank221244 .
 
 bb:blank223620
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:VitalSign ;
@@ -31965,7 +31965,7 @@ bb:blank223621
     owl:annotatedTarget bb:VendorStyle .
 
 bb:blank223622
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:Ward ;
@@ -31993,7 +31993,7 @@ bb:blank223625
     owl:annotatedTarget bb:Server .
 
 bb:blank223626
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:WorkOrganizationAndTimeManagement ;
@@ -32035,7 +32035,7 @@ bb:blank223631
     owl:annotatedTarget bb:TimeMeasurement .
 
 bb:blank223632
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:WorkingList ;
@@ -32056,7 +32056,7 @@ bb:blank223634
     owl:annotatedTarget bb:ComputerBasedTool .
 
 bb:blank223635
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:WoundCare ;
@@ -32070,7 +32070,7 @@ bb:blank223636
     owl:annotatedTarget bb:NursingProcedure .
 
 bb:blank223637
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:WrittenAgreementOnTheStudyOutline ;
@@ -32091,7 +32091,7 @@ bb:blank223639
     owl:annotatedTarget bb:ArchitecturalStyleOfThePhysicalToolLayer .
 
 bb:blank223640
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/199993EG> ;
@@ -32112,7 +32112,7 @@ bb:blank223642
     owl:annotatedTarget bb:blank221251 .
 
 bb:blank223643
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/2PhaseCommitProtocol> ;
@@ -32301,7 +32301,7 @@ bb:blank223669
     owl:annotatedTarget <bb/3LGM2ApplicationComponent> .
 
 bb:blank223670
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2DataTransmissionConnection> ;
@@ -32322,7 +32322,7 @@ bb:blank223672
     owl:annotatedTarget bb:blank221268 .
 
 bb:blank223673
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2DomainLayer> .
@@ -32377,7 +32377,7 @@ bb:blank223680
     owl:annotatedTarget bb:blank221274 .
 
 bb:blank223681
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2EntityType> ;
@@ -32391,7 +32391,7 @@ bb:blank223682
     owl:annotatedTarget bb:blank221275 .
 
 bb:blank223683
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2InformationProcess> .
@@ -32404,7 +32404,7 @@ bb:blank223684
     owl:annotatedTarget bb:blank221276 .
 
 bb:blank223685
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2InformationProcess> ;
@@ -32425,7 +32425,7 @@ bb:blank223687
     owl:annotatedTarget bb:UmlClass .
 
 bb:blank223688
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2LogicalToolLayer> .
@@ -32508,7 +32508,7 @@ bb:blank223699
     owl:annotatedTarget bb:UmlClass .
 
 bb:blank223700
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2PhysicalToolLayer> .
@@ -32591,14 +32591,14 @@ bb:blank223711
     owl:annotatedTarget bb:UmlAssociationClass .
 
 bb:blank223712
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2Tool> ;
     owl:annotatedTarget bb:ComputerBasedApplicationComponent .
 
 bb:blank223713
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2Tool> ;
@@ -32675,14 +32675,14 @@ bb:blank223723
     owl:annotatedTarget bb:blank221297 .
 
 bb:blank223724
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2MCommunicationStandard> ;
     owl:annotatedTarget bb:UmlClass .
 
 bb:blank223725
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2MMessageType> ;
@@ -32745,14 +32745,14 @@ bb:blank223733
     owl:annotatedTarget <bb/3LGM2CommunicationInterface> .
 
 bb:blank223734
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2SService> ;
     owl:annotatedTarget bb:UmlClass .
 
 bb:blank223735
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource <bb/3LGM2SServiceClass> ;
@@ -32766,21 +32766,21 @@ bb:blank223736
     owl:annotatedTarget bb:EconomicAnalysis .
 
 bb:blank223737
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:CostBenefitAnalysis ;
     owl:annotatedTarget bb:QuantitativeEvaluationMethod .
 
 bb:blank223738
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalService ;
     owl:annotatedTarget bb:ManagementEntityType .
 
 bb:blank223739
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:HospitalsBoardOfDirectors ;
@@ -32849,14 +32849,14 @@ bb:blank223748
     owl:annotatedTarget bb:DocumentStandard .
 
 bb:blank223749
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:PatientsRelatives ;
     owl:annotatedTarget bb:PatientCareEntityType .
 
 bb:blank223750
-    bb:tripelPage "manuell hinzugefügt"^^xsd:positiveInteger ;
+    bb:tripelPage "manuell hinzugefügt"@de ;
     a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:ReportToTheHospitalsBoardOfDirectors ;
