@@ -3465,7 +3465,7 @@ he:DurchfuehrenderProjektplanung
     meta:consolidated false ;
     meta:subTopClass meta:Function ;
     a owl:Class ;
-    rdfs:label "Durchführen der Projektplanung"@de, "Machbarkeitsstudie"@en ;
+    rdfs:label "Durchführen der Projektplanung"@de, "Machbarkeitsstudie"@de ;
     rdfs:subClassOf meta:Function ;
     skos:definition "Zweck ist es die mit der Realisierung der Projektideen verbundenen Konsequenzen bezüglich Zeit (zeitpunkte und Zeiträume) Budget Personal Methoden Werkzeuge und sonstige Ressourcen zu ermitteln; damit werden die Voraussetzungen für eine realistische Evaluierung geschaffen."@de .
 
