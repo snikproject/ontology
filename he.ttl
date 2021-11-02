@@ -8269,7 +8269,7 @@ he:KostenNutzenAnalyse
     meta:subTopClass meta:Function ;
     meta:updates he:Evaluierungskriterium, he:Wirtschaftlichkeit ;
     a owl:Class ;
-    rdfs:label "\"KNA\""@en, "KANN"@en, "Kosten-Nutzen-Analyse"@de .
+    rdfs:label "KNA"@da, "KANN"@da, "Kosten-Nutzen-Analyse"@de .
 
 he:Kostenart
     he:page "459"^^xsd:positiveInteger ;
@@ -8277,7 +8277,7 @@ he:Kostenart
     meta:consolidated false ;
     meta:subTopClass meta:EntityType ;
     a owl:Class ;
-    rdfs:label "Cost Item"@en, "Cost item"@en, "Kostenart"@de ;
+    rdfs:label "Cost Item"@en, "Kostenart"@de ;
     rdfs:subClassOf meta:EntityType ;
     skos:definition "Ergebnis der Zerlegung von Kosten nach Art des Verbrauchs an Gütern und/oder Diensten"@de, "Ergebnis der Zerlegung von Kosten nach der Art des Verbrauchs an Ressourcen."@de .
 
