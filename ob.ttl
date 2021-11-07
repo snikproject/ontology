@@ -7140,15 +7140,9 @@ ob:ToDoList
     meta:chapter ob:Chapter5-3 ;
     meta:subTopClass meta:EntityType ;
     a owl:Class ;
-    rdfs:label "Aufgabenliste"@de, "To-do List"@en ;
+    rdfs:label "Aufgabenliste"@de, "To Do List"@en ;
     rdfs:subClassOf meta:EntityType ;
     skos:definition "In einer Aufgabenliste werden für jeden Projektmitarbeiter die Arbeitspakete, für die er die Verantwortung übernommen hat, als einfache Aufzählung dargestellt, ebenso wie die Arbeitspakete, an denen er mitarbeiten wird."@de .
-
-ob:TodoList
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
-    rdfs:label "Todo List"@en ;
-    rdfs:subClassOf meta:EntityType .
 
 ob:Tool
     meta:chapter ob:Chapter8-3 ;
