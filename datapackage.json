@@ -3,27 +3,27 @@
   "title": "SNIK",
   "resources": [
     {
-      "path": "bb.nt",
+      "path": "bb.ttl",
       "pathType": "local",
       "name": "bb",
-      "format": "nt",
-      "mediatype": "application/n-triples",
+      "format": "ttl",
+      "mediatype": "text/turtle",
       "encoding": "UTF-8"
     },
     {
-      "path": "ciox.nt",
+      "path": "ciox.ttl",
       "pathType": "local",
       "name": "ciox",
-      "format": "nt",
-      "mediatype": "application/n-triples",
+      "format": "ttl",
+      "mediatype": "text/turtle",
       "encoding": "UTF-8"
     },
     {
-      "path": "he.nt",
+      "path": "he.ttl",
       "pathType": "local",
       "name": "he",
-      "format": "nt",
-      "mediatype": "application/n-triples",
+      "format": "ttl",
+      "mediatype": "text/turtle",
       "encoding": "UTF-8"
     },
     {
@@ -35,11 +35,11 @@
       "encoding": "UTF-8"
     },
     {
-      "path": "it4it.nt",
+      "path": "it4it.ttl",
       "pathType": "local",
       "name": "it4it",
-      "format": "nt",
-      "mediatype": "application/n-triples",
+      "format": "ttl",
+      "mediatype": "text/turtle",
       "encoding": "UTF-8"
     },
     {
@@ -59,11 +59,11 @@
       "encoding": "UTF-8"
     },
     {
-      "path": "ob.nt",
+      "path": "ob.ttl",
       "pathType": "local",
       "name": "ob",
-      "format": "nt",
-      "mediatype": "application/n-triples",
+      "format": "ttl",
+      "mediatype": "text/turtle",
       "encoding": "UTF-8"
     },
     {
