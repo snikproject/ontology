@@ -1,0 +1,11 @@
+files="bb.ttl ob.ttl ciox.ttl he.ttl it4it.ttl limes.nt match.nt meta.ttl"
+fileArray=("bb.ttl" "ob.ttl" "ciox.ttl" "he.ttl" "it4it.ttl" "limes.nt" "match.nt" "meta.ttl")
+cd ..
+zip snik.zip $files
+echo "" > /tmp/snik.nt
+for f in "${fileArray[@]}"
+do
+	rapper -q -i turtle -o ntriples $f >> /tmp/snik.nt
+done
+grep -v "^$" /tmp/snik.nt | wc -l
+cd scripts
