@@ -5,6 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ov: <http://open.vocab.org/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/>.
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -12,14 +13,27 @@
 
 <http://www.snik.eu/ontology/meta>
     ov:defines :ApplicationComponent, :ComputerBasedApplicationComponent, :DataSetType, :EntityType, :Function, :Method, :MethodApplication, :RepresentationType, :Role, :SoftwareProduct, :Subfunction, :Top, :approvesEntityType, :approvesFunction, :communicatesWith, :decreases, :entityTypeComponent, :functionComponent, :increases, :isAssociatedWith, :isBasedOn, :isInvolvedIn, :isResponsibleFor, :isResponsibleForEntityType, :isResponsibleForFunction, :isResponsibleForRole, :quality, :represents, :roleComponent, :softwareProduct, :subTopClass, :supports, :updates, :uses , :Chapter, :chapter, :chapterNumber, :firstPage, :lastPage, :book, :subChapterOf, :component, :approves, :accesses, :changes;
-    dc:modified "2021-07-29"^^xsd:date ;
-    dc:source <http://www.snik.eu/mapping> ;
+    dc:modified "2021-11-21"^^xsd:date ;
+    dc:source <http://www.snik.eu> ;
+    dc:publisher <http://www.snik.eu> ;
+    bibo:status <http://purl.org/ontology/bibo/status/published>;
     dc:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+    dc:creator "<a href='http://www.people.imise.uni-leipzig.de/alfred.winter/'>Prof. Dr. Alfred Winter</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>",
+               "<a href='https://se.ifi.uni-heidelberg.de/people/barbara_paech.html'>Prof. Dr. Barbara Paech</a>, <a href='https://se.ifi.uni-heidelberg.de/'>Universität Heidelberg, Institut für Informatik, Lehrstuhl Software Engineering, Germany</a>",
+               "<a href='https://github.com/KonradHoeffner'>Dr. Konrad Höffner</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>",
+               "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Franziska_Jahn'>Franziska Jahn</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>",
+               "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Birgit_Schneider'>Dr. Birgit Schneider</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>",
+               "<a href='https://orcid.org/0000-0001-5608-482X'>Prof. Dr. Christian Kücherer</a>, <a href='https://www.reutlingen-university.de/home'>Hochschule Reutlingen, Germany</a>",
+               "<a href='https://github.com/ThomasPause'>Thomas Pause</a>, formerly <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>";
     vann:preferredNamespacePrefix "meta" ;
     vann:preferredNamespaceUri <http://www.snik.eu/ontology/meta/> ;
     a owl:Ontology ;
     rdfs:label "SNIK Meta Ontology"@en ;
-    owl:versionInfo "1.0.0" ;
+    dcterms:abstract "Ein semantisches Netz des integrierten Informationsmanagements im Krankenhaus (SNIK), welches Begriffe des Informationsmanagements und deren Beziehungen untereinander beschreibt"@de,
+                     "Textbooks about information management in hospitals describe the planning, monitoring and directing of a hospital’s information system. SNIK consists of the manually transformed content of three such textbooks as Linked Open Data. The data model describes information management functions, roles executing these functions and the information used or updated by these functions. We publish the result over several different interfaces that are useful for researchers, information system administrators or students, depending on their objectives and their capabilities."@en;
+    #rdfs:comment "SNIK consists of the manually transformed content of three textbooks as Linked Open Data."@en; 
+    rdfs:comment "Textbooks about information management in hospitals describe the planning, monitoring and directing of a hospital’s information system. SNIK consists of the manually transformed content of three such textbooks as Linked Open Data. The data model describes information management functions, roles executing these functions and the information used or updated by these functions. We publish the result over several different interfaces that are useful for researchers, information system administrators or students, depending on their objectives and their capabilities."@en;
+    owl:versionInfo "1.3.0" ;
     foaf:homepage <http://www.snik.eu> .
 
 :ApplicationComponent
