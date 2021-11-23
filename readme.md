@@ -1,6 +1,6 @@
 # SNIK Ontology
 
-SNIK is an ontology of information management in hospitals.
+SNIK is an ontology of information management in hospitals that consists of a meta model and several subontologies.
 
 ## See Also
 
@@ -20,17 +20,23 @@ SNIK is an ontology of information management in hospitals.
 |ciox.ttl	| CIOX | Hospital Interviews ||
 |it4it.ttl	| IT4IT | Standard||
 
-## Editing
+## Setup your own SPARQL Endpoint
 
-* Edit only with a text editor.
-* Please make sure that you produce the smallest diff possible for your changes, e.g. don't use a tool that shuffles the definition locations around or changes line endings or indentation.
-* Verify after editing with:
-    
-    rapper -i turtle -c filename.ttl
+### KBox
+For testing you can setup a local SPARQL endpoint with a single command using KBox, which you can install using `pip install kbox` or using docker, which we show here:
 
-## Filling your own SPARQL Endpoint
-If you do not need the graph group and subgraphs, you can run `scripts/combine` to merge everything into one file `/tmp/snik.ttl`, which you an upload to the graph `http://www.snik.eu/ontology`, otherwise:
+```
+docker run -p 8080:8080 aksw/kbox:v0.0.2-alpha -server -kb "http://www.snik.eu/ontology" -install
+```
 
+Ignore the message and open `http://localhost:8080/` in a browser.
+
+### Existing Virtuoso SPARQL Endpoint
+
+#### All in one Graph
+Run `scripts/combine` to merge everything into one file `/tmp/snik.ttl`, which you can upload to the graph `http://www.snik.eu/ontology`.
+
+#### Graph Group and Subgraphs
 1. Go to “Linked Data”->"Quad Store Upload” and upload the files.
 
 |File| Graph|
@@ -45,18 +51,36 @@ If you do not need the graph group and subgraphs, you can run `scripts/combine` 
 
 Check if it worked by querying `select count(*) {?s ?p ?o.}` for each graph.
 
-2. Add graphs to graph group in the Virtuoso Conductor ISQL panel
+2. Add graphs to the graph group in the Virtuoso Conductor ISQL panel and create the namespaces
 
-	DB.DBA.RDF_GRAPH_GROUP_CREATE('http://www.snik.eu/ontology');
-    DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/bb');
-    DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/ob');
-    DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/meta');
-    DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/ciox');
+		DB.DBA.RDF_GRAPH_GROUP_CREATE('http://www.snik.eu/ontology');
+		DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/bb');
+		DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/ob');
+		DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/meta');
+		DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/ciox');
+		DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/it4it');
+		DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/he');
+		DB.DBA.XML_SET_NS_DECL ('sniko', 'http://www.snik.eu/ontology/', 2);                
+		DB.DBA.XML_SET_NS_DECL ('meta', 'http://www.snik.eu/ontology/meta/', 2);
+		DB.DBA.XML_SET_NS_DECL ('bb', 'http://www.snik.eu/ontology/bb/', 2);
+		DB.DBA.XML_SET_NS_DECL ('ob', 'http://www.snik.eu/ontology/ob/', 2);
+		DB.DBA.XML_SET_NS_DECL ('he', 'http://www.snik.eu/ontology/he/', 2);
+		DB.DBA.XML_SET_NS_DECL ('ciox', 'http://www.snik.eu/ontology/ciox/', 2);
+		DB.DBA.XML_SET_NS_DECL ('it4it', 'http://www.snik.eu/ontology/it4it/', 2);
 
 3. (Optional) Add virtual Triples
    1. Query `scripts/sparql/construct_virtual_triples_and_missing.sparql.txt` as N-Triples
    2. Upload the result to the graph `http://www.snik.eu/ontology/virtual`
 
+## Editing for Project Members
+
+* Edit only with a text editor.
+* Please make sure that you produce the smallest diff possible for your changes, e.g. don't use a tool that shuffles the definition locations around or changes line endings or indentation.
+* Verify after editing with:
+    
+    rapper -i turtle -c filename.ttl
+
 ## License
 Because we extracted the triples from copyrighted books with permission of the publishers, we chose a noncommercial license with copyleft, the *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International*, see LICENCE for details.
-We want to encourage reuse, modification, derivation and distribution as much as possible, so if that license is a problem for you please contact [Prof. Winter](www.people.imise.uni-leipzig.de/alfred.winter) and we try our best to find a solution.
+The tools developed in the SNIK project have the same license for simplicity's sake and there was never a reason to change it.
+However we want to encourage reuse, modification, derivation and distribution as much as possible, so if that license is a problem for you please contact [Prof. Winter](www.people.imise.uni-leipzig.de/alfred.winter) and we try our best to find a solution.
