@@ -7,6 +7,7 @@
 |ob.ttl		|Orange Book |IT-Projektmanagement im Gesundheitswesen, E. Ammenwerth et al. ||
 |he.ttl	|  Heinrich| Informationsmanagement: Grundlagen Aufgaben Methoden, L.J. Heinrich et al. ||
 |ciox.ttl	| CIOX | Hospital Interviews ||
+|it4it.ttl	| IT4IT | Standard||
 
 ## Editing
 
