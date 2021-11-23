@@ -1,3 +1,14 @@
+# SNIK Ontology
+
+SNIK is an ontology of information management in hospitals.
+
+## See Also
+
+* [Project Homepage](https://www.snik.eu/)
+* [RDF Browser](https://www.snik.eu/ontology)
+* [SPARQL Endpoint](https://www.snik.eu/sparql)
+* [Graph Visualization](https://www.snik.eu/graph)
+
 ## Components
 
 | Subontology | Name | Source | Comments |
