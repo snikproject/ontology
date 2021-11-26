@@ -1,3 +1,5 @@
+<img align="right" width="200" height="200" src="https://avatars.githubusercontent.com/u/79194034?s=400&u=6f1a8e449234d0daa440de87a64f718a9c804593&v=4" alt="SNIK">
+
 # SNIK Ontology
 
 SNIK is an ontology of information management in hospitals that consists of a meta model and several subontologies.
