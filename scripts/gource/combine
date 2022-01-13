@@ -1,0 +1,9 @@
+#/bin/sh
+# use initials instead of full names in case someone doesn't want their full name shown
+
+cat log*.txt | sed "s|T-P-1|Thomas Pause|" | sed "s|SebStaeubert|Sebastian Stäubert|" | sed "s|ThomasPause|Thomas Pause|" | sed "s|Hoeffner|Höffner|" \
+ | sed "s|ar97zeke|Arne Roszeitis|" | sed "s|arne|Arne Roszeitis|" \
+ | sed "s|H. R. B|Hannes Brunsch|" | sed "s|Yagnap|Hannes Brunsch|" \
+ | grep -e "Konrad" -e "Thomas" -e "Anna" -e "ghalandari" -e "Jahn" -e "Michelle" -e "bert" -e "Yagnap" -e "Arne" -e "cubexy" -e "Hannes" \
+ | sed "s|Hannes Brunsch|HRB|" | sed "s|Arne Roszeitis|AR|" | sed "s|Michelle Bindel|MB|" | sed "s|Thomas Pause|TP|" | sed "s|Konrad Höffner|KH|" | sed "s|AnnaLoerke|AL|" | sed "s|maghalandari|MG|"\
+ | sort -n > combined.txt

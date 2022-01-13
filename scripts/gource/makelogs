@@ -1,0 +1,25 @@
+# including student theses
+gource --output-custom-log log1.txt ../../../graph
+sed -i -r "s#(.+)\|#\1|/graph#" log1.txt
+gource --output-custom-log log2.txt ../..
+sed -i -r "s#(.+)\|#\1|/ontology#" log2.txt
+gource --output-custom-log log3.txt ../../../quiz
+sed -i -r "s#(.+)\|#\1|/quiz#" log3.txt
+gource --output-custom-log log4.txt ../../../snik.eu
+sed -i -r "s#(.+)\|#\1|/snik.eu#" log4.txt
+gource --output-custom-log log5.txt ../../../lodview
+sed -i -r "s#(.+)\|#\1|/lodview#" log5.txt
+gource --output-custom-log log6.txt ../../../snik-paper-swj
+sed -i -r "s#(.+)\|#\1|/paper#" log6.txt
+gource --output-custom-log log7.txt ../../../snik-tag
+sed -i -r "s#(.+)\|#\1|/tag#" log7.txt
+gource --output-custom-log log8.txt ../../../virtuoso2git
+sed -i -r "s#(.+)\|#\1|/virtuoso2git#" log8.txt
+gource --output-custom-log log9.txt ~/projekte/students/bell/quiz/
+sed -i -r "s#(.+)\|#\1|/BeLL Quiz#" log9.txt
+gource --output-custom-log log10.txt ~/projekte/students/bell/qa/
+sed -i -r "s#(.+)\|#\1|/BeLL QA#" log10.txt
+gource --output-custom-log log11.txt ~/projekte/students/thomasba
+sed -i -r "s#(.+)\|#\1|/BA Graph#" log11.txt
+gource --output-custom-log log12.txt ~/projekte/students/arneba
+sed -i -r "s#(.+)\|#\1|/BA Quiz#" log12.txt
