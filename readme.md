@@ -51,11 +51,11 @@ Run `scripts/combine` to merge everything into one file `/tmp/snik.ttl`, which y
 |limes.nt   |http://www.snik.eu/ontology/limes-exact|
 |match.nt   |http://www.snik.eu/ontology/match|
 
-Check if it worked by querying `select count(*) {?s ?p ?o.}` for each graph.
+Check if it worked by querying `SELECT COUNT(*) ?graph {GRAPH ?graph {?s ?p ?o.}} ORDER BY DESC(COUNT(*))`.
 
 2. Add graphs to the graph group in the Virtuoso Conductor ISQL panel and create the namespaces
 
-		DB.DBA.RDF_GRAPH_GROUP_CREATE('http://www.snik.eu/ontology');
+		DB.DBA.RDF_GRAPH_GROUP_CREATE('http://www.snik.eu/ontology',1);
 		DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/bb');
 		DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/ob');
 		DB.DBA.RDF_GRAPH_GROUP_INS ('http://www.snik.eu/ontology', 'http://www.snik.eu/ontology/meta');
