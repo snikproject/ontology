@@ -41,15 +41,15 @@ Run `scripts/combine` to merge everything into one file `/tmp/snik.ttl`, which y
 #### Graph Group and Subgraphs
 1. Go to “Linked Data”->"Quad Store Upload” and upload the files.
 
-|File| Graph|
-|---|----|
-|meta.ttl	|http://www.snik.eu/ontology/meta|
-|bb.ttl 	|http://www.snik.eu/ontology/bb|
-|ob.ttl 	|http://www.snik.eu/ontology/ob|
-|ciox.ttl   |http://www.snik.eu/ontology/ciox|
-|it4it.ttl   |http://www.snik.eu/ontology/it4it|
-|limes.nt   |http://www.snik.eu/ontology/limes-exact|
-|match.nt   |http://www.snik.eu/ontology/match|
+File		| Graph
+--			| --
+meta.ttl	|http://www.snik.eu/ontology/meta
+bb.ttl		|http://www.snik.eu/ontology/bb
+ob.ttl		|http://www.snik.eu/ontology/ob
+ciox.ttl	|http://www.snik.eu/ontology/ciox
+it4it.ttl	|http://www.snik.eu/ontology/it4it
+limes.nt	|http://www.snik.eu/ontology/limes-exact
+match.nt	|http://www.snik.eu/ontology/match
 
 Check if it worked by querying `SELECT COUNT(*) ?graph {GRAPH ?graph {?s ?p ?o.}} ORDER BY DESC(COUNT(*))`.
 
@@ -81,6 +81,12 @@ Check if it worked by querying `SELECT COUNT(*) ?graph {GRAPH ?graph {?s ?p ?o.}
 * Verify after editing with:
     
     rapper -i turtle -c filename.ttl
+
+## SHACL
+SHACL shapes for closed-world validation are included in `shacl.ttl`.
+
+## Docker
+The [docker compose setup](https://github.com/snikproject/docker) includes a Virtuoso SPARQL endpoint preloaded with the different SNIK graphs and namespaces, an [RDF Browser](https://github.com/snikproject/lodview) and more.
 
 ## License
 Because we extracted the triples from copyrighted books with permission of the publishers, we chose a noncommercial license with copyleft, the *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International*, see LICENCE for details.
