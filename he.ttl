@@ -3326,6 +3326,7 @@ he:Dienstleistungsnehmer
     meta:isInvolvedIn he:Serviceebenenmanagement ;
     meta:subTopClass meta:Role ;
     a owl:Class ;
+    rdfs:subClassOf meta:Role ;
     rdfs:label "Dienstleistungsnehmer"@de .
 
 he:Dienstleistungsqualitaet
@@ -4351,7 +4352,7 @@ he:EvaluierungInformationssystembestand
     rdfs:subClassOf meta:Function ;
     skos:definition """Das Analysieren
 und Evaluieren des Entwicklungslückstaus setzt voraus dass alle nicht befriedigten Entwicklungsbedarfe laufend erfasst mit geeigneten Kriterien beschrieben und dokumentiert
-werden (z. B. geschätzter RealisielUngsaufwand erwarteter Beitrag zum Untemehmenserfolg
+werden (z. B. geschätzter Realisierungsaufwand erwarteter Beitrag zum Untemehmenserfolg
 Verweildauer im Entwicklungsrückstau Gründe für die Nichtfreigabe). Einfache Kriterien
 (z. B. Anzahl der offenen noch nicht begonnenen und Anzahl der angearbeiteten Projekte)
 reichen zur Beurteilung des Entwicklungslückstaus nicht aus. In weiter gehenden
@@ -8952,10 +8953,7 @@ he:Lizenzmanagement
     a owl:Class ;
     rdfs:label "Lizenzmanagement"@de ;
     rdfs:subClassOf he:Integrationsaufgabe ;
-    skos:definition """Zwecke des Lizenzmanagements sind: Verringerung des Haftungsrisikos für nicht lizensierten Softwareeinsatz und der Nutzung unautorisierter Software verursachungsgerechte Zurechnung der Softwarekosten und 
-Erfüllung der Anforderungen internationaler Standards oder des BSI-Grundschutzes.
-Vermeidung so genannter Shelfware (ungenutzte \"im Regal rumliegende\" Software).
-"""@de .
+    skos:definition "Zwecke des Lizenzmanagements sind: Verringerung des Haftungsrisikos für nicht lizensierten Softwareeinsatz und der Nutzung unautorisierter Software verursachungsgerechte Zurechnung der Softwarekosten und Erfüllung der Anforderungen internationaler Standards oder des BSI-Grundschutzes. Vermeidung so genannter Shelfware (ungenutzte 'im Regal rumliegende' Software)."@de .
 
 he:Lizenzvertrag
     he:page "303"^^xsd:positiveInteger ;
@@ -9568,7 +9566,7 @@ he:Methode
     rdfs:label "Methode"@de, "method"@en ;
     rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Technik"@de, "Verfahren"@de, "technique"@en ;
-    skos:definition """Methode (von griech. methodos aus meta [nach ...  hin] und odos [der Weg]) das (einem Gegenstand) Nachgehen der Weg zu etwas hin (von lat.  methodus) ein nach Mittel 
+    skos:definition """Methode (von griech. methodos aus meta [nach ...  hin] und odos [der Weg]) das (einem Gegenstand) Nachgehen der Weg zu etwas hin (von lat.  methodus) ein nach Mittel
 und  Zweck  planmäßiges  (methodisches)  Verfahren  das  zu  technischer  Fertigkeit  bei  der Lösung theoretischer und praktischer Probleme führt (technische Methode Arbeitsmethode wissenschaftliche  Methode  oder  Forschungsmethode)."""@de .
 
 he:MethodeDerQualitaetsverbesserung
@@ -11038,13 +11036,10 @@ he:Pflichtenheft
     a owl:Class ;
     rdfs:label "Pflichtenheft"@de ;
     rdfs:subClassOf he:verbindlicheVereinbarung ;
-    skos:definition """Das Pflichtenheft entsteht also auf der Grundlage des vertraglich festgelegten Liefer- und Leistungsum-
-fangs und enthält eine Spezifikation aller Forderungen an die ProjektrealisielUng mit einem 
-DetaillielUngsgrad der idealer Weise folgenden Bedingungen genügt: 
-GI  Der Auftragnehmer ist in der Lage zu prüfen und zu bestätigen dass bei Verwirklichung 
-aller F ordelUngen der Vertrag erfüllt ist. 
-GI  Die Projektbearbeiter sind in der Lage das Projekt ohne Rückfragen beim Auftraggeber 
-und Verwendung weiterer Unterlagen auszuführen  sofern keine ÄndelUngen zwischen 
+    skos:definition """Das Pflichtenheft entsteht also auf der Grundlage des vertraglich festgelegten Liefer- und Leistungsumfangs und enthält eine Spezifikation aller Forderungen an die Projektrealisierung mit einem
+Detaillierungsgrad der idealer Weise folgenden Bedingungen genügt:
+Der Auftragnehmer ist in der Lage zu prüfen und zu bestätigen dass bei Verwirklichung aller F orderungen der Vertrag erfüllt ist.
+Die Projektbearbeiter sind in der Lage das Projekt ohne Rückfragen beim Auftraggeber und Verwendung weiterer Unterlagen auszuführen  sofern keine Änderungen zwischen
 Auftraggeber und Auftragnehmer vereinbart werden."""@de .
 
 he:Phase
@@ -11903,10 +11898,8 @@ he:Projektplanung
     a owl:Class ;
     rdfs:label "Machbarkeitsstudie"@en, "Project Planning"@en, "Projektplanung"@de ;
     rdfs:subClassOf meta:Function ;
-    skos:definition "Prüfung der Realisierbarkeit der Anforderungen eines Projekts durch Herausarbeitung seiner organisatorischen technischen personellen rechtlichen und wirtschaftlichen Konsequenzen (z. B. Aufgabenplanung Terminplanung)."@de, """Zweck der dritten Teilaufgabe ist es die mit der RealisielUng der Projektideen verbundenen
-Konsequenzen bezüglich Zeit (Zeitpunkte und Zeiträume) Budget Personal Methoden
-Werkzeuge und sonstige Ressourcen zu ermitteln; damit werden die Voraussetzungen
-für eine realistische EvaluielUng geschaffen. """@de .
+    skos:definition "Prüfung der Realisierbarkeit der Anforderungen eines Projekts durch Herausarbeitung seiner organisatorischen technischen personellen rechtlichen und wirtschaftlichen Konsequenzen (z. B. Aufgabenplanung Terminplanung)."@de,
+    "Zweck der dritten Teilaufgabe ist es die mit der Realisierung der Projektideen verbundenen Konsequenzen bezüglich Zeit (Zeitpunkte und Zeiträume) Budget, Personal, Methoden, Werkzeuge und sonstige Ressourcen zu ermitteln; damit werden die Voraussetzungen für eine realistische Evaluierung geschaffen."@de .
 
 he:Projektportfolio
     he:page "132"^^xsd:positiveInteger, "133"^^xsd:positiveInteger ;
@@ -11928,11 +11921,8 @@ he:Projektrisiko
     rdfs:label "Projektrisiko"@de, "project or organizational risk"@en, "project risk"@en ;
     rdfs:subClassOf he:Evaluierungskriterium, he:EvaluierungskriteriumderInformationsfunktion, he:strategischerEinflussfaktor ;
     skos:altLabel "organizational risk"@en ;
-    skos:definition """Es wird das
-organisatorische Risiko der Projektrealisierung erfasst. Dabei werden primär Einflussgrößen
-betrachtet die im Einflussbereich der zukünftigen Benutzer liegen wie Fähigkeit
-und Bereitschaft zu organisatorischem Wandel sowie Unterstützung durch das Management
-für den organisatorischen Wandel. BD 5 ist ein negativer Einflussfaktor."""@de, "Es wird das organisatorische Risiko der Projektrealisierung erfasst. Dabei werden primär Einflussgrößen betrachtet die im Einflussbereich der zukünftigen Benutzer liegen wie Fähigkeit und Bereitschaft zu organisatorischem Wandel sowie Unterstützung durch das management für den organisatorischen Wandel. Projektrisiko ist ein negativer Einflussfaktor."@de .
+    skos:definition "Es wird das organisatorische Risiko der Projektrealisierung erfasst. Dabei werden primär Einflussgrößen betrachtet die im Einflussbereich der zukünftigen Benutzer liegen wie Fähigkeit und Bereitschaft zu organisatorischem Wandel sowie Unterstützung durch das Management für den organisatorischen Wandel. BD 5 ist ein negativer Einflussfaktor."@de,
+    "Es wird das organisatorische Risiko der Projektrealisierung erfasst. Dabei werden primär Einflussgrößen betrachtet die im Einflussbereich der zukünftigen Benutzer liegen wie Fähigkeit und Bereitschaft zu organisatorischem Wandel sowie Unterstützung durch das management für den organisatorischen Wandel. Projektrisiko ist ein negativer Einflussfaktor."@de .
 
 he:Projektvertrag
     he:page "303"^^xsd:positiveInteger ;
@@ -12068,15 +12058,7 @@ he:ProzessorientierteSicht
     rdfs:subClassOf he:SichtdesQualitaetsmanagement ;
     skos:definition """Die prozessorientierte Sicht des QM basiert auf folgenden grundlegenden Annahmen:
 -Qualitativ hochwertige Prozesse bringen mit einer hohen Wahrscheinlichkeit qualitativ hochwertige Produkte hervor.
--Es ist effizienter die Qualität von Prozessen zu gewährleisten als die Qualität von Produkten zu prüfen und nach deren Fertigstellung Abweichungen von den Anforderungen zu beheben. Die prozessorientierte Sicht des QM basiert auf folgenden grundlegenden Annahmen:
--Qualitativ hochwertige Prozesse bringen mit einer hohen Wahrscheinlichkeit qualitativ hochwertige Produkte hervor.
--Es ist effizienter die Qualität von Prozessen zu gewährleisten als die Qualität von Produkten zu prüfen und nach deren Fertigstellung Abweichungen von den Anforderungen zu beheben. Die prozessorientierte Sicht des QM basiert auf folgenden grundlegenden Annahmen:
--Qualitativ hochwertige Prozesse bringen mit einer hohen Wahrscheinlichkeit qualitativ hochwertige Produkte hervor.
--Es ist effizienter die Qualität von Prozessen zu gewährleisten als die Qualität von Produkten zu prüfen und nach deren Fertigstellung Abweichungen von den Anforderungen zu beheben. Die prozessorientierte Sicht des QM basiert auf folgenden grundlegenden Annahmen:
--Qualitativ hochwertige Prozesse bringen mit einer hohen Wahrscheinlichkeit qualitativ hochwertige Produkte hervor.
--Es ist effizienter die Qualität von Prozessen zu gewährleisten als die Qualit��t von Produkten zu prüfen und nach deren Fertigstellung Abweichungen von den Anforderungen zu beheben. Die prozessorientierte Sicht des QM basiert auf folgenden grundlegenden Annahmen:
--Qualitativ hochwertige Prozesse bringen mit einer hohen Wahrscheinlichkeit qualitativ hochwertige Produkte hervor.
--Es ist effizienter die Qualität von Prozessen zu gewährleisten als die Qualität von Produkten zu prüfen f71f6d28c01cc3635a580ff779a54449"""@de .
+-Es ist effizienter die Qualität von Prozessen zu gewährleisten als die Qualität von Produkten zu prüfen und nach deren Fertigstellung Abweichungen von den Anforderungen zu beheben."""@de .
 
 he:Prozessorientierung
     he:page "153"^^xsd:positiveInteger ;
@@ -14442,6 +14424,7 @@ he:Stelle
     meta:subTopClass meta:Role ;
     a owl:Class ;
     rdfs:label "Stelle"@de, "position"@en ;
+    rdfs:subClassOf meta:Role ;
     skos:definition "kleinste Einheit der Strukturorganisation der bestimmte Aufgaben Kompetenzen Sachmittel und Aufgabenträger zugeordnet sind."@de .
 
 he:Stellenbeschreibung
@@ -14809,7 +14792,7 @@ Analysieren und Evaluieren von Projektideen Vergeben von Prioritäten für die P
 und Controlling der Systementwicklung.
 Die beiden zuerst genannten Aufgaben sind Teil des Bestandsmanagements. Das Analysieren
 und Evaluieren des Entwicklungslückstaus setzt voraus dass alle nicht befriedigten Entwicklungsbedarfe laufend erfasst mit geeigneten Kriterien beschrieben und dokumentiert
-werden (z. B. geschätzter RealisielUngsaufwand erwarteter Beitrag zum Untemehmenserfolg
+werden (z. B. geschätzter Realisierungsaufwand erwarteter Beitrag zum Untemehmenserfolg
 Verweildauer im Entwicklungsrückstau Gründe für die Nichtfreigabe). Einfache Kriterien
 (z. B. Anzahl der offenen noch nicht begonnenen und Anzahl der angearbeiteten Projekte)
 reichen zur Beurteilung des Entwicklungslückstaus nicht aus. In weiter gehenden
@@ -16932,11 +16915,11 @@ he:VetfeinerungderVorgehensweise
     meta:subTopClass meta:Function ;
     a owl:Class ;
     rdfs:label "Vetfeinerung der Vorgehensweise"@de ;
-    skos:definition """Eine VetfeinelUng der Vorgehensweise erfolgt zunächst durch Zerlegung der Teilaufgaben
+    skos:definition """Eine Vetfeinerung der Vorgehensweise erfolgt zunächst durch Zerlegung der Teilaufgaben
 (z. B. Zerlegung der Machbarkeitsstudie in Phasen) weiter durch Auswahl und Zuordnung
 spezifischer Methoden zu den Aufgaben (z. B. Risikoanalyse zur Entwicklung von Sicherheitskonzepten
 vgl. Lemeinheit SIKON). Sind altemative Methoden verfügbar (z. B. für die
-WÜischaftlichkeitsanalyse bei der EvaluielUng der Projektideen vgl. Lemeinheit WIRTA)
+WÜischaftlichkeitsanalyse bei der Evaluierung der Projektideen vgl. Lemeinheit WIRTA)
 sollten Kriterien angegeben werden nach denen die Methodenauswahl systematisch erfolgt
 (z. B. Aufwand Zeitbedarf Genauigkeit vgl. Lemeinheit EV ALU)."""@de .
 
@@ -19870,4 +19853,3 @@ meta:StrategischerItPlan
     rdfs:label "Strategischer IT-Plan"@de, "startegic IT plan"@en ;
     skos:altLabel "strategisches Projektportfolio"@de ;
     skos:definition "Ergebnis der strategischen Maßnahmenplanung."@de .
-
