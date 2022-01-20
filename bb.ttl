@@ -5032,7 +5032,7 @@ bb:InformationAndCommunicationTechnology
 
 bb:InformationAndKnowledgeLogistics
     bb:page "305"^^xsd:positiveInteger ;
-    meta:DefinitionDEPage "35"^^xsd:positiveInteger ;
+    bb:page "35"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:Information, bb:Knowledge ;
     meta:subTopClass meta:Function ;
@@ -5290,7 +5290,7 @@ bb:InstitutionalHealthInformationSystem
 
 bb:IntegratedCare
     bb:conceptDomain "health care specific"^^xsd:string ;
-    meta:DefinitionDEPage "33"^^xsd:positiveInteger ;
+    bb:page "33"^^xsd:positiveInteger ;
     meta:chapter bb:chapter4-2 ;
     meta:subTopClass meta:Function ;
     a owl:Class ;
@@ -5320,7 +5320,7 @@ bb:IntegratedHIS
 bb:IntegratedHealthCareDeliverySystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "307"^^xsd:positiveInteger ;
-    meta:DefinitionDEPage "36"^^xsd:positiveInteger ;
+    bb:page "36"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:HealthCareInstitution ;
     meta:subTopClass meta:EntityType ;
@@ -6961,7 +6961,7 @@ bb:OperationalHISPlanning
 
 bb:OperationalInformationManagement
     bb:page "103"^^xsd:positiveInteger ;
-    meta:DefinitionDEPage "30"^^xsd:positiveInteger ;
+    bb:page "30"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-3, bb:chapter9-2 ;
     meta:functionComponent bb:FailureManagement, bb:HumanResourceManagement, bb:ItSupport, bb:NetworkManagement, bb:NetworkMonitoring, bb:OperationalHISDirecting, bb:OperationalHISMonitoring, bb:OperationalHISPlanning ;
     meta:subTopClass meta:Function ;
@@ -10016,7 +10016,7 @@ bb:TransinstitutionalHealthCareFunction
 bb:TransinstitutionalHealthInformationSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "324"^^xsd:positiveInteger ;
-    meta:DefinitionDEPage "manuell hinzugefügt"@de ;
+    bb:page "manuell hinzugefügt"@de ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:HospitalInformationSystem ;
     meta:isAssociatedWith bb:FunctionalRedundancyRate ;
