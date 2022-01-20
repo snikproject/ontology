@@ -8843,8 +8843,8 @@ bb:ScoringOfThePatient
 bb:SecondLevelSupport
     bb:page "245"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    meta:isResponsibleForFunction bb:UserTraining ;
     meta:subTopClass meta:Function ;
+    meta:functionComponent bb:UserTraining ;
     a owl:Class ;
     rdfs:label "Second-Level Support"@en, "پشتیبانی سطح دوم"@fa ;
     rdfs:subClassOf bb:ItSupport ;
