@@ -1,5 +1,10 @@
 @prefix : <http://www.snik.eu/ontology/meta/>.
 @prefix meta: <http://www.snik.eu/ontology/meta/>.
+@prefix bb: <http://www.snik.eu/ontology/bb/>.
+@prefix ob: <http://www.snik.eu/ontology/ob/>.
+@prefix he: <http://www.snik.eu/ontology/he/>.
+@prefix ciox: <http://www.snik.eu/ontology/ciox/>.
+@prefix it4it: <http://www.snik.eu/ontology/it4it/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix xml: <http://www.w3.org/XML/1998/namespace>.
@@ -22,7 +27,11 @@
 @base <http://hitontology.eu/ontology/>.
 
 :ignoredProperties rdf:first vann:example;
-	rdf:rest ( rdf:type rdfs:comment rdfs:seeAlso skos:altLabel dcterms:source skos:definition dce:source owl:sameAs rdfs:isDefinedBy).
+	rdf:rest ( rdf:type rdfs:subClassOf rdfs:comment rdfs:seeAlso skos:altLabel dcterms:source skos:definition dce:source owl:sameAs rdfs:isDefinedBy :chapter :consolidated he:page bb:page bb:conceptDomain).
+
+# inheritance of closed shapes does seem not work, see https://stackoverflow.com/questions/70785194/shacl-closed-shape-with-superclass-inheritance
+:topProperties rdf:first skos:closeMatch;
+	rdf:rest ( skos:exactMatch skos:relatedMatch skos:narrowMatch skos:broadMatch skos:related meta:isAssociatedWith).
 
 :labelShape a sh:PropertyShape;
 	sh:path rdfs:label;
@@ -33,18 +42,27 @@
 	sh:minCount 1.
 
 #### Role ###################################################################
-# The following is not validated correctly because class targets only apply to instances.
-# TODO: Apply it to subclasses instead.
 
-:Role a sh:NodeShape;
+:TopShape a sh:NodeShape;
+	sh:targetClass :Top;
+	sh:property [sh:path skos:closeMatch],
+		[sh:path skos:exactMatch],
+		[sh:path skos:relatedMatch],
+		[sh:path skos:narrowMatch],
+		[sh:path skos:broadMatch].
+
+:RoleShape a sh:NodeShape;
 	sh:targetClass :Role;
 	sh:property :labelShape,
-	[sh:path :disResponsibleForRole],
-	[sh:path :roleComponent],
-	[sh:path :isInvolvedIn],
-	[sh:path :isResponsibleForFunction];
+		[sh:path :isResponsibleForRole],
+		[sh:path :roleComponent],
+		[sh:path :isInvolvedIn],
+		[sh:path :isResponsibleForFunction],
+		[sh:path :isResponsibleForEntityType],
+		[sh:path :approvesEntityType],
+		[sh:path :approvesFunction];
 	sh:closed true;
-	sh:ignoredProperties :ignoredProperties.
+	sh:ignoredProperties :ignoredProperties, :topProperties.
 
 :RoleDomainShape a sh:NodeShape;
 	sh:targetSubjectsOf

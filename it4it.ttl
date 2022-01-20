@@ -52,8 +52,7 @@ it4it:Activity
 
 it4it:ActualServiceCIs
     it4it:serviceModelBackboneDataObject it4it:ConfigurationManagementComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Actual Service CIs"@en ;
     rdfs:subClassOf it4it:DataObject .
 
@@ -66,14 +65,12 @@ it4it:AdmittingPhysician
     rdfs:label "Admitting Physician"@en .
 
 it4it:ApprovalOfITPolicies
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Approval Of ITPolicies"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:AuditOfITPolicies
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Audit Of ITPolicies"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
@@ -92,6 +89,7 @@ it4it:Build
     owl:equivalentClass it4it:RequirementsToDeploy .
 
 it4it:BuildComponent
+    a meta:EntityType, owl:Class ;
     it4it:purpose """* Receive the Source data object from the Source Control functional component and manage the creation, implementation, automation, and security and storage of all Builds.
   * Create Build from the Source data object for a particular service component.
   * Automate the Build process to support the Build schedule and build frequency requirements in order to support daily Build and smoke test plans or continuous integration plans.
@@ -100,32 +98,27 @@ it4it:BuildComponent
   * Develop automated Build storage procedures and automated compilation techniques and tools.
   * Monitor and report on the results of each integration Build.
   * Initiate or automate the delivery of Builds to the Build Package functional component for validation by the acceptance testing team as candidate release builds.""" ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:CreationOfBuilds, it4it:ManagementOfBuilds ;
-    a owl:Class ;
     rdfs:label "Build Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:BuildKeyDataObject
     it4it:keyDataObject it4it:BuildComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Build Key Data Object"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:BuildPackage
     it4it:keyDataObject it4it:BuildPackageComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Build Package"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:BuildPackageComponent
+    a meta:EntityType, owl:Class ;
     it4it:purpose """* Creation of a deployable package made up of one or many Builds.
   * Manage the Build Packages and relationships to the Service Release Blueprints.""" ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:CreationOfBuildPackages, it4it:ManagementOfBuildPackages ;
-    a owl:Class ;
     rdfs:label "Build Package Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -146,14 +139,12 @@ it4it:CareCoordinationOfCareProcess
     rdfs:label "Care Coordination of care process"@en .
 
 it4it:CatalogCompositionComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Catalog Composition Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:ChangeControlComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Change Control Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -225,14 +216,12 @@ it4it:Chapter8-4-4
 
 it4it:ChargebackContract
     it4it:keyDataObject it4it:ChargebackShowbackComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Chargeback Contract"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:ChargebackShowbackComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Chargeback / Showback Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -254,8 +243,7 @@ it4it:ConceptualService
     it4it:serviceModelBackboneDataObject it4it:ServicePortfolioComponent ;
     meta:chapter it4it:Chapter5-4-5 ;
     meta:isAssociatedWith it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class, owl:NamedIndividual ;
+    a meta:EntityType, owl:Class, owl:NamedIndividual ;
     rdfs:comment """Key Attributes
 The Conceptual Service data object shall have the following key data attributes:
   * ServiceID: Unique identifier of the Conceptual Service.
@@ -276,8 +264,7 @@ it4it:ConceptualServiceBlueprint
     it4it:serviceModelBackboneDataObject it4it:ServicePortfolioComponent ;
     meta:chapter it4it:Chapter5-4-5 ;
     meta:isAssociatedWith it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class, owl:NamedIndividual ;
+    a meta:EntityType, owl:Class, owl:NamedIndividual ;
     rdfs:comment """Key Attributes
 The Conceptual Service Blueprint data object shall have the following key data attributes:
   * ConceptualServiceBlueprintID: Unique identifier of the Conceptual Service Blueprint.
@@ -292,8 +279,7 @@ The Conceptual Service Blueprint data object shall maintain the following relati
     skos:definition "The Conceptual Service Blueprint contains the list of all service blueprints associated with a given Conceptual Service. (Each Conceptual Service Blueprint has a comprehensive view of the service that depicts endpoints and interfaces that can be understood by Architects and BRMs)."^^xsd:string .
 
 it4it:ConfigurationManagementComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Configuration Management Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -307,58 +293,49 @@ it4it:Correctness
 
 it4it:CostModelingComponent
     it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Cost Modeling Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:CreationOfBuildPackages
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Creation Of Build Packages"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:CreationOfBuilds
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Creation Of Builds"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:CreationOfITInitiatives
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:comment "Creation of IT initiatives is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProjectComponent."@en ;
     rdfs:label "Creation Of ITInitiatives"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:CreationOfITPolicies
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Creation Of ITPolicies"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:CreationOfLontermITInvestment
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Creation Of Lonterm ITInvestment"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:CreationOfScopeAgreementsForProjects
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Creation Of Scope Agreements For Projects"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:CreationOfSourceCode
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Creation Of Source Code"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:DataObject
     it4it:entityRelationship it4it:DataObject ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "DataObject"^^xsd:string, "LifecycleDataObject"^^xsd:string ;
     rdfs:subClassOf meta:EntityType .
 
@@ -368,14 +345,12 @@ it4it:Deadline
 
 it4it:Defect
     it4it:keyDataObject it4it:DefectComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Defect"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:DefectComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Defect Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -390,15 +365,13 @@ it4it:Deliver
     owl:equivalentClass it4it:RequestToFullfil .
 
 it4it:DesignOfLogicalServicesBlueprints
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Design Of Logical Services Blueprints"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:DesiredServiceModel
     it4it:serviceModelBackboneDataObject it4it:FulfillmentExecutionComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Desired Service Model"@en ;
     rdfs:subClassOf it4it:DataObject .
 
@@ -409,8 +382,7 @@ it4it:DetectToCorrect
     owl:equivalentClass it4it:Run .
 
 it4it:DiagnosticsRemediationComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Diagnostics & Remediation Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -423,6 +395,7 @@ it4it:EndDate
     rdfs:label "End Date"@en .
 
 it4it:EnterpriseArchitectureComponent
+    a meta:EntityType, owl:Class;
     it4it:conceptualServiceBlueprint it4it:ServicePortfolioComponent ;
     it4it:keyDataObject it4it:ServiceArchitecture ;
     it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
@@ -437,11 +410,9 @@ it4it:EnterpriseArchitectureComponent
 business strategic objectives."""@en ;
     meta:chapter it4it:Chapter5-4-1 ;
     meta:isAssociatedWith it4it:ServiceArchitecture, it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:CreationOfLontermITInvestment, it4it:ExecutionPlanOfAction, it4it:ManagementOfLontermITInvestment ;
     meta:updates it4it:ServiceArchitecture ;
     meta:uses it4it:ServiceArchitecture ;
-    a owl:Class, owl:NamedIndividual ;
     rdfs:label "Enterprise Architecture Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -451,20 +422,17 @@ it4it:Error
 
 it4it:Event
     it4it:keyDataObject it4it:EventComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Event"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:EventComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Event Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:ExecutionPlanOfAction
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Execution Plan Of Action"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
@@ -1101,15 +1069,13 @@ it4it:Fulfillment
     rdfs:label "Fulfillment"@en .
 
 it4it:FulfillmentExecutionComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Fulfillment Execution Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:FulfillmentRequest
     it4it:keyDataObject it4it:FulfillmentExecutionComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Fulfillment Request"@en ;
     rdfs:subClassOf it4it:DataObject .
 
@@ -1118,8 +1084,7 @@ it4it:FunctionalComponent
     it4it:dataObject it4it:DataObject ;
     it4it:engagementDataflow it4it:FunctionalComponent ;
     it4it:recordFabricIntegration it4it:FunctionalComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Functional Component"@en ;
     rdfs:subClassOf it4it:IT4IT, meta:ComputerBasedApplicationComponent .
 
@@ -1146,22 +1111,19 @@ it4it:IT4IT
 it4it:ITAssetManagement
     it4it:assetsAvailability it4it:ProposalComponent ;
     it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "IT Asset Management"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:ITBudget
     it4it:keyDataObject it4it:ITInvestmentPortfolioComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "IT Budget"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:ITCostModel
     it4it:keyDataObject it4it:CostModelingComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "IT Cost Model"@en ;
     rdfs:subClassOf it4it:DataObject .
 
@@ -1169,8 +1131,7 @@ it4it:ITInitiative
     it4it:keyDataObject it4it:ProjectComponent ;
     it4it:page "69"^^xsd:positiveInteger ;
     meta:chapter it4it:Chapter6-4-1 ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:comment """Key Attributes
 The IT Initiative data object shall have the following key data attributes:
   * ITInitiativeID: Unique identifier of the effort/initiative.
@@ -1188,6 +1149,7 @@ The IT Initiative data object shall maintain the following relationships:
     skos:definition "Details the scope of the work to be performed and created from and associated with the Scope Agreement."^^xsd:string .
 
 it4it:ITInvestmentPortfolioComponent
+    a meta:EntityType, owl:Class ;
     it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:mainFunctions """The IT Investment Portfolio functional component:
   * Shall be the system of records for all IT investments.
@@ -1204,9 +1166,7 @@ Its main purpose includes:
   * Facilitate proposal managers with guidelines and information (e.g., unit costs) to be followed while estimating costs of proposed IT Initiatives.
   * Establish a common governance and control mechanism for approval/rejections of any proposed IT Initiatives.""" ;
     meta:chapter it4it:Chapter5-4-6 ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:ManagementOfITInvestments ;
-    a owl:Class ;
     rdfs:label "IT Investment Portfolio Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -1218,14 +1178,12 @@ it4it:ITValueChain
 
 it4it:Incident
     it4it:keyDataObject it4it:IncidentComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Incident"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:IncidentComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Incident Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -1258,8 +1216,7 @@ it4it:IsSubjective
     rdfs:label "Is Subjective"@en .
 
 it4it:It4ItFunction
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:comment """Wie ordnen sich die Aufgaben ein, die von IT4IT Functional Components unterstützt werden?
 Function->EnterpriseFunction->InformationManagementFunction? [ToDo] Einordnung prüfen."""@de ;
     rdfs:label "IT4IT Function"@de ;
@@ -1268,8 +1225,7 @@ Function->EnterpriseFunction->InformationManagementFunction? [ToDo] Einordnung p
 it4it:LaborManagement
     it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:competencyAvailability it4it:ProposalComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Labor Management"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -1279,8 +1235,7 @@ it4it:Location
 
 it4it:LogicalServiceBlueprint
     it4it:serviceModelBackboneDataObject it4it:ServiceDesignComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Logical Service Blueprint"@en ;
     rdfs:subClassOf it4it:DataObject .
 
@@ -1305,20 +1260,17 @@ it4it:ManagementLegalForm
     rdfs:label "Management Legal Form"@en .
 
 it4it:ManagementOfBuildPackages
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Management Of Build Packages"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfBuilds
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Management Of Builds"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfDemands
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:comment """Management of demands is in detail, what ist described in attribute IT4IT:Purpose of PortfolioDemandComponent:
 \"Log, maintain, and evaluate all demands (new service, enhancements, defects) coming into IT
 through a single funnel. Correlate incoming demand to similar existing demand or create new
@@ -1329,59 +1281,50 @@ demand channels.\""""@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfITInitiatives
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:comment "Management of IT initiatives is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProjectComponent."@en ;
     rdfs:label "Management Of ITInitiatives"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfITInvestments
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Management Of ITInvestments"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfITPolicies
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Management Of ITPolicies"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfITProposals
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Management Of ITProposals"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfLontermITInvestment
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Management Of Lonterm ITInvestment"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfProblems
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:comment "Management of Problems is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of ProblemComponent."@en ;
     rdfs:label "Management Of Problems"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfRequirements
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:comment "Management of Requirements is in detail, what ist described in attributes IT4IT:Purpose and IT4IT:MainFunction of RequirementComponent."@en ;
     rdfs:label "Management Of Requirements"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfServicePortfolio
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Management Of Service Portfolio"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
 it4it:ManagementOfSourceCode
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Management Of Source Code"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
@@ -1395,20 +1338,17 @@ it4it:Measurability
 
 it4it:Offer
     it4it:keyDataObject it4it:OfferManagementComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Offer"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:OfferConsumptionComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Offer Consumption Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:OfferManagementComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Offer Management Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -1473,8 +1413,7 @@ it4it:Policy
     it4it:policyToRequirementFunctionalComponent it4it:Requirement ;
     meta:chapter it4it:Chapter5-4-2 ;
     meta:isAssociatedWith it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class, owl:NamedIndividual ;
+    a meta:EntityType, owl:Class, owl:NamedIndividual ;
     rdfs:comment """Key Attributes
 The Policy data object shall have the following key data attributes:
   * PolicyID: Unique identifier; e.g., number of the Policy.
@@ -1488,6 +1427,7 @@ The Policy data object shall maintain the following relationships:
     skos:definition "It is a central repository for storing and organizing all types of IT policies based on various templates and classification criteria."^^xsd:string .
 
 it4it:PolicyComponent
+    a meta:EntityType, owl:Class ;
     it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:mainFunctions """The Policy functional component:
   * Shall align and map IT Policies to Service Architectures.
@@ -1505,11 +1445,9 @@ If a Service Portfolio functional component exists, the Policy functional compon
     it4it:purpose "Manage creation, review, approval, and audit of all IT policies."@en ;
     meta:chapter it4it:Chapter5-4-2 ;
     meta:isAssociatedWith it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:ApprovalOfITPolicies, it4it:AuditOfITPolicies, it4it:CreationOfITPolicies, it4it:ManagementOfITPolicies, it4it:ReviewOfITPolicies ;
     meta:updates it4it:Policy ;
     meta:uses it4it:Policy ;
-    a owl:Class ;
     rdfs:label "Policy Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -1518,8 +1456,7 @@ it4it:PortfolioBacklogItem
     it4it:page "54"^^xsd:positiveInteger ;
     meta:chapter it4it:Chapter5-4-4 ;
     meta:isAssociatedWith it4it:PortfolioDemandComponent, it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class, owl:NamedIndividual ;
+    a meta:EntityType, owl:Class, owl:NamedIndividual ;
     rdfs:comment """Key Attributes
 The Portfolio Backlog Item data object shall have the following key data attributes:
   * DemandID: Unique identifier of the Portfolio Backlog Item (demand request).
@@ -1537,6 +1474,7 @@ The Portfolio Backlog Item data object shall maintain the following relationship
     skos:definition "Portfolio Backlog Items represent the repository of all incoming demands including but not limited to new requests, enhancement requests, and defect fix requests."^^xsd:string .
 
 it4it:PortfolioDemandComponent
+    a meta:EntityType, owl:Class ;
     it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:mainFunctions """The Portfolio Demand functional component:
   * Shall capture Portfolio Backlog Items from business.
@@ -1554,11 +1492,9 @@ etc."""@en ;
     it4it:purpose "Log, maintain, and evaluate all demands (new service, enhancements, defects) coming into IT through a single funnel. Correlate incoming demand to similar existing demand or create new demand. The “single funnel” may be a virtual concept encompassing project ideation, service request management, Incident Management, continuous improvement, and other well-known demand channels."@en ;
     meta:chapter it4it:Chapter5-4-4 ;
     meta:isAssociatedWith it4it:PortfolioBacklogItem, it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:ManagementOfDemands ;
     meta:updates it4it:PortfolioBacklogItem ;
     meta:uses it4it:PortfolioBacklogItem ;
-    a owl:Class ;
     rdfs:comment "Functions extracted from IT4IT:Purpose are aggregated to \"management of Demands\"."@en ;
     rdfs:label "Portfolio Demand Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
@@ -1574,6 +1510,7 @@ it4it:Priority
     rdfs:label "Priority"@en .
 
 it4it:ProblemComponent
+    a meta:EntityType, owl:Class ;
     it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:mainFunctions """The Problem functional component:
   * Shall be the system of record for all Problem records.
@@ -1597,16 +1534,13 @@ If a Portfolio Demand functional component exists, the Problem functional compon
     it4it:portfolioBacklogItem it4it:PortfolioDemandComponent ;
     it4it:purpose "The Problem functional component is responsible for managing the lifecycle of all Problems. The objectives of the Problem functional component are to solve severe/repeating Incidents, prevent Incidents from happening, and minimize the impact of Incidents that cannot be prevented. The Problem cause is not usually known at the time of the Problem data object instance creation, and the Problem functional component is responsible for the investigation. The Problem functional component also serves as the main exit point from the D2C Value Stream for the feedback information about IT services issues. The feedback is reported to the R2D Value Stream in the form of Defects and to the S2P Value Stream in the form of Portfolio Backlog Items (demand request)."@en ;
     meta:chapter it4it:Chapter8-4-4 ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:ManagementOfProblems ;
-    a owl:Class ;
     rdfs:label "Problem Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:ProblemKnownError
     it4it:keyDataObject it4it:ProblemComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Problem/Known Error"@en ;
     rdfs:subClassOf it4it:DataObject .
 
@@ -1615,6 +1549,7 @@ it4it:Production
     rdfs:label "Production"@en .
 
 it4it:ProjectComponent
+    a meta:EntityType, owl:Class ;
     it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:mainFunctions """The Project functional component:
   * Shall be the system of record (authoritative source) for all IT Initiatives.
@@ -1646,16 +1581,15 @@ functional component."""@en ;
   * Produce various request artifacts associated with financial, human, and technology resources (that is, feedback to the S2P Value Stream when variances cross thresholds).
   * Coordinate the acquisition of resources (hardware, software, and people) required to source/create a service in a particular project."""@en ;
     meta:isAssociatedWith it4it:ITInitiative ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:CreationOfITInitiatives, it4it:ManagementOfITInitiatives ;
     meta:updates it4it:ITInitiative ;
     meta:uses it4it:ITInitiative ;
-    a owl:Class ;
     rdfs:comment "Functions extracted from IT4IT:Purpose and IT4IT:MainFunctions are aggregated to \"creation of IT initiatives\" and \"management of IT initiatives\"."@en ;
     rdfs:label "Project Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:ProposalComponent
+    a meta:EntityType, owl:Class ;
     it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:mainFunctions """The Proposal functional component:
   * Shall create a Scope Agreement from rationalized Portfolio Backlog Items in the data object repository. A Scope Agreement can follow an expedited analysis and approval for high priority urgent items or agile development proposals. A Scope Agreement can also follow a structured analysis and approval via IT annual planning activities.
@@ -1684,11 +1618,9 @@ The Proposal functional component:
     it4it:scopeAgreement it4it:ProjectComponent ;
     meta:chapter it4it:Chapter5-4-3 ;
     meta:isAssociatedWith it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:CreationOfScopeAgreementsForProjects, it4it:ManagementOfITProposals ;
     meta:updates it4it:ScopeAgreement ;
     meta:uses it4it:ScopeAgreement ;
-    a owl:Class ;
     rdfs:label "Proposal Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -1698,8 +1630,7 @@ it4it:Quantifiability
 
 it4it:RFC
     it4it:keyDataObject it4it:ChangeControlComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "RFC"@en, "Request for Change"@en ;
     rdfs:subClassOf it4it:DataObject .
 
@@ -1712,8 +1643,7 @@ it4it:Relative
     rdfs:label "Relative"@en .
 
 it4it:ReleaseComposotionComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Release Composotion Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -1723,14 +1653,12 @@ it4it:Relevancy
 
 it4it:Request
     it4it:keyDataObject it4it:RequestRealisationComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Request"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:RequestRealisationComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Request Realisation Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -1743,8 +1671,7 @@ it4it:Requirement
     it4it:keyDataObject it4it:RequirementComponent ;
     it4it:page "71"^^xsd:positiveInteger ;
     meta:chapter it4it:Chapter6-4-2 ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:comment """Key Attributes
 The Requirement data object shall have the following key data attributes:
   * RequirementID: Unique identifier of a given Requirement.
@@ -1767,6 +1694,7 @@ The Requirement data object shall maintain the following relationships:
     skos:definition "Record which details the needs or conditions to meet for a new or altered service."^^xsd:string .
 
 it4it:RequirementComponent
+    a meta:EntityType, owl:Class ;
     it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:mainFunctions """The Requirement functional component:
   * Shall be the system of record (authoritative source) for all Requirements.
@@ -1797,11 +1725,9 @@ If a Source data object exists, the Requirement functional component:
   * Derive product or program backlogs which will ultimately serve as queues for enhancing IT services."""@en ;
     meta:chapter it4it:Chapter6-4-2 ;
     meta:isAssociatedWith it4it:Requirement ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:ManagementOfRequirements ;
     meta:updates it4it:Requirement ;
     meta:uses it4it:Requirement ;
-    a owl:Class ;
     rdfs:comment "Functions extracted from IT4IT:Purpose and IT4IT:MainFunctions are aggregated to \"Management of Requirement\""@en ;
     rdfs:label "Requirement Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
@@ -1816,8 +1742,7 @@ it4it:ResponsiblePerson
     rdfs:label "Responsible Person"@en .
 
 it4it:ReviewOfITPolicies
-    meta:subTopClass meta:Function ;
-    a owl:Class ;
+    a meta:Function, owl:Class ;
     rdfs:label "Review Of ITPolicies"@en ;
     rdfs:subClassOf it4it:It4ItFunction .
 
@@ -1828,8 +1753,7 @@ it4it:Run
 
 it4it:RunBook
     it4it:keyDataObject it4it:DiagnosticsRemediationComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Run Book"@en ;
     rdfs:subClassOf it4it:DataObject .
 
@@ -1838,8 +1762,7 @@ it4it:ScopeAgreement
     it4it:page "52"^^xsd:positiveInteger ;
     meta:chapter it4it:Chapter5-4-3 ;
     meta:isAssociatedWith it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class, owl:NamedIndividual ;
+    a meta:EntityType, owl:Class, owl:NamedIndividual ;
     rdfs:comment """Key Attributes
 The Scope Agreement data object shall have the following key data attributes:
   * ScopeAgreementID: Unique identifier of the Scope Agreement.
@@ -1860,8 +1783,7 @@ it4it:ServiceArchitecture
     it4it:serviceArchitectureToConceptualService it4it:ConceptualService ;
     meta:chapter it4it:Chapter5-4-1 ;
     meta:isAssociatedWith it4it:EnterpriseArchitectureComponent, it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class, owl:NamedIndividual ;
+    a meta:EntityType, owl:Class, owl:NamedIndividual ;
     rdfs:comment """Key Attributes
 The Service Architecture data object shall have the following key data attributes:
   * ServiceID: Unique identifier of the IT service.
@@ -1875,19 +1797,18 @@ The Service Architecture data object shall maintain the following relationships:
 
 it4it:ServiceCatalogEntry
     it4it:keyDataObject it4it:CatalogCompositionComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Service Catalog Entry"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:ServiceContract
     it4it:keyDataObject it4it:ServiceLevelComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Service Contract"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:ServiceDesignComponent
+    a meta:EntityType, owl:Class ;
     it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:mainFunctions """The Service Design functional component:
   * Shall be the system of record (authoritative source) for all Logical Service Blueprints.
@@ -1918,32 +1839,28 @@ If a Release Composition functional component exists, the Service Design functio
   * Ensure that the service is architected to meet the KPIs and SLAs.
   * The output of the Service Design functional component is used by the Source data object to source, create, and secure the service."""@en ;
     meta:chapter it4it:Chapter6-4-3 ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:DesignOfLogicalServicesBlueprints ;
-    a owl:Class ;
     rdfs:label "Service Design Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:ServiceLevelComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Service Level Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:ServiceMonitor
     it4it:keyDataObject it4it:ServiceMonitoringComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Service Monitor"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:ServiceMonitoringComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Service Monitoring Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:ServicePortfolioComponent
+    a meta:EntityType, owl:Class ;
     it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:mainFunctions """The Service Portfolio functional component:
   * Shall assess the effectiveness and efficiency of current services delivered to business.
@@ -1963,41 +1880,36 @@ If a Policy exists, the Service Portfolio functional component:
     it4it:serviceModelBackboneDataObject it4it:ConceptualService, it4it:ConceptualServiceBlueprint ;
     meta:chapter it4it:Chapter5-4-5 ;
     meta:isAssociatedWith it4it:StrategyToPortfolio ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:ManagementOfServicePortfolio ;
-    a owl:Class ;
     rdfs:label "Service Portfolio Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
 it4it:ServiceRelease
     it4it:serviceModelBackboneDataObject it4it:ReleaseComposotionComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Service Release"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:ServiceReleaseBlueprint
     it4it:serviceModelBackboneDataObject it4it:ReleaseComposotionComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Service Release Blueprint"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:ShoppingCart
     it4it:auxiliaryDataObject it4it:OfferConsumptionComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class, owl:NamedIndividual ;
+    a meta:EntityType, owl:Class, owl:NamedIndividual ;
     rdfs:label "Shopping Cart"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:Source
+    a meta:EntityType, owl:Class ;
     it4it:keyDataObject it4it:SourceControlComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:AnnotationProperty, owl:Class ;
     rdfs:label "Source"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:SourceControlComponent
+    a meta:EntityType, owl:Class ;
     it4it:purpose """* Develop source code or infrastructure based on the Logical Service Blueprint, Service Design Package, and IT Initiative priorities.
   * Ensure that the source code meets the design specifications, organizational policies, standards, and non-functional requirements so that the service can be operated successfully and meets customer expectations.
   * Manage the development backlog of Requirements and Defects in accordance with the Service Design Package and Service Release.
@@ -2007,9 +1919,7 @@ it4it:SourceControlComponent
   * Manage source code images and store them in a Source data object repository.
   * Develop automated Source compilation tools and procedures.
   * Deliver the Source data object to the Build functional component to generate Builds.""" ;
-    meta:subTopClass meta:EntityType ;
     meta:supports it4it:CreationOfSourceCode, it4it:ManagementOfSourceCode ;
-    a owl:Class ;
     rdfs:label "Source Control Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -2049,8 +1959,7 @@ it4it:StructureStability
 
 it4it:Subscription
     it4it:keyDataObject it4it:RequestRealisationComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Subscription"@en ;
     rdfs:subClassOf it4it:DataObject .
 
@@ -2094,14 +2003,12 @@ it4it:TemporalLifeSpan
 
 it4it:TestCase
     it4it:keyDataObject it4it:TestComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Test Case"@en ;
     rdfs:subClassOf it4it:DataObject .
 
 it4it:TestComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Test Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -2134,8 +2041,7 @@ it4it:Up-to-Dateness
     rdfs:label "Up-to-Dateness"@en .
 
 it4it:UsageComponent
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Usage Component"@en ;
     rdfs:subClassOf it4it:FunctionalComponent .
 
@@ -2145,8 +2051,7 @@ it4it:UsageDescription
 
 it4it:UsageRecord
     it4it:keyDataObject it4it:UsageComponent ;
-    meta:subTopClass meta:EntityType ;
-    a owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Usage Record"@en ;
     rdfs:subClassOf it4it:DataObject .
 

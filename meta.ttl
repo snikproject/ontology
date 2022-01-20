@@ -12,7 +12,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 <http://www.snik.eu/ontology/meta>
-    ov:defines :ApplicationComponent, :ComputerBasedApplicationComponent, :DataSetType, :EntityType, :Function, :Method, :MethodApplication, :RepresentationType, :Role, :SoftwareProduct, :Subfunction, :Top, :approvesEntityType, :approvesFunction, :communicatesWith, :decreases, :entityTypeComponent, :functionComponent, :increases, :isAssociatedWith, :isBasedOn, :isInvolvedIn, :isResponsibleFor, :isResponsibleForEntityType, :isResponsibleForFunction, :isResponsibleForRole, :quality, :represents, :roleComponent, :softwareProduct, :subTopClass, :supports, :updates, :uses , :Chapter, :chapter, :chapterNumber, :firstPage, :lastPage, :book, :subChapterOf, :component, :approves, :accesses, :changes;
+    ov:defines :ApplicationComponent, :ComputerBasedApplicationComponent, :DataSetType, :EntityType, :Function, :Method, :MethodApplication, :RepresentationType, :Role, :SoftwareProduct, :Subfunction, :Top, :approvesEntityType, :approvesFunction, :communicatesWith, :decreases, :entityTypeComponent, :functionComponent, :increases, :isAssociatedWith, :isBasedOn, :isInvolvedIn, :isResponsibleFor, :isResponsibleForEntityType, :isResponsibleForFunction, :isResponsibleForRole, :quality, :represents, :roleComponent, :softwareProduct, :supports, :updates, :uses , :Chapter, :chapter, :chapterNumber, :firstPage, :lastPage, :book, :subChapterOf, :component, :approves, :accesses, :changes;
     dc:modified "2021-11-21"^^xsd:date ;
     dc:source <http://www.snik.eu> ;
     dc:publisher <http://www.snik.eu> ;
@@ -37,19 +37,19 @@
     foaf:homepage <http://www.snik.eu> .
 
 :ApplicationComponent
-    :subTopClass :EntityType ;
+    #a :EntityType ;
     a owl:Class ;
     rdfs:label "application component"@en ;
     rdfs:subClassOf :EntityType .
 
 :ComputerBasedApplicationComponent
-    :subTopClass :EntityType ;
+    #a :EntityType ;
     a owl:Class ;
     rdfs:label "computer based application component"@en ;
     rdfs:subClassOf :ApplicationComponent .
 
 :DataSetType
-    :subTopClass :EntityType ;
+    #a :EntityType ;
     a owl:Class ;
     rdfs:label "data set type"@en ;
     rdfs:subClassOf :RepresentationType .
@@ -86,7 +86,7 @@
     ] .
 
 :RepresentationType
-    :subTopClass :EntityType ;
+    # a :EntityType ;
     a owl:Class ;
     rdfs:label "Repräsentationstyp"@de, "representation type"@en ;
     rdfs:subClassOf :EntityType .
@@ -100,7 +100,7 @@
     skos:definition "Unter einer Rolle verstehen wir die Summe von Erwartungen, die an eine Person gerichtet werden. Sie beschreibt ein Bündel von zu erfüllenden Aufgaben und den daraus abgeleiteten Pflichten und den hierfür notwendigen Rechten."@de .
 
 :SoftwareProduct
-    :subTopClass :EntityType ;
+    #a :EntityType ;
     a owl:Class ;
     rdfs:label "Softwareprodukt"@de, "software product"@en ;
     rdfs:subClassOf :EntityType .
@@ -245,11 +245,6 @@
     rdfs:domain :ComputerBasedApplicationComponent ;
     rdfs:label "Softwareprodukt"@de, "software product"@en ;
     rdfs:range :SoftwareProduct .
-
-:subTopClass
-    a owl:ObjectProperty ;
-    rdfs:comment "Next to last class in the class hierarchy up to Top. Either Role, EntityType or Function."@en ;
-    rdfs:label "top class"@en .
 
 :supports
     a owl:ObjectProperty ;

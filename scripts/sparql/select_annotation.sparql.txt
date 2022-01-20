@@ -30,7 +30,7 @@ filter not exists {?resource a owl:Axiom.}
 {?resource ?p ?connected.} UNION {?connected ?p ?resource.} 
 ?connected a owl:Class.
 
-OPTIONAL {?resource meta:subTopClass ?st}
+OPTIONAL {?resource a ?st}
 OPTIONAL {?resource meta:consolidated ?consolidated.}
 OPTIONAL 
 { 
