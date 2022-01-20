@@ -55,9 +55,31 @@
 	sh:class :Role.
 
 :isResponsibleForRoleRangeShape a sh:NodeShape;
-	sh:targetObjectsOf :Role;
+	sh:targetObjectsOf :isResponsibleForRole;
 	sh:class :Role.
 
 #### Function ###############################################################
+
+:FunctionShape a sh:NodeShape;
+	sh:targetClass :Function;
+	sh:property :labelShape,
+		[sh:path :functionComponent],
+		[sh:path :uses],
+		[sh:path :updates],
+		[sh:path :increases],
+		[sh:path :decreases];
+	sh:closed true;
+	sh:ignoredProperties :ignoredProperties, :topProperties.
+
+:FunctionDomainShape a sh:NodeShape;
+	sh:targetSubjectsOf
+		:labelShape,
+		:functionComponent,
+		:uses,
+		:updates,
+		:increases,
+		:decreases;
+	sh:class :Function.
+
 #### Entity Type ############################################################
 #### Other ##################################################################
