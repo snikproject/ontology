@@ -18,8 +18,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix swo: <http://www.ebi.ac.uk/swo/>.
 @prefix swol: <http://www.ebi.ac.uk/swo/license/>.
-@prefix dcterms: <http://purl.org/dc/terms/>.
-@prefix dce: <http://purl.org/dc/elements/1.1/>.
+@prefix dc: <http://purl.org/dc/terms/>.
 @prefix vann: <http://purl.org/vocab/vann/>.
 @prefix schema: <http://schema.org/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
@@ -27,11 +26,11 @@
 @base <http://hitontology.eu/ontology/>.
 
 :ignoredProperties rdf:first vann:example;
-	rdf:rest ( rdf:type rdfs:subClassOf rdfs:comment rdfs:seeAlso skos:altLabel dcterms:source skos:definition dce:source owl:sameAs rdfs:isDefinedBy :chapter :consolidated he:page bb:page bb:conceptDomain).
+	rdf:rest ( rdf:type rdfs:subClassOf rdfs:comment rdfs:seeAlso skos:altLabel dc:source skos:definition owl:sameAs rdfs:isDefinedBy :chapter :consolidated he:page bb:page ob:page bb:conceptDomain ob:conceptDomain).
 
 # inheritance of closed shapes does seem not work, see https://stackoverflow.com/questions/70785194/shacl-closed-shape-with-superclass-inheritance
 :topProperties rdf:first skos:closeMatch;
-	rdf:rest ( skos:exactMatch skos:relatedMatch skos:narrowMatch skos:broadMatch skos:related meta:isAssociatedWith).
+	rdf:rest ( skos:exactMatch skos:relatedMatch skos:narrowMatch skos:broadMatch skos:related meta:isAssociatedWith meta:homonym).
 
 :labelShape a sh:PropertyShape;
 	sh:path rdfs:label;
@@ -41,7 +40,7 @@
 	sh:path rdfs:comment;
 	sh:minCount 1.
 
-#### Role ###################################################################
+#### Top ###################################################################
 
 :TopShape a sh:NodeShape;
 	sh:targetClass :Top;
@@ -49,7 +48,10 @@
 		[sh:path skos:exactMatch],
 		[sh:path skos:relatedMatch],
 		[sh:path skos:narrowMatch],
-		[sh:path skos:broadMatch].
+		[sh:path skos:broadMatch],
+		[sh:path meta:homonym].
+
+#### Role ###################################################################
 
 :RoleShape a sh:NodeShape;
 	sh:targetClass :Role;
@@ -72,8 +74,10 @@
 		:isResponsibleForFunction;
 	sh:class :Role.
 
-:isResponsibleForRoleRangeShape a sh:NodeShape;
-	sh:targetObjectsOf :isResponsibleForRole;
+:RoleRangeShape a sh:NodeShape;
+	sh:targetObjectsOf
+		:isResponsibleForRole,
+		:roleComponent;
 	sh:class :Role.
 
 #### Function ###############################################################
@@ -91,7 +95,6 @@
 
 :FunctionDomainShape a sh:NodeShape;
 	sh:targetSubjectsOf
-		:labelShape,
 		:functionComponent,
 		:uses,
 		:updates,
@@ -99,5 +102,58 @@
 		:decreases;
 	sh:class :Function.
 
+:FunctionRangeShape a sh:NodeShape;
+	sh:targetObjectsOf
+		:isInvolvedIn,
+		:isResponsibleForFunction,
+		:approvesFunction,
+		:functionComponent,
+		:supports;
+	sh:class :Function.
+	
 #### Entity Type ############################################################
+
+:EntityTypeShape a sh:NodeShape;
+	sh:targetClass :EntityType;
+	sh:property :labelShape,
+		[sh:path :entityTypeComponent],
+		[sh:path :isBasedOn];
+	sh:closed true;
+	sh:ignoredProperties :ignoredProperties, :topProperties, (:communicatesWith :supports).
+
+:EntityTypeDomainShape a sh:NodeShape;
+	sh:targetSubjectsOf
+		:entityTypeComponent,
+		:isBasedOn;
+	sh:class :EntityType.
+
+:EntityTypeRangeShape a sh:NodeShape;
+	sh:targetObjectsOf
+		:uses,
+		:updates,
+		:increases,
+		:decreases,
+		:entityTypeComponent,
+		:isBasedOn,
+		:isResponsibleForEntityType,
+		:approvesEntityType;
+	sh:class :EntityType.
+
 #### Other ##################################################################
+
+:ApplicationComponentShape a sh:NodeShape;
+	sh:targetClass :ApplicationComponent;
+	sh:property :labelShape,
+		[sh:path :entityTypeComponent],
+		[sh:path :isBasedOn],
+		[sh:path :communicatesWith],
+		[sh:path :supports];
+	sh:closed true;
+	sh:ignoredProperties :ignoredProperties, :topProperties.
+
+:ApplicationComponentDomainShape a sh:NodeShape;
+	sh:targetSubjectsOf
+		:communicatesWith,
+		:supports;
+	sh:class :ApplicationComponent.
+

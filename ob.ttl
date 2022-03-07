@@ -48,7 +48,7 @@
     rdfs:subClassOf meta:EntityType .
 
 <ob/3LGM2LogicalToolLayer>
-    meta:DefinitionDEPage "329"^^xsd:positiveInteger ;
+    ob:page "329"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent <ob/3LGM2ApplicationComponent>, <ob/3LGM2CommunicationInterface> ;
     a meta:EntityType, owl:Class ;
@@ -67,7 +67,7 @@
     rdfs:subClassOf meta:EntityType .
 
 <ob/3LGM2PhysicalToolLayer>
-    meta:DefinitionDEPage "334"^^xsd:positiveInteger ;
+    ob:page "334"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:CommunicationLink, ob:PhysicalDataProcessingSystem ;
     a meta:EntityType, owl:Class ;
@@ -76,7 +76,7 @@
     skos:definition "Darstellung von Physischen Datenverarbeitungssystemen und ihrer Datenübertragungsverbindungen. Vgl. Drei-Ebenen-Metamodell eines (Sub-)Informationssystems."@de .
 
 <ob/5LevelMethodForSystematicStructuralPlanning>
-    meta:DefinitionDEPage "319"^^xsd:positiveInteger ;
+    ob:page "319"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:Goal, ob:ProjectMotivation, ob:ProjectScope, ob:Subject, ob:Task, ob:WorkPackage ;
     a meta:EntityType, owl:Class ;
@@ -125,7 +125,7 @@ ob:Activity
     rdfs:subClassOf meta:EntityType .
 
 ob:ActivityDiagram
-    meta:DefinitionDEPage "155"^^xsd:positiveInteger ;
+    ob:page "155"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Activity Diagram"@en ;
@@ -133,7 +133,7 @@ ob:ActivityDiagram
     skos:definition "Ein Aktivitätsdiagramm dient der Modellierung des Verhaltens eines dynamischen Systems durch Beschreibung von Folgen logisch zusammen gehöriger Aktivitäten. In der Regel wird mit einem Aktivi-tätsdiagramm der Ablauf innerhalb eines Anwendungsfalls beschrieben. Aktivitätsdiagramme sind als Teil der UML (siehe Kapitel 8.2) zur Beschreibung von Prozessen vor allem im Bereich der Softwareentwicklung hilfreich. Sie enthalten als Konstrukte Aktivitäten, Sequenzen, bedingte Verzweigungen, Schleifen, Parallelisierung und Synchronisation, Hierarchisierung und Partitionierung der Aktivitäten sowie Objektflüsse zwischen Aktivitäten. "@de .
 
 ob:Actor
-    meta:DefinitionDEPage "326"^^xsd:positiveInteger ;
+    ob:page "326"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Role, owl:Class ;
     rdfs:label "Actor"@en, "Handlungsträger"@de ;
@@ -187,7 +187,7 @@ ob:AnalystTeam
     rdfs:subClassOf ob:InformationManagement .
 
 ob:ApplicationAdministrator
-    meta:DefinitionDEPage "282"^^xsd:positiveInteger ;
+    ob:page "282"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter13-1 ;
     meta:isResponsibleForEntityType ob:UserSupportConcept ;
     meta:isResponsibleForFunction ob:ExecutionOfTrainingCourse, ob:OrganizationalDevelopment, ob:SystemOperation, ob:UserAdministration, ob:UserSupport ;
@@ -197,7 +197,7 @@ ob:ApplicationAdministrator
     skos:definition "Konzentriert sich auf die Aufgaben, welche direkt die Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Benutzerbetreuung, Organisationsentwicklung."@de .
 
 ob:ApplicationSystem
-    meta:DefinitionDEPage "12"^^xsd:positiveInteger ;
+    ob:page "12"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-2 ;
     a meta:EntityType, owl:Class ;
     meta:supports ob:EnterpriseFunction ;
@@ -219,7 +219,7 @@ ob:ApplicationSystemMaintenance
     rdfs:subClassOf ob:InformationManagement .
 
 ob:AreaOfAnEnterprise
-    meta:DefinitionDEPage "323"^^xsd:positiveInteger ;
+    ob:page "323"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Area of an Enterprise"@en, "Bereich (eines Unternehmens)"@de ;
@@ -228,7 +228,7 @@ ob:AreaOfAnEnterprise
     skos:related ob:OrganizationalUnit .
 
 ob:Aris
-    meta:DefinitionDEPage "170"^^xsd:positiveInteger ;
+    ob:page "170"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-3 ;
     meta:entityTypeComponent ob:ControlView, ob:DataView, ob:FunctionalView, ob:OrganizationalView ;
     meta:isAssociatedWith ob:BusinessProcess, ob:EventDrivenProcessChain ;
@@ -239,7 +239,7 @@ ob:Aris
     skos:definition "Der ARIS-Ansatz dient der Abbildung der betriebswirtschaftlichen Struktur einer Einrichtung und der dort eingesetzten Anwendungs-systeme. Zu diesem Zweck kombiniert die ARIS-Methode verschie-dene Modellierungsmethoden, wobei im Zentrum der Betrachtung und als verbindendes Element die Geschäftsprozesse der betrachteten Ein-richtung stehen. Methode zur Unternehmensmodellierung. ARIS kombiniert einzelne Modellierungsmethoden, wobei im Zentrum der Betrachung and als verbindendes Element die Geschäftsprozesse (dargestellt als Ereignisgesteuerte Prozessketten) stehen."@de .
 
 ob:AssessmentReport
-    meta:DefinitionDEPage "137"^^xsd:positiveInteger ;
+    ob:page "137"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Assessment Report"@en, "Bericht zur Systembewertung"@de ;
@@ -253,7 +253,7 @@ ob:AuthorizationConcept
     rdfs:subClassOf meta:EntityType .
 
 ob:AutomatedObservation
-    meta:DefinitionDEPage "145"^^xsd:positiveInteger ;
+    ob:page "145"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Automated Observation"@en, "Automatisierte Beobachtung"@de ;
@@ -325,7 +325,7 @@ ob:BudgetCompliance
     rdfs:subClassOf meta:EntityType .
 
 ob:BufferTime
-    meta:DefinitionDEPage "338"^^xsd:positiveInteger ;
+    ob:page "338"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isAssociatedWith ob:WorkPackage ;
     a meta:EntityType, owl:Class ;
@@ -342,7 +342,7 @@ ob:BufferTimeCalculation
     skos:altLabel "Rückwärtsrechnung"@de .
 
 ob:BusinessProcess
-    meta:DefinitionDEPage "156"^^xsd:positiveInteger ;
+    ob:page "156"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     meta:entityTypeComponent ob:Activity, ob:ControlStructure, ob:Event, ob:InformationObject, ob:ProcessRole, ob:Tool ;
     meta:isAssociatedWith ob:EnterpriseFunction ;
@@ -352,7 +352,7 @@ ob:BusinessProcess
     skos:definition "Unter einem Geschäftsprozess verstehen wir eine Menge von zielgerichteten Aktivitäten, die in einem logischen und zeitlichen Zusammenhang stehen und in ihrer Gesamtheit zur Erfüllung von Unternehmensaufgaben beitragen. Ein Geschäftsprozess wird durch ein Ereignis ausgelöst und ist in sich geschlossen. Zur Darstellung von Geschäftsprozessen steht eine Reihe von Methoden zur Geschäftsprozessmodellierung zur Verfügung."@de .
 
 ob:BusinessProcessDrivenRequirementsEngineering
-    meta:DefinitionDEPage "202"^^xsd:positiveInteger ;
+    ob:page "202"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter9-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Business Process Driven Requirements Engineering"@en, "Geschäftsprozessgetriebenen Anforderungsermittlung"@de ;
@@ -384,7 +384,7 @@ ob:BusinessProcessModelingMethod
     rdfs:subClassOf ob:ModelingMethod .
 
 ob:BusinessProcessModelingNotation
-    meta:DefinitionDEPage "165"^^xsd:positiveInteger ;
+    ob:page "165"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Business Process Modeling Notation"@en ;
@@ -393,7 +393,7 @@ ob:BusinessProcessModelingNotation
 
 ob:BusinessProcessModelling
     a meta:Function, owl:Class ;
-    meta:DefinitionDEPage "326"^^xsd:positiveInteger ;
+    ob:page "326"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:uses ob:BusinessProcess, ob:BusinessProcessModelingMethod ;
     rdfs:label "Business Process Modelling"@en, "Geschäftsprozessmodellierung"@de ;
@@ -407,7 +407,7 @@ ob:CanCriterion
     rdfs:subClassOf ob:Requirement .
 
 ob:CardTechnique
-    meta:DefinitionDEPage "328"^^xsd:positiveInteger ;
+    ob:page "328"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Card Technique"@en, "Kärtchenmethode"@de ;
@@ -423,7 +423,7 @@ ob:CentralComputerAndTelecommunicationsAgency
     skos:altLabel "CCTA"@en .
 
 ob:ChangeManagement
-    meta:DefinitionDEPage "323"^^xsd:positiveInteger ;
+    ob:page "323"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class ;
     meta:updates ob:ApplicationSystem, ob:Requirement ;
@@ -1416,7 +1416,7 @@ ob:ChecklistForProjectReview
     rdfs:subClassOf meta:EntityType .
 
 ob:ChiefInformationOfficer
-    meta:DefinitionDEPage "324"^^xsd:positiveInteger ;
+    ob:page "324"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isResponsibleForEntityType ob:ComputingCenter ;
     meta:isResponsibleForFunction ob:InformationManagement ;
@@ -1444,7 +1444,7 @@ ob:CommissionedAssessment
     rdfs:subClassOf meta:EntityType .
 
 ob:Commissioning
-    meta:DefinitionDEPage "344"^^xsd:positiveInteger ;
+    ob:page "344"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class ;
     meta:updates ob:AcceptanceReport ;
@@ -1454,7 +1454,7 @@ ob:Commissioning
     skos:definition "Vorgang, bei dem ein Auftraggeber ein Anwendungssystem nach seiner Inbetriebnahme als Ereignis einer Systemeinführung akzeptiert. Die Systemabnahme dokumentiert, dass das Anwendungssystem alle im Pflichtenfeld bzw. im Vertrag vereinbarten Kriterien erfüllt. Die Ergebisse der Systemabnahme werden in einem Abnahmeprotokoll festgehalten."@de .
 
 ob:CommunicationAnalysis
-    meta:DefinitionDEPage "126"^^xsd:positiveInteger ;
+    ob:page "126"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Communication Analysis"@en, "Kommunikationsanalyse"@de ;
@@ -1462,7 +1462,7 @@ ob:CommunicationAnalysis
     skos:definition "Hier geht es um den Informations-austausch zwischen verschiedenen Personen oder Gruppen in ei-nem Bereich (insbesondere Sender, Empfänger, Inhalt, Häufig-keit, Form) oder auch um die Kommunikation zwischen Berei-chen (z. B. zwischen Stationen)."@de .
 
 ob:CommunicationDiagram
-    meta:DefinitionDEPage "156"^^xsd:positiveInteger ;
+    ob:page "156"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Communication Diagram"@en, "Kommunikationsdiagramm"@de ;
@@ -1485,9 +1485,8 @@ ob:CommunicationLink
 ob:CompleteSurvey
     meta:chapter ob:Chapter12-3 ;
     meta:increases ob:RepresentativityOfResults ;
-    a meta:EntityType, owl:Class ;
-    rdfs:label "Complete Survey"@en, "Vollerhebung"@de ;
-    rdfs:subClassOf meta:EntityType .
+    a meta:Function, owl:Class ;
+    rdfs:label "Complete Survey"@en, "Vollerhebung"@de .
 
 ob:Completeness
     meta:chapter ob:Chapter8-2, ob:Chapter9-2 ;
@@ -1507,7 +1506,7 @@ ob:ComponentOfAnInformationSystem
     rdfs:subClassOf meta:EntityType .
 
 ob:ComputerBasedApplicationSystem
-    meta:DefinitionDEPage "12"^^xsd:positiveInteger ;
+    ob:page "12"^^xsd:positiveInteger ;
     meta:isBasedOn ob:SoftwareProduct ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Computer-Based Application System"@en, "Rechnerbasiertes Anwendungssystem"@de ;
@@ -1528,7 +1527,7 @@ ob:ComputerBasedElicitationForm
     rdfs:subClassOf ob:ElicitationForm .
 
 ob:ComputerBasedInformationSystem
-    meta:DefinitionDEPage "339"^^xsd:positiveInteger ;
+    ob:page "339"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Computer-Based Information System"@en, "Rechnerunterstütztes Informationssystem"@de ;
@@ -1536,7 +1535,7 @@ ob:ComputerBasedInformationSystem
     skos:definition "Informationssystem, in dem unter anderem Rechnersysteme als Werkzeuge der Informaionsverarbeitung eingesetzt werden. Neben Rechnersystemen können in einem rechnerunterstützten Informationssystem auch nicht-rechnerbasierte Werkzeuge der Informationsverarbeitung eingesetzt werden."@de .
 
 ob:ComputerBasedPartOfInformationSystem
-    meta:DefinitionDEPage "339"^^xsd:positiveInteger ;
+    ob:page "339"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Computer-Based Part of Information System"@en, "Computerunterstützter Teil eines Informationssystems"@de ;
@@ -1544,7 +1543,7 @@ ob:ComputerBasedPartOfInformationSystem
     skos:definition "Teilsystem eines Informationsystems, welches (ausschließlich) Rechnersysteme als Werkzeuge der Informaionsverarbeitung erhält."@de .
 
 ob:ComputerSystem
-    meta:DefinitionDEPage "339"^^xsd:positiveInteger ;
+    ob:page "339"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Computer System"@en, "Computersystem"@de ;
@@ -1569,7 +1568,7 @@ ob:ConflictManagement
     rdfs:subClassOf ob:InformationManagement .
 
 ob:ConstructiveCostModel
-    meta:DefinitionDEPage "73"^^xsd:positiveInteger ;
+    ob:page "73"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter5-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Constructive Cost Model"@en ;
@@ -1601,7 +1600,7 @@ ob:ContractObject
     rdfs:subClassOf meta:EntityType .
 
 ob:Contractor
-    meta:DefinitionDEPage "321"^^xsd:positiveInteger ;
+    ob:page "321"^^xsd:positiveInteger ;
     meta:approvesEntityType ob:EvaluationPlan, ob:ProjectGoal, ob:ProjectOrder, ob:ServiceLevelAgreement ;
     meta:chapter ob:Chapter16 ;
     meta:isInvolvedIn ob:DefinitionOfProjectGoals, ob:ProjectManagement ;
@@ -1620,7 +1619,7 @@ ob:ControlStructure
     rdfs:subClassOf meta:EntityType .
 
 ob:ControlView
-    meta:DefinitionDEPage "171"^^xsd:positiveInteger ;
+    ob:page "171"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     meta:isBasedOn ob:BusinessProcessModelingMethod ;
     a meta:EntityType, owl:Class ;
@@ -1630,7 +1629,7 @@ ob:ControlView
     skos:definition "Die Steuerungs- oder Prozesssicht dient der Modellierung von Geschäftsprozessen als verbindendes Element der restlichen drei Sichten. Die verwendete Modellierungsmethoden hierfür sind vor allem die eEPKs, welche Funktionen und Anwendungssysteme der Funktionssicht mit Organisationseinheiten der Organisationssicht und den jeweils relevanten Informationsobjekten der Datensicht verknüpfen. Mittlerweile integriert ARIS im Kontext der Steuerungssicht auch UML-Diagramme zur Verhaltensmodellierung (z. B. Anwendungsfall-, Aktivitäts- und Sequenzdiagramme) sowie die BPMN-Diagrammtypen."@de .
 
 ob:ControlledClinicalTrial
-    meta:DefinitionDEPage "268"^^xsd:positiveInteger ;
+    ob:page "268"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Controlled Clinical Trial"@en, "Kontrollierte klinische Studie"@de ;
@@ -1649,7 +1648,7 @@ ob:Cost
     rdfs:subClassOf meta:EntityType .
 
 ob:CostAnalysis
-    meta:DefinitionDEPage "328"^^xsd:positiveInteger ;
+    ob:page "328"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Cost Analysis"@en, "Kostenanalyse"@de ;
@@ -1657,7 +1656,7 @@ ob:CostAnalysis
     skos:definition "Methode zum Vergleich der Kosten von Varianten. Zu den Kostenanalysen zählen die Kostenvergleichsrechnung, die Kosten-Effektivitäts-Analyse, die Kosten-Nutzen-Analyse sowie die Return-on-Investment-Analyse."@de .
 
 ob:CostBenefitAnalysis
-    meta:DefinitionDEPage "228"^^xsd:positiveInteger ;
+    ob:page "228"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-3, ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Cost-Benefit Analysis"@en ;
@@ -1665,7 +1664,7 @@ ob:CostBenefitAnalysis
     skos:definition "Methode zur Kostenanalyse, welche die Kosten verschiedener Altemativen in Beziehung zu ihrem monetär quantifizierten Nutzen stellt. Die jeweiligen Kosten ergeben sich durch eine Kostenvergleichsrechnung, die Quantifizierung des Nutzens muss hier monetär erfolgen."@de .
 
 ob:CostComparison
-    meta:DefinitionDEPage "228"^^xsd:positiveInteger ;
+    ob:page "228"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-3, ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Cost Comparison"@en, "Kostenvergleichsrechnung"@de ;
@@ -1673,7 +1672,7 @@ ob:CostComparison
     skos:definition "Bei der Kostenvergleichsrechnung werden die Kosten verschiedener Alternativen direkt gegenüber gestellt. Sinnvollerweise wählt man da-bei vergleichbare Kostenkategorien. Als Kostenarten können zumin-dest Investitionskosten, Personalkosten sowie Sachkosten betrachtet werden. Methode zur Kostenanalyse, welche die Kosten verschiedener Alternativen, welche in einer bestimmten Periode oder pro Leistungseinheit anfallen, direkt gegenüber stellt."@de .
 
 ob:CostEffectivenessAnalysis
-    meta:DefinitionDEPage "228"^^xsd:positiveInteger ;
+    ob:page "228"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-3, ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Cost-Effectiveness Analysis"@en, "Kosten-Wirksamkeits-Analyse"@de ;
@@ -1709,14 +1708,14 @@ ob:CreationOfSchedule
     rdfs:subClassOf ob:InformationManagement .
 
 ob:CreativityTechnique
-    meta:DefinitionDEPage "329"^^xsd:positiveInteger ;
+    ob:page "329"^^xsd:positiveInteger ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Creativity Technique"@en, "Kreativitätsmethode"@de ;
     rdfs:subClassOf ob:ProjectPlanningMethod ;
     skos:definition "Methode zum Finden neuer Ideen und zur Lösung von Problemen in einer Gruppe von Personen. Beispiele sind: Brainstorming, Kärtchenmethode,Mind-Mapping-Methode, Metaplan-Methode und Delphi-Methode."@de .
 
 ob:CriticalPath
-    meta:DefinitionDEPage "329"^^xsd:positiveInteger ;
+    ob:page "329"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:WorkPackage ;
     a meta:EntityType, owl:Class ;
@@ -1733,7 +1732,7 @@ ob:CriticalPathCalculation
     rdfs:subClassOf ob:InformationManagement .
 
 ob:CrossLinkedGanttChart
-    meta:DefinitionDEPage "69"^^xsd:positiveInteger ;
+    ob:page "69"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter5-3 ;
     meta:entityTypeComponent ob:Milestone, ob:WorkPackage ;
     a meta:EntityType, owl:Class ;
@@ -1780,7 +1779,7 @@ ob:CustomizationTesting
     rdfs:subClassOf ob:InformationManagement .
 
 ob:Customizing
-    meta:DefinitionDEPage "241"^^xsd:positiveInteger ;
+    ob:page "241"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2 ;
     a meta:Function, owl:Class ;
     meta:updates ob:ApplicationSystem, ob:CostumizationReport, ob:SoftwareProduct, ob:WorkflowManagement ;
@@ -1791,7 +1790,7 @@ ob:Customizing
     skos:definition "Unter Adaptierung verstehen wir die Anpassung eines Produkts an den Bereich, in dem es eingeführt werden soll. Anpassung eines Softwareproduktes an die Gegebenheiten eines Bereichs im Rahmen einer Systemeinführung. Das bedeutet, dass nicht der Programmcode geändert wird, sondern dass das Softwareprodukt entsprechend den Möglichkeiten an die jeweils bereichsspezifischen Anforderungen angepasst ist."@de .
 
 ob:DIN69901
-    meta:DefinitionDEPage "18"^^xsd:positiveInteger ;
+    ob:page "18"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter2-4 ;
     meta:isAssociatedWith ob:Project, ob:ProjectManagement, ob:ProjectOrganization ;
     a meta:EntityType, owl:Class ;
@@ -1800,7 +1799,7 @@ ob:DIN69901
     skos:definition "Die DIN 69901 fasst Standards für das Projektmanagement und Projektmanagementsysteme zusammen."@de .
 
 ob:Data
-    meta:DefinitionDEPage "6"^^xsd:positiveInteger ;
+    ob:page "6"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-1 ;
     meta:isAssociatedWith ob:Information, ob:Knowledge ;
     a meta:EntityType, owl:Class ;
@@ -1822,7 +1821,7 @@ ob:DataBackup
     skos:altLabel "Datenarchivierung"@de .
 
 ob:DataModeling
-    meta:DefinitionDEPage "324"^^xsd:positiveInteger ;
+    ob:page "324"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class ;
     meta:uses ob:DataModelingMethod ;
@@ -1862,7 +1861,7 @@ ob:DataSecurityConcept
     rdfs:subClassOf meta:EntityType .
 
 ob:DataStockAnalysis
-    meta:DefinitionDEPage "148"^^xsd:positiveInteger ;
+    ob:page "148"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Data Stock Analysis"@en, "Datenbestandsanalyse"@de ;
@@ -1876,7 +1875,7 @@ ob:DataTransmissionLink
     rdfs:subClassOf meta:EntityType .
 
 ob:DataView
-    meta:DefinitionDEPage "171"^^xsd:positiveInteger ;
+    ob:page "171"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     meta:isBasedOn ob:DataModelingMethod ;
     a meta:EntityType, owl:Class ;
@@ -1897,7 +1896,7 @@ ob:DeadlineCompliance
     rdfs:subClassOf meta:EntityType .
 
 ob:DeadlineList
-    meta:DefinitionDEPage "346"^^xsd:positiveInteger ;
+    ob:page "346"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:Milestone ;
     a meta:EntityType, owl:Class ;
@@ -1928,7 +1927,7 @@ ob:DefiningAndSchedulingMilestones
 
 ob:DefiningProjectOrganization
     meta:chapter ob:Chapter4-2 ;
-    a meta:Role, owl:Class ;
+    a meta:Function, owl:Class ;
     meta:updates ob:ProjectManager, ob:ProjectSteeringCommittee, ob:ProjectTeamMember ;
     meta:uses ob:StakeholderAnalysis ;
     rdfs:label "Defining Project Organization"@en, "Festlegung der Projektorganisation"@de ;
@@ -1943,7 +1942,7 @@ ob:DefinitionOfAuthorizationConcept
     rdfs:subClassOf ob:InformationManagement .
 
 ob:DefinitionOfIntroductionStrategy
-    meta:DefinitionDEPage "239"^^xsd:positiveInteger ;
+    ob:page "239"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2 ;
     a meta:Function, owl:Class ;
     meta:updates ob:FallbackConcept, ob:IntroductionStrategy, ob:TestOperationSpecification ;
@@ -1969,7 +1968,7 @@ ob:DefinitionOfTargetValue
     rdfs:subClassOf ob:InformationManagement .
 
 ob:DelphiMethod
-    meta:DefinitionDEPage "64"^^xsd:positiveInteger ;
+    ob:page "64"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter5-3 ;
     a meta:EntityType, owl:Class ;
     ob:page "64"^^xsd:positiveInteger ;
@@ -1978,7 +1977,7 @@ ob:DelphiMethod
     skos:definition "Kreativitätsmethode (eher Abstimmungsmethode), welche auf der strukturierten Sammlung von Aussagen und Meinungen einer Expertengruppe beruht. Ausgewählte Experten werden gebeten, sich einzeln zu einer Aussage oder Meinung zu äußern. Die Ergebnisse werden zusammengefasst an alle Teilnehmer zurückgemeldet und die Befragung wird erneut durchgeführt. Diese vorgehen wird solange wiederholt, bis ein befriedigender Konsens zwischen den Experten erreicht wurde."@de .
 
 ob:Department
-    meta:DefinitionDEPage "326"^^xsd:positiveInteger ;
+    ob:page "326"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isInvolvedIn ob:InformationAcquisition, ob:SystemAnalysisPlanning, ob:VerificationSystemAnalysis ;
     a meta:EntityType, owl:Class ;
@@ -1999,7 +1998,7 @@ ob:DescriptionOfCurrentState
     rdfs:subClassOf meta:EntityType .
 
 ob:DescriptiveStatistics
-    meta:DefinitionDEPage "148"^^xsd:positiveInteger ;
+    ob:page "148"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Descriptive Statistics"@en, "Deskriptive Statistik"@de ;
@@ -2027,7 +2026,7 @@ ob:Device
     rdfs:subClassOf ob:Resource .
 
 ob:DiffusionOfInnovationTheory
-    meta:DefinitionDEPage "253"^^xsd:positiveInteger ;
+    ob:page "253"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Diffusion of Innovation Theory"@en ;
@@ -2035,7 +2034,7 @@ ob:DiffusionOfInnovationTheory
     skos:definition "Die Diffusion-of-Innovation-Theorie von Everett Rogers (siehe Literaturverzeichnis) beschreibt, wie sich neue Ideen und Technologien (Innovationen) ausbreiten und angenommen werden. Dabei können verschiedene Gruppen von Benutzern je nach ihrer Innovationsfreude bzw. Annahme der Innovation unterschieden werden. Diese Unter-scheidung hat Relevanz für den Umgang mit diesen verschiedenen Gruppen im Rahmen einer Einführung."@de .
 
 ob:DirectAward
-    meta:DefinitionDEPage "220"^^xsd:positiveInteger ;
+    ob:page "220"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-3, ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Direct Award"@en, "Direktvergabe"@de ;
@@ -2044,7 +2043,7 @@ ob:DirectAward
     skos:definition "Hier werden direkt, ohne verpflichtende Ausschreibung, von einem frei gewählten Unternehmen Leistun- gen bezogen. Dies ist in der Regel nur bei kleinen Auftragsvolu- mina möglich. Mögliche Art einer Ausschreibung. Eine Leistung wird direkt von einem frei gewählten Unternehmen bezogen."@de .
 
 ob:DirectInterview
-    meta:DefinitionDEPage "139"^^xsd:positiveInteger ;
+    ob:page "139"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Direct Interview"@en, "Direktes Interview"@de ;
@@ -2063,7 +2062,7 @@ ob:DiscussionOfTheResults
     rdfs:subClassOf meta:EntityType .
 
 ob:DocumentationAndFormAnalysis
-    meta:DefinitionDEPage "131"^^xsd:positiveInteger ;
+    ob:page "131"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Documentation and Form Analysis"@en, "Dokumentationsanalyse"@de ;
@@ -2086,7 +2085,7 @@ ob:DomainExpert
     rdfs:subClassOf meta:Role .
 
 ob:DomainLayer
-    meta:DefinitionDEPage "168"^^xsd:positiveInteger ;
+    ob:page "168"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Domain Layer"@en, "Fachliche Ebene (3LGM²)"@de ;
@@ -2094,7 +2093,7 @@ ob:DomainLayer
     skos:definition "Die Fachliche Ebene beschreibt die vom Informationssystem unterstützten Unternehmensaufgaben sowie die von ihnen jeweils interpretierten bzw. bearbeiteten Informationsobjekte in Form von Objekttypen. Darstellung von Unternehmensaufgaben und den von ihnen interpretierten bzw. bearbeiteten Informationsobjekten in Form von Objekttypen. Vgl. Drei-Ebenen-Metamodell eines (Sub-) Informationssystems."@de .
 
 ob:DynamicSystem
-    meta:DefinitionDEPage "7"^^xsd:positiveInteger ;
+    ob:page "7"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter2-1 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Dynamic System"@en, "Dynamisches System"@de ;
@@ -2121,7 +2120,7 @@ ob:Elicitation
     rdfs:subClassOf ob:InformationManagement .
 
 ob:ElicitationForm
-    meta:DefinitionDEPage "134"^^xsd:positiveInteger ;
+    ob:page "134"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Elicitation Form"@en, "Fragebogen"@de ;
@@ -2147,7 +2146,7 @@ ob:EndDate
     rdfs:label "end date"@en .
 
 ob:EnterpriseFunction
-    meta:DefinitionDEPage "11"^^xsd:positiveInteger ;
+    ob:page "11"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-2 ;
     a meta:Function, owl:Class ;
     rdfs:label "Enterprise Function"@en, "Unternehmensaufgabe"@de ;
@@ -2155,7 +2154,7 @@ ob:EnterpriseFunction
     skos:definition "Eine Unternehmensaufgabe steht für eine oder mehrere Handlun-gen, die notwendig sind, um eines oder mehrere Ziele einer Einrichtung zu erreichen. Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Handlungsträger – oder im Zusammenwirken beider bearbeitet. Unternehmensaufgaben haben keinen definierten Anfang und kein definiertes Ende. Sie lassen sich in Teilaufgaben gliedern. Unternehmensaufgaben beschreiben, was zu tun ist, aber nicht wie. Handlungen, die notwendig sind, um eines oder mehrere Ziele einer Einrichtung zu erreichen. Wird durch menschliche oder maschinelle Handlungsträger oder im Zusammenwirken beider bearbeitet. Unternehmensaufgaben haben keinen definierten Anfang und kein definiertes Ende. Sie lassen sich in Teilaufgaben gliedern."@de .
 
 ob:EnterpriseModelling
-    meta:DefinitionDEPage "347"^^xsd:positiveInteger ;
+    ob:page "347"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:updates <ob/3LGM2Model> ;
@@ -2166,7 +2165,7 @@ ob:EnterpriseModelling
     skos:definition "Integrierte, umfassende Darstellung des Informationssystems eines Bereichs bzw. eines Unternehmens basierend auf einem Metamodell. Beispiele für Metamodelle zur Unternehmensmodellierung sind ARIS uns 3LGM²."@de .
 
 ob:EntityRelationshipModel
-    meta:DefinitionDEPage "325"^^xsd:positiveInteger ;
+    ob:page "325"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-3 ;
     meta:entityTypeComponent ob:Relation ;
     a meta:EntityType, owl:Class ;
@@ -2176,7 +2175,7 @@ ob:EntityRelationshipModel
     skos:definition "Methode zur Datenmodellierung, welche auf der Darstellung von Objekten und ihrer Beziehungen beruht. ER-Modelle verstehen die Welt als miteinander in vielfältiger Bezie-hung (Relationships) stehende Objekte (Entitäten). Entitäten wie z. B. die Entität Patient Peter Aegrotus haben Eigenschaften (Attribute) wie z. B. eine Patienten-ID (z. B. 12141988PA1) und ein Geburtsdatum (14.12.1988). Attribute, die eine Entität eineindeutig beschreiben (z. B. die Patienten-ID), werden als Schlüsselattribute bezeichnet. Entitäten mit vergleichbaren Eigenschaften werden zu Entitätsklassen (z. B. Arzt, Patient, Diagnose), auch Entitätstypen genannt, zusammengefasst. Entitäten gehen mit anderen Entitäten Beziehungen ein, so wie z. B. der Patient Peter Aegrotus mit einem Arzt Dr. Klaus Medicus eine Behandlungsbeziehung vom 01.02.2014 bis zum 14.02.2014 eingegangen ist. Diese Beziehung trägt eine Bezeichnung „Behandlung“ und kann zwischen einem Arzt Dr. Medicus und poten-ziell beliebig vielen Patienten bestehen. Unterschieden wird auch hier die konkrete Beziehung von der Beziehungsklasse (auch Beziehungs-typ genannt). Die Angabe, wie viele Entitäten an einer Beziehung beteiligt sein können, wird als Kardinalität der Beziehungsklasse be-zeichnet. Kardinalitäten werden an die Beziehungslinien in der Nähe der betreffenden Entitätsklasse gezeichnet."@de .
 
 ob:EnvironmentAnalysis
-    meta:DefinitionDEPage "131"^^xsd:positiveInteger ;
+    ob:page "131"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Environment Analysis"@en, "Umfeld- und Einflussgrößenanalyse"@de ;
@@ -2184,7 +2183,7 @@ ob:EnvironmentAnalysis
     skos:definition "Hierbei werden besonders das Umfeld eines Bereichs (z. B. Zusammenarbeit mit anderen Bereichen) und die Einflussgrößen, die auf ihn wirken, betrachtet (z. B. juristische, wirtschaftliche oder technische Einflussgrößen)."@de .
 
 ob:EquipmentAnalysis
-    meta:DefinitionDEPage "131"^^xsd:positiveInteger ;
+    ob:page "131"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Ausstattungsanalyse"@de, "Equipment Analysis"@en ;
@@ -2198,7 +2197,7 @@ ob:ErrorManagement
     rdfs:subClassOf ob:InformationManagement .
 
 ob:EvaluationCriterion
-    meta:DefinitionDEPage "128"^^xsd:positiveInteger ;
+    ob:page "128"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-2 ;
     meta:isAssociatedWith ob:LevelOfTargetAchievement ;
     a meta:EntityType, owl:Class ;
@@ -2218,7 +2217,7 @@ ob:EvaluationMethodsSection
     rdfs:subClassOf meta:EntityType .
 
 ob:EvaluationOfCommunication
-    meta:DefinitionDEPage "113"^^xsd:positiveInteger ;
+    ob:page "113"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-3 ;
     a meta:Function, owl:Class ;
     rdfs:label "Bewertung Kommunikation"@de, "Evaluation of Communication"@en ;
@@ -2226,7 +2225,7 @@ ob:EvaluationOfCommunication
     skos:definition "Evaluation von Sitzungsmanagement, Protokollen, Projektdokumentation, Kommunikation im Team und nach außen, Einhalten von Vorgaben"@de .
 
 ob:EvaluationOfProjectManagement
-    meta:DefinitionDEPage "113"^^xsd:positiveInteger ;
+    ob:page "113"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-3 ;
     a meta:Function, owl:Class ;
     rdfs:label "Evaluation of Project Management"@en ;
@@ -2234,7 +2233,7 @@ ob:EvaluationOfProjectManagement
     skos:definition "Evaluation von Zieldefinition, Projektbudget, Projektorga-nisation, Kompetenzen aller Teammitglieder, Risikomanagement, Änderungen am Projektplan"@de .
 
 ob:EvaluationOfTeamwork
-    meta:DefinitionDEPage "113"^^xsd:positiveInteger ;
+    ob:page "113"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-3 ;
     a meta:Function, owl:Class ;
     rdfs:label "Bewertung Zusammenarbeit im Team"@de, "Evaluation of Teamwork"@en ;
@@ -2242,7 +2241,7 @@ ob:EvaluationOfTeamwork
     skos:definition "Evaluation von Teamaufbau, Konflikten im Team, Rolle des Projektleiters, Zusammenarbeit mit Auftraggeber und PLA, Unterstützung durch das Projektumfeld"@de .
 
 ob:EvaluationOfTechnicalAspects
-    meta:DefinitionDEPage "113"^^xsd:positiveInteger ;
+    ob:page "113"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-3 ;
     a meta:Function, owl:Class ;
     rdfs:label "Bewertung fachliche Aspekte"@de, "Evaluation of Technical Aspects"@en ;
@@ -2257,7 +2256,7 @@ ob:EvaluationPlan
     rdfs:subClassOf meta:EntityType .
 
 ob:EvaluationPlanning
-    meta:DefinitionDEPage "262"^^xsd:positiveInteger ;
+    ob:page "262"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     meta:entityTypeComponent ob:StakeholderAnalysis ;
     a meta:EntityType, owl:Class ;
@@ -2295,7 +2294,7 @@ ob:Event
     rdfs:subClassOf meta:EntityType .
 
 ob:EventDrivenProcessChain
-    meta:DefinitionDEPage "136"^^xsd:positiveInteger ;
+    ob:page "136"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:Activity, ob:Event ;
     a meta:EntityType, owl:Class ;
@@ -2352,7 +2351,7 @@ ob:ExecutionOfProductPresentation
     rdfs:subClassOf ob:InformationManagement .
 
 ob:ExecutionOfProjectReview
-    meta:DefinitionDEPage "111"^^xsd:positiveInteger ;
+    ob:page "111"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-2 ;
     meta:functionComponent ob:EvaluationOfCommunication, ob:EvaluationOfProjectManagement, ob:EvaluationOfTeamwork, ob:EvaluationOfTechnicalAspects ;
     a meta:Function, owl:Class;
@@ -2378,7 +2377,7 @@ ob:ExecutionOfTrainingCourse
     rdfs:subClassOf ob:InformationManagement .
 
 ob:ExecutionOfVerificationMeeting
-    meta:DefinitionDEPage "136"^^xsd:positiveInteger ;
+    ob:page "136"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:Function, owl:Class;
     meta:updates ob:Model, ob:VerificationProtocol ;
@@ -2394,7 +2393,7 @@ ob:ExpectedProjectBenefit
     rdfs:subClassOf meta:EntityType .
 
 ob:ExploratoryDiscussion
-    meta:DefinitionDEPage "127"^^xsd:positiveInteger ;
+    ob:page "127"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:Function, owl:Class;
     meta:updates ob:EvaluationCriterion, ob:ObjectiveOfAnalysis, ob:ProjectScope, ob:ProtocolOfExploratoryDiscussion ;
@@ -2430,7 +2429,7 @@ ob:FallbackConcept
     rdfs:subClassOf meta:EntityType .
 
 ob:FastTransition
-    meta:DefinitionDEPage "239"^^xsd:positiveInteger ;
+    ob:page "239"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Fast Transition"@en, "Schlagumstellung"@de ;
@@ -2445,7 +2444,7 @@ ob:FinalProtocolOfProjectSteeringCommittee
     rdfs:subClassOf meta:EntityType .
 
 ob:FinalReport
-    meta:DefinitionDEPage "108"^^xsd:positiveInteger ;
+    ob:page "108"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter7-2 ;
     meta:entityTypeComponent ob:AnalysisReport, ob:Discussion, ob:ManagementSummary, ob:ProjectPlan, ob:ProjectProgression, ob:ProjectResult ;
     meta:isBasedOn ob:FinalReportStructure ;
@@ -2462,7 +2461,7 @@ ob:FinalReportCreation
     rdfs:subClassOf ob:InformationManagement .
 
 ob:FinalReportPresentation
-    meta:DefinitionDEPage "110"^^xsd:positiveInteger ;
+    ob:page "110"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-2 ;
     a meta:Function, owl:Class;
     meta:uses ob:FinalReport ;
@@ -2482,7 +2481,7 @@ ob:FinancialResource
     rdfs:subClassOf ob:Resource .
 
 ob:FirstLevelSupport
-    meta:DefinitionDEPage "284"^^xsd:positiveInteger ;
+    ob:page "284"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter13-1, ob:Chapter16 ;
     a meta:Function, owl:Class ;
     rdfs:label "First-Level Support"@en ;
@@ -2510,7 +2509,7 @@ ob:FormulationOfAProjectIdea
     rdfs:subClassOf ob:InformationManagement .
 
 ob:FunctionAnalysis
-    meta:DefinitionDEPage "126"^^xsd:positiveInteger ;
+    ob:page "126"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Aufgabenanalyse"@de, "Function Analysis"@en ;
@@ -2518,7 +2517,7 @@ ob:FunctionAnalysis
     skos:definition "Hier sollen die Unternehmensaufgaben eines betrachteten Bereichs analysiert werden, z. B. die besonderen diagnostischen und therapeutischen Aufgaben einer Ambulanz"@de .
 
 ob:FunctionalRequirement
-    meta:DefinitionDEPage "194"^^xsd:positiveInteger ;
+    ob:page "194"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter9-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Functional Requirement"@en, "Funktionale Anforderung"@de ;
@@ -2526,7 +2525,7 @@ ob:FunctionalRequirement
     skos:definition "Funktionale Anforderungen beschreiben, welche Funktionen ein Produkt bereitstellen soll."@de .
 
 ob:FunctionalSpecificationDocument
-    meta:DefinitionDEPage "185"^^xsd:positiveInteger ;
+    ob:page "185"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter9-1 ;
     meta:entityTypeComponent ob:Requirement, ob:UseCase ;
     a meta:EntityType, owl:Class ;
@@ -2536,7 +2535,7 @@ ob:FunctionalSpecificationDocument
     skos:definition "ein wichtiger Teil des Sollkonzepts. Ein Pflichtenheft beschreibt vor dem Hintergrund des Soll-Modells die Anforderungen an ein neues Pro-dukt. Je nachdem, ob das Sollkonzept definiert, ob ein fertiges Soft-wareprodukt gekauft oder erst entwickelt werden muss, dient das Pflichtenheft als Basis für eine Systemauswahl (vgl. Kapitel 10) oder als grundlegendes Dokument für die Systementwicklung. Sammlung, Gruppierung und Priorisierung aller Anforderungen, die an ein Produkt gestellt werden. Pflichtenhefte werden in der Regel vor allem bei der Auswahl rechnerbasierter Anwendungssysteme eingesetzt sowie als Grundlage für deren Entwicklung. Sie stellen ein Ergebnis einer Systemspezifikation dar."@de .
 
 ob:FunctionalView
-    meta:DefinitionDEPage "171"^^xsd:positiveInteger ;
+    ob:page "171"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Functional View"@en, "Funktionssicht"@de ;
@@ -2544,7 +2543,7 @@ ob:FunctionalView
     skos:definition "Die Funktionssicht ermöglicht die Darstellung der für die Einrichtung relevanten Funktionen (Aktivitäten) und ihrer Attribute (Zeitbedarf, Kosten etc.). Zur Modellierung werden z. B. Funktionsbäume verwendet, um Funktionen in ihrer hierarchischen Unterteilung in Unterfunktionen darstellen zu können. Aber auch Anwendungssysteme werden in dieser Sicht modelliert, wobei diese ausgehend vom Anwendungssystem- Typ (z. B. Patientenverwaltungssystem) über das konkrete Anwendungssystem (z. B. Patientenverwaltungssystem SAP IS-H) bis auf die Ebene der Benutzerschnittstellen (z. B. Dialog zur administrativen Patientenaufnahme) beschrieben werden können."@de .
 
 ob:GanttChart
-    meta:DefinitionDEPage "322"^^xsd:positiveInteger ;
+    ob:page "322"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:Milestone, ob:WorkPackage ;
     a meta:EntityType, owl:Class ;
@@ -2554,7 +2553,7 @@ ob:GanttChart
     skos:definition "Ergebnis einer Ablaufplanung in einem Projekt, in dem Arbeitspakete und Meilensteine auf einer Zeitachse graphisch dargestellt und zeitlich angeordnet werden."@de .
 
 ob:GanttChartAnalysis
-    meta:DefinitionDEPage "322"^^xsd:positiveInteger ;
+    ob:page "322"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isAssociatedWith ob:GanttChart ;
     a meta:EntityType, owl:Class ;
@@ -2563,7 +2562,7 @@ ob:GanttChartAnalysis
     skos:definition "Methode zur Projektüberwachung, bei der der Stand des Projekts als Ist-Soll-Vergleich bezüglich geplantem und tatsächlichem Beginn bzw. Ende von Arbeitspaketen in einem Balkenplan dargestellt wird."@de .
 
 ob:GoLive
-    meta:DefinitionDEPage "249"^^xsd:positiveInteger ;
+    ob:page "249"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2, ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:updates ob:SoftwareProduct ;
@@ -2578,7 +2577,7 @@ ob:Goal
     rdfs:subClassOf meta:EntityType .
 
 ob:GoalDefinition
-    meta:DefinitionDEPage "186"^^xsd:positiveInteger ;
+    ob:page "186"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter9-2 ;
     a meta:Function, owl:Class;
     meta:updates ob:EvaluationCriterion, ob:ProjectGoal, ob:ProjectScope, ob:SpecificationPlan, ob:SystemSpecificationMethod ;
@@ -2588,7 +2587,7 @@ ob:GoalDefinition
     skos:definition "In der Zieldefinition wird festgehalten, welche Ziele in Zukunft durch die geplante Modifikation erreicht werden sollen, wie z. B. Optimie-rung von Arbeitsabläufen und/oder Auswahl eines neuen Produkts."@de .
 
 ob:GroupInterview
-    meta:DefinitionDEPage "139"^^xsd:positiveInteger ;
+    ob:page "139"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Group Interview"@en, "Gruppeninterview"@de ;
@@ -2602,7 +2601,7 @@ ob:Guideline
     rdfs:subClassOf meta:EntityType .
 
 ob:HandoverCertificate
-    meta:DefinitionDEPage "252"^^xsd:positiveInteger ;
+    ob:page "252"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Handover Certificate"@en, "Übergabeprotokoll"@de ;
@@ -2640,7 +2639,7 @@ ob:HospitalGoal
     rdfs:subClassOf meta:EntityType .
 
 ob:HospitalInformationSystem
-    meta:DefinitionDEPage "10"^^xsd:positiveInteger ;
+    ob:page "10"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-2 ;
     a meta:EntityType, owl:Class ;
     ob:conceptDomain "krankenhausspezifisch"^^xsd:string ;
@@ -2681,7 +2680,7 @@ ob:IncidentClassification
     rdfs:subClassOf meta:EntityType .
 
 ob:IndirectInterview
-    meta:DefinitionDEPage "139"^^xsd:positiveInteger ;
+    ob:page "139"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Indirect Interview"@en, "Indirektes Interview"@de ;
@@ -2689,7 +2688,7 @@ ob:IndirectInterview
     skos:definition "Das direkte Interview ist persönlicher und oft informativer, das indirekte Interview ggf. einfacher zu organisieren."@de .
 
 ob:InfluenceProjectOrganization
-    meta:DefinitionDEPage "325"^^xsd:positiveInteger ;
+    ob:page "325"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Einfluss-Projektorganisation"@de, "Influence Project Organization"@en ;
@@ -2703,7 +2702,7 @@ ob:InformalModelingTechnique
     rdfs:subClassOf ob:ModelingMethod .
 
 ob:Information
-    meta:DefinitionDEPage "6"^^xsd:positiveInteger ;
+    ob:page "6"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter2-1 ;
     meta:isAssociatedWith ob:Data ;
     a meta:EntityType, owl:Class ;
@@ -2712,7 +2711,7 @@ ob:Information
     skos:definition "Information (lat. informare: Gestalt geben) ist eine Feststellung über bestimmte Sachverhalte oder Vorgänge. Wir wollen diesen Begriff etwas enger fassen und ihn für die Feststellung über einzelne, konkrete, benennbare Objekte der realen oder virtuellen Welt verwenden. So wollen wir Feststellungen über einen bestimmten Patienten bzw. Behandlungsfall als Informationen über diesen Patienten bzw. Behandlungsfall bezeichnen. Information kann in Form von Daten repräsentiert und so gespeichert und weitergegeben werden."@de .
 
 ob:InformationAcquisition
-    meta:DefinitionDEPage "125"^^xsd:positiveInteger ;
+    ob:page "125"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:updates ob:InformationAcquisitionResult ;
@@ -2763,7 +2762,7 @@ ob:InformationAcquisitionSpecification
     rdfs:subClassOf ob:InformationAcquisition .
 
 ob:InformationAcquisitionSystemAnalysis
-    meta:DefinitionDEPage "124"^^xsd:positiveInteger ;
+    ob:page "124"^^xsd:positiveInteger ;
     a meta:Function, owl:Class;
     meta:updates ob:ElicitationForm ;
     meta:uses ob:ElicitationForm, ob:InformationAcquisitionMethod ;
@@ -2779,7 +2778,7 @@ ob:InformationAndCommunicationSystem
     skos:related ob:InformationSystem .
 
 ob:InformationAndKnowledgeLogistics
-    meta:DefinitionDEPage "16"^^xsd:positiveInteger ;
+    ob:page "16"^^xsd:positiveInteger ;
     meta:isAssociatedWith ob:Information, ob:Knowledge ;
     a meta:Function, owl:Class ;
     rdfs:label "Information and Knowledge Logistics"@en, "Informations- und Wissenslogistik"@de ;
@@ -2787,7 +2786,7 @@ ob:InformationAndKnowledgeLogistics
     skos:definition "Informations- und Wissenslogistik umfasst das Bereitstellen - der richtigen Information und des richtigen Wissens - zum richtigen Zeitpunkt - am richtigen Ort - in der richtigen Form - für die richtigen Personen so, dass die richtigen Entscheidungen getroffen werden können."@de .
 
 ob:InformationManagement
-    meta:DefinitionDEPage "26"^^xsd:positiveInteger ;
+    ob:page "26"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter3-1 ;
     meta:functionComponent ob:ItServiceManagement, ob:OperationalManagementOfInformationSystems, ob:StrategicManagementOfInformationSystems, ob:SystemAnalysis, ob:TacticalManagementOfInformationSystems ;
     a meta:Function, owl:Class;
@@ -2811,7 +2810,7 @@ ob:InformationProcess
     rdfs:subClassOf meta:EntityType .
 
 ob:InformationProcessingTool
-    meta:DefinitionDEPage "347"^^xsd:positiveInteger ;
+    ob:page "347"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Information Processing Tool"@en, "Werkzeug der Informationsverarbeitung"@de ;
@@ -2819,7 +2818,7 @@ ob:InformationProcessingTool
     skos:definition "Anwengungssysteme und Physische Datenverarbeitungssysteme. Wir unterscheiden rechnerbasierte Werkzeuge (rechnerbasierte Anwendungssysteme und Rechnersysteme) von nicht-rechnerbasierten Werkzeugen (nicht-rechnerbasierte Anwendungssysteme oder nicht-rechnerbasierte Physische Datenverarbeitungssysteme wie Formulare, Telefon)."@de .
 
 ob:InformationSystem
-    meta:DefinitionDEPage "327"^^xsd:positiveInteger, "9"^^xsd:positiveInteger ;
+    ob:page "327"^^xsd:positiveInteger, "9"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-2 ;
     meta:entityTypeComponent ob:ApplicationSystem, ob:BusinessProcess, ob:ComputerBasedPartOfInformationSystem, ob:PhysicalDataProcessingTool ;
     meta:roleComponent ob:Actor ;
@@ -2853,7 +2852,7 @@ ob:InformationSystemModelingMethod
     rdfs:subClassOf ob:ModelingMethod .
 
 ob:InformationTechnologyInfrastructureLibrary
-    meta:DefinitionDEPage "327"^^xsd:positiveInteger ;
+    ob:page "327"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Information Technology Infrastructure Library"@en ;
@@ -2888,7 +2887,7 @@ ob:Integrity
     rdfs:subClassOf ob:QualityCriterion .
 
 ob:InteractionOverviewDiagram
-    meta:DefinitionDEPage "156"^^xsd:positiveInteger ;
+    ob:page "156"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Interaction Overview Diagram"@en, "Interaktionsübersichtsdiagramm"@de ;
@@ -2913,7 +2912,7 @@ ob:InterfaceManagement
     rdfs:subClassOf ob:InformationManagement .
 
 ob:InterimReport
-    meta:DefinitionDEPage "348"^^xsd:positiveInteger ;
+    ob:page "348"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter2-4 ;
     meta:entityTypeComponent ob:InterimReportSummary, ob:ProjectPlan, ob:ProjectProgression ;
     a meta:EntityType, owl:Class ;
@@ -2946,7 +2945,7 @@ ob:InternalProcedureInstruction
     rdfs:subClassOf meta:EntityType .
 
 ob:Interview
-    meta:DefinitionDEPage "331"^^xsd:positiveInteger ;
+    ob:page "331"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Interview"@en ;
@@ -2955,7 +2954,7 @@ ob:Interview
     skos:definition "Methode zur Informationsbeschaffung, bei der bestimmte Personen durch einen Interviewer gestellte Fragen beantworten. Eine Befragung dient dazu, Informationen, Einstellungen und Meinungen von Personen in einem zu untersuchenden Bereich zu erheben. Als Erhebungsformular wird ein Interviewleitfaden verwendet, anhand dessen der Interviewer die Fragen stellt und die Antworten notiert. Mündliche Befragungen können einen unterschiedlichen Grad an Standardisierung (siehe standardisierte Datenerhebung) besitzen."@de .
 
 ob:InterviewGuideline
-    meta:DefinitionDEPage "139"^^xsd:positiveInteger ;
+    ob:page "139"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Interview Guideline"@en, "Interviewleitfaden"@de ;
@@ -3035,7 +3034,7 @@ ob:ItilVersion2
     rdfs:subClassOf bb:Itil, meta:EntityType .
 
 ob:ItilVersion3
-    meta:DefinitionDEPage "288"^^xsd:positiveInteger ;
+    ob:page "288"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter13-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "ITIL Version 3"@en ;
@@ -3043,7 +3042,7 @@ ob:ItilVersion3
     skos:definition "In der seit 2007 aktuellen Version 3 wurde das IT Service Management als selbständiges Servicemanagement-Konzept weiterentwickelt, welches sich an dem durch den IT-Betrieb zu erbringenden nachhaltigen wirtschaftlichen Mehrwert für den Kunden orientiert."@de .
 
 ob:Job
-    meta:DefinitionDEPage "343"^^xsd:positiveInteger ;
+    ob:page "343"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isAssociatedWith ob:OrganizationalUnit ;
     a meta:EntityType, owl:Class ;
@@ -3052,7 +3051,7 @@ ob:Job
     skos:definition "Summe der einer Position in einem Bereich zugeordneten Aufgaben. Stellen und ihre Zuordnug zu Organisationseinheiten bzw. konkreten Personen können in Form von Organigrammen dargestellt werden."@de .
 
 ob:JourFixe
-    meta:DefinitionDEPage "89"^^xsd:positiveInteger, "97"^^xsd:positiveInteger ;
+    ob:page "89"^^xsd:positiveInteger, "97"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter6-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:comment "regelmäßig durchgeführte Teamsitzung"@de ;
@@ -3073,7 +3072,7 @@ ob:KeyUser
     rdfs:subClassOf meta:Role .
 
 ob:KickOffMeeting
-    meta:DefinitionDEPage "328"^^xsd:positiveInteger ;
+    ob:page "328"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:increases ob:TeamDevelopment ;
     a meta:EntityType, owl:Class ;
@@ -3088,7 +3087,7 @@ ob:KillerPhrase
     rdfs:subClassOf meta:EntityType .
 
 ob:Knowledge
-    meta:DefinitionDEPage "6"^^xsd:positiveInteger ;
+    ob:page "6"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-1 ;
     meta:isAssociatedWith ob:Data ;
     a meta:EntityType, owl:Class ;
@@ -3128,7 +3127,7 @@ ob:LegalRegulation
     rdfs:subClassOf meta:EntityType .
 
 ob:LevelOfTargetAchievement
-    meta:DefinitionDEPage "348"^^xsd:positiveInteger ;
+    ob:page "348"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Level of Target Achievement"@en, "Zielerreichungsgrad"@de ;
@@ -3136,7 +3135,7 @@ ob:LevelOfTargetAchievement
     skos:definition "Wert, der die Erreichung eines Ziels oder die Erfüllung eines Bewertungskriterium auf einer quantitativen Skala angibt. Kann in Form von Polaritätsprofilen oder Spinnendiagrammen graphisch dargestellt werden."@de .
 
 ob:LimitedTenderWithPublicAnnouncement
-    meta:DefinitionDEPage "219"^^xsd:positiveInteger ;
+    ob:page "219"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-3, ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Limited Tender with Public Announcement"@en, "Nicht offenes Verfahren mit vorheriger Bekanntmachung"@de ;
@@ -3144,7 +3143,7 @@ ob:LimitedTenderWithPublicAnnouncement
     skos:definition "Nach- dem eine unbeschränkte Zahl von Unternehmen öffentlich zur Abgabe von Teilnahmeanträgen aufgefordert wurde (1. Stufe), werden aufgrund ihrer Eignung ausgewählte Bewerber (mindes- tens fünf) zur Abgabe eines detaillierten Angebots aufgefordert (2. Stufe). Die Auswahl der Bewerber erfolgt nach vorher festge- legten Kriterien. Das weitere Verfahren ist wie beim offenen Ver- fahren. Diese Verfahrensart ist neben dem offenen Verfahren un- beschränkt zulässig."@de .
 
 ob:LimitedTenderWithoutPublicAnnouncement
-    meta:DefinitionDEPage "219"^^xsd:positiveInteger ;
+    ob:page "219"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-3, ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Limited Tender without Public Announcement"@en, "Nicht offenes Verfahren ohne Bekanntmachung"@de ;
@@ -3159,7 +3158,7 @@ ob:LiteratureResearch
     rdfs:subClassOf ob:InformationManagement .
 
 ob:LoadTest
-    meta:DefinitionDEPage "268"^^xsd:positiveInteger ;
+    ob:page "268"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Lasttest"@de, "Load Test"@en ;
@@ -3167,7 +3166,7 @@ ob:LoadTest
     skos:definition "zur Evaluation der Stabilität und Performanz"@de .
 
 ob:LogFileAnalysis
-    meta:DefinitionDEPage "268"^^xsd:positiveInteger ;
+    ob:page "268"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Log File Analysis"@en, "Log-File-Analyse"@de ;
@@ -3175,7 +3174,7 @@ ob:LogFileAnalysis
     skos:definition "zur Analyse von Nutzungsraten"@de .
 
 ob:LogicalToolLayer
-    meta:DefinitionDEPage "168"^^xsd:positiveInteger ;
+    ob:page "168"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     meta:entityTypeComponent ob:ApplicationSystem, ob:CommunicationLink ;
     a meta:EntityType, owl:Class ;
@@ -3184,7 +3183,7 @@ ob:LogicalToolLayer
     skos:definition "Die Logische Werkzeugebene beschreibt die zur Erfüllung der Aufgaben eingesetzten Anwendungssysteme und ihre Kommuni-kationsverbindung. Es können sowohl rechnerbasierte als auch papierbasierte Anwendungssysteme dargestellt werden."@de .
 
 ob:Lot
-    meta:DefinitionDEPage "329"^^xsd:positiveInteger ;
+    ob:page "329"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Los"@de, "Lot"@en ;
@@ -3204,7 +3203,7 @@ ob:MaintenanceConcept
     rdfs:subClassOf meta:EntityType .
 
 ob:MaintenanceContract
-    meta:DefinitionDEPage "286"^^xsd:positiveInteger ;
+    ob:page "286"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter13-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Maintenance Contract"@en, "Softwarepflegevertrag"@de ;
@@ -3238,7 +3237,7 @@ ob:ManagementSummary
     rdfs:subClassOf meta:EntityType .
 
 ob:ManualObservation
-    meta:DefinitionDEPage "145"^^xsd:positiveInteger ;
+    ob:page "145"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Manual Observation"@en, "Manuelle Bobachtung"@de ;
@@ -3246,7 +3245,7 @@ ob:ManualObservation
     skos:definition "Die Beobachtung kann manuell (durch einen Menschen, unter Verwendung eines Beobachtungsbogens) oder automatisiert (z. B. über eine automatische Log-Funktion, die in dem verwendeten Softwareprodukt integriert ist) erfolgen."@de .
 
 ob:MarketAnalysis
-    meta:DefinitionDEPage "330"^^xsd:positiveInteger ;
+    ob:page "330"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Market Analysis"@en, "Marktanalyse"@de ;
@@ -3261,7 +3260,7 @@ ob:MaterialResource
     rdfs:subClassOf ob:Resource .
 
 ob:MatrixProjectOrganization
-    meta:DefinitionDEPage "330"^^xsd:positiveInteger ;
+    ob:page "330"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Matrix Project Organization"@en, "Matrix-Projektorganisation"@de ;
@@ -3273,7 +3272,7 @@ ob:Measurability
     rdfs:label "Measurability"@en .
 
 ob:Measurement
-    meta:DefinitionDEPage "330"^^xsd:positiveInteger ;
+    ob:page "330"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Measurement"@en, "Messung"@de ;
@@ -3281,7 +3280,7 @@ ob:Measurement
     skos:definition "Spezielle, hoch standardisierte Art der Beobachtung, bei der Kennzahlen mit Hilfe von Messinstrumenten quantitativ erhoben werden (z.B. Zeitmessung)."@de .
 
 ob:MeetingManagement
-    meta:DefinitionDEPage "341"^^xsd:positiveInteger ;
+    ob:page "341"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class ;
     rdfs:label "Meeting Management"@en, "Sitzungsmanagement"@de ;
@@ -3289,7 +3288,7 @@ ob:MeetingManagement
     skos:definition "Organisation von Sitzungen im Projektteam, so dass die Sitzungen effizient und zielgerichtet ablaufen können. Dazu gehört die Vorbereitung, Durchführung und Nachbereitung von Sitzungen. Sitzungsmanagement ist die Aufgabe des Projektleiters."@de .
 
 ob:Message
-    meta:DefinitionDEPage "6"^^xsd:positiveInteger ;
+    ob:page "6"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-1 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Message"@en, "Nachricht"@de ;
@@ -3297,7 +3296,7 @@ ob:Message
     skos:definition "Daten, die zum Zweck ihrer Weitergabe zusammengestellt und als Einheit betrachtet werden."@de .
 
 ob:Metamodel
-    meta:DefinitionDEPage "8"^^xsd:positiveInteger ;
+    ob:page "8"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-1 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Metamodel"@en, "Metamodell"@de ;
@@ -3305,7 +3304,7 @@ ob:Metamodel
     skos:definition "Die für ein Modell verwendete Modelierungssprache, also die für das Beschreiben verwendeten Symbole, Worte oder grafischen Zeichen."@de .
 
 ob:MetaplanTechnique
-    meta:DefinitionDEPage "330"^^xsd:positiveInteger ;
+    ob:page "330"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Metaplan Technique"@en, "Metaplan-Methode"@de ;
@@ -3366,7 +3365,7 @@ ob:MigrationPath
     rdfs:subClassOf meta:EntityType .
 
 ob:MigrationPlan
-    meta:DefinitionDEPage "331"^^xsd:positiveInteger ;
+    ob:page "331"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Migration Plan"@en, "Migrationsplan"@de ;
@@ -3375,7 +3374,7 @@ ob:MigrationPlan
     skos:definition "Beschreibt, welche Maßnahmen notwendig sind, um von einem Ist-Zustand zu einem gewünschten Soll-Zustand zu gelangen. Der Migrationsplan ist Teil des Sollkonzepts bei einer Systemspezifikation."@de .
 
 ob:Milestone
-    meta:DefinitionDEPage "330"^^xsd:positiveInteger ;
+    ob:page "330"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Milestone"@en ;
@@ -3383,7 +3382,7 @@ ob:Milestone
     skos:definition "Wichtiges termingebundenes Ereignis im Verlauf eines Projekts. Meilensteine unterstützen die Projektüberwachung, also die Überprüfung, ob das Projekt inhaltlich und terminlich noch entsprechend dem Projektplan abläuft. Meilensteine werden als Ergebnis der Ablaufplanung in der Projektplanung festgelegt."@de .
 
 ob:MilestoneTrendAnalysis
-    meta:DefinitionDEPage "330"^^xsd:positiveInteger ;
+    ob:page "330"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isAssociatedWith ob:Milestone ;
     a meta:EntityType, owl:Class ;
@@ -3392,7 +3391,7 @@ ob:MilestoneTrendAnalysis
     skos:definition "Methode der Projektüberwachung, bei der auf Basis der Informationen über die Erreichung geplanter Meilensteine ein zeitlicher IstSOLL- Vergleich vorgenommen wird."@de .
 
 ob:MindMapping
-    meta:DefinitionDEPage "331"^^xsd:positiveInteger ;
+    ob:page "331"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Mind Mapping"@en, "Mind-Mapping-Methode"@de ;
@@ -3416,7 +3415,7 @@ ob:MinimumProjectDurationCalculation
     skos:altLabel "Vorwärtsrechnung"@de .
 
 ob:MinuteTaker
-    meta:DefinitionDEPage "140"^^xsd:positiveInteger ;
+    ob:page "140"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     meta:isInvolvedIn ob:Interview ;
     a meta:Role, owl:Class ;
@@ -3425,7 +3424,7 @@ ob:MinuteTaker
     skos:definition "Bei offenen Fragen ist es empfehlenswert, neben einem Gesprächsführer auch einen Protokollführer zu haben, welcher die Antworten notiert und bei Verständnisproblemen nachfragt. Ist der Befragte einverstanden, kann ein Aufnahmegerät verwendet werden"@de .
 
 ob:Model
-    meta:DefinitionDEPage "8"^^xsd:positiveInteger ;
+    ob:page "8"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-1 ;
     meta:isBasedOn ob:Metamodel ;
     a meta:EntityType, owl:Class ;
@@ -3440,7 +3439,7 @@ ob:ModelingMethod
     rdfs:subClassOf ob:PreparationAndModelingMethod .
 
 ob:ModulAndOrganizationSpecificGradualTransition
-    meta:DefinitionDEPage "239"^^xsd:positiveInteger ;
+    ob:page "239"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Modul- and Organization-Specific Gradual Transition"@en ;
@@ -3448,7 +3447,7 @@ ob:ModulAndOrganizationSpecificGradualTransition
     skos:definition "schrittweise Inbetriebnahme einzelner Module in einzelnen Abteilungen"@de .
 
 ob:ModulSpecificGradualTransition
-    meta:DefinitionDEPage "239"^^xsd:positiveInteger ;
+    ob:page "239"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Modul-Specific Gradual Transition"@en, "Modulspezifisches Stufenkonzept"@de ;
@@ -3462,7 +3461,7 @@ ob:MonitoringOfDefectFixes
     rdfs:subClassOf ob:InformationManagement .
 
 ob:MustCriterion
-    meta:DefinitionDEPage "328"^^xsd:positiveInteger ;
+    ob:page "328"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Muss-Kriterium"@de, "Must Criterion"@en ;
@@ -3494,7 +3493,7 @@ ob:NegotiatedTender
     rdfs:subClassOf ob:Tender .
 
 ob:NegotiatedTenderWithPublicAnnouncement
-    meta:DefinitionDEPage "220"^^xsd:positiveInteger ;
+    ob:page "220"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-3, ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Negotiated Tender with Public Announcement"@en, "Verhandlungsverfahren mit vorheriger Bekanntmachung"@de ;
@@ -3502,14 +3501,14 @@ ob:NegotiatedTenderWithPublicAnnouncement
     skos:definition "Eine unbeschränkte Zahl von Bewerbern wird zur Abgabe von Teilnahmeanträgen eingeladen ( 1. Stufe). Dabei werden vordefinierte Eignungskriterien überprüft. Ausgewählte Bewerber (mindestens drei) werden zur Abgabe von detaillierten Angeboten eingeladen (2. Stufe). Danach kann über den gesamten Auftragsinhalt verhandelt werden. Das Verhandlungsverfahren mit vorheriger Bekanntmachung ist nur beim Vorliegen ganz bestimmter im Gesetz definierter Voraussetzungen möglich, z. B. wenn es sich um Aufträge handelt, bei denen die genaue inhaltliche Spezifikation nicht möglich ist."@de .
 
 ob:NegotiatedTenderWithoutPublicAnnouncement
-    meta:DefinitionDEPage "220"^^xsd:positiveInteger ;
+    ob:page "220"^^xsd:positiveInteger ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Negotiated Tender without Public Announcement"@en, "Verhandlungsverfahren ohne Bekanntmachung"@de ;
     rdfs:subClassOf ob:NegotiatedTender ;
     skos:definition "Verhandlungsverfahren ohne vorherige Bekanntmachung: Eine beschränkte Zahl von geeigneten Unternehmen (mindestens drei) wird direkt zur Abgabe von Angeboten eingeladen. Dabei kann mit den Unternehmen individuell über den gesamten Auftrags- inhalt verhandelt werden, eine vorherige verbindliche Festlegung der zu erbringenden Leistungen und der Eignungs- und Zu- schlagskriterien ist nicht erforderlich. Es können aber nicht ver- handelbare Mindestanforderungen vorgegeben werden."@de .
 
 ob:NetPlan
-    meta:DefinitionDEPage "332"^^xsd:positiveInteger ;
+    ob:page "332"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:CriticalPath ;
     a meta:EntityType, owl:Class ;
@@ -3518,7 +3517,7 @@ ob:NetPlan
     skos:definition "Ergebnis der Ablaufplanung in einem Projekt, welches als gerichteter Graph dargestellt wird. In Vorgangs knoten-Netzplänen steIlen die Knoten Arbeitspakete und die Kanten ihre Abhängigkeiten dar. Netzpläne können unter anderem zur Berechnung von Pufferzeiten eingesetzt werden."@de .
 
 ob:NetPlanAnalysis
-    meta:DefinitionDEPage "332"^^xsd:positiveInteger ;
+    ob:page "332"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter6-3 ;
     meta:isAssociatedWith ob:NetPlan ;
     a meta:EntityType, owl:Class ;
@@ -3538,7 +3537,7 @@ ob:NonComputerBasedApplicationComponent
     rdfs:subClassOf meta:EntityType .
 
 ob:NonComputerBasedApplicationSystem
-    meta:DefinitionDEPage "12"^^xsd:positiveInteger ;
+    ob:page "12"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isBasedOn ob:OrganizationalRule ;
     a meta:EntityType, owl:Class ;
@@ -3558,7 +3557,7 @@ ob:NonComputerBasedTool
     rdfs:subClassOf meta:EntityType .
 
 ob:NonFunctionalRequirement
-    meta:DefinitionDEPage "194"^^xsd:positiveInteger ;
+    ob:page "194"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter9-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Nicht-Funktionale Anforderung"@de, "Non-Functional Requirement"@en ;
@@ -3566,7 +3565,7 @@ ob:NonFunctionalRequirement
     skos:definition "Nicht-funktionale Anforderungen beschreiben weitere Anforderungen, welche typischerweise mehrere oder alle funktionalen Anforderungen betreffen und v.a. Qualitätsaspekte umfassen, wie z. B. Softwareergonomie und Benutzerfreundlichkeit, Produktqualität und Produktleistung, Datenschutz und Datensicherheit, Performance und Stabilität, Durchsatz, Wartbarkeit, rechtliche Anforderungen, Anforderungen an Einführung oder Wartung und Betreuung."@de .
 
 ob:NonStandardizedObservation
-    meta:DefinitionDEPage "145"^^xsd:positiveInteger ;
+    ob:page "145"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Non-Standardized Observation"@en ;
@@ -3586,7 +3585,7 @@ ob:NoticePeriodsAndConditions
     rdfs:subClassOf meta:EntityType .
 
 ob:ObjectiveOfAnalysis
-    meta:DefinitionDEPage "126"^^xsd:positiveInteger ;
+    ob:page "126"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:Function, owl:Class ;
     rdfs:label "Objective of Analysis"@en, "Zielsetzung"@de ;
@@ -3594,7 +3593,7 @@ ob:ObjectiveOfAnalysis
     skos:definition "vor der Durchführung einer Systemanalyse und -bewertung zu klären, welcher Informationsbedarf besteht, welche Zielsetzung verfolgt wird, welche Fragestellungen konkret beantwortet und welche Entschei-dungen auf ihrer Basis getroffen werden sollen."@de .
 
 ob:Observation
-    meta:DefinitionDEPage "132"^^xsd:positiveInteger ;
+    ob:page "132"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Beobachtung"@de, "Observation"@en ;
@@ -3602,7 +3601,7 @@ ob:Observation
     skos:definition "Beobachtungen sind sinnvoll, wenn die zu erhebenden Daten nicht auf andere Weise dokumentiert sind und auch nicht erfragt werden können oder sollen. Mit Beobachtungen werden zum Beispiel Abläufe ermittelt oder Wartezeiten gemessen. Methode zur Informationsbeschaffung, bei der bestimmte Situationen oder Abläufe gezielt beobachtet werden, ohne in sie einzugreifen. Eine Beobachtung dient dazu, Strukturen, Abläufe und Kennzahlen in einem zu untersuchenden Bereich zu ermitteln. Als Erhebungsformular wird ein Beobachtungsbogen verwendet, der Hinweise zur Beobachtung gibt und in dem die Beobachtungsergebnisse notiert werden. Beobachtungen können einen unterschiedlichen Grad der Standardisierung (standardisierte Datenerhebung) besitzen. Messungen sind eine spezielle, hoch standartisierte Art der Beobachtung."@de .
 
 ob:ObservationForm
-    meta:DefinitionDEPage "145"^^xsd:positiveInteger ;
+    ob:page "145"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Beobachtungsbogen"@de, "Observation Form"@en ;
@@ -3616,7 +3615,7 @@ ob:ObservationProtocol
     rdfs:subClassOf ob:ElicitationForm .
 
 ob:ObservationalEquivalence
-    meta:DefinitionDEPage "265"^^xsd:positiveInteger ;
+    ob:page "265"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2, ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Beobachtungsgleichheit"@de, "Observational Equivalence"@en ;
@@ -3631,7 +3630,7 @@ ob:Observer
     rdfs:subClassOf meta:Role .
 
 ob:OpenSystem
-    meta:DefinitionDEPage "7"^^xsd:positiveInteger ;
+    ob:page "7"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter2-1 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Offenes System"@de, "Open System"@en ;
@@ -3639,7 +3638,7 @@ ob:OpenSystem
     skos:definition "Im Gegensatz zu abgeschlossenen Systemen können offene Systeme über Schnittstellen die Systemgrenzen überwinden und mit ihrer Umwelt in Beziehung stehen."@de .
 
 ob:OpenTender
-    meta:DefinitionDEPage "219"^^xsd:positiveInteger ;
+    ob:page "219"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Offenes Verfahren"@de, "Open Tender"@en ;
@@ -3647,7 +3646,7 @@ ob:OpenTender
     skos:definition "Durch öffentliche Bekanntmachung wird eine unbeschränkte Zahl von Unternehmen zur Angebotsabgabe eingeladen."@de .
 
 ob:OperationalConcept
-    meta:DefinitionDEPage "323"^^xsd:positiveInteger ;
+    ob:page "323"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Betriebskonzept"@de, "Operational Concept"@en ;
@@ -3680,7 +3679,7 @@ ob:OperationalHISPlanning
     rdfs:subClassOf ob:InformationManagement .
 
 ob:OperationalManagementOfInformationSystems
-    meta:DefinitionDEPage "333"^^xsd:positiveInteger ;
+    ob:page "333"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:functionComponent ob:OperationalHISDirecting, ob:OperationalHISMonitoring, ob:OperationalHISPlanning ;
     a meta:Function, owl:Class ;
@@ -3711,7 +3710,7 @@ ob:OrangeBook
     rdfs:comment "Lehrbuch und Projektleitfaden"@de .
 
 ob:OrganizationChart
-    meta:DefinitionDEPage "333"^^xsd:positiveInteger ;
+    ob:page "333"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:OrganizationalUnit, ob:Staff ;
     a meta:EntityType, owl:Class ;
@@ -3721,7 +3720,7 @@ ob:OrganizationChart
     skos:definition "Grafische Darstellung der Aufbauorganisation in einem Bereich. In einem Organigramm können z. B. 0rganisationseinheiten, Stellen, Rollen und Personen mit ihren Beziehungen beschrieben werden."@de .
 
 ob:OrganizationSpecificGradualTransition
-    meta:DefinitionDEPage "239"^^xsd:positiveInteger ;
+    ob:page "239"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Organization-Specific Gradual Transition"@en ;
@@ -3754,7 +3753,7 @@ ob:OrganizationalRule
     rdfs:subClassOf meta:EntityType .
 
 ob:OrganizationalStructure
-    meta:DefinitionDEPage "321"^^xsd:positiveInteger ;
+    ob:page "321"^^xsd:positiveInteger ;
     meta:isAssociatedWith ob:OrganizationChart ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Aufbauorganisation"@de, "Organizational Structure"@en ;
@@ -3773,7 +3772,7 @@ ob:OrganizationalSystem
     rdfs:subClassOf ob:NonComputerBasedApplicationComponent .
 
 ob:OrganizationalUnit
-    meta:DefinitionDEPage "333"^^xsd:positiveInteger ;
+    ob:page "333"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Organisationseinheit"@de, "Organizational Unit"@en ;
@@ -3781,7 +3780,7 @@ ob:OrganizationalUnit
     skos:definition "Ein von der Unternehmensleitung festgelegter Bereich mit klar definierten Aufgaben und definierten Verantwortlichkeiten. Eine Organisationseinheit in einem Krankenhaus ist beispielsweise eine Klinik, die sich in Abteilungen gliedern kann, welche wiederum aus einzelnen Ambulanzen und Stationen bestehen können."@de .
 
 ob:OrganizationalView
-    meta:DefinitionDEPage "171"^^xsd:positiveInteger ;
+    ob:page "171"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     meta:isBasedOn ob:OrganizationChart ;
     a meta:EntityType, owl:Class ;
@@ -3802,7 +3801,7 @@ ob:OutsiderObservation
     rdfs:subClassOf ob:Observation .
 
 ob:Outsourcing
-    meta:DefinitionDEPage "333"^^xsd:positiveInteger ;
+    ob:page "333"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class ;
     rdfs:label "Outsourcing"@en ;
@@ -3810,7 +3809,7 @@ ob:Outsourcing
     skos:definition "Auslagerung einzelner Aufgaben des Betriebs von Informationssystemen an externe Anbieter."@de .
 
 ob:P3O
-    meta:DefinitionDEPage "28"^^xsd:positiveInteger ;
+    ob:page "28"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter3-2 ;
     meta:isAssociatedWith ob:ProjectManagement ;
     a meta:EntityType, owl:Class ;
@@ -3820,7 +3819,7 @@ ob:P3O
     skos:definition "Der Komplex Portfolio-, Programm- und Projektmanagement wird auch mit dem Akronym P3O bezeichnet."@de .
 
 ob:PartiallyStandardizedObservation
-    meta:DefinitionDEPage "145"^^xsd:positiveInteger ;
+    ob:page "145"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Partially Standardized Observation"@en ;
@@ -3834,7 +3833,7 @@ ob:PatientIdentification
     rdfs:subClassOf meta:EntityType .
 
 ob:PatientIdentificationAndCheckingForRecurrent
-    meta:entityTypeComponent ob:PatientIdentification ;
+    meta:isAssociatedWith ob:PatientIdentification ;
     a meta:Function, owl:Class ;
     rdfs:label "Patient Identification and Checking for Recurrent"@en ;
     rdfs:subClassOf meta:Function .
@@ -3859,7 +3858,7 @@ ob:PerformingPhase
     rdfs:subClassOf meta:EntityType .
 
 ob:PersonnelExpenditure
-    meta:DefinitionDEPage "58"^^xsd:positiveInteger ;
+    ob:page "58"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter5-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Personalaufwand"@de, "Personnel Expenditure"@en ;
@@ -3867,7 +3866,7 @@ ob:PersonnelExpenditure
     skos:definition "So werden zum Beispiel personelle Ressourcen über einen Stundensatz zu Personalkosten verrechnet."@de .
 
 ob:PhysicalDataProcessingSystem
-    meta:DefinitionDEPage "12"^^xsd:positiveInteger ;
+    ob:page "12"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Physical Data Processing System"@en, "Physisches Datenverarbeitungssystem"@de ;
@@ -3881,7 +3880,7 @@ ob:PhysicalDataProcessingTool
     rdfs:subClassOf meta:EntityType .
 
 ob:PhysicalToolLayer
-    meta:DefinitionDEPage "169"^^xsd:positiveInteger ;
+    ob:page "169"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     meta:entityTypeComponent ob:DataTransmissionLink, ob:PhysicalDataProcessingSystem ;
     a meta:EntityType, owl:Class ;
@@ -3890,7 +3889,7 @@ ob:PhysicalToolLayer
     skos:definition "Die Physische Werkzeugebene beschreibt die zur Realisierung der Anwendungssysteme genutzten physischen Datenverarbei-tungssysteme und ihre Datenübertragungsverbindungen. Im rech-nerunterstützten Teil eines Informationssystems werden hier z. B. Computer, Server, Speicher oder Netzwerke modelliert, im nicht-rechnerunterstützten Teil z. B. Rohrpostanlage und Telefonnetz."@de .
 
 ob:Piloting
-    meta:DefinitionDEPage "240"^^xsd:positiveInteger ;
+    ob:page "240"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2, ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:uses ob:ApplicationSystem, ob:IntroductionStrategy ;
@@ -3923,7 +3922,7 @@ ob:PlanningOfSystemAssessment
     rdfs:subClassOf ob:InformationManagement .
 
 ob:PolarityProfile
-    meta:DefinitionDEPage "334"^^xsd:positiveInteger ;
+    ob:page "334"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Polarity Profile"@en, "Polaritätsprofil"@de ;
@@ -3945,7 +3944,7 @@ ob:PrecedenceDiagram
     rdfs:subClassOf ob:NetPlan .
 
 ob:PreparationAndModeling
-    meta:DefinitionDEPage "125"^^xsd:positiveInteger ;
+    ob:page "125"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:Function, owl:Class;
     meta:updates ob:InformationSystemModel ;
@@ -3977,7 +3976,7 @@ ob:PreparationAndModelling
     rdfs:subClassOf ob:InformationManagement .
 
 ob:PreparationOfInterview
-    meta:DefinitionDEPage "141"^^xsd:positiveInteger ;
+    ob:page "141"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:Function, owl:Class;
     meta:updates ob:InterviewGuideline ;
@@ -3986,7 +3985,7 @@ ob:PreparationOfInterview
     skos:definition "Bereiten Sie Ihr Interview sorgfältig vor, auch dadurch, dass Sie sich in Sondierungsgesprächen und Vor-Ort-Besuchen einen ersten Ein-druck von einem Bereich machen.  Erproben Sie den Interviewleitfaden vor dem ersten Einsatz möglichst realitätsnah. Erproben Sie dabei auch unbedingt die geplanten Aus-wertungsverfahren.  Holen Sie rechtzeitig die Genehmigung für die Befragung ein und ma-chen Sie frühzeitig Termine für das Interview aus (z. B. während einer Informationsveranstaltung zur Systemanalyse). Achten Sie darauf, dass Ihr geplanter Gesprächspartner auch wirklich Aussagen zu den Sie interessierenden Fragen machen kann.  Beginnen Sie mit einer Vorstellung Ihrer Person und der Ziel des Interviews.  Sichern Sie, soweit möglich, Anonymität zu.  Die Länge eines Interviews sollte 60 Minuten nicht überschreiten, in Ausnahmefällen (z. B. bei der Erhebung komplexer Arbeitsabläufe) kann ein Interview auch länger dauern. Achten Sie aufmerksam auf Ermüdungserscheinungen Ihres Interviewpartners und verschieben Sie offene Fragen ggf. auf einen weiteren Termin nach dem Motto: Lieber vertagen als verflachen.  Schaffen Sie eine angenehme und ruhige Umgebung für das Interview, vermeiden Sie Störungen.  Mit Einverständnis des Befragten können Sie ggf. das Interview auf-zeichnen, dies erleichtert die Auswertung. Ansonsten sollten Sie das Interview zu zweit durchführen – die zweite Person kann sich dann auf die Dokumentation der Antworten konzentrieren.  Seien Sie bei der Beantwortung der Fragen beharrlich und fragen Sie so lange nach, bis Sie die betreffenden Zusammenhänge genau ver-standen haben. Es liegt in der Natur der Sache, dass der Interviewer in der Regel nur wenig über den zu analysierenden Bereich weiß. Der Befragte dagegen hält häufig vieles (z. B. die Routinetätigkeiten) für selbstverständlich, so dass er nicht ohne Nachfragen darauf eingeht (vgl. Abb. 8.2 auf S. 118). Zudem wird der Befragte selten seine Er-klärungen auf den Kenntnisstand des Interviewers abstimmen. Haben Sie also keine Angst vor so genannten „dummen“ Fragen.  Seien Sie diplomatisch. Es kommt immer wieder vor, dass die Gesprä-che von den Befragten genutzt werden, um „ihre“ Sicht auf Miss-stände, Probleme und die dafür Verantwortlichen zu platzieren. Neh-men Sie derartige Informationen auf, ohne selbst zu bewerten.  Wenn Sie mit Missverständnissen bezüglich der Zielsetzung der Ana-lyse konfrontiert werden: Reagieren Sie sachlich unter Wiederholung der Zielsetzung.  Fragen Sie am Ende des Interviews, ob der Befragte aus seiner Sicht noch relevante Informationen ergänzen möchte.  Bedanken Sie sich am Ende für die Teilnahme und beantworten Sie bei Bedarf noch Fragen des Teilnehmers."@de .
 
 ob:PreparationOfObservation
-    meta:DefinitionDEPage "145"^^xsd:positiveInteger ;
+    ob:page "145"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:Function, owl:Class;
     meta:updates ob:ObservationForm ;
@@ -4024,7 +4023,7 @@ ob:PreparationOfTrainingCourse
     rdfs:subClassOf ob:InformationManagement .
 
 ob:PreparationOfWrittenSurvey
-    meta:DefinitionDEPage "142"^^xsd:positiveInteger ;
+    ob:page "142"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:Function, owl:Class;
     meta:updates ob:Questionnaire ;
@@ -4052,7 +4051,7 @@ ob:PrioritizedBidList
     rdfs:subClassOf meta:EntityType .
 
 ob:ProcessAnalysis
-    meta:DefinitionDEPage "126"^^xsd:positiveInteger ;
+    ob:page "126"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Process Analysis"@en, "Prozessanalyse"@de ;
@@ -4060,7 +4059,7 @@ ob:ProcessAnalysis
     skos:definition "Hierbei wird der Fokus auf die Abläufe in einem Bereich gelegt. Es wird also – in der Regel in Bezug auf eine gegebene Aufgabe, z. B. Pflegedokumentation – beschrieben, wer wann welche Aktivität mit welchen Werkzeugen durchführt."@de .
 
 ob:ProcessChain
-    meta:DefinitionDEPage "159"^^xsd:positiveInteger ;
+    ob:page "159"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Process Chain"@en, "Vorgangskette"@de ;
@@ -4074,7 +4073,7 @@ ob:ProcessModellingMethod
     rdfs:subClassOf ob:ModelingMethod .
 
 ob:ProcessReferenceModel
-    meta:DefinitionDEPage "243"^^xsd:positiveInteger ;
+    ob:page "243"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Process Reference Model"@en, "Vorgehens-Referenzmodell"@de ;
@@ -4100,7 +4099,7 @@ ob:ProcurementPlan
     rdfs:subClassOf meta:EntityType .
 
 ob:Product
-    meta:DefinitionDEPage "14"^^xsd:positiveInteger ;
+    ob:page "14"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Product"@en, "Produkt"@de ;
@@ -4115,7 +4114,7 @@ ob:ProductAdaptation
     rdfs:subClassOf ob:InformationManagement .
 
 ob:ProductPresentation
-    meta:DefinitionDEPage "334"^^xsd:positiveInteger ;
+    ob:page "334"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     meta:uses ob:Product ;
@@ -4136,7 +4135,7 @@ ob:ProficiencyTestingOfVendors
     rdfs:subClassOf ob:InformationManagement .
 
 ob:Program
-    meta:DefinitionDEPage "28"^^xsd:positiveInteger ;
+    ob:page "28"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter3-2 ;
     meta:entityTypeComponent ob:Project ;
     a meta:EntityType, owl:Class ;
@@ -4145,7 +4144,7 @@ ob:Program
     skos:definition "Dabei können zusammengehörige Projekte zu einem sogenannten Programm gebündelt werden."@de .
 
 ob:ProgressDocument
-    meta:DefinitionDEPage "88"^^xsd:positiveInteger ;
+    ob:page "88"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter6-2 ;
     meta:entityTypeComponent ob:Guideline, ob:IntermediateResult, ob:Protocol, ob:TodoList ;
     a meta:EntityType, owl:Class ;
@@ -4154,7 +4153,7 @@ ob:ProgressDocument
     skos:definition "Die Verlaufsdokumentation hält den Verlauf des Projekts fest, ohne auf die Ergebnisse der einzelnen Arbeitspakete im Detail einzugehen. Zur Verlaufsdokumentation gehören insbesondere die Ergebnisse der Überwachung, die z. B. in Form von Statusberichten (vgl. Kapitel 6.3) dokumentiert werden. Weiterhin fallen im Verlauf der Projektdurchführung auch Protokolle, Erledigungslisten, Schriftwechsel, Richtlinien oder Literatur an, welche entsprechend aufzubewahren sind."@de .
 
 ob:Project
-    meta:DefinitionDEPage "18"^^xsd:positiveInteger ;
+    ob:page "18"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-4 ;
     meta:entityTypeComponent ob:Milestone, ob:ProjectGoal, ob:ProjectOrganization, ob:ProjectPhase, ob:WorkPackage ;
     a meta:EntityType, owl:Class ;
@@ -4163,7 +4162,7 @@ ob:Project
     skos:definition "Ein Projekt (lat. proiectum: das vorwärts Geworfene) ist ein Vorhaben, das im Wesentlichen durch die Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist, wie z. B. - klare Zielvorgabe; - zeitliche Begrenzung; - personelle und finanzielle Begrenzungen; - Abgrenzung gegenüber anderen Vorhaben; und - projektspezifische Organisation. (nach DIN 69901) Vorhaben, das im Wesentlichen durch Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist, wie z. B. die Vorgabe eines Projektziels, zeitliche, personell oder finanzielle Begrenzungen, die Abgrenzung gegenüber anderen Vorhaben und die spezifische Projektorganisation. Projekte lassen sich in typische Projektphasen gliedern, typische Inhalte können als Projektmodule beschrieben werden."@de .
 
 ob:ProjectApproval
-    meta:DefinitionDEPage "111"^^xsd:positiveInteger ;
+    ob:page "111"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter7-2 ;
     meta:functionComponent ob:CompletionOfProjectDocumentation, ob:MonitoringOfDefectFixes, ob:ProjectHandOver, ob:ReviewOfProjectResults, ob:SubsequentCostManagement ;
     a meta:Function, owl:Class;
@@ -4187,7 +4186,7 @@ ob:ProjectBudget
     rdfs:subClassOf ob:ProjectResource .
 
 ob:ProjectClosure
-    meta:DefinitionDEPage "335"^^xsd:positiveInteger ;
+    ob:page "335"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:functionComponent ob:CreationOfFinalReport, ob:ExecutionOfFinalReportPresentation, ob:ExecutionOfProjectReview, ob:ProjectApproval, ob:ProjectTeamTermination ;
     a meta:Function, owl:Class;
@@ -4242,7 +4241,7 @@ ob:ProjectDeviation
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectDirecting
-    meta:DefinitionDEPage "337"^^xsd:positiveInteger ;
+    ob:page "337"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:functionComponent ob:ResourceCoordination, ob:TroubleShootingInTacticalInformationManagement ;
     a meta:Function, owl:Class;
@@ -4253,7 +4252,7 @@ ob:ProjectDirecting
     skos:definition "Aktivität der Projektdurchführung, welche die planmäßige Durchführung eines Projekts ermöglicht. Hierzu werden die notwendigen Ressourcen laut Projektplan bereitgestellt und koordiniert. Bei Problemen im Projekt, die durch die Projektüberwachung identifiziert wurden, wird steuernd eingegriffen."@de .
 
 ob:ProjectDistinction
-    meta:DefinitionDEPage "334"^^xsd:positiveInteger ;
+    ob:page "334"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Project Distinction"@en, "Projektabgrenzung"@de ;
@@ -4261,7 +4260,7 @@ ob:ProjectDistinction
     skos:definition "Festhalten, welche Ziele definitiv nicht Bestandteil eines Projekts sind. Ist Teil der Zieldefinition eines Projekts."@de .
 
 ob:ProjectDocument
-    meta:DefinitionDEPage "335"^^xsd:positiveInteger ;
+    ob:page "335"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:ProjectClosureDocument, ob:ProjectExecutionDocument, ob:ProjectInitiationDocument, ob:ProjectPlanningDocument ;
     a meta:EntityType, owl:Class ;
@@ -4270,7 +4269,7 @@ ob:ProjectDocument
     skos:definition "Gesamtheit der Dokumente, die während der Abwicklung eines Projekts enstehen. Die Projektdokumentation kann in Projektinitiierungs-, Projektplanungs-, Projektdurchführungs- und Projektauschlussdokumentation gegliedert werden, welche wiederum jeweis in Verlaufs- und Ergebnisdokumentations unterteilt werden können."@de .
 
 ob:ProjectDocumentation
-    meta:DefinitionDEPage "21"^^xsd:positiveInteger ;
+    ob:page "21"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter2-4 ;
     meta:increases ob:ProjectExperience, ob:ProjectResultRepresentation, ob:ProjectTeamCommunication, ob:ProjectTransparency ;
     a meta:Function, owl:Class;
@@ -4286,7 +4285,7 @@ ob:ProjectDuration
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectDurationCalculation
-    meta:DefinitionDEPage "67"^^xsd:positiveInteger ;
+    ob:page "67"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter5-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Aufwandschätzmethode für Arbeitpakete"@de, "Project Duration Calculation"@en ;
@@ -4334,7 +4333,7 @@ ob:ProjectExperience
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectGoal
-    meta:DefinitionDEPage "338"^^xsd:positiveInteger ;
+    ob:page "338"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isAssociatedWith ob:Smart ;
     a meta:EntityType, owl:Class ;
@@ -4364,7 +4363,7 @@ ob:ProjectIdea
 ob:ProjectInitiation
     meta:chapter ob:Chapter2-4 ;
     meta:functionComponent ob:DefinitionOfProjectGoals, ob:ExecutionOfAKickOffMeeting, ob:FormulationOfAProjectIdea, ob:PlacingAProjectOrder ;
-    meta:roleComponent ob:DefiningProjectOrganization ;
+    meta:isAssociatedWith ob:DefiningProjectOrganization ;
     a meta:Function, owl:Class;
     meta:updates ob:KickOffMeeting, ob:ProjectIdea, ob:ProjectOrder, ob:ProjectResource, ob:ProjectTeam, ob:ResultOfStakeholderAnalysis, ob:TargetDefinition ;
     meta:uses ob:StakeholderAnalysis ;
@@ -4405,7 +4404,7 @@ ob:ProjectLogo
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectManagement
-    meta:DefinitionDEPage "18"^^xsd:positiveInteger ;
+    ob:page "18"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-4 ;
     meta:functionComponent ob:ProjectDirecting, ob:ProjectMonitoring, ob:ProjectPlanning ;
     a meta:Function, owl:Class;
@@ -4423,7 +4422,7 @@ ob:ProjectManagementSoftware
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectManagementTriangle
-    meta:DefinitionDEPage "19"^^xsd:positiveInteger ;
+    ob:page "19"^^xsd:positiveInteger ;
     meta:entityTypeComponent ob:Resource, ob:Result, ob:Time ;
     meta:isAssociatedWith ob:InformationManagement, ob:ProjectPlanningMethod ;
     a meta:EntityType, owl:Class ;
@@ -4431,7 +4430,7 @@ ob:ProjectManagementTriangle
     skos:definition "Zusammenhang zwischen den Faktoren Ergebnis (= Erreichen des geplanten Projektziels), verfügbarer Zeit und verfügbaren Ressourcen in einem Projekt. Das Magische Dreieck stellt dar, dass Ergebnis, Zeit und Ressourcen eng zusammenhängen. Veränderungen eines Faktors haben in der Regel Auswirkungen auf die anderen Faktoren."@de .
 
 ob:ProjectManager
-    meta:DefinitionDEPage "336"^^xsd:positiveInteger ;
+    ob:page "336"^^xsd:positiveInteger ;
     meta:approvesEntityType ob:ChangeRequest ;
     meta:chapter ob:Chapter11-2 ;
     meta:isInvolvedIn ob:Project, ob:ProjectApproval ;
@@ -4448,7 +4447,7 @@ ob:ProjectManagerData
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectMarketing
-    meta:DefinitionDEPage "86"^^xsd:positiveInteger ;
+    ob:page "86"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter6-1 ;
     meta:increases ob:CustomerSatisfaction, ob:Transparency ;
     a meta:Function, owl:Class;
@@ -4463,7 +4462,7 @@ ob:ProjectMember
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectModule
-    meta:DefinitionDEPage "336"^^xsd:positiveInteger ;
+    ob:page "336"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:Activity, ob:WorkPackage ;
     a meta:EntityType, owl:Class ;
@@ -4472,7 +4471,7 @@ ob:ProjectModule
     skos:definition "Zusammenfassung wiederkehrender Gruppen typischer Aktivitäten in Projekten. Typische Projektmodule in Projekten des taktischen Managements von Informationssystemen sind: Systemanalyse und -bewertung, Systemspezifikation, Systemauswahl, Systemeinführung und Systemevaluation."@de .
 
 ob:ProjectMonitoring
-    meta:DefinitionDEPage "338"^^xsd:positiveInteger ;
+    ob:page "338"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:functionComponent ob:ExecutionOfTargetPerformanceComparison ;
     a meta:Function, owl:Class;
@@ -4499,7 +4498,7 @@ ob:ProjectName
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectOrder
-    meta:DefinitionDEPage "335"^^xsd:positiveInteger ;
+    ob:page "335"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:NameAndAddressOfContractor, ob:NameAndAddressOfSponsor, ob:ProjectBackgroundAndGoal, ob:ProjectSpecification, ob:SignatureOfContractor, ob:SignatureOfSponsor ;
     a meta:EntityType, owl:Class ;
@@ -4508,7 +4507,7 @@ ob:ProjectOrder
     skos:definition "Formelle Beauftragung zur Durchführung eines Projekts durch einen Auftraggeber. Der Projektauftrag sollte in schriftlicher Form vorliegen und zumindest die folgenden Aspekte beinhalten: Hintergrund und SMART formulierte Projektziele, Vorhaben zu Laufzeit und Budget, Vorgaben zur Projektorganisation sowie Name des Auftraggebers und des Auftragnehmers."@de .
 
 ob:ProjectOrganization
-    meta:DefinitionDEPage "337"^^xsd:positiveInteger ;
+    ob:page "337"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-4 ;
     meta:entityTypeComponent ob:ProjectCommunication ;
     meta:functionComponent ob:ProjectDocumentation ;
@@ -4520,7 +4519,7 @@ ob:ProjectOrganization
     skos:definition "Unter einer Projektorganisation verstehen wir die Gesamtheit der Rollen und Regelungen zur Abwicklung eines bestimmten Projekts. (vgl. DIN 69901). Gesamtheit der Rollen und Regelungen zur Abwicklung eines bestimmten Projekts. Typische Formen der Projektorganisation sind die Reine Projektorganisation, die Matrix-Projektorganisation und die Einfluss-Organisation."@de .
 
 ob:ProjectOutlineProposal
-    meta:DefinitionDEPage "35"^^xsd:positiveInteger ;
+    ob:page "35"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter4-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Project Outline Proposal"@en, "Projektskizze"@de ;
@@ -4528,7 +4527,7 @@ ob:ProjectOutlineProposal
     skos:definition "Schriftlicher Vorentwurf eines Projektauftrags"@de .
 
 ob:ProjectPhase
-    meta:DefinitionDEPage "337"^^xsd:positiveInteger ;
+    ob:page "337"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Project Phase"@en, "Projektphase"@de ;
@@ -4536,7 +4535,7 @@ ob:ProjectPhase
     skos:definition "Gliedert ein Projekt in abgrenzbare Zeitabschnitte. Wir unterscheiden folgende Phasen: Projektinitiierung, Projektplanung, Projektdurchführung und Projektabschluss"@de .
 
 ob:ProjectPlan
-    meta:DefinitionDEPage "337"^^xsd:positiveInteger ;
+    ob:page "337"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:DetailedPlanning, ob:ProjectBackgroundAndGoal, ob:ProjectLogo, ob:ProjectManagerData, ob:ProjectName, ob:ProjectOrganization, ob:ProjectPlanningResult, ob:ProjectSchedule, ob:ResourcePlanningResult, ob:RiskPlan, ob:SignatureOfProjectManager, ob:SignatureOfSponsor, ob:StructuralPlan ;
     meta:functionComponent ob:RiskAnalysis ;
@@ -4569,7 +4568,7 @@ ob:ProjectPlanSummary
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectPlanning
-    meta:DefinitionDEPage "337"^^xsd:positiveInteger ;
+    ob:page "337"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:functionComponent ob:ProjectPlanApproval, ob:ResourcePlanning, ob:RiskAnalysis, ob:Scheduling, ob:StructuralPlanning ;
     a meta:Function, owl:Class;
@@ -4617,7 +4616,7 @@ ob:ProjectPlanningResultDocument
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectPortfolio
-    meta:DefinitionDEPage "337"^^xsd:positiveInteger ;
+    ob:page "337"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:Project ;
     meta:isBasedOn ob:StrategicGoal ;
@@ -4668,7 +4667,7 @@ ob:ProjectResultRepresentation
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectReview
-    meta:DefinitionDEPage "337"^^xsd:positiveInteger ;
+    ob:page "337"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:ContentReview, ob:OrganizationalReview ;
     a meta:Function, owl:Class;
@@ -4679,7 +4678,7 @@ ob:ProjectReview
     skos:definition "Aktivität im Rahmen des Projektabschlusses, bei der ein Projekt in seinem Verlauf inhaltlich und organisatiorisch kritisch betrachtet wird. Ziel ist das Lernen aus den Erfahrungen für zukünftige Projekte. Das Projektreview kann intern in Form einer Sitzung des Projektteams erfolgen."@de .
 
 ob:ProjectReviewExecutionSection
-    meta:DefinitionDEPage "112"^^xsd:positiveInteger ;
+    ob:page "112"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-3 ;
     a meta:Function, owl:Class ;
     rdfs:label "Project Review Execution Section"@en ;
@@ -4693,7 +4692,7 @@ ob:ProjectReviewPlanningSection
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectReviewPreparationSection
-    meta:DefinitionDEPage "112"^^xsd:positiveInteger ;
+    ob:page "112"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-3 ;
     a meta:Function, owl:Class ;
     rdfs:label "Project Review Preparation Section"@en ;
@@ -4707,7 +4706,7 @@ ob:ProjectReviewReport
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectReviewWrapUpSection
-    meta:DefinitionDEPage "112"^^xsd:positiveInteger ;
+    ob:page "112"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-3 ;
     a meta:Function, owl:Class ;
     rdfs:label "Project Review Wrap-Up Section"@en ;
@@ -4727,7 +4726,7 @@ ob:ProjectSchedule
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectScope
-    meta:DefinitionDEPage "126"^^xsd:positiveInteger ;
+    ob:page "126"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Problembereich"@de, "Project Scope"@en ;
@@ -4749,7 +4748,7 @@ ob:ProjectStatus
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectStatusReport
-    meta:DefinitionDEPage "343"^^xsd:positiveInteger ;
+    ob:page "343"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:TrafficLightModel ;
     a meta:EntityType, owl:Class ;
@@ -4758,7 +4757,7 @@ ob:ProjectStatusReport
     skos:definition "Methode zur Projektüberwachung, bei der der Stand des Projekts als Ist-Soll-Vergleich in Bezug auf das Erreichen der Projektziele, des gegebenen Zeitrahmens und der Ressourcen (siehe auch Magischen Dreieck) in Form eines strukturierten Berichts übersichtlich dargestellt wird. Ein Statusbericht kann auf Ebene eines Arbeitspakets oder des Gesamtobjekts erfolgen."@de .
 
 ob:ProjectSteeringCommittee
-    meta:DefinitionDEPage "336"^^xsd:positiveInteger ;
+    ob:page "336"^^xsd:positiveInteger ;
     meta:approvesEntityType ob:ChangeRequest, ob:FinalReport, ob:InterimReport, ob:ProjectPlan ;
     meta:chapter ob:Chapter16 ;
     meta:isInvolvedIn ob:ConflictManagement, ob:DecisionAndContractConclusion, ob:Project, ob:ProjectApproval, ob:ProjectWork ;
@@ -4769,7 +4768,7 @@ ob:ProjectSteeringCommittee
     skos:definition "Oberstes Steuerungs- und Entscheidungsprogramm eines Projekts. Wird vor allem in Großprojekten oder bei interdisziplinär ausgerichteten Projekten eingesetzt. Wird aus hochrangigen Vertretern aller in ein Projekt involvierten Gruppen zusammengesetzt (Auftraggeber, Auftragnehmer, Vertreter zukünftiger Benutergruppen etc.)"@de .
 
 ob:ProjectTeam
-    meta:DefinitionDEPage "21"^^xsd:positiveInteger ;
+    ob:page "21"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isInvolvedIn ob:ExecutionOfProjectReview, ob:MeetingManagement, ob:Piloting, ob:TeamFormation ;
     meta:roleComponent ob:ProjectManager, ob:ProjectTeamMember ;
@@ -4804,7 +4803,7 @@ ob:ProjectTeamMeeting
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectTeamMember
-    meta:DefinitionDEPage "336"^^xsd:positiveInteger ;
+    ob:page "336"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isInvolvedIn ob:ProjectApproval, ob:ProjectPlanning, ob:ProjectWork ;
     a meta:Role, owl:Class ;
@@ -4825,7 +4824,7 @@ ob:ProjectTransparency
     rdfs:subClassOf meta:EntityType .
 
 ob:ProjectWork
-    meta:DefinitionDEPage "manuell hinzugefügt"@de ;
+    ob:page "manuell hinzugefügt"@de ;
     meta:functionComponent ob:ProjectClosure, ob:ProjectExecution, ob:ProjectInitiation, ob:ProjectPlanning ;
     a meta:Function, owl:Class ;
     rdfs:label "Project Work"@en, "Projektarbeit"@de ;
@@ -4834,7 +4833,7 @@ ob:ProjectWork
     skos:definition "Die Projektausführung setzt sich aus Projektinitiierung, Projektplanung, Projektdurchführung und Projektabschluss zusammen."@de .
 
 ob:ProlectiveInformationAcquisitionMethod
-    meta:DefinitionDEPage "338"^^xsd:positiveInteger ;
+    ob:page "338"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Prolective Information Acquisition Method"@en, "Prolektive Datenerhebung"@de ;
@@ -4853,7 +4852,7 @@ ob:ProtocolOfExploratoryDiscussion
     rdfs:subClassOf meta:EntityType .
 
 ob:Prototype
-    meta:DefinitionDEPage "338"^^xsd:positiveInteger ;
+    ob:page "338"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Prototyp"@de, "Prototype"@en ;
@@ -4873,7 +4872,7 @@ ob:PurchaseContract
     rdfs:subClassOf meta:EntityType .
 
 ob:PureProjectOrganization
-    meta:DefinitionDEPage "42"^^xsd:positiveInteger ;
+    ob:page "42"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter4-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Pure Project Organization"@en, "Reine Projektorganisation"@de ;
@@ -4886,7 +4885,7 @@ ob:QualificationCriterion
     rdfs:subClassOf meta:EntityType .
 
 ob:QualitativeEvaluationCriterion
-    meta:DefinitionDEPage "129"^^xsd:positiveInteger ;
+    ob:page "129"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Qualitative Evaluation Criterion"@en ;
@@ -4894,7 +4893,7 @@ ob:QualitativeEvaluationCriterion
     skos:definition "Qualitative, nicht-numerische Bewertungskriterien wie Funktions-umfang oder Benutzerfreundlichkeit erlauben keine direkte Quantifi-zierung der Bewertungsergebnisse. Durch Verwendung geeigneter Messinstrumente wie standardisierter Fragebögen, welche die subjek-tive Einschätzung z. B. der Benutzerfreundlichkeit auf einer quantitativen Skala enthalten, kann versucht werden, diese Bewer-tungskriterien ebenfalls zu quantifizieren."@de .
 
 ob:QualitativeObservation
-    meta:DefinitionDEPage "268"^^xsd:positiveInteger ;
+    ob:page "268"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Qualitative Beobachtung"@de, "Qualitative Observation"@en ;
@@ -4902,7 +4901,7 @@ ob:QualitativeObservation
     skos:definition "Auswirkung auf Arbeitsabläufe und auf Qualität der Patientenversorgung"@de .
 
 ob:QualitativeTable
-    meta:DefinitionDEPage "173"^^xsd:positiveInteger ;
+    ob:page "173"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Qualitative Table"@en ;
@@ -4937,7 +4936,7 @@ ob:Quantifiability
     rdfs:label "Quantifiability"@en .
 
 ob:QuantitativeEvaluationCriterion
-    meta:DefinitionDEPage "129"^^xsd:positiveInteger ;
+    ob:page "129"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Quantitative Evaluation Criterion"@en ;
@@ -4945,7 +4944,7 @@ ob:QuantitativeEvaluationCriterion
     skos:definition "Bewertungskriterien können quantitativ oder qualitativ ausgerichtet sein. Quantitative Bewertungskriterien, wie z. B. Zeitaufwand, Fehler-häufigkeit, Zahl, Länge oder Kosten, beinhalten die Möglichkeit, ihre Ausprägung als Zahl darzustellen. Sie erlauben dadurch eine einfa-chere quantitative Aggregation von Ergebnissen (z. B. Mittelwert über einen Monat) und den Vergleich von verschiedenen (Sub-)Informa-tionssystemen"@de .
 
 ob:QuantitativeTable
-    meta:DefinitionDEPage "172"^^xsd:positiveInteger ;
+    ob:page "172"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Quantitative Table"@en ;
@@ -4953,7 +4952,7 @@ ob:QuantitativeTable
     skos:definition "Übersichtlicher sind tabellarische Darstellungen. Bei stark quantitativ ausgerichteten Bewertungskriterien können hier Bewertungskriterium, gemessener Ist-Wert sowie Soll-Wert gegenüber gestellt werden."@de .
 
 ob:Questionnaire
-    meta:DefinitionDEPage "142"^^xsd:positiveInteger ;
+    ob:page "142"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-2, ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Fragebogen"@de, "Questionnaire"@en ;
@@ -4961,7 +4960,7 @@ ob:Questionnaire
     skos:definition "Als Erhebungsformular dient bei schriftlichen Befragungen ein Frage-bogen, ein Beispiel ist in Abb. 8.6 dargestellt. Beachten Sie bei der Erstellung die Hinweise in Tab. 8.3 (auf S. 129) zur Erstellung von Erhebungsformularen. Besonders wichtig zu beachten ist:  Die Fragen müssen möglichst eindeutig und für alle Teilnehmer verständlich sein. Abkürzungen und Fachjargon sind zu vermei-den.  Die Fragen sollten in einer sinnvollen Reihenfolge gegliedert sein.  Die vorgegebenen Antwortmöglichkeiten müssen genau zu den Fragen passen.  Es sollte immer ein Feld „keine Angabe“ enthalten sein. Dies kann vermeiden, dass Teilnehmer, die nicht antworten können oder wollen, gar nicht antworten oder beliebig etwas ankreuzen.  Bei geschlossenen Fragen müssen die vorgegebenen Antwort-möglichkeiten die Frage vollständig abdecken, sie sollten sich nicht überlappen und sie sollten in der Regel etwa die gleiche „Breite“ haben."@de .
 
 ob:RaciMatrix
-    meta:DefinitionDEPage "75"^^xsd:positiveInteger ;
+    ob:page "75"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter5-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "RACI Matrix"@en, "Verantwortlichkeitsmatrix"@de ;
@@ -4979,8 +4978,7 @@ ob:Randomisation
     meta:chapter ob:Chapter12-3 ;
     meta:increases ob:StructuralEquality ;
     a meta:EntityType, owl:Class ;
-    rdfs:label "Randomisation"@en, "Randomisierung"@de ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Randomisation"@en, "Randomisierung"@de .
 
 ob:ReactionTime
     meta:chapter ob:Chapter13-2 ;
@@ -5001,7 +4999,7 @@ ob:RecommendationsAndOutlook
     rdfs:subClassOf meta:EntityType .
 
 ob:RecordAnalysis
-    meta:DefinitionDEPage "268"^^xsd:positiveInteger ;
+    ob:page "268"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Aktenanalyse"@de, "Record Analysis"@en ;
@@ -5021,7 +5019,7 @@ ob:ReferenceModel
     rdfs:subClassOf meta:EntityType .
 
 ob:ReferenceModelForTacticalManagementOfInformationSystems
-    meta:DefinitionDEPage "339"^^xsd:positiveInteger ;
+    ob:page "339"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:ProjectModule, ob:ProjectPhase ;
     a meta:EntityType, owl:Class ;
@@ -5047,7 +5045,7 @@ ob:Relation
     rdfs:subClassOf meta:EntityType .
 
 ob:Release
-    meta:DefinitionDEPage "339"^^xsd:positiveInteger ;
+    ob:page "339"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:updates ob:ApplicationSystem ;
@@ -5078,7 +5076,7 @@ ob:Reporting
     rdfs:subClassOf ob:InformationManagement .
 
 ob:Representativity
-    meta:DefinitionDEPage "339"^^xsd:positiveInteger ;
+    ob:page "339"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Representativity"@en, "Repräsentativität"@de ;
@@ -5092,7 +5090,7 @@ ob:RepresentativityOfResults
     rdfs:subClassOf ob:Representativity .
 
 ob:Requirement
-    meta:DefinitionDEPage "193"^^xsd:positiveInteger ;
+    ob:page "193"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter9-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Anforderung"@de, "Requirement"@en ;
@@ -5110,7 +5108,7 @@ ob:RequirementsEngineering
     rdfs:subClassOf ob:InformationManagement .
 
 ob:Resource
-    meta:DefinitionDEPage "340"^^xsd:positiveInteger ;
+    ob:page "340"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Resource"@en, "Ressource"@de ;
@@ -5136,7 +5134,7 @@ ob:ResourcePlan
     rdfs:subClassOf meta:EntityType .
 
 ob:ResourcePlanning
-    meta:DefinitionDEPage "340"^^xsd:positiveInteger ;
+    ob:page "340"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:updates ob:PersonnelExpenditure, ob:ProjectCost, ob:ProjectSchedule, ob:Resource, ob:ResourcePlan, ob:WorkPackage ;
@@ -5152,7 +5150,7 @@ ob:ResourcePlanningResult
     rdfs:subClassOf meta:EntityType .
 
 ob:ResponseRate
-    meta:DefinitionDEPage "340"^^xsd:positiveInteger ;
+    ob:page "340"^^xsd:positiveInteger ;
     meta:isAssociatedWith ob:WrittenSurvey ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Response Rate"@en, "Rücklaufquote"@de ;
@@ -5165,7 +5163,7 @@ ob:Result
     rdfs:subClassOf meta:EntityType .
 
 ob:ResultDocument
-    meta:DefinitionDEPage "88"^^xsd:positiveInteger ;
+    ob:page "88"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Ergebnisdokumentation"@de, "Result Document"@en ;
@@ -5187,7 +5185,7 @@ ob:ResultVerification
     rdfs:subClassOf ob:InformationManagement .
 
 ob:RetrolectiveInformationAcquisitionMethod
-    meta:DefinitionDEPage "340"^^xsd:positiveInteger ;
+    ob:page "340"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Retrolective Information Acquisition Method"@en, "Retrolektive Datenerhebung"@de ;
@@ -5195,7 +5193,7 @@ ob:RetrolectiveInformationAcquisitionMethod
     skos:definition "Vorgehen, bei dem das Untersuchungskollektiv sowie Art und Umfang der interessierenden Informationen erst festgelegt wird, nachdem zumindest ein Teil der Daten aufgezeichnet wurde. In Hinblick auf eine höhere Aussagekraft der Ergebnisse ist eine prolektive Datenerhebung in der Regel einer retrolektiven Datenerhebung vorzuziehen."@de .
 
 ob:ReturnOnInvestmentAnalysis
-    meta:DefinitionDEPage "340"^^xsd:positiveInteger ;
+    ob:page "340"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "ROI-Analyse"@de, "Return-on-Investment Analysis"@en, "Return-on-Investment-Analse"@de ;
@@ -5210,7 +5208,7 @@ ob:ReviewOfProjectResults
     skos:altLabel "Überprüfung auf Zielerreichung"@de .
 
 ob:RiskAnalysis
-    meta:DefinitionDEPage "340"^^xsd:positiveInteger ;
+    ob:page "340"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:updates ob:RiskPlan ;
@@ -5226,7 +5224,7 @@ ob:RiskAnalysisFactor
     rdfs:subClassOf meta:EntityType .
 
 ob:RiskManager
-    meta:DefinitionDEPage "76"^^xsd:positiveInteger ;
+    ob:page "76"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter5-3 ;
     meta:isResponsibleForFunction ob:RiskAnalysis ;
     a meta:Role, owl:Class ;
@@ -5241,7 +5239,7 @@ ob:RiskPlan
     rdfs:subClassOf meta:EntityType .
 
 ob:RollOut
-    meta:DefinitionDEPage "241"^^xsd:positiveInteger ;
+    ob:page "241"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2, ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:updates ob:ApplicationSystem, ob:OrganizationalUnit, ob:StopOrGoDecision ;
@@ -5279,7 +5277,7 @@ ob:ScheduleRepresentationMethod
     rdfs:subClassOf ob:ProjectPlanningMethod .
 
 ob:Scheduling
-    meta:DefinitionDEPage "319"^^xsd:positiveInteger ;
+    ob:page "319"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:functionComponent ob:CreationOfSchedule, ob:DefiningAndSchedulingMilestones, ob:SystematicWorkPackageDependencyDetermination, ob:WorkPackageTimeEstimation ;
     a meta:Function, owl:Class;
@@ -5296,7 +5294,7 @@ ob:ScopeOfMaintenance
     rdfs:subClassOf meta:EntityType .
 
 ob:SecondLevelSupport
-    meta:DefinitionDEPage "284"^^xsd:positiveInteger ;
+    ob:page "284"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter13-1, ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:updates ob:ApplicationSystem ;
@@ -5323,7 +5321,7 @@ ob:SemiFormalModelingTechnique
     rdfs:subClassOf ob:ModelingMethod .
 
 ob:SensitivityAnalysis
-    meta:DefinitionDEPage "230"^^xsd:positiveInteger ;
+    ob:page "230"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-3, ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Sensitivity Analysis"@en, "Sensitivitätsanalyse"@de ;
@@ -5331,7 +5329,7 @@ ob:SensitivityAnalysis
     skos:definition "Eine Sensitivitätsanalyse dient dazu, die Stabilität eines Ergebnisses zu überprüfen. Sie untersucht, wie stark einzelne Parameter verändert werden können, ohne dass sich das Ergebnis verändert. Dies ermög-licht die Überprüfung der Stabilität des Gesamtergebnisses. Methode zur Überprüfung der Stabilität eines Ergebnisses beim Vergleich von Varianten. Die Sensitivitätsanalyse untersucht, wie stark einzelne Parameter z. B. bei einer Nutzwertanalyse oder bei Kostenanalysen verändert werden können, ohne dass sich das Gesamtergebnis verändert."@de .
 
 ob:SensorBasedObservation
-    meta:DefinitionDEPage "145"^^xsd:positiveInteger ;
+    ob:page "145"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Sensor-Based Observation"@en, "Sensorgestützte Beobachtung"@de ;
@@ -5339,7 +5337,7 @@ ob:SensorBasedObservation
     skos:definition "Eine Spezialform automatisierter Beobachtungen sind sensorgestützte Beobachtungen, in denen zum Beispiel die täglichen Aktivitäten und Bewegungen einer Person (z. B. eines Patienten zu Hause) mittels Sensortechnik automatisch verfolgt und ausgewertet werden."@de .
 
 ob:SequenceDiagram
-    meta:DefinitionDEPage "155"^^xsd:positiveInteger ;
+    ob:page "155"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Sequence Diagram"@en, "Sequenzdiagram"@de ;
@@ -5360,7 +5358,7 @@ ob:ServiceContract
     rdfs:subClassOf meta:EntityType .
 
 ob:ServiceLevelAgreement
-    meta:DefinitionDEPage "341"^^xsd:positiveInteger ;
+    ob:page "341"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "SLA"@de, "Service Level Agreement"@en ;
@@ -5386,7 +5384,7 @@ ob:SignatureOfSponsor
     rdfs:subClassOf meta:EntityType .
 
 ob:Simulation
-    meta:DefinitionDEPage "202"^^xsd:positiveInteger ;
+    ob:page "202"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isAssociatedWith ob:TargetStateModel ;
     a meta:EntityType, owl:Class ;
@@ -5401,7 +5399,7 @@ ob:SingleInterview
     rdfs:subClassOf ob:Interview .
 
 ob:Smart
-    meta:DefinitionDEPage "342"^^xsd:positiveInteger ;
+    ob:page "342"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter4-3 ;
     meta:isAssociatedWith ob:ProjectGoal ;
     a meta:EntityType, owl:Class ;
@@ -5410,7 +5408,7 @@ ob:Smart
     skos:definition "Ein Projektziel sollte spezifisch, messbar, abgestimmt, realistisch und terminiert [SMART] formuliert werden."@de .
 
 ob:SocioTechnicalSystem
-    meta:DefinitionDEPage "7"^^xsd:positiveInteger ;
+    ob:page "7"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Socio-Technical System"@en, "Sozio-technisches System"@de ;
@@ -5430,7 +5428,7 @@ ob:SoftwareLot
     rdfs:subClassOf ob:Lot .
 
 ob:SoftwareProduct
-    meta:DefinitionDEPage "342"^^xsd:positiveInteger ;
+    ob:page "342"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isBasedOn ob:Prototype ;
     a meta:EntityType, owl:Class ;
@@ -5440,7 +5438,7 @@ ob:SoftwareProduct
     skos:definition "Abgeschlossenes, erworbenes oder eigenentwickeltes Programm oder Programmpaket, das auf Rechnersystemen installiert werden kann. Im Gegensatz zu einem Anwendungssystem ist ein Softwareprodukt noch nicht in einem bestimmten Unternehmen installiert und für dieses adaptiert (siehe Adaptierung)."@de .
 
 ob:SoftwareReferenceModel
-    meta:DefinitionDEPage "243"^^xsd:positiveInteger ;
+    ob:page "243"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter11-2, ob:Chapter16 ;
     meta:isAssociatedWith ob:SoftwareProduct ;
     a meta:EntityType, owl:Class ;
@@ -5455,7 +5453,7 @@ ob:SoftwareResource
     rdfs:subClassOf ob:MaterialResource .
 
 ob:SoftwareTest
-    meta:DefinitionDEPage "268"^^xsd:positiveInteger ;
+    ob:page "268"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Software Test"@en, "Softwaretest"@de ;
@@ -5469,7 +5467,7 @@ ob:SpatialResource
     rdfs:subClassOf ob:Resource .
 
 ob:SpecificationPlan
-    meta:DefinitionDEPage "189"^^xsd:positiveInteger ;
+    ob:page "189"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter9-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Specification Plan"@en ;
@@ -5487,7 +5485,7 @@ ob:SpecificationTeam
     rdfs:subClassOf meta:Role .
 
 ob:SpiderChart
-    meta:DefinitionDEPage "342"^^xsd:positiveInteger ;
+    ob:page "342"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isBasedOn ob:EvaluationCriterion ;
     a meta:EntityType, owl:Class ;
@@ -5505,7 +5503,7 @@ ob:SpiderChartCreation
     rdfs:subClassOf ob:InformationManagement .
 
 ob:Sponsor
-    meta:DefinitionDEPage "20"^^xsd:positiveInteger ;
+    ob:page "20"^^xsd:positiveInteger ;
     meta:approvesEntityType ob:AnalysisPlan, ob:EvaluationCriterion, ob:EvaluationReport, ob:FinalReport, ob:FunctionalSpecificationDocument, ob:Project, ob:ProjectGoal, ob:ProjectOrder, ob:ProjectPlan, ob:ProjectResult, ob:PurchaseContract, ob:ScheduleForElicitation, ob:ServiceLevelAgreement, ob:SpecificationPlan, ob:TargetConcept, ob:TargetValue ;
     meta:approvesFunction ob:RollOut ;
     meta:chapter ob:Chapter16, ob:Chapter2-4, ob:Chapter5-2 ;
@@ -5548,12 +5546,12 @@ ob:StaffMember
 ob:Stakeholder
     meta:chapter ob:Chapter16 ;
     meta:isInvolvedIn ob:DefinitionOfProjectGoals, ob:ProjectMarketing ;
-    a meta:Function, owl:Class ;
+    a meta:Role, owl:Class ;
     rdfs:label "Interessengruppe"@de, "Stakeholder"@en ;
-    rdfs:subClassOf ob:InformationManagement .
+    meta:isInvolvedIn ob:InformationManagement .
 
 ob:StakeholderAnalysis
-    meta:DefinitionDEPage "41"^^xsd:positiveInteger ;
+    ob:page "41"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter4-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Projektumfeldanalyse"@de, "Stakeholder Analysis"@en ;
@@ -5561,7 +5559,7 @@ ob:StakeholderAnalysis
     skos:definition "Methode zur Früherkennung von Potenzialen und möglichen Problemfeldern eines Projekts, die sich durch Abhängigkeiten von anderen Personengruppen aus dem Projektumfeld ergeben können. Wird z. B. während der Projektinitiierung eingesetzt."@de .
 
 ob:StandardSoftwareProduct
-    meta:DefinitionDEPage "343"^^xsd:positiveInteger ;
+    ob:page "343"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Standard Software Product"@en, "Standardsoftwareprodukt"@de ;
@@ -5570,7 +5568,7 @@ ob:StandardSoftwareProduct
     skos:definition "Ein auf dem Markt verfügbares Softwareprodukt, das einen bestimmten Verbreitungsgrad hat."@de .
 
 ob:StandardisedCollectionOfData
-    meta:DefinitionDEPage "342"^^xsd:positiveInteger ;
+    ob:page "342"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Standardised Collection of Data"@en, "Standardisierte Datenerhebung"@de ;
@@ -5596,7 +5594,7 @@ ob:StandardizationOfInterfaces
     rdfs:subClassOf meta:EntityType .
 
 ob:StandardizedObservation
-    meta:DefinitionDEPage "145"^^xsd:positiveInteger ;
+    ob:page "145"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Standardized Observation"@en ;
@@ -5612,7 +5610,7 @@ ob:StartEvent
     rdfs:label "Start event"@en .
 
 ob:StateChart
-    meta:DefinitionDEPage "156"^^xsd:positiveInteger ;
+    ob:page "156"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "State Chart"@en, "Zustandsdiagramm"@de ;
@@ -5661,7 +5659,7 @@ ob:StrategicHISMonitoring
     rdfs:subClassOf ob:InformationManagement .
 
 ob:StrategicInformationManagementPlan
-    meta:DefinitionDEPage "338"^^xsd:positiveInteger ;
+    ob:page "338"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:CurrentState, ob:PlannedState ;
     a meta:EntityType, owl:Class ;
@@ -5671,7 +5669,7 @@ ob:StrategicInformationManagementPlan
     skos:definition "Schriftliches Dokument als Ergebnis der Rahmenplanung von Informationssystemen. Enthält die Beschreibung und Bewertung des Ist-Zustands des betrachteten Informationssystems, die Beschreibung des geplanten zukünftigen Soll-Zustands und die grobe Darstellung, wie man vom Ist zum Soll kommen soll."@de .
 
 ob:StrategicInformationManagementPlanning
-    meta:DefinitionDEPage "338"^^xsd:positiveInteger ;
+    ob:page "338"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter3-2 ;
     a meta:Function, owl:Class;
     meta:updates ob:InformationSystem, ob:ProjectPortfolio, ob:StrategicInformationManagementPlan ;
@@ -5683,7 +5681,7 @@ ob:StrategicInformationManagementPlanning
     skos:definition "Planung von Informationssystemen im Rahmen des strategischen Managements von Informationssystemen. Das Ergebnis kann in Form eines Rahmenplans festgelegt werden."@de .
 
 ob:StrategicManagementOfInformationSystems
-    meta:DefinitionDEPage "27"^^xsd:positiveInteger ;
+    ob:page "27"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter3-2 ;
     meta:functionComponent ob:StrategicHISDirecting, ob:StrategicHISMonitoring, ob:StrategicInformationManagementPlanning ;
     a meta:Function, owl:Class;
@@ -5694,7 +5692,7 @@ ob:StrategicManagementOfInformationSystems
     skos:definition "Im Vordergrund des strategischen Managements von Informationssystemen stehen das Informationssystem als Ganzes oder in wesentlichen Teilen und seine grundsätzliche zukünftige Entwicklung. Perspektive des Managements eines Informationssystems, welches sich mit dem Informationssystem als Ganzes bzw. in wesentlichen Teilen und mit seiner grundsätzlichen zukünftigen Entwicklung befasst. Wichtige Aufgaben umfassen die Rahmenplanung, die Umsetzung der Vorgaben des Rahmenplans (in der Regel in Form von Projekten) und die laufende Überprüfung, ob die Projekte mit dem gewünschten Erfolg durchgeführt werden und ob das Informationssystem entsprechend dem Rahmenplan strukturiert ist und die zugewiesenen Aufgaben erfüllt."@de .
 
 ob:StructuralAnalysis
-    meta:DefinitionDEPage "131"^^xsd:positiveInteger ;
+    ob:page "131"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Structural Analysis"@en, "Strukturanalyse"@de ;
@@ -5702,7 +5700,7 @@ ob:StructuralAnalysis
     skos:definition "Hier geht es um räumliche, personelle und organisatorische Strukturen in einem Bereich (z. B. Lagepläne, Stellenpläne, Dienstzeiten)."@de .
 
 ob:StructuralEquality
-    meta:DefinitionDEPage "265"^^xsd:positiveInteger ;
+    ob:page "265"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2, ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Structural Equality"@en, "Strukturgleichheit"@de ;
@@ -5717,7 +5715,7 @@ ob:StructuralPlan
     rdfs:subClassOf meta:EntityType .
 
 ob:StructuralPlanning
-    meta:DefinitionDEPage "343"^^xsd:positiveInteger ;
+    ob:page "343"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:functionComponent ob:Scheduling ;
     a meta:Function, owl:Class;
@@ -5819,7 +5817,7 @@ ob:SubsequentCostManagement
     skos:altLabel "Veranlassung von Restzahlungen"@de .
 
 ob:Subsystem
-    meta:DefinitionDEPage "8"^^xsd:positiveInteger ;
+    ob:page "8"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-1 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Subsystem"@en, "Teilsystem"@de ;
@@ -5845,7 +5843,7 @@ ob:SupportConcept
     rdfs:subClassOf meta:EntityType .
 
 ob:Survey
-    meta:DefinitionDEPage "268"^^xsd:positiveInteger ;
+    ob:page "268"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Standardisierte Umfrage"@de, "Survey"@en ;
@@ -5859,7 +5857,7 @@ ob:Sustainability
     rdfs:subClassOf ob:EvaluationCriterion .
 
 ob:SwotAnalysis
-    meta:DefinitionDEPage "173"^^xsd:positiveInteger ;
+    ob:page "173"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "SWOT Analysis"@en, "Stark- und Schwachstellenanalyse"@de ;
@@ -5868,7 +5866,7 @@ ob:SwotAnalysis
     skos:definition "Die SWOT-Analyse ist ein Verfahren, um Stärken und Schwachstel-len einer Komponente oder Situation systematisch darzustellen. Sie fasst dabei die gesamten Erkenntnisse einer Systembewertung in vier Bereiche zusammen: 1. Stärken (engl. S = Strengths): Vorhandene Stärken der betrach-teten Situation, z. B. eine Komponente wird häufig genutzt, die Benutzer sind zufrieden, die Zeitaufwände sind gering. 2. Schwachstellen (engl. W = Weaknesses): Vorhandene Schwächen der betrachteten Situation, z. B. die Qualität der dokumentierten Diagnosen ist unzureichend, die Komponente ist unzureichend integriert mit anderen Komponenten, die Rechnerausstattung ist ungenügend. 3. Chancen (engl. O = Opportunities): Noch nicht realisierte Stär-ken, z. B. die gewünschte Funktionalität ist vorhanden, wird aber noch nicht genutzt. 4. Risiken (engl. T = Threats): Potenzielle Schwächen, z. B. bei wei-terer Zunahme der Benutzerzahlen wird die Netzwerkkapazität nicht mehr ausreichen; die erwarteten neuen gesetzlichen Anfor-derungen wird die Komponente nicht mehr erfüllen können. Methode der Systembewertung zur systematischen Darstellung der Stärken (Strenghts) und Schachstellen (Weaknesses) eines (Sub-) Informationssystems. Außerdem werden auch potenzielle Stärken (Opportunities) sowie potentielle Schächen (Threats) dargestellt."@de .
 
 ob:System
-    meta:DefinitionDEPage "7"^^xsd:positiveInteger ;
+    ob:page "7"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-1 ;
     meta:entityTypeComponent ob:Subsystem ;
     a meta:EntityType, owl:Class ;
@@ -5877,7 +5875,7 @@ ob:System
     skos:definition "Ein System ist eine Menge von Elementen (z. B. Personen, Dinge) mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Das System ist ein Ganzes, das mehr ist als die Summe seiner Teile. Jedes System hat eine Systemgrenze, die es von seiner Umwelt trennt.Systeme liegen entweder in der Natur als gegeben vor (natürliche Systeme) oder werden vom Men-schen geschaffen (künstliche Systeme). Menge von Elementen mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Systeme lassen sich in Teilsysteme untergliedern."@de .
 
 ob:SystemAdministrator
-    meta:DefinitionDEPage "282"^^xsd:positiveInteger ;
+    ob:page "282"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter13-1 ;
     meta:isResponsibleForFunction ob:DatabaseAdministration, ob:InterfaceManagement, ob:NetworkManagement, ob:ServerAdministration ;
     a meta:Role, owl:Class ;
@@ -5886,7 +5884,7 @@ ob:SystemAdministrator
     skos:definition "Zuständig für alle technischen Aspekte, wie z. B. Serverund Datenbankadministration, Schnittstellenmanagement und Pflege der technischen Komponenten, Netzwerkmanagement."@de .
 
 ob:SystemAnalysis
-    meta:DefinitionDEPage "122"^^xsd:positiveInteger ;
+    ob:page "122"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:functionComponent ob:InformationAcquisition, ob:PreparationAndModeling, ob:SystemAnalysisPlanning, ob:VerificationSystemAnalysis ;
     a meta:Function, owl:Class;
@@ -5896,7 +5894,7 @@ ob:SystemAnalysis
     skos:definition "Ziel der Systemanalyse im Sinne des Managements von Informationssystemen ist die möglichst exakte Beschreibung von Eigenschaften eines (Sub-)Informationssystems"@de .
 
 ob:SystemAnalysisAndAssessment
-    meta:DefinitionDEPage "28"^^xsd:positiveInteger ;
+    ob:page "28"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter3-3 ;
     meta:functionComponent ob:SystemAnalysis, ob:SystemAssessment, ob:SystemAssessmentPlanning ;
     a meta:Function, owl:Class;
@@ -5907,7 +5905,7 @@ ob:SystemAnalysisAndAssessment
     skos:definition "Analyse von Informationssystemen bzw. Informationssystemkomponenten mit dem Ziel der genauen Beschreibung des Ist-Zustandes und seiner zielgerichteten Bewertung -- Projektmodul zur Analyse von Informationssystemen bzw. Informationssystemkomponenten mit dem Ziel ihrer genauen Beschreibung und zielgerichteten Bewertungen. Aktivitäten umfassen Analyseplanung, Informaionsbeschaffung mit speziellen Methoden der Informaionsbeschaffung, Aufbereitung und Modellierung sowie Verifikation. Als Ergebnis liegt ein Analysebericht vor."@de .
 
 ob:SystemAnalysisAndAssessmentModule
-    meta:DefinitionDEPage "344"^^xsd:positiveInteger ;
+    ob:page "344"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isAssociatedWith ob:SystemAnalysisAndAssessment ;
     a meta:EntityType, owl:Class ;
@@ -5922,7 +5920,7 @@ ob:SystemAnalysisMethod
     rdfs:subClassOf meta:EntityType .
 
 ob:SystemAnalysisPlanning
-    meta:DefinitionDEPage "124"^^xsd:positiveInteger ;
+    ob:page "124"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     meta:functionComponent ob:DetailPlanning, ob:PlanningOfSystemAssessment ;
     a meta:Function, owl:Class;
@@ -5938,7 +5936,7 @@ ob:SystemAnalysisResult
     rdfs:subClassOf meta:EntityType .
 
 ob:SystemAssessment
-    meta:DefinitionDEPage "122"^^xsd:positiveInteger ;
+    ob:page "122"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-1 ;
     a meta:Function, owl:Class;
     meta:uses ob:CreativityTechnique, ob:MethodForSystemAssessment ;
@@ -5959,9 +5957,9 @@ ob:SystemDevelopment
     rdfs:subClassOf ob:InformationManagement .
 
 ob:SystemEvaluation
-    meta:DefinitionDEPage "259"^^xsd:positiveInteger, "28"^^xsd:positiveInteger ;
+    ob:page "259"^^xsd:positiveInteger, "28"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-1, ob:Chapter16, ob:Chapter3-3 ;
-    meta:entityTypeComponent ob:EvaluationPlanning ;
+    meta:isAssociatedWith ob:EvaluationPlanning ;
     meta:functionComponent ob:InformationAcquisitionEvaluation, ob:PreparationOfResults, ob:ResultVerification ;
     a meta:Function, owl:Class;
     meta:updates ob:EvaluationPlan, ob:EvaluationReport ;
@@ -5989,7 +5987,7 @@ ob:SystemFailureConcept
     rdfs:subClassOf meta:EntityType .
 
 ob:SystemHandover
-    meta:DefinitionDEPage "345"^^xsd:positiveInteger ;
+    ob:page "345"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:updates ob:HandoverCertificate, ob:OperationalConcept ;
@@ -5999,7 +5997,7 @@ ob:SystemHandover
     skos:definition "Vorgang, bei dem die Verantwortung für ein Anwendungssystem vom Auftraggeber an den zukünftigen Betreiber übergeben wird. Dazu wird festgelegt, wer künftig die Verantwortung für den Betrieb übernimmt. Alle Vereinbarungen der Systemübergabe werden in einem Übergabeprotokoll festgehalten."@de .
 
 ob:SystemIntroduction
-    meta:DefinitionDEPage "28"^^xsd:positiveInteger ;
+    ob:page "28"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter3-3 ;
     meta:functionComponent ob:ChangeManagement, ob:Commissioning, ob:DefinitionOfIntroductionStrategy, ob:GoLive, ob:PreparationOfSystemIntroduction, ob:SystemHandover ;
     a meta:Function, owl:Class;
@@ -6032,7 +6030,7 @@ ob:SystemOperation
     rdfs:subClassOf ob:InformationManagement .
 
 ob:SystemSelection
-    meta:DefinitionDEPage "28"^^xsd:positiveInteger ;
+    ob:page "28"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter3-3 ;
     meta:entityTypeComponent ob:ProductPresentation, ob:TestInstallation ;
     meta:functionComponent ob:BidComparison, ob:DecisionAndContractConclusion, ob:ExecutionOfMarketAnalysis, ob:Tendering ;
@@ -6063,7 +6061,7 @@ ob:SystemSelectionResult
     rdfs:subClassOf meta:EntityType .
 
 ob:SystemSpecification
-    meta:DefinitionDEPage "185"^^xsd:positiveInteger, "28"^^xsd:positiveInteger ;
+    ob:page "185"^^xsd:positiveInteger, "28"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter3-3, ob:Chapter9-1 ;
     meta:functionComponent ob:GoalDefinition, ob:InformationAcquisitionSpecification, ob:PreparationAndModelingSpecification, ob:VerificationSpecification ;
     a meta:Function, owl:Class;
@@ -6135,7 +6133,7 @@ ob:TacticalHISPlanning
     rdfs:subClassOf ob:InformationManagement .
 
 ob:TacticalManagementOfInformationSystems
-    meta:DefinitionDEPage "345"^^xsd:positiveInteger ;
+    ob:page "345"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:functionComponent ob:TacticalHISDirecting, ob:TacticalHISMonitoring, ob:TacticalHISPlanning ;
     a meta:Function, owl:Class;
@@ -6146,7 +6144,7 @@ ob:TacticalManagementOfInformationSystems
     skos:definition "Perspektive des Managements eines Informationssystems, welches sich mit der Einführung oder Änderung von Informationssystemkomponenten befasst. Die Aufgaben umfassen die Planung, Steuerung und Überwachung von Projekten."@de .
 
 ob:TargetConcept
-    meta:DefinitionDEPage "187"^^xsd:positiveInteger ;
+    ob:page "187"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter9-1 ;
     meta:entityTypeComponent ob:FunctionalSpecificationDocument, ob:MigrationPath, ob:ProjectScope, ob:TargetDefinition, ob:TargetStateModel ;
     a meta:EntityType, owl:Class ;
@@ -6155,7 +6153,7 @@ ob:TargetConcept
     skos:definition "Das wesentliche Ergebnis des Moduls der Systemspezifikation ist das Sollkonzept (vgl. Abb. 9.1), welches geplante technische und organi-satorische Veränderungen an einem Informationssystem (Soll-Zu-stand) sowie den Migrationsplan zu ihrer Erreichung beschreibt. Das Sollkonzept geht damit weit über eine reine Systembeschreibung hinaus. Ergebnis der Systemspezifikation. Ein Sollkonzept umfasst neben Problembereich und Zieldefinition vor allem die Beschreibung des Soll-Zustandes für ein (Sub- ) Informationssystem sowie einen Migrationsplan, wie man vom Ist-Zustand zum Soll-Zustand kommen kann. Ist eine Systemauswahl oder Systementwicklung geplant, enthält das Sollkonzept auch ein detailliertes Pflichtenheft für ein zu beschaffendes oder zu entwickelndes Produkt."@de .
 
 ob:TargetDefinition
-    meta:DefinitionDEPage "348"^^xsd:positiveInteger ;
+    ob:page "348"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isBasedOn ob:ProjectGoal ;
     a meta:EntityType, owl:Class ;
@@ -6172,7 +6170,7 @@ ob:TargetPerformanceComparison
     skos:altLabel "Vorher-Nachher-Vergleich"@de .
 
 ob:TargetState
-    meta:DefinitionDEPage "342"^^xsd:positiveInteger ;
+    ob:page "342"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isBasedOn ob:InformationSystem ;
     a meta:EntityType, owl:Class ;
@@ -6218,7 +6216,7 @@ ob:TeamDevelopment
     rdfs:subClassOf ob:InformationManagement .
 
 ob:TeamFormation
-    meta:DefinitionDEPage "345"^^xsd:positiveInteger ;
+    ob:page "345"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:AdjourningPhase, ob:FormingPhase, ob:NormingPhase, ob:PerformingPhase, ob:StormingPhase ;
     a meta:EntityType, owl:Class ;
@@ -6227,7 +6225,7 @@ ob:TeamFormation
     skos:definition "Abstimmung der Fähigkeiten, beruflichen Hintergründe und persönlichen Einstellungen von Personen zu einem Projektteam. Folgende typische Phasen der Teambildung können beschrieben werden: Formierungsphase, Konfliktphase, Nomierungphase und produktive Arbeitsphase. Am Projektende erfolgt die Auflösung des Projektteams."@de .
 
 ob:TeamManagement
-    meta:DefinitionDEPage "345"^^xsd:positiveInteger ;
+    ob:page "345"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:uses ob:ProjectGoal, ob:ProjectTeam ;
@@ -6256,7 +6254,7 @@ ob:TechnologicalInnovation
     rdfs:subClassOf meta:EntityType .
 
 ob:Tender
-    meta:DefinitionDEPage "213"^^xsd:positiveInteger ;
+    ob:page "213"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-2, ob:Chapter10-3 ;
     meta:entityTypeComponent ob:AwardCriterion, ob:EligibilityCriterion, ob:Lot, ob:TenderArrangement ;
     a meta:EntityType, owl:Class ;
@@ -6310,7 +6308,7 @@ ob:TenderWithoutLots
     rdfs:subClassOf ob:TenderType .
 
 ob:Tendering
-    meta:DefinitionDEPage "322"^^xsd:positiveInteger ;
+    ob:page "322"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-2 ;
     meta:functionComponent ob:PublicationOfTender ;
     a meta:Function, owl:Class;
@@ -6320,7 +6318,7 @@ ob:Tendering
     skos:definition "Aufforderung zur Abgabe eines Angebots. Als Schritt einer Systemauswahl werden auf der Grundlage eines Pflichtenhefts potenzielle Anbieter aufgefordert, ein Angebot einzureichen. Eine Ausschreibung kann in Lose aufgeteilt werden. Die Vergabegesetze unterscheiden vereinfacht folgende Ausschreibungsarten: Offenes Verfahren, Nicht offenes Verfahren, Verhandlungverfahren sowie Direktvergabe."@de .
 
 ob:TestInstallation
-    meta:DefinitionDEPage "346"^^xsd:positiveInteger ;
+    ob:page "346"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     meta:updates ob:CommissionedAssessment ;
@@ -6330,7 +6328,7 @@ ob:TestInstallation
     skos:definition "Aktivität im Rahmen einer Systemauswahl, bei der ein Produkt in einer Testumgebung installiert wird, um das Produkt unter möglichst realitätsnahen Bedingungen vor einer Produktentscheidung genau zu prüfen. Testinstallationen ermöglichen die Überprüfung von Funktionalität, Benutzerfreundlichkeit, Adaptierbarkeit, Stabilität und Performance."@de .
 
 ob:TestOperation
-    meta:DefinitionDEPage "346"^^xsd:positiveInteger ;
+    ob:page "346"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     meta:updates ob:ApplicationSystem ;
@@ -6352,7 +6350,7 @@ ob:TestScenario
     rdfs:subClassOf meta:EntityType .
 
 ob:ThirdLevelSupport
-    meta:DefinitionDEPage "284"^^xsd:positiveInteger ;
+    ob:page "284"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter13-1, ob:Chapter16 ;
     a meta:Function, owl:Class;
     meta:updates ob:ApplicationSystem ;
@@ -6361,7 +6359,7 @@ ob:ThirdLevelSupport
     skos:definition "Dritte Ebene der Anwendungsbetreuung im Rahmen des Systembetiebs, bei der Systemspezialisten, ggf. auch von externen Firmen, für einzelne Anwendungssysteme benannt sind, die dann kontaktiert werden, wenn der Second-Level-Support ein Problem nicht lösen kann."@de .
 
 ob:ThreeLayerGraphBasedMetamodel
-    meta:DefinitionDEPage "168"^^xsd:positiveInteger ;
+    ob:page "168"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter8-3 ;
     meta:entityTypeComponent ob:DomainLayer, ob:LogicalToolLayer, ob:PhysicalToolLayer ;
     a meta:EntityType, owl:Class ;
@@ -6377,7 +6375,7 @@ ob:Time
     rdfs:subClassOf meta:EntityType .
 
 ob:TimeMeasurement
-    meta:DefinitionDEPage "145"^^xsd:positiveInteger ;
+    ob:page "145"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Time Measurement"@en, "Zeitmessung"@de ;
@@ -6397,7 +6395,7 @@ ob:TimeToRunCalculation
     rdfs:subClassOf ob:InformationManagement .
 
 ob:TimingDiagram
-    meta:DefinitionDEPage "156"^^xsd:positiveInteger ;
+    ob:page "156"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Timing Diagram"@en, "Zeitverlaufsdiagramm"@de ;
@@ -6405,7 +6403,7 @@ ob:TimingDiagram
     skos:definition "beschreibt entlang einer Zeitskala den Zusammenhang von Nachrichten-flüssen und Zustandsübergängen"@de .
 
 ob:ToDoList
-    meta:DefinitionDEPage "74"^^xsd:positiveInteger ;
+    ob:page "74"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter5-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Aufgabenliste"@de, "To Do List"@en ;
@@ -6432,7 +6430,7 @@ ob:TopManagement
     rdfs:subClassOf meta:Role .
 
 ob:TrafficLightModel
-    meta:DefinitionDEPage "320"^^xsd:positiveInteger ;
+    ob:page "320"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:WorkPackage ;
     a meta:EntityType, owl:Class ;
@@ -6464,7 +6462,7 @@ ob:TroubleShootingInTacticalInformationManagement
     rdfs:subClassOf ob:InformationManagement .
 
 ob:UmlActivityDiagram
-    meta:DefinitionDEPage "346"^^xsd:positiveInteger ;
+    ob:page "346"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "UML Activity Diagram"@en, "UML-Aktivitätsdiagramm"@de ;
@@ -6472,7 +6470,7 @@ ob:UmlActivityDiagram
     skos:definition "Methode zur Modellierung von Geschäftsprozessen, welche auf der Darstellung von Aktivitäen, Rollen, Informationsobjekten und Kontrollstrukturen beruht."@de .
 
 ob:UmlClassDiagram
-    meta:DefinitionDEPage "153"^^xsd:positiveInteger ;
+    ob:page "153"^^xsd:positiveInteger ;
     meta:entityTypeComponent ob:Class ;
     meta:isAssociatedWith ob:UnifiedModelingLanguage ;
     a meta:EntityType, owl:Class ;
@@ -6487,7 +6485,7 @@ ob:UmlDiagram
     rdfs:subClassOf ob:ModelingMethod .
 
 ob:UmlEntity
-    meta:DefinitionDEPage "11"^^xsd:positiveInteger ;
+    ob:page "11"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Objekt"@de, "UML Entity"@en ;
@@ -6496,7 +6494,7 @@ ob:UmlEntity
     skos:definition "Ein Objekt stellt einen beliebigen Ausschnitt aus der wahrnehmba ren oder vorstellbaren Welt dar. Jedes einzelne Objekt weist eine Menge von Eigenschaften (Attribute) auf. Durch die Ermittlung ge meinsamer Eigenschaften lässt sich mittels Abstraktion eine Menge gleichartiger Objekte zu einer Denkeinheit zusammenfassen, die als Objekttyp (oder Klasse) bezeichnet wird."@de .
 
 ob:UmlSequenceDiagram
-    meta:DefinitionDEPage "346"^^xsd:positiveInteger ;
+    ob:page "346"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:UmlEntity ;
     a meta:EntityType, owl:Class ;
@@ -6505,7 +6503,7 @@ ob:UmlSequenceDiagram
     skos:definition "Methode zur Modellierung von Interaktionen zwischen Objekten entlang einer Zeitachse."@de .
 
 ob:UmlUseCaseDiagram
-    meta:DefinitionDEPage "346"^^xsd:positiveInteger ;
+    ob:page "346"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:ApplicationSystem ;
     meta:roleComponent ob:User ;
@@ -6519,7 +6517,7 @@ ob:Understandability
     rdfs:label "Understandability"@en .
 
 ob:UnifiedModelingLanguage
-    meta:DefinitionDEPage "347"^^xsd:positiveInteger ;
+    ob:page "347"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "UML"@de, "Unified Modeling Language"@en ;
@@ -6539,7 +6537,7 @@ ob:UsabilityTest
     rdfs:subClassOf ob:SystemEvaluationMethod .
 
 ob:UseCase
-    meta:DefinitionDEPage "320"^^xsd:positiveInteger ;
+    ob:page "320"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Anwendungsfall"@de, "Use Case"@en ;
@@ -6547,7 +6545,7 @@ ob:UseCase
     skos:definition "Beschreibt die typische Interaktion zwischen Anwendern und einem Anwendungssystem für die Bearbeitung einer Aufgabe. Dient der Beschreibung von Anforderungen an ein Anwendungssystem aus der Sicht und in der Sprache der Anwender."@de .
 
 ob:UseCaseDiagram
-    meta:DefinitionDEPage "153"^^xsd:positiveInteger ;
+    ob:page "153"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "UML-Anwendungsfall-Diagramm"@de, "Use-Case-Diagram"@en ;
@@ -6555,7 +6553,7 @@ ob:UseCaseDiagram
     skos:definition "Ein UML-Anwendungsfalldiagramm (synonym Use-Case-Diagramm) erlaubt die Beschreibung von typischen Nutzungssituationen aus Sicht der Anwender und fokussiert dabei auf eine eher aufgaben- als pro-zessorientierter Sichtweise. Ein Anwendungsfall beschreibt dabei typische Interaktionen zwischen Anwendern und einem Anwendungs-system im Kontext der Bearbeitung einer Aufgabe. Mit relativ einfa-chen grafischen Mitteln können Anwendungsfälle mit den beteiligten menschlichen oder technischen Akteuren sowie mit anderen Anwen-dungsfällen in Beziehung gesetzt werden. Wesentliche Beschrei-bungselemente sind die Akteure (als Strichmännchen dargestellt) und die Anwendungsfälle (Ovale). Die Beziehung zwischen Akteuren und Anwendungsfällen wird durch eine Linie dargestellt. Zur Darstellung der Beziehungen zwischen Anwendungsfällen stehen die Vererbungs-beziehung (nicht-ausgefüllter Pfeil), die Realisierungsbeziehung (ge-strichelter Pfeil, bezeichnet mit <<realize>>), Enthaltensein (gestri-chelter Pfeil, bezeichnet mit <<include>>) und die Erweiterungsbe-ziehung (gestrichelter Pfeil, bezeichnet mit <<extend>>) zur Verfü-gung."@de .
 
 ob:UseCaseDrivenRequirementsEngineering
-    meta:DefinitionDEPage "201"^^xsd:positiveInteger ;
+    ob:page "201"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter9-3 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Anwendungsfallgetriebene Anforderungsermittlung"@de, "Use Case Driven Requirements Engineering"@en ;
@@ -6577,7 +6575,7 @@ ob:UserAdministration
     rdfs:subClassOf ob:InformationManagement .
 
 ob:UserKnowledgeTest
-    meta:DefinitionDEPage "268"^^xsd:positiveInteger ;
+    ob:page "268"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Benutzer-Wissenstest"@de, "User Knowledge Test"@en ;
@@ -6605,7 +6603,7 @@ ob:UserTrainingSchedule
     rdfs:subClassOf meta:EntityType .
 
 ob:UtilityAnalysis
-    meta:DefinitionDEPage "332"^^xsd:positiveInteger ;
+    ob:page "332"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter10-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Nutzwertanalyse"@de, "Utility Analysis"@en ;
@@ -6636,7 +6634,7 @@ ob:Venue
     rdfs:subClassOf meta:EntityType .
 
 ob:Verification
-    meta:DefinitionDEPage "347"^^xsd:positiveInteger ;
+    ob:page "347"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:Function, owl:Class ;
     rdfs:label "Verification"@en, "Verifikation"@de ;
@@ -6654,7 +6652,7 @@ ob:VerificationProtocol
     rdfs:subClassOf meta:EntityType .
 
 ob:VerificationSpecification
-    meta:entityTypeComponent ob:Simulation ;
+    meta:isAssociatedWith ob:Simulation ;
     a meta:Function, owl:Class;
     meta:updates ob:TargetConcept ;
     meta:uses ob:CurrentStateModel, ob:EvaluationCriterion, ob:FunctionalSpecificationDocument, ob:MethodOfVerification, ob:TargetStateModel ;
@@ -6662,7 +6660,7 @@ ob:VerificationSpecification
     rdfs:subClassOf ob:Verification .
 
 ob:VerificationSystemAnalysis
-    meta:DefinitionDEPage "125"^^xsd:positiveInteger ;
+    ob:page "125"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-2 ;
     meta:functionComponent ob:ExecutionOfVerificationMeeting ;
     a meta:Function, owl:Class;
@@ -6672,7 +6670,7 @@ ob:VerificationSystemAnalysis
     skos:definition "Im nachfolgenden Verifikationsschritt werden die Ergebnisse der Systemanalyse verifiziert, also z. B. überprüft, ob die erhobenen Da-ten und die daraus gewonnenen Modelle und Erkenntnisse „wahr“ sind. Hierzu gehört die Überprüfung der Korrektheit, Vollständigkeit und Angemessenheit der erstellten Modelle. Diese Prüfung erfolgt unter Einbeziehung von Mitarbeitern des betrachteten Bereichs und/oder Fachexperten. Wir verwenden den Begriff der Verifikation hier also im Sinne der Systemanalyse. In anderen Bereichen der In-formatik kann der Begriff auch etwas anders verstanden werden. Die Korrektheit, Vollständigkeit und Angemessenheit der aufbereite-ten und ggf. modellierten Ergebnisse der Informationsbeschaffung ist durch Versäumnisse oder Missverständnisse während der Informa-tionsbeschaffung (vgl. auch Abb. 8.2 auf S. 118) sowie durch Auf-bereitungs- und Modellierungsfehler gefährdet. Zur Erkennung und Korrektur dieser potenziellen Fehler ist daher eine systematische Veri-fikation der aufbereiteten und ggf. modellierten Ergebnisse durch Mitarbeiter des betroffenen Bereichs und/oder durch Fachexperten zu empfehlen."@de .
 
 ob:VerificationTest
-    meta:DefinitionDEPage "268"^^xsd:positiveInteger ;
+    ob:page "268"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Verification Test"@en, "Verifikationstest"@de ;
@@ -6698,7 +6696,7 @@ ob:WaterfallModel
     rdfs:subClassOf ob:ProjectProcessModel .
 
 ob:WinWinSituation
-    meta:DefinitionDEPage "348"^^xsd:positiveInteger ;
+    ob:page "348"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Win-Win Situation"@en, "Win-win-Situation"@de ;
@@ -6706,7 +6704,7 @@ ob:WinWinSituation
     skos:definition "Ansatz zur Lösung von zwischenmenschlichen Konflikten. Grundidee ist, dass die Lösung eines Konflikts so zu erfolgen hat, dass beide Parteien einen Vorteil aus der Problemlösung ziehen können. Dies soll gewährleistet werden, dass die Lösung von beiden Parteien akzeptiert wird."@de .
 
 ob:WorkPackage
-    meta:DefinitionDEPage "337"^^xsd:positiveInteger ;
+    ob:page "337"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:entityTypeComponent ob:Activity ;
     meta:isAssociatedWith ob:Milestone ;
@@ -6716,7 +6714,7 @@ ob:WorkPackage
     skos:definition "Abgegrenzbare Einheiten in einem Projekt, welche zusammengehörige Aktivitäten sinnvoll bündeln und von einem Arbeitspaket-Leiter geleitet werden. Arbeitspakete dienen der Erfüllung einer (Teil-) Aufgabe in einem Projekt. Arbeitspakete werden als Ergebnis der Strukturplanung während der Projektplanung formuliert."@de .
 
 ob:WorkPackageDescription
-    meta:DefinitionDEPage "53"^^xsd:positiveInteger ;
+    ob:page "53"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter5-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Arbeitspaket-Beschreibung"@de, "Work Package Description"@en ;
@@ -6731,7 +6729,7 @@ ob:WorkPackageExecution
     rdfs:subClassOf ob:InformationManagement .
 
 ob:WorkPackageManager
-    meta:DefinitionDEPage "337"^^xsd:positiveInteger ;
+    ob:page "337"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     meta:isResponsibleForEntityType ob:WorkPackage ;
     meta:isResponsibleForFunction ob:WorkPackageExecution ;
@@ -6760,7 +6758,7 @@ ob:WorkSchedule
     rdfs:subClassOf meta:EntityType .
 
 ob:WorkflowManagement
-    meta:DefinitionDEPage "319"^^xsd:positiveInteger ;
+    ob:page "319"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Ablauforganisation"@de, "Workflow Management"@en ;
@@ -6768,7 +6766,7 @@ ob:WorkflowManagement
     skos:definition "Beschreibt die Geschäftsprozesse in einem Bereich und ihr Zusammenwirken zur Erfüllung der jeweiligen Unternehmensaufgaben. Für die Modellierung der Ablauforganisation werden in der Regel Methoden zur Geschäftsprozessmodellierung eingesetzt."@de .
 
 ob:Worksampling
-    meta:DefinitionDEPage "268"^^xsd:positiveInteger ;
+    ob:page "268"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter12-2 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Worksampling"@en, "Zeitmessung"@de ;
@@ -6789,7 +6787,7 @@ ob:WrittenPresentation
     rdfs:subClassOf ob:MethodOfProjectExecution .
 
 ob:WrittenSurvey
-    meta:DefinitionDEPage "132"^^xsd:positiveInteger, "142"^^xsd:positiveInteger ;
+    ob:page "132"^^xsd:positiveInteger, "142"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Schriftliche Befragung"@de, "Written Survey"@en ;

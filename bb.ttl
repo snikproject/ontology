@@ -1328,7 +1328,7 @@ bb:Ccow
 bb:CcowStandard
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-5 ;
-    meta:increases bb:ContextualIntegration ;
+    meta:isAssociatedWith bb:ContextualIntegration ;
     meta:isAssociatedWith bb:PatientLink, bb:SingleSignOn ;
     rdf:type meta:EntityType ;
     a owl:Class ;
@@ -1546,7 +1546,7 @@ bb:ClinicalChemistryReport
 bb:ClinicalDataWarehouse
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-4 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:ExecutionOfClinicalTrialsAndExperiments ;
     a owl:Class ;
     rdfs:label "Clinical Data Warehouse"@en, "انبار داده بالینی"@fa ;
@@ -9420,7 +9420,7 @@ bb:StrategicInformationManagementPlan
     bb:page "78"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:DescriptionOfTheCurrentHISState, bb:DescriptionOfThePlannedHISState, bb:DirectiveForHISConstruction, bb:MigrationPath, bb:StrategicHospitalGoal, bb:StrategicInformationManagementGoal ;
-    meta:functionComponent bb:AnalysisAndAssessmentOfTheCurrentHISState ;
+    meta:isAssociatedWith bb:AnalysisAndAssessmentOfTheCurrentHISState ;
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "IT-Rahmenkonzept"@de, "IT-Strategie"@de, "IT-Strategieplan"@de, "Rahmenplan"@de, "Strategic Information Management Plan"@en, "Strategischer Rahmenplan des Informationsmanagements"@de, "طرح مدیریت اطلاعات استراتژیک"@fa ;

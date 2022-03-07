@@ -98,20 +98,24 @@ ciox:Arbeitsablaufsystem
     rdfs:subClassOf ciox:ComputerbasiertesAnwendungssystem .
 
 ciox:Bereich1Informationsmanagement
-    a ciox:BereichInformationsmanagement, owl:NamedIndividual .
+    a ciox:BereichInformationsmanagement, owl:NamedIndividual ;
+	rdfs:label "Bereich 1 Informationsmanagement"@de .
 
 ciox:Bereich2
-    a ciox:BereichMaterialwirtschaftDienstleistungen, owl:NamedIndividual .
+    a ciox:BereichMaterialwirtschaftDienstleistungen, owl:NamedIndividual ;
+	rdfs:label "Bereich 2"@de .
 
 ciox:Bereich3
-    a ciox:BereichFinanzenPlanungUndControlling, owl:NamedIndividual .
+    a ciox:BereichFinanzenPlanungUndControlling, owl:NamedIndividual ;
+	rdfs:label "Bereich 3"@de .
+   
 
 ciox:Bereich3FinanzenPlanungUndControlling
     a owl:NamedIndividual ;
     rdfs:label ""@de .
 
 ciox:BereichFinanzenPlanungUndControlling
-    meta:isInvolvedIn ciox:ITSachkontenplanung ;
+    meta:functionComponent ciox:ITSachkontenplanung ;
     a meta:Function, owl:Class ;
     rdfs:label "Bereich Finanzen, Planung und Controlling"@de ;
     rdfs:subClassOf ciox:Krankenhausverwaltung .
@@ -135,7 +139,7 @@ ciox:Bereichsassistenz
     meta:isResponsibleForEntityType ciox:Projektbudget ;
     meta:isResponsibleForFunction ciox:Bestellungsbearbeitung, ciox:ChangeRequestErfassung, ciox:Rechnungspruefung ;
     a meta:Role, owl:Class;
-    meta:uses ciox:Projektbudget ;
+    meta:isAssociatedWith ciox:Projektbudget ;
     rdfs:label "Bereichsassistenz"@de, "Department Asisstant"@en ;
     rdfs:subClassOf ciox:InformationManagementStaff .
 
@@ -394,7 +398,7 @@ ciox:Fremdmittel
     rdfs:subClassOf ciox:Kostenart .
 
 ciox:GenehmigungItStrategieStakeholder
-    skos:broader bb:HisStakeholder .
+    skos:broadMatch bb:HisStakeholder .
 
 ciox:GeplanteAktivierbareDienstleistungsmittel
     meta:isAssociatedWith ciox:AktivierbareDienstleistungsmittel ;
@@ -422,7 +426,7 @@ ciox:ITFinanzcontrolling
     a meta:Function, owl:Class ;
     rdfs:label "IT Financial Controlling"@en, "IT-Finanzcontrolling"@de ;
     rdfs:subClassOf ciox:InformationManagement ;
-    skos:broader bb:FinancialControlling .
+    skos:broadMatch bb:FinancialControlling .
 
 ciox:ITSachkontenplanung
     a meta:Function, owl:Class;
@@ -528,7 +532,7 @@ ciox:ItStrategieAuftraggeber
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
     a meta:Role, owl:Class ;
     rdfs:label "IT-Strategie Auftraggeber"@de ;
-    skos:broader bb:HisStakeholder .
+    skos:broadMatch bb:HisStakeholder .
 
 ciox:ItStrategieEinhaltungBewertung
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
@@ -764,7 +768,7 @@ ciox:Materialbestellung
     a meta:Function, owl:Class ;
     rdfs:label "Materialbestellung"@de ;
     rdfs:subClassOf ciox:Bestellungsbearbeitung ;
-    skos:broader bb:MaterialAndMedicationManagement .
+    skos:broadMatch bb:MaterialAndMedicationManagement .
 
 ciox:Materialwirtschaftssystem
     meta:isBasedOn ciox:SAPMM ;
@@ -787,7 +791,8 @@ ciox:MicrosoftExchangeServer
     rdfs:label "Microsoft Exchange Server"@en .
 
 ciox:MicrosoftLync
-    a ciox:InstantMessagingSystem, owl:NamedIndividual .
+    a ciox:InstantMessagingSystem, owl:NamedIndividual ;
+	rdfs:label "Microsoft Lync"@en .
 
 ciox:MicrosoftOutlook
     a owl:NamedIndividual ;
@@ -1063,7 +1068,7 @@ ciox:Projektportfolioplanung
     meta:uses ciox:Projektewarteliste ;
     rdfs:label "Project Portfolio Planning"@en, "Projektportfolioplanung"@de ;
     rdfs:subClassOf ciox:Projektmanagement ;
-    skos:broader bb:PortfolioManagement .
+    skos:broadMatch bb:PortfolioManagement .
 
 ciox:Projektpriorisierung
     a meta:Function, owl:Class;
@@ -1121,7 +1126,7 @@ ciox:ProspektiveRechtfertigung
     a meta:Function, owl:Class ;
     rdfs:label "Prospektive Rechtfertigung"@de ;
     skos:definition "Die IT-Strategie hilft bei der Rechtfertigung, weshalb bestimmte Investitionen getätigt werden müssen. "@de ;
-    skos:narrower bb:ITInvestmentJustification .
+    skos:narrowMatch bb:ITInvestmentJustification .
 
 ciox:Rechnung
     meta:master ciox:Arbeitsablaufsystem, ciox:Kollaborationsplattform ;
@@ -1163,7 +1168,7 @@ ciox:RetrospektiveRechtfertigung
     meta:functionComponent ciox:WirtschaftlicheRechtfertigung ;
     a meta:Function, owl:Class ;
     rdfs:label "Retrospektive Rechtfertigung"@de ;
-    skos:narrower bb:ITInvestmentJustification .
+    skos:narrowMatch bb:ITInvestmentJustification .
 
 ciox:SAP
     a meta:EntityType, owl:Class ;
@@ -1476,7 +1481,7 @@ ciox:blank223756
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
     a owl:Axiom ;
     owl:object bb:HisStakeholder ;
-    owl:predicate skos:broader ;
+    owl:predicate skos:broadMatch ;
     owl:subject ciox:GenehmigungItStrategieStakeholder .
 
 ciox:blank223757
@@ -1525,7 +1530,7 @@ ciox:blank223763
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
     a owl:Axiom ;
     owl:object bb:HisStakeholder ;
-    owl:predicate skos:broader ;
+    owl:predicate skos:broadMatch ;
     owl:subject ciox:ItStrategieAuftraggeber .
 
 ciox:blank223764

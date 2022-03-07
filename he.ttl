@@ -5683,9 +5683,8 @@ he:Grundschutz
     he:page "471"^^xsd:positiveInteger, "472"^^xsd:positiveInteger, "475"^^xsd:positiveInteger ;
     meta:chapter he:INBAN ;
     meta:consolidated false ;
-    meta:isBasedOn he:BSIStandard1002 ;
-    a meta:EntityType, meta:Function ;
-    a owl:Class ;
+    meta:isAssociatedWith he:BSIStandard1002 ;
+    a meta:Function, owl:Class ;
     rdfs:label "Baseline Protection"@en, "Baseline protection"@en, "Grundschutz"@de ;
     rdfs:subClassOf he:MethodeDesAdministrativenInformationsmanagements ;
     skos:definition "Methode zur Entwicklung von Sicherheitskonzepten bei der Sicherungsmaßnahmen anzuwenden sind die für einen normalen Schutzbedarf als angemessen und ausreichend betrachtet werden."@de, "Prinzip zur Entwicklung von Sicherheitskonzepten bei dem Sicherungsmaßnahmen anzuwenden sind welche für einen normalen Schutzbeadrf als angemessen und ausreichend betrachtet werden."@de .
@@ -6825,8 +6824,8 @@ he:Innovationsmanagement
     meta:chapter he:TECHM ;
     meta:consolidated false ;
     meta:functionComponent he:BusinessItAlignment, he:Innovation ;
-    meta:isResponsibleForEntityType he:Innovationsfaehigkeit ;
-    a meta:EntityType, meta:Function, meta:Role ;
+    meta:isAssociatedWith he:Innovationsfaehigkeit ;
+    a meta:Function ;
     a owl:Class ;
     rdfs:label "Innovationsmanagement"@de ;
     skos:definition "Unternehmensberater der A.  T.  Kearney GmbH berichten dass sich bei zahlreichen Projekten zur Einführung des Innovationsmanagements \"vier wesentliche Säulen als Träger eines umfassenden Innovationsmanagements herauskristallisiert haben\" und zwar (F.A.Z. vom 7.l2.2010 Beilage Innovationstreiber IKT 8): Einführung eines zentral gesteuerten Suchprozesses feste Verankemng von Innovation in der Unternehmenskultur aktives Management des IT-Service-Portfolios und Abstimmung zwischen Geschäft und IT was eine enge Zusammenarbeit des IT-Bereichs mit den Anwendern erfordert (Business-IT -Alignment). "@de .
@@ -8906,8 +8905,8 @@ he:Limitierungskriterium
 
 he:Linienmanagement
     meta:consolidated false ;
-    meta:roleComponent he:Technologiemanager ;
-    a meta:Function, meta:Role ;
+    meta:isAssociatedWith he:Technologiemanager ;
+    a meta:Function ;
     meta:updates he:Technologiebedarf ;
     a owl:Class ;
     rdfs:label "Linienmanagement"@de .
@@ -15526,12 +15525,9 @@ he:Technologiemanagement
     he:page "162"^^xsd:positiveInteger, "243"^^xsd:positiveInteger ;
     meta:chapter he:TECHM ;
     meta:consolidated false, true ;
-    meta:functionComponent he:BeobachtenDerTechnologieentwicklung, he:BestimmenDesTechnologiebedarfs, he:Technologiebeschaffung ;
-    meta:isAssociatedWith he:RequirementsManagement ;
-    meta:isBasedOn he:Technologie ;
-    meta:isResponsibleForEntityType he:Investitionszeitpunkt ;
-    meta:isResponsibleForFunction he:BestimmenDerInvestitionshoehe ;
-    a meta:Function, meta:Role ;
+    meta:functionComponent he:BeobachtenDerTechnologieentwicklung, he:BestimmenDesTechnologiebedarfs, he:Technologiebeschaffung, he:BestimmenDerInvestitionshoehe ;
+    meta:isAssociatedWith he:RequirementsManagement, he:Technologie, he:Investitionszeitpunkt ;
+    a meta:Function ;
     meta:uses he:Wirksamkeit ;
     a owl:Class ;
     rdfs:label "Technologiemanagement"@de ;
