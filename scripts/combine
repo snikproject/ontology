@@ -1,4 +1,3 @@
 MYPATH=`dirname "$0"`
 MYPATH=`( cd "$MYPATH" && pwd )`
 cat $MYPATH/../*.ttl $MYPATH/../*.nt | rapper -i turtle -o turtle  - http://www.snik.eu/ontology/ > /tmp/snik.ttl
-rapper -i turtle -o ntriples /tmp/snik.ttl > /tmp/snik.nt
