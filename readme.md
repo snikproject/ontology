@@ -2,6 +2,9 @@
 
 # SNIK Ontology
 
+[![build](https://github.com/snikproject/ontology/actions/workflows/build.yml/badge.svg)](https://github.com/snikproject/ontology/actions/workflows/build.yml)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 SNIK is an ontology of information management in hospitals that consists of a meta model and several subontologies.
 
 ## See Also
@@ -84,6 +87,7 @@ Check if it worked by querying `SELECT COUNT(*) ?graph {GRAPH ?graph {?s ?p ?o.}
 
 ## SHACL
 SHACL shapes for closed-world validation are included in `shacl.ttl`.
+Validate with `scripts/shacl`.
 
 ## Docker
 The [docker compose setup](https://github.com/snikproject/docker) includes a Virtuoso SPARQL endpoint preloaded with the different SNIK graphs and namespaces, an [RDF Browser](https://github.com/snikproject/lodview) and more.
@@ -92,6 +96,3 @@ The [docker compose setup](https://github.com/snikproject/docker) includes a Vir
 Because we extracted the triples from copyrighted books with permission of the publishers, we chose a noncommercial license with copyleft, the *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International*, see LICENCE for details.
 The tools developed in the SNIK project have the same license for simplicity's sake and there was never a reason to change it.
 However we want to encourage reuse, modification, derivation and distribution as much as possible, so if that license is a problem for you please contact [Prof. Winter](www.people.imise.uni-leipzig.de/alfred.winter) and we try our best to find a solution.
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
