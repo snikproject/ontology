@@ -86,7 +86,7 @@
     bb:page "58"^^xsd:positiveInteger ;
     meta:chapter bb:chapter5-3 ;
     meta:isAssociatedWith <bb/3LGM2CommunicationInterface> ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent ;
     meta:supports <bb/3LGM2EnterpriseFunction> ;
     a owl:Class ;
     rdfs:label "3LGM² Application Component"@en, "اجزای برنامه 3LGM2"@fa ;
@@ -365,7 +365,7 @@
 
 <bb/3LGM2Tool>
     meta:isBasedOn <bb/3LGM2> ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, bb:ComputerBasedApplicationComponent ;
     meta:supports bb:InformationManagement, bb:StructuralQualityAssessment ;
     a owl:Class ;
     rdfs:label "3LGM² Tool"@en, "ابزار 3LGM ²"@fa ;
@@ -463,7 +463,7 @@ bb:AccessControl
     rdfs:subClassOf bb:OperationalHISDirecting .
 
 bb:AccessControlSystem
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, bb:ComputerBasedApplicationComponent ;
     meta:supports bb:AccessControl ;
     a owl:Class ;
     rdfs:label "Access Control System"@en, "سیستم کنترل دسترسی"@fa ;
@@ -713,11 +713,11 @@ bb:AnnualITBudget
     rdfs:subClassOf bb:HospitalBudget .
 
 bb:ApplicationComponent
-    bb:isAssociatedWith bb:PhysicalDataProcessingSystem ;
+    meta:isAssociatedWith bb:PhysicalDataProcessingSystem ;
     bb:page "333"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:HeterogeneityOfTheHISArchitecture, bb:HomogeneityOfTheHISArchitecture ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent ;
     meta:supports bb:EnterpriseFunction, bb:HospitalFunction ;
     a owl:Class ;
     rdfs:label "Anwendungsbaustein"@de, "Application Component"@en, "عنصر نرم افزار"@fa ;
@@ -1121,7 +1121,7 @@ bb:BloodBank
 bb:BloodBankManagementSystem
     bb:page "134"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-4 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     a owl:Class ;
     rdfs:label "Blood Bank Management System"@en, "سیستم مدیریت بانک خون"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent ;
@@ -1162,7 +1162,7 @@ bb:Bus
 
 bb:BusinessIntelligenceSystem
     meta:chapter bb:chapter6-4 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:HospitalManagement ;
     a owl:Class ;
     rdfs:label "Business Intelligence System"@en, "سیستم اطلاعات کسب و کار"@fa ;
@@ -1251,7 +1251,7 @@ bb:CardiovascularInformationSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "133"^^xsd:positiveInteger, "231"^^xsd:positiveInteger, "233"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-4 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     a owl:Class ;
     rdfs:label "Cardiovascular Information System"@en, "سیستم اطلاعات قلب و عروق"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent ;
@@ -1299,7 +1299,7 @@ bb:Cchit
     bb:page "271"^^xsd:positiveInteger ;
     meta:chapter bb:chapter9-5 ;
     meta:isResponsibleForFunction bb:CertificationByCCHIT ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "CCHIT"@en, "CCHIT"@fa ;
     rdfs:subClassOf bb:Organization ;
@@ -1316,9 +1316,8 @@ bb:Ccow
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "296"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    meta:isAssociatedWith bb:HL7Standard ;
-    meta:isResponsibleForEntityType bb:CcowStandard ;
-    rdf:type meta:EntityType ;
+    meta:isResponsibleForEntityType bb:CcowStandard, bb:HL7Standard ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "CCOW"@en, "کارگروه شیء متن بالینی"@fa ;
     rdfs:subClassOf bb:Organization ;
@@ -1359,7 +1358,7 @@ bb:Cdrom
 bb:Cen
     meta:chapter bb:chapter6-5 ;
     meta:isResponsibleForFunction bb:StandardizationByCEN ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "CEN"@en, "CEN"@fa ;
     rdfs:subClassOf bb:Organization ;
@@ -1576,7 +1575,7 @@ bb:ClinicalInformationSystem
     bb:page "297"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:ComputerizedPhysicianOrderEntrySystem, bb:MedicalDocumentationSystem, bb:NursingManagementAndDocumentationSystem, bb:OutpatientManagementSystem ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     a owl:Class ;
     rdfs:label "Clinical Information System"@en, "Klinisches Informationssystem"@de, "سیستم اطلاعات بالینی"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent ;
@@ -1679,7 +1678,7 @@ bb:CodingOfProcedures
 bb:CodingSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-4 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:typicalFeature bb:FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis, bb:FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures, bb:FeatureProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures, bb:FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses, bb:FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses, bb:FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures, bb:FeatureProvideFormsForPreparingABillForThePatientInsurance, bb:FeatureProvideMeansForCreatingStatistics, bb:FeatureProvideMeansForVerifyingCodingDoneInDepartments, bb:FeatureScoringOfThePatient ;
     a owl:Class ;
     rdfs:label "Coding System"@en, "سیستم کد گذاری"@fa ;
@@ -1749,7 +1748,7 @@ bb:CommunicationProtocol
 bb:CommunicationServer
     bb:page "157"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus, bb:chapter6-5 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:AsynchronousCommunication ;
     meta:typicalFeature bb:FeatureMessageQueuing, bb:FeatureMulticasting ;
     a owl:Class ;
@@ -1828,7 +1827,7 @@ bb:ComputerBasedApplicationComponent
     bb:page "298"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:QualityOfComputerBasedApplicationComponentsAndTheirIntegration ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:HospitalFunction ;
     a owl:Class ;
     rdfs:label "Computer-Based Application Component"@en, "Rechnerbasierter Anwendungsbaustein"@de, "اجزا برنامه مبتنی بر کامپیوتر"@fa ;
@@ -1903,7 +1902,7 @@ bb:ComputerizedPhysicianOrderEntrySystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "279"^^xsd:positiveInteger, "318"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:AppointmentScheduling, bb:OrderEntry ;
     meta:typicalFeature bb:FeatureCalculateDosageOfDrugs, bb:FeaturePrintingOfLabels, bb:FeatureProvideDrugCatalogs, bb:FeatureProvideMeansForMinimizingAdverseDrugEvents, bb:FeatureProvideMeansForSchedulingAPatientSAppointment, bb:FeatureProvideOrdersForPatientRelatedDrugs, bb:FeatureProvideOrdersForPatientRelatedExaminations, bb:FeatureSelectOrdersFromOrderSets, bb:FeatureViewPatientRelatedAppointments ;
     a owl:Class ;
@@ -2163,7 +2162,7 @@ bb:CrossEnterpriseDocumentSharing
 bb:CtScanner
     bb:page "143"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-5 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:ExecutionOfRadiologicalProcedures ;
     a owl:Class ;
     rdfs:label "CT Scanner"@en, "CT اسکنر"@fa ;
@@ -2283,7 +2282,7 @@ bb:DataTransmissionConnection
 bb:DataWarehouseSystem
     bb:page "129"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:ExecutionOfClinicalTrials, bb:HospitalManagement, bb:ResearchAndEducation ;
     meta:typicalFeature bb:FeatureAnalyzeData, bb:FeatureIntegrateDataFromDifferentApplicationComponents, bb:FeatureProvideMeansForDataMining, bb:FeatureProvideMeansForRecruitingOfPatients, bb:FeatureStructureData ;
     a owl:Class ;
@@ -2339,7 +2338,7 @@ bb:DecisionMakingPlanningAndOrganizationOfPatientTreatment
 bb:DecisionSupportSystem
     bb:page "134"^^xsd:positiveInteger, "231"^^xsd:positiveInteger, "232"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-4 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, bb:ComputerBasedApplicationComponent ;
     a owl:Class ;
     rdfs:label "Decision Support System"@en, "سیستم پشتیبانی تصمیم"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent ;
@@ -2562,7 +2561,7 @@ bb:Diet
 
 bb:DigitalDictationSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, bb:ComputerBasedApplicationComponent ;
     meta:supports bb:ReportWriting ;
     a owl:Class ;
     rdfs:label "Digital Dictation System"@en, "سیستم  دیجیتال دیکته"@fa ;
@@ -2639,7 +2638,7 @@ bb:DocumentArchivingSystem
     bb:page "131"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:AuthenticityOfData, bb:AvailabilityOfData, bb:DocumentStandard, bb:IntegrityOfData ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:ArchivingOfPatientInformation ;
     meta:typicalFeature bb:FeatureAttachDigitalSignatures, bb:FeatureCommunicateDocumentsToOtherApplications, bb:FeatureImportDocuments, bb:FeatureIndexDocumentContent, bb:FeatureManageStorageFormats, bb:FeatureManageStorageMedia, bb:FeatureProvideAccessToArchivedInformation, bb:FeatureScanDocuments ;
     a owl:Class ;
@@ -2910,7 +2909,7 @@ bb:EnterpriseResourcePlanningSystem
     bb:page "302"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:communicatesWith bb:DataWarehouseSystem, bb:PatientAdministrationSystem ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:BillingOfAccountableServices, bb:Controlling, bb:FacilityManagement, bb:FinancialAccounting, bb:HumanResourceManagement, bb:QualityManagement, bb:SupplyAndDisposalManagement ;
     meta:typicalFeature bb:FeatureAssignDoctorsToPatientsOrRooms, bb:FeatureAssignStaffToPatientsOrOutpatientUnits, bb:FeatureCreatingARoster, bb:FeatureProvideACollectionOfInternalProcessesAndRegulations, bb:FeatureProvideMeansForAccountsPayable, bb:FeatureProvideMeansForAccountsReceivable, bb:FeatureProvideMeansForAssetAccounting, bb:FeatureProvideMeansForControlOfSecurityIssues, bb:FeatureProvideMeansForCostCenterAccounting, bb:FeatureProvideMeansForCostElementAccounting, bb:FeatureProvideMeansForCreatingARoster, bb:FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations, bb:FeatureProvideMeansForGeneralLedgerAccounting, bb:FeatureProvideMeansForIncidentTracking, bb:FeatureProvideMeansForManagingAndMonitoringDisposal, bb:FeatureProvideMeansForManagingLogistics, bb:FeatureProvideMeansForManagingOutpatientUnitsStaff, bb:FeatureProvideMeansForManagingWardStaff, bb:FeatureProvideMeansForOrderManagement, bb:FeatureProvideMeansForOrganizingCareerDevelopment, bb:FeatureProvideMeansForOrganizingRecruitment, bb:FeatureProvideMeansForOrganizingTraining, bb:FeatureProvideMeansForOverheadCostManagement, bb:FeatureProvideMeansForPerformanceEvaluation, bb:FeatureProvideMeansForPreventiveMaintenance, bb:FeatureProvideMeansForProductCosting, bb:FeatureProvideMeansForStockKeeping, bb:FeatureWorkScheduling ;
     a owl:Class ;
@@ -2990,7 +2989,7 @@ bb:EuroRec
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter9-5 ;
     meta:isResponsibleForFunction bb:CertificationByEuroRec ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "EuroRec"@en, "EuroRec"@fa ;
     rdfs:subClassOf bb:Organization .
@@ -4158,7 +4157,7 @@ bb:GoalOfMedicalResearch
     rdfs:subClassOf bb:StrategicHospitalGoal .
 
 bb:GovernmentalAuthority
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Governmental Authority"@en, "مقام دولتی"@fa ;
     rdfs:subClassOf bb:Organization .
@@ -4325,7 +4324,7 @@ bb:HarmlessPhysicalDataProcessingSystem
 
 bb:HealthCareInstitution
     bb:conceptDomain "health care specific"^^xsd:string ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Health Care Institution"@en, "موسسه بهداشت و درمان"@fa ;
     rdfs:subClassOf bb:Organization .
@@ -4379,7 +4378,7 @@ bb:HealthInsuranceCompany
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter7-2 ;
     meta:isResponsibleForFunction bb:DiseaseManagement ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Health Insurance Company"@en, "شرکت بیمه درمانی"@fa ;
     rdfs:subClassOf bb:HealthCareInstitution .
@@ -4397,7 +4396,7 @@ bb:HealthcareServicesSpecificationProject
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "160"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-5 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role;
     a owl:Class ;
     rdfs:label "Healthcare Services Specification Project"@en, "مشخصات خدمات خدمات بهداشتی و درمانی"@fa ;
     rdfs:subClassOf bb:Organization ;
@@ -4521,7 +4520,7 @@ bb:HisStakeholder
 
 bb:HomeCareInstitution
     bb:conceptDomain "health care specific"^^xsd:string ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Home Care Institution"@en, "مؤسسه مراقبت خانگی"@fa ;
     rdfs:subClassOf bb:HealthCareInstitution .
@@ -4630,7 +4629,7 @@ bb:HospitalInformationSystem
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:HisComponent ;
     meta:isAssociatedWith bb:InformationProcessing, bb:InformationStorage ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent ;
     meta:supports bb:FulfillmentOfStrategicHospitalGoal ;
     a owl:Class ;
     rdfs:label "Hospital Information System"@en, "Krankenhausinformationssystem"@de, "سیستم اطلاعات بیمارستانی"@fa ;
@@ -4844,7 +4843,7 @@ bb:Ihe
     bb:page "153"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:DicomStandard, bb:HL7Standard ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "IHE"@en, "IHE"@fa ;
     rdfs:subClassOf bb:Organization ;
@@ -4933,7 +4932,7 @@ bb:ImagingModality
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "143"^^xsd:positiveInteger, "152"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-5 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent ;
     meta:supports bb:ExecutionOfRadiologicalProcedures ;
     a owl:Class ;
     rdfs:label "Imaging Modality"@en, "چگونگی تصویر برداری"@fa ;
@@ -4997,7 +4996,7 @@ bb:IncreasingCustomerSatisfaction
 bb:IndependentHealthRecordBank
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter7-3 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Independent Health Record Bank"@en, "پایگاه داده مستقل داده های سلامت"@fa ;
     rdfs:subClassOf bb:HealthCareInstitution ;
@@ -5260,7 +5259,7 @@ bb:Inpatient
 bb:InpatientCareInstitution
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter4-2 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Inpatient Care Institution"@en, "موسسه مراقبت های سرپایی"@fa ;
     rdfs:subClassOf bb:HealthCareInstitution .
@@ -5301,7 +5300,7 @@ bb:IntegratedCare
 bb:IntegratedCareNetwork
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:entityTypeComponent bb:GeneralPractice, bb:HomeOfThePatient, bb:NursingCenter, bb:RehabilitationCenter ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, bb:ComputerBasedApplicationComponent ;
     meta:supports bb:IntegratedCare ;
     a owl:Class ;
     rdfs:label "Integrated Care Network"@en, "شبکه مراقبت جامع"@fa ;
@@ -5347,7 +5346,7 @@ bb:IntegrationOfItAndMedicalEngineering
 bb:IntegrationPlatform
     meta:chapter bb:chapter6-5 ;
     meta:increases bb:ContextualIntegration, bb:FunctionalIntegration, bb:PresentationIntegration ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:typicalFeature bb:FeatureServiceCombination, bb:FeatureServiceOrchestration ;
     a owl:Class ;
     rdfs:label "Integration Platform"@en, "پلت فرم یکپارچه سازی"@fa ;
@@ -5399,7 +5398,7 @@ bb:InternalQualityManagement
     skos:definition "Internal Quality Management assures a defined quality of all processes and outcomes of the hospital"@en .
 
 bb:InternalReportingSystem
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, bb:ComputerBasedApplicationComponent ;
     meta:supports bb:InternalQualityManagement ;
     a owl:Class ;
     rdfs:label "Internal Reporting System"@en, "سیستم گزارش گیری داخلی"@fa ;
@@ -5683,7 +5682,7 @@ bb:LaboratoryInformationSystem
     bb:page "127"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:communicatesWith bb:ComputerizedPhysicianOrderEntrySystem, bb:MedicalDocumentationSystem, bb:OutpatientManagementSystem, bb:PatientDataManagementSystem ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, bb:ComputerBasedApplicationComponent ;
     meta:supports bb:ExecutionOfLabExaminations ;
     meta:typicalFeature bb:FeatureAssignOrderAndBloodSamplesToDevices, bb:FeatureCollectResultsFromDevices, bb:FeatureCommunicateReportToOrderingUnit, bb:FeatureDisplayEarlierLabResultsOfAPatient, bb:FeaturePrepareReport, bb:FeatureProvideMeansForPreparingStatistics, bb:FeatureReceiveBloodSamples, bb:FeatureReceiveOrders, bb:FeatureValidateResults ;
     a owl:Class ;
@@ -6134,7 +6133,7 @@ bb:MedicalAndNursingKnowledge
 bb:MedicalCarePlanning
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter3-3 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent ;
     meta:supports bb:MedicalAnamnesis ;
     a owl:Class ;
     rdfs:label "Medical Care Planning"@en, "برنامه ریزی مراقبت های پزشکی"@fa ;
@@ -6174,7 +6173,7 @@ bb:MedicalDocumentationSystem
     bb:page "113"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:communicatesWith bb:DataWarehouseSystem ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, bb:ComputerBasedApplicationComponent ;
     meta:supports bb:DecisionMakingPlanningAndOrganizationOfPatientTreatment, bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures, bb:HumanResourceManagement, bb:MedicalAdmission, bb:PatientDischargeAndTransferToOtherInstitutions ;
     meta:typicalFeature bb:FeaturePrintReports, bb:FeatureProvideContextRelatedMedicalKnowledge, bb:FeatureProvideFormsForDocumentingDiagnosis, bb:FeatureProvideFormsForDocumentingMedicalAnamnesis, bb:FeatureProvideFormsForDocumentingPatientsInformedConsent, bb:FeatureProvideFormsForDocumentingPlannedTasks, bb:FeatureProvideFormsForEnteringClinicalData, bb:FeatureProvideFormsForPatientsInformedConsent, bb:FeatureProvideFormsForPreparingClinicalReports, bb:FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport, bb:FeatureProvideGuidelinesForCarePlanning, bb:FeatureProvideGuidelinesForTreatmentPlanning, bb:FeatureScanningDocumentsFromReferringPhysicianAndOtherSources ;
     a owl:Class ;
@@ -6478,7 +6477,7 @@ bb:Mpeg
 bb:MriScanner
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-5 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, bb:ComputerBasedApplicationComponent ;
     meta:supports bb:ExecutionOfRadiologicalProcedures ;
     a owl:Class ;
     rdfs:label "MRI Scanner"@en, "اسکنر MRI"@fa ;
@@ -6754,7 +6753,7 @@ bb:NursingManagementAndDocumentationSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "115"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:CodingOfDiagnosesAndProcedures, bb:ExecutionOfNursingProcedures, bb:HumanResourceManagement, bb:MedicalAndNursingCarePlanning, bb:NursingAdmission, bb:NursingCarePlanning, bb:NursingDischargeAndNursingReportWriting ;
     meta:typicalFeature bb:FeatureAssignDoctorsToPatientsOrRooms, bb:FeatureCommunicateDischargeInformation, bb:FeatureProvideFormsForDocumentingDiagnosisAndProblems, bb:FeatureProvideFormsForDocumentingNursingAims, bb:FeatureProvideFormsForDocumentingNursingTasks, bb:FeatureProvideFormsForDocumentingPerformedTasks, bb:FeatureProvideFormsForDocumentingTheNursingHistory, bb:FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks, bb:FeatureProvideFormsForWritingTheNursingDischargeReport, bb:FeatureProvideMeansForFinalizingNursingDocumentation, bb:FeatureSupportCreationOfANursingCarePlan ;
     a owl:Class ;
@@ -6905,7 +6904,7 @@ bb:OperationManagementSystem
     bb:page "313"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:communicatesWith bb:MedicalDocumentationSystem ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:CodingOfDiagnosesAndProcedures, bb:DecisionMakingAndPatientInformation, bb:ExecutionOfAnOperation, bb:ExecutionOfDiagnosticAndTherapeuticProcedures, bb:MedicalAdmission, bb:PatientDischargeAndTransferToOtherInstitutions, bb:SchedulingAndResourceAllocation, bb:SupplyAndDisposalManagement, bb:WorkOrganizationAndTimeManagement ;
     meta:typicalFeature bb:FeatureDisplayVitalParametersFromMonitoringDevices, bb:FeatureProvideFormsForDocumentingDiagnosis, bb:FeatureProvideFormsForDocumentingMedicalAnamnesis, bb:FeatureProvideFormsForDocumentingProceduresAndOutcomes, bb:FeatureProvideFormsForPreparingOperationReports, bb:FeatureProvideMeansForCheckInOfPatient, bb:FeatureProvideMeansForCreatingOperationPlans, bb:FeatureProvideMeansForManagingAppointments, bb:FeatureProvideMeansForManagingMedicalDevices, bb:FeatureProvideMeansForManagingRooms, bb:FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry, bb:FeatureProvideMeansForOrderingPatientTransferToWard, bb:FeatureProvideMeansForPreparingWorkSchedules ;
     a owl:Class ;
@@ -7085,10 +7084,8 @@ bb:OrderingOfDrugs
     rdfs:subClassOf bb:OrderEntry .
 
 bb:Organization
-    rdf:type meta:EntityType ;
-    a owl:Class ;
-    rdfs:label "Organization"@en, "سازمان"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    a meta:Role, owl:Class ;
+    rdfs:label "Organization"@en, "سازمان"@fa .
 
 bb:OrganizationOfHealthCare
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -7231,7 +7228,7 @@ bb:OutpatientManagementSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "117"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:AdministrativeDischargeAndBilling, bb:DecisionMakingPlanningAndOrganizationOfPatientTreatment, bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures, bb:HumanResourceManagement, bb:MedicalAdmission, bb:PatientDischargeAndTransferToOtherInstitutions, bb:SchedulingAndResourceAllocation ;
     meta:typicalFeature bb:FeaturePrintForms, bb:FeaturePrintReports, bb:FeatureProvideFormsForClinicalReports, bb:FeatureProvideFormsForDocumentingDiagnosis, bb:FeatureProvideFormsForDocumentingMedicalAnamnesis, bb:FeatureProvideFormsForEnteringClinicalData, bb:FeatureProvideFormsForWritingTheDischargeReport, bb:FeatureProvideMeansForCheckInOfPatient, bb:FeatureProvideMeansForFinalizingDocumentation, bb:FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment, bb:FeatureProvideMeansForPreparingWardRelatedStatistics, bb:FeatureProvideReminderForFulfillingOfLegalReportingRequirements ;
     a owl:Class ;
@@ -7372,7 +7369,7 @@ bb:PatientAdministrationSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "314"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:AdministrativeAdmission, bb:AdministrativeDischargeAndBilling, bb:CodingOfDiagnosesAndProcedures, bb:PatientIdentificationAndCheckingForRecurrent, bb:SchedulingAndResourceAllocation, bb:VisitorAndInformationService ;
     meta:typicalFeature bb:FeatureAdministrateTheMasterPatientIndex, bb:FeatureAdmitPatientsToTheWard, bb:FeatureAssignPatientsToRoomsAndBeds, bb:FeatureMergePatientInformationFromTwoRecords, bb:FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation, bb:FeatureProvideMeansForInitiationOfFinalBilling, bb:FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution, bb:FeatureProvideMeansForOrderingTransportServices, bb:FeatureProvideMeansForPreparingHospitalWideStatistics, bb:FeatureProvideMeansForSchedulingPatientsAppointments, bb:FeatureProvideRelativesWithInformationOnTheLocationOfAPatient, bb:FeatureProvideReminderForFulfillingOfLegalReportingRequirements, bb:FeatureRetrievePatient ;
     a owl:Class ;
@@ -7450,7 +7447,7 @@ bb:PatientChartSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "135"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent ;
     meta:supports bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures, bb:MonitoringOfVitalSigns, bb:OrderEntry ;
     a owl:Class ;
     rdfs:label "(Patienten-)Kurve"@de, "Patient Chart System"@en, "سیستم نمودار بیمار"@fa ;
@@ -7462,7 +7459,7 @@ bb:PatientDataManagementSystem
     bb:page "121"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:Saps, bb:Tiss ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:CodingOfDiagnosesAndProcedures, bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures, bb:HumanResourceManagement, bb:MedicalAdmission, bb:MedicalAndNursingCarePlanning, bb:PatientDischargeAndTransferToOtherInstitutions, bb:SchedulingAndResourceAllocation, bb:SupplyAndDisposalManagement ;
     meta:typicalFeature bb:FeatureAssignStaffToPatientsOrRooms, bb:FeatureCommunicateDischargeInformation, bb:FeatureCreateWorklistForAGroupOfPatients, bb:FeatureDisplayVitalParametersFromMonitoringDevices, bb:FeatureDisplayWarningMessages, bb:FeatureOfferDecisionSupportForCarePlanning, bb:FeatureOrganizePatientTransport, bb:FeaturePrintForms, bb:FeatureProvideFormsForDocumentingClinicalProcedures, bb:FeatureProvideFormsForDocumentingDiagnosis, bb:FeatureProvideFormsForDocumentingMedicalAnamnesis, bb:FeatureProvideFormsForDocumentingMedications, bb:FeatureProvideFormsForWritingATransferLetterOrDischargeReport, bb:FeatureProvideMeansForCheckInOfPatient, bb:FeatureProvideMeansForCreatingStatistics, bb:FeatureProvideMeansForFinalizingDocumentation, bb:FeatureProvideMeansForManagingMedicalDevices, bb:FeatureProvideMeansForOrderingConsumables, bb:FeatureProvideMeansForOrderingDrugs, bb:FeatureProvideMeansForOrderingLaundry, bb:FeatureProvideMeansForOrderingPatientTransferToOtherUnits, bb:FeatureProvideMeansForPreparingACarePlan ;
     a owl:Class ;
@@ -7802,7 +7799,7 @@ bb:PictureArchivingAndCommunicationSystem
     bb:page "126"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:communicatesWith bb:ComputerizedPhysicianOrderEntrySystem, bb:MedicalDocumentationSystem, bb:PatientDataManagementSystem, bb:RadiologyInformationSystem ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:ExecutionOfRadiologicalProcedures ;
     meta:typicalFeature bb:FeatureArchivePictures, bb:FeatureCommunicatePictures, bb:FeatureDisplayPictures, bb:FeatureModifyPresentationOfPictures, bb:FeatureSearchForOldPictures ;
     a owl:Class ;
@@ -8474,7 +8471,7 @@ bb:RadiologyInformationSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "125"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:AppointmentScheduling, bb:CodingOfDiagnosesAndProcedures, bb:ExecutionOfRadiologicalProcedures, bb:ManagementOfMedicalDevices, bb:MedicalAdmission, bb:Radiotherapy, bb:WorkOrganizationAndTimeManagement ;
     meta:typicalFeature bb:FeatureAssignOrdersToModalities, bb:FeatureAssignPatientsToModalities, bb:FeatureCreationOfRadiologyReports, bb:FeatureManageModalities, bb:FeaturePreparingStatistics, bb:FeatureProvideFormsForWritingAReport, bb:FeatureProvideMeansForCheckInOfPatient, bb:FeatureProvisionOfPatientDataAndExaminationParameters, bb:FeatureReceiveOrders, bb:FeatureRegisteringPatients, bb:FeatureWorkflowManagement ;
     a owl:Class ;
@@ -8615,7 +8612,7 @@ bb:RemoteFunctionCall
     bb:page "320"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:Middleware ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent ;
     meta:supports bb:FunctionalIntegration, bb:SynchronousCommunication ;
     a owl:Class ;
     rdfs:label "Remote Function Call"@en, "تماس از راه دور با عمل کرد"@fa ;
@@ -8697,8 +8694,7 @@ bb:ResearchDocument
 
 bb:ResearchInstitution
     meta:chapter bb:chapter2-3 ;
-    rdf:type meta:EntityType ;
-    a owl:Class ;
+    a meta:Role, owl:Class ;
     rdfs:label "Research Institution"@en, "سازمان پژوهشی"@fa ;
     rdfs:subClassOf bb:Organization .
 
@@ -8743,7 +8739,7 @@ bb:RiskManagement
     rdfs:subClassOf meta:Function .
 
 bb:RobotSystem
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent ;
     meta:supports bb:AdministrationAndAllocationOfPatientRecords ;
     a owl:Class ;
     rdfs:label "Robot System"@en, "سیستم روباتی"@fa ;
@@ -9801,7 +9797,7 @@ bb:TeleradiologySystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "134"^^xsd:positiveInteger, "231"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-4 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:Teleradiology ;
     a owl:Class ;
     rdfs:label "Teleradiology System"@en, "سیستم تله رادیولوژی"@fa ;
@@ -10020,7 +10016,7 @@ bb:TransinstitutionalHealthInformationSystem
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:HospitalInformationSystem ;
     meta:isAssociatedWith bb:FunctionalRedundancyRate ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent ;
     meta:supports bb:HealthCareNetwork, bb:Telemicroscopy, bb:Teleradiology, bb:TransinstitutionalHealthCareFunction ;
     a owl:Class ;
     rdfs:label "Transinstitutional Health Information System"@en, "Transinstitutionelles Informationssystem des Gesundheitswesens"@de, "سیستم اطالاعاتی درمانی میان سازمانی"@fa ;
@@ -10290,7 +10286,7 @@ bb:VendorStyle
     rdfs:subClassOf bb:ArchitecturalStyleOfTheLogicalToolLayer .
 
 bb:VideoConferencingSystem
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:supports bb:Teleconsultation ;
     a owl:Class ;
     rdfs:label "Video Conferencing System"@en, "سیستم کنفرانس ویدیویی"@fa ;
@@ -10390,7 +10386,7 @@ bb:WorkSampling
     rdfs:subClassOf bb:TimeMeasurement .
 
 bb:WorkingList
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent ;
     meta:supports bb:WorkOrganizationAndTimeManagement ;
     a owl:Class ;
     rdfs:label "Working List"@en, "لیست کار"@fa ;

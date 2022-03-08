@@ -89,7 +89,7 @@ it4it:Build
     owl:equivalentClass it4it:RequirementsToDeploy .
 
 it4it:BuildComponent
-    a meta:EntityType, owl:Class ;
+    a meta:EntityType, meta:ApplicationComponent, owl:Class ;
     it4it:purpose """* Receive the Source data object from the Source Control functional component and manage the creation, implementation, automation, and security and storage of all Builds.
   * Create Build from the Source data object for a particular service component.
   * Automate the Build process to support the Build schedule and build frequency requirements in order to support daily Build and smoke test plans or continuous integration plans.
@@ -115,7 +115,7 @@ it4it:BuildPackage
     rdfs:subClassOf it4it:DataObject .
 
 it4it:BuildPackageComponent
-    a meta:EntityType, owl:Class ;
+    a meta:EntityType, meta:ApplicationComponent, owl:Class ;
     it4it:purpose """* Creation of a deployable package made up of one or many Builds.
   * Manage the Build Packages and relationships to the Service Release Blueprints.""" ;
     meta:supports it4it:CreationOfBuildPackages, it4it:ManagementOfBuildPackages ;
@@ -395,7 +395,7 @@ it4it:EndDate
     rdfs:label "End Date"@en .
 
 it4it:EnterpriseArchitectureComponent
-    a meta:EntityType, owl:Class;
+    a meta:EntityType, meta:ApplicationComponent, owl:Class;
     it4it:conceptualServiceBlueprint it4it:ServicePortfolioComponent ;
     it4it:keyDataObject it4it:ServiceArchitecture ;
     it4it:keyFunctionalComponent it4it:StrategyToPortfolio ;
@@ -1149,7 +1149,7 @@ The IT Initiative data object shall maintain the following relationships:
     skos:definition "Details the scope of the work to be performed and created from and associated with the Scope Agreement."^^xsd:string .
 
 it4it:ITInvestmentPortfolioComponent
-    a meta:EntityType, owl:Class ;
+    a meta:EntityType, meta:ApplicationComponent, owl:Class ;
     it4it:auxiliaryFunctionalComponent it4it:StrategyToPortfolio ;
     it4it:mainFunctions """The IT Investment Portfolio functional component:
   * Shall be the system of records for all IT investments.

@@ -351,3 +351,8 @@
     rdfs:label "master"@en ;
     rdfs:range :ApplicationComponent.
 
+:typicalFeature
+	a owl:ObjectProperty ;
+	rdfs:domain :ComputerBasedApplicationComponent ;
+	rdfs:range :Feature ;
+	rdfs:label "typical feature"@en .
