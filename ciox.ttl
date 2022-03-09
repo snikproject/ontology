@@ -115,10 +115,9 @@ ciox:Bereich3FinanzenPlanungUndControlling
     rdfs:label ""@de .
 
 ciox:BereichFinanzenPlanungUndControlling
-    meta:functionComponent ciox:ITSachkontenplanung ;
-    a meta:Function, owl:Class ;
-    rdfs:label "Bereich Finanzen, Planung und Controlling"@de ;
-    rdfs:subClassOf ciox:Krankenhausverwaltung .
+    meta:isInvolvedIn ciox:ITSachkontenplanung ;
+    a meta:Role, owl:Class ;
+    rdfs:label "Bereich Finanzen, Planung und Controlling"@de .
 
 ciox:BereichInformationsmanagement
     a meta:Function, owl:Class;
@@ -139,7 +138,6 @@ ciox:Bereichsassistenz
     meta:isResponsibleForEntityType ciox:Projektbudget ;
     meta:isResponsibleForFunction ciox:Bestellungsbearbeitung, ciox:ChangeRequestErfassung, ciox:Rechnungspruefung ;
     a meta:Role, owl:Class;
-    meta:isAssociatedWith ciox:Projektbudget ;
     rdfs:label "Bereichsassistenz"@de, "Department Asisstant"@en ;
     rdfs:subClassOf ciox:InformationManagementStaff .
 
@@ -396,9 +394,6 @@ ciox:Fremdmittel
     a meta:EntityType, owl:Class ;
     rdfs:label "Fremdmittel"@de ;
     rdfs:subClassOf ciox:Kostenart .
-
-ciox:GenehmigungItStrategieStakeholder
-    skos:broadMatch bb:HisStakeholder .
 
 ciox:GeplanteAktivierbareDienstleistungsmittel
     meta:isAssociatedWith ciox:AktivierbareDienstleistungsmittel ;
@@ -1476,13 +1471,6 @@ ciox:blank223755
     owl:object bb:ChiefInformationOfficer ;
     owl:predicate skos:closeMatch ;
     owl:subject ciox:ChiefInformationOfficer .
-
-ciox:blank223756
-    dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
-    a owl:Axiom ;
-    owl:object bb:HisStakeholder ;
-    owl:predicate skos:broadMatch ;
-    owl:subject ciox:GenehmigungItStrategieStakeholder .
 
 ciox:blank223757
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;

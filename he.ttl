@@ -6824,7 +6824,7 @@ he:Innovationsmanagement
     meta:chapter he:TECHM ;
     meta:consolidated false ;
     meta:functionComponent he:BusinessItAlignment, he:Innovation ;
-    meta:isAssociatedWith he:Innovationsfaehigkeit ;
+    meta:updates he:Innovationsfaehigkeit ;
     a meta:Function ;
     a owl:Class ;
     rdfs:label "Innovationsmanagement"@de ;
@@ -7271,7 +7271,7 @@ he:ItController
     a owl:Class ;
     rdfs:label "IT Controller"@en, "IT-Controller"@de ;
     rdfs:subClassOf he:Stelle ;
-    skos:definition "IT -Controller sind Aufgabenträger für die Aufgabe dem Linienmanagement und dem IT-Management die Informationen sowie die Grundsätze Methoden und Instrumente zur Verfügung zu stellen die für die Planung Überwachung und Steuerung der IT erforderlich sind."@de .
+    skos:definition "IT-Controller sind Aufgabenträger für die Aufgabe, dem Linienmanagement und dem IT-Management die Informationen sowie die Grundsätze Methoden und Instrumente zur Verfügung zu stellen die für die Planung Überwachung und Steuerung der IT erforderlich sind."@de .
 
 he:ItControllingZiel
     he:page "104"^^xsd:positiveInteger ;
@@ -7487,8 +7487,7 @@ he:ItManager
     rdfs:label "IT-Manager"@de ;
     rdfs:subClassOf he:Stelle ;
     skos:altLabel "IT Manager"@de, "IT-Leiter"@de, "IT-Management"@de, "RZ-Leiter"@de ;
-    skos:definition """Technologiemanagement ist primär Rolle und nicht Institution. Aufgabenträger ist in erster
-Linie das Linienmanagement das - gemeinsam mit dem IT-Management - neben anderen
+    skos:definition """Technologiemanagement ist primär Rolle und nicht Institution. Aufgabenträger ist in erster Linie das Linienmanagement das - gemeinsam mit dem IT-Management - neben anderen
 Rollen die des Technologiemanagers übernimmt. Als Unterstützungsfunktion im Sinne eines
 beratenden Requirements Management muss Technologiemanagement in besonderen Institutionen
 implementiert sein. Dafür bietet sich die IT-Abteilung an (vgl. Lerneinheit STRUK);
@@ -8905,9 +8904,9 @@ he:Limitierungskriterium
 
 he:Linienmanagement
     meta:consolidated false ;
-    meta:isAssociatedWith he:Technologiemanager ;
-    a meta:Function ;
-    meta:updates he:Technologiebedarf ;
+    meta:roleComponent he:Technologiemanager ;
+    a meta:Role;
+    meta:isAssociatedWith he:Technologiebedarf ;
     a owl:Class ;
     rdfs:label "Linienmanagement"@de .
 

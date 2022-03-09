@@ -3826,14 +3826,7 @@ ob:PartiallyStandardizedObservation
     rdfs:subClassOf ob:Observation ;
     skos:definition "Teilstandardisiert bedeutet: Das Vorge-hen der Beobachtung sowie zu betrachtende Aspekte sind im We-sentlichen vorgegeben, der Beobachtungsbogen enthält aber auch Raum für die Dokumentation ungeplanter Beobachtungen."@de .
 
-ob:PatientIdentification
-    <http://schema.org/error> "Annotation Fehlt, Konzept nur als Objekt vorkommt"^^xsd:string ;
-    a meta:EntityType, owl:Class ;
-    rdfs:label "Patientenidentifizierung"@de, "patient identification"@en ;
-    rdfs:subClassOf meta:EntityType .
-
 ob:PatientIdentificationAndCheckingForRecurrent
-    meta:isAssociatedWith ob:PatientIdentification ;
     a meta:Function, owl:Class ;
     rdfs:label "Patient Identification and Checking for Recurrent"@en ;
     rdfs:subClassOf meta:Function .
@@ -4362,8 +4355,7 @@ ob:ProjectIdea
 
 ob:ProjectInitiation
     meta:chapter ob:Chapter2-4 ;
-    meta:functionComponent ob:DefinitionOfProjectGoals, ob:ExecutionOfAKickOffMeeting, ob:FormulationOfAProjectIdea, ob:PlacingAProjectOrder ;
-    meta:isAssociatedWith ob:DefiningProjectOrganization ;
+    meta:functionComponent ob:DefinitionOfProjectGoals, ob:ExecutionOfAKickOffMeeting, ob:FormulationOfAProjectIdea, ob:PlacingAProjectOrder, ob:DefiningProjectOrganization ;
     a meta:Function, owl:Class;
     meta:updates ob:KickOffMeeting, ob:ProjectIdea, ob:ProjectOrder, ob:ProjectResource, ob:ProjectTeam, ob:ResultOfStakeholderAnalysis, ob:TargetDefinition ;
     meta:uses ob:StakeholderAnalysis ;
@@ -12897,18 +12889,6 @@ ob:blank208999
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource ob:PartiallyStandardizedObservation ;
     owl:annotatedTarget ob:Observation .
-
-ob:blank209001
-    ob:tripelPage "manuell hinzugefügt"@de ;
-    a owl:Axiom ;
-    owl:annotatedProperty rdfs:subClassOf ;
-    owl:annotatedSource ob:PatientIdentificationAndCheckingForRecurrent ;
-    owl:annotatedTarget ob:blank209002 .
-
-ob:blank209002
-    a owl:Restriction ;
-    owl:onProperty meta:isDecomposedIn ;
-    owl:someValuesFrom ob:PatientIdentification .
 
 ob:blank209004
     ob:tripelPage "330"^^xsd:positiveInteger ;
