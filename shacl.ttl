@@ -144,16 +144,18 @@
 :ApplicationComponentShape a sh:NodeShape;
 	sh:targetClass :ApplicationComponent;
 	sh:property :labelShape,
-		[sh:path :entityTypeComponent],
-		[sh:path :isBasedOn],
 		[sh:path :communicatesWith],
-		[sh:path :supports];
-	sh:closed true;
-	sh:ignoredProperties :ignoredProperties, :topProperties.
+		[sh:path :supports].
 
 :ApplicationComponentDomainShape a sh:NodeShape;
 	sh:targetSubjectsOf
 		:communicatesWith,
 		:supports;
 	sh:class :ApplicationComponent.
+
+:ComputerBasedApplicationComponentDomainShape a sh:NodeShape;
+	sh:targetSubjectsOf
+		:softwareProduct,
+		:typicalFeature;
+	sh:class :ComputerBasedApplicationComponent.
 
