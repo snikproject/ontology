@@ -3,6 +3,7 @@
 # SNIK Ontology
 
 [![build](https://github.com/snikproject/ontology/actions/workflows/build.yml/badge.svg)](https://github.com/snikproject/ontology/actions/workflows/build.yml)
+[![SHACL status](https://github.com/snikproject/ontology/actions/workflows/shacl.yml/badge.svg)](https://github.com/snikproject/ontology/actions/workflows/shacl.yml)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 SNIK is an ontology of information management in hospitals that consists of a meta model and several subontologies.
