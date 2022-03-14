@@ -137,7 +137,7 @@
     bb:page "302"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent <bb/3LGM2EntityType>, <bb/3LGM2InformationProcess>, <bb/3LGM2OrganizationalUnit> ;
-    meta:functionComponent <bb/3LGM2EnterpriseFunction> ;
+    meta:isAssociatedWith <bb/3LGM2EnterpriseFunction> ; # SHACL fix from meta:functionComponent
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "3LGM² Domain Layer"@en, "Fachliche Ebene"@de, "لایه دامنه 3LGM²"@fa ;
@@ -476,7 +476,7 @@ bb:AccessIntegration
     a owl:Class ;
     rdfs:label "Access Integration"@en, "Zugangsintegration"@de, "یکپارچه سازی دسترسی"@fa ;
     rdfs:subClassOf bb:Integration, bb:QualityOfComputerBasedApplicationComponentsAndTheirIntegration ;
-    skos:definition "Access integration is guaranteed when the application components needed for the           completion of a certain task can be used where they are needed."@en, "Condition of an information system where the application components needed for the completion of a certain task can be used where they are needed."@en .
+    skos:definition "Access integration is guaranteed when the application components needed for the completion of a certain task can be used where they are needed."@en, "Condition of an information system where the application components needed for the completion of a certain task can be used where they are needed."@en .
 
 bb:Accuracy
     bb:page "202"^^xsd:positiveInteger ;
@@ -1749,7 +1749,7 @@ bb:CommunicationServer
     bb:page "157"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus, bb:chapter6-5 ;
     rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
-    meta:supports bb:AsynchronousCommunication ;
+    meta:isAssociatedWith bb:AsynchronousCommunication ; # SHACL fix from meta:supports
     meta:typicalFeature bb:FeatureMessageQueuing, bb:FeatureMulticasting ;
     a owl:Class ;
     rdfs:label "Communication Server"@en, "Kommunikationsserver"@de, "سرور ارتباطی"@fa ;
@@ -1983,14 +1983,14 @@ bb:ContextualIntegration
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "148"^^xsd:positiveInteger, "299"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus, bb:chapter6-5 ;
-    meta:increases bb:LeannessOfInformationProcessingTools ;
+    meta:isAssociatedWith bb:LeannessOfInformationProcessingTools ; # SHACL fix from meta:increases
     meta:isAssociatedWith bb:SingleSignOn ;
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "Contextual Integration"@en, "Kontextintegration"@de, "ادغام متنی"@fa ;
     rdfs:subClassOf bb:Integration ;
     skos:altLabel "Visual Integration"@en ;
-    skos:definition "Condition of an information system in which the context (e.g., patient identification) is preserved when the user switches between application components. The general aim is that a task that has already been executed once for a certain purpose does not need to be repeated again to achieve the same purpose. This type of integration is also referred to as visual integration."@en, "Contextual integration means that the context is preserved when the application component           is changed. Or, more generally, the aim is that a task that has already been executed once for a certain purpose,           such as login to a component, or selecting a patient, needs not be repeated again in the information system,           in order to achieve the same purpose."@en .
+    skos:definition "Condition of an information system in which the context (e.g., patient identification) is preserved when the user switches between application components. The general aim is that a task that has already been executed once for a certain purpose does not need to be repeated again to achieve the same purpose. This type of integration is also referred to as visual integration."@en, "Contextual integration means that the context is preserved when the application component is changed. Or, more generally, the aim is that a task that has already been executed once for a certain purpose, such as login to a component, or selecting a patient, needs not be repeated again in the information system, in order to achieve the same purpose."@en .
 
 bb:ContinualServiceImprovement
     rdf:type meta:Function ;
@@ -2213,8 +2213,8 @@ bb:DataCollectionEffort
 bb:DataIntegration
     bb:page "146"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus, bb:chapter6-5 ;
-    meta:decreases bb:DataCollectionEffort, bb:DoubleExamination ;
-    meta:increases bb:Consistency, bb:QualityOfData ;
+    meta:isAssociatedWith bb:DataCollectionEffort, bb:DoubleExamination ; # SHACL fix from meta:decreases
+    meta:isAssociatedWith bb:Consistency, bb:QualityOfData ; # SHACL fix from meta:increases
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "Data Integration"@en, "Datenintegration"@de, "ادغام داده ها"@fa, "یکپارچگی داده ها"@fa ;
@@ -2544,7 +2544,7 @@ bb:DicomStandard
     bb:page "152"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:DicomFileFormat, bb:DicomMessageFormat, bb:DicomNetworkProtocol, bb:DicomService ;
-    meta:increases bb:DataIntegration ;
+    meta:isAssociatedWith bb:DataIntegration ; # SHACL fix from meta:increases
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "DICOM Standard"@en, "استاندارد DICOM"@fa ;
@@ -2761,7 +2761,7 @@ bb:Edifact
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "154"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-5 ;
-    meta:increases bb:DataIntegration ;
+    meta:isAssociatedWith bb:DataIntegration ; # SHACL fix from meta:increases
     meta:isAssociatedWith bb:TransinstitutionalHealthInformationSystem ;
     rdf:type meta:EntityType ;
     a owl:Class ;
@@ -3873,7 +3873,7 @@ bb:FederatedDatabaseSystem
     bb:page "155"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:DatabaseSystem, bb:FederatedDatabaseSchema ;
-    meta:increases bb:DataIntegration ;
+    meta:isAssociatedWith bb:DataIntegration ; # SHACL fix from meta:increases
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "Federated Database System"@en, "Föderiertes Datenbanksystem"@de, "سیستم پایگاه داده متعهد"@fa ;
@@ -4039,7 +4039,7 @@ bb:FunctionalIntegration
     a owl:Class ;
     rdfs:label "Functional Integration"@en, "Funktionsintegration"@de, "یک پارچگی کار کردی"@fa ;
     rdfs:subClassOf bb:Integration, bb:QualityOfComputerBasedApplicationComponentsAndTheirIntegration ;
-    skos:definition "Condition of an information system where features needed in several application components are implemented only once and can be invoked by other application components."@en, "Functional integration means that features needed in several application components are           implemented only once and can be invoked by other application components."@en .
+    skos:definition "Condition of an information system where features needed in several application components are implemented only once and can be invoked by other application components."@en, "Functional integration means that features needed in several application components are implemented only once and can be invoked by other application components."@en .
 
 bb:FunctionalLeanness
     bb:page "206"^^xsd:positiveInteger ;
@@ -4105,7 +4105,7 @@ bb:Functionality
 
 bb:FundingInstitution
     meta:isAssociatedWith bb:LongTermHISPlanning ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Funding Institution"@en, "مؤسسه مالی"@fa ;
     rdfs:subClassOf bb:HisStakeholder, bb:Organization .
@@ -4178,7 +4178,7 @@ bb:HISStakeholder
 bb:HL7CDA
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-5 ;
-    meta:increases bb:DataIntegration, bb:SemanticIntegration ;
+    meta:isAssociatedWith bb:DataIntegration, bb:SemanticIntegration ; # SHACL fix from meta:increases
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "HL7 CDA"@en, "HL7 CDA"@fa ;
@@ -4338,7 +4338,7 @@ bb:HealthCareNetwork
     a owl:Class ;
     rdfs:label "Gesundheitsversorgungsnetzwerk"@de, "Health Care Network"@en, "شبکه بهداشت و درمان"@fa ;
     rdfs:subClassOf meta:Role ;
-    skos:definition "A group of two or more legally separated health care institutions that have temporarily and voluntarily joined together to achieve a common purpose.           The information system of a health care network is called a transinstitutional health information system."@en .
+    skos:definition "A group of two or more legally separated health care institutions that have temporarily and voluntarily joined together to achieve a common purpose. The information system of a health care network is called a transinstitutional health information system."@en .
 
 bb:HealthCareProfessional
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4554,8 +4554,8 @@ bb:HomogeneousArchitecture
 bb:Hospital
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter4-2 ;
-    meta:entityTypeComponent bb:Patient, bb:Resource ;
-    rdf:type meta:EntityType ;
+    meta:isResponsibleForEntityType bb:Patient, bb:Resource ; # SHACL fix from meta:entityTypeComponent
+    rdf:type meta:Role;
     a owl:Class ;
     rdfs:label "Hospital"@en, "بیمارستان"@fa ;
     rdfs:subClassOf bb:HealthCareInstitution .
@@ -4795,7 +4795,7 @@ bb:ISOIEEE11073FamilyOfStandards
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "153"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-5 ;
-    meta:increases bb:DataIntegration ;
+    meta:isAssociatedWith bb:DataIntegration ; # SHACL fix from meta:increases
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "ISO/IEEE 11073 Family of Standards"@en, "گروه استانداردهای ISO/IEEE 11073"@fa ;
@@ -5012,13 +5012,13 @@ bb:InductiveApproach
     skos:definition "The categories used in a qualitative content analysis are defined while reading and analyzing the text."@en .
 
 bb:Information
-    dc:comment "For example, when a physician determines the diagnosis (facts) of a patient (person), then he or she has information."@en ;
     bb:page "25"^^xsd:positiveInteger ;
     meta:chapter bb:chapter3-3 ;
     meta:isAssociatedWith bb:Data ;
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "Information"@en, "اطلاعات"@fa ;
+    rdfs:comment "For example, when a physician determines the diagnosis (facts) of a patient (person), then he or she has information."@en ;
     rdfs:subClassOf meta:EntityType ;
     skos:definition "Information is a specific determination about entities such as facts, events, things, persons, processes, ideas, or concepts."@en .
 
@@ -5299,12 +5299,13 @@ bb:IntegratedCare
 
 bb:IntegratedCareNetwork
     bb:conceptDomain "health care specific"^^xsd:string ;
-    meta:entityTypeComponent bb:GeneralPractice, bb:HomeOfThePatient, bb:NursingCenter, bb:RehabilitationCenter ;
-    rdf:type meta:EntityType, meta:ApplicationComponent, bb:ComputerBasedApplicationComponent ;
-    meta:supports bb:IntegratedCare ;
+    meta:roleComponent bb:GeneralPractice, bb:NursingCenter, bb:RehabilitationCenter ;
+	meta:isAssociatedWith bb:HomeOfThePatient ; # SHACL fix from meta:roleComponent
+    rdf:type meta:Role ;
+    meta:isResponsibleForFunction bb:IntegratedCare ; # SHACL fix from meta:supports
     a owl:Class ;
     rdfs:label "Integrated Care Network"@en, "شبکه مراقبت جامع"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:subClassOf meta:Role .
 
 bb:IntegratedHIS
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -5407,7 +5408,7 @@ bb:InternalReportingSystem
 bb:InternationalDICOMCommittee
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:isResponsibleForEntityType bb:DicomStandard ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "International DICOM Committee"@en, "کمیته بین المللی DICOM"@fa ;
     rdfs:subClassOf bb:Organization .
@@ -5531,6 +5532,7 @@ bb:ItInvestmentPlanning
 
 bb:ItService
     rdfs:label "IT Service"@en ;
+	a meta:EntityType ;
     rdfs:subClassOf meta:EntityType ;
     skos:definition "Built on top of strategic and tactical information management, operational information management thus offers users comprehensive services. These services go beyond simply delivering hardware and software. Rather, they are designed to help users use these components in a way that is helpful for their professional work. Such services are also known as IT services. Thus, the information management department of a health care facility is an IT service provider that delivers IT services to its customers, the users of the facility's information system. The management activities that serve to provide quality IT services are grouped under the term IT service management (ITSM). So, IT service management has the task to design, provide, deliver and improve such customer-centered services. The IT Infrastructure Library (ITIL) is the de-facto standard framework for IT service management. ITIL was developed for the British Government in order to define best practices for all governmental computing centers."@en .
 
@@ -5589,7 +5591,7 @@ bb:IuKDG
 bb:JointCommission
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:isResponsibleForEntityType bb:JointCommissionsCertificationProgram ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role;
     a owl:Class ;
     rdfs:label "Joint Commission"@en, "کمیسیون مشترک"@fa ;
     rdfs:subClassOf bb:Organization .
@@ -6551,7 +6553,7 @@ bb:NetworkTopology
 bb:NeutralIhrbActor
     bb:page 199 ;
     meta:chapter bb:chapter7-7 ;
-    meta:isResponsibleForEntityType bb:IndependentHealthRecordBank ;
+    meta:isResponsibleForRole bb:IndependentHealthRecordBank ;
     meta:isResponsibleForFunction bb:ManagementOfEhr ;
     rdf:type meta:Role ;
     a owl:Class ;
@@ -6698,7 +6700,7 @@ bb:NursingCarePlanning
 
 bb:NursingCenter
     bb:conceptDomain "health care specific"^^xsd:string ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Nursing Center"@en, "مرکز پرستاری"@fa ;
     rdfs:subClassOf bb:HealthCareInstitution .
@@ -7756,7 +7758,7 @@ bb:PhysicalDataProcessingSystem
     rdfs:label "Physical Data Processing System"@en, "Physisches Werkzeug"@de, "سیستم پردازش داده های فیزیکی"@fa ;
     rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Physical Tool"@en ;
-    skos:definition "A physically touchable object or a simulated physically touchable object being able to receive, store, forward, or purposefully manipulate data.           We denote receiving, storing, forwarding, and purposeful manipulation of data as data processing. This data processing is controlled by rules.           Physical data processing systems are used to implement computer-based as well as paper-based application components.           They can be human actors (such as the person delivering mail), non-computer-based physical tools (such as forms for nursing documentation,           paper-based patient records, or telephones), or computer systems. Physical data processing systems are also called physical tools."@en ;
+    skos:definition "A physically touchable object or a simulated physically touchable object being able to receive, store, forward, or purposefully manipulate data. We denote receiving, storing, forwarding, and purposeful manipulation of data as data processing. This data processing is controlled by rules. Physical data processing systems are used to implement computer-based as well as paper-based application components. They can be human actors (such as the person delivering mail), non-computer-based physical tools (such as forms for nursing documentation, paper-based patient records, or telephones), or computer systems. Physical data processing systems are also called physical tools."@en ;
     skos:related <bb/3LGM2PhysicalDataProcessingSystem> .
 
 bb:PhysicalIntegration
@@ -7999,7 +8001,7 @@ bb:ProcessIntegration
     a owl:Class ;
     rdfs:label "Process Integration"@en, "Prozessintegration"@de, "یکپارچگی فرایند"@fa ;
     rdfs:subClassOf bb:Integration ;
-    skos:definition "Process integration is guaranteed when business processes are effectively supported           by a set of interacting application components."@en, "Process integration is guaranteed when business processes are effectively supported by a set of interacting application components. Condition of an information system where business processes are effectively supported by a set of interacting application components."@en .
+    skos:definition "Process integration is guaranteed when business processes are effectively supported by a set of interacting application components."@en, "Process integration is guaranteed when business processes are effectively supported by a set of interacting application components. Condition of an information system where business processes are effectively supported by a set of interacting application components."@en .
 
 bb:Project
     bb:page "79"^^xsd:positiveInteger ;
@@ -8541,7 +8543,7 @@ bb:ReferenceModelForTheDomainLayerOfHospitalInformationSystems
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter5-5 ;
     meta:entityTypeComponent <bb/3LGM2EntityType> ;
-    meta:functionComponent <bb/3LGM2EnterpriseFunction> ;
+    meta:isAssociatedWithComponent <bb/3LGM2EnterpriseFunction> ; # SHACL fix from meta:functionComponent
     meta:isAssociatedWith <bb/3LGM2DomainLayer> ;
     meta:isBasedOn bb:HL7ReferenceInformationModel ;
     rdf:type meta:EntityType ;
@@ -8658,7 +8660,6 @@ bb:ReportingToTheCEO
 
 bb:RepresentativeOfHospitalDepartment
     bb:conceptDomain "health care specific"^^xsd:string ;
-    meta:isInvolvedIn bb:ProjectManagementBoard ;
     rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Representative of Hospital Department"@en, "نماینده بخش بیمارستان"@fa ;
@@ -8896,7 +8897,7 @@ bb:SemanticIntegration
     a owl:Class ;
     rdfs:label "Semantic Integration"@en, "Semantische Integration"@de, "ادغام معنایی"@fa ;
     rdfs:subClassOf bb:Integration, bb:QualityOfComputerBasedApplicationComponentsAndTheirIntegration ;
-    skos:definition "Like data integration, semantic integration is concerned with data. Semantic integration is           guaranteed if different application components use the same system of concepts, i.e. they interpret data the same way."@en, "Semantic integration is guaranteed if different application components use the same system of concepts, that is, they interpret data the same way. Condition of an information system where different application components use the same system of concepts, i.e., they interpret data the same way, or where different systems of concepts used by application components are mapped to each other (e.g., using medical data dictionaries)."@en .
+    skos:definition "Like data integration, semantic integration is concerned with data. Semantic integration is guaranteed if different application components use the same system of concepts, i.e. they interpret data the same way."@en, "Semantic integration is guaranteed if different application components use the same system of concepts, that is, they interpret data the same way. Condition of an information system where different application components use the same system of concepts, i.e., they interpret data the same way, or where different systems of concepts used by application components are mapped to each other (e.g., using medical data dictionaries)."@en .
 
 bb:SemistructuredInterview
     meta:chapter bb:chapter8-6 ;
