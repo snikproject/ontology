@@ -169,7 +169,7 @@
     bb:page "306"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent <bb/3LGM2EntityType> ;
-    meta:functionComponent <bb/3LGM2EnterpriseFunction> ;
+    meta:isAssociatedWith <bb/3LGM2EnterpriseFunction> ; # SHACL fix from meta:functionComponent
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "3LGM² Information Process"@en, "3LGM²-Informationprozess"@de, "فرآیند اطلاعات 3LGM²"@fa ;
@@ -1983,7 +1983,6 @@ bb:ContextualIntegration
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "148"^^xsd:positiveInteger, "299"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus, bb:chapter6-5 ;
-    meta:isAssociatedWith bb:LeannessOfInformationProcessingTools ; # SHACL fix from meta:increases
     meta:isAssociatedWith bb:SingleSignOn ;
     rdf:type meta:EntityType ;
     a owl:Class ;
@@ -2865,6 +2864,20 @@ bb:EncryptionSoftware
     a owl:Class ;
     rdfs:label "Encryption Software"@en, "نرم افزار رمزگذاری"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent .
+
+bb:EnsureContextualIntegration
+    a meta:Function ;
+    meta:increases bb:LeannessOfInformationProcessingTools ;
+	rdfs:label "ensure contextual integration"@en .
+
+bb:EnsureIntegration
+    rdf:type meta:Function;
+	rdfs:label "ensure integration"@en .
+
+bb:EnsureProcessIntegration
+    a bb:Function ;
+    meta:decreases bb:MediaCrack, bb:Transcription ;
+	rdfs:label "ensure process integration"@en .
 
 bb:EnsuringAndSupportingPatientCare
     dc:source <http://subs.emis.de/LNI/Proceedings/Proceedings259/685.pdf> ;
@@ -7996,7 +8009,6 @@ bb:ProcessControlling
 bb:ProcessIntegration
     bb:page "148"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus, bb:chapter6-5 ;
-    meta:decreases bb:MediaCrack, bb:Transcription ;
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "Process Integration"@en, "Prozessintegration"@de, "یکپارچگی فرایند"@fa ;
@@ -8192,7 +8204,7 @@ bb:QualitativeObservation
     bb:page "225"^^xsd:positiveInteger, "226"^^xsd:positiveInteger ;
     meta:chapter bb:chapter8-6 ;
     rdf:type meta:EntityType ;
-    meta:updates bb:ObservationProtocol ;
+    meta:isAssociatedWith bb:ObservationProtocol ; # SHACL fix from meta:updates
     a owl:Class ;
     rdfs:label "Qualitative Observation"@en, "مشاهدات کیفی"@fa ;
     rdfs:subClassOf bb:QualitativeEvaluationMethod ;
@@ -8615,7 +8627,7 @@ bb:RemoteFunctionCall
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:Middleware ;
     rdf:type meta:EntityType, meta:ApplicationComponent ;
-    meta:supports bb:FunctionalIntegration, bb:SynchronousCommunication ;
+    meta:isAssociatedWith bb:FunctionalIntegration, bb:SynchronousCommunication ; # SHACL fix from meta:supports
     a owl:Class ;
     rdfs:label "Remote Function Call"@en, "تماس از راه دور با عمل کرد"@fa ;
     rdfs:subClassOf bb:IntegrationTechnology ;
