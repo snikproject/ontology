@@ -119,7 +119,7 @@
 		[sh:path :entityTypeComponent],
 		[sh:path :isBasedOn];
 	sh:closed true;
-	sh:ignoredProperties :ignoredProperties, :topProperties, (:communicatesWith :supports).
+	sh:ignoredProperties :ignoredProperties, :topProperties, (:communicatesWith :supports :softwareProduct :typicalFeature).
 
 :EntityTypeDomainShape a sh:NodeShape;
 	sh:targetSubjectsOf
