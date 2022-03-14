@@ -457,7 +457,7 @@ bb:ACnStyle
     skos:definition "architectures with a multiplicity of application components"@en .
 
 bb:AccessControl
-    rdf:type meta:EntityType ;
+    rdf:type meta:Function ;
     a owl:Class ;
     rdfs:label "Access Control"@en, "کنترل دسترسی"@fa ;
     rdfs:subClassOf bb:OperationalHISDirecting .
@@ -4120,7 +4120,7 @@ bb:GeneralAdministrationDepartment
 
 bb:GeneralPractice
     bb:conceptDomain "health care specific"^^xsd:string ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role;
     a owl:Class ;
     rdfs:label "General Practice"@en, "عمل عمومی"@fa ;
     rdfs:subClassOf bb:HealthCareInstitution .
@@ -4333,11 +4333,11 @@ bb:HealthCareNetwork
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "36"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    meta:entityTypeComponent bb:GeneralPractice, bb:GovernmentalAuthority, bb:HealthCareInstitution, bb:HealthInsuranceCompany, bb:HomeCareInstitution, bb:Hospital, bb:Pharmacy, bb:RehabilitationCenter ;
-    rdf:type meta:EntityType ;
+    meta:roleComponent bb:GeneralPractice, bb:GovernmentalAuthority, bb:HealthCareInstitution, bb:HealthInsuranceCompany, bb:HomeCareInstitution, bb:Hospital, bb:Pharmacy, bb:RehabilitationCenter ;
+    rdf:type meta:Role;
     a owl:Class ;
     rdfs:label "Gesundheitsversorgungsnetzwerk"@de, "Health Care Network"@en, "شبکه بهداشت و درمان"@fa ;
-    rdfs:subClassOf meta:EntityType ;
+    rdfs:subClassOf meta:Role ;
     skos:definition "A group of two or more legally separated health care institutions that have temporarily and voluntarily joined together to achieve a common purpose.           The information system of a health care network is called a transinstitutional health information system."@en .
 
 bb:HealthCareProfessional
@@ -5083,7 +5083,7 @@ bb:InformationManagementDepartment
     bb:page "251"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:roleComponent bb:InformationManagementStaff ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Abteilung Informationsmanagement"@de, "Department of Information management"@en, "گروه مدیریت اطلاعات"@fa ;
     rdfs:subClassOf bb:HospitalAdministrationDepartment ;
@@ -5321,8 +5321,8 @@ bb:IntegratedHealthCareDeliverySystem
     bb:page "307"^^xsd:positiveInteger ;
     bb:page "36"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    meta:entityTypeComponent bb:HealthCareInstitution ;
-    rdf:type meta:EntityType ;
+    meta:roleComponent bb:HealthCareInstitution ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Integrated Health Care Delivery System"@en, "Integriertes Gesundheitsversorgungssystem"@de, "سیستم یکپارچه تحویل مراقبتهای بهداشتی"@fa ;
     rdfs:subClassOf meta:EntityType ;
@@ -5345,7 +5345,7 @@ bb:IntegrationOfItAndMedicalEngineering
 
 bb:IntegrationPlatform
     meta:chapter bb:chapter6-5 ;
-    meta:increases bb:ContextualIntegration, bb:FunctionalIntegration, bb:PresentationIntegration ;
+    meta:isAssociatedWith bb:ContextualIntegration, bb:FunctionalIntegration, bb:PresentationIntegration ; # used to be increases but that is not valid for entity type
     rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:typicalFeature bb:FeatureServiceCombination, bb:FeatureServiceOrchestration ;
     a owl:Class ;
@@ -6134,7 +6134,7 @@ bb:MedicalCarePlanning
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter3-3 ;
     rdf:type meta:EntityType, meta:ApplicationComponent ;
-    meta:supports bb:MedicalAnamnesis ;
+    meta:entityTypeComponent bb:MedicalAnamnesis ;
     a owl:Class ;
     rdfs:label "Medical Care Planning"@en, "برنامه ریزی مراقبت های پزشکی"@fa ;
     rdfs:subClassOf bb:PatientCare .
@@ -7212,7 +7212,7 @@ bb:Outpatient
 bb:OutpatientCareInstitution
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter4-2 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Outpatient Care Institution"@en, "موسسه مراقبت سرپایی"@fa ;
     rdfs:subClassOf bb:HealthCareInstitution .
@@ -7725,7 +7725,7 @@ bb:PetriNet
 
 bb:Pharmacy
     bb:conceptDomain "health care specific"^^xsd:string ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Pharmacy"@en, "داروخانه"@fa ;
     rdfs:subClassOf bb:HealthCareInstitution .
@@ -8491,7 +8491,7 @@ bb:RadiologyReport
 bb:Radiotherapy
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter2-3 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Function ;
     a owl:Class ;
     rdfs:label "Radiotherapy"@en, "رادیوتراپی"@fa, "پرتو درمانی"@fa ;
     rdfs:subClassOf bb:TherapeuticProcedure .
@@ -8562,7 +8562,7 @@ bb:ReferentialIntegrity
 bb:RehabilitationCenter
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-3 ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:Role;
     a owl:Class ;
     rdfs:label "Rehabilitation Center"@en, "مرکز توانبخشی"@fa ;
     rdfs:subClassOf bb:HealthCareInstitution .
@@ -9341,7 +9341,7 @@ bb:StrategicGoalTanzania
 bb:StrategicHISDirecting
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "237"^^xsd:positiveInteger, "242"^^xsd:positiveInteger, "273"^^xsd:positiveInteger, "281"^^xsd:positiveInteger ;
-    meta:functionComponent bb:AdoptionOfProjectResult, bb:MonitoringTheProjectProgress, bb:ProjectInitiation, bb:ProjectResourceAllocation, bb:ProjectTimeAllocation, <bb/http://www.snik.eu/ontology/bb/StrategicInformationManagement> ;
+    meta:functionComponent bb:AdoptionOfProjectResult, bb:MonitoringTheProjectProgress, bb:ProjectInitiation, bb:ProjectResourceAllocation, bb:ProjectTimeAllocation, bb:StrategicInformationManagement ;
     rdf:type meta:Function ;
     meta:updates bb:Project ;
     meta:uses bb:HisArchitecture, bb:InformationManagementOrganizationalStructure, bb:MigrationPath, bb:ProjectPortfolio, bb:StrategicHISMonitoringResult, bb:StrategicInformationManagementPlan ;
@@ -9354,7 +9354,7 @@ bb:StrategicHISMonitoring
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "242"^^xsd:positiveInteger ;
     meta:chapter bb:chapter9-2 ;
-    meta:functionComponent bb:AdHocMonitoring, bb:HisCertification, bb:PermanentMonitoring, <bb/http://www.snik.eu/ontology/bb/StrategicInformationManagement> ;
+    meta:functionComponent bb:AdHocMonitoring, bb:HisCertification, bb:PermanentMonitoring, bb:StrategicInformationManagement ;
     rdf:type meta:Function ;
     meta:updates bb:KeyPerformanceIndicator, bb:StrategicDecision, bb:StrategicHISMonitoringResult ;
     meta:uses bb:FunctionalRedundancyRate, bb:HisQuality, bb:KeyPerformanceIndicator, bb:StrategicInformationManagementPlan ;
@@ -10015,9 +10015,9 @@ bb:TransinstitutionalHealthInformationSystem
     bb:page "manuell hinzugefügt"@de ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:HospitalInformationSystem ;
-    meta:isAssociatedWith bb:FunctionalRedundancyRate ;
+    meta:isAssociatedWith bb:FunctionalRedundancyRate, bb:HealthCareNetwork ;
     rdf:type meta:EntityType, meta:ApplicationComponent ;
-    meta:supports bb:HealthCareNetwork, bb:Telemicroscopy, bb:Teleradiology, bb:TransinstitutionalHealthCareFunction ;
+    meta:supports bb:Telemicroscopy, bb:Teleradiology, bb:TransinstitutionalHealthCareFunction ;
     a owl:Class ;
     rdfs:label "Transinstitutional Health Information System"@en, "Transinstitutionelles Informationssystem des Gesundheitswesens"@de, "سیستم اطالاعاتی درمانی میان سازمانی"@fa ;
     rdfs:subClassOf bb:HealthInformationSystem ;
