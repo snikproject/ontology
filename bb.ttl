@@ -599,8 +599,9 @@ bb:AdministrativeAdmission
     bb:page "293"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     rdf:type meta:Function ;
-    meta:updates bb:AdministrativePatientData, bb:Bed, bb:Case, bb:HealthCareProfessional, bb:PatientTransport ;
-    meta:uses bb:AdministrativePatientData, bb:Appointment, bb:Bed, bb:Case, bb:CostUnit, bb:HealthCareProfessional, bb:PatientTransport ;
+    meta:updates bb:AdministrativePatientData, bb:Bed, bb:Case, bb:PatientTransport ;
+    meta:uses bb:AdministrativePatientData, bb:Appointment, bb:Bed, bb:Case, bb:CostUnit, bb:PatientTransport ;
+    meta:isAssociatedWith bb:HealthCareProfessional ; # SHACL fix for meta:updates and meta:uses
     a owl:Class ;
     rdfs:label "Administrative Admission"@en, "Administrative Aufnahme"@de, "پذیرش اداری"@fa ;
     rdfs:subClassOf bb:PatientCare ;
@@ -788,10 +789,10 @@ bb:AppropriatePhysicalDataProcessingSystem
     skos:definition "For example, the bedside computer does not dominate the physician-patient relationship."@en .
 
 bb:ApprovalToAStudy
-    rdf:type meta:Function ;
+    rdf:type meta:EntityType;
     a owl:Class ;
     rdfs:label "Approval to a Study"@en, "تصویب برای مطالعه"@fa ;
-    rdfs:subClassOf bb:EducationResearch .
+    meta:isAssociatedWith bb:EducationResearch . # SHACL fix from rdfs:subClassOf
 
 bb:ApprovalToStrategicInformationManagementPlan
     rdf:type meta:Function ;
@@ -1471,8 +1472,9 @@ bb:ChiefInformationOfficer
     bb:page "249"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:ChiefExecutiveOfficer, bb:ChiefFinancialOfficer ;
-    meta:isResponsibleForEntityType bb:AnnualITBudget, bb:InformationManagementDepartment, bb:StrategicInformationManagementPlan ;
+    meta:isResponsibleForEntityType bb:AnnualITBudget, bb:StrategicInformationManagementPlan ;
     meta:isResponsibleForFunction bb:InformationManagement ;
+	meta:isResponsibleForRole bb:InformationManagementDepartment ;
     rdf:type meta:Role ;
     a owl:Class ;
     rdfs:label "Chief Information Officer"@en, "مسئول ارشد اطلاعات"@fa ;
@@ -2212,8 +2214,6 @@ bb:DataCollectionEffort
 bb:DataIntegration
     bb:page "146"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus, bb:chapter6-5 ;
-    meta:isAssociatedWith bb:DataCollectionEffort, bb:DoubleExamination ; # SHACL fix from meta:decreases
-    meta:isAssociatedWith bb:Consistency, bb:QualityOfData ; # SHACL fix from meta:increases
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "Data Integration"@en, "Datenintegration"@de, "ادغام داده ها"@fa, "یکپارچگی داده ها"@fa ;
@@ -2865,19 +2865,41 @@ bb:EncryptionSoftware
     rdfs:label "Encryption Software"@en, "نرم افزار رمزگذاری"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent .
 
+bb:EnsureAccessIntegration
+    a meta:Function ;
+	rdfs:label "ensure axxess integration"@en .
+
 bb:EnsureContextualIntegration
     a meta:Function ;
     meta:increases bb:LeannessOfInformationProcessingTools ;
 	rdfs:label "ensure contextual integration"@en .
 
+bb:EnsureDataIntegration
+   a meta:Function ; 
+    meta:decreases bb:DataCollectionEffort, bb:DoubleExamination ;
+    meta:increases bb:Consistency, bb:QualityOfData ;
+	rdfs:label "ensure data integration"@en .
+
+bb:EnsureFunctionalIntegration
+   a meta:Function ; 
+	rdfs:label "ensure functional integration"@en .
+
 bb:EnsureIntegration
     rdf:type meta:Function;
 	rdfs:label "ensure integration"@en .
 
+bb:EnsurePresentationIntegration
+    a meta:Function ;
+	rdfs:label "ensure presentation integration"@en .
+
 bb:EnsureProcessIntegration
-    a bb:Function ;
+    a meta:Function ;
     meta:decreases bb:MediaCrack, bb:Transcription ;
 	rdfs:label "ensure process integration"@en .
+
+bb:EnsureSemanticIntegration
+    a meta:Function ;
+	rdfs:label "ensure semantic integration"@en .
 
 bb:EnsuringAndSupportingPatientCare
     dc:source <http://subs.emis.de/LNI/Proceedings/Proceedings259/685.pdf> ;
@@ -5359,7 +5381,7 @@ bb:IntegrationOfItAndMedicalEngineering
 
 bb:IntegrationPlatform
     meta:chapter bb:chapter6-5 ;
-    meta:isAssociatedWith bb:ContextualIntegration, bb:FunctionalIntegration, bb:PresentationIntegration ; # used to be increases but that is not valid for entity type
+    meta:supports bb:EnsureContextualIntegration, bb:EnsureFunctionalIntegration, bb:EnsurePresentationIntegration ;
     rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     meta:typicalFeature bb:FeatureServiceCombination, bb:FeatureServiceOrchestration ;
     a owl:Class ;
@@ -5552,7 +5574,7 @@ bb:ItService
 bb:ItServiceManagement
     bb:page "246"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    meta:functionComponent bb:DeliveringOfCustomerCenteredServices, bb:DesigningCustomerCenteredServices, bb:ImprovingCustomerCenteredServices, bb:ItilServiceLifecycle, bb:ProvidingCustomerCenteredService, bb:TroubleShootingInItServiceManagement ;
+    meta:functionComponent bb:DeliveringOfCustomerCenteredServices, bb:DesigningCustomerCenteredServices, bb:ImprovingCustomerCenteredServices, bb:ItilServiceLifecycle, bb:ProvidingCustomerCenteredServices, bb:TroubleShootingInItServiceManagement ;
     meta:isAssociatedWith bb:OperationalInformationManagement ;
     rdf:type meta:Function ;
     meta:uses bb:Itil ;
@@ -6448,7 +6470,7 @@ bb:MonitoringOfNationalLocalPress
 bb:MonitoringOfStandardizationAndCertificationOrganizations
     meta:chapter bb:chapter9-5 ;
     rdf:type meta:Function ;
-    meta:uses bb:Organization ;
+    # meta:uses bb:Organization ;
     a owl:Class ;
     rdfs:label "Monitoring of Standardization and Certification Organizations"@en, "نظارت بر سازمان های استاندارد سازی و صدور گواهینامه"@fa ;
     rdfs:subClassOf bb:PermanentMonitoring .
@@ -6865,7 +6887,7 @@ bb:OpenEHR
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "190"^^xsd:positiveInteger, "331"^^xsd:positiveInteger ;
     meta:chapter bb:chapter7-3 ;
-    meta:isResponsibleForEntityType bb:OpenEHROntology ;
+    meta:entityTypeComponent bb:OpenEHROntology ; # SHACL fix from meta:isResponsibleForEntityType
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "OpenEHR"@en, "OpenEHR"@fa ;
@@ -7255,7 +7277,7 @@ bb:OutpatientManagementSystem
 bb:OutpatientUnit
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter4-2 ;
-    meta:isResponsibleForEntityType bb:Outpatient ;
+    meta:isAssociatedWith bb:Outpatient ; # SHACL fix from meta:isResponsibleForEntityType
     rdf:type meta:EntityType ;
     a owl:Class ;
     rdfs:label "Outpatient Unit"@en, "واحد سرپایی"@fa ;
@@ -8555,7 +8577,7 @@ bb:ReferenceModelForTheDomainLayerOfHospitalInformationSystems
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter5-5 ;
     meta:entityTypeComponent <bb/3LGM2EntityType> ;
-    meta:isAssociatedWithComponent <bb/3LGM2EnterpriseFunction> ; # SHACL fix from meta:functionComponent
+    meta:isAssociatedWith <bb/3LGM2EnterpriseFunction> ; # SHACL fix from meta:functionComponent
     meta:isAssociatedWith <bb/3LGM2DomainLayer> ;
     meta:isBasedOn bb:HL7ReferenceInformationModel ;
     rdf:type meta:EntityType ;
@@ -9085,9 +9107,9 @@ bb:Soa
     bb:page "321"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:IntegrationPlatform, bb:SoaService ;
-    meta:increases bb:AccessIntegration, bb:DataIntegration, bb:FunctionalIntegration, bb:PresentationIntegration ;
+    meta:supports bb:EnsureAccessIntegration, bb:EnsureDataIntegration, bb:EnsureFunctionalIntegration, bb:EnsurePresentationIntegration ;
     meta:isAssociatedWith bb:DB1Style ;
-    rdf:type meta:EntityType ;
+    rdf:type meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     a owl:Class ;
     rdfs:label "SOA"@en, "معماری سرویس گرا"@fa ;
     rdfs:subClassOf bb:Middleware ;
