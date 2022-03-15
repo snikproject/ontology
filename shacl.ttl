@@ -110,7 +110,7 @@
 		:functionComponent,
 		:supports;
 	sh:class :Function.
-	
+
 #### Entity Type ############################################################
 
 :EntityTypeShape a sh:NodeShape;
@@ -127,16 +127,36 @@
 		:isBasedOn;
 	sh:class :EntityType.
 
-:EntityTypeRangeShape a sh:NodeShape;
-	sh:targetObjectsOf
-		:uses,
-		:updates,
-		:increases,
-		:decreases,
-		:entityTypeComponent,
-		:isBasedOn,
-		:isResponsibleForEntityType,
-		:approvesEntityType;
+:UpdatesRangeShape a sh:NodeShape;
+    sh:targetObjectsOf :updates;
+	sh:class :EntityType.
+
+:IncreasesRangeShape a sh:NodeShape;
+    sh:targetObjectsOf :increases;
+	sh:class :EntityType.
+
+:DecreasesRangeShape a sh:NodeShape;
+    sh:targetObjectsOf :decreases;
+	sh:class :EntityType.
+
+:EntityTypeComponentRangeShape a sh:NodeShape;
+    sh:targetObjectsOf :entityTypeComponent;
+	sh:class :EntityType.
+
+:IsBasedOnRangeShape a sh:NodeShape;
+    sh:targetObjectsOf :isBasedOn;
+	sh:class :EntityType.
+
+:IsResponsibleForEntityTypeRangeShape a sh:NodeShape;
+    sh:targetObjectsOf :isResponsibleForEntityType;
+	sh:class :EntityType.
+
+:ApprovesEntityTypeRangeShape a sh:NodeShape;
+    sh:targetObjectsOf :approvesEntityType;
+	sh:class :EntityType.
+
+:UsesRangeShape a sh:NodeShape;
+    sh:targetObjectsOf :uses;
 	sh:class :EntityType.
 
 #### Other ##################################################################
@@ -158,4 +178,3 @@
 		:softwareProduct,
 		:typicalFeature;
 	sh:class :ComputerBasedApplicationComponent.
-
