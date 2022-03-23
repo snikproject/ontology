@@ -2307,6 +2307,7 @@ ob:ExecutionOfAKickOffMeeting
     meta:chapter ob:Chapter4-2 ;
     a meta:Function, owl:Class;
     meta:updates ob:ProjectRule ;
+    meta:increases ob:TeamDevelopment ;
     rdfs:label "Execution of a Kick-Off-Meeting"@en ;
     rdfs:subClassOf ob:InformationManagement .
 
@@ -3074,7 +3075,6 @@ ob:KeyUser
 ob:KickOffMeeting
     ob:page "328"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16 ;
-    meta:increases ob:TeamDevelopment ;
     a meta:EntityType, owl:Class ;
     rdfs:label "Kick-Off-Meeting"@en ;
     rdfs:subClassOf ob:Milestone ;
@@ -4563,7 +4563,7 @@ ob:ProjectPlanning
     meta:chapter ob:Chapter16 ;
     meta:functionComponent ob:ProjectPlanApproval, ob:ResourcePlanning, ob:RiskAnalysis, ob:Scheduling, ob:StructuralPlanning ;
     a meta:Function, owl:Class;
-    meta:updates ob:Milestone, ob:ProjectGoal, ob:ProjectPlan, ob:ProjectSchedule, ob:ResourcePlan, ob:RiskPlan, ob:ToDoList, ob:WorkPackageManager ;
+    meta:updates ob:Milestone, ob:ProjectGoal, ob:ProjectPlan, ob:ProjectSchedule, ob:ResourcePlan, ob:RiskPlan, ob:ToDoList ;
     meta:uses ob:ProjectOrder, ob:ProjectPlan ;
     rdfs:label "Project Planning"@en, "Projektplanung"@de ;
     rdfs:subClassOf ob:InformationManagement ;
@@ -5171,7 +5171,8 @@ ob:ResultVerification
     meta:chapter ob:Chapter12-2 ;
     a meta:Function, owl:Class;
     meta:updates ob:EvaluationReport ;
-    meta:uses ob:MeetingManagement, ob:OralPresentation ;
+    meta:uses ob:OralPresentation ;
+    meta:isAssociatedWith ob:MeetingManagement ; # SHACL fix from meta:uses because ob:MeetingManagement is a function, not an entity type
     rdfs:label "Result Verification"@en, "Verifikation der Ergebnisse"@de ;
     rdfs:subClassOf ob:InformationManagement .
 
@@ -6201,9 +6202,8 @@ ob:TaskAllocation
     rdfs:subClassOf ob:InformationManagement .
 
 ob:TeamDevelopment
-    a meta:Function, owl:Class ;
-    rdfs:label "Team Development"@en ;
-    rdfs:subClassOf ob:InformationManagement .
+    a meta:EntityType, owl:Class ;
+    rdfs:label "Team Development"@en .
 
 ob:TeamFormation
     ob:page "345"^^xsd:positiveInteger ;
@@ -6714,7 +6714,7 @@ ob:WorkPackageDescription
 ob:WorkPackageExecution
     meta:chapter ob:Chapter5-2 ;
     a meta:Function, owl:Class;
-    meta:uses ob:WorkPackageDescription ;
+    meta:uses ob:WorkPackageDescription, ob:ProjectPlan ;
     rdfs:label "Work Package Execution"@en ;
     rdfs:subClassOf ob:InformationManagement .
 

@@ -26,7 +26,7 @@
 @base <http://hitontology.eu/ontology/>.
 
 :ignoredProperties rdf:first vann:example;
-	rdf:rest ( rdf:type rdfs:subClassOf rdfs:comment rdfs:seeAlso skos:altLabel dc:source skos:definition owl:sameAs rdfs:isDefinedBy :chapter :consolidated he:page bb:page ob:page bb:conceptDomain ob:conceptDomain).
+	rdf:rest ( rdf:type rdfs:subClassOf rdfs:comment rdfs:seeAlso skos:altLabel dc:source skos:definition owl:sameAs rdfs:isDefinedBy :chapter :consolidated he:page bb:page ob:page bb:conceptDomain ob:conceptDomain schema:error).
 
 # inheritance of closed shapes does seem not work, see https://stackoverflow.com/questions/70785194/shacl-closed-shape-with-superclass-inheritance
 :topProperties rdf:first skos:closeMatch;
@@ -102,13 +102,24 @@
 		:decreases;
 	sh:class :Function.
 
-:FunctionRangeShape a sh:NodeShape;
-	sh:targetObjectsOf
-		:isInvolvedIn,
-		:isResponsibleForFunction,
-		:approvesFunction,
-		:functionComponent,
-		:supports;
+:isInvolvedInRangeShape a sh:NodeShape;
+	sh:targetObjectsOf :isInvolvedIn;
+	sh:class :Function.
+
+:isResponsibleForFunctionRangeShape a sh:NodeShape;
+	sh:targetObjectsOf :isResponsibleForFunction;
+	sh:class :Function.
+
+:approvesFunctionRangeShape a sh:NodeShape;
+	sh:targetObjectsOf :approvesFunction;
+	sh:class :Function.
+
+:functionComponentRangeShape a sh:NodeShape;
+	sh:targetObjectsOf :functionComponent;
+	sh:class :Function.
+
+:supportsRangeShape a sh:NodeShape;
+	sh:targetObjectsOf :supports;
 	sh:class :Function.
 
 #### Entity Type ############################################################
