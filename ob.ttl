@@ -4999,7 +4999,7 @@ ob:RecordAnalysis
 
 ob:RedundancyOfCentralizedTechnicalSystem
     meta:chapter ob:Chapter13-2 ;
-    meta:entityTypeComponent ob:FailureSafety ; # SHACL fix from meta:increases
+    meta:isAssociatedWith ob:FailureSafety ; # SHACL fix from meta:increases
     a meta:EntityType, owl:Class ;
     rdfs:label "Redundancy of Centralized Technical System"@en, "Redundanz zentraler technischer Systeme"@de ;
     rdfs:subClassOf meta:EntityType .
@@ -5344,7 +5344,7 @@ ob:ServerAdministration
 
 ob:ServiceContract
     meta:chapter ob:Chapter13-2 ;
-    meta:increases ob:FailureSafety ;
+    meta:isAssociatedWith ob:FailureSafety ; # SHACL fix from meta:increases
     a meta:EntityType, owl:Class ;
     rdfs:label "Service Contract"@en ;
     rdfs:subClassOf meta:EntityType .
