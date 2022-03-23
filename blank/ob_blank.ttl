@@ -8008,7 +8008,7 @@ ob:blank209464
 ob:blank209465
     a owl:Restriction ;
     owl:onProperty meta:updates ;
-    owl:someValuesFrom ob:ResultOfStakeholderAnalysis .
+    owl:someValuesFrom ob:StakeholderAnalysis .
 
 ob:blank209466
     ob:tripelPage "348"^^xsd:positiveInteger ;
@@ -23968,7 +23968,7 @@ ob:blank217994
 ob:blank217995
     a owl:Restriction ;
     owl:onProperty meta:updates ;
-    owl:someValuesFrom ob:ResultOfStakeholderAnalysis .
+    owl:someValuesFrom ob:StakeholderAnalysis .
 
 ob:blank217996
     ob:tripelPage "348"^^xsd:positiveInteger ;
