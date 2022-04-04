@@ -4682,9 +4682,8 @@ ob:ProjectReviewPlanningSection
 ob:ProjectReviewPreparationSection
     ob:page "112"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-3 ;
-    a meta:Function, owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Project Review Preparation Section"@en ;
-    rdfs:subClassOf ob:InformationManagement ;
     skos:definition "1. Was ist Ziel des Projektreviews? Wer ist Adressat der Ergebnisse? 2. Welche Personen sollten am Projektreview teilnehmen? Typischerweise sollten zumindest das vollständige Projektteam und der Auftraggeber teilnehmen. 3. Wer moderiert den Projektreview? 4. Ist sichergestellt, dass beim Projektreview eine vertrauensvolle und offene Atmosphäre herrscht? 5. Welche Unterlagen aus der Projektdokumentation sollten zum Projekt-review vorliegen (z. B. Projektplan, Soll-Ist-Vergleiche, Zwischen- und Abschlussberichte, Protokolle)"@de .
 
 ob:ProjectReviewReport
@@ -4696,9 +4695,8 @@ ob:ProjectReviewReport
 ob:ProjectReviewWrapUpSection
     ob:page "112"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter7-3 ;
-    a meta:Function, owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Project Review Wrap-Up Section"@en ;
-    rdfs:subClassOf ob:InformationManagement ;
     skos:definition "1. An wen werden die Erkenntnisse und Empfehlungen kommuniziert? 2. Wie wird sichergestellt, dass die Ergebnisse des Projektreviews in zukünftigen Projekten Berücksichtigung finden?"@de .
 
 ob:ProjectRule
@@ -4748,7 +4746,7 @@ ob:ProjectSteeringCommittee
     ob:page "336"^^xsd:positiveInteger ;
     meta:approvesEntityType ob:ChangeRequest, ob:FinalReport, ob:InterimReport, ob:ProjectPlan ;
     meta:chapter ob:Chapter16 ;
-    meta:isInvolvedIn ob:ConflictManagement, ob:DecisionAndContractConclusion, ob:Project, ob:ProjectApproval, ob:ProjectWork ;
+    meta:isInvolvedIn ob:ConflictManagement, ob:DecisionAndContractConclusion, ob:ProjectApproval, ob:ProjectWork ; # SHACL fix remove ob:Project
     a meta:Role, owl:Class ;
     rdfs:label "Project Steering Committee"@en, "Projektlenkungsausschuss"@de ;
     rdfs:subClassOf meta:Role ;
