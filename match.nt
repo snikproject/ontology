@@ -95,6 +95,7 @@
 <http://www.snik.eu/ontology/bb/PrepareReport> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://hitontology.eu/ontology/PrepareReport> .
 <http://www.snik.eu/ontology/bb/FeaturePrintForms> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://hitontology.eu/ontology/FeaturePrintForms> .
 <http://www.snik.eu/ontology/bb/PrintReports> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://hitontology.eu/ontology/PrintReports> .
+<http://www.snik.eu/ontology/bb/Procedure> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.snik.eu/ontology/he/Verfahren> .
 <http://www.snik.eu/ontology/bb/ProcessChain> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ProcessChain> .
 <http://www.snik.eu/ontology/bb/ProjectInitiation> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ProjectInitiation> .
 <http://www.snik.eu/ontology/bb/ProjectManager> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/he/Projektmanager> .

@@ -188,7 +188,6 @@
 <http://www.snik.eu/ontology/he/Ueberwachung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Monitoring> .
 <http://www.snik.eu/ontology/he/UML> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/UnifiedModelingLanguage> .
 <http://www.snik.eu/ontology/he/UnifiedModelingLanguage> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/UnifiedModelingLanguage> .
-<http://www.snik.eu/ontology/he/Verfahren> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Procedure> .
 <http://www.snik.eu/ontology/he/Verifizierung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Verification> .
 <http://www.snik.eu/ontology/he/Virtualisierung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Virtualization> .
 <http://www.snik.eu/ontology/he/Vollstaendigkeit> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/Completeness> .
