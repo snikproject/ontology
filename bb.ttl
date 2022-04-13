@@ -1286,7 +1286,7 @@ bb:ChemotherapeuticTreatment
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-3 ;
     a meta:EntityType, owl:Class ;
-    rdfs:label "Chemotherapeutic Treatment"@en, "درمان شیمی درمانی"@fa ;
+    rdfs:label "Knowledge about Chemotherapeutic Treatment"@en, "درمان شیمی درمانی"@fa ;
     rdfs:subClassOf bb:TherapeuticProcedure .
 
 bb:ChiefExecutiveOfficer
@@ -2208,7 +2208,7 @@ bb:DiagnosisClass
 bb:DiagnosticProcedure
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType, owl:Class ;
-    rdfs:label "Diagnostic Procedure"@en, "روش تشخیصی"@fa ;
+    rdfs:label "Knowledge about Diagnostic Procedure"@en, "روش تشخیصی"@fa ;
     rdfs:subClassOf bb:MedicalProcedure .
 
 bb:DiagnosticService
@@ -5632,7 +5632,7 @@ bb:MedicalProcedure
     bb:page "76"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-2 ;
     a meta:EntityType, owl:Class ;
-    rdfs:label "Medical Procedure"@en, "روش پزشکی"@fa ;
+    rdfs:label "Knowledge about Medical Procedure"@en, "روش پزشکی"@fa ;
     rdfs:subClassOf bb:Procedure ;
     skos:definition "Is a procedure carried out by a doctor, e.g., radiological examination, operation"@en .
 
@@ -6228,7 +6228,7 @@ bb:Operation
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-3 ;
     a meta:EntityType, owl:Class ;
-    rdfs:label "Operation"@en, "جراحی"@fa, "عملکرد"@fa ;
+    rdfs:label "Knowledge about Operation"@en, "جراحی"@fa, "عملکرد"@fa ;
     rdfs:subClassOf bb:MedicalProcedure .
 
 bb:OperationManagementSystem
@@ -7173,7 +7173,7 @@ bb:Procedure
     bb:page "77"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-2 ;
     a meta:EntityType, owl:Class ;
-    rdfs:label "Procedure"@en, "جراحی"@fa, "عمل کرد"@fa ;
+    rdfs:label "Knowledge about Procedure"@en, "جراحی"@fa, "عمل کرد"@fa ;
     rdfs:subClassOf bb:PatientCareEntityType ;
     skos:definition "Procedure is the generalization of a medical procedure or nursing procedure."@en .
 
@@ -7600,7 +7600,7 @@ bb:RadiologicalExamination
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-3 ;
     a meta:EntityType, owl:Class ;
-    rdfs:label "Radiological Examination"@en, "آزمایش رادیولوژی"@fa ;
+    rdfs:label "Knowledge about Radiological Examination"@en, "آزمایش رادیولوژی"@fa ;
     rdfs:subClassOf bb:DiagnosticProcedure .
 
 bb:RadiologicalFinding
@@ -7621,7 +7621,7 @@ bb:RadiologyInformationSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "125"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    meta:supports bb:AppointmentScheduling, bb:CodingOfDiagnosesAndProcedures, bb:ExecutionOfRadiologicalProcedures, bb:ManagementOfMedicalDevices, bb:MedicalAdmission, bb:Radiotherapy, bb:WorkOrganizationAndTimeManagement ;
+    meta:supports bb:AppointmentScheduling, bb:CodingOfDiagnosesAndProcedures, bb:ExecutionOfRadiologicalProcedures, bb:ManagementOfMedicalDevices, bb:MedicalAdmission, bb:WorkOrganizationAndTimeManagement ;
     meta:typicalFeature bb:FeatureAssignOrdersToModalities, bb:FeatureAssignPatientsToModalities, bb:FeatureCreationOfRadiologyReports, bb:FeatureManageModalities, bb:FeaturePreparingStatistics, bb:FeatureProvideFormsForWritingAReport, bb:FeatureProvideMeansForCheckInOfPatient, bb:FeatureProvisionOfPatientDataAndExaminationParameters, bb:FeatureReceiveOrders, bb:FeatureRegisteringPatients, bb:FeatureWorkflowManagement ;
     a meta:ApplicationComponent, meta:ComputerBasedApplicationComponent, meta:EntityType, owl:Class ;
     rdfs:label "Radiologieinformationssystem"@de, "Radiology Information System"@en, "سیستم اطلاعاتی رادیولوژی"@fa ;
@@ -7639,7 +7639,7 @@ bb:RadiologyReport
 bb:Radiotherapy
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter2-3 ;
-    a meta:Function, owl:Class ;
+    a meta:EntityType, owl:Class ;
     rdfs:label "Radiotherapy"@en, "رادیوتراپی"@fa, "پرتو درمانی"@fa ;
     rdfs:subClassOf bb:TherapeuticProcedure .
 
@@ -8851,7 +8851,7 @@ bb:TherapeuticProcedure
     bb:page "14"^^xsd:positiveInteger ;
     meta:chapter bb:chapter2-4 ;
     a meta:EntityType, owl:Class ;
-    rdfs:label "Therapeutic Procedure"@en, "روند درمانی"@fa ;
+    rdfs:label "Knowledge about Therapeutic Procedure"@en, "روند درمانی"@fa ;
     rdfs:subClassOf bb:MedicalProcedure ;
     skos:definition "treatment of physical or mental illness"@en .
 
@@ -13757,11 +13757,6 @@ bb:blank221049
     a owl:Restriction ;
     owl:onProperty meta:supports ;
     owl:someValuesFrom bb:MedicalAdmission .
-
-bb:blank221050
-    a owl:Restriction ;
-    owl:onProperty meta:supports ;
-    owl:someValuesFrom bb:Radiotherapy .
 
 bb:blank221051
     a owl:Restriction ;
@@ -28010,12 +28005,6 @@ bb:blank223196
     owl:annotatedSource bb:RadiologyInformationSystem ;
     owl:annotatedTarget bb:blank221049 .
 
-bb:blank223197
-    a owl:Axiom ;
-    owl:annotatedProperty rdfs:subClassOf ;
-    owl:annotatedSource bb:RadiologyInformationSystem ;
-    owl:annotatedTarget bb:blank221050 .
-
 bb:blank223198
     bb:tripelPage "124"^^xsd:positiveInteger ;
     a owl:Axiom ;
@@ -28106,13 +28095,6 @@ bb:blank223210
     owl:annotatedProperty rdfs:subClassOf ;
     owl:annotatedSource bb:RadiologyReport ;
     owl:annotatedTarget bb:MedicalReport .
-
-bb:blank223211
-    bb:tripelPage "8"^^xsd:positiveInteger ;
-    a owl:Axiom ;
-    owl:annotatedProperty rdfs:subClassOf ;
-    owl:annotatedSource bb:Radiotherapy ;
-    owl:annotatedTarget bb:TherapeuticProcedure .
 
 bb:blank223212
     bb:tripelPage "manuell hinzugefügt"@de ;
