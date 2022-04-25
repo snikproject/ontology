@@ -49,7 +49,8 @@
 		[sh:path skos:relatedMatch],
 		[sh:path skos:narrowMatch],
 		[sh:path skos:broadMatch],
-		[sh:path meta:homonym].
+		[sh:path meta:homonym];
+	sh:xone ( :RoleShape :FunctionShape :EntityTypeShape ).
 
 #### Role ###################################################################
 
@@ -62,7 +63,8 @@
 		[sh:path :isResponsibleForFunction],
 		[sh:path :isResponsibleForEntityType],
 		[sh:path :approvesEntityType],
-		[sh:path :approvesFunction];
+		[sh:path :approvesFunction],
+		[sh:path rdf:type; sh:hasValue :Role ];
 	sh:closed true;
 	sh:ignoredProperties :ignoredProperties, :topProperties.
 
@@ -89,7 +91,8 @@
 		[sh:path :uses],
 		[sh:path :updates],
 		[sh:path :increases],
-		[sh:path :decreases];
+		[sh:path :decreases],
+		[sh:path rdf:type; sh:hasValue :Function ];
 	sh:closed true;
 	sh:ignoredProperties :ignoredProperties, :topProperties.
 
@@ -128,7 +131,8 @@
 	sh:targetClass :EntityType;
 	sh:property :labelShape,
 		[sh:path :entityTypeComponent],
-		[sh:path :isBasedOn];
+		[sh:path :isBasedOn],
+		[sh:path rdf:type; sh:hasValue :EntityType];
 	sh:closed true;
 	sh:ignoredProperties :ignoredProperties, :topProperties, (:communicatesWith :supports :softwareProduct :typicalFeature).
 
@@ -189,3 +193,15 @@
 		:softwareProduct,
 		:typicalFeature;
 	sh:class :ComputerBasedApplicationComponent.
+
+:NotRoleShape a sh:NodeShape;
+    sh:targetClass :Function, :EntityType;
+	sh:not [ a sh:PropertyShape; sh:path ( rdfs:subClassOf rdf:type );	sh:hasValue :Role; ].
+
+:NotFunctionShape a sh:NodeShape;
+    sh:targetClass :Role, :EntityType;
+	sh:not [ a sh:PropertyShape; sh:path ( rdfs:subClassOf rdf:type );	sh:hasValue :Function; ].
+
+:NotEntityTypeShape a sh:NodeShape;
+    sh:targetClass :Role, :Function;
+	sh:not [ a sh:PropertyShape; sh:path ( rdfs:subClassOf rdf:type );	sh:hasValue :EntityType; ].

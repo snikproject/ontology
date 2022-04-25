@@ -19,7 +19,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 <bb>
-    ov:defines <bb/199993EG>, <bb/1TierArchitecture>, <bb/2PhaseCommitProtocol>, <bb/2TierArchitecture>, <bb/3LGM2>, <bb/3LGM2ApplicationComponent>, <bb/3LGM2B>, <bb/3LGM2CommunicationInterface>, <bb/3LGM2CommunicationLink>, <bb/3LGM2ComputerBasedApplicationComponent>, <bb/3LGM2DataTransmissionConnection>, <bb/3LGM2DomainLayer>, <bb/3LGM2EnterpriseFunction>, <bb/3LGM2EntityType>, <bb/3LGM2InformationProcess>, <bb/3LGM2InterlayerRelationship>, <bb/3LGM2IntralayerRelationship>, <bb/3LGM2Location>, <bb/3LGM2LogicalToolLayer>, <bb/3LGM2M>, <bb/3LGM2MCommunicationStandard>, <bb/3LGM2MMessageType>, <bb/3LGM2MessageType>, <bb/3LGM2OrganizationalSystem>, <bb/3LGM2OrganizationalUnit>, <bb/3LGM2PhysicalDataProcessingSystem>, <bb/3LGM2PhysicalToolLayer>, <bb/3LGM2ReceivingInterface>, <bb/3LGM2S>, <bb/3LGM2SInvokingInterface>, <bb/3LGM2SProvidingInterface>, <bb/3LGM2SService>, <bb/3LGM2SServiceClass>, <bb/3LGM2SendingInterface>, <bb/3LGM2SoftwareProduct>, <bb/3LGM2Support>, <bb/3LGM2Tool>, <bb/3LGM2ToolClass>, <bb/3LGM2TransmittingMedium>, <bb/3LGM2Use>, <bb/3TierArchitecture>, bb:A01, bb:A02, bb:A03, bb:AC1Style, bb:ACnStyle, bb:AccessControlManagement, bb:AccessControlSystem, bb:AccessIntegration, bb:Accuracy, bb:Acid, bb:AcquireAndImplement, bb:Activity, bb:ActivityModelingElement, bb:AdHocMonitoring, bb:Adaptability, bb:AdaptabilityOfTheHIS, bb:AdaptationCost, bb:Administration, bb:AdministrationAndAllocationOfPatientRecords, bb:AdministrationManagement, bb:AdministrationOfBusinessTripsAndFurtherTraining, bb:AdministrationOfHumanResourceMasterData, bb:AdministrativeAdmission, bb:AdministrativeDischargeAndBilling, bb:AdministrativeEntityType, bb:AdministrativeGuideline, bb:AdministrativePatientData, bb:AdministrativeStaff, bb:AdministrativeSticker, bb:AdmissionDiagnosis, bb:AdoptionOfProjectResult, bb:Adt, bb:AnalysisAndAssessmentOfTheCurrentHISState, bb:AnnualHospitalOperatingCost, bb:AnnualITBudget, bb:ApplicationComponent, bb:ApplicationComponentStyle, bb:ApplicationPortfolio, bb:ApplicationServer, bb:Appointment, bb:AppointmentScheduling, bb:AppropriatePhysicalDataProcessingSystem, bb:Appropriateness, bb:ApprovalToAStudy, bb:ApprovalToStrategicInformationManagementPlan, bb:ArchitecturalStyle, bb:ArchitecturalStyleOfTheLogicalToolLayer, bb:ArchitecturalStyleOfThePhysicalToolLayer, bb:ArchitectureOfAnInformationSystem, bb:Archiving, bb:ArchivingOfPatientInformation, bb:ArtificialSystem, bb:Ascii, bb:AssetAccounting, bb:AsynchronousCommunication, bb:Atc, bb:Atomicity, bb:AuthenticityOfData, bb:AvailabilityOfApplicationComponents, bb:AvailabilityOfData, bb:AvailabilityOfTheApplicationComponent, bb:AvailablePhysicalDataProcessingSystem, bb:AvailableServer, bb:BPflV, bb:Backbone, bb:BalanceOfComputerBasedAndNonComputerBasedTools, bb:BalanceOfDataSecurityAndWorkingProcesses, bb:BalanceOfDocumentationQualityAndDocumentationEfforts, bb:BalanceOfFunctionalLeannessAndFunctionalRedundancy, bb:BalanceOfHomegeneityAndHeterogeneity, bb:BalancedNetwork, bb:Bar, bb:Bdsg, bb:Bed, bb:BedOccupation, bb:BehavioralPerspective, bb:Benchmarking, bb:BestOfBreedArchitecture, bb:BestPracticeBenchmark, bb:Bill, bb:BillingOfAccountableServices, bb:BloodBank, bb:BloodBankManagementSystem, bb:BodyWashing, bb:Book, bb:Bus, bb:BusinessIntelligenceSystem, bb:BusinessProcess, bb:BusinessProcessMetamodel, bb:BusinessProcessModel, bb:BusinessProcessReferenceModel, bb:BusinessReferenceModel, bb:BusinessStrategy, bb:CP1Style, bb:CPnStyle, bb:Car, bb:CardiovascularInformationSystem, bb:Case, bb:CaseMixIndex, bb:CaseStudy, bb:Catering, bb:Cchit, bb:CchitFunctionalCriterion, bb:Ccow, bb:CcowStandard, bb:Cda, bb:Cdrom, bb:Cen, bb:CentralizedComputingCenter, bb:CertifiabilityOfPhysicalDataProcessingSystems, bb:CertifiabilityOfSoftware, bb:CertifiablePhysicalDataProcessingSystem, bb:Certification, bb:CertificationByCCHIT, bb:CertificationByEuroRec, bb:CertificationByISO, bb:CertifiedPhysicalDataProcessingSystem, bb:ChangeManagement, bb:ChemotherapeuticTreatment, bb:ChiefExecutiveOfficer, bb:ChiefFinancialOfficer, bb:ChiefInformationOfficer, bb:ClassDiagram, bb:Classification, bb:ClassificationOfDiagnoses, bb:ClassificationOfProcedures, bb:Client, bb:ClientServerArchitecture, bb:ClinicalChemistryReport, bb:ClinicalDataWarehouse, bb:ClinicalDepartment, bb:ClinicalDocumentation, bb:ClinicalInformationSystem, bb:ClinicalPathway, bb:ClinicalResearch, bb:ClinicalTrial, bb:CloseToHierarchyNetwork, bb:Cluster, bb:Cobit, bb:CobitProcess, bb:CodingOfDiagnoses, bb:CodingOfDiagnosesAndProcedures, bb:CodingOfProcedures, bb:CodingSystem, bb:CommunicateDocumentsToOtherApplications, bb:CommunicateReportToOrderingUnit, bb:Communication, bb:CommunicationAbility, bb:CommunicationInterface, bb:CommunicationLink, bb:CommunicationNetwork, bb:CommunicationPattern, bb:CommunicationProtocol, bb:CommunicationServer, bb:CommunicationStandard, bb:Complaint, bb:Completeness, bb:ComponentAlignmentModelOfMartin, bb:ComputedTomography, bb:ComputerBasedApplicationComponent, bb:ComputerBasedInformationProcessing, bb:ComputerBasedInformationSystem, bb:ComputerBasedNursingForm, bb:ComputerBasedPhysicalDataProcessingSystem, bb:ComputerBasedTool, bb:ComputerNetwork, bb:ComputerSupportedInformationSystem, bb:ComputerSystem, bb:ComputerizedPhysicianOrderEntrySystem, bb:ComputingCenter, bb:ComputingCenterManager, bb:Confidentiality, bb:ConfigurationManagement, bb:ConformityWithUserExpectations, bb:ConsensusMethod, bb:Consistency, bb:Consultant, bb:ContextualIntegration, bb:ContinualServiceImprovement, bb:ContinuousHISAuditing, bb:ContinuousQualityImprovementProcess, bb:Controllability, bb:ControlledRedundancyOfData, bb:ControlledTranscriptionOfData, bb:Controlling, bb:ControllingReport, bb:ConvergingTechnologies, bb:CopperCable, bb:CorrectInformation, bb:CostAccounting, bb:CostBenefitAnalysis, bb:CostEffectivenessAnalysis, bb:CostOfTreatment, bb:CostUnit, bb:CreationOfStrategicInformationManagementPlan, bb:CreditAccounting, bb:CrossEnterpriseDocumentSharing, bb:CtScanner, bb:Customizing, bb:DB1Style, bb:DBnStyle, bb:Data, bb:DataCollectionEffort, bb:DataIntegration, bb:DataMetamodel, bb:DataModel, bb:DataProtection, bb:DataReferenceModel, bb:DataSecurity, bb:DataSecurityOfficer, bb:DataTransmissionConnection, bb:DataWarehouseSystem, bb:DatabaseServer, bb:DatabaseStyle, bb:DatabaseSystem, bb:DebtorAccounting, bb:DecisionMakingAndPatientInformation, bb:DecisionMakingPlanningAndOrganizationOfPatientTreatment, bb:DecisionSupportSystem, bb:Decomposition, bb:DecubitusProphylaxis, bb:DeductiveApproach, bb:DefinitionEN, bb:DegreeOfComputerSupport, bb:DeliverAndSupport, bb:DeliveringOfCustomerCenteredServices, bb:DelphiSurvey, bb:DepartmentOfFacilityManagement, bb:DepartmentOfQualityManagement, bb:DepartmentalSystemAdministrator, bb:DeploymentOfStrategicInformationManagementPlan, bb:DescriptionOfTheCurrentHISState, bb:DescriptionOfThePlannedHISState, bb:DesigningCustomerCenteredServices, bb:DhcpServer, bb:Diagnosis, bb:DiagnosisClass, bb:DiagnosticProcedure, bb:DiagnosticService, bb:DiagnosticStandard, bb:DialysisInformationSystem, bb:DicomFileFormat, bb:DicomMessageFormat, bb:DicomNetworkProtocol, bb:DicomService, bb:DicomStandard, bb:Diet, bb:DigitalDictationSystem, bb:DigitalImage, bb:DigitalXRay, bb:Directing, bb:DirectiveForHISConstruction, bb:DischargeSummary, bb:DiseaseManagement, bb:DnsServer, bb:DocumentArchivingSystem, bb:DocumentStandard, bb:DoubleExamination, bb:Drg, bb:DrgCalculation, bb:Drug, bb:DrugService, bb:Durability, bb:EMailCommunication, bb:EN12538, bb:EN12539, bb:EN1613, bb:EconomicAnalysis, bb:Edifact, bb:Education, bb:EducationResearch, bb:EffectivenessStudy, bb:Efficiency, bb:EfficiencyOfInformationLogistics, bb:EfqmExcellenceModel, bb:EhrStrategy, bb:ElectronicHealthRecord, bb:ElectronicPatientRecord, bb:EncryptionSoftware, bb:EnterpriseFunction, bb:EnterpriseFunctionModelingElement, bb:EnterpriseOrganizationalStructure, bb:EnterpriseResourcePlanningSystem, bb:EntityType, bb:EntityTypeModelingElement, bb:EntityTypeRelation, bb:EntityTypeRelationModelingElement, bb:ErrorTolerance, bb:EstablishAndPromoteTheStrategicInformationManagementPlan, bb:EstablishingReferentialIntegrity, bb:Ethernet, bb:EuroRec, bb:EuroRecEHRQualitySeal, bb:EuropeanNorm, bb:Evaluation, bb:EvaluationMethod, bb:Event, bb:EventCountingStudy, bb:EventDrivenProcessChain, bb:EventModelingElement, bb:Excretion, bb:ExecutionOfAQuantitativeStudy, bb:ExecutionOfAnITEvaluationStudy, bb:ExecutionOfAnOperation, bb:ExecutionOfChemotheraphy, bb:ExecutionOfClinicalTrials, bb:ExecutionOfClinicalTrialsAndExperiments, bb:ExecutionOfDiagnosticAndTherapeuticProcedures, bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures, bb:ExecutionOfIrradiation, bb:ExecutionOfLabExaminations, bb:ExecutionOfNursingProcedures, bb:ExecutionOfProphylaxis, bb:ExecutionOfRadiologicalProcedures, bb:ExperimentalStudyDesign, bb:Extent, bb:ExternalFinding, bb:FacilityAndArea, bb:FacilityManagement, bb:FailureManagement, bb:FamilyHistory, bb:FaxMachine, bb:Feature, bb:FeatureAdministrateTheMasterPatientIndex, bb:FeatureAdmitPatientsToTheWard, bb:FeatureAnalyzeData, bb:FeatureArchivePictures, bb:FeatureAssignDoctorsToPatientsOrRooms, bb:FeatureAssignOrderAndBloodSamplesToDevices, bb:FeatureAssignOrdersToModalities, bb:FeatureAssignPatientsToModalities, bb:FeatureAssignPatientsToRoomsAndBeds, bb:FeatureAssignStaffToPatientsOrOutpatientUnits, bb:FeatureAssignStaffToPatientsOrRooms, bb:FeatureAttachDigitalSignatures, bb:FeatureCalculateDosageOfDrugs, bb:FeatureCollectResultsFromDevices, bb:FeatureCommunicateDischargeInformation, bb:FeatureCommunicatePictures, bb:FeatureCreateWorklistForAGroupOfPatients, bb:FeatureCreatingARoster, bb:FeatureCreationOfRadiologyReports, bb:FeatureDisplayEarlierLabResultsOfAPatient, bb:FeatureDisplayPictures, bb:FeatureDisplayVitalParametersFromMonitoringDevices, bb:FeatureDisplayWarningMessages, bb:FeatureImportDocuments, bb:FeatureIndexDocumentContent, bb:FeatureIntegrateDataFromDifferentApplicationComponents, bb:FeatureManageModalities, bb:FeatureManageStorageFormats, bb:FeatureManageStorageMedia, bb:FeatureMergePatientInformationFromTwoRecords, bb:FeatureMessageQueuing, bb:FeatureModifyPresentationOfPictures, bb:FeatureMulticasting, bb:FeatureOfferDecisionSupportForCarePlanning, bb:FeatureOrganizePatientTransport, bb:FeaturePrepareReport, bb:FeaturePreparingStatistics, bb:FeaturePrintForms, bb:FeaturePrintReports, bb:FeaturePrintingOfLabels, bb:FeatureProvideACollectionOfInternalProcessesAndRegulations, bb:FeatureProvideAccessToArchivedInformation, bb:FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis, bb:FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures, bb:FeatureProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures, bb:FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses, bb:FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses, bb:FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures, bb:FeatureProvideContextRelatedMedicalKnowledge, bb:FeatureProvideDrugCatalogs, bb:FeatureProvideFormsForClinicalReports, bb:FeatureProvideFormsForDocumentingClinicalProcedures, bb:FeatureProvideFormsForDocumentingDiagnosis, bb:FeatureProvideFormsForDocumentingDiagnosisAndProblems, bb:FeatureProvideFormsForDocumentingMedicalAnamnesis, bb:FeatureProvideFormsForDocumentingMedications, bb:FeatureProvideFormsForDocumentingNursingAims, bb:FeatureProvideFormsForDocumentingNursingTasks, bb:FeatureProvideFormsForDocumentingPatientsInformedConsent, bb:FeatureProvideFormsForDocumentingPerformedTasks, bb:FeatureProvideFormsForDocumentingPlannedTasks, bb:FeatureProvideFormsForDocumentingProceduresAndOutcomes, bb:FeatureProvideFormsForDocumentingTheNursingHistory, bb:FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks, bb:FeatureProvideFormsForEnteringClinicalData, bb:FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation, bb:FeatureProvideFormsForPatientsInformedConsent, bb:FeatureProvideFormsForPreparingABillForThePatientInsurance, bb:FeatureProvideFormsForPreparingClinicalReports, bb:FeatureProvideFormsForPreparingOperationReports, bb:FeatureProvideFormsForWritingAReport, bb:FeatureProvideFormsForWritingATransferLetterOrDischargeReport, bb:FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport, bb:FeatureProvideFormsForWritingTheDischargeReport, bb:FeatureProvideFormsForWritingTheNursingDischargeReport, bb:FeatureProvideGuidelinesForCarePlanning, bb:FeatureProvideGuidelinesForTreatmentPlanning, bb:FeatureProvideMeansForAccountsPayable, bb:FeatureProvideMeansForAccountsReceivable, bb:FeatureProvideMeansForAssetAccounting, bb:FeatureProvideMeansForCheckInOfPatient, bb:FeatureProvideMeansForControlOfSecurityIssues, bb:FeatureProvideMeansForCostCenterAccounting, bb:FeatureProvideMeansForCostElementAccounting, bb:FeatureProvideMeansForCreatingARoster, bb:FeatureProvideMeansForCreatingOperationPlans, bb:FeatureProvideMeansForCreatingStatistics, bb:FeatureProvideMeansForDataMining, bb:FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations, bb:FeatureProvideMeansForFinalizingDocumentation, bb:FeatureProvideMeansForFinalizingNursingDocumentation, bb:FeatureProvideMeansForGeneralLedgerAccounting, bb:FeatureProvideMeansForIncidentTracking, bb:FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment, bb:FeatureProvideMeansForInitiationOfFinalBilling, bb:FeatureProvideMeansForManagingAndMonitoringDisposal, bb:FeatureProvideMeansForManagingAppointments, bb:FeatureProvideMeansForManagingLogistics, bb:FeatureProvideMeansForManagingMedicalDevices, bb:FeatureProvideMeansForManagingOutpatientUnitsStaff, bb:FeatureProvideMeansForManagingRooms, bb:FeatureProvideMeansForManagingWardStaff, bb:FeatureProvideMeansForMinimizingAdverseDrugEvents, bb:FeatureProvideMeansForOrderManagement, bb:FeatureProvideMeansForOrderingConsumables, bb:FeatureProvideMeansForOrderingDrugs, bb:FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry, bb:FeatureProvideMeansForOrderingLaundry, bb:FeatureProvideMeansForOrderingPatientTransferToOtherUnits, bb:FeatureProvideMeansForOrderingPatientTransferToWard, bb:FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution, bb:FeatureProvideMeansForOrderingTransportServices, bb:FeatureProvideMeansForOrganizingCareerDevelopment, bb:FeatureProvideMeansForOrganizingRecruitment, bb:FeatureProvideMeansForOrganizingTraining, bb:FeatureProvideMeansForOverheadCostManagement, bb:FeatureProvideMeansForPerformanceEvaluation, bb:FeatureProvideMeansForPreparingACarePlan, bb:FeatureProvideMeansForPreparingHospitalWideStatistics, bb:FeatureProvideMeansForPreparingStatistics, bb:FeatureProvideMeansForPreparingWardRelatedStatistics, bb:FeatureProvideMeansForPreparingWorkSchedules, bb:FeatureProvideMeansForPreventiveMaintenance, bb:FeatureProvideMeansForProductCosting, bb:FeatureProvideMeansForRecruitingOfPatients, bb:FeatureProvideMeansForSchedulingAPatientSAppointment, bb:FeatureProvideMeansForSchedulingPatientsAppointments, bb:FeatureProvideMeansForStockKeeping, bb:FeatureProvideMeansForVerifyingCodingDoneInDepartments, bb:FeatureProvideOrdersForPatientRelatedDrugs, bb:FeatureProvideOrdersForPatientRelatedExaminations, bb:FeatureProvideRelativesWithInformationOnTheLocationOfAPatient, bb:FeatureProvideReminderForFulfillingOfLegalReportingRequirements, bb:FeatureProvisionOfPatientDataAndExaminationParameters, bb:FeatureReceiveBloodSamples, bb:FeatureReceiveOrders, bb:FeatureRegisteringPatients, bb:FeatureRetrievePatient, bb:FeatureScanDocuments, bb:FeatureScanningDocumentsFromReferringPhysicianAndOtherSources, bb:FeatureSearchForOldPictures, bb:FeatureSelectOrdersFromOrderSets, bb:FeatureServiceCombination, bb:FeatureServiceOrchestration, bb:FeatureSupportCreationOfANursingCarePlan, bb:FeatureValidateResults, bb:FeatureWorkScheduling, bb:FeatureWorkflowManagement, bb:FederatedDatabaseSchema, bb:FederatedDatabaseSystem, bb:FieldStudy, bb:FinancialAccounting, bb:FinancialAndControllingDepartment, bb:FinancialControlling, bb:FinancialResource, bb:FinancingOfHealthCare, bb:Finding, bb:FirstLevelSupport, bb:FirstStudyDesign, bb:FlexiblePhysicalDataProcessingSystem, bb:Food, bb:ForkLift, bb:Framework, bb:FulfillmentOfLawsRelevantToInformationManagement, bb:FulfillmentOfStrategicHospitalGoal, bb:FulfillmentOfTheExpectationsOfDifferentStakeholders, bb:FunctionalCoverageOfTheApplicationComponent, bb:FunctionalIntegration, bb:FunctionalLeanness, bb:FunctionalMetamodel, bb:FunctionalModel, bb:FunctionalPerspective, bb:FunctionalRedundancy, bb:FunctionalRedundancyRate, bb:Functionality, bb:FundingInstitution, bb:GeneralAdministrationDepartment, bb:GeneralPractice, bb:GeneralPractitioner, bb:GermanLaw, bb:GoalOfMedicalEducation, bb:GoalOfMedicalResearch, bb:GovernmentalAuthority, bb:HL7CDA, bb:HL7EventDescription, bb:HL7EventType, bb:HL7MessageHeader, bb:HL7MessageType, bb:HL7MessageTypeEventTypeCombination, bb:HL7PatientIdentification, bb:HL7PatientVisitInformation, bb:HL7ReceiptMessage, bb:HL7ReferenceInformationModel, bb:HL7Standard, bb:HL7Version2, bb:HL7Version3, bb:HL7Version3Message, bb:HairUndNailCare, bb:HardwareVendor, bb:HarmlessPhysicalDataProcessingSystem, bb:Harmlessness, bb:HealthCareInstitution, bb:HealthCareNetwork, bb:HealthCareProfessional, bb:HealthCareRegulation, bb:HealthInformationSystem, bb:HealthInsuranceCompany, bb:HealthInsurancePortabilityAndAccountabilityAct, bb:HealthcareServicesSpecificationProject, bb:HeterogeneityOfTheHISArchitecture, bb:HeterogeneousArchitecture, bb:HisArchitecture, bb:HisBenchmarking, bb:HisBenchmarkingMethod, bb:HisBudgetPlanning, bb:HisCertificate, bb:HisCertification, bb:HisComponent, bb:HisInfrastructure, bb:HisQuality, bb:HisStakeholder, bb:HomeCareInstitution, bb:HomeOfThePatient, bb:HomogeneityOfTheHISArchitecture, bb:HomogeneousArchitecture, bb:Hospital, bb:HospitalAdministration, bb:HospitalAdministrationDepartment, bb:HospitalBilling, bb:HospitalBudget, bb:HospitalBusinessPlan, bb:HospitalCost, bb:HospitalFunction, bb:HospitalInformationSystem, bb:HospitalManagement, bb:HospitalRevenue, bb:HospitalService, bb:HospitalStaff, bb:HospitalStrategy, bb:HospitalsBoardOfDirectors, bb:HumanActor, bb:HumanResource, bb:HumanResourceManagement, bb:HumanResourcesDepartment, bb:ICD10, bb:ISO14721, bb:ISO25000SoftwareQuality, bb:ISO9001, bb:ISO9241, bb:ISO9241109, bb:ISO9241110, bb:ISO9241110UserInterfaceDesignQuality, bb:ISOIEEE11073FamilyOfStandards, bb:ISOTR22221, bb:ISOTR22222, bb:Icd, bb:Icpm, bb:Id, bb:Ihe, bb:IheActor, bb:IheConnectAThon, bb:IheContentProfile, bb:IheCrossEnterpriseDocumentSharing, bb:IheDomain, bb:IheIntegrationProfile, bb:IhePatientDemographicsQuery, bb:IheTechnicalFramework, bb:IheTransaction, bb:ImagingModality, bb:ImprovingCustomerCenteredServices, bb:IncidentAnalysis, bb:IncidentManagement, bb:IncidentTaking, bb:IndependentHealthRecordBank, bb:InductiveApproach, bb:Information, bb:InformationAndCommunicationTechnology, bb:InformationAndKnowledgeLogistics, bb:InformationDesk, bb:InformationManagement, bb:InformationManagementBoard, bb:InformationManagementCost, bb:InformationManagementDepartment, bb:InformationManagementGoal, bb:InformationManagementGuideline, bb:InformationManagementInHealthCareNetworks, bb:InformationManagementInHospitals, bb:InformationManagementOperatingCost, bb:InformationManagementOrganizationalStructure, bb:InformationManagementStaff, bb:InformationProcessing, bb:InformationProcessingModel, bb:InformationProcessingTool, bb:InformationProcessingToolModelingElement, bb:InformationStorage, bb:InformationSystem, bb:InformationSystemEffectiveness, bb:InformationSystemImprovement, bb:InformationSystemMetamodel, bb:InformationSystemModel, bb:InformationSystemSafety, bb:InformedConsent, bb:InfrastructureOfAnInformationSystem, bb:Inpatient, bb:InpatientCareInstitution, bb:InpatientEHRCertification, bb:InpatientUnit, bb:InstitutionalHealthInformationSystem, bb:IntegratedCare, bb:IntegratedCareNetwork, bb:IntegratedHIS, bb:IntegratedHealthCareDeliverySystem, bb:Integration, bb:IntegrationPlatform, bb:IntegrationTechnology, bb:Integrity, bb:IntegrityOfData, bb:InternalQualityManagement, bb:InternalReportingSystem, bb:InternationalDICOMCommittee, bb:Interoperability, bb:IntregrationPlatform, bb:IntroductionCost, bb:IsoStandard, bb:Isolation, bb:IsoosiReferenceModel, bb:ItEvaluationStudy, bb:ItEvaluationStudyManagementAndExecution, bb:ItInvestmentJustification, bb:ItInvestmentPlanning, bb:ItServiceManagement, bb:ItServiceManagementStaff, bb:ItSupport, bb:Itil, bb:ItilServiceLifecycle, bb:IuKDG, bb:JointCommission, bb:JointCommissionsCertificationProgram, bb:Jpeg, bb:KeyPerformanceIndicator, bb:KhStatV, bb:Khg, bb:Khrg, bb:Knowledge, bb:KnowledgeRetrievalAndLiteratureManagement, bb:Laboratory, bb:LaboratoryFinding, bb:LaboratoryInformationSystem, bb:LaboratoryResult, bb:LaboratoryStudy, bb:Laptop, bb:Laundry, bb:LaundryManagement, bb:Law, bb:LeannessOfInformationProcessingTools, bb:LegalRequirement, bb:Library, bb:LifeCycleManagementOfStrategicInformationManagementPlan, bb:Linear, bb:LogicalNetworkTopology, bb:LogicalOperator, bb:LogicalOperatorModelingElement, bb:LogicalToolLayer, bb:Loinc, bb:LongTermArchiving, bb:LongTermHISPlanning, bb:LooselyCoupledNetwork, bb:MagneticDisc, bb:MagneticResonanceImaging, bb:MagneticTape, bb:MailServer, bb:MainframeArchitecture, bb:MaintainabilityOfHardware, bb:MaintainabilityOfSoftware, bb:MaintainablePhysicalDataProcessingSystem, bb:MaintainableServer, bb:MaintenanceCost, bb:MakingABackup, bb:MalcolmBaldrigeNationalQualityAward, bb:ManMadeSystem, bb:Management, bb:ManagementBoardBuffer, bb:ManagementDepartment, bb:ManagementEntityType, bb:ManagementOfClinicalDepartment, bb:ManagementOfEhr, bb:ManagementOfMedicalDevices, bb:ManagementOfNonClinicalDepartment, bb:ManagementOfUserAccounts, bb:ManagementUnit, bb:MasterApplicationComponent, bb:MasterPatientIndex, bb:Material, bb:MaterialAndMedicationManagement, bb:MaterialControlling, bb:Maturity, bb:MeansOfTransport, bb:MediaCrack, bb:MedicalAdmission, bb:MedicalAnamnesis, bb:MedicalAndNursingCarePlanning, bb:MedicalAndNursingKnowledge, bb:MedicalCarePlanning, bb:MedicalDataDictionary, bb:MedicalDevice, bb:MedicalDischargeAndMedicalReportWriting, bb:MedicalDocumentationSystem, bb:MedicalErrorReport, bb:MedicalGuideline, bb:MedicalInformatician, bb:MedicalKnowledge, bb:MedicalProcedure, bb:MedicalReport, bb:MedicalService, bb:Medication, bb:MemoryStick, bb:Mesh, bb:Message, bb:MessageType, bb:Metamodel, bb:MicrobiologyReport, bb:Middleware, bb:MigrationPath, bb:MixedApproach, bb:MixedDB1DBnStyle, bb:MobileComputer, bb:MobilePhone, bb:MobilePhysicalDataProcessingSystem, bb:Mobility, bb:Model, bb:ModelOfTheCurrentHIS, bb:ModelOfThePlannedHIS, bb:ModelingHospitalInformationSystems, bb:ModelingInformationSystems, bb:MonitorAndEvaluate, bb:Monitoring, bb:MonitoringOfNationalLegislation, bb:MonitoringOfNationalLocalPress, bb:MonitoringOfStandardizationAndCertificationOrganizations, bb:MonitoringOfStandardizationInitiatives, bb:MonitoringOfVitalSigns, bb:MonitoringTheProjectProgress, bb:MonolithicArchitecture, bb:Mpeg, bb:MriScanner, bb:MultifunctionalPhysicalDataProcessingSystem, bb:MultipleUsability, bb:MultipleUsabilityOfData, bb:Nanda, bb:Network, bb:NetworkManagement, bb:NetworkMonitoring, bb:NetworkStandard, bb:NetworkTopology, bb:NeutralIhrbActor, bb:Nic, bb:Noc, bb:Nomenclature, bb:NonComputerBasedApplicationComponent, bb:NonComputerBasedInformationProcessing, bb:NonComputerBasedInformationProcessingTool, bb:NonComputerBasedPhysicalDataProcessingSystem, bb:NonSignalBasedTransmittingMedium, bb:NonexperimentalStudyDesign, bb:Notification, bb:NuclearMedicineImaging, bb:Nurse, bb:NursingAdmission, bb:NursingAnamnesis, bb:NursingCarePlan, bb:NursingCarePlanning, bb:NursingCenter, bb:NursingClassification, bb:NursingDischargeAndNursingReportWriting, bb:NursingGoal, bb:NursingGuideline, bb:NursingHistory, bb:NursingManagement, bb:NursingManagementAndDocumentationSystem, bb:NursingProblem, bb:NursingProcedure, bb:NursingReport, bb:Nutrition, bb:OAIS3, bb:ObjectClass, bb:ObjectIdentity, bb:ObservationProtocol, bb:OfficesAndWritingServiceForReportWriting, bb:OncologyInformationSystem, bb:OpenEHR, bb:OpenEHRModelOfContent, bb:OpenEHRModelOfProcesses, bb:OpenEHROntology, bb:OpeningAPatientRecord, bb:Operation, bb:OperationManagementSystem, bb:OperationReport, bb:OperationRoom, bb:OperationalHISDirecting, bb:OperationalHISMonitoring, bb:OperationalHISPlanning, bb:OperationalInformationManagement, bb:OperationalInformationManagementGoal, bb:OperationalInformationManagementStaff, bb:OperationalManagementConcept, bb:OperationalizationOfMethodsAndDetailedStudyPlan, bb:OpticalFiber, bb:OpticalMedium, bb:OralAndDentalCare, bb:Order, bb:OrderCatalog, bb:OrderEntry, bb:OrderForm, bb:OrderingOfDrugs, bb:Organization, bb:OrganizationOfHealthCare, bb:OrganizationalInfrastructure, bb:OrganizationalMetamodel, bb:OrganizationalModel, bb:OrganizationalPerspective, bb:OrganizationalPlan, bb:OrganizationalSystem, bb:OrganizationalUnit, bb:OrganizationalUnitModelingElement, bb:OrganizationalUnitOfAHospital, bb:Orientation, bb:Orm, bb:OrthopedicsInformationSystem, bb:Oru, bb:Outpatient, bb:OutpatientCareInstitution, bb:OutpatientEHRCertification, bb:OutpatientManagementSystem, bb:OutpatientUnit, bb:PRINCE2, bb:Pager, bb:PaperBasedApplicationComponent, bb:PaperBasedPatientChart, bb:PaperBasedPatientRecord, bb:PaperBasedPhysicalDataProcessingSystem, bb:PastMedicalHistory, bb:Pathology, bb:PathologyInformationSystem, bb:PathologyReport, bb:Patient, bb:PatientActivityLevel, bb:PatientAdministration, bb:PatientAdministrationDepartment, bb:PatientAdministrationSystem, bb:PatientAdmission, bb:PatientAge, bb:PatientBilling, bb:PatientCare, bb:PatientCareEntityType, bb:PatientCenteredInformationProcessing, bb:PatientCentricStrategy, bb:PatientChartSystem, bb:PatientDataManagementSystem, bb:PatientDischargeAndTransferToOtherInstitutions, bb:PatientHistory, bb:PatientIdentification, bb:PatientIdentificationAndCheckingForRecurrent, bb:PatientIdentificationNumber, bb:PatientInsuranceData, bb:PatientLink, bb:PatientRecord, bb:PatientRecordArchive, bb:PatientRecordSystem, bb:PatientSatisfactionSurvey, bb:PatientState, bb:PatientTransfer, bb:PatientTransport, bb:PatientVisitInformation, bb:PatientsRelatives, bb:PayrollAccounting, bb:Pdfa, bb:Pencil, bb:Performance, bb:PerformanceOfApplicationComponents, bb:PerformanceOfLegalNotificationRequirements, bb:PerformanceOfTheApplicationComponent, bb:PerformantPhysicalDataProcessingSystem, bb:PerformantPhysicalDataProcessingSystems, bb:PerformantServer, bb:PermanentMonitoring, bb:PersonalComputer, bb:PersonalDigitalAssistant, bb:PersonalHealthRecord, bb:PersonalHygiene, bb:PertinentInformation, bb:PetriNet, bb:Pharmacy, bb:PharmacyDepartment, bb:PharmacyInformationSystem, bb:PhysicalDataProcessingSystem, bb:PhysicalIntegration, bb:PhysicalNetworkTopology, bb:PhysicalToolLayer, bb:Physician, bb:PictureArchivingAndCommunicationSystem, bb:PlanAndOrganize, bb:Planning, bb:PlanningOfBuildings, bb:PlanningOfFinances, bb:PlanningOfOrganizationalProcedures, bb:PlanningOfOrganizationalStructures, bb:PlanningOfRooms, bb:PlanningOfStaff, bb:Pmbok, bb:Portability, bb:PortfolioManagement, bb:PreliminaryOutlineOfAStudy, bb:PreparationOfAnOrder, bb:PreparationOfHealthStatistics, bb:PresentationIntegration, bb:PrintedForm, bb:PrinterServer, bb:ProblemManagement, bb:ProblemSolving, bb:Procedure, bb:ProcedureClass, bb:ProcessChain, bb:ProcessControlling, bb:ProcessIntegration, bb:Project, bb:ProjectCompletionPhase, bb:ProjectConflictManagement, bb:ProjectExecution, bb:ProjectExecutionModule, bb:ProjectInitiation, bb:ProjectInitiationPhase, bb:ProjectManagementBoard, bb:ProjectManagementMethod, bb:ProjectManager, bb:ProjectMonitoring, bb:ProjectPlan, bb:ProjectPlanning, bb:ProjectPlanningPhase, bb:ProjectPortfolio, bb:ProjectResourceAllocation, bb:ProjectResult, bb:ProjectTimeAllocation, bb:Projector, bb:ProvidingCustomerCenteredServices, bb:PublishingAndPresentation, bb:QualifiedElectronicSignature, bb:QualitativeContentAnalysis, bb:QualitativeEvaluationMethod, bb:QualitativeInterview, bb:QualitativeObservation, bb:Quality, bb:QualityAssessment, bb:QualityManagement, bb:QualityOfComputerBasedApplicationComponentsAndTheirIntegration, bb:QualityOfData, bb:QualityOfHISArchitecture, bb:QualityOfHISOutcome, bb:QualityOfHISProcesses, bb:QualityOfHISStructures, bb:QualityOfHealthCareOutcome, bb:QualityOfHealthCareProcesses, bb:QualityOfITServiceManagement, bb:QualityOfITSupport, bb:QualityOfITTraining, bb:QualityOfInformationManagement, bb:QualityOfOutcome, bb:QualityOfPatientCare, bb:QualityOfPhysicalDataProcessingSystems, bb:QualityOfProcesses, bb:QualityOfStructures, bb:QualityOfTacticalInformationManagement, bb:QualityReport, bb:QuantitativeEvaluationMethod, bb:QuantitativeQuestionnaire, bb:QuasiExperimentalStudyDesign, bb:QueueManager, bb:R01, bb:R01ORU, bb:RadiologicalExamination, bb:RadiologicalFinding, bb:RadiologyDepartment, bb:RadiologyInformationSystem, bb:RadiologyReport, bb:Radiotherapy, bb:RecommendationsForFurtherTreatment, bb:RecruitmentOfPatients, bb:RedundantComputingCenter, bb:RedundantServer, bb:ReferenceModel, bb:ReferenceModelForTheDomainLayerOfHospitalInformationSystems, bb:ReferentialIntegrity, bb:RehabilitationCenter, bb:Relative, bb:Relevancy, bb:Reliability, bb:ReliabilityOfData, bb:ReliabilityOfPhysicalDataProcesssingSystems, bb:ReliablePhysicalDataProcessingSystem, bb:ReliablePhysicalDataProcesssingSystem, bb:RemoteFunctionCall, bb:ReportAndPublicationOfStudy, bb:ReportToTheHospitalsBoardOfDirectors, bb:ReportWriting, bb:ReportingToTheCEO, bb:RepresentativeOfHospitalDepartment, bb:RequirementOfHISStakeholder, bb:ResearchAndEducation, bb:ResearchAndEducationEntityType, bb:ResearchDocument, bb:ResearchInstitution, bb:ResearchManagement, bb:Resource, bb:ReturnOnInvestmentStudy, bb:Ring, bb:RiskManagement, bb:RobotSystem, bb:RoleModelingElement, bb:Room, bb:RotaryPhone, bb:Router, bb:Sample, bb:Saps, bb:Saturation, bb:SchedulingAndResourceAllocation, bb:SchedulingAndResourcePlanningWithTheMedicalServiceUnit, bb:SchedulingAndResourcePlanningWithThePatientTransportService, bb:ScoringOfThePatient, bb:SecondLevelSupport, bb:SecurePhysicalDataProcessingSystem, bb:Security, bb:SecurityOfData, bb:SecurityOfPhysicalDataProcessingSystems, bb:SelfDescriptiveness, bb:SelfDevelopedSoftware, bb:SelfDevelopment, bb:SemanticIntegration, bb:SemistructuredInterview, bb:SeniorPhysician, bb:Server, bb:ServerCluster, bb:Service, bb:ServiceAssetManagement, bb:ServiceCatalog, bb:ServiceDesign, bb:ServiceDeskManagement, bb:ServiceDeskStaff, bb:ServiceOperation, bb:ServiceStrategy, bb:ServiceTransition, bb:Sgbv, bb:SheetOfPaper, bb:ShortTermHISPlanning, bb:SigG, bb:SignalBasedTransmittingMedium, bb:SingleSignOn, bb:SkinCare, bb:Snomed, bb:Soa, bb:SoaService, bb:SocialContact, bb:SocialHistory, bb:SocioTechnicalSystem, bb:SoftwareDevelopment, bb:SoftwareErgonomics, bb:SoftwareProduct, bb:SoftwareQuality, bb:SoftwareVendor, bb:Source, bb:Specialization, bb:Stability, bb:StabilityOfApplicationComponents, bb:StablePhysicalDataProcessingSystem, bb:StableServer, bb:StaffControlling, bb:StaffCost, bb:Standard, bb:StandardizationByCEN, bb:StandardizationOfComputerSystems, bb:StandardizationOfData, bb:StandardizationOfHISArchitecture, bb:StandardizationOfInterfaces, bb:StandardizedPhysicalDataProcessingSystem, bb:StandardizedPhysicalDataProcessingSystems, bb:Star, bb:StatisticalEvaluationOfPatientData, bb:StorageAreaNetwork, bb:StorageMedium, bb:StrategicAlignment, bb:StrategicAlignmentModel, bb:StrategicDecision, bb:StrategicGoalOfTheInstitution, bb:StrategicGoalOfTheNetwork, bb:StrategicHISDirecting, bb:StrategicHISMonitoring, bb:StrategicHISMonitoringResult, bb:StrategicHISPlanning, bb:StrategicHospitalGoal, bb:StrategicInformationManagement, bb:StrategicInformationManagementGoal, bb:StrategicInformationManagementPlan, bb:StructuralQualityAssessment, bb:Study, bb:StudyDesign, bb:StudyExploration, bb:StudyHypothesis, bb:StudyObjective, bb:StudyOutline, bb:StudyParticipant, bb:StudyPlan, bb:StudyReport, bb:StudyResult, bb:SubInformationSystem, bb:Subsystem, bb:SuitabilityForIndividualization, bb:SuitabilityForLearning, bb:SuitabilityForTheTask, bb:SupplyAndDisposalManagement, bb:SupportCost, bb:Surgeon, bb:Sustainability, bb:Switch, bb:SwotAnalysis, bb:SynchronousCommunication, bb:System, bb:SystemAnalysis, bb:SystemEvaluation, bb:SystemIntroduction, bb:SystemOfConcepts, bb:SystemSelection, bb:SystemSpecification, bb:SystematicInformationProcessing, bb:SystemsReview, bb:T3ApplicationServer, bb:T3DatabaseServer, bb:TabletPC, bb:TacticalHISDirecting, bb:TacticalHISMonitoring, bb:TacticalHISPlanning, bb:TacticalInformationManagement, bb:TansCriticalSuccessFactorApproach, bb:TechnicalMetamodel, bb:TechnicalModel, bb:TechnicalStaff, bb:Teleconsultation, bb:Telemicroscopy, bb:Teleradiology, bb:TeleradiologySystem, bb:Terminal, bb:TerminalServer, bb:TheProviderCentricStrategy, bb:TheRegionalOrNationalCentricStrategy, bb:TheStrategyOfIndependentHealthBanks, bb:TherapeuticDepartment, bb:TherapeuticProcedure, bb:TherapeuticService, bb:TherapeuticStandard, bb:ThirdLevelSupport, bb:ThirdPartyFund, bb:ThrombosisProphylaxis, bb:Tiff, bb:TimeMeasurement, bb:TimeMotionAnalysis, bb:Tiss, bb:TokenRing, bb:TopManagement, bb:TransactionManagementTechnology, bb:Transcription, bb:Transfer, bb:TransferDiagnosis, bb:TransinstitutionalHealthCareFunction, bb:TransinstitutionalHealthInformationSystem, bb:TransmittingMedium, bb:Transparency, bb:TreatmentText, bb:Tree, bb:TroubleShootingInItServiceManagement, bb:Typewriter, bb:Ultrasound, bb:UmlAbstractClass, bb:UmlActivityDiagram, bb:UmlAssociation, bb:UmlAssociationClass, bb:UmlAttribute, bb:UmlClass, bb:UmlClassDiagram, bb:UmlMethod, bb:Umls, bb:UniversityMedicalCenter, bb:UnstructuredInterview, bb:UpToDateInformation, bb:UpToDatePhysicalDataProcessingSystem, bb:UpdatingTheStrategicInformationManagementPlan, bb:UsLaw, bb:Usability, bb:UsabilityOfPhysicalDataProcessingSystems, bb:UsabilityStudy, bb:UsablePhysicalDataProcessingSystem, bb:UsablePhysicalDataProcessingSystems, bb:UseOfStrategicInformationManagementPlan, bb:UserRequirementsAnalysis, bb:UserSatisfaction, bb:UserSurvey, bb:UserTraining, bb:UtilityAnalysis, bb:V1Style, bb:Vendor, bb:VendorStyle, bb:VideoConferencingSystem, bb:ViewPatientRelatedAppointments, bb:VirtualPrivateNetwork, bb:VirtualServer, bb:Virtualization, bb:VisitorAndInformationService, bb:VitalSign, bb:VnStyle, bb:Ward, bb:WardPhysician, bb:WebServer, bb:WorkOrganizationAndTimeManagement, bb:WorkSampling, bb:WorkingList, bb:Workstation, bb:WoundCare, bb:WoundTreatment, bb:WrittenAgreementOnTheStudyOutline, bb:Xml, bb:acceptance, bb:admittingPhysician, bb:careComprisedGroupsOfPatients, bb:careCoordinationOfCareProcess, bb:case, bb:chapter, bb:cin, bb:conceptDomain, bb:deadline, bb:degreeOfNormativity, bb:duration, bb:icdCode, bb:insurance, bb:isHeterogeneous, bb:isHomogeneous, bb:location, bb:managementFinancingForm, bb:managementLegalForm, bb:managementOpenness, bb:officialUserGroup, bb:page, bb:pin, bb:priority, bb:relative, bb:responsiblePerson, bb:structureConfiguration, bb:structureRange, bb:structureSize, bb:structureStability, bb:temporalDevelopmentStage, bb:temporalLifeSpan, bb:tripelPage, bb:tripelRowNr, bb:upToDateness, bb:usageDescription ;
+    ov:defines <bb/199993EG>, <bb/1TierArchitecture>, <bb/2PhaseCommitProtocol>, <bb/2TierArchitecture>, <bb/3LGM2>, <bb/3LGM2ApplicationComponent>, <bb/3LGM2B>, <bb/3LGM2CommunicationInterface>, <bb/3LGM2CommunicationLink>, <bb/3LGM2ComputerBasedApplicationComponent>, <bb/3LGM2DataTransmissionConnection>, <bb/3LGM2DomainLayer>, <bb/3LGM2EnterpriseFunction>, <bb/3LGM2EntityType>, <bb/3LGM2InformationProcess>, <bb/3LGM2InterlayerRelationship>, <bb/3LGM2IntralayerRelationship>, <bb/3LGM2Location>, <bb/3LGM2LogicalToolLayer>, <bb/3LGM2M>, <bb/3LGM2MCommunicationStandard>, <bb/3LGM2MMessageType>, <bb/3LGM2MessageType>, <bb/3LGM2OrganizationalSystem>, <bb/3LGM2OrganizationalUnit>, <bb/3LGM2PhysicalDataProcessingSystem>, <bb/3LGM2PhysicalToolLayer>, <bb/3LGM2ReceivingInterface>, <bb/3LGM2S>, <bb/3LGM2SInvokingInterface>, <bb/3LGM2SProvidingInterface>, <bb/3LGM2SService>, <bb/3LGM2SServiceClass>, <bb/3LGM2SendingInterface>, <bb/3LGM2SoftwareProduct>, <bb/3LGM2Support>, <bb/3LGM2Tool>, <bb/3LGM2ToolClass>, <bb/3LGM2TransmittingMedium>, <bb/3LGM2Use>, <bb/3TierArchitecture>, bb:A01, bb:A02, bb:A03, bb:AC1Style, bb:ACnStyle, bb:AccessControlManagement, bb:AccessControlSystem, bb:AccessIntegration, bb:Accuracy, bb:Acid, bb:AcquireAndImplement, bb:Activity, bb:ActivityModelingElement, bb:AdHocMonitoring, bb:Adaptability, bb:AdaptabilityOfTheHIS, bb:AdaptationCost, bb:Administration, bb:AdministrationAndAllocationOfPatientRecords, bb:AdministrationManagement, bb:AdministrationOfBusinessTripsAndFurtherTraining, bb:AdministrationOfHumanResourceMasterData, bb:AdministrativeAdmission, bb:AdministrativeDischargeAndBilling, bb:AdministrativeEntityType, bb:AdministrativeGuideline, bb:AdministrativePatientData, bb:AdministrativeStaff, bb:AdministrativeSticker, bb:AdmissionDiagnosis, bb:AdoptionOfProjectResult, bb:Adt, bb:AnalysisAndAssessmentOfTheCurrentHISState, bb:AnnualHospitalOperatingCost, bb:AnnualITBudget, bb:ApplicationComponent, bb:ApplicationComponentStyle, bb:ApplicationPortfolio, bb:ApplicationServer, bb:Appointment, bb:AppointmentScheduling, bb:AppropriatePhysicalDataProcessingSystem, bb:Appropriateness, bb:ApprovalToAStudy, bb:ApprovalToStrategicInformationManagementPlan, bb:ArchitecturalStyle, bb:ArchitecturalStyleOfTheLogicalToolLayer, bb:ArchitecturalStyleOfThePhysicalToolLayer, bb:ArchitectureOfAnInformationSystem, bb:Archiving, bb:ArchivingOfPatientInformation, bb:ArtificialSystem, bb:Ascii, bb:AssetAccounting, bb:AsynchronousCommunication, bb:Atc, bb:Atomicity, bb:AuthenticityOfData, bb:AvailabilityOfApplicationComponents, bb:AvailabilityOfData, bb:AvailabilityOfTheApplicationComponent, bb:AvailablePhysicalDataProcessingSystem, bb:AvailableServer, bb:BPflV, bb:Backbone, bb:BalanceOfComputerBasedAndNonComputerBasedTools, bb:BalanceOfDataSecurityAndWorkingProcesses, bb:BalanceOfDocumentationQualityAndDocumentationEfforts, bb:BalanceOfFunctionalLeannessAndFunctionalRedundancy, bb:BalanceOfHomegeneityAndHeterogeneity, bb:BalancedNetwork, bb:Bar, bb:Bdsg, bb:Bed, bb:BedOccupation, bb:BehavioralPerspective, bb:Benchmarking, bb:BestOfBreedArchitecture, bb:BestPracticeBenchmark, bb:Bill, bb:BillingOfAccountableServices, bb:BloodBank, bb:BloodBankManagementSystem, bb:BodyWashing, bb:Book, bb:Bus, bb:BusinessIntelligenceSystem, bb:BusinessProcess, bb:BusinessProcessMetamodel, bb:BusinessProcessModel, bb:BusinessProcessReferenceModel, bb:BusinessReferenceModel, bb:BusinessStrategy, bb:CP1Style, bb:CPnStyle, bb:Car, bb:CardiovascularInformationSystem, bb:Case, bb:CaseMixIndex, bb:CaseStudy, bb:Catering, bb:Cchit, bb:CchitFunctionalCriterion, bb:Ccow, bb:CcowStandard, bb:Cda, bb:Cdrom, bb:Cen, bb:CentralizedComputingCenter, bb:CertifiabilityOfPhysicalDataProcessingSystems, bb:CertifiabilityOfSoftware, bb:CertifiablePhysicalDataProcessingSystem, bb:Certification, bb:CertificationByCCHIT, bb:CertificationByEuroRec, bb:CertificationByISO, bb:CertifiedPhysicalDataProcessingSystem, bb:ChangeManagement, bb:ChemotherapeuticTreatment, bb:ChiefExecutiveOfficer, bb:ChiefFinancialOfficer, bb:ChiefInformationOfficer, bb:ClassDiagram, bb:Classification, bb:ClassificationOfDiagnoses, bb:ClassificationOfProcedures, bb:Client, bb:ClientServerArchitecture, bb:ClinicalChemistryReport, bb:ClinicalDataWarehouse, bb:ClinicalDepartment, bb:ClinicalDocumentation, bb:ClinicalInformationSystem, bb:ClinicalPathway, bb:ClinicalResearch, bb:ClinicalTrial, bb:CloseToHierarchyNetwork, bb:Cluster, bb:Cobit, bb:CobitProcess, bb:CodingOfDiagnoses, bb:CodingOfDiagnosesAndProcedures, bb:CodingOfProcedures, bb:CodingSystem, bb:CommunicateDocumentsToOtherApplications, bb:CommunicateReportToOrderingUnit, bb:Communication, bb:CommunicationAbility, bb:CommunicationInterface, bb:CommunicationLink, bb:CommunicationNetwork, bb:CommunicationPattern, bb:CommunicationProtocol, bb:CommunicationServer, bb:CommunicationStandard, bb:Complaint, bb:Completeness, bb:ComponentAlignmentModelOfMartin, bb:ComputedTomography, bb:ComputerBasedApplicationComponent, bb:ComputerBasedInformationProcessing, bb:ComputerBasedInformationSystem, bb:ComputerBasedNursingForm, bb:ComputerBasedPhysicalDataProcessingSystem, bb:ComputerBasedTool, bb:ComputerNetwork, bb:ComputerSupportedInformationSystem, bb:ComputerSystem, bb:ComputerizedPhysicianOrderEntrySystem, bb:ComputingCenter, bb:ComputingCenterManager, bb:Confidentiality, bb:ConfigurationManagement, bb:ConformityWithUserExpectations, bb:ConsensusMethod, bb:Consistency, bb:Consultant, bb:ContextualIntegration, bb:ContinualServiceImprovement, bb:ContinuousHISAuditing, bb:ContinuousQualityImprovementProcess, bb:Controllability, bb:ControlledRedundancyOfData, bb:ControlledTranscriptionOfData, bb:Controlling, bb:ControllingReport, bb:ConvergingTechnologies, bb:CopperCable, bb:CorrectInformation, bb:CostAccounting, bb:CostBenefitAnalysis, bb:CostEffectivenessAnalysis, bb:CostOfTreatment, bb:CostUnit, bb:CreationOfStrategicInformationManagementPlan, bb:CreditAccounting, bb:CrossEnterpriseDocumentSharing, bb:CtScanner, bb:Customizing, bb:DB1Style, bb:DBnStyle, bb:Data, bb:DataCollectionEffort, bb:DataIntegration, bb:DataMetamodel, bb:DataModel, bb:DataProtection, bb:DataReferenceModel, bb:DataSecurity, bb:DataSecurityOfficer, bb:DataTransmissionConnection, bb:DataWarehouseSystem, bb:DatabaseServer, bb:DatabaseStyle, bb:DatabaseSystem, bb:DebtorAccounting, bb:DecisionMakingAndPatientInformation, bb:DecisionMakingPlanningAndOrganizationOfPatientTreatment, bb:DecisionSupportSystem, bb:Decomposition, bb:DecubitusProphylaxis, bb:DeductiveApproach, bb:DefinitionEN, bb:DegreeOfComputerSupport, bb:DeliverAndSupport, bb:DeliveringOfCustomerCenteredServices, bb:DelphiSurvey, bb:DepartmentOfFacilityManagement, bb:DepartmentOfQualityManagement, bb:DepartmentalSystemAdministrator, bb:DeploymentOfStrategicInformationManagementPlan, bb:DescriptionOfTheCurrentHISState, bb:DescriptionOfThePlannedHISState, bb:DesigningCustomerCenteredServices, bb:DhcpServer, bb:Diagnosis, bb:DiagnosisClass, bb:DiagnosticProcedure, bb:DiagnosticService, bb:DiagnosticStandard, bb:DialysisInformationSystem, bb:DicomFileFormat, bb:DicomMessageFormat, bb:DicomNetworkProtocol, bb:DicomService, bb:DicomStandard, bb:Diet, bb:DigitalDictationSystem, bb:DigitalImage, bb:DigitalXRay, bb:Directing, bb:DirectiveForHISConstruction, bb:DischargeSummary, bb:DiseaseManagement, bb:DnsServer, bb:DocumentArchivingSystem, bb:DocumentStandard, bb:DoubleExamination, bb:Drg, bb:DrgCalculation, bb:Drug, bb:DrugService, bb:Durability, bb:EMailCommunication, bb:EN12538, bb:EN12539, bb:EN1613, bb:EconomicAnalysis, bb:Edifact, bb:Education, bb:EducationResearch, bb:EffectivenessStudy, bb:Efficiency, bb:EfficiencyOfInformationLogistics, bb:EfqmExcellenceModel, bb:EhrStrategy, bb:ElectronicHealthRecord, bb:ElectronicPatientRecord, bb:EncryptionSoftware, bb:EnterpriseFunction, bb:EnterpriseFunctionModelingElement, bb:EnterpriseOrganizationalStructure, bb:EnterpriseResourcePlanningSystem, bb:EntityType, bb:EntityTypeModelingElement, bb:EntityTypeRelation, bb:EntityTypeRelationModelingElement, bb:ErrorTolerance, bb:EstablishAndPromoteTheStrategicInformationManagementPlan, bb:EstablishingReferentialIntegrity, bb:Ethernet, bb:EuroRec, bb:EuroRecEHRQualitySeal, bb:EuropeanNorm, bb:Evaluation, bb:EvaluationMethod, bb:Event, bb:EventCountingStudy, bb:EventDrivenProcessChain, bb:EventModelingElement, bb:Excretion, bb:ExecutionOfAQuantitativeStudy, bb:ExecutionOfAnITEvaluationStudy, bb:ExecutionOfAnOperation, bb:ExecutionOfChemotheraphy, bb:ExecutionOfClinicalTrials, bb:ExecutionOfClinicalTrialsAndExperiments, bb:ExecutionOfDiagnosticAndTherapeuticProcedures, bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures, bb:ExecutionOfIrradiation, bb:ExecutionOfLabExaminations, bb:ExecutionOfNursingProcedures, bb:ExecutionOfProphylaxis, bb:ExecutionOfRadiologicalProcedures, bb:ExperimentalStudyDesign, bb:Extent, bb:ExternalFinding, bb:FacilityAndArea, bb:FacilityManagement, bb:FailureManagement, bb:FamilyHistory, bb:FaxMachine, bb:Feature, bb:FeatureAdministrateTheMasterPatientIndex, bb:FeatureAdmitPatientsToTheWard, bb:FeatureAnalyzeData, bb:FeatureArchivePictures, bb:FeatureAssignDoctorsToPatientsOrRooms, bb:FeatureAssignOrderAndBloodSamplesToDevices, bb:FeatureAssignOrdersToModalities, bb:FeatureAssignPatientsToModalities, bb:FeatureAssignPatientsToRoomsAndBeds, bb:FeatureAssignStaffToPatientsOrOutpatientUnits, bb:FeatureAssignStaffToPatientsOrRooms, bb:FeatureAttachDigitalSignatures, bb:FeatureCalculateDosageOfDrugs, bb:FeatureCollectResultsFromDevices, bb:FeatureCommunicateDischargeInformation, bb:FeatureCommunicatePictures, bb:FeatureCreateWorklistForAGroupOfPatients, bb:FeatureCreatingARoster, bb:FeatureCreationOfRadiologyReports, bb:FeatureDisplayEarlierLabResultsOfAPatient, bb:FeatureDisplayPictures, bb:FeatureDisplayVitalParametersFromMonitoringDevices, bb:FeatureDisplayWarningMessages, bb:FeatureImportDocuments, bb:FeatureIndexDocumentContent, bb:FeatureIntegrateDataFromDifferentApplicationComponents, bb:FeatureManageModalities, bb:FeatureManageStorageFormats, bb:FeatureManageStorageMedia, bb:FeatureMergePatientInformationFromTwoRecords, bb:FeatureMessageQueuing, bb:FeatureModifyPresentationOfPictures, bb:FeatureMulticasting, bb:FeatureOfferDecisionSupportForCarePlanning, bb:FeatureOrganizePatientTransport, bb:FeaturePrepareReport, bb:FeaturePreparingStatistics, bb:FeaturePrintForms, bb:FeaturePrintReports, bb:FeaturePrintingOfLabels, bb:FeatureProvideACollectionOfInternalProcessesAndRegulations, bb:FeatureProvideAccessToArchivedInformation, bb:FeatureProvideCatalogsAndOtherMeansForCodingOfNursingDiagnosis, bb:FeatureProvideCatalogsAndOtherMeansForCodingOfNursingProcedures, bb:FeatureProvideCatalogsAndOtherMeansForCodingPatientRelatedProcedures, bb:FeatureProvideCatalogsAndOtherMeansForCodingPatientsDiagnoses, bb:FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalDiagnoses, bb:FeatureProvideCatalogsAndOtherMeansForCodingRadiologicalProcedures, bb:FeatureProvideContextRelatedMedicalKnowledge, bb:FeatureProvideDrugCatalogs, bb:FeatureProvideFormsForClinicalReports, bb:FeatureProvideFormsForDocumentingClinicalProcedures, bb:FeatureProvideFormsForDocumentingDiagnosis, bb:FeatureProvideFormsForDocumentingDiagnosisAndProblems, bb:FeatureProvideFormsForDocumentingMedicalAnamnesis, bb:FeatureProvideFormsForDocumentingMedications, bb:FeatureProvideFormsForDocumentingNursingAims, bb:FeatureProvideFormsForDocumentingNursingTasks, bb:FeatureProvideFormsForDocumentingPatientsInformedConsent, bb:FeatureProvideFormsForDocumentingPerformedTasks, bb:FeatureProvideFormsForDocumentingPlannedTasks, bb:FeatureProvideFormsForDocumentingProceduresAndOutcomes, bb:FeatureProvideFormsForDocumentingTheNursingHistory, bb:FeatureProvideFormsForDocumentingTheOutcomeOfNursingTasks, bb:FeatureProvideFormsForEnteringClinicalData, bb:FeatureProvideFormsForEnteringOrUpdatingPatientAdministrativeInformation, bb:FeatureProvideFormsForPatientsInformedConsent, bb:FeatureProvideFormsForPreparingABillForThePatientInsurance, bb:FeatureProvideFormsForPreparingClinicalReports, bb:FeatureProvideFormsForPreparingOperationReports, bb:FeatureProvideFormsForWritingAReport, bb:FeatureProvideFormsForWritingATransferLetterOrDischargeReport, bb:FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport, bb:FeatureProvideFormsForWritingTheDischargeReport, bb:FeatureProvideFormsForWritingTheNursingDischargeReport, bb:FeatureProvideGuidelinesForCarePlanning, bb:FeatureProvideGuidelinesForTreatmentPlanning, bb:FeatureProvideMeansForAccountsPayable, bb:FeatureProvideMeansForAccountsReceivable, bb:FeatureProvideMeansForAssetAccounting, bb:FeatureProvideMeansForCheckInOfPatient, bb:FeatureProvideMeansForControlOfSecurityIssues, bb:FeatureProvideMeansForCostCenterAccounting, bb:FeatureProvideMeansForCostElementAccounting, bb:FeatureProvideMeansForCreatingARoster, bb:FeatureProvideMeansForCreatingOperationPlans, bb:FeatureProvideMeansForCreatingStatistics, bb:FeatureProvideMeansForDataMining, bb:FeatureProvideMeansForEditingAndGraphicallyIllustratingCollectionsOfInternalProcessesAndRegulations, bb:FeatureProvideMeansForFinalizingDocumentation, bb:FeatureProvideMeansForFinalizingNursingDocumentation, bb:FeatureProvideMeansForGeneralLedgerAccounting, bb:FeatureProvideMeansForIncidentTracking, bb:FeatureProvideMeansForInitiatingFinalBillingForOutpatientTreatment, bb:FeatureProvideMeansForInitiationOfFinalBilling, bb:FeatureProvideMeansForManagingAndMonitoringDisposal, bb:FeatureProvideMeansForManagingAppointments, bb:FeatureProvideMeansForManagingLogistics, bb:FeatureProvideMeansForManagingMedicalDevices, bb:FeatureProvideMeansForManagingOutpatientUnitsStaff, bb:FeatureProvideMeansForManagingRooms, bb:FeatureProvideMeansForManagingWardStaff, bb:FeatureProvideMeansForMinimizingAdverseDrugEvents, bb:FeatureProvideMeansForOrderManagement, bb:FeatureProvideMeansForOrderingConsumables, bb:FeatureProvideMeansForOrderingDrugs, bb:FeatureProvideMeansForOrderingDrugsMaterialsAndLaundry, bb:FeatureProvideMeansForOrderingLaundry, bb:FeatureProvideMeansForOrderingPatientTransferToOtherUnits, bb:FeatureProvideMeansForOrderingPatientTransferToWard, bb:FeatureProvideMeansForOrderingPatientTransferWithinTheInstitution, bb:FeatureProvideMeansForOrderingTransportServices, bb:FeatureProvideMeansForOrganizingCareerDevelopment, bb:FeatureProvideMeansForOrganizingRecruitment, bb:FeatureProvideMeansForOrganizingTraining, bb:FeatureProvideMeansForOverheadCostManagement, bb:FeatureProvideMeansForPerformanceEvaluation, bb:FeatureProvideMeansForPreparingACarePlan, bb:FeatureProvideMeansForPreparingHospitalWideStatistics, bb:FeatureProvideMeansForPreparingStatistics, bb:FeatureProvideMeansForPreparingWardRelatedStatistics, bb:FeatureProvideMeansForPreparingWorkSchedules, bb:FeatureProvideMeansForPreventiveMaintenance, bb:FeatureProvideMeansForProductCosting, bb:FeatureProvideMeansForRecruitingOfPatients, bb:FeatureProvideMeansForSchedulingAPatientSAppointment, bb:FeatureProvideMeansForSchedulingPatientsAppointments, bb:FeatureProvideMeansForStockKeeping, bb:FeatureProvideMeansForVerifyingCodingDoneInDepartments, bb:FeatureProvideOrdersForPatientRelatedDrugs, bb:FeatureProvideOrdersForPatientRelatedExaminations, bb:FeatureProvideRelativesWithInformationOnTheLocationOfAPatient, bb:FeatureProvideReminderForFulfillingOfLegalReportingRequirements, bb:FeatureProvisionOfPatientDataAndExaminationParameters, bb:FeatureReceiveBloodSamples, bb:FeatureReceiveOrders, bb:FeatureRegisteringPatients, bb:FeatureRetrievePatient, bb:FeatureScanDocuments, bb:FeatureScanningDocumentsFromReferringPhysicianAndOtherSources, bb:FeatureSearchForOldPictures, bb:FeatureSelectOrdersFromOrderSets, bb:FeatureServiceCombination, bb:FeatureServiceOrchestration, bb:FeatureSupportCreationOfANursingCarePlan, bb:FeatureValidateResults, bb:FeatureWorkScheduling, bb:FeatureWorkflowManagement, bb:FederatedDatabaseSchema, bb:FederatedDatabaseSystem, bb:FieldStudy, bb:FinancialAccounting, bb:FinancialAndControllingDepartment, bb:FinancialControlling, bb:FinancialResource, bb:FinancingOfHealthCare, bb:Finding, bb:FirstLevelSupport, bb:FirstStudyDesign, bb:FlexiblePhysicalDataProcessingSystem, bb:Food, bb:ForkLift, bb:Framework, bb:FulfillmentOfLawsRelevantToInformationManagement, bb:FulfillmentOfStrategicHospitalGoal, bb:FulfillmentOfTheExpectationsOfDifferentStakeholders, bb:FunctionalCoverageOfTheApplicationComponent, bb:FunctionalIntegration, bb:FunctionalLeanness, bb:FunctionalMetamodel, bb:FunctionalModel, bb:FunctionalPerspective, bb:FunctionalRedundancy, bb:FunctionalRedundancyRate, bb:Functionality, bb:FundingInstitution, bb:GeneralAdministrationDepartment, bb:GeneralPractice, bb:GeneralPractitioner, bb:GermanLaw, bb:GoalOfMedicalEducation, bb:GoalOfMedicalResearch, bb:GovernmentalAuthority, bb:HL7CDA, bb:HL7EventDescription, bb:HL7EventType, bb:HL7MessageHeader, bb:HL7MessageType, bb:HL7MessageTypeEventTypeCombination, bb:HL7PatientIdentification, bb:HL7PatientVisitInformation, bb:HL7ReceiptMessage, bb:HL7ReferenceInformationModel, bb:HL7Standard, bb:HL7Version2, bb:HL7Version3, bb:HL7Version3Message, bb:HairUndNailCare, bb:HardwareVendor, bb:HarmlessPhysicalDataProcessingSystem, bb:Harmlessness, bb:HealthCareInstitution, bb:HealthCareNetwork, bb:HealthCareProfessional, bb:HealthCareRegulation, bb:HealthInformationSystem, bb:HealthInsuranceCompany, bb:HealthInsurancePortabilityAndAccountabilityAct, bb:HealthcareServicesSpecificationProject, bb:HeterogeneityOfTheHISArchitecture, bb:HeterogeneousArchitecture, bb:HisArchitecture, bb:HisBenchmarking, bb:HisBenchmarkingMethod, bb:HisBudgetPlanning, bb:HisCertificate, bb:HisCertification, bb:HisComponent, bb:HisInfrastructure, bb:HisQuality, bb:HisStakeholder, bb:HomeCareInstitution, bb:HomeOfThePatient, bb:HomogeneityOfTheHISArchitecture, bb:HomogeneousArchitecture, bb:Hospital, bb:HospitalAdministration, bb:HospitalAdministrationDepartment, bb:HospitalBilling, bb:HospitalBudget, bb:HospitalBusinessPlan, bb:HospitalCost, bb:HospitalFunction, bb:HospitalInformationSystem, bb:HospitalManagement, bb:HospitalRevenue, bb:HospitalService, bb:HospitalStaff, bb:HospitalStrategy, bb:HospitalsBoardOfDirectors, bb:HumanActor, bb:HumanResource, bb:HumanResourceManagement, bb:HumanResourcesDepartment, bb:ICD10, bb:ISO14721, bb:ISO25000SoftwareQuality, bb:ISO9001, bb:ISO9241, bb:ISO9241109, bb:ISO9241110, bb:ISO9241110UserInterfaceDesignQuality, bb:ISOIEEE11073FamilyOfStandards, bb:ISOTR22221, bb:ISOTR22222, bb:Icd, bb:Icpm, bb:Id, bb:Ihe, bb:IheActor, bb:IheConnectAThon, bb:IheContentProfile, bb:IheCrossEnterpriseDocumentSharing, bb:IheDomain, bb:IheIntegrationProfile, bb:IhePatientDemographicsQuery, bb:IheTechnicalFramework, bb:IheTransaction, bb:ImagingModality, bb:ImprovingCustomerCenteredServices, bb:IncidentAnalysis, bb:IncidentManagement, bb:IncidentTaking, bb:IndependentHealthRecordBank, bb:InductiveApproach, bb:Information, bb:InformationAndCommunicationTechnology, bb:InformationAndKnowledgeLogistics, bb:InformationDesk, bb:InformationManagement, bb:InformationManagementBoard, bb:InformationManagementCost, bb:InformationManagementDepartment, bb:InformationManagementGoal, bb:InformationManagementGuideline, bb:InformationManagementInHealthCareNetworks, bb:InformationManagementInHospitals, bb:InformationManagementOperatingCost, bb:InformationManagementOrganizationalStructure, bb:InformationManagementStaff, bb:InformationProcessing, bb:InformationProcessingModel, bb:InformationProcessingTool, bb:InformationProcessingToolModelingElement, bb:InformationStorage, bb:InformationSystem, bb:InformationSystemEffectiveness, bb:InformationSystemImprovement, bb:InformationSystemMetamodel, bb:InformationSystemModel, bb:InformationSystemSafety, bb:InformedConsent, bb:InfrastructureOfAnInformationSystem, bb:Inpatient, bb:InpatientCareInstitution, bb:InpatientEHRCertification, bb:InpatientUnit, bb:InstitutionalHealthInformationSystem, bb:IntegratedCare, bb:IntegratedCareNetwork, bb:IntegratedHIS, bb:IntegratedHealthCareDeliverySystem, bb:Integration, bb:IntegrationPlatform, bb:IntegrationTechnology, bb:Integrity, bb:IntegrityOfData, bb:InternalQualityManagement, bb:InternalReportingSystem, bb:InternationalDICOMCommittee, bb:Interoperability, bb:IntregrationPlatform, bb:IntroductionCost, bb:IsoStandard, bb:Isolation, bb:IsoosiReferenceModel, bb:ItEvaluationStudy, bb:ItEvaluationStudyManagementAndExecution, bb:ItInvestmentJustification, bb:ItInvestmentPlanning, bb:ItServiceManagement, bb:ItServiceManagementStaff, bb:ItSupport, bb:Itil, bb:ItilServiceLifecycle, bb:IuKDG, bb:JointCommission, bb:JointCommissionsCertificationProgram, bb:Jpeg, bb:KeyPerformanceIndicator, bb:KhStatV, bb:Khg, bb:Khrg, bb:Knowledge, bb:KnowledgeRetrievalAndLiteratureManagement, bb:Laboratory, bb:LaboratoryFinding, bb:LaboratoryInformationSystem, bb:LaboratoryResult, bb:LaboratoryStudy, bb:Laptop, bb:Laundry, bb:LaundryManagement, bb:Law, bb:LeannessOfInformationProcessingTools, bb:LegalRequirement, bb:Library, bb:LifeCycleManagementOfStrategicInformationManagementPlan, bb:Linear, bb:LogicalNetworkTopology, bb:LogicalOperator, bb:LogicalOperatorModelingElement, bb:LogicalToolLayer, bb:Loinc, bb:LongTermArchiving, bb:LongTermHISPlanning, bb:LooselyCoupledNetwork, bb:MagneticDisc, bb:MagneticResonanceImaging, bb:MagneticTape, bb:MailServer, bb:MainframeArchitecture, bb:MaintainabilityOfHardware, bb:MaintainabilityOfSoftware, bb:MaintainablePhysicalDataProcessingSystem, bb:MaintainableServer, bb:MaintenanceCost, bb:MakingABackup, bb:MalcolmBaldrigeNationalQualityAward, bb:ManMadeSystem, bb:Management, bb:ManagementBoardBuffer, bb:ManagementDepartment, bb:ManagementEntityType, bb:ManagementOfClinicalDepartment, bb:ManagementOfEhr, bb:ManagementOfMedicalDevices, bb:ManagementOfNonClinicalDepartment, bb:ManagementOfUserAccounts, bb:ManagementUnit, bb:MasterApplicationComponent, bb:MasterPatientIndex, bb:Material, bb:MaterialAndMedicationManagement, bb:MaterialControlling, bb:Maturity, bb:MeansOfTransport, bb:MediaCrack, bb:MedicalAdmission, bb:MedicalAnamnesis, bb:MedicalAndNursingCarePlanning, bb:MedicalAndNursingKnowledge, bb:MedicalCarePlanning, bb:MedicalDataDictionary, bb:MedicalDevice, bb:MedicalDischargeAndMedicalReportWriting, bb:MedicalDocumentationSystem, bb:MedicalErrorReport, bb:MedicalGuideline, bb:MedicalInformatician, bb:MedicalKnowledge, bb:MedicalProcedure, bb:MedicalReport, bb:MedicalService, bb:Medication, bb:MemoryStick, bb:Mesh, bb:Message, bb:MessageType, bb:Metamodel, bb:MicrobiologyReport, bb:Middleware, bb:MigrationPath, bb:MixedApproach, bb:MixedDB1DBnStyle, bb:MobileComputer, bb:MobilePhone, bb:MobilePhysicalDataProcessingSystem, bb:Mobility, bb:Model, bb:ModelOfTheCurrentHIS, bb:ModelOfThePlannedHIS, bb:ModelingHospitalInformationSystems, bb:ModelingInformationSystems, bb:MonitorAndEvaluate, bb:Monitoring, bb:MonitoringOfNationalLegislation, bb:MonitoringOfNationalLocalPress, bb:MonitoringOfStandardizationAndCertificationOrganizations, bb:MonitoringOfStandardizationInitiatives, bb:MonitoringOfVitalSigns, bb:MonitoringTheProjectProgress, bb:MonolithicArchitecture, bb:Mpeg, bb:MriScanner, bb:MultifunctionalPhysicalDataProcessingSystem, bb:MultipleUsability, bb:MultipleUsabilityOfData, bb:Nanda, bb:Network, bb:NetworkManagement, bb:NetworkMonitoring, bb:NetworkStandard, bb:NetworkTopology, bb:NeutralIhrbActor, bb:Nic, bb:Noc, bb:Nomenclature, bb:NonComputerBasedApplicationComponent, bb:NonComputerBasedInformationProcessing, bb:NonComputerBasedInformationProcessingTool, bb:NonComputerBasedPhysicalDataProcessingSystem, bb:NonSignalBasedTransmittingMedium, bb:NonexperimentalStudyDesign, bb:Notification, bb:NuclearMedicineImaging, bb:Nurse, bb:NursingAdmission, bb:NursingAnamnesis, bb:NursingCarePlan, bb:NursingCarePlanning, bb:NursingCenter, bb:NursingClassification, bb:NursingDischargeAndNursingReportWriting, bb:NursingGoal, bb:NursingGuideline, bb:NursingHistory, bb:NursingManagement, bb:NursingManagementAndDocumentationSystem, bb:NursingProblem, bb:NursingProcedure, bb:NursingReport, bb:Nutrition, bb:OAIS3, bb:ObjectClass, bb:ObjectIdentity, bb:ObservationProtocol, bb:OfficesAndWritingServiceForReportWriting, bb:OncologyInformationSystem, bb:OpenEHR, bb:OpenEHRModelOfContent, bb:OpenEHRModelOfProcesses, bb:OpenEHROntology, bb:OpeningAPatientRecord, bb:Operation, bb:OperationManagementSystem, bb:OperationReport, bb:OperationRoom, bb:OperationalHISDirecting, bb:OperationalHISMonitoring, bb:OperationalHISPlanning, bb:OperationalInformationManagement, bb:OperationalInformationManagementGoal, bb:OperationalInformationManagementStaff, bb:OperationalManagementConcept, bb:OperationalizationOfMethodsAndDetailedStudyPlan, bb:OpticalFiber, bb:OpticalMedium, bb:OralAndDentalCare, bb:Order, bb:OrderCatalog, bb:OrderEntry, bb:OrderForm, bb:OrderingOfDrugs, bb:Organization, bb:OrganizationOfHealthCare, bb:OrganizationalInfrastructure, bb:OrganizationalMetamodel, bb:OrganizationalModel, bb:OrganizationalPerspective, bb:OrganizationalPlan, bb:OrganizationalSystem, bb:OrganizationalUnit, bb:OrganizationalUnitModelingElement, bb:OrganizationalUnitOfAHospital, bb:Orientation, bb:Orm, bb:OrthopedicsInformationSystem, bb:Oru, bb:Outpatient, bb:OutpatientCareInstitution, bb:OutpatientEHRCertification, bb:OutpatientManagementSystem, bb:OutpatientUnit, bb:PRINCE2, bb:Pager, bb:PaperBasedApplicationComponent, bb:PaperBasedPatientChart, bb:PaperBasedPatientRecord, bb:PaperBasedPhysicalDataProcessingSystem, bb:PastMedicalHistory, bb:Pathology, bb:PathologyInformationSystem, bb:PathologyReport, bb:Patient, bb:PatientActivityLevel, bb:PatientAdministration, bb:PatientAdministrationDepartment, bb:PatientAdministrationSystem, bb:PatientAdmission, bb:PatientAge, bb:PatientBilling, bb:PatientCare, bb:PatientCareEntityType, bb:PatientCenteredInformationProcessing, bb:PatientCentricStrategy, bb:PatientChartSystem, bb:PatientDataManagementSystem, bb:PatientDischargeAndTransferToOtherInstitutions, bb:PatientHistory, bb:PatientIdentification, bb:PatientIdentificationAndCheckingForRecurrent, bb:PatientIdentificationNumber, bb:PatientInsuranceData, bb:PatientLink, bb:PatientRecord, bb:PatientRecordArchive, bb:PatientRecordSystem, bb:PatientSatisfactionSurvey, bb:PatientState, bb:PatientTransfer, bb:PatientTransport, bb:PatientVisitInformation, bb:PatientsRelatives, bb:PayrollAccounting, bb:Pdfa, bb:Pencil, bb:Performance, bb:PerformanceOfApplicationComponents, bb:PerformanceOfLegalNotificationRequirements, bb:PerformanceOfTheApplicationComponent, bb:PerformantPhysicalDataProcessingSystem, bb:PerformantPhysicalDataProcessingSystems, bb:PerformantServer, bb:PermanentMonitoring, bb:PersonalComputer, bb:PersonalDigitalAssistant, bb:PersonalHealthRecord, bb:PersonalHygiene, bb:PertinentInformation, bb:PetriNet, bb:Pharmacy, bb:PharmacyDepartment, bb:PharmacyInformationSystem, bb:PhysicalDataProcessingSystem, bb:PhysicalIntegration, bb:PhysicalNetworkTopology, bb:PhysicalToolLayer, bb:Physician, bb:PictureArchivingAndCommunicationSystem, bb:PlanAndOrganize, bb:Planning, bb:PlanningOfBuildings, bb:PlanningOfFinances, bb:PlanningOfOrganizationalProcedures, bb:PlanningOfOrganizationalStructures, bb:PlanningOfRooms, bb:PlanningOfStaff, bb:Pmbok, bb:Portability, bb:PortfolioManagement, bb:PreliminaryOutlineOfAStudy, bb:PreparationOfAnOrder, bb:PreparationOfHealthStatistics, bb:PresentationIntegration, bb:PrintedForm, bb:PrinterServer, bb:ProblemManagement, bb:ProblemSolving, bb:Procedure, bb:ProcedureClass, bb:ProcessChain, bb:ProcessControlling, bb:ProcessIntegration, bb:Project, bb:ProjectCompletionPhase, bb:ProjectConflictManagement, bb:ProjectExecution, bb:ProjectExecutionModule, bb:ProjectInitiation, bb:ProjectInitiationPhase, bb:ProjectManagementBoard, bb:ProjectManagementMethod, bb:ProjectManager, bb:ProjectMonitoring, bb:ProjectPlan, bb:ProjectPlanning, bb:ProjectPlanningPhase, bb:ProjectPortfolio, bb:ProjectResourceAllocation, bb:ProjectResult, bb:ProjectTimeAllocation, bb:Projector, bb:ProvidingCustomerCenteredServices, bb:PublishingAndPresentation, bb:QualifiedElectronicSignature, bb:QualitativeContentAnalysis, bb:QualitativeEvaluationMethod, bb:QualitativeInterview, bb:QualitativeObservation, bb:Quality, bb:QualityAssessment, bb:QualityManagement, bb:QualityOfComputerBasedApplicationComponentsAndTheirIntegration, bb:QualityOfData, bb:QualityOfHISArchitecture, bb:QualityOfHISOutcome, bb:QualityOfHISProcesses, bb:QualityOfHISStructures, bb:QualityOfHealthCareOutcome, bb:QualityOfHealthCareProcesses, bb:QualityOfITServiceManagement, bb:QualityOfITSupport, bb:QualityOfITTraining, bb:QualityOfInformationManagement, bb:QualityOfOutcome, bb:QualityOfPatientCare, bb:QualityOfPhysicalDataProcessingSystems, bb:QualityOfProcesses, bb:QualityOfStructures, bb:QualityOfTacticalInformationManagement, bb:QualityReport, bb:QuantitativeEvaluationMethod, bb:QuantitativeQuestionnaire, bb:QuasiExperimentalStudyDesign, bb:QueueManager, bb:R01, bb:R01ORU, bb:RadiologicalExamination, bb:RadiologicalFinding, bb:RadiologyDepartment, bb:RadiologyInformationSystem, bb:RadiologyReport, bb:Radiotherapy, bb:RecommendationsForFurtherTreatment, bb:RecruitmentOfPatients, bb:RedundantComputingCenter, bb:RedundantServer, bb:ReferenceModel, bb:ReferenceModelForTheDomainLayerOfHospitalInformationSystems, bb:ReferentialIntegrity, bb:RehabilitationCenter, bb:Relative, bb:Relevancy, bb:Reliability, bb:ReliabilityOfData, bb:ReliabilityOfPhysicalDataProcesssingSystems, bb:ReliablePhysicalDataProcessingSystem, bb:ReliablePhysicalDataProcesssingSystem, bb:RemoteFunctionCall, bb:ReportAndPublicationOfStudy, bb:ReportToTheHospitalsBoardOfDirectors, bb:ReportWriting, bb:ReportingToTheCEO, bb:RepresentativeOfHospitalDepartment, bb:RequirementOfHISStakeholder, bb:ResearchAndEducation, bb:ResearchAndEducationEntityType, bb:ResearchDocument, bb:ResearchInstitution, bb:ResearchManagement, bb:Resource, bb:ReturnOnInvestmentStudy, bb:Ring, bb:RiskManagement, bb:RobotSystem, bb:RoleModelingElement, bb:Room, bb:RotaryPhone, bb:Router, bb:Sample, bb:Saps, bb:Saturation, bb:SchedulingAndResourceAllocation, bb:SchedulingAndResourcePlanningWithTheMedicalServiceUnit, bb:SchedulingAndResourcePlanningWithThePatientTransportService, bb:ScoringOfThePatient, bb:SecondLevelSupport, bb:SecurePhysicalDataProcessingSystem, bb:Security, bb:SecurityOfData, bb:SecurityOfPhysicalDataProcessingSystems, bb:SelfDescriptiveness, bb:SelfDevelopedSoftware, bb:SelfDevelopment, bb:SemanticIntegration, bb:SemistructuredInterview, bb:SeniorPhysician, bb:Server, bb:ServerCluster, bb:Service, bb:ServiceAssetManagement, bb:ServiceCatalog, bb:ServiceDesign, bb:ServiceDeskManagement, bb:ServiceDeskStaff, bb:ServiceOperation, bb:ServiceStrategy, bb:ServiceTransition, bb:Sgbv, bb:SheetOfPaper, bb:ShortTermHISPlanning, bb:SigG, bb:SignalBasedTransmittingMedium, bb:SingleSignOn, bb:SkinCare, bb:Snomed, bb:Soa, bb:SoaService, bb:SocialContact, bb:SocialHistory, bb:SocioTechnicalSystem, bb:SoftwareDevelopment, bb:SoftwareErgonomics, bb:SoftwareProduct, bb:SoftwareQuality, bb:SoftwareVendor, bb:Source, bb:Specialization, bb:Stability, bb:StabilityOfApplicationComponents, bb:StablePhysicalDataProcessingSystem, bb:StableServer, bb:StaffControlling, bb:StaffCost, bb:Standard, bb:StandardizationByCEN, bb:StandardizationOfComputerSystems, bb:StandardizationOfData, bb:StandardizationOfHISArchitecture, bb:StandardizationOfInterfaces, bb:StandardizedPhysicalDataProcessingSystem, bb:StandardizedPhysicalDataProcessingSystems, bb:Star, bb:StatisticalEvaluationOfPatientData, bb:StorageAreaNetwork, bb:StorageMedium, bb:StrategicAlignment, bb:StrategicAlignmentModel, bb:StrategicDecision, bb:StrategicGoalOfTheInstitution, bb:StrategicGoalOfTheNetwork, bb:StrategicHISDirecting, bb:StrategicHISMonitoring, bb:StrategicHISMonitoringResult, bb:StrategicHISPlanning, bb:StrategicHospitalGoal, bb:StrategicInformationManagement, bb:StrategicInformationManagementGoal, bb:StrategicInformationManagementPlan, bb:StructuralQualityAssessment, bb:Study, bb:StudyDesign, bb:StudyExploration, bb:StudyHypothesis, bb:StudyObjective, bb:StudyOutline, bb:StudyParticipant, bb:StudyPlan, bb:StudyReport, bb:StudyResult, bb:SubInformationSystem, bb:Subsystem, bb:SuitabilityForIndividualization, bb:SuitabilityForLearning, bb:SuitabilityForTheTask, bb:SupplyAndDisposalManagement, bb:SupportCost, bb:Surgeon, bb:Sustainability, bb:Switch, bb:SwotAnalysis, bb:SynchronousCommunication, bb:System, bb:SystemAnalysis, bb:SystemEvaluation, bb:SystemIntroduction, bb:SystemOfConcepts, bb:SystemSelection, bb:SystemSpecification, bb:SystematicInformationProcessing, bb:SystemsReview, bb:T3ApplicationServer, bb:T3DatabaseServer, bb:TabletPC, bb:TacticalHISDirecting, bb:TacticalHISMonitoring, bb:TacticalHISPlanning, bb:TacticalInformationManagement, bb:TansCriticalSuccessFactorApproach, bb:TechnicalMetamodel, bb:TechnicalModel, bb:TechnicalStaff, bb:Teleconsultation, bb:Telemicroscopy, bb:Teleradiology, bb:TeleradiologySystem, bb:Terminal, bb:TerminalServer, bb:TheProviderCentricStrategy, bb:TheRegionalOrNationalCentricStrategy, bb:TheStrategyOfIndependentHealthBanks, bb:TherapeuticDepartment, bb:TherapeuticProcedure, bb:TherapeuticService, bb:TherapeuticStandard, bb:ThirdLevelSupport, bb:ThirdPartyFund, bb:ThrombosisProphylaxis, bb:Tiff, bb:TimeMeasurement, bb:TimeMotionAnalysis, bb:Tiss, bb:TokenRing, bb:TopManagement, bb:TransactionManagementTechnology, bb:Transcription, bb:Transfer, bb:TransferDiagnosis, bb:TransinstitutionalHealthCareFunction, bb:TransinstitutionalHealthInformationSystem, bb:TransmittingMedium, bb:Transparency, bb:TreatmentText, bb:Tree, bb:TroubleShootingInItServiceManagement, bb:Typewriter, bb:Ultrasound, bb:UmlActivityDiagram, bb:UmlAssociation, bb:UmlAssociationClass, bb:UmlAttribute, bb:UmlClass, bb:UmlClassDiagram, bb:UmlMethod, bb:Umls, bb:UniversityMedicalCenter, bb:UnstructuredInterview, bb:UpToDateInformation, bb:UpToDatePhysicalDataProcessingSystem, bb:UpdatingTheStrategicInformationManagementPlan, bb:UsLaw, bb:Usability, bb:UsabilityOfPhysicalDataProcessingSystems, bb:UsabilityStudy, bb:UsablePhysicalDataProcessingSystem, bb:UsablePhysicalDataProcessingSystems, bb:UseOfStrategicInformationManagementPlan, bb:UserRequirementsAnalysis, bb:UserSatisfaction, bb:UserSurvey, bb:UserTraining, bb:UtilityAnalysis, bb:V1Style, bb:Vendor, bb:VendorStyle, bb:VideoConferencingSystem, bb:ViewPatientRelatedAppointments, bb:VirtualPrivateNetwork, bb:VirtualServer, bb:Virtualization, bb:VisitorAndInformationService, bb:VitalSign, bb:VnStyle, bb:Ward, bb:WardPhysician, bb:WebServer, bb:WorkOrganizationAndTimeManagement, bb:WorkSampling, bb:WorkingList, bb:Workstation, bb:WoundCare, bb:WoundTreatment, bb:WrittenAgreementOnTheStudyOutline, bb:Xml, bb:acceptance, bb:admittingPhysician, bb:careComprisedGroupsOfPatients, bb:careCoordinationOfCareProcess, bb:case, bb:chapter, bb:cin, bb:conceptDomain, bb:deadline, bb:degreeOfNormativity, bb:duration, bb:icdCode, bb:insurance, bb:isHeterogeneous, bb:isHomogeneous, bb:location, bb:managementFinancingForm, bb:managementLegalForm, bb:managementOpenness, bb:officialUserGroup, bb:page, bb:pin, bb:priority, bb:relative, bb:responsiblePerson, bb:structureConfiguration, bb:structureRange, bb:structureSize, bb:structureStability, bb:temporalDevelopmentStage, bb:temporalLifeSpan, bb:tripelRowNr, bb:upToDateness, bb:usageDescription ;
     dc:creator <../de/Team> ;
     dc:modified "2016-11-18"^^xsd:date ;
     dc:publisher <../de/Team> ;
@@ -85,7 +85,6 @@
     meta:supports <bb/3LGM2EnterpriseFunction> ;
     a meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "3LGM² Application Component"@en, "اجزای برنامه 3LGM2"@fa ;
-    rdfs:subClassOf bb:UmlAbstractClass ;
     skos:definition "An application component is a set of actually usable rules, which control data processing of certain physical data processing systems. Rules are considered to be actually usable, if they are implemented such that they are ready to support certain enterprise functions in a certain enterprise or support communication between application components. If the rules are implemented as executable software, the application component is called computer-based application component. Otherwise it is called non-computer-based."@en .
 
 <bb/3LGM2B>
@@ -100,8 +99,7 @@
     meta:chapter bb:chapter5-3 ;
     meta:isAssociatedWith <bb/3LGM2EntityType> ;
     a meta:EntityType ;
-    rdfs:label "3LGM² Communication Interface"@en, "رابط ارتباطی3LGM²"@fa ;
-    rdfs:subClassOf bb:UmlAbstractClass .
+    rdfs:label "3LGM² Communication Interface"@en, "رابط ارتباطی3LGM²"@fa .
 
 <bb/3LGM2CommunicationLink>
     meta:chapter bb:chapter5-3 ;
@@ -112,7 +110,7 @@
 
 <bb/3LGM2ComputerBasedApplicationComponent>
     meta:chapter bb:chapter5-3 ;
-    a meta:EntityType ;
+    a meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     rdfs:label "3LGM² Computer-Based Application Component"@en, "ترکیب دهنده مبتنی بر رایانه 3LGM ²"@fa ;
     rdfs:subClassOf <bb/3LGM2ApplicationComponent> .
 
@@ -130,17 +128,16 @@
     meta:isAssociatedWith <bb/3LGM2EnterpriseFunction> ;
     a meta:EntityType ;
     rdfs:label "3LGM² Domain Layer"@en, "Fachliche Ebene"@de, "لایه دامنه 3LGM²"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "In the 3LGM², the domain layer describes what kinds of activities in a health care institution are enabled by its information system and what kind of data should be stored and processed, independent of its implementation. Consequently, the domain layer describes enterprise functions and entity types."@en .
 
 <bb/3LGM2EnterpriseFunction>
     bb:page "55"^^xsd:positiveInteger ;
     meta:chapter bb:chapter5-3 ;
+    meta:isAssociatedWith bb:UmlClass ;
     meta:updates <bb/3LGM2EntityType> ;
     meta:uses <bb/3LGM2EntityType> ;
     a meta:Function ;
     rdfs:label "3LGM² Enterprise Function"@en, "تابع سازمانی 3LGM2"@fa ;
-    rdfs:subClassOf bb:UmlClass ;
     skos:definition "The class of all activities interpreting the same set of entity types and updating the same set of entity types is called an information processing enterprise function (short: enterprise function). An enterprise function is a directive in an institution on how to interpret data about entity types and then update data about entity types as a consequence of this interpretation. The goal of data interpretation and updates is part of or contributes to (sub) goals of the institution. A function has no definitive beginning or end. Similar to an activity, an enterprise function is said to interpret entity types and update entity types."@en .
 
 <bb/3LGM2EntityType>
@@ -159,7 +156,6 @@
     meta:isAssociatedWith <bb/3LGM2EnterpriseFunction> ;
     a meta:EntityType ;
     rdfs:label "3LGM² Information Process"@en, "3LGM²-Informationprozess"@de, "فرآیند اطلاعات 3LGM²"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Logical and chronological sequence of enterprise functions which interpret or update data about entities. Different from business processes, information processes do not contain the conditions under which enterprise functions are performed."@en .
 
 <bb/3LGM2InterlayerRelationship>
@@ -173,8 +169,7 @@
 <bb/3LGM2IntralayerRelationship>
     meta:chapter bb:chapter5-3 ;
     a meta:EntityType ;
-    rdfs:label "3LGM² Intralayer Relationship"@en, "رابطه  میان لایه 3LGM ²"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "3LGM² Intralayer Relationship"@en, "رابطه  میان لایه 3LGM ²"@fa .
 
 <bb/3LGM2Location>
     meta:chapter bb:chapter5-3 ;
@@ -188,7 +183,6 @@
     meta:entityTypeComponent <bb/3LGM2ApplicationComponent>, <bb/3LGM2CommunicationInterface>, <bb/3LGM2CommunicationLink>, <bb/3LGM2SoftwareProduct> ;
     a meta:EntityType ;
     rdfs:label "3LGM² Logical Tool Layer"@en, "Logische Werkzeugebene"@de, "لایه ابزار منطقی 3LGM²"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "In the 3LGM², the logical tool layer describes the set of application components used in a health care institution to support its enterprise functions. On this layer, application components communicate representations of entity types as messages via communication links and store them as data."@en .
 
 <bb/3LGM2M>
@@ -228,7 +222,7 @@
 <bb/3LGM2OrganizationalSystem>
     meta:chapter bb:chapter5-3 ;
     meta:isAssociatedWith bb:OrganizationalPlan ;
-    a meta:EntityType ;
+    a meta:EntityType, meta:ApplicationComponent ;
     rdfs:label "3LGM² Organizational System"@en, "سیستم سازمانی 3LGM²"@fa ;
     rdfs:subClassOf <bb/3LGM2ApplicationComponent> .
 
@@ -254,7 +248,6 @@
     meta:entityTypeComponent <bb/3LGM2DataTransmissionConnection>, <bb/3LGM2Location>, <bb/3LGM2PhysicalDataProcessingSystem>, <bb/3LGM2ToolClass>, <bb/3LGM2TransmittingMedium> ;
     a meta:EntityType ;
     rdfs:label "3LGM² Physical Tool Layer"@en, "لایه ابزار فیزیکی 3LGM2"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "The physical tool layer is a set of physical data processing systems."@en .
 
 <bb/3LGM2ReceivingInterface>
@@ -331,7 +324,7 @@
 <bb/3LGM2Tool>
     meta:isBasedOn <bb/3LGM2> ;
     meta:supports bb:InformationManagement, bb:StructuralQualityAssessment ;
-    a bb:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
+    a meta:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "3LGM² Tool"@en, "ابزار 3LGM ²"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent .
 
@@ -417,7 +410,7 @@ bb:AccessControlManagement
 
 bb:AccessControlSystem
     meta:supports bb:AccessControlManagement ;
-    a bb:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
+    a meta:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Access Control System"@en, "سیستم کنترل دسترسی"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent .
 
@@ -555,8 +548,7 @@ bb:AdministrativeDischargeAndBilling
 
 bb:AdministrativeEntityType
     a meta:EntityType ;
-    rdfs:label "Administrative Entity Type"@en, "انواع موجودیت اداری"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Administrative Entity Type"@en, "انواع موجودیت اداری"@fa .
 
 bb:AdministrativeGuideline
     meta:chapter bb:chapter6-3 ;
@@ -587,7 +579,8 @@ bb:AdministrativeSticker
     rdfs:subClassOf bb:NonComputerBasedPhysicalDataProcessingSystem .
 
 bb:AdministrativeSupport
-    bb:tripelPage "manuell hinzugefügt"@de ;
+    a meta:EntityType ;
+    rdfs:comment "manuell hinzugefügt"@de ;
     rdfs:label "Administrative Support"@en, "Administrativer Support"@de ;
     rdfs:subClassOf bb:ItService ;
     skos:definition "Administrativer Support umfasst die Beschaffung von Lizenzen und ggf. Begleitung der Installation (Zurverfügungstellung von Administrationsrechten)."@de .
@@ -602,8 +595,7 @@ bb:AdmissionDiagnosis
 bb:AdoptionOfProjectResult
     meta:uses bb:ProjectResult ;
     a meta:Function ;
-    rdfs:label "Adoption of Project Result"@en, "تصویب نتایج پروژه"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Adoption of Project Result"@en, "تصویب نتایج پروژه"@fa .
 
 bb:Adt
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -644,7 +636,6 @@ bb:ApplicationComponent
     meta:supports bb:EnterpriseFunction, bb:HospitalFunction ;
     a meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Anwendungsbaustein"@de, "Application Component"@en, "عنصر نرم افزار"@fa ;
-    rdfs:subClassOf meta:ApplicationComponent ;
     skos:closeMatch ob:ApplicationSystem ;
     skos:definition "An application component is a set of actually usable rules, which control data processing of certain physical data processing systems. Rules are considered to be actually usable, if they are implemented such that they are ready to support certain enterprise functions in a certain enterprise or support communication between application components."@en .
 
@@ -655,7 +646,8 @@ bb:ApplicationComponentStyle
     rdfs:subClassOf bb:ArchitecturalStyleOfTheLogicalToolLayer .
 
 bb:ApplicationHosting
-    bb:tripelPage "manuell hinzugefügt"@de ;
+    a meta:EntityType ;
+    rdfs:comment "manuell hinzugefügt"@de ;
     rdfs:label "Application Hosting"@en, "Applikation-Hosting"@de ;
     rdfs:subClassOf bb:ItService ;
     skos:definition "Applikation-Hosting umfasst Bereitstellung der Applikation auf einem (virtuellen) Server oder einer (virtuellen) Maschine in den Rechenzentren des Bereiches 1, Bereitstellung einer lokalen Installation auf Client-PCs und Sicherungsmaßnahmen im Rahmen des vereinbarten ServiceLevels."@de .
@@ -663,8 +655,7 @@ bb:ApplicationHosting
 bb:ApplicationPortfolio
     meta:chapter bb:chapter9-4 ;
     a meta:EntityType ;
-    rdfs:label "Application Portfolio"@en, "نمونه کار برنامه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Application Portfolio"@en, "نمونه کار برنامه"@fa .
 
 bb:ApplicationServer
     bb:page "169"^^xsd:positiveInteger, "173"^^xsd:positiveInteger, "47"^^xsd:positiveInteger ;
@@ -675,7 +666,8 @@ bb:ApplicationServer
     skos:definition "Server can run the back-end part of application software"@en .
 
 bb:ApplicationSupport
-    bb:tripelPage "manuell hinzugefügt"@de ;
+    a meta:EntityType ;
+    rdfs:comment "manuell hinzugefügt"@de ;
     rdfs:label "Application Support"@en, "Applikationsbetreuung"@de ;
     rdfs:subClassOf bb:ItService ;
     skos:definition "Applikationsbetreuung umfasst den Betrieb in den Rechenzentren des Bereiches 1 (bei Client-Server-Systemen) bzw. auf den Client-PCs, Sicherstellung der Aktualität der Software (update-Service etc.), die Bereitstellung eines Ansprechpartners aus dem Bereich 1 (Administrator), die Möglichkeit, Fehler (incidents) und Anfragen (service requests) am IT ServiceDesk zu platzieren, die Möglichkeit, neue Anforderungen zur Umsetzung im Bereich 1 zu beantragen (IT Change Management-Verfahren)."@de .
@@ -720,7 +712,6 @@ bb:ArchitecturalStyle
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Architectural Style"@en, "Architekturstil"@de, "سبک معماری"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Combines architectures of information systems that are equivalent with regard to certain characteristics. On the logical tool layer, these characteristics comprise number of databases (DB 1 versus DB n ), number of application components (AC 1 versus AC n ), number of software products and vendors (V 1 versus V n ), and communication patterns (star versus spaghetti architecture and CP 1 versus CP n , respectively). On the physical tool layer, we can, for example, distinguish the mainframe architecture (1-tier architecture or T 1 ) and the client-server architectural style (2-tier architecture or T 2 , 3-tier architecture or T 3 )."@en .
 
 bb:ArchitecturalStyleOfTheLogicalToolLayer
@@ -742,7 +733,6 @@ bb:ArchitectureOfAnInformationSystem
     meta:isBasedOn bb:ArchitecturalStyle ;
     a meta:EntityType ;
     rdfs:label "Architecture of an Information System"@en, "Architektur eines Informationssystems"@de, "معماری یک سیستم اطلاعاتی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Fundamental organization of an information system, represented by its components, their relationships to each other and to the environment, and by the principles guiding its design and evolution. Architectures can be summarized into certain architectural styles."@en .
 
 bb:Archiving
@@ -767,8 +757,7 @@ bb:ArchivingOfPatientInformation
 
 bb:ArtificialSystem
     a meta:EntityType ;
-    rdfs:label "Artificial System"@en, "سیستم مصنوعی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Artificial System"@en, "سیستم مصنوعی"@fa .
 
 bb:Ascii
     meta:chapter bb:chapter6-4 ;
@@ -786,7 +775,7 @@ bb:AsynchronousCommunication
     bb:page "157"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:MasterApplicationComponent ;
-    a meta:EntityType ;
+    a meta:EntityType;
     rdfs:label " Asynchrone Kommunikation"@de, "Asynchronous Communication"@en, "ارتباط ناهمگام"@fa ;
     rdfs:subClassOf bb:Communication ;
     skos:definition "Form of communication where the application component sending a message will continue its tasks without interruption even when awaiting a response message from the communication partner."@en .
@@ -804,7 +793,6 @@ bb:Atomicity
     meta:chapter bb:chapter6-5 ;
     a meta:EntityType ;
     rdfs:label "Atomicity"@en, "اتمی بودن"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Atomicity guarantees that either all of the tasks of a transaction are performed or none of them are."@en .
 
 bb:AuthenticityOfData
@@ -863,8 +851,7 @@ bb:BPflV
 bb:Backbone
     meta:chapter bb:chapter9-2 ;
     a meta:EntityType ;
-    rdfs:label "Backbone"@en, "پشتیبان"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Backbone"@en, "پشتیبان"@fa .
 
 bb:BalanceOfComputerBasedAndNonComputerBasedTools
     bb:page "217"^^xsd:positiveInteger ;
@@ -910,7 +897,7 @@ bb:BalancedNetwork
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "287"^^xsd:positiveInteger ;
     meta:chapter bb:chapter10-4 ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "Balanced Network"@en, "شبکه متعادل"@fa ;
     rdfs:subClassOf bb:HealthCareNetwork ;
     skos:definition "Balanced networks show medium degrees of centrality and intensity."@en .
@@ -952,15 +939,13 @@ bb:BedOccupation
 bb:BehavioralPerspective
     meta:chapter bb:chapter5-2 ;
     a meta:EntityType ;
-    rdfs:label "Behavioral Perspective"@en, "دیدگاه رفتاری"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Behavioral Perspective"@en, "دیدگاه رفتاری"@fa .
 
 bb:Benchmarking
     bb:page "295"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     a meta:Function ;
     rdfs:label "Benchmarking"@en, "معیار سنجش"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Describes a process in which organizations evaluate various aspects of their performance and compare it to given standard or to the best organizations (“best-practice”). Typically, benchmarking comprises quantitative evaluation criteria (key performance indicators). Method of strategic monitoring of hospital information systems."@en .
 
 bb:BestOfBreedArchitecture
@@ -975,8 +960,7 @@ bb:BestOfBreedArchitecture
 bb:BestPracticeBenchmark
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "Best-Practice-Benchmark"@en, "معیار بهترین شیوه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Best-Practice-Benchmark"@en, "معیار بهترین شیوه"@fa .
 
 bb:Bill
     bb:page "78"^^xsd:positiveInteger ;
@@ -1047,7 +1031,6 @@ bb:BusinessProcess
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Business Process"@en, "Geschäftsprozess"@de, "فرآیند کاری"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Sequence of enterprise (sub-)functions together with the conditions under which they are invoked, in order to achieve an enterprise goal. While enterprise functions concentrate on the “what,” business processes focus on the “how” of activities."@en .
 
 bb:BusinessProcessMetamodel
@@ -1071,8 +1054,7 @@ bb:BusinessProcessModel
 bb:BusinessProcessReferenceModel
     meta:isBasedOn bb:BusinessProcessMetamodel ;
     a meta:EntityType ;
-    rdfs:label "Business Process Reference Model"@en, "مدل مرجع فرآیند کسب و کار"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Business Process Reference Model"@en, "مدل مرجع فرآیند کسب و کار"@fa .
 
 bb:BusinessReferenceModel
     meta:entityTypeComponent bb:BusinessProcessModel, bb:DataModel, bb:InformationProcessingModel, bb:OrganizationalModel ;
@@ -1142,7 +1124,7 @@ bb:CaseMixIndex
 
 bb:CaseStudy
     meta:chapter bb:chapter8-6 ;
-    a meta:Function ;
+    a meta:EntityType;
     rdfs:label "Case Study"@en, "مطالعه موردی"@fa ;
     rdfs:subClassOf bb:QualitativeEvaluationMethod .
 
@@ -1167,8 +1149,7 @@ bb:Cchit
 
 bb:CchitFunctionalCriterion
     a meta:EntityType ;
-    rdfs:label "CCHIT Functional Criterion"@en, "معیار کارکردی CCHIT"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "CCHIT Functional Criterion"@en, "معیار کارکردی CCHIT"@fa .
 
 bb:Ccow
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -1252,7 +1233,6 @@ bb:Certification
     meta:chapter bb:Thesaurus ;
     a meta:Function ;
     rdfs:label "Certification"@en, "Zertifizierung"@de, "صدور گواهینامه"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Assessment of the compliance with certain predefined quality characteristics. For example, ISO 9001 standard assesses the hospital’s compliance with certain quality management standards, and the Joint Commission assesses the quality of processes related to patient care, hospital management, and information management. CCHIT and EuroRec certify functionality, security, and interoperability of electronic health records."@en .
 
 bb:CertificationByCCHIT
@@ -1314,7 +1294,7 @@ bb:ChiefInformationOfficer
     meta:isAssociatedWith bb:ChiefExecutiveOfficer, bb:ChiefFinancialOfficer ;
     meta:isResponsibleForEntityType bb:AnnualITBudget, bb:StrategicInformationManagementPlan ;
     meta:isResponsibleForFunction bb:InformationManagement ;
-    meta:isResponsibleForRole bb:InformationManagementDepartment ;
+    meta:isResponsibleForEntityType bb:InformationManagementDepartment ;
     a meta:Role ;
     rdfs:label "Chief Information Officer"@en, "مسئول ارشد اطلاعات"@fa ;
     rdfs:subClassOf bb:InformationManagementStaff ;
@@ -1398,7 +1378,6 @@ bb:ClinicalDocumentation
     meta:chapter bb:Thesaurus ;
     a meta:Function ;
     rdfs:label "Clinical Documentation"@en, "Klinische Dokumentation"@de, "مستندات بالینی"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Documentation in clinical environment. Recording all clinically relevant patient data that arise during patient care as completely, correctly, and quickly as possible. This supports the coordination of patient treatment between all involved health care professionals, and also the legal justification of the actions taken. Structured documentation of data is a precondition for data aggregation and statistics, computerized decision support, and retrieval of data. Is supported by medical documentation systems and nursing management and documentation systems. Is not considered as enterprise function but takes place every time an enterprise function is executed, new information is generated, and respective data are stored."@en .
 
 bb:ClinicalInformationSystem
@@ -1445,7 +1424,7 @@ bb:CloseToHierarchyNetwork
     bb:conceptDomain "health care specific"^^xsd:string ;
     bb:page "287"^^xsd:positiveInteger ;
     meta:chapter bb:chapter10-4 ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "Close-to-Hierarchy Network"@en, "شبکه نزدیک به سلسله مراتب"@fa ;
     rdfs:subClassOf bb:HealthCareNetwork ;
     skos:definition "Hierarchy-like networks still fulfill the definition of health care networks, but decision making in information management is highly centralized and the decisions made are compulsory. Typically, these networks are configured heterogeneous and are dominated by one large institution, such as a hospital."@en .
@@ -1476,8 +1455,7 @@ bb:CodingOfDiagnoses
     meta:updates bb:Diagnosis ;
     meta:uses bb:Case, bb:DiagnosisClass, bb:Patient ;
     a meta:Function ;
-    rdfs:label "Coding of Diagnoses"@en, "کد گذاری تشخیص"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Coding of Diagnoses"@en, "کد گذاری تشخیص"@fa .
 
 bb:CodingOfDiagnosesAndProcedures
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -1492,8 +1470,7 @@ bb:CodingOfProcedures
     meta:updates bb:Procedure ;
     meta:uses bb:Case, bb:MedicalProcedure, bb:NursingProcedure, bb:Patient, bb:ProcedureClass ;
     a meta:Function ;
-    rdfs:label "Coding of Procedures"@en, "کد گذاری جراحی"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Coding of Procedures"@en, "کد گذاری جراحی"@fa .
 
 bb:CodingSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -1513,8 +1490,7 @@ bb:CommunicateReportToOrderingUnit
 
 bb:Communication
     a meta:EntityType ;
-    rdfs:label "Communication"@en, "ارتباطات"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Communication"@en, "ارتباطات"@fa .
 
 bb:CommunicationAbility
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -1528,7 +1504,6 @@ bb:CommunicationInterface
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Communication Interface"@en, "Kommunikationsschnittstelle"@de, "رابط ارتباطی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Used by application components for communication among themselves. Can either send or receive data about entity types. Part of a communication link."@en .
 
 bb:CommunicationLink
@@ -1536,7 +1511,6 @@ bb:CommunicationLink
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Communication Link"@en, "Kommunikationsverbindung"@de, "لینک ارتباط"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Communicates data about a certain entity type. Connects a communication interface of one application component with a communication interface of another application component."@en .
 
 bb:CommunicationNetwork
@@ -1554,8 +1528,7 @@ bb:CommunicationPattern
 
 bb:CommunicationProtocol
     a meta:EntityType ;
-    rdfs:label "Communication Protocol"@en, "پروتکل ارتباطی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Communication Protocol"@en, "پروتکل ارتباطی"@fa .
 
 bb:CommunicationServer
     bb:page "157"^^xsd:positiveInteger ;
@@ -1578,8 +1551,7 @@ bb:CommunicationStandard
 
 bb:Complaint
     a meta:EntityType ;
-    rdfs:label "Complaint"@en, "شکایت"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Complaint"@en, "شکایت"@fa .
 
 bb:CompleteElectronicPatientRecord
     dc:source <http://subs.emis.de/LNI/Proceedings/Proceedings259/685.pdf> ;
@@ -1624,7 +1596,7 @@ bb:ComponentAlignmentModelOfMartin
 bb:ComputedTomography
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-5 ;
-    a meta:EntityType ;
+    a meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Computed Tomography"@en, "توموگرافی کامپیوتری"@fa ;
     rdfs:subClassOf bb:ImagingModality ;
     skos:altLabel "CT"@en .
@@ -1636,7 +1608,7 @@ bb:ComputerBasedApplicationComponent
     meta:supports bb:HospitalFunction ;
     a meta:ApplicationComponent, meta:ComputerBasedApplicationComponent, meta:EntityType ;
     rdfs:label "Computer-Based Application Component"@en, "Rechnerbasierter Anwendungsbaustein"@de, "اجزا برنامه مبتنی بر کامپیوتر"@fa ;
-    rdfs:subClassOf bb:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
+    rdfs:subClassOf bb:ApplicationComponent ;
     skos:altLabel "Application"@en, "Application System"@en ;
     skos:closeMatch ob:ComputerBasedApplicationSystem ;
     skos:definition "An application component where the controlling rules for data processing are implemented as executable software."@en .
@@ -1651,7 +1623,6 @@ bb:ComputerBasedInformationSystem
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Computer-Based Information System"@en, "سیستم اطلاعاتی مبتنی بر کامپیوتر"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "An information system that comprises (among others) computer-based information processing tools."@en .
 
 bb:ComputerBasedNursingForm
@@ -1670,13 +1641,11 @@ bb:ComputerBasedPhysicalDataProcessingSystem
 bb:ComputerBasedTool
     meta:chapter bb:chapter2-4 ;
     a meta:EntityType ;
-    rdfs:label "Computer-Based Tool"@en, "ابزارمبتنی بر کامپیوتر"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Computer-Based Tool"@en, "ابزارمبتنی بر کامپیوتر"@fa .
 
 bb:ComputerNetwork
     a meta:EntityType ;
-    rdfs:label "Computer Network"@en, "شبکه ی کامپیوتری"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Computer Network"@en, "شبکه ی کامپیوتری"@fa .
 
 bb:ComputerSupportedInformationSystem
     bb:page "26"^^xsd:positiveInteger ;
@@ -1684,7 +1653,6 @@ bb:ComputerSupportedInformationSystem
     meta:entityTypeComponent bb:ComputerBasedTool ;
     a meta:EntityType ;
     rdfs:label "Computer-Supported Information System"@en, "سیستم اطلاعاتی پشتیبانی شده توسط کامپیوتر"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "An information system that comprises computer-based information processing and communication tools is called a computer-based information system."@en .
 
 bb:ComputerSystem
@@ -1711,8 +1679,7 @@ bb:ComputingCenter
     meta:chapter bb:chapter6-7 ;
     meta:isAssociatedWith bb:ComputerSupportedInformationSystem ;
     a meta:EntityType ;
-    rdfs:label "Computing Center"@en, "مرکز فناوری"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Computing Center"@en, "مرکز فناوری"@fa .
 
 bb:ComputingCenterManager
     meta:isResponsibleForEntityType bb:AvailabilityOfApplicationComponents, bb:ComputingCenter, bb:PerformanceOfApplicationComponents, bb:StabilityOfApplicationComponents ;
@@ -1763,7 +1730,7 @@ bb:ConsolidationOfApplicationSystems
 bb:Consultant
     meta:chapter bb:chapter9-4 ;
     meta:isAssociatedWith bb:LongTermHISPlanning ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "Consultant"@en, "مشاور"@fa ;
     rdfs:subClassOf bb:HisStakeholder .
 
@@ -1850,7 +1817,6 @@ bb:ConvergingTechnologies
     meta:chapter bb:chapter6-4 ;
     a meta:EntityType ;
     rdfs:label "Converging Technologies"@en, "فن آوریهای هم گرا"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Converging Technologies is the interrelationship between medical devices and Health Information Technology."@en .
 
 bb:CopperCable
@@ -1968,8 +1934,7 @@ bb:Data
 
 bb:DataCollectionEffort
     a meta:EntityType ;
-    rdfs:label "Data Collection Effort"@en, "تلاش برای جمع آوری داده ها"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Data Collection Effort"@en, "تلاش برای جمع آوری داده ها"@fa .
 
 bb:DataIntegration
     bb:page "146"^^xsd:positiveInteger ;
@@ -2000,8 +1965,7 @@ bb:DataProtection
     meta:chapter bb:chapter4-2 ;
     meta:isAssociatedWith bb:LegalRequirement ;
     a meta:Function ;
-    rdfs:label "Data Protection"@en, "حفاظت اطلاعات"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Data Protection"@en, "حفاظت اطلاعات"@fa .
 
 bb:DataReferenceModel
     meta:isBasedOn bb:DataMetamodel ;
@@ -2012,8 +1976,7 @@ bb:DataReferenceModel
 bb:DataSecurity
     meta:chapter bb:chapter2-4 ;
     a meta:EntityType ;
-    rdfs:label "Data Security"@en, "امنیت داده ها"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Data Security"@en, "امنیت داده ها"@fa .
 
 bb:DataSecurityOfficer
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -2027,7 +1990,6 @@ bb:DataTransmissionConnection
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Data Transmission Connection"@en, "Datenübertragungsverbindung"@de, "اتصال انتقال داده"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Connection of physical data processing systems, e.g., by communication network or courier service. Uses transmitting media such as signal-based media (cable) or nonsignal-based media (e.g., paper)."@en .
 
 bb:DataWarehouseSystem
@@ -2056,8 +2018,7 @@ bb:DatabaseStyle
 
 bb:DatabaseSystem
     a meta:EntityType ;
-    rdfs:label "Database System"@en, "سیستم پایگاه داده"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Database System"@en, "سیستم پایگاه داده"@fa .
 
 bb:DebtorAccounting
     a meta:Function ;
@@ -2082,7 +2043,7 @@ bb:DecisionMakingPlanningAndOrganizationOfPatientTreatment
 bb:DecisionSupportSystem
     bb:page "134"^^xsd:positiveInteger, "231"^^xsd:positiveInteger, "232"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-4 ;
-    a bb:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
+    a meta:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Decision Support System"@en, "سیستم پشتیبانی تصمیم"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent ;
     skos:definition "A knowledge-based system which assists a doctor in finding the right diagnosis or treatment for a specific patient"@en .
@@ -2163,20 +2124,17 @@ bb:DeploymentOfStrategicInformationManagementPlan
 bb:DescriptionOfTheCurrentHISState
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "Description of the Current HIS State"@en, "شرح چگونگی کنونی HIS"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Description of the Current HIS State"@en, "شرح چگونگی کنونی HIS"@fa .
 
 bb:DescriptionOfThePlannedHISState
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "Description of the Planned HIS State"@en, "توصیف وضعیت برنامه ریزی شده HIS"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Description of the Planned HIS State"@en, "توصیف وضعیت برنامه ریزی شده HIS"@fa .
 
 bb:DesigningCustomerCenteredServices
     meta:updates bb:ItService ;
     a meta:Function ;
-    rdfs:label "Designing Customer-Centered Services"@en, "طراحی خدمات مشتری متمرکز"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Designing Customer-Centered Services"@en, "طراحی خدمات مشتری متمرکز"@fa .
 
 bb:DhcpServer
     bb:page "169"^^xsd:positiveInteger ;
@@ -2236,26 +2194,22 @@ bb:DialysisInformationSystem
 bb:DicomFileFormat
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "DICOM File Format"@en, "فرمت فایل DICOM"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "DICOM File Format"@en, "فرمت فایل DICOM"@fa .
 
 bb:DicomMessageFormat
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "DICOM Message Format"@en, "فرمت پیام DICOM"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "DICOM Message Format"@en, "فرمت پیام DICOM"@fa .
 
 bb:DicomNetworkProtocol
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "DICOM Network Protocol"@en, "پروتکل شبکه DICOM"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "DICOM Network Protocol"@en, "پروتکل شبکه DICOM"@fa .
 
 bb:DicomService
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "DICOM Service"@en, "خدمات DICOM"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "DICOM Service"@en, "خدمات DICOM"@fa .
 
 bb:DicomStandard
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -2278,7 +2232,7 @@ bb:Diet
 bb:DigitalDictationSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:supports bb:ReportWriting ;
-    a bb:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
+    a meta:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Digital Dictation System"@en, "سیستم  دیجیتال دیکته"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent .
 
@@ -2286,13 +2240,12 @@ bb:DigitalImage
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter2-4 ;
     a meta:EntityType ;
-    rdfs:label "Digital Image"@en, "تصویر دیجیتال"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Digital Image"@en, "تصویر دیجیتال"@fa .
 
 bb:DigitalXRay
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-5 ;
-    a meta:EntityType ;
+    a meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Digital X-Ray"@en, "X-Ray دیجیتال"@fa ;
     rdfs:subClassOf bb:ImagingModality .
 
@@ -2311,14 +2264,12 @@ bb:Directing
     meta:chapter bb:Thesaurus ;
     a meta:Function ;
     rdfs:label "Directing"@en, "Steuerung"@de, "هدایت"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Executing a plan. Directing in strategic information management means to transform a strategic information management plan into projects. Directing in tactical information management means the execution of projects, based on a project plan. Directing in operational information management means the sum of all management activities that are necessary to ensure proper reactions to operating problems of components of a hospital information system."@en .
 
 bb:DirectiveForHISConstruction
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "Directive for HIS Construction"@en, "دستور ساخت HIS"@fa, "دستورالعمل برای ساخت HIS"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Directive for HIS Construction"@en, "دستور ساخت HIS"@fa, "دستورالعمل برای ساخت HIS"@fa .
 
 bb:DischargeSummary
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -2410,7 +2361,7 @@ bb:Durability
 
 bb:EMailCommunication
     meta:chapter bb:chapter6-3 ;
-    a meta:Function ;
+    a meta:EntityType;
     rdfs:label "E-Mail Communication"@en, "ارتباطات ایمیل"@fa ;
     rdfs:subClassOf bb:AsynchronousCommunication .
 
@@ -2509,8 +2460,7 @@ bb:EfqmExcellenceModel
 bb:EhrStrategy
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "EHR Strategy"@en, "EHR استراتژی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "EHR Strategy"@en, "EHR استراتژی"@fa .
 
 bb:ElectronicHealthRecord
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -2525,8 +2475,7 @@ bb:ElectronicHealthRecord
 bb:ElectronicHealthRecordFunction
     <http://purl.org/dc/elements/1.1/source> "Vom SNIK-Team zum besseren Verständnis eingefügt."@en ;
     a meta:EnterpriseFunction ;
-    rdfs:label "Electronic Health Record Function"@en ;
-    rdfs:subClassOf meta:EnterpriseFunction .
+    rdfs:label "Electronic Health Record Function"@en .
 
 bb:ElectronicPatientRecord
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -2608,7 +2557,6 @@ bb:EnterpriseFunction
     meta:uses bb:InformationSystem ;
     a meta:Function ;
     rdfs:label "Enterprise Function"@en, "Unternehmensaufgabe"@de, "تابع سازمانی"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "An enterprise function describes what acting human or machines have to do in a certain enterprise to contribute to its mission and goals. Enterprise functions are ongoing and continuous. They describe what is to be done, not how it is done. The class of all activities interpreting the same set of entity types and updating the same set of entity types is called an information processing enterprise function (for short: enterprise function). An enterprise function is a directive in an institution on how to interpret data about entity types and then update data about entity types as a consequence of this interpretation. The goal of data interpretation and updates is part of or contributes to (sub) goals of the institution. A function has no definitive beginning or end. Similar to an activity, an enterprise function is said to interpret entity types and update entity types."@en .
 
 bb:EnterpriseFunctionModelingElement
@@ -2638,7 +2586,6 @@ bb:EntityType
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Entity Type"@en, "Objekttyp"@de, "نوع نهاد"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Is a representation of an object class and of the data describing the objects of this class, if these data are stored or could/should be stored in the information system."@en .
 
 bb:EntityTypeModelingElement
@@ -2648,8 +2595,7 @@ bb:EntityTypeModelingElement
 
 bb:EntityTypeRelation
     a meta:EntityType ;
-    rdfs:label "Entity Type Relation"@en, "ارتباط انواع موجودیت"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Entity Type Relation"@en, "ارتباط انواع موجودیت"@fa .
 
 bb:EntityTypeRelationModelingElement
     a meta:EntityType ;
@@ -2683,14 +2629,12 @@ bb:EstablishingAnInternalProcessConsultancy
 bb:EstablishingReferentialIntegrity
     meta:updates bb:ReferentialIntegrity ;
     a meta:Function ;
-    rdfs:label "Establishing Referential Integrity"@en, "ایجاد یکپارچگی ارجاع"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Establishing Referential Integrity"@en, "ایجاد یکپارچگی ارجاع"@fa .
 
 bb:Ethernet
     meta:isBasedOn bb:LogicalNetworkTopology ;
     a meta:EntityType ;
-    rdfs:label "Ethernet"@en, "اترنت"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Ethernet"@en, "اترنت"@fa .
 
 bb:EuroRec
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -2708,15 +2652,13 @@ bb:EuroRecEHRQualitySeal
 
 bb:EuropeanNorm
     a meta:EntityType ;
-    rdfs:label "European Norm"@en, "استاندارد اروپایی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "European Norm"@en, "استاندارد اروپایی"@fa .
 
 bb:Evaluation
     bb:page "221"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus, bb:chapter8 ;
     a meta:Function ;
     rdfs:label "Evaluation"@en, "ارزیابی"@fa ;
-    rdfs:subClassOf bb:ResearchAndEducationEntityType ;
     skos:definition "Act of measuring or exploring properties of a health information system. The result of an evaluation should give information to support decisions concerning the health information system. Evaluation studies are typically conducted as projects of tactical information management. Evaluation studies support monitoring of hospital information systems."@en .
 
 bb:EvaluationMethod
@@ -2728,14 +2670,13 @@ bb:EvaluationMethod
 
 bb:Event
     a meta:EntityType ;
-    rdfs:label "Event"@en, "رویداد"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Event"@en, "رویداد"@fa .
 
 bb:EventCountingStudy
     bb:page "225"^^xsd:positiveInteger ;
     meta:chapter bb:chapter8-6 ;
-    meta:uses bb:ObservationProtocol ;
-    a meta:Function ;
+    meta:entityTypeComponent bb:ObservationProtocol ;
+    a meta:EntityType ;
     rdfs:label "Event Counting Study"@en, "بررسی شمارش رویداد"@fa ;
     rdfs:subClassOf bb:QuantitativeEvaluationMethod ;
     skos:definition " Event counting comprises observations of clinical situations or processes or analysis of available data (e.g., log ﬁ les), counting the number of events that occur in a given time period."@en .
@@ -2771,8 +2712,7 @@ bb:ExecutionOfAnITEvaluationStudy
     meta:updates bb:KeyPerformanceIndicator, bb:ObservationProtocol, bb:StudyResult ;
     meta:uses bb:EvaluationMethod, bb:KeyPerformanceIndicator, bb:Quality, bb:StudyDesign, bb:StudyPlan ;
     a meta:Function ;
-    rdfs:label "Execution of an IT Evaluation Study"@en, "اجرای یک مطالعه ارزیابی فناوری اطلاعات "@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Execution of an IT Evaluation Study"@en, "اجرای یک مطالعه ارزیابی فناوری اطلاعات "@fa .
 
 bb:ExecutionOfAnOperation
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -2806,7 +2746,7 @@ bb:ExecutionOfClinicalTrialsAndExperiments
 bb:ExecutionOfDiagnosticAndTherapeuticProcedures
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:updates bb:Finding, bb:MedicalProcedure, bb:Order ;
-    meta:uses bb:Case, bb:InformedConsent, bb:MedicalAndNursingKnowledge, bb:MedicalProcedure, bb:Order, bb:Patient ;
+    meta:uses bb:Case, bb:InformedConsent, bb:MedicalAndNursingKnowledge, bb:MedicalProcedure, bb:Order, bb:Patient, bb:Medication ;
     a meta:Function ;
     rdfs:label "Execution of Diagnostic and Therapeutic Procedures"@en, "اجرای روشهای تشخیصی و درمانی"@fa ;
     rdfs:subClassOf bb:PatientCare .
@@ -2914,8 +2854,7 @@ bb:FacilityManagement
 bb:FailureManagement
     meta:chapter bb:chapter3-4 ;
     a meta:Function ;
-    rdfs:label "Failure Management"@en, "مدیریت خطا"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Failure Management"@en, "مدیریت خطا"@fa .
 
 bb:FamilyHistory
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -2935,7 +2874,6 @@ bb:Feature
     meta:isAssociatedWith bb:SoftwareProduct ;
     a meta:EntityType ;
     rdfs:label "Feature"@en, "ویژگی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "A functionality offered by a software product which directly contributes to the fulfillment of one or more enterprise functions"@en .
 
 bb:FeatureAdministrateTheMasterPatientIndex
@@ -3651,8 +3589,7 @@ bb:ForkLift
 
 bb:Framework
     a meta:EntityType ;
-    rdfs:label "Framework"@en, "فرم ورک"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Framework"@en, "فرم ورک"@fa .
 
 bb:FulfillmentOfLawsRelevantToInformationManagement
     bb:page "215"^^xsd:positiveInteger ;
@@ -3661,7 +3598,6 @@ bb:FulfillmentOfLawsRelevantToInformationManagement
     meta:uses bb:BPflV, bb:Bdsg, bb:HealthInsurancePortabilityAndAccountabilityAct, bb:IuKDG, bb:KhStatV, bb:Khg, bb:Khrg, bb:Sgbv, bb:SigG ;
     a meta:Function ;
     rdfs:label "Fulfillment of Laws relevant to Information Management"@en, "ارضاء قوانین وابسته به مدیریت اطلاعات"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "In each country, different laws affect health information processing, addressing, for example, organization of health care, financing of health care, and health statistics. Those laws must be taken into account by information management. "@en .
 
 bb:FulfillmentOfStrategicHospitalGoal
@@ -3671,14 +3607,12 @@ bb:FulfillmentOfStrategicHospitalGoal
     meta:uses bb:StrategicHospitalGoal ;
     a meta:Function ;
     rdfs:label "Fulfillment of Strategic Hospital Goal"@en, "اجرای هدف بیمارستان استراتژیک"@fa ;
-    rdfs:subClassOf bb:QualityOfHISOutcome ;
     skos:definition "For the hospital as an enterprise, the hospital information system should typically contribute to high quality patient care, efficient usage of resources, and fulfillment of legal requirements as general goals of all hospitals."@en .
 
 bb:FulfillmentOfTheExpectationsOfDifferentStakeholders
     meta:uses bb:RequirementOfHISStakeholder ;
     a meta:Function ;
-    rdfs:label "Fulfillment of the Expectations of Different Stakeholders"@en, "برآورده شدن انتظارات متقاضیان مختلف"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Fulfillment of the Expectations of Different Stakeholders"@en, "برآورده شدن انتظارات متقاضیان مختلف"@fa .
 
 bb:FunctionalCoverageOfTheApplicationComponent
     bb:page "265"^^xsd:positiveInteger ;
@@ -3724,8 +3658,7 @@ bb:FunctionalModel
 
 bb:FunctionalPerspective
     a meta:EntityType ;
-    rdfs:label "Functional Perspective"@en, "دیدگاه کاربردی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Functional Perspective"@en, "دیدگاه کاربردی"@fa .
 
 bb:FunctionalRedundancy
     bb:page "304"^^xsd:positiveInteger ;
@@ -3740,7 +3673,6 @@ bb:FunctionalRedundancyRate
     meta:chapter bb:chapter8-7 ;
     a meta:EntityType ;
     rdfs:label "Functional Redundancy Rate"@en, "میزان افزونگی کارکرد"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Functional redundancy deals with the adequate relationship between enterprise functions and application components to support these tasks."@en .
 
 bb:Functionality
@@ -3774,7 +3706,7 @@ bb:GeneralPractice
 bb:GeneralPractitioner
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:isAssociatedWith bb:GeneralPractice ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "General Practitioner"@en, "پزشک عمومی"@fa ;
     rdfs:subClassOf bb:HisStakeholder .
 
@@ -3821,25 +3753,21 @@ bb:HL7CDA
     meta:chapter bb:chapter6-5 ;
     meta:isAssociatedWith bb:DataIntegration, bb:SemanticIntegration ;
     a meta:EntityType ;
-    rdfs:label "HL7 CDA"@en, "HL7 CDA"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "HL7 CDA"@en, "HL7 CDA"@fa .
 
 bb:HL7EventDescription
     a meta:EntityType ;
-    rdfs:label "HL7 Event Description"@en, "شرح رویداد HL7"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "HL7 Event Description"@en, "شرح رویداد HL7"@fa .
 
 bb:HL7EventType
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "HL7 Event Type"@en, "نوع رویداد HL7"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "HL7 Event Type"@en, "نوع رویداد HL7"@fa .
 
 bb:HL7MessageHeader
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "HL7 Message Header"@en, "پیام هدر HL7"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "HL7 Message Header"@en, "پیام هدر HL7"@fa .
 
 bb:HL7MessageType
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -3852,21 +3780,18 @@ bb:HL7MessageTypeEventTypeCombination
     meta:chapter bb:chapter6-5 ;
     meta:entityTypeComponent bb:HL7EventType, bb:HL7MessageType ;
     a meta:EntityType ;
-    rdfs:label " ترکیب نوع پیام نوع رویداد HL7"@fa, "HL7 Message Type Event Type Combination"@en ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label " ترکیب نوع پیام نوع رویداد HL7"@fa, "HL7 Message Type Event Type Combination"@en .
 
 bb:HL7PatientIdentification
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-5 ;
     a meta:EntityType ;
-    rdfs:label "HL7 Patient Identification"@en, "شناسایی بیمارHL7"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "HL7 Patient Identification"@en, "شناسایی بیمارHL7"@fa .
 
 bb:HL7PatientVisitInformation
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "HL7 Patient Visit Information"@en, "اطلاعات مربوط به بیمار HL7"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "HL7 Patient Visit Information"@en, "اطلاعات مربوط به بیمار HL7"@fa .
 
 bb:HL7ReceiptMessage
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -3916,8 +3841,7 @@ bb:HL7Version3Message
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:isBasedOn bb:Xml ;
     a meta:EntityType ;
-    rdfs:label "HL7 Version 3 Message"@en, "HL7 پیام نسخه 3"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "HL7 Version 3 Message"@en, "HL7 پیام نسخه 3"@fa .
 
 bb:HairUndNailCare
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -3927,7 +3851,8 @@ bb:HairUndNailCare
     rdfs:subClassOf bb:NursingProcedure .
 
 bb:HardwareHosting
-    bb:tripelPage "manuell hinzugefügt"@de ;
+    a meta:EntityType ;
+    rdfs:comment "manuell hinzugefügt"@de ;
     rdfs:label "Hardware Hosting"@en, "Hardware-Hosting"@de ;
     rdfs:subClassOf bb:ItService ;
     skos:definition "Hardware-Hosting umfasst die Bereitstellung eines (virtuellen) Servers oder einer (virtuellen) Maschine in den Rechenzentren des Bereiches 1, Sicherstellung der Aktualität des Betriebssystems (abhängig vom vereinbarten ServiceLevel)."@de .
@@ -3959,7 +3884,7 @@ bb:HealthCareNetwork
     meta:roleComponent bb:GeneralPractice, bb:GovernmentalAuthority, bb:HealthInsuranceCompany, bb:HomeCareInstitution, bb:Hospital, bb:Pharmacy, bb:RehabilitationCenter ;
     a meta:Role ;
     rdfs:label "Gesundheitsversorgungsnetzwerk"@de, "Health Care Network"@en, "شبکه بهداشت و درمان"@fa ;
-    rdfs:subClassOf meta:Role, bb:HealthCareInstitution ;
+    rdfs:subClassOf bb:HealthCareInstitution ;
     skos:definition "A group of two or more legally separated health care institutions that have temporarily and voluntarily joined together to achieve a common purpose. The information system of a health care network is called a transinstitutional health information system."@en .
 
 bb:HealthCareProfessional
@@ -3979,7 +3904,6 @@ bb:HealthCareRegulation
     meta:chapter bb:chapter6-2 ;
     a meta:EntityType ;
     rdfs:label "Health Care Regulation"@en, "مقررات مراقبت بهداشتی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Is a regulation or law to be observed by health care institutions (see examples in Sect. 8.4.3)"@en .
 
 bb:HealthInformationSystem
@@ -4057,8 +3981,7 @@ bb:HisBenchmarking
 bb:HisBenchmarkingMethod
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "HIS Benchmarking Method"@en, "روش سنجش HIS"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "HIS Benchmarking Method"@en, "روش سنجش HIS"@fa .
 
 bb:HisBudgetPlanning
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4070,8 +3993,7 @@ bb:HisBudgetPlanning
 bb:HisCertificate
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "HIS Certificate"@en, "گواهی HIS"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "HIS Certificate"@en, "گواهی HIS"@fa .
 
 bb:HisCertification
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4087,8 +4009,7 @@ bb:HisCertification
 bb:HisComponent
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "HIS Component"@en, "کامپوننت HIS"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "HIS Component"@en, "کامپوننت HIS"@fa .
 
 bb:HisInfrastructure
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4096,7 +4017,6 @@ bb:HisInfrastructure
     meta:entityTypeComponent bb:PhysicalDataProcessingSystem ;
     a meta:EntityType ;
     rdfs:label "HIS Infrastructure"@en, "زیرساخت HIS"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "The set of all physical data processing systems in a health care institution is called the infrastructure of its HIS. This infrastructure can be described by the overall number of physical data processing systems, by the average number of physical data processing systems per unit (e.g., two personal computers and one laptop per ward), or per staff member."@en ;
     skos:related bb:PhysicalToolLayer .
 
@@ -4118,7 +4038,6 @@ bb:HisStakeholder
     a meta:Role ;
     rdfs:comment "Interessensvertreter des Krankenhausinformationssystems (HIS)"@en, "stakeholder in the hospital information system (HIS)"@en ;
     rdfs:label "HIS Interessenvertreter"@de, "HIS Stakeholder"@en, "ذینفعان HIS"@fa ;
-    rdfs:subClassOf meta:Role ;
     skos:altLabel "Interessensgruppe"@de ;
     skos:definition "Anyone who has direct or indirect influence on or interest in a component of an information system."@en .
 
@@ -4419,8 +4338,7 @@ bb:Ihe
 bb:IheActor
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "IHE Actor"@en, "IHE بازیگر"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "IHE Actor"@en, "IHE بازیگر"@fa .
 
 bb:IheConnectAThon
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4429,14 +4347,12 @@ bb:IheConnectAThon
     meta:isAssociatedWith bb:Ihe ;
     a meta:EntityType ;
     rdfs:label "IHE Connect-a-thon"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "IHE offers comprehensive test software enabling vendors to test their products’ interfaces for IHE compliance and organizes large cross vendor testing events called “IHE connect-a-thon” (from “connection” and “marathon”)."@en .
 
 bb:IheContentProfile
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "IHE Content Profile"@en, "مشخصات محتوا IHE"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "IHE Content Profile"@en, "مشخصات محتوا IHE"@fa .
 
 bb:IheCrossEnterpriseDocumentSharing
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4445,15 +4361,13 @@ bb:IheCrossEnterpriseDocumentSharing
     meta:isAssociatedWith bb:TransinstitutionalHealthInformationSystem ;
     a meta:EntityType ;
     rdfs:label "IHE Cross-Enterprise Document Sharing"@en, "به اشتراک گذاری سند در همه جای سازمانی IHE"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "The IHE Cross-Enterprise Document Sharing (XDS) Integration Profile focuses on providing standard-based specifications for transinstitutional sharing of medical documents. The content of the documents is not limited to textual information but also comprises images and coded clinical information. In IHE XDS, a document repository is responsible for storing the documents in a secure, reliable and consistent way and responds to retrieval requests that can be submitted by any connected institution. In the document registry information about these documents is stored so that they can be found and selected irrespective of the repositories where they are physically stored."@en .
 
 bb:IheDomain
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:entityTypeComponent bb:IheContentProfile, bb:IheIntegrationProfile ;
     a meta:EntityType ;
-    rdfs:label "IHE Domain"@en, "دامنه IHE"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "IHE Domain"@en, "دامنه IHE"@fa .
 
 bb:IheIntegrationProfile
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4483,8 +4397,7 @@ bb:IheTechnicalFramework
 bb:IheTransaction
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "IHE Transaction"@en, "انجام IHE"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "IHE Transaction"@en, "انجام IHE"@fa .
 
 bb:ImagingModality
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4494,7 +4407,7 @@ bb:ImagingModality
     a meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Imaging Modality"@en, "چگونگی تصویر برداری"@fa ;
     rdfs:subClassOf bb:MedicalDevice ;
-    skos:definition "Tool that generates images.143"@en .
+    skos:definition "Tool that generates images"@en .
 
 bb:ImprovingApplicationSystemUse
     dc:source <http://subs.emis.de/LNI/Proceedings/Proceedings259/685.pdf> ;
@@ -4503,8 +4416,7 @@ bb:ImprovingApplicationSystemUse
 
 bb:ImprovingCustomerCenteredServices
     a meta:Function ;
-    rdfs:label "Improving Customer-Centered Services"@en, "بهبود خدمات مشتری متمرکز"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Improving Customer-Centered Services"@en, "بهبود خدمات مشتری متمرکز"@fa .
 
 bb:ImprovingDigitalization
     dc:source <http://subs.emis.de/LNI/Proceedings/Proceedings259/685.pdf> ;
@@ -4569,14 +4481,12 @@ bb:Information
     a meta:EntityType ;
     rdfs:comment "For example, when a physician determines the diagnosis (facts) of a patient (person), then he or she has information."@en ;
     rdfs:label "Information"@en, "اطلاعات"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Information is a specific determination about entities such as facts, events, things, persons, processes, ideas, or concepts."@en .
 
 bb:InformationAndCommunicationTechnology
     meta:entityTypeComponent bb:ComputerBasedApplicationComponent, bb:ComputerNetwork ;
     a meta:EntityType ;
-    rdfs:label "Information and Communication Technology"@en, "فناوری اطلاعات و ارتباطات"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Information and Communication Technology"@en, "فناوری اطلاعات و ارتباطات"@fa .
 
 bb:InformationAndKnowledgeLogistics
     bb:page "305"^^xsd:positiveInteger, "35"^^xsd:positiveInteger ;
@@ -4584,14 +4494,12 @@ bb:InformationAndKnowledgeLogistics
     meta:isAssociatedWith bb:Information, bb:Knowledge ;
     a meta:Function ;
     rdfs:label "Information and Knowledge Logistics"@en, "Informations- und Wissenslogistik"@de, "تدارکات اطلاعات و دانش"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "To make available the right information and knowledge at the right time, at the right place, to the right people, in the right form, so that people can make the right decisions."@en, "When hospital information systems make available  the right information and knowledge at the right time at the right place  to the right people in the right form, so that these people can make the right decisions, this is also described as information and knowledge logistics. • the right information and knowledge • at the right time • at the right place • to the right people • in the right form,"@en .
 
 bb:InformationDesk
     meta:isResponsibleForFunction bb:VisitorAndInformationService ;
     a meta:Role ;
-    rdfs:label "Information Desk"@en, "میز اطلاعات"@fa ;
-    rdfs:subClassOf bb:PatientCareEntityType .
+    rdfs:label "Information Desk"@en, "میز اطلاعات"@fa .
 
 bb:InformationManagement
     bb:page "101"^^xsd:positiveInteger, "30"^^xsd:positiveInteger ;
@@ -4610,7 +4518,6 @@ bb:InformationManagementBoard
     meta:roleComponent bb:ChiefExecutiveOfficer, bb:ChiefInformationOfficer, bb:HisStakeholder ;
     a meta:Role ;
     rdfs:label "Ausschuss für Informationsmanagement"@de, "Information Management Board"@en, "هیئت مدیره اطلاعات"@fa ;
-    rdfs:subClassOf meta:Role ;
     skos:definition "Such a board can often be found in larger hospitals (Fig. 9.7 ). Members should include one representative from the hospital’s board of directors, representatives from the main departments and user groups, and the director of the information management department (see Sect. 9.3.2 ) if this director is not the CIO simultaneously. If no dedicated CIO position exists, the president of this board can be regarded as the CIO of the hospital.  Responsible for strategic information management in a hospital. Members should include representatives from the hospital’s board of directors, representatives from the main departments and user groups, and the director of the information management department. If no dedicated CIO position exists, the president of this board can be regarded as the CIO of the hospital."@en .
 
 bb:InformationManagementCost
@@ -4625,8 +4532,8 @@ bb:InformationManagementCost
 bb:InformationManagementDepartment
     bb:page "251"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    meta:roleComponent bb:InformationManagementStaff ;
-    a meta:Role ;
+    meta:isAssociatedWith bb:InformationManagementStaff ;
+    a meta:EntityType;
     rdfs:label "Abteilung Informationsmanagement"@de, "Department of Information management"@en, "گروه مدیریت اطلاعات"@fa ;
     rdfs:subClassOf bb:HospitalAdministrationDepartment ;
     skos:altLabel "IT-Abteilung"@de, "Information Management Department"@en ;
@@ -4634,13 +4541,11 @@ bb:InformationManagementDepartment
 
 bb:InformationManagementGoal
     a meta:EntityType ;
-    rdfs:label "Information Management Goal"@en, "هدف مدیریت اطلاعات"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Information Management Goal"@en, "هدف مدیریت اطلاعات"@fa .
 
 bb:InformationManagementGuideline
     a meta:EntityType ;
-    rdfs:label "Information Management Guideline"@en, "دستورالعمل مدیریت اطلاعات"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Information Management Guideline"@en, "دستورالعمل مدیریت اطلاعات"@fa .
 
 bb:InformationManagementInHealthCareNetworks
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4668,8 +4573,7 @@ bb:InformationManagementOperatingCost
 bb:InformationManagementOrganizationalStructure
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "Information Management Organizational Structure"@en, "ساختار سازمانی سازمان مدیریت اطلاعات"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Information Management Organizational Structure"@en, "ساختار سازمانی سازمان مدیریت اطلاعات"@fa .
 
 bb:InformationManagementStaff
     meta:chapter bb:chapter4-2 ;
@@ -4682,7 +4586,6 @@ bb:InformationProcessing
     meta:chapter bb:Thesaurus ;
     a meta:Function ;
     rdfs:label "Information Processing"@en, "Informationsverarbeitung"@de, "پردازش اطلاعات"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "In the context of hospital information systems, it refers to the processing of data together with their related information, and knowledge."@en .
 
 bb:InformationProcessingModel
@@ -4695,7 +4598,6 @@ bb:InformationProcessingTool
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Information Processing Tool"@en, "Werkzeug der Informationsverarbeitung"@de, "ابزار پردازش اطلاعات"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "An application component or a physical data processing system. Can be either computer-based or non-computer-based (e.g., paper-based)."@en .
 
 bb:InformationProcessingToolModelingElement
@@ -4705,8 +4607,7 @@ bb:InformationProcessingToolModelingElement
 
 bb:InformationStorage
     a meta:Function ;
-    rdfs:label "Information Storage"@en, "ذخیره سازی اطلاعات"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Information Storage"@en, "ذخیره سازی اطلاعات"@fa .
 
 bb:InformationSystem
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4716,18 +4617,15 @@ bb:InformationSystem
     meta:isAssociatedWith bb:ArchitectureOfAnInformationSystem, bb:Data ;
     a meta:EntityType ;
     rdfs:label "Information System"@en, "Informationssystem"@de, "سیستم اطلاعات"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Socio-technical subsystem of an institution that comprises all information processing as well as the associated human or technical actors in their respective information processing roles. An information system can be divided into sub-information systems."@en .
 
 bb:InformationSystemEffectiveness
     a meta:EntityType ;
-    rdfs:label "Information System Effectiveness"@en, "اثربخشی سیستم اطلاعاتی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Information System Effectiveness"@en, "اثربخشی سیستم اطلاعاتی"@fa .
 
 bb:InformationSystemImprovement
     a meta:EntityType ;
-    rdfs:label "Information System Improvement"@en, "بهبود سیستم اطلاعات"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Information System Improvement"@en, "بهبود سیستم اطلاعات"@fa .
 
 bb:InformationSystemMetamodel
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4749,8 +4647,7 @@ bb:InformationSystemModel
 
 bb:InformationSystemSafety
     a meta:EntityType ;
-    rdfs:label "Information System Safety"@en, "امنیت سیستم اطلاعات"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Information System Safety"@en, "امنیت سیستم اطلاعات"@fa .
 
 bb:InformedConsent
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4767,7 +4664,6 @@ bb:InfrastructureOfAnInformationSystem
     meta:entityTypeComponent bb:InformationProcessingTool ;
     a meta:EntityType ;
     rdfs:label "Infrastructure of an Information System"@en, "Infrastruktur eines Informationssystems"@de, "زیرساخت سیستم اطلاعاتی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Types, number, and availability of information processing tools used in a given enterprise."@en .
 
 bb:Inpatient
@@ -4819,8 +4715,7 @@ bb:IntegratedCareNetwork
     meta:isResponsibleForFunction bb:IntegratedCare ;
     meta:roleComponent bb:GeneralPractice, bb:NursingCenter, bb:RehabilitationCenter ;
     a meta:Role ;
-    rdfs:label "Integrated Care Network"@en, "شبکه مراقبت جامع"@fa ;
-    rdfs:subClassOf meta:Role .
+    rdfs:label "Integrated Care Network"@en, "شبکه مراقبت جامع"@fa .
 
 bb:IntegratedHIS
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -4828,7 +4723,6 @@ bb:IntegratedHIS
     meta:isAssociatedWith bb:Integration ;
     a meta:EntityType ;
     rdfs:label "Integrated HIS"@en, "یگانه HIS"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Integrated HIS means that all necessary measures have been taken to ensure integrity of data by integration"@en .
 
 bb:IntegratedHealthCareDeliverySystem
@@ -4846,7 +4740,6 @@ bb:Integration
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Integration"@en, "یکپارچگی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Integration in general describes a union of parts making a whole. /But besides this meaning as a property of a system, “integration” additionally stands for the actions to be taken in order to achieve this property and thus has a behavioral perspective. describes a union of parts making a whole, which – as opposed to its parts – displays a new quality. A union of parts making a whole, which – as opposed to its parts – displays a new quality. We speak of integrated health information system if we want to express that it is a union that represents more than just a set of independent components. To achieve this integration, the components need to be interoperable. We expect positive consequences for the quality of information processing by integration. Different types of integration on the logical tool layer are data integration, semantic integration, access integration, presentation integration, contextual integration, and process integration. On the physical tool layer, physical integration is important."@en .
 
 bb:IntegrationOfItAndMedicalEngineering
@@ -4866,7 +4759,7 @@ bb:IntegrationPlatform
 bb:IntegrationTechnology
     bb:page "308"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    a meta:EntityType ;
+    a meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
     rdfs:label "Integration Technology"@en, "تکنولوژی یکپارچگی"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent ;
     skos:definition "Technologies used to achieve integration within distributed health information systems, including federated database systems, transaction management, and middleware (e. g. communication servers, remote function calls, SOA)."@en .
@@ -4876,7 +4769,6 @@ bb:Integrity
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Integrity"@en, "Integrität"@de, "تمامیت"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "The correctness of data stored in a health information system. Important aspects of integrity are object identity, referential integrity, and consistency of data."@en .
 
 bb:IntegrityOfData
@@ -4888,7 +4780,8 @@ bb:IntegrityOfData
     skos:definition "Comprises the mere correctness (e.g., correct diagnosis ), object identity (e.g., correct identification of every patient by a unique patient identification number), referential integrity (e.g., each clinical report can uniquely be linked to a patient ), and consistency of redundant data (e.g., the name of a patient is not spelled differently in different databases)."@en .
 
 bb:InternalItService
-    bb:tripelPage "manuell hinzugefügt"@de ;
+    a meta:EntityType ;
+    rdfs:comment "manuell hinzugefügt"@de ;
     rdfs:label "Internal IT Service"@en, "Interner IT-Service"@de ;
     rdfs:subClassOf bb:ItService ;
     skos:definition "Ein interner IT-Service ist eine Aktivität des Bereiches 1, der notwendig ist, um andere IT-Services bereitzustellen (enabling services) und von Kunden nicht explizit gebucht werden kann."@de .
@@ -4905,7 +4798,7 @@ bb:InternalQualityManagement
 
 bb:InternalReportingSystem
     meta:supports bb:InternalQualityManagement ;
-    a bb:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
+    a meta:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Internal Reporting System"@en, "سیستم گزارش گیری داخلی"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent .
 
@@ -4986,7 +4879,6 @@ bb:Isolation
     meta:chapter bb:chapter6-5 ;
     a meta:EntityType ;
     rdfs:label "Isolation"@en, "جداسازی"@fa, "قرنطینه"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Isolation makes intermediary updates of data inside the transaction invisible"@en .
 
 bb:IsoosiReferenceModel
@@ -5002,8 +4894,7 @@ bb:ItEvaluationStudy
     meta:isAssociatedWith bb:InformationSystemEffectiveness, bb:InformationSystemImprovement, bb:InformationSystemSafety, bb:ItInvestmentJustification ;
     meta:isBasedOn bb:EvaluationMethod ;
     a meta:EntityType ;
-    rdfs:label "IT Evaluation Study"@en, "مطالعه ارزیابی فناوری اطلاعات"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "IT Evaluation Study"@en, "مطالعه ارزیابی فناوری اطلاعات"@fa .
 
 bb:ItEvaluationStudyManagementAndExecution
     meta:functionComponent bb:ExecutionOfAnITEvaluationStudy, bb:FirstStudyDesign, bb:OperationalizationOfMethodsAndDetailedStudyPlan, bb:ReportAndPublicationOfStudy, bb:StudyExploration ;
@@ -5026,7 +4917,6 @@ bb:ItInvestmentPlanning
 bb:ItService
     a meta:EntityType ;
     rdfs:label "IT Service"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Built on top of strategic and tactical information management, operational information management thus offers users comprehensive services. These services go beyond simply delivering hardware and software. Rather, they are designed to help users use these components in a way that is helpful for their professional work. Such services are also known as IT services. Thus, the information management department of a health care facility is an IT service provider that delivers IT services to its customers, the users of the facility's information system. The management activities that serve to provide quality IT services are grouped under the term IT service management (ITSM). So, IT service management has the task to design, provide, deliver and improve such customer-centered services. The IT Infrastructure Library (ITIL) is the de-facto standard framework for IT service management. ITIL was developed for the British Government in order to define best practices for all governmental computing centers."@en .
 
 bb:ItServiceManagement
@@ -5037,7 +4927,6 @@ bb:ItServiceManagement
     meta:uses bb:Itil ;
     a meta:Function ;
     rdfs:label "IT Service Management"@en, "خدمات مدیریت فناوری اطلاعات"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "IT service management (ITSM) is information management centered on the customer’s perspective of IT’s contribution to the business, in contrast to technology-centered approaches. It comprises all measures and methods that are necessary to support the business processes. Information management that is centered on the customer’s perspective of the contribution of a HIS to a business, in contrast to more technology-centered approaches. The IT Infrastructure Library (ITIL) is the de-facto standard framework for IT service management."@en .
 
 bb:ItServiceManagementStaff
@@ -5048,8 +4937,7 @@ bb:ItServiceManagementStaff
 
 bb:ItSupport
     a meta:Function ;
-    rdfs:label "IT Support"@en, "پشتیبانی فناوری اطلاعات"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "IT Support"@en, "پشتیبانی فناوری اطلاعات"@fa .
 
 bb:Itil
     bb:page "247"^^xsd:positiveInteger ;
@@ -5065,8 +4953,7 @@ bb:ItilServiceLifecycle
     meta:updates bb:ItService ;
     meta:uses bb:ItService ;
     a meta:Function ;
-    rdfs:label "ITIL Service Lifecycle"@en, "چرخه سرویس ITIL"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "ITIL Service Lifecycle"@en, "چرخه سرویس ITIL"@fa .
 
 bb:IuKDG
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -5100,7 +4987,6 @@ bb:KeyPerformanceIndicator
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Kennzahl"@de, "Key Performance Indicator"@en, "شاخص عملکرد کلیدی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "KPI"@en ;
     skos:definition "Is a quantitative measurement for monitoring the achievement of strategic goals (facility management KPI, information system KPI, human resource KPI, patient administration KPI, resource KPI). Quantitative measures for regularly monitoring the achievement of strategic goals of an enterprise. Can be used for benchmarking of health information systems."@en .
 
@@ -5162,7 +5048,7 @@ bb:LaboratoryInformationSystem
     meta:communicatesWith bb:ComputerizedPhysicianOrderEntrySystem, bb:MedicalDocumentationSystem, bb:OutpatientManagementSystem, bb:PatientDataManagementSystem ;
     meta:supports bb:ExecutionOfLabExaminations ;
     meta:typicalFeature bb:FeatureAssignOrderAndBloodSamplesToDevices, bb:FeatureCollectResultsFromDevices, bb:FeatureCommunicateReportToOrderingUnit, bb:FeatureDisplayEarlierLabResultsOfAPatient, bb:FeaturePrepareReport, bb:FeatureProvideMeansForPreparingStatistics, bb:FeatureReceiveBloodSamples, bb:FeatureReceiveOrders, bb:FeatureValidateResults ;
-    a bb:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
+    a meta:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Labor-Informationssystem"@de, "Laboratory Information System"@en, "سیستم اطلاعاتی آزمایشگاه"@fa, "سیستم مدیریت اطلاعات آزمایشگاه"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent ;
     skos:altLabel "LIS"@en ;
@@ -5206,8 +5092,7 @@ bb:LaundryManagement
 
 bb:Law
     a meta:EntityType ;
-    rdfs:label "Law"@en, "قانون"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Law"@en, "قانون"@fa .
 
 bb:LeannessOfInformationProcessingTools
     bb:page "210"^^xsd:positiveInteger ;
@@ -5220,8 +5105,7 @@ bb:LeannessOfInformationProcessingTools
 bb:LegalRequirement
     meta:isAssociatedWith bb:Law ;
     a meta:EntityType ;
-    rdfs:label "Legal Requirement"@en, "الزام قانونی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Legal Requirement"@en, "الزام قانونی"@fa .
 
 bb:Library
     meta:chapter bb:chapter4-2 ;
@@ -5251,8 +5135,7 @@ bb:LogicalNetworkTopology
 
 bb:LogicalOperator
     a meta:EntityType ;
-    rdfs:label "Logical Operator"@en, "اپراتور منطقی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Logical Operator"@en, "اپراتور منطقی"@fa .
 
 bb:LogicalOperatorModelingElement
     a meta:EntityType ;
@@ -5264,7 +5147,6 @@ bb:LogicalToolLayer
     meta:chapter bb:chapter8-5 ;
     a meta:EntityType ;
     rdfs:label "Logical Tool Layer"@en, "لایه ابزار منطفی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "In the 3LGM2, the logical tool layer describes the set of application components used in a health care institution to support its enterprise functions. On this layer, application components communicate representations of entity types as messages via comunication links and store them as data."@en .
 
 bb:Loinc
@@ -5296,7 +5178,7 @@ bb:LongTermHISPlanning
 bb:LooselyCoupledNetwork
     bb:page "287"^^xsd:positiveInteger ;
     meta:chapter bb:chapter10-4 ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "Loosely Coupled Network"@en, "شبکه آزادانه وصل شده"@fa ;
     rdfs:subClassOf bb:HealthCareNetwork ;
     skos:definition "Loosely coupled networks show a low degree of centrality and intensity. They are typically regional bordered, homogeneously configured, and are based on social structures."@en .
@@ -5310,7 +5192,7 @@ bb:MagneticDisc
 bb:MagneticResonanceImaging
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-5 ;
-    a meta:EntityType ;
+    a meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Magnetic Resonance Imaging"@en, "تصویربرداری رزونانس مغناطیسی"@fa ;
     rdfs:subClassOf bb:ImagingModality .
 
@@ -5357,15 +5239,13 @@ bb:MaintainableServer
 
 bb:MaintenanceCost
     a meta:EntityType ;
-    rdfs:label "Maintenance Cost"@en, "هزینه تعمیر و نگهداری"@fa, "هزینه نگهداری"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Maintenance Cost"@en, "هزینه تعمیر و نگهداری"@fa, "هزینه نگهداری"@fa .
 
 bb:MakingABackup
     meta:functionComponent bb:OperationalHISDirecting ;
     meta:updates bb:StorageMedium ;
     a meta:Function ;
-    rdfs:label "Making a Backup"@en, "ساخت یک پشتیبان"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Making a Backup"@en, "ساخت یک پشتیبان"@fa .
 
 bb:MalcolmBaldrigeNationalQualityAward
     a meta:EntityType ;
@@ -5374,8 +5254,7 @@ bb:MalcolmBaldrigeNationalQualityAward
 
 bb:ManMadeSystem
     a meta:EntityType ;
-    rdfs:label "Man-Made System"@en, "سیستم ساخته شده توسط انسان"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Man-Made System"@en, "سیستم ساخته شده توسط انسان"@fa .
 
 bb:Management
     bb:page "238"^^xsd:positiveInteger, "30"^^xsd:positiveInteger ;
@@ -5384,7 +5263,7 @@ bb:Management
     meta:updates bb:EnterpriseOrganizationalStructure, bb:StrategicGoalOfTheInstitution ;
     a meta:Function ;
     rdfs:label "Management"@en, "مدیریت"@fa ;
-    rdfs:subClassOf bb:HospitalFunction, meta:Function ;
+    rdfs:subClassOf bb:HospitalFunction ;
     skos:definition """management comprises all leadership activities that determine the institution’s goals, structures, and behaviors. As an enterprise function, management comprises all leadership activities that determine the enterprise’s goals, structures, and activities. Management can stand for an institution or an enterprise function. As an institution, management comprises all organizational units of an enterprise that make decisions about planning, monitoring, and directing all activities of subordinate units. As an enterprise function, management comprises all leadership activities that determine the enterprise’s
 goals, structures, and behaviors."""@en .
 
@@ -5401,8 +5280,7 @@ bb:ManagementDepartment
 
 bb:ManagementEntityType
     a meta:EntityType ;
-    rdfs:label "Management Entity Type"@en, "سبک عنصر مدیریت"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Management Entity Type"@en, "سبک عنصر مدیریت"@fa .
 
 bb:ManagementOfClinicalDepartment
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -5417,8 +5295,7 @@ bb:ManagementOfEhr
     meta:updates bb:ElectronicHealthRecord ;
     meta:uses bb:ElectronicHealthRecord ;
     a meta:Function ;
-    rdfs:label "management of electronic health records"@en ;
-    rdfs:subClassOf meta:Management .
+    rdfs:label "management of electronic health records"@en .
 
 bb:ManagementOfMedicalDevices
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -5438,13 +5315,12 @@ bb:ManagementOfNonClinicalDepartment
 bb:ManagementOfUserAccounts
     meta:functionComponent bb:OperationalHISDirecting ;
     a meta:Function ;
-    rdfs:label "Management of User Accounts"@en, "مدیریت حساب کاربری"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Management of User Accounts"@en, "مدیریت حساب کاربری"@fa .
 
 bb:ManagementUnit
     bb:page "238"^^xsd:positiveInteger ;
     meta:chapter bb:chapter9-1 ;
-    a meta:Role ;
+    a meta:EntityType ;
     rdfs:label "Management Unit"@en, "واحد مدیریت"@fa ;
     rdfs:subClassOf bb:ManagementEntityType ;
     skos:definition "As an institution, management comprises all organizational units of an enterprise that make decisions about planning , monitoring , and directing all activities of subordinate units"@en .
@@ -5454,7 +5330,6 @@ bb:MasterApplicationComponent
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Führendes Anwendungssystem"@de, "Master Application Component"@en, "رهبر اجزا برنامه"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "For every redundantly stored entity type, an application component is determined as the master application component for this entity type. Thus, data about entities of this type can only be inserted, deleted, or changed in this master application component. Application component that contains the original data about a given entity type. In case of redundant data storage, other application components may hold copies of these data, but these data can only be inserted, deleted, or changed in this master application component; data integrity in the other application components has to be maintained by communicating new copies of the original data to the other application components."@en .
 
 bb:MasterPatientIndex
@@ -5515,7 +5390,6 @@ bb:MediaCrack
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Media Crack"@en, "Medienbruch"@de, "شکاف رسانه ای"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Change of the storage media during the transcription of data."@en .
 
 bb:MedicalAdmission
@@ -5596,7 +5470,7 @@ bb:MedicalDocumentationSystem
     meta:communicatesWith bb:DataWarehouseSystem ;
     meta:supports bb:DecisionMakingPlanningAndOrganizationOfPatientTreatment, bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures, bb:HumanResourceManagement, bb:MedicalAdmission, bb:PatientDischargeAndTransferToOtherInstitutions ;
     meta:typicalFeature bb:FeaturePrintReports, bb:FeatureProvideContextRelatedMedicalKnowledge, bb:FeatureProvideFormsForDocumentingDiagnosis, bb:FeatureProvideFormsForDocumentingMedicalAnamnesis, bb:FeatureProvideFormsForDocumentingPatientsInformedConsent, bb:FeatureProvideFormsForDocumentingPlannedTasks, bb:FeatureProvideFormsForEnteringClinicalData, bb:FeatureProvideFormsForPatientsInformedConsent, bb:FeatureProvideFormsForPreparingClinicalReports, bb:FeatureProvideFormsForWritingTheDischargeLetterOrDischargeReport, bb:FeatureProvideGuidelinesForCarePlanning, bb:FeatureProvideGuidelinesForTreatmentPlanning, bb:FeatureScanningDocumentsFromReferringPhysicianAndOtherSources ;
-    a bb:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
+    a meta:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Medical Documentation System"@en, "Medizinisches Dokumentationssystem"@de, "سیستم مستندات پزشکی"@fa ;
     rdfs:subClassOf bb:ComputerBasedApplicationComponent ;
     skos:definition "Application component supporting specific documentation tasks (e.g., patient history, planning of care, progress notes, report writing). Typically, it contains specialized modules for different medical fields."@en .
@@ -5604,7 +5478,7 @@ bb:MedicalDocumentationSystem
 bb:MedicalErrorReport
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter9-5 ;
-    a meta:Function ;
+    a meta:EntityType ;
     rdfs:label "Medical Error Report"@en, "گزارش خطا پزشکی"@fa ;
     rdfs:subClassOf bb:PatientCareEntityType .
 
@@ -5653,8 +5527,7 @@ bb:Medication
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-3 ;
     a meta:EntityType ;
-    rdfs:label "Medication"@en, "دارو"@fa ;
-    rdfs:subClassOf bb:ExecutionOfDiagnosticAndTherapeuticProcedures .
+    rdfs:label "Medication"@en, "دارو"@fa .
 
 bb:MemoryStick
     meta:chapter bb:chapter5-3 ;
@@ -5676,7 +5549,6 @@ bb:Message
     meta:entityTypeComponent bb:Data ;
     a meta:EntityType ;
     rdfs:label "Message"@en, "Nachricht"@de, "پیام"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Set of data that are arranged as a unit in order to be communicated between application components."@en .
 
 bb:MessageType
@@ -5684,7 +5556,6 @@ bb:MessageType
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Message Type"@en, "Nachrichtentyp"@de, "نوع پیام"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Class of uniform messages, determines which data about which entity types are communicated by a message belonging to this message type. A message type can belong to a communication standard."@en .
 
 bb:Metamodel
@@ -5713,7 +5584,6 @@ bb:Middleware
 bb:MigrationPath
     a meta:EntityType ;
     rdfs:label "Migration Path"@en, "مسیر انتقال"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:related bb:ProjectPortfolio .
 
 bb:MixedApproach
@@ -5721,7 +5591,6 @@ bb:MixedApproach
     meta:chapter bb:chapter8-6 ;
     a meta:EntityType ;
     rdfs:label "Mixed Approach"@en, "رویکرد ترکیبی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "The categories used in a qualitative content analysis are defined beforehand and refined while analyzing the text."@en .
 
 bb:MixedDB1DBnStyle
@@ -5761,7 +5630,6 @@ bb:Model
     meta:isBasedOn bb:Metamodel ;
     a meta:EntityType ;
     rdfs:label "Model"@en, "Modell"@de, "مدل"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "A description of what the modeler thinks to be relevant of a system. In the sciences, models commonly represent a simplified depiction of reality or excerpts of it. Models are adapted to answer certain questions or to solve certain tasks. Models may be developed based on metamodels."@en .
 
 bb:ModelOfTheCurrentHIS
@@ -5786,8 +5654,7 @@ bb:ModelingHospitalInformationSystems
 bb:ModelingInformationSystems
     meta:uses bb:ReferenceModel ;
     a meta:Function ;
-    rdfs:label "Modeling Information Systems"@en, "مدل سازی سیستم های اطلاعاتی "@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Modeling Information Systems"@en, "مدل سازی سیستم های اطلاعاتی "@fa .
 
 bb:ModernizationOfHardAndSoftware
     dc:source <http://subs.emis.de/LNI/Proceedings/Proceedings259/685.pdf> ;
@@ -5861,7 +5728,7 @@ bb:MriScanner
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-5 ;
     meta:supports bb:ExecutionOfRadiologicalProcedures ;
-    a bb:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
+    a meta:ComputerBasedApplicationComponent, meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "MRI Scanner"@en, "اسکنر MRI"@fa ;
     rdfs:subClassOf bb:ImagingModality .
 
@@ -5895,15 +5762,13 @@ bb:Nanda
 bb:Network
     meta:isBasedOn bb:NetworkTopology ;
     a meta:EntityType ;
-    rdfs:label "Network"@en, "شبکه "@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Network"@en, "شبکه "@fa .
 
 bb:NetworkManagement
     bb:page 244 ;
     meta:chapter bb:chapter9-2 ;
     a meta:Function ;
-    rdfs:label "Network Management"@en, "مدیریت شبکه"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Network Management"@en, "مدیریت شبکه"@fa .
 
 bb:NetworkMonitoring
     meta:chapter bb:chapter3-4 ;
@@ -5913,14 +5778,12 @@ bb:NetworkMonitoring
 
 bb:NetworkStandard
     a meta:EntityType ;
-    rdfs:label "Network Standard"@en, "استاندارد شبکه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Network Standard"@en, "استاندارد شبکه"@fa .
 
 bb:NetworkTopology
     meta:chapter bb:chapter6-7 ;
     a meta:EntityType ;
-    rdfs:label "Network Topology"@en, "توپولوژی شبکه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Network Topology"@en, "توپولوژی شبکه"@fa .
 
 bb:NeutralIhrbActor
     bb:page 199 ;
@@ -5928,8 +5791,7 @@ bb:NeutralIhrbActor
     meta:isResponsibleForFunction bb:ManagementOfEhr ;
     meta:isResponsibleForRole bb:IndependentHealthRecordBank ;
     a meta:Role ;
-    rdfs:label "neutral independent health bank actor"@en ;
-    rdfs:subClassOf meta:Role .
+    rdfs:label "neutral independent health bank actor"@en .
 
 bb:Nic
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -5959,7 +5821,6 @@ bb:NonComputerBasedApplicationComponent
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Nicht-Rechnerbasierter Anwendungsbaustein"@de, "Non-Computer-Based Application Component"@en, "کامپوننت نرم افزاری غیر کامپیوتری"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "An application component where the controlling rules for data processing are not implemented as executable software but as organizational rules."@en .
 
 bb:NonComputerBasedInformationProcessing
@@ -5970,7 +5831,6 @@ bb:NonComputerBasedInformationProcessing
 bb:NonComputerBasedInformationProcessingTool
     a meta:EntityType ;
     rdfs:label "Non-Computer-Based Information Processing Tool"@en, "ابزار پردازش اطلاعات غیر مبتنی بر کامپیوتر"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:closeMatch ob:NonComputerBasedTool .
 
 bb:NonComputerBasedPhysicalDataProcessingSystem
@@ -6191,7 +6051,6 @@ bb:OpenEHR
     meta:entityTypeComponent bb:OpenEHROntology ;
     a meta:EntityType ;
     rdfs:label "OpenEHR"@en, "OpenEHR"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "OpenEHR defines onotologies and provides open source software tools for maintaining and managing patient-centric electronic health records. It contains clinical models of content and processes, which are known as archetypes"@en .
 
 bb:OpenEHRModelOfContent
@@ -6210,8 +6069,7 @@ bb:OpenEHROntology
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:entityTypeComponent bb:OpenEHRModelOfContent, bb:OpenEHRModelOfProcesses ;
     a meta:EntityType ;
-    rdfs:label "OpenEHR Ontology"@en, "OpenEHR اونتولوژی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "OpenEHR Ontology"@en, "OpenEHR اونتولوژی"@fa .
 
 bb:OpeningAPatientRecord
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -6265,7 +6123,6 @@ bb:OperationalHISDirecting
     meta:functionComponent bb:AccessControlManagement ;
     a meta:Function ;
     rdfs:label "Operational HIS Directing"@en, "عملیات هدایت HIS"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Directing means the sum of all management activities that are necessary to ensure proper responses to operating problems of components of the hospital information system, that is, to provide backup facilities, to operate a service desk, to maintain servers, and to keep task forces available for repairing network components, servers, personal computers, printers, etc. Directing in this context deals with engaging the resources planned by the strategic information management plan in such a way that faultless operation of the hospital information system is ensured."@en .
 
 bb:OperationalHISMonitoring
@@ -6275,15 +6132,13 @@ bb:OperationalHISMonitoring
     meta:uses bb:OperationalManagementConcept ;
     a meta:Function ;
     rdfs:label "Operational HIS Monitoring"@en, "دیده بانی عملیاتی HIS"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Monitoring deals with caring for the verification of the proper working and effectiveness of components of the hospital information system"@en .
 
 bb:OperationalHISPlanning
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:functionComponent bb:PlanningOfBuildings, bb:PlanningOfFinances, bb:PlanningOfOrganizationalProcedures, bb:PlanningOfOrganizationalStructures, bb:PlanningOfRooms, bb:PlanningOfStaff ;
     a meta:Function ;
-    rdfs:label "Operational HIS Planning"@en, "برنامه ریزی عملیاتی HIS"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Operational HIS Planning"@en, "برنامه ریزی عملیاتی HIS"@fa .
 
 bb:OperationalInformationManagement
     bb:page "103"^^xsd:positiveInteger, "30"^^xsd:positiveInteger ;
@@ -6293,7 +6148,6 @@ bb:OperationalInformationManagement
     meta:uses bb:ApplicationComponent, bb:Backbone, bb:InformationSystemModel, bb:Network, bb:Project, bb:Server, bb:StrategicInformationManagementPlan, bb:Workstation ;
     a meta:Function ;
     rdfs:label "Operational Information Management"@en, "Operatives Informationsmanagement"@de, "مدیریت اطلاعات عملیاتی"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Operational information management , finally, is responsible for operating the components of the information system"@en, "Operational information management is responsible for operating the components of the hospital information system. It has to care for its operation in accordance with the strategic information management plan."@en .
 
 bb:OperationalInformationManagementGoal
@@ -6311,8 +6165,7 @@ bb:OperationalInformationManagementStaff
 
 bb:OperationalManagementConcept
     a meta:EntityType ;
-    rdfs:label "Operational Management Concept"@en, "مفهوم مدیریت عملیاتی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Operational Management Concept"@en, "مفهوم مدیریت عملیاتی"@fa .
 
 bb:OperationalizationOfMethodsAndDetailedStudyPlan
     meta:updates bb:EvaluationMethod, bb:StudyDesign, bb:StudyPlan ;
@@ -6433,21 +6286,18 @@ bb:OrganizationalModel
 bb:OrganizationalPerspective
     meta:chapter bb:chapter5-2 ;
     a meta:EntityType ;
-    rdfs:label "Organizational Perspective"@en, "دیدگاه سازمانی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Organizational Perspective"@en, "دیدگاه سازمانی"@fa .
 
 bb:OrganizationalPlan
     meta:isAssociatedWith bb:NonComputerBasedPhysicalDataProcessingSystem ;
     a meta:EntityType ;
-    rdfs:label "Organizational Plan"@en, "طرح سازمانی"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Organizational Plan"@en, "طرح سازمانی"@fa .
 
 bb:OrganizationalSystem
     bb:page "314"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Organisationssystem"@de, "Organizational System"@en, "سیستم سازمانی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "A non-computer-based application Component."@en .
 
 bb:OrganizationalUnit
@@ -6455,7 +6305,6 @@ bb:OrganizationalUnit
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Organisationseinheit"@de, "Organizational Unit"@en, "واحد سازمانی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Part of an institution which can be defined by responsibilities (e.g., the radiology department). Organizational units perform enterprise functions."@en .
 
 bb:OrganizationalUnitModelingElement
@@ -6503,9 +6352,9 @@ bb:Oru
 
 bb:Outpatient
     bb:conceptDomain "health care specific"^^xsd:string ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "Outpatient"@en, "بیمار سرپایی"@fa ;
-    rdfs:subClassOf bb:Case, bb:HisStakeholder .
+    rdfs:subClassOf bb:HisStakeholder .
 
 bb:OutpatientCareInstitution
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -6552,7 +6401,7 @@ bb:Pager
     rdfs:subClassOf bb:NonComputerBasedPhysicalDataProcessingSystem .
 
 bb:PaperBasedApplicationComponent
-    a meta:EntityType ;
+    a meta:ApplicationComponent, meta:EntityType ;
     rdfs:label "Paper-Based Application Component"@en, "اجزا برنامه مبتنی بر کاغذ"@fa ;
     rdfs:subClassOf bb:ApplicationComponent ;
     skos:closeMatch ob:NonComputerBasedApplicationSystem .
@@ -6619,7 +6468,8 @@ bb:Patient
     meta:isAssociatedWith bb:Bed, bb:Case, bb:HisStakeholder, bb:Physician, bb:Relative, bb:Ward ;
     a meta:EntityType ;
     rdfs:label "Patient"@en, "بیمار"@fa ;
-    rdfs:subClassOf bb:PatientCareEntityType, foaf:Person ;
+    rdfs:subClassOf bb:PatientCareEntityType ;
+	skos:relatedMatch foaf:Person ;
     skos:definition "Is a person who is a subject of care; information about a patient includes the patient identification number (PIN)"@en .
 
 bb:PatientActivityLevel
@@ -6689,13 +6539,12 @@ bb:PatientCare
     meta:functionComponent bb:CodingOfDiagnosesAndProcedures, bb:DecisionMakingPlanningAndOrganizationOfPatientTreatment, bb:ExecutionOfDiagnosticTherapeuticAndNursingProcedures, bb:OrderEntry, bb:PatientAdmission, bb:PatientDischargeAndTransferToOtherInstitutions ;
     a meta:Function ;
     rdfs:label "Patient Care"@en, "Patient Care Function"@en, "Patientenbehandlung"@de, "تابع مراقبت از بیمار"@fa ;
-    rdfs:subClassOf bb:HospitalFunction, meta:Function .
+    rdfs:subClassOf bb:HospitalFunction .
 
 bb:PatientCareEntityType
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "Patient Care Entity Type"@en, "نوع عنصردرمان بیمار"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Patient Care Entity Type"@en, "نوع عنصردرمان بیمار"@fa .
 
 bb:PatientCenteredInformationProcessing
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -6761,7 +6610,6 @@ bb:PatientIdentification
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Patient Identification"@en, "Patientenidentifikation"@de, "شناسنایی بیمار"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Subfunction of patient admission. To determine and record a patient's identity. As a result of patient identification, a unique patient identification number (PIN) is assigned."@en .
 
 bb:PatientIdentificationAndCheckingForRecurrent
@@ -6795,7 +6643,6 @@ bb:PatientLink
     meta:chapter bb:chapter6-5 ;
     a meta:EntityType ;
     rdfs:label "Patient Link"@en, "لینک بیمار"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "\"Patient Link\" is used for the synchronization of application components with regard to a chosen or identified patient."@en .
 
 bb:PatientRecord
@@ -6814,7 +6661,6 @@ bb:PatientRecordArchive
     meta:entityTypeComponent bb:ElectronicPatientRecord, bb:PaperBasedPatientRecord ;
     a meta:EntityType ;
     rdfs:label "Patient Record Archive"@en, "بایگانی سوابق بیمار"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "The patient record archive describes how and where the electronic or paper-based patient record can be found. The exact location of each record should be known (e.g., in which archive, on which shelf). Robot systems may store and gather paper-based records automatically (see Fig. 6.19 ). Lending and return of records (e.g., for patients coming for multiple visits) have to be organized, while respecting different access rights that depend on the role of the health care professionals in the process of patient care."@en .
 
 bb:PatientRecordSystem
@@ -6829,7 +6675,7 @@ bb:PatientRecordSystem
 bb:PatientSatisfactionSurvey
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter9-5 ;
-    a meta:Function ;
+    a meta:EntityType ;
     rdfs:label "Patient Satisfaction Survey"@en, "بررسی رضایت بیمار"@fa ;
     rdfs:subClassOf bb:QuantitativeEvaluationMethod .
 
@@ -6921,8 +6767,7 @@ bb:PermanentMonitoring
     meta:functionComponent bb:ContinuousHISAuditing ;
     meta:updates bb:ItEvaluationStudy ;
     a meta:Function ;
-    rdfs:label "Permanent Monitoring"@en, "نظارت دائمی"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Permanent Monitoring"@en, "نظارت دائمی"@fa .
 
 bb:PersonalComputer
     meta:chapter bb:chapter5-3 ;
@@ -6990,7 +6835,6 @@ bb:PhysicalDataProcessingSystem
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Physical Data Processing System"@en, "Physisches Werkzeug"@de, "سیستم پردازش داده های فیزیکی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Physical Tool"@en ;
     skos:definition "A physically touchable object or a simulated physically touchable object being able to receive, store, forward, or purposefully manipulate data. We denote receiving, storing, forwarding, and purposeful manipulation of data as data processing. This data processing is controlled by rules. Physical data processing systems are used to implement computer-based as well as paper-based application components. They can be human actors (such as the person delivering mail), non-computer-based physical tools (such as forms for nursing documentation, paper-based patient records, or telephones), or computer systems. Physical data processing systems are also called physical tools."@en ;
     skos:related <bb/3LGM2PhysicalDataProcessingSystem> .
@@ -7014,7 +6858,6 @@ bb:PhysicalToolLayer
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Physical Tool Layer"@en, "Physische Werkzeugebene"@de, "لایه ابزار فی��یکی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "A set of physical data processing systems in the 3LGM² that are physically connected via data transmission connections."@en .
 
 bb:Physician
@@ -7049,7 +6892,6 @@ bb:Planning
     meta:chapter bb:Thesaurus ;
     a meta:Function ;
     rdfs:label "Planning"@en, "Planung"@de, "برنامه ریزی"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "One task of information management is planning the hospital information system and its architecture. Planning in strategic information management comprises strategic alignment, establishing a strategic information management plan, and managing portfolios. Planning in tactical management means planning projects and all resources needed for them. Planning in operational information management means planning organizational structures, procedures, and all resources such as finances, staff, rooms, or buildings that are necessary to ensure the faultless operation of all components of the hospital information system."@en .
 
 bb:PlanningOfBuildings
@@ -7110,7 +6952,6 @@ bb:PortfolioManagement
     meta:uses bb:ApplicationComponent, bb:HisComponent ;
     a meta:Function ;
     rdfs:label "Portfolio Management"@en, "Portfolio-Management"@de, "مدیریت نمونه کارها"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "An important instrument for information management strategic planning is portfolio management. Originally coming from the field of finance to acquire a well-balanced securities portfolio, today the term portfolio management is used to refer to multiple strategic management problems. Portfolio management concerning information management categorizes certain components of an information system, like application components or physical data processing systems, but also projects, using certain criteria to assess the value of these components for the enterprise and to balance risks and returns. Categorizes certain components of an information system, using criteria to assess the value of these components for the enterprise and to balance risks and returns. Important instrument for strategic planning of a hospital information system. Comprises, for example, application portfolio management and project portfolio management."@en .
 
 bb:PreliminaryOutlineOfAStudy
@@ -7165,8 +7006,7 @@ bb:ProblemManagement
 
 bb:ProblemSolving
     a meta:Function ;
-    rdfs:label "Problem Solving"@en, "مشکل حل کردن"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Problem Solving"@en, "مشکل حل کردن"@fa .
 
 bb:Procedure
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -7213,13 +7053,11 @@ bb:Project
     meta:entityTypeComponent bb:MigrationPath, bb:ProjectCompletionPhase, bb:ProjectExecutionModule, bb:ProjectInitiationPhase, bb:ProjectPlanningPhase ;
     a meta:EntityType ;
     rdfs:label "Project"@en, "پروژه"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Is a unique undertaking that is characterized by management by objectives, by restrictions with regard to available time and resources, and by a specific project organization (DIN 69901)"@en .
 
 bb:ProjectCompletionPhase
     a meta:EntityType ;
-    rdfs:label "Project Completion Phase"@en, "مرحله تکمیل پروژه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Project Completion Phase"@en, "مرحله تکمیل پروژه"@fa .
 
 bb:ProjectConflictManagement
     a meta:Function ;
@@ -7233,14 +7071,12 @@ bb:ProjectExecution
     meta:uses bb:ProjectExecutionModule, bb:Resource ;
     a meta:Function ;
     rdfs:label "Project Execution"@en, "اجرای پروژه"@fa ;
-    rdfs:subClassOf meta:Function ;
     skos:broadMatch ob:ProjectExecution ;
     skos:definition "deals with particular enterprise functions or application components that are introduced, removed, or changed. Usually these activities are done in the form of projects. Such tactical information management projects are initiated by strategic information management."@en .
 
 bb:ProjectExecutionModule
     a meta:EntityType ;
-    rdfs:label "Project Execution Module"@en, "مدول اجرای پروژه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Project Execution Module"@en, "مدول اجرای پروژه"@fa .
 
 bb:ProjectInitiation
     a meta:Function ;
@@ -7249,8 +7085,7 @@ bb:ProjectInitiation
 
 bb:ProjectInitiationPhase
     a meta:EntityType ;
-    rdfs:label "Project Initiation Phase"@en, "مرحله آغاز پروژه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Project Initiation Phase"@en, "مرحله آغاز پروژه"@fa .
 
 bb:ProjectManagementBoard
     bb:page "273"^^xsd:positiveInteger, "274"^^xsd:positiveInteger ;
@@ -7259,14 +7094,12 @@ bb:ProjectManagementBoard
     meta:roleComponent bb:ProjectManager, bb:RepresentativeOfHospitalDepartment, bb:TopManagement, bb:Vendor ;
     a meta:Role ;
     rdfs:label "Project Management Board"@en, "هیئت مدیره پروژه"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:closeMatch ob:ProjectSteeringCommittee ;
     skos:definition "Such a project management board supports the project manager by providing an interface between the project manager, future user groups, vendors involved in the project, and strategic information management authorities like CIO and information management board."@en .
 
 bb:ProjectManagementMethod
     a meta:EntityType ;
-    rdfs:label "Project Management Method"@en, "روش مدیریت پروژه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Project Management Method"@en, "روش مدیریت پروژه"@fa .
 
 bb:ProjectManager
     meta:chapter bb:chapter9-6 ;
@@ -7284,7 +7117,6 @@ bb:ProjectPlan
     meta:chapter bb:chapter9-2 ;
     a meta:EntityType ;
     rdfs:label "Project Plan"@en, "طرح پروژه"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "This plan has to describe the project's subject and motivation, the problems to be solved, the goals to be achieved, the tasks to be performed, and the activities to be undertaken to reach the goals."@en .
 
 bb:ProjectPlanning
@@ -7297,14 +7129,12 @@ bb:ProjectPlanning
 
 bb:ProjectPlanningPhase
     a meta:EntityType ;
-    rdfs:label "Project Planning Phase"@en, "مرحله برنامه ریزی پروژه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Project Planning Phase"@en, "مرحله برنامه ریزی پروژه"@fa .
 
 bb:ProjectPortfolio
     meta:entityTypeComponent bb:Project ;
     a meta:EntityType ;
-    rdfs:label "Project Portfolio"@en, "نمونه پروژه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Project Portfolio"@en, "نمونه پروژه"@fa .
 
 bb:ProjectResourceAllocation
     a meta:Function ;
@@ -7313,8 +7143,7 @@ bb:ProjectResourceAllocation
 
 bb:ProjectResult
     a meta:EntityType ;
-    rdfs:label "Project Result"@en, "نتیجه پروژه"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Project Result"@en, "نتیجه پروژه"@fa .
 
 bb:ProjectTimeAllocation
     a meta:Function ;
@@ -7329,8 +7158,7 @@ bb:Projector
 
 bb:ProvidingCustomerCenteredServices
     a meta:Function ;
-    rdfs:label "Providing Customer-Centered Services"@en, "ارائه خدمات محور مشتری "@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Providing Customer-Centered Services"@en, "ارائه خدمات محور مشتری "@fa .
 
 bb:PublishingAndPresentation
     meta:updates bb:MedicalAndNursingKnowledge ;
@@ -7342,13 +7170,12 @@ bb:PublishingAndPresentation
 bb:QualifiedElectronicSignature
     meta:chapter bb:chapter6-4 ;
     a meta:EntityType ;
-    rdfs:label "Qualified Electronic Signature"@en, "امضا الکترونیکی واجد شرایط"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Qualified Electronic Signature"@en, "امضا الکترونیکی واجد شرایط"@fa .
 
 bb:QualitativeContentAnalysis
     meta:chapter bb:chapter8-6 ;
-    meta:uses bb:DeductiveApproach, bb:InductiveApproach ;
-    a meta:Function ;
+    meta:entityTypeComponent bb:DeductiveApproach, bb:InductiveApproach ;
+    a meta:EntityType;
     rdfs:label "Qualitative Content Analysis"@en, "تجزیه و تحلیل محتوا کیفی"@fa ;
     rdfs:subClassOf bb:QualitativeEvaluationMethod .
 
@@ -7408,7 +7235,6 @@ bb:QualityOfComputerBasedApplicationComponentsAndTheirIntegration
     meta:chapter bb:chapter8-2 ;
     a meta:EntityType ;
     rdfs:label "Quality of Computer-Based Application Components and Their Integration"@en, "کیفیت اجزای نرم افزار مبتنی بر کامپیوتر و یکپارچگی آنها"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Quality characteristics for software and software ergonomics, which can be applied to computer-based application components, are provided by ISO 25000 and ISO 9241. Further quality criteria for software products that are of relevance for health care are adaptability, availability, sustainability, maturity, certification and standardized interfaces.  [Anna Lörke according to Winter et al.]"@en .
 
 bb:QualityOfData
@@ -7416,7 +7242,6 @@ bb:QualityOfData
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Datenqualität"@de, "Quality of Data"@en, "کیفیت اطلاعات"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Integrity, reliability, completeness, accuracy, relevancy, standardization, authenticity, availability, confidentiality, and security of data."@en .
 
 bb:QualityOfHISArchitecture
@@ -7425,7 +7250,6 @@ bb:QualityOfHISArchitecture
     meta:chapter bb:chapter8-2 ;
     a meta:EntityType ;
     rdfs:label "Quality of HIS Architecture"@en, "کیفیت معماری HIS"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "HIS architecture should ensure that the different computer-based and non-computer-based information processing tools can be smoothly and efficiently integrated, in order to provide a maximum quality of information processing."@en .
 
 bb:QualityOfHISOutcome
@@ -7435,7 +7259,6 @@ bb:QualityOfHISOutcome
     meta:isAssociatedWith bb:StrategicInformationManagementGoal ;
     a meta:EntityType ;
     rdfs:label "Quality of HIS Outcome"@en, "کیفیت خروجی HIS"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Whether the goals of information management have been reached, or, in a broader sense, to what extent a hospital information system contributed to the goals of the hospital and to the expectations of different stakeholders, and how it fulfils information management laws."@en .
 
 bb:QualityOfHISProcesses
@@ -7445,7 +7268,6 @@ bb:QualityOfHISProcesses
     meta:isAssociatedWith <bb/3LGM2InformationProcess> ;
     a meta:EntityType ;
     rdfs:label "Quality of HIS Processes"@en, "کیفیت فرآیندهای HIS"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Prozessqualität"@de ;
     skos:definition "Quality of the information processes that are necessary to meet the user's needs, such as single recording and multiple usability of data, no transcription of data, leanness of information processing tools, efficiency of information logistics, and patient-centred information processing."@en .
 
@@ -7456,7 +7278,6 @@ bb:QualityOfHISStructures
     meta:entityTypeComponent bb:QualityOfComputerBasedApplicationComponentsAndTheirIntegration, bb:QualityOfData, bb:QualityOfHISArchitecture ;
     a meta:EntityType ;
     rdfs:label "Quality of HIS Structures"@en, "کیفیت ساختارهای HIS"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Strukturqualität"@de ;
     skos:definition "Availability of technical or human resources needed for information processing. It comprises quality of data, quality of computer-based application components, quality of physical data processing systems, and quality of HIS architectures."@en .
 
@@ -7708,7 +7529,7 @@ bb:RehabilitationCenter
 
 bb:Relative
     meta:chapter bb:chapter8-4 ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "relative"@en, "نسبی"@fa ;
     rdfs:subClassOf bb:HisStakeholder .
 
@@ -7794,8 +7615,7 @@ bb:RequirementOfHISStakeholder
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter4-2 ;
     a meta:EntityType ;
-    rdfs:label "Requirement of HIS Stakeholder"@en, "احتیاج ذی نفع HIS"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Requirement of HIS Stakeholder"@en, "احتیاج ذی نفع HIS"@fa .
 
 bb:ResearchAndEducation
     meta:chapter bb:chapter6-3 ;
@@ -7806,8 +7626,7 @@ bb:ResearchAndEducation
 
 bb:ResearchAndEducationEntityType
     a meta:EntityType ;
-    rdfs:label "Research and Education Entity Type"@en, "نوع نهاد تحقیق و آموزش و پرورش"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Research and Education Entity Type"@en, "نوع نهاد تحقیق و آموزش و پرورش"@fa .
 
 bb:ResearchDocument
     a meta:EntityType ;
@@ -7852,8 +7671,7 @@ bb:Ring
 bb:RiskManagement
     meta:uses bb:Law ;
     a meta:Function ;
-    rdfs:label "Risk Management"@en, "مدیریت ریسک"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Risk Management"@en, "مدیریت ریسک"@fa .
 
 bb:RobotSystem
     meta:supports bb:AdministrationAndAllocationOfPatientRecords ;
@@ -7999,7 +7817,7 @@ bb:SemanticIntegration
 
 bb:SemistructuredInterview
     meta:chapter bb:chapter8-6 ;
-    a meta:Function ;
+    a meta:EntityType ;
     rdfs:label "Semistructured Interview"@en, "مصاحبه نیمه ساختاریافته"@fa ;
     rdfs:subClassOf bb:QualitativeInterview .
 
@@ -8037,8 +7855,7 @@ bb:Service
 
 bb:ServiceAssetManagement
     a meta:Function ;
-    rdfs:label "Service Asset Management"@en, "مدیریت سرویس دارایی"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Service Asset Management"@en, "مدیریت سرویس دارایی"@fa .
 
 bb:ServiceCatalog
     bb:page "110"^^xsd:positiveInteger, "151"^^xsd:positiveInteger, "78"^^xsd:positiveInteger ;
@@ -8057,8 +7874,7 @@ bb:ServiceDesign
 
 bb:ServiceDeskManagement
     a meta:Function ;
-    rdfs:label "Service Desk Management"@en, "میز مدیریت خدمات"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Service Desk Management"@en, "میز مدیریت خدمات"@fa .
 
 bb:ServiceDeskStaff
     meta:isResponsibleForFunction bb:FirstLevelSupport, bb:ManagementOfUserAccounts, bb:TroubleShootingInItServiceManagement ;
@@ -8128,7 +7944,6 @@ bb:SingleSignOn
     meta:chapter bb:chapter6-5 ;
     a meta:EntityType ;
     rdfs:label "Single-Sign-On"@en, "ورودی یک طرفه"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Single-Sign-On eliminates annoying multiple user logins for different application components by passing data about user authorization to the other application components when the user has logged in at an involved application component"@en .
 
 bb:SkinCare
@@ -8160,8 +7975,7 @@ bb:Soa
 
 bb:SoaService
     a meta:EntityType ;
-    rdfs:label "SOA Service"@en, "SOA سرویس"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "SOA Service"@en, "SOA سرویس"@fa .
 
 bb:SocialContact
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -8181,13 +7995,11 @@ bb:SocioTechnicalSystem
     meta:entityTypeComponent bb:ArtificialSystem, bb:ManMadeSystem ;
     a meta:EntityType ;
     rdfs:label "Socio-Technical System"@en, "Sozio-technisches System"@de, "سیستم اجتماعی و فنی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "A (man-made) system that consists of both human and technical components."@en .
 
 bb:SoftwareDevelopment
     a meta:Function ;
-    rdfs:label "Software Development"@en, "توسعه نرم افزار"@fa ;
-    rdfs:subClassOf meta:Function .
+    rdfs:label "Software Development"@en, "توسعه نرم افزار"@fa .
 
 bb:SoftwareErgonomics
     bb:page "321"^^xsd:positiveInteger ;
@@ -8202,9 +8014,8 @@ bb:SoftwareProduct
     bb:page "321"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:SoftwareVendor ;
-    a meta:EntityType ;
+    a meta:EntityType, meta:SoftwareProduct ;
     rdfs:label "Software Product"@en, "Softwareprodukt"@de, "محصول نرم افزاری"@fa ;
-    rdfs:subClassOf meta:SoftwareProduct ;
     skos:definition "An acquired or self-developed piece of software that is complete in itself and that can be installed on a computer system. Controls computer-based application components."@en .
 
 bb:SoftwareQuality
@@ -8259,7 +8070,6 @@ bb:Standard
     meta:entityTypeComponent bb:IheIntegrationProfile ;
     a meta:EntityType ;
     rdfs:label "Standard"@en, "استاندارد"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:related bb:ReferenceModel .
 
 bb:StandardizationByCEN
@@ -8352,8 +8162,7 @@ bb:StrategicAlignmentModel
 
 bb:StrategicDecision
     a meta:EntityType ;
-    rdfs:label "Strategic Decision"@en, "تصمیم استراتژیک"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Strategic Decision"@en, "تصمیم استراتژیک"@fa .
 
 bb:StrategicGoalOfTheInstitution
     a meta:EntityType ;
@@ -8412,8 +8221,7 @@ bb:StrategicHISMonitoring
 bb:StrategicHISMonitoringResult
     bb:conceptDomain "health care specific"^^xsd:string ;
     a meta:EntityType ;
-    rdfs:label "Strategic HIS Monitoring Result"@en, "نتایج نظارت استراتژیک HIS"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Strategic HIS Monitoring Result"@en, "نتایج نظارت استراتژیک HIS"@fa .
 
 bb:StrategicHISPlanning
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -8460,7 +8268,6 @@ bb:StrategicInformationManagementPlan
     meta:isAssociatedWith bb:AnalysisAndAssessmentOfTheCurrentHISState ;
     a meta:EntityType ;
     rdfs:label "IT-Rahmenkonzept"@de, "IT-Strategie"@de, "IT-Strategieplan"@de, "Rahmenplan"@de, "Strategic Information Management Plan"@en, "Strategischer Rahmenplan des Informationsmanagements"@de, "طرح مدیریت اطلاعات استراتژیک"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Is a strategic plan which gives directives for the construction and development of a hospital’s information system. Written document that includes the direction and strategy of information management and the architecture of a health information system. Typically, it describes the hospital’s goals, the information management goals, the current HIS state, the future HIS state, and the steps to transform the current HIS into the planned HIS. Its establishment is an important task of strategic HIS planning. The strategic information management plan should be written by the CIO and approved by the hospital management."@en .
 
 bb:StructuralQualityAssessment
@@ -8529,7 +8336,6 @@ bb:SubInformationSystem
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Sub-Information System"@en, "Sub-Informationssystem"@de, "زیرسیستم اطلاعاتی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "A subset of the components of an information system and the relationships between them. A sub-information system is a subsystem of the overall information system and thus itself an information system."@en .
 
 bb:Subsystem
@@ -8537,7 +8343,6 @@ bb:Subsystem
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "Subsystem"@en, "زیر سیستم"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "A subset of all components of a system, together with the relationships between them."@en .
 
 bb:SuitabilityForIndividualization
@@ -8624,7 +8429,6 @@ bb:System
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
     rdfs:label "System"@en, "سیستم"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Set of persons, things, events and their relationships that forms an integrated whole. We distinguish between natural systems and artificial (man-made) systems. A system can be divided into subsystems."@en .
 
 bb:SystemAnalysis
@@ -8645,8 +8449,7 @@ bb:SystemIntroduction
 
 bb:SystemOfConcepts
     a meta:EntityType ;
-    rdfs:label "System of Concepts"@en, "سیستم مفاهیم"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "System of Concepts"@en, "سیستم مفاهیم"@fa .
 
 bb:SystemSelection
     a meta:Function ;
@@ -8762,7 +8565,7 @@ bb:TechnicalModel
 
 bb:TechnicalStaff
     meta:chapter bb:chapter4-2 ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "Technical Staff"@en, "کارکنان فنی"@fa ;
     rdfs:subClassOf bb:HospitalStaff .
 
@@ -8907,14 +8710,14 @@ bb:Tiff
 
 bb:TimeMeasurement
     meta:chapter bb:chapter8-6 ;
-    a meta:Function ;
+    a meta:EntityType ;
     rdfs:label "Time Measurement"@en, "اندازه گیری زمان"@fa ;
     rdfs:subClassOf bb:QuantitativeEvaluationMethod .
 
 bb:TimeMotionAnalysis
     bb:page "224"^^xsd:positiveInteger ;
     meta:chapter bb:chapter8-6 ;
-    a meta:Function ;
+    a meta:EntityType ;
     rdfs:label "Time-Motion Analysis"@en, "تجزیه و تحلیل زمان-حرکت"@fa ;
     rdfs:subClassOf bb:TimeMeasurement ;
     skos:definition "The time-motion analysis is based on trained observers that measure the duration of observed events (e.g., tasks) while using a predefined list of event categories"@en .
@@ -8956,7 +8759,6 @@ bb:Transcription
     meta:isAssociatedWith bb:MediaCrack ;
     a meta:EntityType ;
     rdfs:label "Transcription"@en, "Transkription"@de, "رونویسی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Transcription means the manual transfer of data from one storage device to another storage device, for example, to transfer patient diagnoses from the patient record to an order entry form, or to copy data from a printout into a computer-based application component. Transfer of data from one storage device to another storage device, for example, transfer of patient diagnoses from the patient record to an order entry form, or copy of data from a printout into a computer-based application component. Transcription is often combined with a media crack. Transcription usually leads to the duplication of data."@en .
 
 bb:Transfer
@@ -8994,8 +8796,7 @@ bb:TransinstitutionalHealthInformationSystem
 
 bb:TransmittingMedium
     a meta:EntityType ;
-    rdfs:label "Transmitting Medium"@en, "وسیله فرستنده"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Transmitting Medium"@en, "وسیله فرستنده"@fa .
 
 bb:Transparency
     bb:page "206"^^xsd:positiveInteger, "207"^^xsd:positiveInteger, "266"^^xsd:positiveInteger ;
@@ -9041,11 +8842,6 @@ bb:Ultrasound
     rdfs:label "Ultrasound"@en, "سونوگرافی"@fa ;
     rdfs:subClassOf bb:ImagingModality .
 
-bb:UmlAbstractClass
-    a meta:EntityType ;
-    rdfs:label "UML Abstract Class"@en, "کلاس انتزاعی UML"@fa ;
-    rdfs:subClassOf meta:EntityType .
-
 bb:UmlActivityDiagram
     meta:chapter bb:chapter5-2 ;
     a meta:EntityType ;
@@ -9059,14 +8855,12 @@ bb:UmlAssociation
 
 bb:UmlAssociationClass
     a meta:EntityType ;
-    rdfs:label "UML Association Class"@en, "کلاس وابستگی UML"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "UML Association Class"@en, "کلاس وابستگی UML"@fa .
 
 bb:UmlAttribute
     meta:chapter bb:chapter5-3 ;
     a meta:EntityType ;
-    rdfs:label "UML Attribute"@en, "خصیصه UML"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "UML Attribute"@en, "خصیصه UML"@fa .
 
 bb:UmlClass
     bb:page "52"^^xsd:positiveInteger ;
@@ -9074,13 +8868,12 @@ bb:UmlClass
     meta:entityTypeComponent bb:UmlAttribute, bb:UmlMethod ;
     a meta:EntityType ;
     rdfs:label "UML Class"@en, "کلاسUML"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Classes contain the attributes and methods of a set of similar entities."@en .
 
 bb:UmlClassDiagram
     bb:page "49"^^xsd:positiveInteger, "52"^^xsd:positiveInteger, "53"^^xsd:positiveInteger, "54"^^xsd:positiveInteger ;
     meta:chapter bb:chapter5-3 ;
-    meta:entityTypeComponent bb:UmlAbstractClass, bb:UmlAssociation, bb:UmlAssociationClass, bb:UmlClass ;
+    meta:entityTypeComponent bb:UmlAssociation, bb:UmlAssociationClass, bb:UmlClass ;
     a meta:EntityType ;
     rdfs:label "UML Class Diagram"@en, "نمودار کلاس UML"@fa ;
     rdfs:subClassOf bb:DataModel ;
@@ -9088,8 +8881,7 @@ bb:UmlClassDiagram
 
 bb:UmlMethod
     a meta:EntityType ;
-    rdfs:label "UML Method"@en, "روش UML"@fa ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "UML Method"@en, "روش UML"@fa .
 
 bb:Umls
     bb:conceptDomain "health care specific"^^xsd:string ;
@@ -9102,13 +8894,13 @@ bb:Umls
 bb:UniversityMedicalCenter
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter2-4 ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "University Medical Center"@en, "مرکز بهداشتی دانشگاه"@fa, "مرکز پزشکی دانشگاه"@fa ;
     rdfs:subClassOf bb:Hospital .
 
 bb:UnstructuredInterview
     meta:chapter bb:chapter8-6 ;
-    a meta:Function ;
+    a meta:EntityType ;
     rdfs:label "Unstructured Interview"@en, "مصاحبه بدون ساختار"@fa ;
     rdfs:subClassOf bb:QualitativeInterview .
 
@@ -9250,7 +9042,6 @@ bb:Virtualization
     meta:chapter bb:chapter5-3 ;
     a meta:EntityType ;
     rdfs:label "Virtualization"@en, "مجازی سازی"@fa ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "We speak of virtualization when, either, one or more physical data processing systems simulate one physical data processing system (cluster), or one physical data processing simulates one or more physical data processing systems (virtual machine)."@en .
 
 bb:VisitorAndInformationService
@@ -9304,7 +9095,7 @@ bb:WorkOrganizationAndTimeManagement
 
 bb:WorkSampling
     meta:chapter bb:chapter8-6 ;
-    a meta:Function ;
+    a meta:EntityType ;
     rdfs:label "Work Sampling"@en, "نمونه برداری کار"@fa ;
     rdfs:subClassOf bb:TimeMeasurement .
 
@@ -9336,7 +9127,8 @@ bb:WoundTreatment
 bb:WrittenAgreementOnTheStudyOutline
     a meta:EntityType ;
     rdfs:label "Written Agreement on the Study Outline"@en, "توافقنامه نوشتاری درباره طرح مطالعه"@fa ;
-    rdfs:subClassOf bb:ResearchAndEducationEntityType, ob:WrittenAgreement .
+    rdfs:subClassOf bb:ResearchAndEducationEntityType ;
+	skos:broadMatch ob:WrittenAgreement .
 
 bb:Xml
     meta:chapter bb:chapter6-4 ;
@@ -10140,7 +9932,6 @@ bb:cin
     meta:isAssociatedWith bb:ObjectIdentity ;
     a owl:DatatypeProperty ;
     rdfs:label "Case Identification Number"@en ;
-    rdfs:subClassOf bb:PatientCareEntityType ;
     skos:altLabel "CIN"@en .
 
 bb:conceptDomain
