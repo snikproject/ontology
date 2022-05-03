@@ -72,7 +72,6 @@
     meta:entityTypeComponent ob:CommunicationLink, ob:PhysicalDataProcessingSystem ;
     a meta:EntityType ;
     rdfs:label "3LGM² Physical Tool Layer"@en, "Physische Werkzeugebene"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Darstellung von Physischen Datenverarbeitungssystemen und ihrer Datenübertragungsverbindungen. Vgl. Drei-Ebenen-Metamodell eines (Sub-)Informationssystems."@de .
 
 <ob/5LevelMethodForSystematicStructuralPlanning>
@@ -137,7 +136,6 @@ ob:Actor
     meta:chapter ob:Chapter16 ;
     a meta:Role ;
     rdfs:label "Actor"@en, "Handlungsträger"@de ;
-    rdfs:subClassOf meta:Role ;
     skos:definition "An der Informationsverarbeitung beteiligte Menschen (menschliche Handlungsträger) sowie die beteiligten Werkzeuge der Informationsverarbeitung (maschinelle Handlungsträger)."@de .
 
 ob:ActualValue
@@ -155,7 +153,6 @@ ob:AdjourningPhase
     meta:chapter ob:Chapter4-3 ;
     a meta:EntityType ;
     rdfs:label "Adjourning Phase"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Auflösung des Teams"@de .
 
 ob:AnalysisPlan
@@ -183,8 +180,7 @@ ob:AnalystTeam
     meta:isInvolvedIn ob:ExploratoryDiscussion, ob:InformationAcquisition, ob:PreparationAndModeling, ob:VerificationSystemAnalysis ;
     meta:isResponsibleForFunction ob:AnalysisReportCreation, ob:InformationAcquisition, ob:InformationSystemModeling, ob:PreparationAndModeling, ob:SystemAnalysisPlanning, ob:VerificationSystemAnalysis ;
     a meta:Role ;
-    rdfs:label "Analyst Team"@en, "Untersucher"@de ;
-    rdfs:subClassOf ob:InformationManagement .
+    rdfs:label "Analyst Team"@en, "Untersucher"@de .
 
 ob:ApplicationAdministrator
     ob:page "282"^^xsd:positiveInteger ;
@@ -193,7 +189,6 @@ ob:ApplicationAdministrator
     meta:isResponsibleForFunction ob:ExecutionOfTrainingCourse, ob:OrganizationalDevelopment, ob:SystemOperation, ob:UserAdministration, ob:UserSupport ;
     a meta:Role ;
     rdfs:label "Anwendungsbetreuer"@de, "Application Administrator"@en ;
-    rdfs:subClassOf meta:Role ;
     skos:definition "Konzentriert sich auf die Aufgaben, welche direkt die Benutzer betreffen, z. B. Bedienungsanfragen, Benutzerverwaltung, Schulungen, Benutzerbetreuung, Organisationsentwicklung."@de .
 
 ob:ApplicationSystem
@@ -223,7 +218,6 @@ ob:AreaOfAnEnterprise
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Area of an Enterprise"@en, "Bereich (eines Unternehmens)"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Teil eines Unternehmens, welcher nach pragmatischen Gesichtspunkten gebildet wird. Ein Krankenhaus besteht beispielsweise aus dem stationären Bereich, dem ambulanten Bereich, dem Funktionsbereich, dem Verwaltungsbereich und dem Leistungsbereich. Eine Einteitung nach anderen Gesichtspunkten wäre genauso möglich."@de ;
     skos:related ob:OrganizationalUnit .
 
@@ -243,35 +237,31 @@ ob:AssessmentReport
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType ;
     rdfs:label "Assessment Report"@en, "Bericht zur Systembewertung"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Wurde eine Systembewertung durchgeführt, ist der Auftraggeber in der Regel auch interessiert daran, Ursachen für erkannte Schwach-stellen, wie z. B. einer unakzeptabel langen Arztbriefschreibung, zu finden. Ursachen können z. B. in unzureichenden räumlichen und organisatorischen Strukturen, in einer ungenügenden Ausstattung mit Werkzeugen, in einer ungeregelten oder fehleranfälligen Kommunikation und Kooperation im Behandlungsteam bzw. zwischen Abtei-lungen oder auch in Problemen bei der Ablauforganisation liegen. Die Systembewertung sollte nach Möglichkeit Gründe aufzeigen und Optimierungsvorschläge unterbreiten. Das Analyseteam ist hierzu im besonderen Maße in der Lage, da es sich ausführlich eingearbeitet hat und während der Analyseplanung, Informationsbeschaffung und Veri-fikation vielfältig Gelegenheit hatte, Informationen und Verbesse-rungsvorschläge von Mitgliedern des betroffenen Bereichs und/oder Fachexperten einzuholen. Optimierungsvorschläge müssen nicht voll-ständig ausgearbeitete Sollkonzepte im Sinne einer Systemspezifika-tion (s. Kapitel 9) sein. Vielmehr sollen sie hierfür eine solide"@de .
 
 ob:AuthorizationConcept
     meta:chapter ob:Chapter3-4 ;
     a meta:EntityType ;
-    rdfs:label "Authorization Concept"@en, "Berechtigungskonzept"@de ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Authorization Concept"@en, "Berechtigungskonzept"@de .
 
 ob:AutomatedObservation
     ob:page "145"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType ;
     rdfs:label "Automated Observation"@en, "Automatisierte Beobachtung"@de ;
-    rdfs:subClassOf meta:EntityType, ob:Observation ;
+    rdfs:subClassOf ob:Observation ;
     skos:definition "Die Beobachtung kann automatisiert (z. B. über eine automatische Log-Funktion, die in dem verwendeten Softwareprodukt integriert ist) erfolgen. Eine Spezialform auto-matisierter Beobachtungen sind sensorgestützte Beobachtungen, in denen zum Beispiel die täglichen Aktivitäten und Bewegungen einer Person (z. B. eines Patienten zu Hause) mittels Sensortech-nik automatisch verfolgt und ausgewertet werden."@de .
 
 ob:AwardCriterion
     meta:chapter ob:Chapter10-2 ;
     a meta:EntityType ;
-    rdfs:label "Award Criterion"@en, "Zuschlagskriterium"@de ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Award Criterion"@en, "Zuschlagskriterium"@de .
 
 ob:Bid
     meta:chapter ob:Chapter10-4 ;
     meta:entityTypeComponent ob:ImplementationConcept, ob:Price ;
     a meta:EntityType ;
     rdfs:label "Angebot"@de, "Bid"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:closeMatch he:Angebot .
 
 ob:BidComparison
@@ -287,8 +277,7 @@ ob:BidComparison
 ob:BidDeadline
     meta:chapter ob:Chapter10-2 ;
     a meta:EntityType ;
-    rdfs:label "Abgabefrist"@de, "Bid Deadline"@en ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Abgabefrist"@de, "Bid Deadline"@en .
 
 ob:BidPrioritization
     meta:chapter ob:Chapter10-2 ;
@@ -301,8 +290,7 @@ ob:BidPrioritization
 ob:BiddingType
     meta:chapter ob:Chapter10-2 ;
     a meta:EntityType ;
-    rdfs:label "Art des Angebots"@de, "Bidding Type"@en ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Art des Angebots"@de, "Bidding Type"@en .
 
 ob:BindingCharacter
     a owl:DatatypeProperty ;
@@ -311,14 +299,13 @@ ob:BindingCharacter
 ob:BottomUpApproach
     meta:chapter ob:Chapter5-2 ;
     a meta:EntityType ;
-    rdfs:label "Bottom-up Approach"@en, "Bottom-up-Ansatz"@de ;
-    rdfs:subClassOf meta:EntityType .
+    rdfs:label "Bottom-up Approach"@en, "Bottom-up-Ansatz"@de .
 
 ob:Brainstorming
     meta:chapter ob:Chapter16, ob:Chapter5-3 ;
     a meta:EntityType ;
     rdfs:label "Brainstorming"@en ;
-    rdfs:subClassOf meta:EntityType, ob:CreativityTechnique .
+    rdfs:subClassOf ob:CreativityTechnique .
 
 ob:BudgetCompliance
     meta:chapter ob:Chapter6-3 ;
@@ -332,7 +319,6 @@ ob:BufferTime
     meta:isAssociatedWith ob:WorkPackage ;
     a meta:EntityType ;
     rdfs:label "Buffer Time"@en, "Pufferzeit"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Zeitliche Reserve bei der Planung und Durchführung eines Arbeitspakets. Wo und in welchem Umfang Pufferzeiten vorliegen, kann z. B. mit Hilfe von Netzplänen ermittelt werden. Siehe auch: Kritischer Pfad Zeitliche Reserve"@de .
 
 ob:BufferTimeCalculation
@@ -421,7 +407,6 @@ ob:CentralComputerAndTelecommunicationsAgency
     meta:isResponsibleForEntityType ob:ItilVersion2, ob:ItilVersion3 ;
     a meta:Role ;
     rdfs:label "Central Computer and Telecommunications Agency"@en ;
-    rdfs:subClassOf meta:Role ;
     skos:altLabel "CCTA"@en .
 
 ob:ChangeManagement
@@ -1423,7 +1408,6 @@ ob:ChiefInformationOfficer
     meta:isResponsibleForFunction ob:InformationManagement ;
     a meta:Role ;
     rdfs:label "Chief Information Officer"@en, "Leiter der Abteilung Informationsmanagement"@de ;
-    rdfs:subClassOf meta:Role ;
     skos:altLabel "CIO"@en, "Direktor des Geschäftsbereiches Informationsverarbeitung"@de, "Leiter des Rechenzentrums"@de ;
     skos:definition "Verantwortlicher für das Management von Informationssystemen."@de .
 
@@ -1540,7 +1524,6 @@ ob:ComputerBasedPartOfInformationSystem
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Computer-Based Part of Information System"@en, "Computerunterstützter Teil eines Informationssystems"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Teilsystem eines Informationsystems, welches (ausschließlich) Rechnersysteme als Werkzeuge der Informaionsverarbeitung erhält."@de .
 
 ob:ComputerSystem
@@ -1608,7 +1591,6 @@ ob:Contractor
     meta:isResponsibleForFunction ob:AcceptingAProjectOrder, ob:ProjectApproval, ob:ProjectExecution ;
     a meta:Role ;
     rdfs:label "Auftragnehmer"@de, "Contractor"@en ;
-    rdfs:subClassOf ob:InformationManagement ;
     skos:altLabel "Dienstleister"@de ;
     skos:definition "Person oder Einrichtung, die den Projektauftrag von einem Auftraggeber entgegen genommen hat. Der Auftragnehmer ist für die planmäßige Durchführung des Projekts verantwortlich. Der Auftragnehmer kann, muss aber nicht, auch der Projektleiter sein - so kann z.B. der CIO einen Projektauftrag vom Klinikvorstand entgegen nehmen und dann einen seiner Mitarbeiter mit der Projektleitung betrauen."@de .
 
@@ -1624,7 +1606,6 @@ ob:ControlView
     meta:isBasedOn ob:BusinessProcessModelingMethod ;
     a meta:EntityType ;
     rdfs:label "Control View"@en, "Steuerungssicht"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Prozesssicht"@de ;
     skos:definition "Die Steuerungs- oder Prozesssicht dient der Modellierung von Geschäftsprozessen als verbindendes Element der restlichen drei Sichten. Die verwendete Modellierungsmethoden hierfür sind vor allem die eEPKs, welche Funktionen und Anwendungssysteme der Funktionssicht mit Organisationseinheiten der Organisationssicht und den jeweils relevanten Informationsobjekten der Datensicht verknüpfen. Mittlerweile integriert ARIS im Kontext der Steuerungssicht auch UML-Diagramme zur Verhaltensmodellierung (z. B. Anwendungsfall-, Aktivitäts- und Sequenzdiagramme) sowie die BPMN-Diagrammtypen."@de .
 
@@ -1720,7 +1701,6 @@ ob:CriticalPath
     meta:entityTypeComponent ob:WorkPackage ;
     a meta:EntityType ;
     rdfs:label "Critical Path"@en, "Kritischer Pfad"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Folge von Arbeitspaketen in einem Netzplan, welche keine Pufferzeit aufweisen. Verzögerungen bei diesen Arbeitspaketen führen zu einer Verzögerung des Gesamtprojekts. Arbeitspakete auf dem kritischen Pfad sind daher engmaschig zu überwachen (siehe Projektüberwachung)."@de .
 
 ob:CriticalPathCalculation
@@ -1744,7 +1724,6 @@ ob:CurrentState
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Current State"@en, "Ist-Zustand"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Ist-Situation"@de .
 
 ob:CurrentStateModel
@@ -1795,7 +1774,6 @@ ob:DIN69901
     meta:isAssociatedWith ob:Project, ob:ProjectManagement, ob:ProjectOrganization ;
     a meta:EntityType ;
     rdfs:label "DIN 69901"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Die DIN 69901 fasst Standards für das Projektmanagement und Projektmanagementsysteme zusammen."@de .
 
 ob:Data
@@ -1804,7 +1782,6 @@ ob:Data
     meta:isAssociatedWith ob:Information, ob:Knowledge ;
     a meta:EntityType ;
     rdfs:label "Data"@en, "Daten"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Daten (lat. datum: das Gegebene) sind Gebilde aus Zeichen oder kontinuierliche Funktionen (z. B. Tonsignale), die aufgrund bekannter oder unterstellter Abmachungen Informationen und Wissen darstellen können. Daten sind die Grundlage oder das Ergebnis eines Verarbeitungsschrittes. Nachrichten sind Daten. Gebilde aus Zeichen oder kontinuierlichen Funktionen, die aufgrund bekannter oder unterstellter Abmachungen Informationen und Wissen darstellen können."@de .
 
 ob:DataAnalysis
@@ -1880,7 +1857,6 @@ ob:DataView
     meta:isBasedOn ob:DataModelingMethod ;
     a meta:EntityType ;
     rdfs:label "Data View"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Die Datensicht umfasst Daten- und Informationsmodelle. Verwendet werden hier an das ER-Modell angelehnte Modellierungsmethoden (insbesondere das erweiterte Entity-Relationship-Modell, eERM) (vgl. Abb. 8.11 auf S. 148) und mittlerweile auch UML-Klassendiagramme."@de .
 
 ob:DatabaseAdministration
@@ -2090,7 +2066,6 @@ ob:DomainLayer
     meta:chapter ob:Chapter16, ob:Chapter8-3 ;
     a meta:EntityType ;
     rdfs:label "Domain Layer"@en, "Fachliche Ebene (3LGM²)"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Die Fachliche Ebene beschreibt die vom Informationssystem unterstützten Unternehmensaufgaben sowie die von ihnen jeweils interpretierten bzw. bearbeiteten Informationsobjekte in Form von Objekttypen. Darstellung von Unternehmensaufgaben und den von ihnen interpretierten bzw. bearbeiteten Informationsobjekten in Form von Objekttypen. Vgl. Drei-Ebenen-Metamodell eines (Sub-) Informationssystems."@de .
 
 ob:DynamicSystem
@@ -2125,7 +2100,6 @@ ob:ElicitationForm
     meta:chapter ob:Chapter16, ob:Chapter8-2 ;
     a meta:EntityType ;
     rdfs:label "Elicitation Form"@en, "Fragebogen"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Erhebungsformular"@de, "Questionnaire"@fr ;
     skos:definition "Ein Erhebungsformular trägt dazu bei, dass die Datenerhebung in standardisierter Weise durchgeführt und die gewonnenen Daten ein-heitlich und vollständig dokumentiert werden – auch wenn verschie-dene Untersucher die Erhebung vornehmen. Rechner- oder papierbasiertes Formular für die Aufzeichnugn erhobener Daten auf Basis einer Methode zur Informationsbeschaffung. Beispiele sind Fragebögen (bei schriftlichen Befragungen), Interviewleitfäden (bei mündlichen Befragungen) sowie Beobachtungsbögen (bei Beobachtungen)."@de .
 
@@ -2151,7 +2125,6 @@ ob:EnterpriseFunction
     meta:chapter ob:Chapter16, ob:Chapter2-2 ;
     a meta:Function ;
     rdfs:label "Enterprise Function"@en, "Unternehmensaufgabe"@de ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Eine Unternehmensaufgabe steht für eine oder mehrere Handlun-gen, die notwendig sind, um eines oder mehrere Ziele einer Einrichtung zu erreichen. Eine Unternehmensaufgabe wird durch Menschen oder Maschinen – das sind die Handlungsträger – oder im Zusammenwirken beider bearbeitet. Unternehmensaufgaben haben keinen definierten Anfang und kein definiertes Ende. Sie lassen sich in Teilaufgaben gliedern. Unternehmensaufgaben beschreiben, was zu tun ist, aber nicht wie. Handlungen, die notwendig sind, um eines oder mehrere Ziele einer Einrichtung zu erreichen. Wird durch menschliche oder maschinelle Handlungsträger oder im Zusammenwirken beider bearbeitet. Unternehmensaufgaben haben keinen definierten Anfang und kein definiertes Ende. Sie lassen sich in Teilaufgaben gliedern."@de .
 
 ob:EnterpriseModelling
@@ -2203,7 +2176,6 @@ ob:EvaluationCriterion
     meta:isAssociatedWith ob:LevelOfTargetAchievement ;
     a meta:EntityType ;
     rdfs:label "Bewertungskriterium"@de, "Evaluation Criterion"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Bewertungskriterien müssen geeignet sein, die zugrunde liegende Fragestellung der Untersuchung auch tatsächlich zu beantworten. Soll zum Beispiel die Datenqualität von Dokumenten, welche mit einem bestimmten Anwendungssystem erfasst wurden, bewertet werden, macht eine Erhebung der Häufigkeit fehlerhafter Doku-mente und der Zahl der Fehler in einem Dokument mehr Sinn als eine alleinige Befragung der Anwender zur subjektiven Wahr-nehmung fehlerhafter Dokumente.  Bewertungskriterien sollten, soweit möglich und sinnvoll, quanti-fizierbar sein. Messbare Kriterien wie „Zeitaufwände“ und „Kos-ten“ sind z. B. gut quantifizierbar, andere Kriterien wie z. B. „subjektiv empfundene Probleme bei der Handhabung einer Komponente“ etwas schwieriger.  Bewertungskriterien müssen in der geplanten Systemanalyse auch tatsächlich ermittelt werden können. Zur genauen Beurteilung von Zeitaufwänden für die Dokumentation sind z. B. relativ aufwän-dige Zeitmessungen notwendig.  Bewertungskriterien müssen so formuliert sein, dass das Ergebnis der Bewertung für Außenstehende nachvollziehbar ist. Merkmal zur Beurteilung eines (Sub-) Informationssystems im Rahmen einer Systemanalyse und -bewertung. Zweckmäßig ist es, wenn Bewertungskriterien qualifizierbar sind. Es werden Muss-, Soll- und Kann-Kriterien unterschieden."@de .
 
 ob:EvaluationGoal
@@ -2286,7 +2258,6 @@ ob:Evbit
     meta:chapter ob:Chapter10-2 ;
     a meta:EntityType ;
     rdfs:label "Ergänzende Vertragsbedingungen für die Beschaffung von IT-Leistungen"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "EVB-IT"@de .
 
 ob:Event
@@ -2396,7 +2367,6 @@ ob:ExtendedEventDrivenProcessChain
     meta:entityTypeComponent ob:Activity, ob:Event, ob:OrganizationalUnit, ob:Tool ;
     a meta:EntityType ;
     rdfs:label "Erweiterte Ereignisgesteuerte Prozesskette"@de, "Extended Event-Driven Process Chain"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Erweiterte EPK"@de, "eEPK"@de .
 
 ob:FailureConcept
@@ -2438,7 +2408,6 @@ ob:FinalReport
     meta:isBasedOn ob:FinalReportStructure ;
     a meta:EntityType ;
     rdfs:label "Abschlussbericht"@de, "Final Report"@en ;
-    rdfs:subClassOf meta:EntityType, ob:ProjectDocumentation ;
     skos:definition "Inhaltlich baut der Abschlussbericht auf dem Projektplan auf und stellt ihn daher zunächst (in der Regel in deutlich gekürzter Form) noch ein-mal dar. Dabei sind die im Projektverlauf aufgetretenen notwendigen Änderungen zum Projektplan darzustellen. Der Hauptteil des Ab-schlussberichts ist die Darstellung der Ergebnisse. Die Darstellung sollte knapp, aber vollständig sein und sich an der Zielsetzung des Projekts orientieren. Bei größerem Umfang der Projektergebnisse können diese im Abschlussbericht auch nur überblicksartig dargestellt werden, um dann auf eigenständige Dokumente zu verweisen, welche wir später z. B. als Analysebericht (Kapitel 8.2, S. 132), als Sollkon-zept (Kapitel 9.2, S. 191), als Schulungskonzept (Kapitel 11.6, S. 247) oder als Evaluationsbericht (Kapitel 12.2, S. 260) kennen lernen wer-den. Der Abschlussbericht schließt mit einer kurzen Diskussion und einem Ausblick auf sinnvolle Folgeprojekte. Der Anhang kann z. B. Verträge oder Abnahme- und Übergabeprotokolle enthalten. Der Ab-schlussbericht hilft, Ergebnisse auch nach längerer Zeit noch reprodu-zierbar zu machen. Der Abschlussbericht fasst die wichtigsten Inhalte der Verlaufs- und Ergebnisdokumentation zusammen. Je sorgfältiger die Projektdoku-mentation geführt wurde und je systematischer bereits im Projekt-verlauf Zwischenberichte erstellt wurden (vgl. Kapitel 6.2), desto einfacher und schneller kann der Abschlussbericht erstellt werden. Fasst die Ziele und die wichtigsten Inhalte der Verlaufs- und Ergebnisdokumentation eines Projekts zusammen. Der Abschlussbericht wird in der Phase des Projektabschlusses erstellt."@de .
 
 ob:FinalReportCreation
@@ -2527,7 +2496,6 @@ ob:FunctionalView
     meta:chapter ob:Chapter8-3 ;
     a meta:EntityType ;
     rdfs:label "Functional View"@en, "Funktionssicht"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Die Funktionssicht ermöglicht die Darstellung der für die Einrichtung relevanten Funktionen (Aktivitäten) und ihrer Attribute (Zeitbedarf, Kosten etc.). Zur Modellierung werden z. B. Funktionsbäume verwendet, um Funktionen in ihrer hierarchischen Unterteilung in Unterfunktionen darstellen zu können. Aber auch Anwendungssysteme werden in dieser Sicht modelliert, wobei diese ausgehend vom Anwendungssystem- Typ (z. B. Patientenverwaltungssystem) über das konkrete Anwendungssystem (z. B. Patientenverwaltungssystem SAP IS-H) bis auf die Ebene der Benutzerschnittstellen (z. B. Dialog zur administrativen Patientenaufnahme) beschrieben werden können."@de .
 
 ob:GanttChart
@@ -2594,7 +2562,6 @@ ob:HandoverCertificate
     meta:chapter ob:Chapter11-2 ;
     a meta:EntityType ;
     rdfs:label "Handover Certificate"@en, "Übergabeprotokoll"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "In einem Übergabeprotokoll wird festgelegt, wer künftig die Verantwortung für den Betrieb übernimmt. Die relevante Dokumentation muss vom Projektleiter an diesen Verantwortlichen übergeben werden."@de .
 
 ob:HardwareLot
@@ -2696,7 +2663,6 @@ ob:Information
     meta:isAssociatedWith ob:Data ;
     a meta:EntityType ;
     rdfs:label "Information"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Information (lat. informare: Gestalt geben) ist eine Feststellung über bestimmte Sachverhalte oder Vorgänge. Wir wollen diesen Begriff etwas enger fassen und ihn für die Feststellung über einzelne, konkrete, benennbare Objekte der realen oder virtuellen Welt verwenden. So wollen wir Feststellungen über einen bestimmten Patienten bzw. Behandlungsfall als Informationen über diesen Patienten bzw. Behandlungsfall bezeichnen. Information kann in Form von Daten repräsentiert und so gespeichert und weitergegeben werden."@de .
 
 ob:InformationAcquisition
@@ -2764,7 +2730,6 @@ ob:InformationAndCommunicationSystem
     meta:chapter ob:Chapter2-2 ;
     a meta:EntityType ;
     rdfs:label "Information and Communication System"@en, "Informations- und Kommunikationssystem"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:related ob:InformationSystem .
 
 ob:InformationAndKnowledgeLogistics
@@ -2804,7 +2769,6 @@ ob:InformationProcessingTool
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Information Processing Tool"@en, "Werkzeug der Informationsverarbeitung"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Anwengungssysteme und Physische Datenverarbeitungssysteme. Wir unterscheiden rechnerbasierte Werkzeuge (rechnerbasierte Anwendungssysteme und Rechnersysteme) von nicht-rechnerbasierten Werkzeugen (nicht-rechnerbasierte Anwendungssysteme oder nicht-rechnerbasierte Physische Datenverarbeitungssysteme wie Formulare, Telefon)."@de .
 
 ob:InformationSystem
@@ -2846,13 +2810,12 @@ ob:InformationTechnologyInfrastructureLibrary
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Information Technology Infrastructure Library"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "ITIL"@en ;
     skos:definition "Die Information Technology Infrastructure Library (lTIL) umfasst eine Sammlung von Leitlinien zur Organisation des Systembetriebs rechnergestützter Informationssysteme. ITIL beschreibt, welche Prozesse abzulaufen haben, aber nicht wie sie abzulaufen haben, damit professionelle IT-Dienstleistungen gewährleistet werden können."@de .
 
 ob:InpatientDepartment
     meta:chapter ob:Chapter16 ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "Inpatient Department"@en ;
     rdfs:subClassOf ob:Department .
 
@@ -3036,7 +2999,6 @@ ob:Job
     meta:isAssociatedWith ob:OrganizationalUnit ;
     a meta:EntityType ;
     rdfs:label "Job"@en, "Stelle"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Summe der einer Position in einem Bereich zugeordneten Aufgaben. Stellen und ihre Zuordnug zu Organisationseinheiten bzw. konkreten Personen können in Form von Organigrammen dargestellt werden."@de .
 
 ob:JourFixe
@@ -3045,7 +3007,6 @@ ob:JourFixe
     a meta:EntityType ;
     rdfs:comment "regelmäßig durchgeführte Teamsitzung"@de ;
     rdfs:label "Jour Fixe"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "regular meeting"@en .
 
 ob:KeyPerformanceIndicator
@@ -3119,7 +3080,6 @@ ob:LevelOfTargetAchievement
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Level of Target Achievement"@en, "Zielerreichungsgrad"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Wert, der die Erreichung eines Ziels oder die Erfüllung eines Bewertungskriterium auf einer quantitativen Skala angibt. Kann in Form von Polaritätsprofilen oder Spinnendiagrammen graphisch dargestellt werden."@de .
 
 ob:LimitedTenderWithPublicAnnouncement
@@ -3167,7 +3127,6 @@ ob:LogicalToolLayer
     meta:entityTypeComponent ob:ApplicationSystem, ob:CommunicationLink ;
     a meta:EntityType ;
     rdfs:label "Logical Tool Layer"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Die Logische Werkzeugebene beschreibt die zur Erfüllung der Aufgaben eingesetzten Anwendungssysteme und ihre Kommuni-kationsverbindung. Es können sowohl rechnerbasierte als auch papierbasierte Anwendungssysteme dargestellt werden."@de .
 
 ob:Lot
@@ -3175,7 +3134,6 @@ ob:Lot
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Los"@de, "Lot"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Auftrennung einer Ausschreibung in verschiedene Teile. Bei einer Ausschreibung können einzelne Komponenten (z. B. Hardware, Software, Beratung) getrennt ausgeschrieben werden."@de .
 
 ob:Machine
@@ -3195,7 +3153,6 @@ ob:MaintenanceContract
     meta:chapter ob:Chapter13-2 ;
     a meta:EntityType ;
     rdfs:label "Maintenance Contract"@en, "Softwarepflegevertrag"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Wartungskonzept"@de ;
     skos:definition "Softwarepflegevertrag durch Softwareanbieter"@de .
 
@@ -3280,7 +3237,6 @@ ob:Message
     meta:chapter ob:Chapter16, ob:Chapter2-1 ;
     a meta:EntityType ;
     rdfs:label "Message"@en, "Nachricht"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Daten, die zum Zweck ihrer Weitergabe zusammengestellt und als Einheit betrachtet werden."@de .
 
 ob:Metamodel
@@ -3288,7 +3244,6 @@ ob:Metamodel
     meta:chapter ob:Chapter16, ob:Chapter2-1 ;
     a meta:EntityType ;
     rdfs:label "Metamodel"@en, "Metamodell"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Die für ein Modell verwendete Modelierungssprache, also die für das Beschreiben verwendeten Symbole, Worte oder grafischen Zeichen."@de .
 
 ob:MetaplanTechnique
@@ -3357,7 +3312,6 @@ ob:MigrationPlan
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Migration Plan"@en, "Migrationsplan"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Transition Plan"@de ;
     skos:definition "Beschreibt, welche Maßnahmen notwendig sind, um von einem Ist-Zustand zu einem gewünschten Soll-Zustand zu gelangen. Der Migrationsplan ist Teil des Sollkonzepts bei einer Systemspezifikation."@de .
 
@@ -3390,7 +3344,6 @@ ob:MinimumProjectDuration
     meta:chapter ob:Chapter5-3 ;
     a meta:EntityType ;
     rdfs:label "Minimum Project Duration"@en, "minimal mögliche Gesamtdauer des Projekts"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "minimal mögliche Gesamtdauer des Projekts"@de .
 
 ob:MinimumProjectDurationCalculation
@@ -3408,7 +3361,6 @@ ob:MinuteTaker
     meta:isAssociatedWith ob:Interview ; # SHACL fix from meta:isInvolvedIn because ob:Interview is an entity type and KH does not think isResponsibleFor is correct
     a meta:Role ;
     rdfs:label "Minute Taker"@en, "Protokollführer"@de ;
-    rdfs:subClassOf meta:Role ;
     skos:definition "Bei offenen Fragen ist es empfehlenswert, neben einem Gesprächsführer auch einen Protokollführer zu haben, welcher die Antworten notiert und bei Verständnisproblemen nachfragt. Ist der Befragte einverstanden, kann ein Aufnahmegerät verwendet werden"@de .
 
 ob:Model
@@ -3417,7 +3369,6 @@ ob:Model
     meta:isBasedOn ob:Metamodel ;
     a meta:EntityType ;
     rdfs:label "Model"@en, "Modell"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Ein Modell (ital. modello: Muster, Vorbild) ist die Beschreibung ei-nes Systems mit Hilfe einer Sprache (Modellierungssprache). Ein Modell ist ausgerichtet auf bestimmte, für eine Fragestellung wesentliche Aspekte des Systems bzw. des Teilsystems. Modelle sollen Fragen über ein System gezielt beantworten oder bestimmte Aufgaben im Zusammenhang mit dem modellierten System unter-stützen. Beschreibung eines Systems mit Hilfe einer Sprache (Modellierungssprache). Ein Modell ist ausgerichtet auf bestimmte, für eine Fragestellung wesentliche Aspekte eines Systems. Die verwendete ModelIierungssprache wird auch als Metamodell bezeichnet."@de .
 
 ob:ModelingMethod
@@ -3577,7 +3528,6 @@ ob:ObjectiveOfAnalysis
     meta:chapter ob:Chapter8-2 ;
     a meta:EntityType ;
     rdfs:label "Objective of Analysis"@en, "Zielsetzung"@de ;
-    rdfs:subClassOf ob:InformationManagement ;
     skos:definition "vor der Durchführung einer Systemanalyse und -bewertung zu klären, welcher Informationsbedarf besteht, welche Zielsetzung verfolgt wird, welche Fragestellungen konkret beantwortet und welche Entschei-dungen auf ihrer Basis getroffen werden sollen."@de .
 
 ob:Observation
@@ -3607,7 +3557,6 @@ ob:ObservationalEquivalence
     meta:chapter ob:Chapter12-2, ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Beobachtungsgleichheit"@de, "Observational Equivalence"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Gewährleistet, dass die Erhebungen im Rahmen einer Studie (z. B. in einer Systemevaluation) möglichst einheitlich erfolgen, auch wenn sie von verschiedenen Personen oder zu verschiedenen Zeitpunkten durchgeführt werden. Beobachtungsgleichheit spielt bei allen Methoden zur Informationsbeschaffung eine Rolle. Sie wird durch detaillierte und standardisierte Vorschriften zur Erhebung, Dokumentation und Auswertung der erhobenen Daten, durch das umfassende Training der Untersucher und durch die Bereitstellung ausreichend getesteter Erhebungsformulare ermöglicht."@de .
 
 ob:Observer
@@ -3638,7 +3587,6 @@ ob:OperationalConcept
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Betriebskonzept"@de, "Operational Concept"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Beschreibt die Gestaltung des Betriebs einer Informationssystemkomponente. Es enthält unter anderem die technischen und organisatorischen Vereinbarungen für einen reibungslosen Betrieb sowie die vereinbarten Service Level Agreements."@de .
 
 ob:OperationalHISDirecting
@@ -3672,7 +3620,6 @@ ob:OperationalManagementOfInformationSystems
     meta:functionComponent ob:OperationalHISDirecting, ob:OperationalHISMonitoring, ob:OperationalHISPlanning ;
     a meta:Function ;
     rdfs:label "Operational Management of Information Systems"@en, "Operatives Informationsmanagement"@de ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Perspektive des Managements eines Informationssystems, welches sich mit der Organisation des Betriebs eines lnformationssystems befasst."@de .
 
 ob:Operator
@@ -3744,7 +3691,6 @@ ob:OrganizationalStructure
     meta:isAssociatedWith ob:OrganizationChart ;
     a meta:EntityType ;
     rdfs:label "Aufbauorganisation"@de, "Organizational Structure"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Beschreibt die organisatorische Struktur in einem Bereich. Für die Modellierung der Aufbauorganisation werden in der Regel Organigramme verwendet."@de .
 
 ob:OrganizationalStructureModelingMethod
@@ -3763,7 +3709,6 @@ ob:OrganizationalUnit
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Organisationseinheit"@de, "Organizational Unit"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Ein von der Unternehmensleitung festgelegter Bereich mit klar definierten Aufgaben und definierten Verantwortlichkeiten. Eine Organisationseinheit in einem Krankenhaus ist beispielsweise eine Klinik, die sich in Abteilungen gliedern kann, welche wiederum aus einzelnen Ambulanzen und Stationen bestehen können."@de .
 
 ob:OrganizationalView
@@ -3772,12 +3717,11 @@ ob:OrganizationalView
     meta:isBasedOn ob:OrganizationChart ;
     a meta:EntityType ;
     rdfs:label "Organizational View"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Die Organisationssicht erlaubt auf Grundlage von Organigrammen (vgl. Abb. 8.10 auf S. 146) die Organisationseinheiten einer Einrichtung bis auf Ebene der einzelnen Personen zu modellieren"@de .
 
 ob:OutpatientDepartment
     meta:chapter ob:Chapter16 ;
-    a meta:EntityType ;
+    a meta:Role ;
     rdfs:label "Outpatient Department"@en ;
     rdfs:subClassOf ob:Department .
 
@@ -3801,7 +3745,6 @@ ob:P3O
     meta:isAssociatedWith ob:ProjectManagement ;
     a meta:EntityType ;
     rdfs:label "Portfolio-, Programm- und Projektmanagement"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "P3O"@de ;
     skos:definition "Der Komplex Portfolio-, Programm- und Projektmanagement wird auch mit dem Akronym P3O bezeichnet."@de .
 
@@ -3842,7 +3785,6 @@ ob:PersonnelExpenditure
     meta:chapter ob:Chapter5-2 ;
     a meta:EntityType ;
     rdfs:label "Personalaufwand"@de, "Personnel Expenditure"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "So werden zum Beispiel personelle Ressourcen über einen Stundensatz zu Personalkosten verrechnet."@de .
 
 ob:PhysicalDataProcessingSystem
@@ -3865,7 +3807,6 @@ ob:PhysicalToolLayer
     meta:entityTypeComponent ob:DataTransmissionLink, ob:PhysicalDataProcessingSystem ;
     a meta:EntityType ;
     rdfs:label "Physical Tool Layer"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Die Physische Werkzeugebene beschreibt die zur Realisierung der Anwendungssysteme genutzten physischen Datenverarbei-tungssysteme und ihre Datenübertragungsverbindungen. Im rech-nerunterstützten Teil eines Informationssystems werden hier z. B. Computer, Server, Speicher oder Netzwerke modelliert, im nicht-rechnerunterstützten Teil z. B. Rohrpostanlage und Telefonnetz."@de .
 
 ob:Piloting
@@ -4083,7 +4024,6 @@ ob:Product
     meta:chapter ob:Chapter16, ob:Chapter2-2 ;
     a meta:EntityType ;
     rdfs:label "Product"@en, "Produkt"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Softwareprodukt, Rechnersystem oder nicht-rechnerbasiertes Werkzeug der Infonnationsverarbeitung, welches als Basis für eine Informationssystemkomponente dienen kann."@de ;
     skos:related ob:SoftwareProduct .
 
@@ -4121,7 +4061,6 @@ ob:Program
     meta:entityTypeComponent ob:Project ;
     a meta:EntityType ;
     rdfs:label "Program"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Dabei können zusammengehörige Projekte zu einem sogenannten Programm gebündelt werden."@de .
 
 ob:ProgressDocument
@@ -4130,7 +4069,6 @@ ob:ProgressDocument
     meta:entityTypeComponent ob:Guideline, ob:IntermediateResult, ob:Protocol, ob:ToDoList ;
     a meta:EntityType ;
     rdfs:label "Progress Document"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Die Verlaufsdokumentation hält den Verlauf des Projekts fest, ohne auf die Ergebnisse der einzelnen Arbeitspakete im Detail einzugehen. Zur Verlaufsdokumentation gehören insbesondere die Ergebnisse der Überwachung, die z. B. in Form von Statusberichten (vgl. Kapitel 6.3) dokumentiert werden. Weiterhin fallen im Verlauf der Projektdurchführung auch Protokolle, Erledigungslisten, Schriftwechsel, Richtlinien oder Literatur an, welche entsprechend aufzubewahren sind."@de .
 
 ob:Project
@@ -4139,7 +4077,6 @@ ob:Project
     meta:entityTypeComponent ob:Milestone, ob:ProjectGoal, ob:ProjectOrganization, ob:ProjectPhase, ob:WorkPackage ;
     a meta:EntityType ;
     rdfs:label "Project"@en, "Projekt"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Ein Projekt (lat. proiectum: das vorwärts Geworfene) ist ein Vorhaben, das im Wesentlichen durch die Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist, wie z. B. - klare Zielvorgabe; - zeitliche Begrenzung; - personelle und finanzielle Begrenzungen; - Abgrenzung gegenüber anderen Vorhaben; und - projektspezifische Organisation. (nach DIN 69901) Vorhaben, das im Wesentlichen durch Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist, wie z. B. die Vorgabe eines Projektziels, zeitliche, personell oder finanzielle Begrenzungen, die Abgrenzung gegenüber anderen Vorhaben und die spezifische Projektorganisation. Projekte lassen sich in typische Projektphasen gliedern, typische Inhalte können als Projektmodule beschrieben werden."@de .
 
 ob:ProjectApproval
@@ -4237,7 +4174,6 @@ ob:ProjectDistinction
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Project Distinction"@en, "Projektabgrenzung"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Festhalten, welche Ziele definitiv nicht Bestandteil eines Projekts sind. Ist Teil der Zieldefinition eines Projekts."@de .
 
 ob:ProjectDocument
@@ -4246,7 +4182,6 @@ ob:ProjectDocument
     meta:entityTypeComponent ob:ProjectClosureDocument, ob:ProjectExecutionDocument, ob:ProjectInitiationDocument, ob:ProjectPlanningDocument ;
     a meta:EntityType ;
     rdfs:label "Project Document"@en, "Projektdokumentation"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Gesamtheit der Dokumente, die während der Abwicklung eines Projekts enstehen. Die Projektdokumentation kann in Projektinitiierungs-, Projektplanungs-, Projektdurchführungs- und Projektauschlussdokumentation gegliedert werden, welche wiederum jeweis in Verlaufs- und Ergebnisdokumentations unterteilt werden können."@de .
 
 ob:ProjectDocumentation
@@ -4254,7 +4189,7 @@ ob:ProjectDocumentation
     meta:chapter ob:Chapter2-4 ;
     meta:increases ob:ProjectExperience, ob:ProjectResultRepresentation, ob:ProjectTeamCommunication, ob:ProjectTransparency ;
     a meta:Function;
-    meta:updates ob:ProgressDocument, ob:ProjectDocument, ob:ResultDocument ;
+    meta:updates ob:ProgressDocument, ob:ProjectDocument, ob:ResultDocument, ob:FinalReport ;
     rdfs:label "Project Documentation"@en ;
     rdfs:subClassOf ob:InformationManagement ;
     skos:definition "Aufgabe der Projektdokumentation"@de .
@@ -4319,7 +4254,6 @@ ob:ProjectGoal
     meta:isAssociatedWith ob:Smart ;
     a meta:EntityType ;
     rdfs:label "Project Goal"@en, "Projektziel"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Beschreibt das im Rahmen eines Projekts angestrebte Ergebnis. Ein Projektziel kann in Teilziele untergliedert werden. Projektziele sollten SMART formuliert werden."@de .
 
 ob:ProjectHandOver
@@ -4419,7 +4353,6 @@ ob:ProjectManager
 	meta:isResponsibleForFunction ob:DefiningProjectOrganization; # SHACL fix from  ob:DefiningProjectOrganization updates ob:ProjectManager
     a meta:Role ;
     rdfs:label "Project Manager"@en, "Projektleiter"@de ;
-    rdfs:subClassOf meta:Role ;
     skos:definition "Verantwortlich für eine erfolgreiche Projektabwicklung, also für die Planung, Steuerung und Überwachung eines Projekts. Zu den Aufgaben gehören die Abstimmung mit dem Auftraggeber, die Erstellung des Projekts. Zu den Aufgaben gehören die Abstimung mit dem Auftraggeber, die Erstellung eines des Projektplans, die Führung und Koordination aller Projektmitarbeiter, die Erstellung von Zwischenberichten und Abschlussberichten, das Vertreten des Projekts nach außen, das Krisen- und Konfliktmanagement, die Überwachung des Projektfortschritts (Projektcontrolling), die Pflege der Projektdokumentation und damit insgesamt das Projektmanagement."@de .
 
 ob:ProjectManagerData
@@ -4502,7 +4435,6 @@ ob:ProjectOutlineProposal
     meta:chapter ob:Chapter4-2 ;
     a meta:EntityType ;
     rdfs:label "Project Outline Proposal"@en, "Projektskizze"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Schriftlicher Vorentwurf eines Projektauftrags"@de .
 
 ob:ProjectPhase
@@ -4510,7 +4442,6 @@ ob:ProjectPhase
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Project Phase"@en, "Projektphase"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Gliedert ein Projekt in abgrenzbare Zeitabschnitte. Wir unterscheiden folgende Phasen: Projektinitiierung, Projektplanung, Projektdurchführung und Projektabschluss"@de .
 
 ob:ProjectPlan
@@ -4521,7 +4452,6 @@ ob:ProjectPlan
     meta:isAssociatedWith ob:Sponsor ; # SHACL fix from meta:roleComponent
     a meta:EntityType ;
     rdfs:label "Project Plan"@en, "Projektplan"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Schriftliches Festhalten der Ergebnisse der Projektplanung. Umfasst die Ergebnisse von Strukturplanung, Ablaufplanung und Ressourcenplanung sowie die Risikoanalyse. Der Projektplan wird vom Auftraggeber explizit verabschiedet."@de .
 
 ob:ProjectPlanApproval
@@ -4601,7 +4531,6 @@ ob:ProjectPortfolio
     meta:isBasedOn ob:StrategicGoal ;
     a meta:EntityType ;
     rdfs:label "Project Portfolio"@en, "Projektportfolio"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Eine Menge von Projekten, welche sich aus einem Rahmenplan ableiten lassen, in ihrer Gesamtheit zur Erreichung der dort formulierten strategischen Ziele beitragen und unter Berücksichtigung der verfügbaren Abhängigkeiten und Ressourcen gemeinsam koordiniert werden."@de .
 
 ob:ProjectProcessModel
@@ -4706,7 +4635,6 @@ ob:ProjectScope
     meta:chapter ob:Chapter16, ob:Chapter8-2 ;
     a meta:EntityType ;
     rdfs:label "Problembereich"@de, "Project Scope"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Festlegung des in einem Projekt betrachteten Ausschnitts einer Organisation oder eines Informationssystem."@de .
 
 ob:ProjectSpecification
@@ -4714,7 +4642,6 @@ ob:ProjectSpecification
     meta:entityTypeComponent ob:ProjectBudget, ob:ProjectDeadline, ob:ProjectDuration, ob:ProjectOrganization, ob:ReleaseOfResources ;
     a meta:EntityType ;
     rdfs:label "Project Specification"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Projekt-Spezifikation"@de, "Vorgabe"@de .
 
 ob:ProjectStatus
@@ -4729,7 +4656,6 @@ ob:ProjectStatusReport
     meta:entityTypeComponent ob:TrafficLightModel ;
     a meta:EntityType ;
     rdfs:label "Project Status Report"@en, "Projektstatusbericht"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Methode zur Projektüberwachung, bei der der Stand des Projekts als Ist-Soll-Vergleich in Bezug auf das Erreichen der Projektziele, des gegebenen Zeitrahmens und der Ressourcen (siehe auch Magischen Dreieck) in Form eines strukturierten Berichts übersichtlich dargestellt wird. Ein Statusbericht kann auf Ebene eines Arbeitspakets oder des Gesamtobjekts erfolgen."@de .
 
 ob:ProjectSteeringCommittee
@@ -4740,7 +4666,6 @@ ob:ProjectSteeringCommittee
     a meta:Role ;
     meta:isResponsibleForFunction ob:ProjectManagement ; # SHACL fix moved subject from entity type ob:ProjectOrganization
     rdfs:label "Project Steering Committee"@en, "Projektlenkungsausschuss"@de ;
-    rdfs:subClassOf meta:Role ;
     skos:altLabel "PLA"@de ;
     skos:definition "Oberstes Steuerungs- und Entscheidungsprogramm eines Projekts. Wird vor allem in Großprojekten oder bei interdisziplinär ausgerichteten Projekten eingesetzt. Wird aus hochrangigen Vertretern aller in ein Projekt involvierten Gruppen zusammengesetzt (Auftraggeber, Auftragnehmer, Vertreter zukünftiger Benutergruppen etc.)"@de .
 
@@ -4756,7 +4681,6 @@ ob:ProjectTeam
     meta:roleComponent ob:ProjectManager, ob:ProjectTeamMember ;
     a meta:Role ;
     rdfs:label "Project Team"@en, "Projektteam"@de ;
-    rdfs:subClassOf meta:Role ;
     skos:definition "Projektleiter und alle Projektmitarbeiter eines Projekts."@de .
 
 ob:ProjectTeamCommunication
@@ -4791,7 +4715,6 @@ ob:ProjectTeamMember
     meta:isInvolvedIn ob:DefiningProjectOrganization ;
 	a meta:Role ;
     rdfs:label "Project Team Member"@en, "Projektmitarbeiter"@de ;
-    rdfs:subClassOf meta:Role ;
     skos:definition "Mitglied des Projektteams. Projektmitarbeiter unterstützen den Projektleiter bei der Abwicklung eines Projekts, insbesondere durch die Ausführung der ihnen zugewiesenen Arbeitspakete."@de .
 
 ob:ProjectTeamTermination
@@ -4838,7 +4761,6 @@ ob:Prototype
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Prototyp"@de, "Prototype"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Vereinfachte Version eines zu entwickelnden oder zu beschaffenden Softwareprodukts."@de .
 
 ob:PublicationOfTender
@@ -4946,7 +4868,6 @@ ob:RaciMatrix
     meta:chapter ob:Chapter16, ob:Chapter5-3 ;
     a meta:EntityType ;
     rdfs:label "RACI Matrix"@en, "Verantwortlichkeitsmatrix"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "RACI = Responsible, Accountable, Consulted, Informed Strukturierte tabellarische Darstellung der Zuständigkeiten verschiedener Rollen bzw. Personen in Bezug auf einzelne Arbeitspakete in einem Projekt."@de .
 
 ob:RandomSampling
@@ -5077,7 +4998,6 @@ ob:Requirement
     meta:chapter ob:Chapter16, ob:Chapter9-2 ;
     a meta:EntityType ;
     rdfs:label "Anforderung"@de, "Requirement"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition """\"ein Erfordernis oder eine Erwartung, das oder die festgelegt, überlicherweise voraugesetzt oder verpflichtend ist\" (DIN EN ISO 9000:2005)
 
  Erfordernis oder Erwartung, das oder die für ein Produkt oder eine Informationssystemkomponente festgelegt, üblicherweise vorrausgesetzt oder verpflichtend ist."""@de .
@@ -5095,7 +5015,6 @@ ob:Resource
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Resource"@en, "Ressource"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Ein zur Durchführung einer Aktivität notwendiges Einsatzmittel. Ressourcen umfassen beispielsweise Personal, Finanzmittel, Maschinen, Geräte und Materialien. Benötigte personelle Ressourcen werden z. B. in Personentagen oder Personenmonaten angegeben."@de .
 
 ob:ResourceCoordination
@@ -5137,7 +5056,6 @@ ob:ResponseRate
     meta:isAssociatedWith ob:WrittenSurvey ;
     a meta:EntityType ;
     rdfs:label "Response Rate"@en, "Rücklaufquote"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Bei schriftlichen Befragungen der Anteil der ausgefüllten Fragebögen in Bezug auf alle ausgeteilten Fragebögen."@de .
 
 ob:Result
@@ -5150,7 +5068,6 @@ ob:ResultDocument
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Ergebnisdokumentation"@de, "Result Document"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Die Ergebnisdokumentation enthält die Ergebnisse der einzelnen Arbeitspakete. Die Art der Dokumente, die hier entstehen, hängt vom Projekt selber ab (z. B. Analyseberichte, Pflichtenhefte, Schulungskonzepte oder Evaluationsberichte)."@en .
 
 ob:ResultVerification
@@ -5207,7 +5124,6 @@ ob:RiskManager
     meta:isResponsibleForFunction ob:RiskAnalysis ;
     a meta:Role ;
     rdfs:label "Risikobeauftragter"@de, "Risk Manager"@en ;
-    rdfs:subClassOf meta:Role ;
     skos:definition "Zu seiner Entlastung kann es bei Großprojekten hilfreich sein, einen Risikobeauftragten zu bestimmen."@de .
 
 ob:RiskPlan
@@ -5340,7 +5256,6 @@ ob:ServiceLevelAgreement
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "SLA"@de, "Service Level Agreement"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Schriftliche Vereinbarung zwischen einem Dienstleister und einem Kunden, welche definierte Dienste in möglichst quantifizierbarer und überprüfbarer Weise beschreibt. In einem Service Level Agreement können z. B. Intensität und Verfügbarkeit von Anwender- und Systembetreuung im Rahmen des Betriebs rechnerbasierter Anwendungssysteme vereinbart werden."@de .
 
 ob:SignatureOfContractor
@@ -5449,7 +5364,6 @@ ob:SpecificationPlan
     meta:chapter ob:Chapter9-2 ;
     a meta:EntityType ;
     rdfs:label "Specification Plan"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Basierend auf der Problembereichsdefinition und der Zieldefinition (inkl. Bewertungskriterien) wird vom Spezifikationsteam analog zum Analyseplan (vgl. Tab. 8.2 auf S. 127) nun noch ein Spezifikationsplan erstellt. Dieser beschreibt Schritte, Methoden und Werkzeuge zur Informationsbeschaffung, Aufbereitung und Modellierung sowie Veri-fikation."@de .
 
 ob:SpecificationTeam
@@ -5490,7 +5404,6 @@ ob:Sponsor
     meta:isResponsibleForFunction ob:DefiningAndSchedulingMilestones, ob:PlacingAProjectOrder, ob:ProjectApproval, ob:ProjectExecution, ob:ProjectInitiation, ob:ProjectTeamCoordination, ob:ProjectTeamLeading ;
     a meta:Role ;
     rdfs:label "Auftraggeber"@de, "Sponsor"@en ;
-    rdfs:subClassOf meta:Role ;
     skos:altLabel "Client"@en ;
     skos:definition "Projektauftraggeber: Er initiiert das Projekt, erteilt den Projektauftrag, genehmigt den Projektplan, stellt Projektressourcen zur Verfügung, begleitet und unterstützt die Projektdurchführung und nimmt das Projekt am Ende ab. Person oder Einrichtung, die ein Projekt in Aufrag gibt, Der Projektauftraggeber initiiert das Projekt, erteilt den Projektauftrag , genehmigt die den Projektplan, stellt Ressourcen zur Verfügung, begleitet und unterstützt die Projektdurchführung und nimmt das Projekt am Ende ab (Projektabnahme)."@de .
 
@@ -5513,7 +5426,6 @@ ob:StaffCouncil
     meta:isInvolvedIn ob:GoalDefinition ;
     a meta:Role ;
     rdfs:label "Personalrat"@de, "Staff Council"@en ;
-    rdfs:subClassOf meta:Role ;
     skos:altLabel "Betriebsrat"@de .
 
 ob:StaffMember
@@ -5642,7 +5554,6 @@ ob:StrategicInformationManagementPlan
     meta:entityTypeComponent ob:CurrentState, ob:PlannedState ;
     a meta:EntityType ;
     rdfs:label "Rahmenplan"@de, "Strategic Information Management Plan"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "IT-Strategie"@de, "Rahmenkonzept"@de ;
     skos:definition "Schriftliches Dokument als Ergebnis der Rahmenplanung von Informationssystemen. Enthält die Beschreibung und Bewertung des Ist-Zustands des betrachteten Informationssystems, die Beschreibung des geplanten zukünftigen Soll-Zustands und die grobe Darstellung, wie man vom Ist zum Soll kommen soll."@de .
 
@@ -5666,7 +5577,6 @@ ob:StrategicManagementOfInformationSystems
     meta:updates ob:InformationSystem ;
     meta:uses ob:InformationSystem, ob:Project ;
     rdfs:label "Strategic Management of Information Systems"@en, "Strategisches Management von Informationssystemen"@de ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Im Vordergrund des strategischen Managements von Informationssystemen stehen das Informationssystem als Ganzes oder in wesentlichen Teilen und seine grundsätzliche zukünftige Entwicklung. Perspektive des Managements eines Informationssystems, welches sich mit dem Informationssystem als Ganzes bzw. in wesentlichen Teilen und mit seiner grundsätzlichen zukünftigen Entwicklung befasst. Wichtige Aufgaben umfassen die Rahmenplanung, die Umsetzung der Vorgaben des Rahmenplans (in der Regel in Form von Projekten) und die laufende Überprüfung, ob die Projekte mit dem gewünschten Erfolg durchgeführt werden und ob das Informationssystem entsprechend dem Rahmenplan strukturiert ist und die zugewiesenen Aufgaben erfüllt."@de .
 
 ob:StructuralAnalysis
@@ -5682,7 +5592,6 @@ ob:StructuralEquality
     meta:chapter ob:Chapter12-2, ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Structural Equality"@en, "Strukturgleichheit"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Gewährleistet, dass zwei Situationen oder Gruppen in Bezug auf eine gegebene Fragestellung fair vergleichbar sind. Strukturgleichheit spielt bei allen vergleichbaren Fragestellungen und insbesondere bei einer Systemevaluation eine Rolle. Sie kann z.B. durch Randomisierung erreich werden."@de .
 
 ob:StructuralPlan
@@ -5849,7 +5758,6 @@ ob:System
     meta:entityTypeComponent ob:Subsystem ;
     a meta:EntityType ;
     rdfs:label "System"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Ein System ist eine Menge von Elementen (z. B. Personen, Dinge) mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Das System ist ein Ganzes, das mehr ist als die Summe seiner Teile. Jedes System hat eine Systemgrenze, die es von seiner Umwelt trennt.Systeme liegen entweder in der Natur als gegeben vor (natürliche Systeme) oder werden vom Men-schen geschaffen (künstliche Systeme). Menge von Elementen mit Eigenschaften und eine Menge von Beziehungen, die zwischen den Elementen bestehen. Systeme lassen sich in Teilsysteme untergliedern."@de .
 
 ob:SystemAdministrator
@@ -5858,7 +5766,6 @@ ob:SystemAdministrator
     meta:isResponsibleForFunction ob:DatabaseAdministration, ob:InterfaceManagement, ob:NetworkManagement, ob:ServerAdministration ;
     a meta:Role ;
     rdfs:label "System Administrator"@en, "Systembetreuer"@de ;
-    rdfs:subClassOf meta:Role ;
     skos:definition "Zuständig für alle technischen Aspekte, wie z. B. Serverund Datenbankadministration, Schnittstellenmanagement und Pflege der technischen Komponenten, Netzwerkmanagement."@de .
 
 ob:SystemAnalysis
@@ -6118,7 +6025,6 @@ ob:TacticalManagementOfInformationSystems
 	# meta:updates ob:EnterpriseFunction ; # SHACL fix comment out
     meta:uses ob:ReferenceModelForTacticalManagementOfInformationSystems ;
     rdfs:label "Tactical Management of Information Systems"@en, "Taktisches Management von Informationssystemen"@de ;
-    rdfs:subClassOf meta:Function ;
     skos:definition "Perspektive des Managements eines Informationssystems, welches sich mit der Einführung oder Änderung von Informationssystemkomponenten befasst. Die Aufgaben umfassen die Planung, Steuerung und Überwachung von Projekten."@de .
 
 ob:TargetConcept
@@ -6136,7 +6042,6 @@ ob:TargetDefinition
     meta:isBasedOn ob:ProjectGoal ;
     a meta:EntityType ;
     rdfs:label "Target Definition"@en, "Zieldefinition"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Festhalten der Projektziele als Teil der Projektinitiierung. Projektziele sollten SMART formuliert werden."@de .
 
 ob:TargetPerformanceComparison
@@ -6152,7 +6057,6 @@ ob:TargetState
     meta:isBasedOn ob:InformationSystem ;
     a meta:EntityType ;
     rdfs:label "Soll-Zustand"@de, "Target State"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Geplanter zukünftiger Zustand eines (Sub-)Informationssystems in einem definierten Bereich. Der Soll-Zustand wird im Rahmen der Systemspezifikation als Teil eines Sollkonzepts beschrieben."@de .
 
 ob:TargetStateModel
@@ -6382,7 +6286,6 @@ ob:ToDoList
     meta:chapter ob:Chapter5-3 ;
     a meta:EntityType ;
     rdfs:label "Aufgabenliste"@de, "To Do List"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "In einer Aufgabenliste werden für jeden Projektmitarbeiter die Arbeitspakete, für die er die Verantwortung übernommen hat, als einfache Aufzählung dargestellt, ebenso wie die Arbeitspakete, an denen er mitarbeiten wird."@de .
 
 ob:Tool
@@ -6464,7 +6367,6 @@ ob:UmlEntity
     meta:chapter ob:Chapter16, ob:Chapter2-2 ;
     a meta:EntityType ;
     rdfs:label "Objekt"@de, "UML Entity"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:altLabel "Entität"@de, "Object"@en ;
     skos:definition "Ein Objekt stellt einen beliebigen Ausschnitt aus der wahrnehmba ren oder vorstellbaren Welt dar. Jedes einzelne Objekt weist eine Menge von Eigenschaften (Attribute) auf. Durch die Ermittlung ge meinsamer Eigenschaften lässt sich mittels Abstraktion eine Menge gleichartiger Objekte zu einer Denkeinheit zusammenfassen, die als Objekttyp (oder Klasse) bezeichnet wird."@de .
 
@@ -6496,7 +6398,6 @@ ob:UnifiedModelingLanguage
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "UML"@de, "Unified Modeling Language"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Sammlung von Modellen zur Darstellung von Objektsystemen. Beinhaltet mehrere graphische Notationen zur Beschreibung unterschiedlicher Aspekte eines Informationssystems."@de .
 
 ob:Usability
@@ -6516,7 +6417,6 @@ ob:UseCase
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Anwendungsfall"@de, "Use Case"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Beschreibt die typische Interaktion zwischen Anwendern und einem Anwendungssystem für die Bearbeitung einer Aufgabe. Dient der Beschreibung von Anforderungen an ein Anwendungssystem aus der Sicht und in der Sprache der Anwender."@de .
 
 ob:UseCaseDiagram
@@ -6675,7 +6575,6 @@ ob:WinWinSituation
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Win-Win Situation"@en, "Win-win-Situation"@de ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Ansatz zur Lösung von zwischenmenschlichen Konflikten. Grundidee ist, dass die Lösung eines Konflikts so zu erfolgen hat, dass beide Parteien einen Vorteil aus der Problemlösung ziehen können. Dies soll gewährleistet werden, dass die Lösung von beiden Parteien akzeptiert wird."@de .
 
 ob:WorkPackage
@@ -6685,7 +6584,6 @@ ob:WorkPackage
     meta:isAssociatedWith ob:Milestone ;
     a meta:EntityType ;
     rdfs:label "Arbeitspaket"@de, "Work Package"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Abgegrenzbare Einheiten in einem Projekt, welche zusammengehörige Aktivitäten sinnvoll bündeln und von einem Arbeitspaket-Leiter geleitet werden. Arbeitspakete dienen der Erfüllung einer (Teil-) Aufgabe in einem Projekt. Arbeitspakete werden als Ergebnis der Strukturplanung während der Projektplanung formuliert."@de .
 
 ob:WorkPackageDescription
@@ -6693,7 +6591,6 @@ ob:WorkPackageDescription
     meta:chapter ob:Chapter5-2 ;
     a meta:EntityType ;
     rdfs:label "Arbeitspaket-Beschreibung"@de, "Work Package Description"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Eine Arbeitspaket-Beschreibung gibt die Rahmenbedingungen sowie die durchzuführenden Tätigkeiten und ggf. die zu verwendenden Methoden so konkret vor, dass ein Verantwortlicher das Arbeitspaket effizient durchführen kann."@de .
 
 ob:WorkPackageExecution
@@ -6710,7 +6607,6 @@ ob:WorkPackageManager
     meta:isResponsibleForFunction ob:WorkPackageExecution ;
     a meta:Role ;
     rdfs:label "Arbeitspaket-Leiter"@de, "Work Package Manager"@en ;
-    rdfs:subClassOf meta:Role ;
     skos:definition "Person, welche für die Durchführung eines Arbeitspakets entsprechend der Arbeitspaketbeschreibung verantwortlich ist."@de .
 
 ob:WorkPackageStatusReport
@@ -6737,7 +6633,6 @@ ob:WorkflowManagement
     meta:chapter ob:Chapter16 ;
     a meta:EntityType ;
     rdfs:label "Ablauforganisation"@de, "Workflow Management"@en ;
-    rdfs:subClassOf meta:EntityType ;
     skos:definition "Beschreibt die Geschäftsprozesse in einem Bereich und ihr Zusammenwirken zur Erfüllung der jeweiligen Unternehmensaufgaben. Für die Modellierung der Ablauforganisation werden in der Regel Methoden zur Geschäftsprozessmodellierung eingesetzt."@de .
 
 ob:Worksampling
