@@ -2775,7 +2775,6 @@ ob:InformationSystem
     ob:page "327"^^xsd:positiveInteger, "9"^^xsd:positiveInteger ;
     meta:chapter ob:Chapter16, ob:Chapter2-2 ;
     meta:entityTypeComponent ob:ApplicationSystem, ob:BusinessProcess, ob:ComputerBasedPartOfInformationSystem, ob:PhysicalDataProcessingTool ;
-    meta:isAssociatedWith ob:Actor ; # SHACL fix from roleComponent
     a meta:EntityType ;
     meta:isAssociatedWith ob:EnterpriseFunction ; # SHACL fix from uses
     rdfs:label "Information System"@en, "Informationssystem"@de ;
