@@ -5671,7 +5671,6 @@ bb:Monitoring
     meta:chapter bb:Thesaurus ;
     a meta:Function ;
     rdfs:label "Monitoring"@en, "Überwachung"@de, "نظارت بر"@fa ;
-    rdfs:subClassOf bb:Management ;
     skos:definition "Assessing the development and operation of a hospital information system with respect to the planned objectives. Monitoring in strategic information management means continually auditing HIS quality as defined by means of its strategic information management plan’s directives and goals. Monitoring in tactical information management means continually checking whether initiated projects are running as planned, and whether they will produce the expected results. Monitoring in operational information management means verifying the proper working and effectiveness of all components of a hospital information system."@en .
 
 bb:MonitoringOfNationalLegislation
