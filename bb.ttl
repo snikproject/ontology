@@ -8221,7 +8221,6 @@ bb:StrategicHISPlanning
     meta:updates bb:HisArchitecture, bb:HospitalInformationSystem, bb:ProjectPortfolio, bb:StrategicInformationManagementPlan ;
     a meta:Function ;
     rdfs:label "Strategic HIS Planning"@en, "برنامه ریزی استراتژیک  HIS"@fa ;
-    rdfs:subClassOf bb:StrategicInformationManagement ;
     skos:definition "The planning activities of strategic information management result in a specific strategic information management plan. This plan includes the direction and strategy of information management and gives directives for the construction and development of the hospital information system by describing its intended architecture."@en .
 
 bb:StrategicHospitalGoal
