@@ -1446,8 +1446,7 @@ bb:Cobit
 
 bb:CobitProcess
     a meta:Function ;
-    rdfs:label "COBIT Processes for IT Governance"@en, "دامنه COBIT"@fa ;
-    rdfs:subClassOf bb:InformationManagement .
+    rdfs:label "COBIT Processes for IT Governance"@en, "دامنه COBIT"@fa .
 
 bb:CodingOfDiagnoses
     bb:conceptDomain "health care specific"^^xsd:string ;
