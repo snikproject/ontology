@@ -267,8 +267,8 @@ ob:Bid
 ob:BidComparison
     meta:chapter ob:Chapter10-2 ;
     meta:functionComponent ob:BidPrioritization, ob:ProficiencyTestingOfVendors, ob:TenderOpening, ob:TenderVetting ;
-    meta:functionComponent ob:TestInstallation ;  # SHACL fix from meta:uses
-    meta:functionComponent ob:ProductPresentation ;  # SHACL fix from meta:uses
+    meta:functionComponent ob:TestInstallation ;
+    meta:functionComponent ob:ProductPresentation ;
 	a meta:Function ;
     meta:uses ob:Bid, ob:CostAnalysis, ob:FunctionalSpecificationDocument, ob:ReferenceVisit, ob:SensitivityAnalysis, ob:SpiderChart, ob:Tender ;
     rdfs:label "Angebotsvergleich"@de, "Bid Comparison"@en ;
