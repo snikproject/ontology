@@ -4517,6 +4517,7 @@ bb:InformationManagementBoard
     meta:roleComponent bb:ChiefExecutiveOfficer, bb:ChiefInformationOfficer, bb:HisStakeholder ;
     a meta:Role ;
     rdfs:label "Ausschuss für Informationsmanagement"@de, "Information Management Board"@en, "هیئت مدیره اطلاعات"@fa ;
+	rdfs:seeAlso <https://www.csiweb.com/what-to-know/content-hub/blog/developing-an-effective-it-steering-committee/> ;
     skos:definition "Such a board can often be found in larger hospitals (Fig. 9.7 ). Members should include one representative from the hospital’s board of directors, representatives from the main departments and user groups, and the director of the information management department (see Sect. 9.3.2 ) if this director is not the CIO simultaneously. If no dedicated CIO position exists, the president of this board can be regarded as the CIO of the hospital.  Responsible for strategic information management in a hospital. Members should include representatives from the hospital’s board of directors, representatives from the main departments and user groups, and the director of the information management department. If no dedicated CIO position exists, the president of this board can be regarded as the CIO of the hospital."@en .
 
 bb:InformationManagementCost
