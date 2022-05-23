@@ -1,4 +1,5 @@
-
+<http://www.snik.eu/ontology/he/ServiceorientierteArchitektur> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Soa> .
+<http://www.snik.eu/ontology/he/SOA> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/bb/Soa> .
 <https://www.snik.eu/ontology/bb> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://hitontology.eu/ontology/Bb> .
 <http://www.snik.eu/ontology/bb/3LGM2> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/ThreeLayerGraphBasedMetamodel> .
 <http://www.snik.eu/ontology/bb/3LGM2LogicalToolLayer> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.snik.eu/ontology/ob/3LGM2LogicalToolLayer> .

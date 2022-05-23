@@ -82,8 +82,8 @@
     bb:page "58"^^xsd:positiveInteger ;
     meta:chapter bb:chapter5-3 ;
     meta:isAssociatedWith <bb/3LGM2CommunicationInterface> ;
-    meta:supports <bb/3LGM2EnterpriseFunction> ;
-    a meta:ApplicationComponent, meta:EntityType ;
+    meta:isAssociatedWith <bb/3LGM2EnterpriseFunction> ;
+    a meta:EntityType ;
     rdfs:label "3LGM² Application Component"@en, "اجزای برنامه 3LGM2"@fa ;
     skos:definition "An application component is a set of actually usable rules, which control data processing of certain physical data processing systems. Rules are considered to be actually usable, if they are implemented such that they are ready to support certain enterprise functions in a certain enterprise or support communication between application components. If the rules are implemented as executable software, the application component is called computer-based application component. Otherwise it is called non-computer-based."@en .
 
@@ -1608,8 +1608,8 @@ bb:ComputerBasedApplicationComponent
     meta:supports bb:HospitalFunction ;
     a meta:ApplicationComponent, meta:ComputerBasedApplicationComponent, meta:EntityType ;
     rdfs:label "Computer-Based Application Component"@en, "Rechnerbasierter Anwendungsbaustein"@de, "اجزا برنامه مبتنی بر کامپیوتر"@fa ;
-    rdfs:subClassOf bb:ApplicationComponent ;
-    skos:altLabel "Application"@en, "Application System"@en ;
+	rdfs:subClassOf bb:ApplicationComponent, bb:IntegrationTechnology ;
+	skos:altLabel "Application"@en, "Application System"@en ;
     skos:closeMatch ob:ComputerBasedApplicationSystem ;
     skos:definition "An application component where the controlling rules for data processing are implemented as executable software."@en .
 
@@ -2500,7 +2500,7 @@ bb:EncryptionSoftware
 
 bb:EnsureAccessIntegration
     a meta:Function ;
-    rdfs:label "ensure axxess integration"@en .
+    rdfs:label "ensure access integration"@en .
 
 bb:EnsureContextualIntegration
     meta:increases bb:LeannessOfInformationProcessingTools ;
@@ -4759,9 +4759,8 @@ bb:IntegrationPlatform
 bb:IntegrationTechnology
     bb:page "308"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    a meta:EntityType, meta:ApplicationComponent, meta:ComputerBasedApplicationComponent ;
+    a meta:EntityType ;
     rdfs:label "Integration Technology"@en, "تکنولوژی یکپارچگی"@fa ;
-    rdfs:subClassOf bb:ComputerBasedApplicationComponent ;
     skos:definition "Technologies used to achieve integration within distributed health information systems, including federated database systems, transaction management, and middleware (e. g. communication servers, remote function calls, SOA)."@en .
 
 bb:Integrity
@@ -7566,8 +7565,8 @@ bb:ReliablePhysicalDataProcesssingSystem
 bb:RemoteFunctionCall
     bb:page "320"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
-    meta:isAssociatedWith bb:FunctionalIntegration, bb:Middleware, bb:SynchronousCommunication ;
-    a meta:ApplicationComponent, meta:EntityType ;
+    meta:isAssociatedWith bb:Middleware, bb:SynchronousCommunication, bb:FunctionalIntegration ;
+    a meta:EntityType ;
     rdfs:label "Remote Function Call"@en, "تماس از راه دور با عمل کرد"@fa ;
     rdfs:subClassOf bb:IntegrationTechnology ;
     skos:altLabel "RFC"@en, "RPC"@en, "Remote Procedure Call"@en ;
@@ -7965,8 +7964,7 @@ bb:Soa
     bb:page "321"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:IntegrationPlatform, bb:SoaService ;
-    meta:isAssociatedWith bb:DB1Style ;
-    meta:supports bb:EnsureAccessIntegration, bb:EnsureDataIntegration, bb:EnsureFunctionalIntegration, bb:EnsurePresentationIntegration ;
+    meta:isAssociatedWith bb:AccessIntegration, bb:DataIntegration, bb:FunctionalIntegration, bb:PresentationIntegration ;
     a meta:ApplicationComponent, meta:ComputerBasedApplicationComponent, meta:EntityType ;
     rdfs:label "SOA"@en, "معماری سرویس گرا"@fa ;
     rdfs:subClassOf bb:Middleware ;
@@ -8787,9 +8785,8 @@ bb:TransinstitutionalHealthInformationSystem
     bb:page "324"^^xsd:positiveInteger, "manuell hinzugefügt"@de ;
     meta:chapter bb:Thesaurus ;
     meta:entityTypeComponent bb:HospitalInformationSystem ;
-    meta:isAssociatedWith bb:FunctionalRedundancyRate, bb:HealthCareNetwork ;
-    meta:supports bb:Telemicroscopy, bb:Teleradiology, bb:TransinstitutionalHealthCareFunction ;
-    a meta:ApplicationComponent, meta:EntityType ;
+    meta:isAssociatedWith bb:FunctionalRedundancyRate, bb:HealthCareNetwork, bb:Telemicroscopy, bb:Teleradiology, bb:TransinstitutionalHealthCareFunction ;
+    a meta:EntityType ;
     rdfs:label "Transinstitutional Health Information System"@en, "Transinstitutionelles Informationssystem des Gesundheitswesens"@de, "سیستم اطالاعاتی درمانی میان سازمانی"@fa ;
     rdfs:subClassOf bb:HealthInformationSystem ;
     skos:definition "Information system of a health care network."@en, "The information system of a health care network is called a transinstitutional health information system"@en .
