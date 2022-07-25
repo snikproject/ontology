@@ -23,7 +23,7 @@
 @prefix schema: <http://schema.org/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix sh:<http://www.w3.org/ns/shacl#>.
-@base <http://hitontology.eu/ontology/>.
+@base <http://www.snik.eu/ontology/>.
 
 :ignoredProperties rdf:first vann:example;
 	rdf:rest ( rdf:type rdfs:subClassOf rdfs:comment rdfs:seeAlso skos:altLabel dc:source skos:definition owl:sameAs rdfs:isDefinedBy :chapter :consolidated he:page bb:page ob:page bb:conceptDomain ob:conceptDomain schema:error).
