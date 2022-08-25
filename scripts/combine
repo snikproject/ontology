@@ -1,3 +1,6 @@
+#/bin/sh
+# Combine all of SNIK into one file.
 MYPATH=`dirname "$0"`
 MYPATH=`( cd "$MYPATH" && pwd )`
-cat $MYPATH/../*.ttl $MYPATH/../*.nt | rapper -i turtle -o turtle  - http://www.snik.eu/ontology/ > /tmp/snik.ttl
+mkdir -p $MYPATH/../dist
+cat $MYPATH/../*.ttl $MYPATH/../*.nt | rapper -i turtle -o turtle  - http://www.snik.eu/ontology/ > $MYPATH/../dist/snik.ttl
