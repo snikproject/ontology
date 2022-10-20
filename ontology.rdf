@@ -1,0 +1,835 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.snik.eu/ontology/meta#"
+     xml:base="http://www.snik.eu/ontology/meta"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:terms1="http://open.vocab.org/terms/">
+    <owl:Ontology rdf:about="http://www.snik.eu/ontology/meta">
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/ApplicationComponent"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/Chapter"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/DataSetType"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/Method"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/MethodApplication"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/RepresentationType"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/SoftwareProduct"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/Subfunction"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/accesses"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/approves"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/approvesEntityType"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/approvesFunction"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/book"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/changes"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/chapter"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/chapterNumber"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/communicatesWith"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/component"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/decreases"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/entityTypeComponent"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/firstPage"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/functionComponent"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/increases"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/isAssociatedWith"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/isBasedOn"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/isInvolvedIn"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/isResponsibleFor"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/isResponsibleForEntityType"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/isResponsibleForFunction"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/isResponsibleForRole"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/lastPage"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/quality"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/represents"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/roleComponent"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/softwareProduct"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/subChapterOf"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/supports"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/updates"/>
+        <terms1:defines rdf:resource="http://www.snik.eu/ontology/meta/uses"/>
+        <terms:abstract xml:lang="de">Ein semantisches Netz des integrierten Informationsmanagements im Krankenhaus (SNIK), welches Begriffe des Informationsmanagements und deren Beziehungen untereinander beschreibt</terms:abstract>
+        <terms:abstract xml:lang="en">Textbooks about information management in hospitals describe the planning, monitoring and directing of a hospital’s information system. SNIK consists of the manually transformed content of three such textbooks as Linked Open Data. The data model describes information management functions, roles executing these functions and the information used or updated by these functions. We publish the result over several different interfaces that are useful for researchers, information system administrators or students, depending on their objectives and their capabilities.</terms:abstract>
+        <terms:creator>&lt;a href=&apos;http://www.imise.uni-leipzig.de/Mitarbeiter/Birgit_Schneider&apos;&gt;Dr. Birgit Schneider&lt;/a&gt;, &lt;a href=&apos;https://www.imise.uni-leipzig.de/&apos;&gt;IMISE Leipzig, Germany&lt;/a&gt;</terms:creator>
+        <terms:creator>&lt;a href=&apos;http://www.imise.uni-leipzig.de/Mitarbeiter/Franziska_Jahn&apos;&gt;Dr. Franziska Jahn&lt;/a&gt;, &lt;a href=&apos;https://www.imise.uni-leipzig.de/&apos;&gt;IMISE Leipzig, Germany&lt;/a&gt;</terms:creator>
+        <terms:creator>&lt;a href=&apos;http://www.people.imise.uni-leipzig.de/alfred.winter/&apos;&gt;Prof. Dr. Alfred Winter&lt;/a&gt;, &lt;a href=&apos;https://www.imise.uni-leipzig.de/&apos;&gt;IMISE Leipzig, Germany&lt;/a&gt;</terms:creator>
+        <terms:creator>&lt;a href=&apos;https://github.com/KonradHoeffner&apos;&gt;Dr. Konrad Höffner&lt;/a&gt;, &lt;a href=&apos;https://www.imise.uni-leipzig.de/&apos;&gt;IMISE Leipzig, Germany&lt;/a&gt;</terms:creator>
+        <terms:creator>&lt;a href=&apos;https://github.com/ThomasPause&apos;&gt;Thomas Pause&lt;/a&gt;, formerly &lt;a href=&apos;https://www.imise.uni-leipzig.de/&apos;&gt;IMISE Leipzig, Germany&lt;/a&gt;</terms:creator>
+        <terms:creator>&lt;a href=&apos;https://orcid.org/0000-0001-5608-482X&apos;&gt;Prof. Dr. Christian Kücherer&lt;/a&gt;, &lt;a href=&apos;https://www.reutlingen-university.de/home&apos;&gt;Hochschule Reutlingen, Germany&lt;/a&gt;</terms:creator>
+        <terms:creator>&lt;a href=&apos;https://se.ifi.uni-heidelberg.de/people/barbara_paech.html&apos;&gt;Prof. Dr. Barbara Paech&lt;/a&gt;, &lt;a href=&apos;https://se.ifi.uni-heidelberg.de/&apos;&gt;Universität Heidelberg, Institut für Informatik, Lehrstuhl Software Engineering, Germany&lt;/a&gt;</terms:creator>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-10-20</terms:modified>
+        <terms:publisher rdf:resource="http://www.snik.eu"/>
+        <terms:source rdf:resource="http://www.snik.eu"/>
+        <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/published"/>
+        <vann:preferredNamespacePrefix>meta</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="http://www.snik.eu/ontology/meta/"/>
+        <rdfs:comment xml:lang="en">Textbooks about information management in hospitals describe the planning, monitoring and directing of a hospital’s information system. SNIK consists of the manually transformed content of three such textbooks as Linked Open Data. The data model describes information management functions, roles executing these functions and the information used or updated by these functions. We publish the result over several different interfaces that are useful for researchers, information system administrators or students, depending on their objectives and their capabilities.</rdfs:comment>
+        <rdfs:label xml:lang="en">SNIK Meta Ontology</rdfs:label>
+        <owl:versionInfo>22.10</owl:versionInfo>
+        <foaf:homepage rdf:resource="http://www.snik.eu"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://open.vocab.org/terms/defines -->
+
+
+    <owl:AnnotationProperty rdf:about="http://open.vocab.org/terms/defines"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/accesses -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/accesses">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:comment xml:lang="en">The subject is a function that accesses the data represented or provided by an entity type.</rdfs:comment>
+        <rdfs:label xml:lang="en">accesses</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/approves -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/approves">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <rdfs:comment xml:lang="en">The subject is a role that approves a function or entity type.</rdfs:comment>
+        <rdfs:label xml:lang="en">approves</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/approvesEntityType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/approvesEntityType">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/approves"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:comment xml:lang="de">Die Rolle stimmt dem Objekttyp zu oder kann potenziell diese Zustimmung geben.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The role approves the entity type or can potentially approve it.</rdfs:comment>
+        <rdfs:label xml:lang="en">approves</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/approvesFunction -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/approvesFunction">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/approves"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:comment xml:lang="de">Die Rolle stimmt der Aufgabe zu Aufgabe oder kann potenziell diese Zustimmung geben.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The role approves the Function or can potentially approve it.</rdfs:comment>
+        <rdfs:label xml:lang="en">approves</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/book -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/book">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Chapter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+        <rdfs:comment xml:lang="en">The subject is a chapter in a book.</rdfs:comment>
+        <rdfs:label xml:lang="de">Buch</rdfs:label>
+        <rdfs:label xml:lang="en">book</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/changes -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/changes">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:comment xml:lang="en">The subject is a function that increases or decreases a measurable entity type. Use meta:increases or meta:decreases if possible.</rdfs:comment>
+        <rdfs:label xml:lang="en">changes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/chapter -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/chapter">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Chapter"/>
+        <rdfs:comment xml:lang="en">The subject is a class that is described in a book chapter.</rdfs:comment>
+        <rdfs:label xml:lang="de">Kapitel</rdfs:label>
+        <rdfs:label xml:lang="en">chapter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/communicatesWith -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/communicatesWith">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/ApplicationComponent"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/ApplicationComponent"/>
+        <rdfs:comment xml:lang="en">The subject is an application component that communicates with another application component.</rdfs:comment>
+        <rdfs:label xml:lang="en">communicates with</rdfs:label>
+        <rdfs:label xml:lang="de">kommuniziert mit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/component -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/component">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <rdfs:comment xml:lang="en">The subject is a role, function or entity type that has another of the same type as a component. Use meta:roleComponent, meta:functionComponent, respectively meta:entityTypeComponent instead.</rdfs:comment>
+        <rdfs:label xml:lang="en">component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/decreases -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/decreases">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/changes"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:comment xml:lang="en">The subject is a function that decreases a measurable entity type.</rdfs:comment>
+        <rdfs:label xml:lang="en">decreases</rdfs:label>
+        <rdfs:label xml:lang="de">senkt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/entityTypeComponent -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/entityTypeComponent">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/component"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:comment xml:lang="en">The subject is an entity type that has another entity type as component (part).</rdfs:comment>
+        <rdfs:label xml:lang="en">entity type component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/feature -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/feature">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Feature"/>
+        <rdfs:label xml:lang="en">feature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/functionComponent -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/functionComponent">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/component"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/isDecomposedIn"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:comment xml:lang="en">The subject is a function that has another function as component (part).</rdfs:comment>
+        <rdfs:label xml:lang="en">function component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/homonym -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/homonym">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <rdfs:comment xml:lang="en">Sounds similar but has a different meaning.</rdfs:comment>
+        <rdfs:label xml:lang="en">homonym</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/increases -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/increases">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/changes"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:comment xml:lang="en">The subject is a function that increases a measurable entity type.</rdfs:comment>
+        <rdfs:label xml:lang="de">erhöht</rdfs:label>
+        <rdfs:label xml:lang="en">increases</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/isAssociatedWith -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/isAssociatedWith">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <rdfs:comment xml:lang="en">The most generic relation of SNIK that should only be used if no more specific relation is applicable.</rdfs:comment>
+        <rdfs:label xml:lang="en">is associated with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/isBasedOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/isBasedOn">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:comment xml:lang="de">Der Objekttyp wird von einem anderen Objekttyp erzeugt.</rdfs:comment>
+        <rdfs:label xml:lang="de">basiert auf</rdfs:label>
+        <rdfs:label xml:lang="en">is based on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/isDecomposedIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/isDecomposedIn"/>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/isInvolvedIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/isInvolvedIn">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:comment xml:lang="de">Die Rolle ist in der Aufgabe involviert, z.B. durch Teilnahme oder operative Mitarbeit</rdfs:comment>
+        <rdfs:label xml:lang="en">is involved in</rdfs:label>
+        <rdfs:label xml:lang="de">ist involviert in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/isResponsibleFor -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/isResponsibleFor">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <rdfs:comment xml:lang="en">Use isResponsibleForFunction and isResponsibleForEntityType instead.</rdfs:comment>
+        <rdfs:label xml:lang="en">is responsible for </rdfs:label>
+        <rdfs:label xml:lang="de">ist verantwortlich für</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/isResponsibleForEntityType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/isResponsibleForEntityType">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/isResponsibleFor"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:comment xml:lang="en">is responsible for an entity type</rdfs:comment>
+        <rdfs:comment xml:lang="de">ist verantwortlich für einen Objekttyp</rdfs:comment>
+        <rdfs:label xml:lang="en">is responsible for </rdfs:label>
+        <rdfs:label xml:lang="de">ist verantwortlich für</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/isResponsibleForFunction -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/isResponsibleForFunction">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/isResponsibleFor"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:comment xml:lang="en">is responsible for a function</rdfs:comment>
+        <rdfs:comment xml:lang="de">ist verantwortlich für eine Aufgabe</rdfs:comment>
+        <rdfs:label xml:lang="en">is responsible for </rdfs:label>
+        <rdfs:label xml:lang="de">ist verantwortlich für</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/isResponsibleForRole -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/isResponsibleForRole">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/isResponsibleFor"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:comment xml:lang="en">is responsible for a role</rdfs:comment>
+        <rdfs:comment xml:lang="de">ist verantwortlich für eine Rolle</rdfs:comment>
+        <rdfs:label xml:lang="en">is responsible for </rdfs:label>
+        <rdfs:label xml:lang="de">ist verantwortlich für</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/master -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/master">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/ApplicationComponent"/>
+        <rdfs:comment xml:lang="en">The object is an application component which is responsible for the entity type subject.</rdfs:comment>
+        <rdfs:label xml:lang="en">master</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/roleComponent -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/roleComponent">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/component"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:comment xml:lang="en">The subject is a role that has another role as component (part).</rdfs:comment>
+        <rdfs:label xml:lang="en">role component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/softwareProduct -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/softwareProduct">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/SoftwareProduct"/>
+        <rdfs:comment xml:lang="en">The software product under which a computer based application component is distributed.</rdfs:comment>
+        <rdfs:label xml:lang="de">Softwareprodukt</rdfs:label>
+        <rdfs:label xml:lang="en">software product</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/subChapterOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/subChapterOf">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Chapter"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Chapter"/>
+        <rdfs:comment xml:lang="en">The subject is a subchapter of a chapter.</rdfs:comment>
+        <rdfs:label xml:lang="de">Unterkapitel von</rdfs:label>
+        <rdfs:label xml:lang="en">subchapter of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/supports -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/supports">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/ApplicationComponent"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:comment xml:lang="en">A function that an application component supports.</rdfs:comment>
+        <rdfs:label xml:lang="en">supports</rdfs:label>
+        <rdfs:label xml:lang="de">unterstützt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/typicalFeature -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/typicalFeature">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/Feature"/>
+        <rdfs:label xml:lang="en">typical feature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/updates -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/updates">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/accesses"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:comment xml:lang="en">The subject is a function that updates an entity type.</rdfs:comment>
+        <rdfs:label xml:lang="de">aktualisiert</rdfs:label>
+        <rdfs:label xml:lang="en">updates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/uses -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.snik.eu/ontology/meta/uses">
+        <rdfs:subPropertyOf rdf:resource="http://www.snik.eu/ontology/meta/accesses"/>
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:range rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:comment xml:lang="de">Bei Durchführung der Aufgabe werden Daten über den Objekttyp benötigt.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The function requires data about the entity type.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/chapterNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.snik.eu/ontology/meta/chapterNumber">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Chapter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The subject is a chapter that has a number, possibly including multiple dots, such as chapter 3.4.5.</rdfs:comment>
+        <rdfs:label xml:lang="de">Kapitelnummer</rdfs:label>
+        <rdfs:label xml:lang="en">chapter number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/firstPage -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.snik.eu/ontology/meta/firstPage">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Chapter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment xml:lang="en">The first page of the subject chapter.</rdfs:comment>
+        <rdfs:label xml:lang="de">erste Seite</rdfs:label>
+        <rdfs:label xml:lang="en">first page</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/lastPage -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.snik.eu/ontology/meta/lastPage">
+        <rdfs:domain rdf:resource="http://www.snik.eu/ontology/meta/Chapter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment xml:lang="en">The last page of the subject chapter.</rdfs:comment>
+        <rdfs:label xml:lang="en">last page</rdfs:label>
+        <rdfs:label xml:lang="de">letzte Seite</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/ApplicationComponent -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/ApplicationComponent">
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:label xml:lang="en">application component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/Chapter -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/Chapter">
+        <rdfs:comment xml:lang="en">A chapter in a book.</rdfs:comment>
+        <rdfs:label xml:lang="de">Kapitel</rdfs:label>
+        <rdfs:label xml:lang="en">chapter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent">
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/ApplicationComponent"/>
+        <rdfs:label xml:lang="en">computer based application component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/DataSetType -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/DataSetType">
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/RepresentationType"/>
+        <rdfs:label xml:lang="en">data set type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/EntityType -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/EntityType">
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <owl:disjointWith rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <owl:disjointWith rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:comment xml:lang="en">An entity type is any kind of information that is consumed, produced or modified by a task. These can be documents, data structures, objects, roles, specified by data types or even paper based artifacts.</rdfs:comment>
+        <rdfs:label xml:lang="de">Objekttyp</rdfs:label>
+        <rdfs:label xml:lang="en">entity type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/Feature -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/Feature">
+        <rdfs:label xml:lang="en">feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/Function -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/Function">
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <owl:disjointWith rdf:resource="http://www.snik.eu/ontology/meta/Role"/>
+        <rdfs:comment xml:lang="en">Functions describe what is to be done in IM departments. They update or use information which is represented by entity.</rdfs:comment>
+        <rdfs:label xml:lang="de">Aufgabe</rdfs:label>
+        <rdfs:label xml:lang="en">Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/Method -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/Method">
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:label xml:lang="de">Methode</rdfs:label>
+        <rdfs:label xml:lang="en">method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/MethodApplication -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/MethodApplication">
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/Function"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.snik.eu/ontology/meta/uses"/>
+                <owl:allValuesFrom rdf:resource="http://www.snik.eu/ontology/meta/Method"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Anwenden einer Methode</rdfs:label>
+        <rdfs:label xml:lang="en">applying a function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/RepresentationType -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/RepresentationType">
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:label xml:lang="de">Repräsentationstyp</rdfs:label>
+        <rdfs:label xml:lang="en">representation type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/Role -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/Role">
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/Top"/>
+        <rdfs:comment xml:lang="de">Rollen beschreiben Personen und Personengruppen, die im Rahmen des Informationsmanagements im Krankenhaus und der Patientenbehandlung anzutreffen sind.</rdfs:comment>
+        <rdfs:label xml:lang="de">Rolle</rdfs:label>
+        <rdfs:label xml:lang="en">role</rdfs:label>
+        <skos:definition xml:lang="de">Unter einer Rolle verstehen wir die Summe von Erwartungen, die an eine Person gerichtet werden. Sie beschreibt ein Bündel von zu erfüllenden Aufgaben und den daraus abgeleiteten Pflichten und den hierfür notwendigen Rechten.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/SoftwareProduct -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/SoftwareProduct">
+        <rdfs:subClassOf rdf:resource="http://www.snik.eu/ontology/meta/EntityType"/>
+        <rdfs:label xml:lang="de">Softwareprodukt</rdfs:label>
+        <rdfs:label xml:lang="en">software product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.snik.eu/ontology/meta/Top -->
+
+
+    <owl:Class rdf:about="http://www.snik.eu/ontology/meta/Top">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Superclass of entity type, role and function.</rdfs:comment>
+        <rdfs:label xml:lang="en">top class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Ontology -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

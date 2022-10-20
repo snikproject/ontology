@@ -1,0 +1,507 @@
+<http://www.snik.eu/ontology/meta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/ApplicationComponent> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/DataSetType> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/Method> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/MethodApplication> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/RepresentationType> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/SoftwareProduct> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/Subfunction> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/accesses> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/approves> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/approvesEntityType> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/approvesFunction> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/book> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/changes> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/chapter> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/chapterNumber> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/communicatesWith> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/component> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/decreases> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/entityTypeComponent> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/firstPage> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/functionComponent> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/increases> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/isAssociatedWith> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/isBasedOn> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/isInvolvedIn> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/isResponsibleFor> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/isResponsibleForEntityType> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/isResponsibleForFunction> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/isResponsibleForRole> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/lastPage> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/quality> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/represents> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/roleComponent> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/softwareProduct> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/subChapterOf> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/supports> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/updates> .
+<http://www.snik.eu/ontology/meta> <http://open.vocab.org/terms/defines> <http://www.snik.eu/ontology/meta/uses> .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/abstract> "Ein semantisches Netz des integrierten Informationsmanagements im Krankenhaus (SNIK), welches Begriffe des Informationsmanagements und deren Beziehungen untereinander beschreibt"@de .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/abstract> "Textbooks about information management in hospitals describe the planning, monitoring and directing of a hospital’s information system. SNIK consists of the manually transformed content of three such textbooks as Linked Open Data. The data model describes information management functions, roles executing these functions and the information used or updated by these functions. We publish the result over several different interfaces that are useful for researchers, information system administrators or students, depending on their objectives and their capabilities."@en .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/creator> "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Birgit_Schneider'>Dr. Birgit Schneider</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>" .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/creator> "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Franziska_Jahn'>Dr. Franziska Jahn</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>" .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/creator> "<a href='http://www.people.imise.uni-leipzig.de/alfred.winter/'>Prof. Dr. Alfred Winter</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>" .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/creator> "<a href='https://github.com/KonradHoeffner'>Dr. Konrad Höffner</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>" .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/creator> "<a href='https://github.com/ThomasPause'>Thomas Pause</a>, formerly <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>" .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/creator> "<a href='https://orcid.org/0000-0001-5608-482X'>Prof. Dr. Christian Kücherer</a>, <a href='https://www.reutlingen-university.de/home'>Hochschule Reutlingen, Germany</a>" .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/creator> "<a href='https://se.ifi.uni-heidelberg.de/people/barbara_paech.html'>Prof. Dr. Barbara Paech</a>, <a href='https://se.ifi.uni-heidelberg.de/'>Universität Heidelberg, Institut für Informatik, Lehrstuhl Software Engineering, Germany</a>" .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-nc-sa/4.0/> .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/modified> "2022-10-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/publisher> <http://www.snik.eu> .
+<http://www.snik.eu/ontology/meta> <http://purl.org/dc/terms/source> <http://www.snik.eu> .
+<http://www.snik.eu/ontology/meta> <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/published> .
+<http://www.snik.eu/ontology/meta> <http://purl.org/vocab/vann/preferredNamespacePrefix> "meta" .
+<http://www.snik.eu/ontology/meta> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.snik.eu/ontology/meta/> .
+<http://www.snik.eu/ontology/meta> <http://www.w3.org/2000/01/rdf-schema#comment> "Textbooks about information management in hospitals describe the planning, monitoring and directing of a hospital’s information system. SNIK consists of the manually transformed content of three such textbooks as Linked Open Data. The data model describes information management functions, roles executing these functions and the information used or updated by these functions. We publish the result over several different interfaces that are useful for researchers, information system administrators or students, depending on their objectives and their capabilities."@en .
+<http://www.snik.eu/ontology/meta> <http://www.w3.org/2000/01/rdf-schema#label> "SNIK Meta Ontology"@en .
+<http://www.snik.eu/ontology/meta> <http://www.w3.org/2002/07/owl#versionInfo> "22.10" .
+<http://www.snik.eu/ontology/meta> <http://xmlns.com/foaf/0.1/homepage> <http://www.snik.eu> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://open.vocab.org/terms/defines
+<http://open.vocab.org/terms/defines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.snik.eu/ontology/meta/accesses
+<http://www.snik.eu/ontology/meta/accesses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/accesses> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/accesses> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/accesses> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a function that accesses the data represented or provided by an entity type."@en .
+<http://www.snik.eu/ontology/meta/accesses> <http://www.w3.org/2000/01/rdf-schema#label> "accesses"@en .
+# 
+# http://www.snik.eu/ontology/meta/approves
+<http://www.snik.eu/ontology/meta/approves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/approves> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/approves> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/approves> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a role that approves a function or entity type."@en .
+<http://www.snik.eu/ontology/meta/approves> <http://www.w3.org/2000/01/rdf-schema#label> "approves"@en .
+# 
+# http://www.snik.eu/ontology/meta/approvesEntityType
+<http://www.snik.eu/ontology/meta/approvesEntityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/approvesEntityType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/approves> .
+<http://www.snik.eu/ontology/meta/approvesEntityType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/approvesEntityType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/approvesEntityType> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Rolle stimmt dem Objekttyp zu oder kann potenziell diese Zustimmung geben."@de .
+<http://www.snik.eu/ontology/meta/approvesEntityType> <http://www.w3.org/2000/01/rdf-schema#comment> "The role approves the entity type or can potentially approve it."@en .
+<http://www.snik.eu/ontology/meta/approvesEntityType> <http://www.w3.org/2000/01/rdf-schema#label> "approves"@en .
+# 
+# http://www.snik.eu/ontology/meta/approvesFunction
+<http://www.snik.eu/ontology/meta/approvesFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/approvesFunction> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/approves> .
+<http://www.snik.eu/ontology/meta/approvesFunction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/approvesFunction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/approvesFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Rolle stimmt der Aufgabe zu Aufgabe oder kann potenziell diese Zustimmung geben."@de .
+<http://www.snik.eu/ontology/meta/approvesFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "The role approves the Function or can potentially approve it."@en .
+<http://www.snik.eu/ontology/meta/approvesFunction> <http://www.w3.org/2000/01/rdf-schema#label> "approves"@en .
+# 
+# http://www.snik.eu/ontology/meta/book
+<http://www.snik.eu/ontology/meta/book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/book> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/meta/book> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/book> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a chapter in a book."@en .
+<http://www.snik.eu/ontology/meta/book> <http://www.w3.org/2000/01/rdf-schema#label> "Buch"@de .
+<http://www.snik.eu/ontology/meta/book> <http://www.w3.org/2000/01/rdf-schema#label> "book"@en .
+# 
+# http://www.snik.eu/ontology/meta/changes
+<http://www.snik.eu/ontology/meta/changes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/changes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/changes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/changes> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a function that increases or decreases a measurable entity type. Use meta:increases or meta:decreases if possible."@en .
+<http://www.snik.eu/ontology/meta/changes> <http://www.w3.org/2000/01/rdf-schema#label> "changes"@en .
+# 
+# http://www.snik.eu/ontology/meta/chapter
+<http://www.snik.eu/ontology/meta/chapter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/chapter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/chapter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/meta/chapter> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a class that is described in a book chapter."@en .
+<http://www.snik.eu/ontology/meta/chapter> <http://www.w3.org/2000/01/rdf-schema#label> "Kapitel"@de .
+<http://www.snik.eu/ontology/meta/chapter> <http://www.w3.org/2000/01/rdf-schema#label> "chapter"@en .
+# 
+# http://www.snik.eu/ontology/meta/communicatesWith
+<http://www.snik.eu/ontology/meta/communicatesWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/communicatesWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/ApplicationComponent> .
+<http://www.snik.eu/ontology/meta/communicatesWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/ApplicationComponent> .
+<http://www.snik.eu/ontology/meta/communicatesWith> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is an application component that communicates with another application component."@en .
+<http://www.snik.eu/ontology/meta/communicatesWith> <http://www.w3.org/2000/01/rdf-schema#label> "communicates with"@en .
+<http://www.snik.eu/ontology/meta/communicatesWith> <http://www.w3.org/2000/01/rdf-schema#label> "kommuniziert mit"@de .
+# 
+# http://www.snik.eu/ontology/meta/component
+<http://www.snik.eu/ontology/meta/component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/component> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/component> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/component> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a role, function or entity type that has another of the same type as a component. Use meta:roleComponent, meta:functionComponent, respectively meta:entityTypeComponent instead."@en .
+<http://www.snik.eu/ontology/meta/component> <http://www.w3.org/2000/01/rdf-schema#label> "component"@en .
+# 
+# http://www.snik.eu/ontology/meta/decreases
+<http://www.snik.eu/ontology/meta/decreases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/decreases> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/changes> .
+<http://www.snik.eu/ontology/meta/decreases> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/decreases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/decreases> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a function that decreases a measurable entity type."@en .
+<http://www.snik.eu/ontology/meta/decreases> <http://www.w3.org/2000/01/rdf-schema#label> "decreases"@en .
+<http://www.snik.eu/ontology/meta/decreases> <http://www.w3.org/2000/01/rdf-schema#label> "senkt"@de .
+# 
+# http://www.snik.eu/ontology/meta/entityTypeComponent
+<http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/component> .
+<http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is an entity type that has another entity type as component (part)."@en .
+<http://www.snik.eu/ontology/meta/entityTypeComponent> <http://www.w3.org/2000/01/rdf-schema#label> "entity type component"@en .
+# 
+# http://www.snik.eu/ontology/meta/feature
+<http://www.snik.eu/ontology/meta/feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/feature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent> .
+<http://www.snik.eu/ontology/meta/feature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Feature> .
+<http://www.snik.eu/ontology/meta/feature> <http://www.w3.org/2000/01/rdf-schema#label> "feature"@en .
+# 
+# http://www.snik.eu/ontology/meta/functionComponent
+<http://www.snik.eu/ontology/meta/functionComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/functionComponent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/component> .
+<http://www.snik.eu/ontology/meta/functionComponent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/isDecomposedIn> .
+<http://www.snik.eu/ontology/meta/isDecomposedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/functionComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/functionComponent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/functionComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a function that has another function as component (part)."@en .
+<http://www.snik.eu/ontology/meta/functionComponent> <http://www.w3.org/2000/01/rdf-schema#label> "function component"@en .
+# 
+# http://www.snik.eu/ontology/meta/homonym
+<http://www.snik.eu/ontology/meta/homonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/homonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.snik.eu/ontology/meta/homonym> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/homonym> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/homonym> <http://www.w3.org/2000/01/rdf-schema#comment> "Sounds similar but has a different meaning."@en .
+<http://www.snik.eu/ontology/meta/homonym> <http://www.w3.org/2000/01/rdf-schema#label> "homonym"@en .
+# 
+# http://www.snik.eu/ontology/meta/increases
+<http://www.snik.eu/ontology/meta/increases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/increases> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/changes> .
+<http://www.snik.eu/ontology/meta/increases> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/increases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/increases> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a function that increases a measurable entity type."@en .
+<http://www.snik.eu/ontology/meta/increases> <http://www.w3.org/2000/01/rdf-schema#label> "erhöht"@de .
+<http://www.snik.eu/ontology/meta/increases> <http://www.w3.org/2000/01/rdf-schema#label> "increases"@en .
+# 
+# http://www.snik.eu/ontology/meta/isAssociatedWith
+<http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#comment> "The most generic relation of SNIK that should only be used if no more specific relation is applicable."@en .
+<http://www.snik.eu/ontology/meta/isAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#label> "is associated with"@en .
+# 
+# http://www.snik.eu/ontology/meta/isBasedOn
+<http://www.snik.eu/ontology/meta/isBasedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/isBasedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/isBasedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/isBasedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Objekttyp wird von einem anderen Objekttyp erzeugt."@de .
+<http://www.snik.eu/ontology/meta/isBasedOn> <http://www.w3.org/2000/01/rdf-schema#label> "basiert auf"@de .
+<http://www.snik.eu/ontology/meta/isBasedOn> <http://www.w3.org/2000/01/rdf-schema#label> "is based on"@en .
+# 
+# http://www.snik.eu/ontology/meta/isDecomposedIn
+# 
+# http://www.snik.eu/ontology/meta/isInvolvedIn
+<http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Rolle ist in der Aufgabe involviert, z.B. durch Teilnahme oder operative Mitarbeit"@de .
+<http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#label> "is involved in"@en .
+<http://www.snik.eu/ontology/meta/isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#label> "ist involviert in"@de .
+# 
+# http://www.snik.eu/ontology/meta/isResponsibleFor
+<http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Use isResponsibleForFunction and isResponsibleForEntityType instead."@en .
+<http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.w3.org/2000/01/rdf-schema#label> "is responsible for "@en .
+<http://www.snik.eu/ontology/meta/isResponsibleFor> <http://www.w3.org/2000/01/rdf-schema#label> "ist verantwortlich für"@de .
+# 
+# http://www.snik.eu/ontology/meta/isResponsibleForEntityType
+<http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/isResponsibleFor> .
+<http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.w3.org/2000/01/rdf-schema#comment> "is responsible for an entity type"@en .
+<http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.w3.org/2000/01/rdf-schema#comment> "ist verantwortlich für einen Objekttyp"@de .
+<http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.w3.org/2000/01/rdf-schema#label> "is responsible for "@en .
+<http://www.snik.eu/ontology/meta/isResponsibleForEntityType> <http://www.w3.org/2000/01/rdf-schema#label> "ist verantwortlich für"@de .
+# 
+# http://www.snik.eu/ontology/meta/isResponsibleForFunction
+<http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/isResponsibleFor> .
+<http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "is responsible for a function"@en .
+<http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "ist verantwortlich für eine Aufgabe"@de .
+<http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.w3.org/2000/01/rdf-schema#label> "is responsible for "@en .
+<http://www.snik.eu/ontology/meta/isResponsibleForFunction> <http://www.w3.org/2000/01/rdf-schema#label> "ist verantwortlich für"@de .
+# 
+# http://www.snik.eu/ontology/meta/isResponsibleForRole
+<http://www.snik.eu/ontology/meta/isResponsibleForRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/isResponsibleForRole> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/isResponsibleFor> .
+<http://www.snik.eu/ontology/meta/isResponsibleForRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/isResponsibleForRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/isResponsibleForRole> <http://www.w3.org/2000/01/rdf-schema#comment> "is responsible for a role"@en .
+<http://www.snik.eu/ontology/meta/isResponsibleForRole> <http://www.w3.org/2000/01/rdf-schema#comment> "ist verantwortlich für eine Rolle"@de .
+<http://www.snik.eu/ontology/meta/isResponsibleForRole> <http://www.w3.org/2000/01/rdf-schema#label> "is responsible for "@en .
+<http://www.snik.eu/ontology/meta/isResponsibleForRole> <http://www.w3.org/2000/01/rdf-schema#label> "ist verantwortlich für"@de .
+# 
+# http://www.snik.eu/ontology/meta/master
+<http://www.snik.eu/ontology/meta/master> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/master> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/master> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/ApplicationComponent> .
+<http://www.snik.eu/ontology/meta/master> <http://www.w3.org/2000/01/rdf-schema#comment> "The object is an application component which is responsible for the entity type subject."@en .
+<http://www.snik.eu/ontology/meta/master> <http://www.w3.org/2000/01/rdf-schema#label> "master"@en .
+# 
+# http://www.snik.eu/ontology/meta/roleComponent
+<http://www.snik.eu/ontology/meta/roleComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/roleComponent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/component> .
+<http://www.snik.eu/ontology/meta/roleComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/roleComponent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/roleComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a role that has another role as component (part)."@en .
+<http://www.snik.eu/ontology/meta/roleComponent> <http://www.w3.org/2000/01/rdf-schema#label> "role component"@en .
+# 
+# http://www.snik.eu/ontology/meta/softwareProduct
+<http://www.snik.eu/ontology/meta/softwareProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/softwareProduct> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent> .
+<http://www.snik.eu/ontology/meta/softwareProduct> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/SoftwareProduct> .
+<http://www.snik.eu/ontology/meta/softwareProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "The software product under which a computer based application component is distributed."@en .
+<http://www.snik.eu/ontology/meta/softwareProduct> <http://www.w3.org/2000/01/rdf-schema#label> "Softwareprodukt"@de .
+<http://www.snik.eu/ontology/meta/softwareProduct> <http://www.w3.org/2000/01/rdf-schema#label> "software product"@en .
+# 
+# http://www.snik.eu/ontology/meta/subChapterOf
+<http://www.snik.eu/ontology/meta/subChapterOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/subChapterOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/meta/subChapterOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/meta/subChapterOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a subchapter of a chapter."@en .
+<http://www.snik.eu/ontology/meta/subChapterOf> <http://www.w3.org/2000/01/rdf-schema#label> "Unterkapitel von"@de .
+<http://www.snik.eu/ontology/meta/subChapterOf> <http://www.w3.org/2000/01/rdf-schema#label> "subchapter of"@en .
+# 
+# http://www.snik.eu/ontology/meta/supports
+<http://www.snik.eu/ontology/meta/supports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/supports> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/ApplicationComponent> .
+<http://www.snik.eu/ontology/meta/supports> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/supports> <http://www.w3.org/2000/01/rdf-schema#comment> "A function that an application component supports."@en .
+<http://www.snik.eu/ontology/meta/supports> <http://www.w3.org/2000/01/rdf-schema#label> "supports"@en .
+<http://www.snik.eu/ontology/meta/supports> <http://www.w3.org/2000/01/rdf-schema#label> "unterstützt"@de .
+# 
+# http://www.snik.eu/ontology/meta/typicalFeature
+<http://www.snik.eu/ontology/meta/typicalFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/typicalFeature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent> .
+<http://www.snik.eu/ontology/meta/typicalFeature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/Feature> .
+<http://www.snik.eu/ontology/meta/typicalFeature> <http://www.w3.org/2000/01/rdf-schema#label> "typical feature"@en .
+# 
+# http://www.snik.eu/ontology/meta/updates
+<http://www.snik.eu/ontology/meta/updates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/updates> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/accesses> .
+<http://www.snik.eu/ontology/meta/updates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/updates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/updates> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a function that updates an entity type."@en .
+<http://www.snik.eu/ontology/meta/updates> <http://www.w3.org/2000/01/rdf-schema#label> "aktualisiert"@de .
+<http://www.snik.eu/ontology/meta/updates> <http://www.w3.org/2000/01/rdf-schema#label> "updates"@en .
+# 
+# http://www.snik.eu/ontology/meta/uses
+<http://www.snik.eu/ontology/meta/uses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.snik.eu/ontology/meta/uses> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.snik.eu/ontology/meta/accesses> .
+<http://www.snik.eu/ontology/meta/uses> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/uses> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/uses> <http://www.w3.org/2000/01/rdf-schema#comment> "Bei Durchführung der Aufgabe werden Daten über den Objekttyp benötigt."@de .
+<http://www.snik.eu/ontology/meta/uses> <http://www.w3.org/2000/01/rdf-schema#comment> "The function requires data about the entity type."@en .
+<http://www.snik.eu/ontology/meta/uses> <http://www.w3.org/2000/01/rdf-schema#label> "uses"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.snik.eu/ontology/meta/chapterNumber
+<http://www.snik.eu/ontology/meta/chapterNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.snik.eu/ontology/meta/chapterNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/meta/chapterNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.snik.eu/ontology/meta/chapterNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a chapter that has a number, possibly including multiple dots, such as chapter 3.4.5."@en .
+<http://www.snik.eu/ontology/meta/chapterNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Kapitelnummer"@de .
+<http://www.snik.eu/ontology/meta/chapterNumber> <http://www.w3.org/2000/01/rdf-schema#label> "chapter number"@en .
+# 
+# http://www.snik.eu/ontology/meta/firstPage
+<http://www.snik.eu/ontology/meta/firstPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.snik.eu/ontology/meta/firstPage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/meta/firstPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://www.snik.eu/ontology/meta/firstPage> <http://www.w3.org/2000/01/rdf-schema#comment> "The first page of the subject chapter."@en .
+<http://www.snik.eu/ontology/meta/firstPage> <http://www.w3.org/2000/01/rdf-schema#label> "erste Seite"@de .
+<http://www.snik.eu/ontology/meta/firstPage> <http://www.w3.org/2000/01/rdf-schema#label> "first page"@en .
+# 
+# http://www.snik.eu/ontology/meta/lastPage
+<http://www.snik.eu/ontology/meta/lastPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.snik.eu/ontology/meta/lastPage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.snik.eu/ontology/meta/Chapter> .
+<http://www.snik.eu/ontology/meta/lastPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://www.snik.eu/ontology/meta/lastPage> <http://www.w3.org/2000/01/rdf-schema#comment> "The last page of the subject chapter."@en .
+<http://www.snik.eu/ontology/meta/lastPage> <http://www.w3.org/2000/01/rdf-schema#label> "last page"@en .
+<http://www.snik.eu/ontology/meta/lastPage> <http://www.w3.org/2000/01/rdf-schema#label> "letzte Seite"@de .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.snik.eu/ontology/meta/ApplicationComponent
+<http://www.snik.eu/ontology/meta/ApplicationComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/ApplicationComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/ApplicationComponent> <http://www.w3.org/2000/01/rdf-schema#label> "application component"@en .
+# 
+# http://www.snik.eu/ontology/meta/Chapter
+<http://www.snik.eu/ontology/meta/Chapter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/Chapter> <http://www.w3.org/2000/01/rdf-schema#comment> "A chapter in a book."@en .
+<http://www.snik.eu/ontology/meta/Chapter> <http://www.w3.org/2000/01/rdf-schema#label> "Kapitel"@de .
+<http://www.snik.eu/ontology/meta/Chapter> <http://www.w3.org/2000/01/rdf-schema#label> "chapter"@en .
+# 
+# http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent
+<http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/ApplicationComponent> .
+<http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent> <http://www.w3.org/2000/01/rdf-schema#label> "computer based application component"@en .
+# 
+# http://www.snik.eu/ontology/meta/DataSetType
+<http://www.snik.eu/ontology/meta/DataSetType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/DataSetType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/RepresentationType> .
+<http://www.snik.eu/ontology/meta/DataSetType> <http://www.w3.org/2000/01/rdf-schema#label> "data set type"@en .
+# 
+# http://www.snik.eu/ontology/meta/EntityType
+<http://www.snik.eu/ontology/meta/EntityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/EntityType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/EntityType> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/EntityType> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/EntityType> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity type is any kind of information that is consumed, produced or modified by a task. These can be documents, data structures, objects, roles, specified by data types or even paper based artifacts."@en .
+<http://www.snik.eu/ontology/meta/EntityType> <http://www.w3.org/2000/01/rdf-schema#label> "Objekttyp"@de .
+<http://www.snik.eu/ontology/meta/EntityType> <http://www.w3.org/2000/01/rdf-schema#label> "entity type"@en .
+# 
+# http://www.snik.eu/ontology/meta/Feature
+<http://www.snik.eu/ontology/meta/Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/Feature> <http://www.w3.org/2000/01/rdf-schema#label> "feature"@en .
+# 
+# http://www.snik.eu/ontology/meta/Function
+<http://www.snik.eu/ontology/meta/Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/Function> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.snik.eu/ontology/meta/Role> .
+<http://www.snik.eu/ontology/meta/Function> <http://www.w3.org/2000/01/rdf-schema#comment> "Functions describe what is to be done in IM departments. They update or use information which is represented by entity."@en .
+<http://www.snik.eu/ontology/meta/Function> <http://www.w3.org/2000/01/rdf-schema#label> "Aufgabe"@de .
+<http://www.snik.eu/ontology/meta/Function> <http://www.w3.org/2000/01/rdf-schema#label> "Function"@en .
+# 
+# http://www.snik.eu/ontology/meta/Method
+<http://www.snik.eu/ontology/meta/Method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/Method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/Method> <http://www.w3.org/2000/01/rdf-schema#label> "Methode"@de .
+<http://www.snik.eu/ontology/meta/Method> <http://www.w3.org/2000/01/rdf-schema#label> "method"@en .
+# 
+# http://www.snik.eu/ontology/meta/MethodApplication
+<http://www.snik.eu/ontology/meta/MethodApplication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/MethodApplication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Function> .
+<http://www.snik.eu/ontology/meta/MethodApplication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.snik.eu/ontology/meta/Method> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.snik.eu/ontology/meta/uses> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.snik.eu/ontology/meta/MethodApplication> <http://www.w3.org/2000/01/rdf-schema#label> "Anwenden einer Methode"@de .
+<http://www.snik.eu/ontology/meta/MethodApplication> <http://www.w3.org/2000/01/rdf-schema#label> "applying a function"@en .
+# 
+# http://www.snik.eu/ontology/meta/RepresentationType
+<http://www.snik.eu/ontology/meta/RepresentationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/RepresentationType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/RepresentationType> <http://www.w3.org/2000/01/rdf-schema#label> "Repräsentationstyp"@de .
+<http://www.snik.eu/ontology/meta/RepresentationType> <http://www.w3.org/2000/01/rdf-schema#label> "representation type"@en .
+# 
+# http://www.snik.eu/ontology/meta/Role
+<http://www.snik.eu/ontology/meta/Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/Top> .
+<http://www.snik.eu/ontology/meta/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Rollen beschreiben Personen und Personengruppen, die im Rahmen des Informationsmanagements im Krankenhaus und der Patientenbehandlung anzutreffen sind."@de .
+<http://www.snik.eu/ontology/meta/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Rolle"@de .
+<http://www.snik.eu/ontology/meta/Role> <http://www.w3.org/2000/01/rdf-schema#label> "role"@en .
+<http://www.snik.eu/ontology/meta/Role> <http://www.w3.org/2004/02/skos/core#definition> "Unter einer Rolle verstehen wir die Summe von Erwartungen, die an eine Person gerichtet werden. Sie beschreibt ein Bündel von zu erfüllenden Aufgaben und den daraus abgeleiteten Pflichten und den hierfür notwendigen Rechten."@de .
+# 
+# http://www.snik.eu/ontology/meta/SoftwareProduct
+<http://www.snik.eu/ontology/meta/SoftwareProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/SoftwareProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.snik.eu/ontology/meta/EntityType> .
+<http://www.snik.eu/ontology/meta/SoftwareProduct> <http://www.w3.org/2000/01/rdf-schema#label> "Softwareprodukt"@de .
+<http://www.snik.eu/ontology/meta/SoftwareProduct> <http://www.w3.org/2000/01/rdf-schema#label> "software product"@en .
+# 
+# http://www.snik.eu/ontology/meta/Top
+<http://www.snik.eu/ontology/meta/Top> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.snik.eu/ontology/meta/Top> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.snik.eu/ontology/meta/Top> <http://www.w3.org/2000/01/rdf-schema#comment> "Superclass of entity type, role and function."@en .
+<http://www.snik.eu/ontology/meta/Top> <http://www.w3.org/2000/01/rdf-schema#label> "top class"@en .
+# 
+# http://www.w3.org/2002/07/owl#Ontology
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,22 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<..\index-en.html> a prov:Entity;
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo :agent4;
+	 prov:wasAttributedTo :agent5;
+	 prov:wasAttributedTo :agent6;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "2022-10-20";
+.
+:agent0 a prov:Agent; foaf:name "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Birgit_Schneider'>Dr. Birgit Schneider</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>".
+:agent1 a prov:Agent; foaf:name "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Franziska_Jahn'>Dr. Franziska Jahn</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>".
+:agent2 a prov:Agent; foaf:name "<a href='http://www.people.imise.uni-leipzig.de/alfred.winter/'>Prof. Dr. Alfred Winter</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>".
+:agent3 a prov:Agent; foaf:name "<a href='https://github.com/KonradHoeffner'>Dr. Konrad Höffner</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>".
+:agent4 a prov:Agent; foaf:name "<a href='https://github.com/ThomasPause'>Thomas Pause</a>, formerly <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>".
+:agent5 a prov:Agent; foaf:name "<a href='https://orcid.org/0000-0001-5608-482X'>Prof. Dr. Christian Kücherer</a>, <a href='https://www.reutlingen-university.de/home'>Hochschule Reutlingen, Germany</a>".
+:agent6 a prov:Agent; foaf:name "<a href='https://se.ifi.uni-heidelberg.de/people/barbara_paech.html'>Prof. Dr. Barbara Paech</a>, <a href='https://se.ifi.uni-heidelberg.de/'>Universität Heidelberg, Institut für Informatik, Lehrstuhl Software Engineering, Germany</a>".

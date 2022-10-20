@@ -1,0 +1,1052 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Method"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/uses"
+  } ]
+}, {
+  "@id" : "http://open.vocab.org/terms/defines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta",
+  "http://open.vocab.org/terms/defines" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/ApplicationComponent"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/Chapter"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/DataSetType"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/Method"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/MethodApplication"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/RepresentationType"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/SoftwareProduct"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/Subfunction"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/accesses"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/approves"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/approvesEntityType"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/approvesFunction"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/book"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/changes"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/chapter"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/chapterNumber"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/communicatesWith"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/component"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/decreases"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/entityTypeComponent"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/firstPage"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/functionComponent"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/increases"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/isAssociatedWith"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/isBasedOn"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/isInvolvedIn"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/isResponsibleFor"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/isResponsibleForEntityType"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/isResponsibleForFunction"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/isResponsibleForRole"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/lastPage"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/quality"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/represents"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/roleComponent"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/softwareProduct"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/subChapterOf"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/supports"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/updates"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/uses"
+  } ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@language" : "de",
+    "@value" : "Ein semantisches Netz des integrierten Informationsmanagements im Krankenhaus (SNIK), welches Begriffe des Informationsmanagements und deren Beziehungen untereinander beschreibt"
+  }, {
+    "@language" : "en",
+    "@value" : "Textbooks about information management in hospitals describe the planning, monitoring and directing of a hospital’s information system. SNIK consists of the manually transformed content of three such textbooks as Linked Open Data. The data model describes information management functions, roles executing these functions and the information used or updated by these functions. We publish the result over several different interfaces that are useful for researchers, information system administrators or students, depending on their objectives and their capabilities."
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Birgit_Schneider'>Dr. Birgit Schneider</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>"
+  }, {
+    "@value" : "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Franziska_Jahn'>Dr. Franziska Jahn</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>"
+  }, {
+    "@value" : "<a href='http://www.people.imise.uni-leipzig.de/alfred.winter/'>Prof. Dr. Alfred Winter</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>"
+  }, {
+    "@value" : "<a href='https://github.com/KonradHoeffner'>Dr. Konrad Höffner</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>"
+  }, {
+    "@value" : "<a href='https://github.com/ThomasPause'>Thomas Pause</a>, formerly <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>"
+  }, {
+    "@value" : "<a href='https://orcid.org/0000-0001-5608-482X'>Prof. Dr. Christian Kücherer</a>, <a href='https://www.reutlingen-university.de/home'>Hochschule Reutlingen, Germany</a>"
+  }, {
+    "@value" : "<a href='https://se.ifi.uni-heidelberg.de/people/barbara_paech.html'>Prof. Dr. Barbara Paech</a>, <a href='https://se.ifi.uni-heidelberg.de/'>Universität Heidelberg, Institut für Informatik, Lehrstuhl Software Engineering, Germany</a>"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2022-10-20"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "http://www.snik.eu"
+  } ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@id" : "http://www.snik.eu"
+  } ],
+  "http://purl.org/ontology/bibo/status" : [ {
+    "@id" : "http://purl.org/ontology/bibo/status/published"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "meta"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Textbooks about information management in hospitals describe the planning, monitoring and directing of a hospital’s information system. SNIK consists of the manually transformed content of three such textbooks as Linked Open Data. The data model describes information management functions, roles executing these functions and the information used or updated by these functions. We publish the result over several different interfaces that are useful for researchers, information system administrators or students, depending on their objectives and their capabilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SNIK Meta Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "22.10"
+  } ],
+  "http://xmlns.com/foaf/0.1/homepage" : [ {
+    "@id" : "http://www.snik.eu"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/ApplicationComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "application component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/Chapter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A chapter in a book."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kapitel"
+  }, {
+    "@language" : "en",
+    "@value" : "chapter"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "computer based application component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/ApplicationComponent"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/DataSetType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "data set type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/RepresentationType"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/EntityType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An entity type is any kind of information that is consumed, produced or modified by a task. These can be documents, data structures, objects, roles, specified by data types or even paper based artifacts."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Objekttyp"
+  }, {
+    "@language" : "en",
+    "@value" : "entity type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "feature"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/Function",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Functions describe what is to be done in IM departments. They update or use information which is represented by entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Aufgabe"
+  }, {
+    "@language" : "en",
+    "@value" : "Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/Method",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Methode"
+  }, {
+    "@language" : "en",
+    "@value" : "method"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/MethodApplication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Anwenden einer Methode"
+  }, {
+    "@language" : "en",
+    "@value" : "applying a function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/RepresentationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Repräsentationstyp"
+  }, {
+    "@language" : "en",
+    "@value" : "representation type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/Role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Rollen beschreiben Personen und Personengruppen, die im Rahmen des Informationsmanagements im Krankenhaus und der Patientenbehandlung anzutreffen sind."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Rolle"
+  }, {
+    "@language" : "en",
+    "@value" : "role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Unter einer Rolle verstehen wir die Summe von Erwartungen, die an eine Person gerichtet werden. Sie beschreibt ein Bündel von zu erfüllenden Aufgaben und den daraus abgeleiteten Pflichten und den hierfür notwendigen Rechten."
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/SoftwareProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Softwareprodukt"
+  }, {
+    "@language" : "en",
+    "@value" : "software product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/Top",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Superclass of entity type, role and function."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "top class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/accesses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a function that accesses the data represented or provided by an entity type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "accesses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/approves",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a role that approves a function or entity type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "approves"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/approvesEntityType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Die Rolle stimmt dem Objekttyp zu oder kann potenziell diese Zustimmung geben."
+  }, {
+    "@language" : "en",
+    "@value" : "The role approves the entity type or can potentially approve it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "approves"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/approves"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/approvesFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Die Rolle stimmt der Aufgabe zu Aufgabe oder kann potenziell diese Zustimmung geben."
+  }, {
+    "@language" : "en",
+    "@value" : "The role approves the Function or can potentially approve it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "approves"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/approves"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/book",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a chapter in a book."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Chapter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Buch"
+  }, {
+    "@language" : "en",
+    "@value" : "book"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Ontology"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/changes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a function that increases or decreases a measurable entity type. Use meta:increases or meta:decreases if possible."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "changes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/chapter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a class that is described in a book chapter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kapitel"
+  }, {
+    "@language" : "en",
+    "@value" : "chapter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Chapter"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/chapterNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a chapter that has a number, possibly including multiple dots, such as chapter 3.4.5."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Chapter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kapitelnummer"
+  }, {
+    "@language" : "en",
+    "@value" : "chapter number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/communicatesWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is an application component that communicates with another application component."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/ApplicationComponent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "communicates with"
+  }, {
+    "@language" : "de",
+    "@value" : "kommuniziert mit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/ApplicationComponent"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a role, function or entity type that has another of the same type as a component. Use meta:roleComponent, meta:functionComponent, respectively meta:entityTypeComponent instead."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/decreases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a function that decreases a measurable entity type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "decreases"
+  }, {
+    "@language" : "de",
+    "@value" : "senkt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/changes"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/entityTypeComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is an entity type that has another entity type as component (part)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "entity type component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/component"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Feature"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/firstPage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The first page of the subject chapter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Chapter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "erste Seite"
+  }, {
+    "@language" : "en",
+    "@value" : "first page"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/functionComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a function that has another function as component (part)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "function component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/component"
+  }, {
+    "@id" : "http://www.snik.eu/ontology/meta/isDecomposedIn"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/homonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Sounds similar but has a different meaning."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "homonym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/increases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a function that increases a measurable entity type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "erhöht"
+  }, {
+    "@language" : "en",
+    "@value" : "increases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/changes"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/isAssociatedWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The most generic relation of SNIK that should only be used if no more specific relation is applicable."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is associated with"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/isBasedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Der Objekttyp wird von einem anderen Objekttyp erzeugt."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "basiert auf"
+  }, {
+    "@language" : "en",
+    "@value" : "is based on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/isDecomposedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/isInvolvedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Die Rolle ist in der Aufgabe involviert, z.B. durch Teilnahme oder operative Mitarbeit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is involved in"
+  }, {
+    "@language" : "de",
+    "@value" : "ist involviert in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/isResponsibleFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Use isResponsibleForFunction and isResponsibleForEntityType instead."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is responsible for "
+  }, {
+    "@language" : "de",
+    "@value" : "ist verantwortlich für"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Top"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/isResponsibleForEntityType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "is responsible for an entity type"
+  }, {
+    "@language" : "de",
+    "@value" : "ist verantwortlich für einen Objekttyp"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is responsible for "
+  }, {
+    "@language" : "de",
+    "@value" : "ist verantwortlich für"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/isResponsibleFor"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/isResponsibleForFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "is responsible for a function"
+  }, {
+    "@language" : "de",
+    "@value" : "ist verantwortlich für eine Aufgabe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is responsible for "
+  }, {
+    "@language" : "de",
+    "@value" : "ist verantwortlich für"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/isResponsibleFor"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/isResponsibleForRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "is responsible for a role"
+  }, {
+    "@language" : "de",
+    "@value" : "ist verantwortlich für eine Rolle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is responsible for "
+  }, {
+    "@language" : "de",
+    "@value" : "ist verantwortlich für"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/isResponsibleFor"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/lastPage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The last page of the subject chapter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Chapter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "last page"
+  }, {
+    "@language" : "de",
+    "@value" : "letzte Seite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/master",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The object is an application component which is responsible for the entity type subject."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "master"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/ApplicationComponent"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/roleComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a role that has another role as component (part)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "role component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/component"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/softwareProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The software product under which a computer based application component is distributed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Softwareprodukt"
+  }, {
+    "@language" : "en",
+    "@value" : "software product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/SoftwareProduct"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/subChapterOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a subchapter of a chapter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Chapter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Unterkapitel von"
+  }, {
+    "@language" : "en",
+    "@value" : "subchapter of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Chapter"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/supports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A function that an application component supports."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/ApplicationComponent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "supports"
+  }, {
+    "@language" : "de",
+    "@value" : "unterstützt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/typicalFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/ComputerBasedApplicationComponent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "typical feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Feature"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/updates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The subject is a function that updates an entity type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "aktualisiert"
+  }, {
+    "@language" : "en",
+    "@value" : "updates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/accesses"
+  } ]
+}, {
+  "@id" : "http://www.snik.eu/ontology/meta/uses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Bei Durchführung der Aufgabe werden Daten über den Objekttyp benötigt."
+  }, {
+    "@language" : "en",
+    "@value" : "The function requires data about the entity type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/EntityType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.snik.eu/ontology/meta/accesses"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
