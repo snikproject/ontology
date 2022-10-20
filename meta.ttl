@@ -13,7 +13,7 @@
 
 <http://www.snik.eu/ontology/meta>
     ov:defines :ApplicationComponent, :ComputerBasedApplicationComponent, :DataSetType, :EntityType, :Function, :Method, :MethodApplication, :RepresentationType, :Role, :SoftwareProduct, :Subfunction, :Top, :approvesEntityType, :approvesFunction, :communicatesWith, :decreases, :entityTypeComponent, :functionComponent, :increases, :isAssociatedWith, :isBasedOn, :isInvolvedIn, :isResponsibleFor, :isResponsibleForEntityType, :isResponsibleForFunction, :isResponsibleForRole, :quality, :represents, :roleComponent, :softwareProduct, :supports, :updates, :uses , :Chapter, :chapter, :chapterNumber, :firstPage, :lastPage, :book, :subChapterOf, :component, :approves, :accesses, :changes;
-    dc:modified "2021-11-21"^^xsd:date ;
+    dc:modified "2022-10-20"^^xsd:date ;
     dc:source <http://www.snik.eu> ;
     dc:publisher <http://www.snik.eu> ;
     bibo:status <http://purl.org/ontology/bibo/status/published>;
@@ -21,7 +21,7 @@
     dc:creator "<a href='http://www.people.imise.uni-leipzig.de/alfred.winter/'>Prof. Dr. Alfred Winter</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>",
                "<a href='https://se.ifi.uni-heidelberg.de/people/barbara_paech.html'>Prof. Dr. Barbara Paech</a>, <a href='https://se.ifi.uni-heidelberg.de/'>Universität Heidelberg, Institut für Informatik, Lehrstuhl Software Engineering, Germany</a>",
                "<a href='https://github.com/KonradHoeffner'>Dr. Konrad Höffner</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>",
-               "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Franziska_Jahn'>Franziska Jahn</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>",
+               "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Franziska_Jahn'>Dr. Franziska Jahn</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>",
                "<a href='http://www.imise.uni-leipzig.de/Mitarbeiter/Birgit_Schneider'>Dr. Birgit Schneider</a>, <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>",
                "<a href='https://orcid.org/0000-0001-5608-482X'>Prof. Dr. Christian Kücherer</a>, <a href='https://www.reutlingen-university.de/home'>Hochschule Reutlingen, Germany</a>",
                "<a href='https://github.com/ThomasPause'>Thomas Pause</a>, formerly <a href='https://www.imise.uni-leipzig.de/'>IMISE Leipzig, Germany</a>";
@@ -33,7 +33,7 @@
                      "Textbooks about information management in hospitals describe the planning, monitoring and directing of a hospital’s information system. SNIK consists of the manually transformed content of three such textbooks as Linked Open Data. The data model describes information management functions, roles executing these functions and the information used or updated by these functions. We publish the result over several different interfaces that are useful for researchers, information system administrators or students, depending on their objectives and their capabilities."@en;
     #rdfs:comment "SNIK consists of the manually transformed content of three textbooks as Linked Open Data."@en; 
     rdfs:comment "Textbooks about information management in hospitals describe the planning, monitoring and directing of a hospital’s information system. SNIK consists of the manually transformed content of three such textbooks as Linked Open Data. The data model describes information management functions, roles executing these functions and the information used or updated by these functions. We publish the result over several different interfaces that are useful for researchers, information system administrators or students, depending on their objectives and their capabilities."@en;
-    owl:versionInfo "1.3.0" ;
+    owl:versionInfo "22.10" ;
     foaf:homepage <http://www.snik.eu> .
 
 :ApplicationComponent
