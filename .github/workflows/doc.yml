@@ -1,0 +1,48 @@
+name: Generate and Publish Ontology Documentation
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  doc:
+    runs-on: ubuntu-latest
+    env:
+      WIDOCO_DOWNLOAD_URL: https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar
+    steps:
+      - uses: actions/checkout@v3
+
+      # use preinstalled Java
+      #- uses: actions/setup-java@v3
+      #  with:
+      #    distribution: 'temurin'
+      #    java-version: '19'
+
+      - name: Cache Widoco
+        uses: actions/cache@v3
+        with:
+          path: jar
+          key: ${{ env.WIDOCO_DOWNLOAD_URL }}
+
+      - name: Download Widoco if it doesn't exist
+        # wget --no-clobber has exit code 1
+        run: |
+          mkdir -p jar
+          if test -f jar/widoco.jar; then echo "Widoco already exists, skipping download."; exit 0; fi
+          wget $WIDOCO_DOWNLOAD_URL --progress=dot:giga --output-document=jar/widoco.jar
+
+      - name: Run Widoco
+        # for unknown reasons, with HITO "-outFolder doc" works while with SNIK this creates doc/doc and "-outFolder ." is correct
+        run: java -jar jar/widoco.jar -ontFile meta.ttl -rewriteAll -uniteSections -getOntologyMetadata -outFolder .
+
+      - name: Rename index-en.html to index.html
+        run: mv doc/index-en.html doc/index.html
+
+      - name: Deploy Documentation to gh-pages branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: doc
+          folder: doc
+          single-commit: true
