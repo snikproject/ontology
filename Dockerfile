@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1.4
+# syntax=docker/dockerfile:1
 FROM alpine as builder
 RUN apk add raptor2
 WORKDIR /ontology   
