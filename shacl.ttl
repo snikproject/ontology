@@ -34,11 +34,11 @@
 
 :labelShape a sh:PropertyShape;
 	sh:path rdfs:label;
-	sh:minCount 1.
+	sh:minCount "1"^^xsd:integer.
 
 :commentShape a sh:PropertyShape;
 	sh:path rdfs:comment;
-	sh:minCount 1.
+	sh:minCount "1"^^xsd:integer.
 
 #### Top ###################################################################
 
