@@ -1,0 +1,46 @@
+{
+  "title": "SNIK Ontology",
+  "upload_type": "dataset",
+  "description": "SNIK is an ontology of information management in hospitals that consists of a meta model and several subontologies.",
+  "creators": [
+    {
+      "name": "Alfred Winter",
+      "affiliation": "Leipzig University, Institute for Medical Informatics, Statistics and Epidemiology, Leipzig, Germany"
+    },
+    {
+      "name": "Barbara Paech",
+      "affiliation": "Heidelberg University, Institute for Computer Science, Heidelberg, Germany"
+    },
+    {
+      "name": "Franziska Jahn",
+      "affiliation": "Leipzig University, Institute for Medical Informatics, Statistics and Epidemiology, Leipzig, Germany",
+      "orcid": "0000-0002-7687-8544"
+    },
+    {
+      "name": "Birgit Schneider",
+      "affiliation": "Heidelberg University, Department of Computer Science, Chair of Software Engineering"
+    },
+    {
+      "name": "Christian Kücherer",
+      "affiliation": "Heidelberg University, Institute for Computer Science, Heidelberg, Germany",
+      "orcid": "0000-0001-5608-482X"
+    },
+    {
+      "name": "Konrad Höffner",
+      "affiliation": "Leipzig University, Institute for Medical Informatics, Statistics and Epidemiology, Leipzig, Germany",
+      "orcid": "0000-0001-7358-3217"
+    }
+  ],
+  "contributors": [
+    {"name": "Thomas Pause", "type": "Other"},
+    {"name": "Michael Schaaf", "type": "Other"},
+    {"name": "Anatoli Zeiser", "type": "Other"},
+    {"name": "Martin Schöbel", "type": "Other"},
+    {"name": "Kais Tahar", "type": "Other"},
+    {"name": "Lydia Lotzmann", "type": "Other"},
+    {"name": "Iman Gharib", "type": "Other"},
+    {"name": "Christian Kahmann", "type": "Other"}
+  ],
+  "keywords": ["ontology", "semantic web", "information management", "health information systems", "linked open data"],
+  "license": "CC-BY-NC-SA-4.0"
+}
