@@ -247,7 +247,7 @@
     meta:chapter bb:chapter5-3 ;
     meta:entityTypeComponent <bb/3LGM2DataTransmissionConnection>, <bb/3LGM2Location>, <bb/3LGM2PhysicalDataProcessingSystem>, <bb/3LGM2ToolClass>, <bb/3LGM2TransmittingMedium> ;
     a meta:EntityType ;
-    rdfs:label "3LGM² Physical Tool Layer"@en, "لایه ابزار فیزیکی 3LGM2"@fa ;
+    rdfs:label "3LGM² Physical Tool Layer"@en, "لایه ابزار فیزیکی 3LGM2"@fa, "Physische Werkzeugebene"@de ;
     skos:definition "The physical tool layer is a set of physical data processing systems."@en .
 
 <bb/3LGM2ReceivingInterface>
@@ -1259,7 +1259,7 @@ bb:Cfo
 
 bb:ChangeManagement
     a meta:Function ;
-    rdfs:label "Change Management"@en, "مدیریت تغییر"@fa ;
+    rdfs:label "Change Management"@en, "مدیریت تغییر"@fa, "Management von Änderungswünschen"@de ;
     rdfs:subClassOf bb:ServiceTransition .
 
 bb:ChemotherapeuticTreatment
@@ -1296,7 +1296,7 @@ bb:ChiefInformationOfficer
     meta:isResponsibleForFunction bb:InformationManagement ;
     meta:isResponsibleForEntityType bb:InformationManagementDepartment ;
     a meta:Role ;
-    rdfs:label "Chief Information Officer"@en, "مسئول ارشد اطلاعات"@fa ;
+    rdfs:label "Chief Information Officer"@en, "مسئول ارشد اطلاعات"@fa, "Leiter der Abteilung Informationsmanagement"@de ;
     rdfs:subClassOf bb:InformationManagementStaff ;
     skos:altLabel "Abteilungsleiter IT"@de, "CIO"@en, "Chief of Information Services"@en, "Director of Information Systems"@en, "EDV-Administrator"@de, "EDV-Koordinator"@de, "EDV-Leiter"@de, "Geschäftsbereichsleiter IT"@de, "IT-Administrator"@de, "IT-Leiter"@de, "IT-Organisator"@de, "Information Technology Director"@en, "Leiter Medizinische Informatik"@de, "Leiter des Informationsmanagements"@de, "Objektleiter Biomedizintechnik/IT"@de, "President of Information Systems"@en ;
     skos:definition "It is generally useful to centralize responsibilities for information management in one role. This role is usually called chief information officer (CIO); but the role is also often called vice president (or director) of information systems (or information services, information management, information and communication technology, information resources) or chief of information services. Responsible for the strategic, tactical, and operational information management and the related budgets in an enterprise. The CIO usually has the authority for all employees concerned with information management. The specific position of the CIO demands dedicated professional skills."@en .
@@ -1561,7 +1561,7 @@ bb:Completeness
     bb:page "202"^^xsd:positiveInteger ;
     meta:chapter bb:chapter8-2 ;
     a meta:EntityType ;
-    rdfs:label "Completeness"@en, "تکمیل"@fa ;
+    rdfs:label "Completeness"@en, "تکمیل"@fa, "Vollständigkeit"@de ;
     rdfs:subClassOf bb:QualityOfData ;
     skos:definition "Describes whether data are sufficiently complete for a given purpose. For example, administrative data on a patient should be complete to allow patient identification."@en .
 
@@ -1621,7 +1621,7 @@ bb:ComputerBasedInformationSystem
     bb:page "298"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
-    rdfs:label "Computer-Based Information System"@en, "سیستم اطلاعاتی مبتنی بر کامپیوتر"@fa ;
+    rdfs:label "Computer-Based Information System"@en, "سیستم اطلاعاتی مبتنی بر کامپیوتر"@fa, "Rechnerunterstütztes Informationssystem"@de ;
     skos:definition "An information system that comprises (among others) computer-based information processing tools."@en .
 
 bb:ComputerBasedNursingForm
@@ -1658,7 +1658,7 @@ bb:ComputerSystem
     bb:page "299"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
-    rdfs:label "Computer System"@en, "سیستم کامپیوتری"@fa ;
+    rdfs:label "Computer System"@en, "سیستم کامپیوتری"@fa, "Computersystem"@de ;
     rdfs:subClassOf bb:PhysicalDataProcessingSystem ;
     skos:definition "A computer-based physical data processing tool, for example, a terminal, server, or personal computer. Computer systems can be physically connected via data wires, leading to physical networks."@en .
 
@@ -1902,7 +1902,7 @@ bb:CtScanner
 
 bb:Customizing
     a meta:Function ;
-    rdfs:label "Customizing"@en, "سفارشی کردن"@fa ;
+    rdfs:label "Customizing"@en, "سفارشی کردن"@fa, "Adaptierung"@de ;
     rdfs:subClassOf bb:SystemIntroduction .
 
 bb:DB1Style
@@ -2091,7 +2091,8 @@ bb:DelphiSurvey
     bb:page "227"^^xsd:positiveInteger ;
     meta:chapter bb:chapter8-6 ;
     a meta:EntityType ;
-    rdfs:label "Delphi Survey"@en, "بررسی دلفی"@fa ;
+    rdfs:label "Delphi Survey"@en, "بررسی دلفی"@fa, "Delphi-Methode"@de ;
+    skos:altLabel "Delphi-Studie"@de, "Delphi-Verfahren"@de, "Delphi-Befragung"@de ;
     rdfs:subClassOf bb:ConsensusMethod, bb:EvaluationMethod ;
     skos:definition "Consensus method for the prediction of the future. A panel of experts is  • surveyed on a given topic in several iterative rounds. The result of each round is presented to each expert in anonymized form; the experts are then invited to modify their judgment in the next round.  "@en .
 
@@ -2669,7 +2670,7 @@ bb:EvaluationMethod
 
 bb:Event
     a meta:EntityType ;
-    rdfs:label "Event"@en, "رویداد"@fa .
+    rdfs:label "Event"@en, "رویداد"@fa, "Ereignis"@de .
 
 bb:EventCountingStudy
     bb:page "225"^^xsd:positiveInteger ;
@@ -2684,7 +2685,7 @@ bb:EventDrivenProcessChain
     meta:chapter bb:chapter5-2 ;
     meta:entityTypeComponent bb:ActivityModelingElement, bb:EntityTypeModelingElement, bb:EventModelingElement, bb:LogicalOperatorModelingElement, bb:RoleModelingElement ;
     a meta:EntityType ;
-    rdfs:label "Event-Driven Process Chain"@en, "زنجیره فرآیند مبتنی بر رویداد"@fa ;
+    rdfs:label "Event-Driven Process Chain"@en, "زنجیره فرآیند مبتنی بر رویداد"@fa, "Ereignisgesteuerte Prozesskette"@de ;
     rdfs:subClassOf bb:BusinessProcessModel ;
     skos:altLabel "EPK"@en .
 
@@ -3522,7 +3523,7 @@ bb:FinancialControlling
 
 bb:FinancialResource
     a meta:EntityType ;
-    rdfs:label "Financial Resource"@en, "منبع مالی"@fa ;
+    rdfs:label "Financial Resource"@en, "منبع مالی"@fa, "Finanzmittel"@de ;
     rdfs:subClassOf bb:ManagementEntityType .
 
 bb:FinancingOfHealthCare
@@ -3913,7 +3914,7 @@ bb:HealthInformationSystem
     a meta:EntityType ;
     rdfs:label "Health Information System"@en, "Informationssystem des Gesundheitswesens"@de, "سیستم اطلاعات بهداشتی HIS"@fa ;
     rdfs:subClassOf bb:InformationSystem ;
-    skos:altLabel "HIS"@en ;
+    skos:altLabel "HIS"@en, "Gesundheitsinformationssystem"@de ;
     skos:definition "The information processing and information storing subsystem of a health care organization, which may be a single institution, e.g. a hospital, or a group of health care institutions like a health care network. The HIS deals with processing data, information, and knowledge in health care environments. It has a computer-based part and a non-computer-based part. Health information systems can be differentiated into institutional information systems (such as hospital information systems) and transinstitutional health information systems."@en .
 
 bb:HealthInsuranceCompany
@@ -4207,7 +4208,7 @@ bb:HumanResource
     bb:page "77"^^xsd:positiveInteger ;
     meta:chapter bb:chapter6-2 ;
     a meta:EntityType ;
-    rdfs:label "Human Resource"@en, "منابع انسانی"@fa ;
+    rdfs:label "Human Resource"@en, "منابع انسانی"@fa, "Personelle Ressource"@de ;
     rdfs:subClassOf bb:Resource ;
     skos:definition "Is a person working in the hospital, i.e., a doctor, nurse, administrative staff member, IT staff member, etc."@en .
 
@@ -5096,7 +5097,7 @@ bb:LaundryManagement
 
 bb:Law
     a meta:EntityType ;
-    rdfs:label "Law"@en, "قانون"@fa .
+    rdfs:label "Law"@en, "قانون"@fa, "Gesetz"@de .
 
 bb:LeannessOfInformationProcessingTools
     bb:page "210"^^xsd:positiveInteger ;
@@ -5772,7 +5773,7 @@ bb:NetworkManagement
     bb:page 244 ;
     meta:chapter bb:chapter9-2 ;
     a meta:Function ;
-    rdfs:label "Network Management"@en, "مدیریت شبکه"@fa .
+    rdfs:label "Network Management"@en, "مدیریت شبکه"@fa, "Netzwerkmanagement"@de .
 
 bb:NetworkMonitoring
     meta:chapter bb:chapter3-4 ;
@@ -5826,12 +5827,12 @@ bb:NonComputerBasedInformationProcessing
 
 bb:NonComputerBasedInformationProcessingTool
     a meta:EntityType ;
-    rdfs:label "Non-Computer-Based Information Processing Tool"@en, "ابزار پردازش اطلاعات غیر مبتنی بر کامپیوتر"@fa ;
+    rdfs:label "Non-Computer-Based Information Processing Tool"@en, "ابزار پردازش اطلاعات غیر مبتنی بر کامپیوتر"@fa, "nicht-rechnerbasiertes Werkzeug der Informationsverarbeitung"@de ;
     skos:closeMatch ob:NonComputerBasedTool .
 
 bb:NonComputerBasedPhysicalDataProcessingSystem
     a meta:EntityType ;
-    rdfs:label "Non-Computer-Based Physical Data Processing System"@en, "سیستم پردازش داده های فیزیکی غیر کامپیوتری"@fa ;
+    rdfs:label "Non-Computer-Based Physical Data Processing System"@en, "سیستم پردازش داده های فیزیکی غیر کامپیوتری"@fa, "nicht-rechnerbasiertes Physisches Datenverarbeitungssystem"@de ;
     rdfs:subClassOf bb:NonComputerBasedInformationProcessingTool .
 
 bb:NonSignalBasedTransmittingMedium
@@ -6021,7 +6022,7 @@ bb:ObjectIdentity
 
 bb:ObservationProtocol
     a meta:EntityType ;
-    rdfs:label "Observation Protocol"@en, "پروتکل مشاهده"@fa ;
+    rdfs:label "Observation Protocol"@en, "پروتکل مشاهده"@fa, "Beobachtungsprotokoll"@de ;
     rdfs:subClassOf bb:ResearchAndEducationEntityType .
 
 bb:OfficesAndWritingServiceForReportWriting
@@ -6118,7 +6119,7 @@ bb:OperationalHISDirecting
     meta:chapter bb:chapter9-2 ;
     meta:functionComponent bb:AccessControlManagement ;
     a meta:Function ;
-    rdfs:label "Operational HIS Directing"@en, "عملیات هدایت HIS"@fa ;
+    rdfs:label "Operational HIS Directing"@en, "عملیات هدایت HIS"@fa, "Operative Steuerung des Informationssystems"@de ;
     skos:definition "Directing means the sum of all management activities that are necessary to ensure proper responses to operating problems of components of the hospital information system, that is, to provide backup facilities, to operate a service desk, to maintain servers, and to keep task forces available for repairing network components, servers, personal computers, printers, etc. Directing in this context deals with engaging the resources planned by the strategic information management plan in such a way that faultless operation of the hospital information system is ensured."@en .
 
 bb:OperationalHISMonitoring
@@ -6398,7 +6399,7 @@ bb:Pager
 
 bb:PaperBasedApplicationComponent
     a meta:ApplicationComponent, meta:EntityType ;
-    rdfs:label "Paper-Based Application Component"@en, "اجزا برنامه مبتنی بر کاغذ"@fa ;
+    rdfs:label "Paper-Based Application Component"@en, "اجزا برنامه مبتنی بر کاغذ"@fa, "Nicht-rechnerbasiertes Anwendungssystem"@de ;
     rdfs:subClassOf bb:ApplicationComponent ;
     skos:closeMatch ob:NonComputerBasedApplicationSystem .
 
@@ -7027,7 +7028,7 @@ bb:ProcessChain
     meta:chapter bb:chapter5-2 ;
     meta:entityTypeComponent bb:ActivityModelingElement, bb:RoleModelingElement ;
     a meta:EntityType ;
-    rdfs:label "Process Chain"@en, "ز��جیره فرآیند"@fa ;
+    rdfs:label "Process Chain"@en, "ز��جیره فرآیند"@fa, "Vorgangskette"@de ;
     rdfs:subClassOf bb:BusinessProcessModel .
 
 bb:ProcessControlling
@@ -7048,7 +7049,7 @@ bb:Project
     meta:chapter bb:chapter9-4 ;
     meta:entityTypeComponent bb:MigrationPath, bb:ProjectCompletionPhase, bb:ProjectExecutionModule, bb:ProjectInitiationPhase, bb:ProjectPlanningPhase ;
     a meta:EntityType ;
-    rdfs:label "Project"@en, "پروژه"@fa ;
+    rdfs:label "Project"@en, "پروژه"@fa, "Projekt"@de ;
     skos:definition "Is a unique undertaking that is characterized by management by objectives, by restrictions with regard to available time and resources, and by a specific project organization (DIN 69901)"@en .
 
 bb:ProjectCompletionPhase
@@ -7066,7 +7067,7 @@ bb:ProjectExecution
     meta:updates bb:ApplicationComponent, bb:HospitalInformationSystem, bb:PhysicalDataProcessingSystem ;
     meta:uses bb:ProjectExecutionModule, bb:Resource ;
     a meta:Function ;
-    rdfs:label "Project Execution"@en, "اجرای پروژه"@fa ;
+    rdfs:label "Project Execution"@en, "اجرای پروژه"@fa, "Projektdurchführung"@de ;
     skos:broadMatch ob:ProjectExecution ;
     skos:definition "deals with particular enterprise functions or application components that are introduced, removed, or changed. Usually these activities are done in the form of projects. Such tactical information management projects are initiated by strategic information management."@en .
 
@@ -7076,7 +7077,7 @@ bb:ProjectExecutionModule
 
 bb:ProjectInitiation
     a meta:Function ;
-    rdfs:label "Project Initiation"@en, "آغاز پروژه"@fa ;
+    rdfs:label "Project Initiation"@en, "آغاز پروژه"@fa, "Projektinitierung"@de ;
     rdfs:subClassOf bb:TacticalHISPlanning .
 
 bb:ProjectInitiationPhase
@@ -7089,7 +7090,7 @@ bb:ProjectManagementBoard
     meta:isResponsibleForFunction bb:ProjectConflictManagement, bb:ProjectMonitoring ;
     meta:roleComponent bb:ProjectManager, bb:RepresentativeOfHospitalDepartment, bb:TopManagement, bb:Vendor ;
     a meta:Role ;
-    rdfs:label "Project Management Board"@en, "هیئت مدیره پروژه"@fa ;
+    rdfs:label "Project Management Board"@en, "هیئت مدیره پروژه"@fa, "Projektlenkungsausschuss"@de ;
     skos:closeMatch ob:ProjectSteeringCommittee ;
     skos:definition "Such a project management board supports the project manager by providing an interface between the project manager, future user groups, vendors involved in the project, and strategic information management authorities like CIO and information management board."@en .
 
@@ -7100,19 +7101,19 @@ bb:ProjectManagementMethod
 bb:ProjectManager
     meta:chapter bb:chapter9-6 ;
     a meta:Role ;
-    rdfs:label "Project Manager"@en, "مدیر پروژه"@fa ;
+    rdfs:label "Project Manager"@en, "مدیر پروژه"@fa, "Projektleiter"@de ;
     rdfs:subClassOf bb:InformationManagementStaff .
 
 bb:ProjectMonitoring
     a meta:Function ;
-    rdfs:label "Project Monitoring"@en, "نظارت بر پروژه"@fa ;
+    rdfs:label "Project Monitoring"@en, "نظارت بر پروژه"@fa, "Projektüberwachung"@de ;
     rdfs:subClassOf bb:ProjectExecution .
 
 bb:ProjectPlan
     bb:page "243"^^xsd:positiveInteger ;
     meta:chapter bb:chapter9-2 ;
     a meta:EntityType ;
-    rdfs:label "Project Plan"@en, "طرح پروژه"@fa ;
+    rdfs:label "Project Plan"@en, "طرح پروژه"@fa, "Projektplan"@de ;
     skos:definition "This plan has to describe the project's subject and motivation, the problems to be solved, the goals to be achieved, the tasks to be performed, and the activities to be undertaken to reach the goals."@en .
 
 bb:ProjectPlanning
@@ -7130,7 +7131,7 @@ bb:ProjectPlanningPhase
 bb:ProjectPortfolio
     meta:entityTypeComponent bb:Project ;
     a meta:EntityType ;
-    rdfs:label "Project Portfolio"@en, "نمونه پروژه"@fa .
+    rdfs:label "Project Portfolio"@en, "نمونه پروژه"@fa, "Projektportfolio"@de .
 
 bb:ProjectResourceAllocation
     a meta:Function ;
@@ -7139,7 +7140,7 @@ bb:ProjectResourceAllocation
 
 bb:ProjectResult
     a meta:EntityType ;
-    rdfs:label "Project Result"@en, "نتیجه پروژه"@fa .
+    rdfs:label "Project Result"@en, "نتیجه پروژه"@fa, "Projektergebnis"@de .
 
 bb:ProjectTimeAllocation
     a meta:Function ;
@@ -7195,7 +7196,7 @@ bb:QualitativeObservation
     meta:chapter bb:chapter8-6 ;
     meta:isAssociatedWith bb:ObservationProtocol ;
     a meta:EntityType ;
-    rdfs:label "Qualitative Observation"@en, "مشاهدات کیفی"@fa ;
+    rdfs:label "Qualitative Observation"@en, "مشاهدات کیفی"@fa, "Qualitative Beobachtung"@de ;
     rdfs:subClassOf bb:QualitativeEvaluationMethod ;
     skos:definition " This  comprises  open,  less-standardized,  nonquantitative  observations  of  processes  or events. In contrary to quantitative observations, the aim is not to count and measure, but to get insight into a situation."@en .
 
@@ -7645,7 +7646,7 @@ bb:ResearchManagement
 bb:Resource
     meta:chapter bb:chapter4-4 ;
     a meta:EntityType ;
-    rdfs:label "Resource"@en, "منابع"@fa ;
+    rdfs:label "Resource"@en, "منابع"@fa, "Ressource"@de ;
     rdfs:subClassOf bb:AdministrativeEntityType .
 
 bb:ReturnOnInvestmentStudy
@@ -8197,7 +8198,7 @@ bb:StrategicHISDirecting
     meta:updates bb:Project ;
     meta:uses bb:HisArchitecture, bb:InformationManagementOrganizationalStructure, bb:MigrationPath, bb:ProjectPortfolio, bb:StrategicHISMonitoringResult, bb:StrategicInformationManagementPlan ;
     a meta:Function ;
-    rdfs:label "Strategic HIS Directing"@en, "هدایت استراتژیک HIS"@fa ;
+    rdfs:label "Strategic HIS Directing"@en, "هدایت استراتژیک HIS"@fa, "Strategische Steuerung des Informationssystems"@de ;
     rdfs:subClassOf meta:Function ;
     skos:definition "Directing as part of strategic information management means to transform the strategic information management plan into action, that is, to systematically manipulate the hospital information system to make it conform to the strategic plan. Strategic directing of HIS is a consequence of planning and monitoring hospital functions, HIS architectures, and information management organizations."@en .
 
@@ -8209,7 +8210,7 @@ bb:StrategicHISMonitoring
     meta:updates bb:KeyPerformanceIndicator, bb:StrategicDecision, bb:StrategicHISMonitoringResult ;
     meta:uses bb:FunctionalRedundancyRate, bb:HisQuality, bb:KeyPerformanceIndicator, bb:StrategicInformationManagementPlan ;
     a meta:Function ;
-    rdfs:label "Strategic HIS Monitoring"@en, "نظارت استراتژیک HIS"@fa ;
+    rdfs:label "Strategic HIS Monitoring"@en, "نظارت استراتژیک HIS"@fa, "Strategische Überwachung des Informationssystems"@de ;
     rdfs:subClassOf bb:StrategicInformationManagement ;
     skos:definition "Monitoring as part of strategic information management means continuously auditing HIS quality as defined by means of its strategic information management plan’s directives and goals."@en .
 
@@ -8225,7 +8226,7 @@ bb:StrategicHISPlanning
     meta:functionComponent bb:LongTermHISPlanning, bb:PortfolioManagement, bb:ShortTermHISPlanning ;
     meta:updates bb:HisArchitecture, bb:HospitalInformationSystem, bb:ProjectPortfolio, bb:StrategicInformationManagementPlan ;
     a meta:Function ;
-    rdfs:label "Strategic HIS Planning"@en, "برنامه ریزی استراتژیک  HIS"@fa ;
+    rdfs:label "Strategic HIS Planning"@en, "برنامه ریزی استراتژیک  HIS"@fa, "Rahmenplanung von Informationssystemen"@de ;
     skos:definition "The planning activities of strategic information management result in a specific strategic information management plan. This plan includes the direction and strategy of information management and gives directives for the construction and development of the hospital information system by describing its intended architecture."@en .
 
 bb:StrategicHospitalGoal
@@ -8251,7 +8252,7 @@ bb:StrategicInformationManagementGoal
     bb:page "216"^^xsd:positiveInteger ;
     meta:chapter bb:chapter8-5, bb:chapter9-4 ;
     a meta:EntityType ;
-    rdfs:label "Strategic Information Management Goal"@en, "هدف مدیریت اطلاعات استراتژیک"@fa ;
+    rdfs:label "Strategic Information Management Goal"@en, "هدف مدیریت اطلاعات استراتژیک"@fa, "Strategisches Ziel"@de ;
     rdfs:subClassOf bb:InformationManagementGoal ;
     skos:definition "Based on a description of the hospital‟s strategic goals (e.g., presented in a mission statement), the strategic information management goals should be derived using the method of strategic alignment. (chapter 9.4) The challenge of information management is to keep the balance between the different - and possible contradicting- goals of the hospital. (chapter 8.5)"@en .
 
@@ -8336,7 +8337,7 @@ bb:Subsystem
     bb:page "323"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
-    rdfs:label "Subsystem"@en, "زیر سیستم"@fa ;
+    rdfs:label "Subsystem"@en, "زیر سیستم"@fa, "Teilsystem"@de ;
     skos:definition "A subset of all components of a system, together with the relationships between them."@en .
 
 bb:SuitabilityForIndividualization
@@ -8390,7 +8391,7 @@ bb:Sustainability
     bb:page "204"^^xsd:positiveInteger ;
     meta:chapter bb:chapter8-2 ;
     a meta:EntityType ;
-    rdfs:label "Sustainability"@en, "پایداری"@fa ;
+    rdfs:label "Sustainability"@en, "پایداری"@fa, "Angemessenheit"@de ;
     rdfs:subClassOf bb:SoftwareQuality ;
     skos:definition "How sustainable is the overall software product? For example, a R IS software is still built on the programming language that is not further supported and developed."@en .
 
@@ -8405,7 +8406,7 @@ bb:SwotAnalysis
     meta:chapter bb:Thesaurus ;
     meta:isAssociatedWith bb:HisQuality ;
     a meta:EntityType ;
-    rdfs:label "SWOT Analysis"@en, "تجزیه و تحلیل SWOT (ارزیابی نقاط قوت، ضعف، فرصت ها و تهدیدات)"@fa ;
+    rdfs:label "SWOT Analysis"@en, "تجزیه و تحلیل SWOT (ارزیابی نقاط قوت، ضعف، فرصت ها و تهدیدات)"@fa, "Stark- und Schwachstellenanalyse"@de ;
     rdfs:subClassOf bb:EvaluationMethod ;
     skos:definition " Quantitative  and/or  qualitative  analysis  of  the  most  signiﬁcant strengths (positive features), weaknesses (negative features), opportunities (potential strengths), and threats (potential weaknesses) that characterize an information system. component.  "@en .
 
@@ -8427,18 +8428,18 @@ bb:System
 
 bb:SystemAnalysis
     a meta:Function ;
-    rdfs:label "System Analysis"@en, "تحلیل سیستم"@fa ;
+    rdfs:label "System Analysis"@en, "تحلیل سیستم"@fa, "Systemanalyse"@de ;
     rdfs:subClassOf bb:ProjectExecution .
 
 bb:SystemEvaluation
     a meta:Function ;
-    rdfs:label "System Evaluation"@en, "ارزیابی سیستم"@fa ;
+    rdfs:label "System Evaluation"@en, "ارزیابی سیستم"@fa, "Systemevaluation"@de ;
     rdfs:subClassOf bb:ProjectExecution .
 
 bb:SystemIntroduction
     meta:functionComponent bb:Customizing ;
     a meta:Function ;
-    rdfs:label "System Introduction"@en, "معرفی سیستم"@fa ;
+    rdfs:label "System Introduction"@en, "معرفی سیستم"@fa, "Systemeinführung"@de ;
     rdfs:subClassOf bb:ProjectExecution .
 
 bb:SystemOfConcepts
@@ -8447,7 +8448,7 @@ bb:SystemOfConcepts
 
 bb:SystemSelection
     a meta:Function ;
-    rdfs:label "System Selection"@en, "انتخاب سیستم"@fa ;
+    rdfs:label "System Selection"@en, "انتخاب سیستم"@fa, "Systemauswahl"@de ;
     rdfs:subClassOf bb:ProjectExecution .
 
 bb:SystemSpecification
@@ -8490,7 +8491,7 @@ bb:TacticalHISDirecting
     meta:functionComponent bb:TacticalInformationManagement ;
     meta:uses bb:Project, bb:ProjectPlan, bb:StrategicInformationManagementPlan ;
     a meta:Function ;
-    rdfs:label "Tactical HIS Directing"@en, "هدایت تاکتیکی HIS"@fa ;
+    rdfs:label "Tactical HIS Directing"@en, "هدایت تاکتیکی HIS"@fa, "Taktische Steuerung des Informationsystems"@de ;
     rdfs:subClassOf bb:TacticalInformationManagement ;
     skos:definition "Directing in tactical management means the execution of such tactical information management projects in hospitals, based on a project plan. Therefore, it includes typical tasks of project management such as resource allocation and coordination, motivation and training of the staff, etc. Monitoring means continually"@en .
 
@@ -8502,7 +8503,7 @@ bb:TacticalHISMonitoring
     meta:updates bb:Project ;
     meta:uses bb:ProjectResult, bb:StrategicInformationManagementPlan ;
     a meta:Function ;
-    rdfs:label "Tactical HIS Monitoring"@en, "نظارت تاکتیکی بر HIS"@fa ;
+    rdfs:label "Tactical HIS Monitoring"@en, "نظارت تاکتیکی بر HIS"@fa, "Taktische Überwachung von Informationssystemen"@de ; ;
     rdfs:subClassOf bb:TacticalInformationManagement ;
     skos:definition "Monitoring means continually checking whether the initiated projects are running as planned and whether they will produce the expected results. Monitoring results infl uence project planning, as a project’s plan may be updated or changed according to the results of the project’s monitoring in a given situation"@en .
 
@@ -8514,7 +8515,7 @@ bb:TacticalHISPlanning
     meta:updates bb:Project, bb:ProjectPlan ;
     meta:uses bb:StrategicInformationManagementPlan ;
     a meta:Function ;
-    rdfs:label "Tactical HIS Planning"@en, "برنامه ریزی تاکتیکی HIS"@fa ;
+    rdfs:label "Tactical HIS Planning"@en, "برنامه ریزی تاکتیکی HIS"@fa, "Taktische Planung von Informationssystemen"@de ;
     rdfs:subClassOf bb:TacticalInformationManagement ;
     skos:definition "Planning in tactical information management means planning projects and all the resources needed for them."@en .
 
@@ -8705,7 +8706,7 @@ bb:Tiff
 bb:TimeMeasurement
     meta:chapter bb:chapter8-6 ;
     a meta:EntityType ;
-    rdfs:label "Time Measurement"@en, "اندازه گیری زمان"@fa ;
+    rdfs:label "Time Measurement"@en, "اندازه گیری زمان"@fa, "Zeitmessung"@de ;
     rdfs:subClassOf bb:QuantitativeEvaluationMethod .
 
 bb:TimeMotionAnalysis
@@ -8796,7 +8797,7 @@ bb:Transparency
     meta:chapter bb:chapter8-2 ;
     meta:isAssociatedWith <bb/3LGM2> ;
     a meta:EntityType ;
-    rdfs:label "Transparency"@en, "شفافیت"@fa ;
+    rdfs:label "Transparency"@en, "شفافیت"@fa, "Transparenz"@de ;
     rdfs:subClassOf bb:QualityOfHISArchitecture ;
     skos:definition "The details of the HIS architecture are described in an up-to-date documentation (e.g., using 3LGM ² as modeling language)."@en .
 
@@ -8838,7 +8839,7 @@ bb:Ultrasound
 bb:UmlActivityDiagram
     meta:chapter bb:chapter5-2 ;
     a meta:EntityType ;
-    rdfs:label "UML Activity Diagram"@en, "نمودار فعالیت UML"@fa ;
+    rdfs:label "UML Activity Diagram"@en, "نمودار فعالیت UML"@fa, "UML-Aktivitätsdiagramm"@de ;
     rdfs:subClassOf bb:BusinessProcessModel .
 
 bb:UmlAssociation
@@ -8860,7 +8861,7 @@ bb:UmlClass
     meta:chapter bb:chapter5-3 ;
     meta:entityTypeComponent bb:UmlAttribute, bb:UmlMethod ;
     a meta:EntityType ;
-    rdfs:label "UML Class"@en, "کلاسUML"@fa ;
+    rdfs:label "UML Class"@en, "کلاسUML"@fa, "UML-Klassendiagramm"@de ;
     skos:definition "Classes contain the attributes and methods of a set of similar entities."@en .
 
 bb:UmlClassDiagram
@@ -8926,7 +8927,7 @@ bb:Usability
     bb:page "203"^^xsd:positiveInteger ;
     meta:chapter bb:chapter8-2 ;
     a meta:EntityType ;
-    rdfs:label "Usability"@en, "قابلیت استفاده"@fa ;
+    rdfs:label "Usability"@en, "قابلیت استفاده"@fa, "Verwendbarkeit"@de ;
     rdfs:subClassOf bb:ISO25000SoftwareQuality ;
     skos:definition "Is the application component easy to use? For more details on software ergonomics, see next paragraph."@en .
 
@@ -8981,7 +8982,7 @@ bb:UtilityAnalysis
     bb:page "227"^^xsd:positiveInteger, "325"^^xsd:positiveInteger, "327"^^xsd:positiveInteger ;
     meta:chapter bb:Thesaurus ;
     a meta:EntityType ;
-    rdfs:label "Utility Analysis"@en, "تجزیه و تحلیل سودمندی"@fa ;
+    rdfs:label "Utility Analysis"@en, "تجزیه و تحلیل سودمندی"@fa, "Nutzwertanalyse"@de ;
     rdfs:subClassOf bb:EconomicAnalysis, bb:QuantitativeEvaluationMethod ;
     skos:definition " An economic analysis that compares costs and consequences of an information system component, taking personal preferences into account by including weighting factors for each criterion.  "@en .
 
@@ -8997,7 +8998,7 @@ bb:Vendor
     meta:isAssociatedWith bb:HisStakeholder ;
     meta:isResponsibleForFunction bb:SoftwareDevelopment, bb:ThirdLevelSupport ;
     a meta:Role ;
-    rdfs:label "Vendor"@en, "فروشنده"@fa .
+    rdfs:label "Vendor"@en, "فروشنده"@fa, "Anbieter"@de .
 
 bb:VendorStyle
     meta:chapter bb:chapter6-5 ;
