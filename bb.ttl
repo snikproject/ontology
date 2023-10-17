@@ -8162,7 +8162,7 @@ bb:StrategicDecision
 
 bb:StrategicGoalOfTheInstitution
     a meta:EntityType ;
-    rdfs:label "Strategic Goal of the Institution"@en, "هدف استراتژیک موسسه"@fa ;
+    rdfs:label "Strategic Goal of the Institution"@en, "هدف استراتژیک موسسه"@fa, "Strategisches Ziel der Institution"@de ;
     rdfs:subClassOf bb:ManagementEntityType .
 
 bb:StrategicGoalOfTheNetwork
@@ -8227,6 +8227,7 @@ bb:StrategicHISPlanning
     meta:updates bb:HisArchitecture, bb:HospitalInformationSystem, bb:ProjectPortfolio, bb:StrategicInformationManagementPlan ;
     a meta:Function ;
     rdfs:label "Strategic HIS Planning"@en, "برنامه ریزی استراتژیک  HIS"@fa, "Rahmenplanung von Informationssystemen"@de ;
+    skos:altLabel "Strategische Planung des Informationssystems"@de ;
     skos:definition "The planning activities of strategic information management result in a specific strategic information management plan. This plan includes the direction and strategy of information management and gives directives for the construction and development of the hospital information system by describing its intended architecture."@en .
 
 bb:StrategicHospitalGoal
@@ -8252,7 +8253,7 @@ bb:StrategicInformationManagementGoal
     bb:page "216"^^xsd:positiveInteger ;
     meta:chapter bb:chapter8-5, bb:chapter9-4 ;
     a meta:EntityType ;
-    rdfs:label "Strategic Information Management Goal"@en, "هدف مدیریت اطلاعات استراتژیک"@fa, "Strategisches Ziel"@de ;
+    rdfs:label "Strategic Information Management Goal"@en, "هدف مدیریت اطلاعات استراتژیک"@fa, "Strategisches Ziel des Informationsmanagements"@de ;
     rdfs:subClassOf bb:InformationManagementGoal ;
     skos:definition "Based on a description of the hospital‟s strategic goals (e.g., presented in a mission statement), the strategic information management goals should be derived using the method of strategic alignment. (chapter 9.4) The challenge of information management is to keep the balance between the different - and possible contradicting- goals of the hospital. (chapter 8.5)"@en .
 
