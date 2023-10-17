@@ -1,4 +1,4 @@
 #!/bin/sh
 ./scripts/combine
-pyshacl -s shacl.ttl -a -f human /tmp/snik.ttl | tee /tmp/shacl.txt
+pyshacl -s shacl.ttl -a -f human ./dist/snik.ttl | tee /tmp/shacl.txt
 exit
