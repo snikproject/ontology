@@ -1,6 +1,5 @@
-#/bin/sh
+#!/bin/sh
 # Combine all of SNIK into one file.
-# "source scripts/combine" in CI so GITHUB_STEP_SUMMARY gets exported
 
 MYPATH=`dirname "$0"`
 MYPATH=`( cd "$MYPATH" && pwd )`
@@ -8,14 +7,25 @@ DISTPATH=$MYPATH/../dist
 mkdir -p $DISTPATH
 cat $MYPATH/../*.ttl $MYPATH/../*.nt | rapper -i turtle -o turtle  - http://www.snik.eu/ontology/ > $DISTPATH/snik.ttl
 cd $DISTPATH
-GITHUB_STEP_SUMMARY="`wc -l snik.nt | cut -f1 -d ' '` triples \n\n"
+rapper -i turtle -o ntriples snik.ttl > snik.nt
+printf "`wc -l snik.nt | cut -f1 -d ' '` triples\n\n"
+# awk supports decimal places
 if type awk > /dev/null 2>&1; then
-	GITHUB_STEP_SUMMARY+="|  Filename |  bytes    |   KiB    |   MiB    |    KB    |    MB    |\n"
-	GITHUB_STEP_SUMMARY+="|  -------- |  -----    |   ---    |   ---    |    --    |    --    |\n"
+	echo "|  Filename  |  bytes    |   KiB    |   MiB    |    KB    |    MB    |"
+	echo "|  --------  |  -----    |   ---    |   ---    |    --    |    --    |"
 	# "command ls" in case it is aliased to eza or something else, we need the exact ls output format
-	GITHUB_STEP_SUMMARY+=`LC_ALL=C command ls -l snik.* | awk '{printf("|%10s |%10s |%9s |%9s |%9s |%9s |\n", $9, $5, $5/1024, $5/1024^2, $5/1000, $5/1000^2)}'`
+	LC_ALL=C command ls -l snik.* | awk '{printf("|%11s |%10s |%9s |%9s |%9s |%9s |\n", $9, $5, $5/1024, $5/1024^2, $5/1000, $5/1000^2)}'
 fi
-
-printf "$GITHUB_STEP_SUMMARY"
-export GITHUB_STEP_SUMMARY
-cd ..
+printf "\n## Rounded\n\n"
+# bash has easier command substitution but only integers
+echo "|  Filename   |  triples    | bytes        |   KiB     |   MiB   |    KB     |    MB  |"
+echo "|  ---------  |  -------    | -----        |   ---     |   ---   |    --     |    --  |"
+command ls -l snik.* | tr -s ' ' | cut -f5,9 -d ' ' | while read -r size filename; do 
+  triples=$(rapper -i turtle -c "$filename" 2>&1 | grep -o "[0-9]*")
+  kb=$((size / 1000))
+  mb=$((size / 1000000))
+  kib=$((size / 1024))
+  mib=$((size / 1024 / 1024))
+  #echo "$size $filename"
+  printf "| %11s | %11s | %12s | %9s | %7s | %9s |%7s |\n" $filename $triples $size $kib $mib $kb $mb
+done
