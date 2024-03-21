@@ -1,0 +1,46 @@
+name: Release
+on:
+  push:
+    tags: '[2-9][0-9]\.[0-9][0-9]'
+jobs:
+  create-release:
+    name: Create release
+    runs-on: ubuntu-latest
+    outputs:
+      upload_url: ${{ steps.create-release.outputs.upload_url }}
+    steps:
+      - name: Changelog
+        id: changelog
+        uses: mikepenz/release-changelog-builder-action@v4
+        with:
+          commitMode: true
+          configurationJson: |
+            {
+              "pr_template": "- #{{TITLE}}",
+              "template": "#{{UNCATEGORIZED}}"
+            }
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get install -y raptor2-utils
+
+      - name: Build
+        id: build
+        run: |
+             scripts/combine | tee $GITHUB_STEP_SUMMARY
+             echo 'summary<<EOF' >> $GITHUB_OUTPUT
+             cat ${GITHUB_STEP_SUMMARY} >> $GITHUB_OUTPUT
+             echo 'EOF' >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        id: create-release
+        uses: softprops/action-gh-release@v2
+        with:
+          body: |
+                ${{ steps.build.outputs.summary }}
+                ${{ steps.changelog.outputs.changelog }}
+          files: |
+            dist/snik.nt
+            dist/snik.ttl

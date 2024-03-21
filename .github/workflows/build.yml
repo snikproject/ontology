@@ -1,11 +1,11 @@
 name: build
- 
+
 on:
   workflow_dispatch:
   push:
     branches:
       - master
- 
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,9 +14,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: |
-          sudo apt-get install -y raptor2-utils
-          pip install pyshacl
+        run: sudo apt-get install -y raptor2-utils
 
-      - name: Build and Validate
-        run: ./scripts/shacl
+      - name: Build
+        run: scripts/combine | tee $GITHUB_STEP_SUMMARY
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: dist
+          folder: dist
+          single-commit: true
