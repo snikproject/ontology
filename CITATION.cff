@@ -54,3 +54,28 @@ license: "CC-BY-NC-SA-4.0"
 identifiers:
   - type: doi
     value: 10.5281/zenodo.8300605
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Höffner
+      given-names: Konrad
+    - family-names: Jahn
+      given-names: Franziska
+    - family-names: Kücherer
+      given-names: Christian
+    - family-names: Paech
+      given-names: Barbara
+    - family-names: Schneider
+      given-names: Birgit
+    - family-names: Schöbel
+      given-names: Martin
+    - family-names: Stäubert
+      given-names: Sebastian
+    - family-names: Winter
+      given-names: Alfred
+  title: "Technical Environment for Developing the SNIK Ontology of Information Management in Hospitals"
+  journal: Studies in Health Technology and Informatics
+  year: 2017
+  volume: 243
+  start: 122
+  end: 126
