@@ -1,0 +1,16 @@
+name: Delete Class
+description: Permanently delete a class
+labels: ["deleteclass"]
+assignees:
+  - KonradHoeffner
+body:
+  - type: input
+    id: class
+    attributes:
+      label: Class
+    validations:
+      required: true
+  - type: textarea
+    id: sparql
+    attributes:
+      label: SPARQL query
