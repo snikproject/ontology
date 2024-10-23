@@ -5,7 +5,7 @@ MYPATH=`dirname "$0"`
 MYPATH=`( cd "$MYPATH" && pwd )`
 DISTPATH=$MYPATH/../dist
 mkdir -p $DISTPATH
-cat $MYPATH/../*.ttl $MYPATH/../*.nt | rapper -i turtle -o turtle  - http://www.snik.eu/ontology/ > $DISTPATH/snik.ttl
+cat $MYPATH/../*.ttl $MYPATH/../limes.nt $MYPATH/../match.nt | rapper -i turtle -o turtle  - http://www.snik.eu/ontology/ > $DISTPATH/snik.ttl
 cd $DISTPATH
 rapper -i turtle -o ntriples snik.ttl > snik.nt
 printf "`wc -l snik.nt | cut -f1 -d ' '` triples\n\n"
