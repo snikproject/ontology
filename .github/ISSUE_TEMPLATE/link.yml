@@ -1,0 +1,22 @@
+name: Confirm Interlink
+description: Confirm that an automatically generated interlink between two classes from different subontologies is correct.
+labels: ["link"]
+assignees:
+  - KonradHoeffner
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: Target
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Optional Explanation
