@@ -11,6 +11,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: sparql
+    id: explanation
     attributes:
-      label: SPARQL query
+      label: Explanation
