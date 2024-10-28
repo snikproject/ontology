@@ -20,5 +20,4 @@ jobs:
             meta.ttl
             bb.ttl
             ob.ttl
-            he.ttl
           shacl: shacl.ttl
