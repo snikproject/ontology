@@ -4417,7 +4417,7 @@ ob:ProjectOrder
     meta:entityTypeComponent ob:NameAndAddressOfContractor, ob:NameAndAddressOfSponsor, ob:ProjectBackgroundAndGoal, ob:ProjectSpecification, ob:SignatureOfContractor, ob:SignatureOfSponsor ;
     a meta:EntityType ;
     rdfs:label "Project Order"@en, "Projektauftrag"@de ;
-	skos:alternativeLabel "Project Charter"@en ;
+    skos:altLabel "Project Charter"@en ;
     rdfs:subClassOf ob:ProjectDocument ;
     skos:definition "Formelle Beauftragung zur Durchführung eines Projekts durch einen Auftraggeber. Der Projektauftrag sollte in schriftlicher Form vorliegen und zumindest die folgenden Aspekte beinhalten: Hintergrund und SMART formulierte Projektziele, Vorhaben zu Laufzeit und Budget, Vorgaben zur Projektorganisation sowie Name des Auftraggebers und des Auftragnehmers."@de .
 
