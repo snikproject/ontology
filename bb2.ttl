@@ -1,0 +1,1838 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://www.snik.eu/ontology/meta/> .
+@prefix bb: <http://www.snik.eu/ontology/bb/> .
+@prefix bb2: <http://www.snik.eu/ontology/bb2/> .
+@prefix ob: <http://www.snik.eu/ontology/ob/> .
+@prefix ciox: <http://www.snik.eu/ontology/ciox/> .
+@prefix he: <http://www.snik.eu/ontology/he/> .
+@prefix it4it: <http://www.snik.eu/ontology/it4it/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+bb2:ActivitiesToBeUndertakenToReachTheGoals
+    a :EntityType ;
+    rdfs:label "activities to be undertaken to reach the goals"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AdHocMonitoring
+    a :Function ;
+    rdfs:label "ad-hoc monitoring"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AdHocMonitoringActivities
+    a :Function ;
+    rdfs:label "Ad-Hoc Monitoring Activities"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AdministrativeSystem
+    a :EntityType ;
+    rdfs:label "administrative system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AdvancesInInformationAndCommunicationTechnology
+    :updates bb2:BusinessGoal ;
+    a :Function ;
+    rdfs:label "advances in information and communication technology"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AlignTheVisionMissionAndStrategyOfTheHealthCareFacility
+    a :Function ;
+    rdfs:label "align the vision, mission, and strategy of the health care facility"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AllocationOfThelimitedBudget
+    a :EntityType ;
+    rdfs:label "allocation of the (limited) budget"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AmountOfInvestmentInTheInformationSystem
+    a :EntityType ;
+    rdfs:label "amount of investment in the information system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AnarchicSituation
+    a :EntityType ;
+    rdfs:label "Anarchic situation"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AnnualProjectPortfolio
+    :entityTypeComponent bb2:Projects ;
+    :isBasedOn bb2:StrategicProjectPortfolio ;
+    a :EntityType ;
+    rdfs:label "annual project portfolio"@en ;
+    skos:altLabel ""@en, "Annual Project Portfolio"@en, "Annual project portfolio"@en ;
+    skos:definition "The annual project portfolio is derived from the strategic project portfolio as described in the strategic information management plan. While the strategic project portfolio represents the planned projects for a longer period of time (e.g., three to five years), the annual project portfolio describes the projects to be executed in the next year. "@en .
+
+bb2:ApplicationComponent
+    a :EntityType ;
+    rdfs:label "application component"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ApplicationComponentPortfolioManagement
+    :updates bb2:ApplicationComponent ;
+    a :Function ;
+    rdfs:label "application component portfolio management"@en ;
+    rdfs:subClassOf bb2:PortfolioManagement ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ApplicationOfTechnologicalAdvances
+    a :Function ;
+    rdfs:label "application of technological advances"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AppropriateExecutionOfTheIndividualProjectSteps
+    :isBasedOn bb2:OrganizationalStructures ;
+    a :EntityType ;
+    rdfs:label "appropriate execution of the individual project steps"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ArchitecturalStyleToBeUsed
+    a :EntityType ;
+    rdfs:label "architectural style to be used"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Architecture
+    :isAssociatedWith bb2:Resources ;
+    a :EntityType ;
+    rdfs:label "architecture"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Archives
+    a :EntityType ;
+    rdfs:label "archives"@en ;
+    rdfs:subClassOf bb2:Resources ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AreasOfImprovementToBeIdentified
+    a :Function ;
+    rdfs:label "areas of improvement to be identified"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AssessmentOfTheCurrentStateOfTheInformationSystem
+    a :EntityType ;
+    rdfs:label "Assessment of the current state of the information system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition "The current state is then assessed with respect to the achievement of information management goals. Note that the lack of computer support for a certain function may not in all cases be assessed as a sign of poor support for that function. For example, a lack of computers in patient rooms and, consequently, the use of paper-based documentation for clinical findings may be part of the goal of being a humane hospital without using computers and hand-held digital devices in this area."@en .
+
+bb2:AssignmentOfAProjectManager
+    a :Function ;
+    rdfs:label "assignment of a project manager"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Availability
+    a :EntityType ;
+    rdfs:label "Availability"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AvailabilityOfTheApplicationComponents
+    a :EntityType ;
+    rdfs:label "availability of the application components"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:AvailableTime
+    a :EntityType ;
+    rdfs:label "available time"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Backbone
+    a :EntityType ;
+    rdfs:label "Backbone"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:BasicItPrinciples
+    a :EntityType ;
+    rdfs:label "basic IT principles"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:BenchmarkingOfHealthInformationSystems
+    a :Function ;
+    rdfs:label "Benchmarking of Health Information Systems"@en ;
+    skos:altLabel ""@en, "benchmarking"@en ;
+    skos:definition ""@en .
+
+bb2:BoardOfDirectors
+    a :Role ;
+    rdfs:label "board of directors"@en ;
+    skos:altLabel ""@en, "Figure"@en ;
+    skos:definition "Testdefinition"@en .
+
+bb2:BusinessGoal
+    a :EntityType ;
+    rdfs:label "business goal"@en ;
+    skos:altLabel ""@en ;
+    skos:definition "The strategic, long-term goals of a health care facility are also called business goals. The term “business goal” should not be understood in a purely profit-oriented or economic way, which means focusing on financial gain only. Instead, as health care facilities should serve the needs of individual patients and of society, we should understand business goals as all goals of a health care facility that reflect its mission in patient care, research, and education."@en .
+
+bb2:BusinessStrategyOfTheEnterprise
+    a :EntityType ;
+    rdfs:label "business strategy of the enterprise"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CalculateAnOverallPriorityScoreForEachProject
+    a :Function ;
+    rdfs:label "Calculate an overall priority score for each project"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Central
+    a :Role ;
+    rdfs:label "Central"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CentralApplicationSystems
+    a :EntityType ;
+    rdfs:label "Central application systems"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CentralInformationManagementDepartment
+    :isResponsibleForFunction bb2:StrategicManagementOfInformationSystems ;
+    :isResponsibleForEntityType bb2:CentralServersAndNetworks, bb2:ComputerNetwork, bb2:EnterpriseResourcePlanningSystem, bb2:MedicalDocumentationAndManagementSystem ;
+    a :Role ;
+    rdfs:label "central information management department"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CentralServers
+    a :EntityType ;
+    rdfs:label "Central servers"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CentralServersAndNetworks
+    a :EntityType ;
+    rdfs:label "Central servers and networks"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Ceo
+    a :Role ;
+    rdfs:label "CEO"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ChangeManagementProcess
+    a :Function ;
+    rdfs:label "change management process"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ChiefExecutiveOfficer
+    a :Role ;
+    rdfs:label "chief executive officer"@en ;
+    skos:altLabel "CEO"@en ;
+    skos:definition ""@en .
+
+bb2:ChiefFinancialOfficer
+    a :Role ;
+    rdfs:label "chief financial officer"@en ;
+    skos:altLabel "CFO"@en ;
+    skos:definition ""@en .
+
+bb2:ChiefInformationOfficer
+    :isAssociatedWith bb2:ChiefFinancialOfficer, bb2:NursingDirector, bb2:RequirementsForManagementOfInformationSystems ;
+    :isResponsibleForFunction bb2:AlignTheVisionMissionAndStrategyOfTheHealthCareFacility, bb2:EstablishPromoteAndImplementTheStrategicInformationManagementPlan, bb2:MakeOrPrepareAllRelevantStrategicDecisionsOnTheInformationSystem, bb2:ManagementOfInformationSystems, bb2:OperationalManagementOfInformationSystems, bb2:OverseeTacticalManagementOfTheInformationSystemAndTheProjectPortfolio, bb2:PrioritizeAndInitiateItsProjects ;
+    :isResponsibleForEntityType bb2:EvaluationStudies, bb2:StrategicInformationManagementPlan ;
+    a :Role ;
+    rdfs:label "chief information officer"@en ;
+    rdfs:subClassOf bb2:ChiefMedicalInformationOfficer, bb2:ChiefNursingInformationOfficer ;
+    skos:altLabel "CIO"@en, "director of information systems"@en, "vice president of information systems"@en ;
+    skos:definition ""@en .
+
+bb2:ChiefMedicalInformationOfficer
+    a :Role ;
+    rdfs:label "chief medical information officer"@en ;
+    skos:altLabel "CMIO"@en ;
+    skos:definition ""@en .
+
+bb2:ChiefNursingInformationOfficer
+    a :Role ;
+    rdfs:label "chief nursing information officer"@en ;
+    skos:altLabel "CNIO"@en ;
+    skos:definition ""@en .
+
+bb2:Clients
+    a :EntityType ;
+    rdfs:label "Clients"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ClinicalAndAdministrativeDepartment
+    :isAssociatedWith bb2:StrategicInformationManagementPlan ;
+    a :Role ;
+    rdfs:label "clinical and administrative department"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ClinicalSystem
+    a :EntityType ;
+    rdfs:label "clinical system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CollectAndAnalyzeAggregatedData
+    a :Function ;
+    rdfs:label "collect and analyze aggregated data"@en ;
+    rdfs:subClassOf bb2:ContinuouslyAuditingQualityAndCostOfTheInformationSystem ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Collects
+    a :Function ;
+    rdfs:label "collects"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CollectsVariousInformationRegardingTheStateOfTheInformationSystemsComponentsAndUsersAndPatientsRequirements
+    a :Function ;
+    rdfs:label "collects various information regarding the state of the information systems' components and users' and patients' requirements"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CommentaryOnTheHealthCareFacilityInTheLocalPress
+    a :EntityType ;
+    rdfs:label "commentary on the health care facility in the local press"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ComparesTheseWithTheProjectPlan
+    a :Function ;
+    rdfs:label "compares these with the project plan"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CompletionOfProjects
+    a :EntityType ;
+    rdfs:label "completion of projects"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ComprehensiveServices
+    a :Function ;
+    rdfs:label "comprehensive services"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ComputerBased
+    :isAssociatedWith bb2:PaperBasedTools ;
+    a :EntityType ;
+    rdfs:label "Computer-Based"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ComputerBasedNursingManagementAndDocumentationSystem
+    a :EntityType ;
+    rdfs:label "computer-based nursing management and documentation system"@en ;
+    rdfs:subClassOf bb2:EnhancementApplication ;
+    skos:altLabel "NMDS"@en ;
+    skos:definition ""@en .
+
+bb2:ComputerNetwork
+    a :EntityType ;
+    rdfs:label "computer network"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ConfidentialityOfData
+    a :Function ;
+    rdfs:label "Confidentiality of data"@en ;
+    rdfs:subClassOf bb2:ContinuouslyAuditingQualityAndCostOfTheInformationSystem ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ConsistencyOfRedundantData
+    a :Function ;
+    rdfs:label "consistency of redundant data"@en ;
+    rdfs:subClassOf bb2:ContinuouslyAuditingQualityAndCostOfTheInformationSystem ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Consultant
+    :isAssociatedWith bb2:StrategicInformationManagementPlan ;
+    a :Role ;
+    rdfs:label "consultant"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ContinuouslyAuditingQualityAndCostOfTheInformationSystem
+    :isAssociatedWith bb2:OperationalManagementOfInformationSystems, bb2:StrategicManagementOfInformationSystems, bb2:TacticalManagementOfInformationSystems, bb2:Users ;
+    :updates bb2:EvaluationProject, bb2:MonitoringResults ;
+    :uses bb2:CompletionOfProjects, bb2:DocumentationQuality, bb2:DocumentationTime, bb2:InformationSystem, bb2:NumberOfMedicalErrors, bb2:RelevantLaws, bb2:StakeholdersRequirements, bb2:StrategicInformationManagementPlan, bb2:Tasks, bb2:UserSatisfactionSurvey, bb2:VisionAndMission ;
+    a :Function ;
+    rdfs:label "continuously auditing quality and cost of the information system"@en ;
+    skos:altLabel ""@en, "Auditing"@en, "auditing"@en ;
+    skos:definition ""@en .
+
+bb2:ControlObjectivesForInformationAndRelatedTechnology
+    :entityTypeComponent bb2:ProcessesAndBestPractices ;
+    a :EntityType ;
+    rdfs:label "Control Objectives for Information and Related Technology"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CostsAndRisks
+    a :EntityType ;
+    rdfs:label "costs and risks"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CostsForManagementOfInformationSystems
+    a :EntityType ;
+    rdfs:label "costs for management of information systems"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CreateAnUpToDateListOfOngoingOrPlannedProjects
+    a :Function ;
+    rdfs:label "Create an up-to-date list of ongoing or planned projects"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CreateValueForStakeholders
+    :uses bb2:OrganizationalStructures ;
+    a :Function ;
+    rdfs:label "create value for stakeholders"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:CurrentStateOfTheInformationSystem
+    a :EntityType ;
+    rdfs:label "current state of the information system"@en ;
+    skos:altLabel ""@en, "Current state of the information system"@en, "state of the information system"@en ;
+    skos:definition "Before any planning starts, the information system’s current state is described. This may require some discipline, because some stakeholders may be more interested in the planned (new) state than in the current (obsolete) state. The description is the basis for identifying those functions of the health care facility that are well-supported by the information system and those functions that are not (yet) well-supported. Thus, application components and physical data processing systems are to be described, including how they support the functions. The metamodel 3LGM² and related software is very helpful for this task."@en .
+
+bb2:DataIntegrationCapabilities
+    a :Function ;
+    rdfs:label "data integration capabilities"@en ;
+    rdfs:subClassOf bb2:ContinuouslyAuditingQualityAndCostOfTheInformationSystem ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DataSecurity
+    :isAssociatedWith bb2:WorkingProcesses ;
+    a :EntityType ;
+    rdfs:label "Data Security"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DecentralizedApplicationSystems
+    a :EntityType ;
+    rdfs:label "Decentralized application systems"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DecentralizedServers
+    a :EntityType ;
+    rdfs:label "Decentralized servers"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DecisionsOnTheApplicationSystemsToBeUsed
+    a :EntityType ;
+    rdfs:label "decisions on the application systems to be used"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DecisionsOnTheMigrationPath
+    a :EntityType ;
+    rdfs:label "decisions on the migration path"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DecisionsOnThePlannedStateOfTheFacilitysInformationSystem
+    :entityTypeComponent bb2:ArchitecturalStyleToBeUsed, bb2:BasicItPrinciples, bb2:DecisionsOnTheApplicationSystemsToBeUsed, bb2:DecisionsOnTheMigrationPath, bb2:DesignOfTheItInfrastructure, bb2:FinancialDecision ;
+    :isBasedOn bb2:OrganizationalStructures ;
+    a :EntityType ;
+    rdfs:label "decisions on the planned state of the facility’s information system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DefineTheEvaluationCriteria
+    a :Function ;
+    rdfs:label "Define the evaluation criteria"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Dependencies
+    a :EntityType ;
+    rdfs:label "dependencies"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DescriptionOfAppropriateOrganizationalStructures
+    a :EntityType ;
+    rdfs:label "description of appropriate organizational structures"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DesignOfTheItInfrastructure
+    a :EntityType ;
+    rdfs:label "design of the IT infrastructure"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DesignProvideDeliverAndImproveSuchCustomerCenteredServices
+    a :Function ;
+    rdfs:label "design, provide, deliver, and improve such customer-centered services"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Dimension
+    a :Role ;
+    rdfs:label "Dimension"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DirectPatientCare
+    a :Function ;
+    rdfs:label "direct patient care"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DirectTasksOfManagementOfInformationSystems
+    :functionComponent bb2:InitiateFurtherProjects ;
+    :uses bb2:MonitoringResults ;
+    a :Function ;
+    rdfs:label "direct tasks of management of information systems"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DocumentationEfforts
+    a :EntityType ;
+    rdfs:label "Documentation Efforts"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DocumentationQuality
+    a :EntityType ;
+    rdfs:label "documentation quality"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:DocumentationTime
+    a :EntityType ;
+    rdfs:label "documentation time"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ElectronicHealthRecordSystem
+    a :EntityType ;
+    rdfs:label "electronic health record system"@en ;
+    skos:altLabel "EHRS"@en ;
+    skos:definition ""@en .
+
+bb2:EmployeeRepresentative
+    :approvesEntityType bb2:RequirementsForManagementOfInformationSystems ;
+    a :Role ;
+    rdfs:label "Employee representative"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:EnhancementApplication
+    a :EntityType ;
+    rdfs:label "Enhancement application"@en ;
+    rdfs:subClassOf bb2:ApplicationComponent ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:EnterpriseResourcePlanningSystem
+    a :EntityType ;
+    rdfs:label "enterprise resource planning system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:EstablishPromoteAndImplementTheStrategicInformationManagementPlan
+    a :Function ;
+    rdfs:label "establish, promote, and implement the strategic information management plan"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:EvaluateEachProject
+    a :Function ;
+    rdfs:label "Evaluate each project"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:EvaluationProject
+    a :EntityType ;
+    rdfs:label "evaluation project"@en ;
+    rdfs:subClassOf bb2:Projects ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:EvaluationResult
+    a :EntityType ;
+    rdfs:label "evaluation result"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:EvaluationStudies
+    :entityTypeComponent bb2:EvaluationProject ;
+    a :EntityType ;
+    rdfs:label "evaluation studies"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ExecutionOfThePlannedWorkingPackage
+    a :Function ;
+    rdfs:label "execution of the planned working package"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ExecutiveOperationalTasks
+    a :Function ;
+    rdfs:label "Executive operational tasks"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ExternalConsultant
+    :isInvolvedIn bb2:NegotiationsForTheApprovalOfThePlan ;
+    a :Role ;
+    rdfs:label "External consultant"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Facets
+    a :Role ;
+    rdfs:label "Facets"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:FederalConstellation
+    a :EntityType ;
+    rdfs:label "federal constellation"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:FeudalConstellation
+    a :EntityType ;
+    rdfs:label "feudal constellation"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:FinancialDecision
+    :entityTypeComponent bb2:AllocationOfThelimitedBudget, bb2:AmountOfInvestmentInTheInformationSystem ;
+    a :EntityType ;
+    rdfs:label "financial decision"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:FirstLevelSupport
+    a :Function ;
+    rdfs:label "First-level support"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:FrontierApplication
+    a :EntityType ;
+    rdfs:label "Frontier application"@en ;
+    rdfs:subClassOf bb2:ApplicationComponent ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:FunctionalCoverageOfTheApplicationComponents
+    a :EntityType ;
+    rdfs:label "functional coverage of the application components"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:FunctionalLeanness
+    :isAssociatedWith bb2:FunctionalRedundancy ;
+    a :EntityType ;
+    rdfs:label "Functional Leanness"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:FunctionalRedundancy
+    a :EntityType ;
+    rdfs:label "Functional Redundancy"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:FundingInstitution
+    :approvesEntityType bb2:StrategicInformationManagementPlan ;
+    :isAssociatedWith bb2:StrategicInformationManagementPlan ;
+    a :Role ;
+    rdfs:label "funding institution"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:FutureStateOfTheInformationSystem
+    a :EntityType ;
+    rdfs:label "future state of the information system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Goals
+    a :EntityType ;
+    rdfs:label "goals"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:HandoverProtocol
+    a :EntityType ;
+    rdfs:label "handover protocol"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Hardware
+    a :EntityType ;
+    rdfs:label "hardware"@en ;
+    rdfs:subClassOf bb2:Resources ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:HardwareAndSoftwareVendor
+    :isAssociatedWith bb2:StrategicInformationManagementPlan ;
+    a :Role ;
+    rdfs:label "hardware and software vendor"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Heterogeneity
+    a :EntityType ;
+    rdfs:label "Heterogeneity"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:HisQualityIndicators
+    a :EntityType ;
+    rdfs:label "HIS quality indicators"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Homogeneity
+    :isAssociatedWith bb2:Heterogeneity ;
+    a :EntityType ;
+    rdfs:label "Homogeneity"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:HomogeneityOfTheArchitecture
+    a :EntityType ;
+    rdfs:label "homogeneity of the architecture"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ImplementStrictAccessControlMethods
+    a :Function ;
+    rdfs:label "implement strict access control methods"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ImplementThePlan
+    a :Function ;
+    rdfs:label "implement the plan"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:IncidentManagement
+    a :Function ;
+    rdfs:label "incident management"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:IncidentManagementProcess
+    a :Function ;
+    rdfs:label "incident management process"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:InformationManagementBoard
+    :isResponsibleForRole bb2:CentralInformationManagementDepartment ;
+    :roleComponent bb2:ChiefInformationOfficer ;
+    a :Role ;
+    rdfs:label "Information Management Board"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:InformationManagementDepartment
+    :isAssociatedWith bb2:StrategicInformationManagementPlan ;
+    :isResponsibleForFunction bb2:IncidentManagement, bb2:ProjectManagement ;
+    :isResponsibleForEntityType bb2:AdministrativeSystem, bb2:ClinicalSystem, bb2:ItNetwork, bb2:MedicalDevice ;
+    a :Role ;
+    rdfs:label "information management department"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:InformationStrategy
+    a :EntityType ;
+    rdfs:label "information strategy"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:InformationSystem
+    a :EntityType ;
+    rdfs:label "information system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:InformationTechnologyServiceManagement
+    a :Function ;
+    rdfs:label "Information Technology Service Management"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:InitiateFurtherProjects
+    a :Function ;
+    rdfs:label "initiate further projects"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:InitiationOfProjects
+    :uses bb2:StrategicProjectPortfolio ;
+    a :Function ;
+    rdfs:label "initiation of projects"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Intensity
+    a :EntityType ;
+    rdfs:label "Intensity"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:InternalOrganization
+    a :EntityType ;
+    rdfs:label "internal organization"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:IntraEnterpriseMarketingOfServices
+    a :Function ;
+    rdfs:label "intra-enterprise marketing of services"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ItBudget
+    a :EntityType ;
+    rdfs:label "IT budget"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ItGovernance
+    :updates bb2:OrganizationalStructures ;
+    :uses bb2:ControlObjectivesForInformationAndRelatedTechnology ;
+    a :Function ;
+    rdfs:label "IT governance"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ItNetwork
+    a :EntityType ;
+    rdfs:label "IT network"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ItProject
+    a :EntityType ;
+    rdfs:label "IT project"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ItService
+    a :EntityType ;
+    rdfs:label "IT service"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:KeepTheProjectPortfolioUpToDate
+    a :Function ;
+    rdfs:label "Keep the project portfolio up to date"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:KeyPerformanceIndicator
+    a :EntityType ;
+    rdfs:label "Key Performance Indicator"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:LegalRegulations
+    a :EntityType ;
+    rdfs:label "legal regulations"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Local
+    a :Role ;
+    rdfs:label "Local"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:LocalTechnicalStaff
+    :isResponsibleForEntityType bb2:Clients ;
+    a :Role ;
+    rdfs:label "local technical staff"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:LongTermPlanForOperationalManagementOfInformationSystems
+    a :EntityType ;
+    rdfs:label "long-term plan for operational management of information systems"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:LongTermPlanning
+    :updates bb2:StrategicInformationManagementPlan ;
+    a :Function ;
+    rdfs:label "long-term planning"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:LongTermStrategicInformationManagementPlan
+    :entityTypeComponent bb2:AnnualProjectPortfolio ;
+    a :EntityType ;
+    rdfs:label "long-term strategic information management plan"@en ;
+    rdfs:subClassOf bb2:StrategicInformationManagementPlan ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MaintainingServers
+    a :Function ;
+    rdfs:label "maintaining servers"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MakeOrPrepareAllRelevantStrategicDecisionsOnTheInformationSystem
+    a :Function ;
+    rdfs:label "make or prepare all relevant strategic decisions on the information system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ManagementOfInformationSystems
+    :functionComponent bb2:OperationalManagementOfInformationSystems, bb2:StrategicManagementOfInformationSystems, bb2:TacticalManagementOfInformationSystems ;
+    :uses bb2:BusinessGoal, bb2:HandoverProtocol ;
+    a :Function ;
+    rdfs:label "management of information systems"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MedicalDevice
+    a :EntityType ;
+    rdfs:label "medical device"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MedicalDocumentationAndManagementSystem
+    a :EntityType ;
+    rdfs:label "medical documentation and management system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MedicalErrorReport
+    a :EntityType ;
+    rdfs:label "medical error report"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MethodsFor
+    a :Function ;
+    rdfs:label "methods for"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MigrationPath
+    a :EntityType ;
+    rdfs:label "steps to transform the current into the planned information system"@en ;
+    skos:altLabel ""@en, "Migration path"@en ;
+    skos:definition "This section describes a step-by-step path from the current to the future state. In the strategic information management plan, every such step is a project or a group of related projects (such a group is also called “program” in project management). The resulting migration path of projects describes priorities of projects as well as dependencies between projects. The resulting projects and their priorities can also be called a strategic project portfolio. This portfolio thus represents the migration path."@en .
+
+bb2:MinimizeRisksRelatedToTheInformationSystem
+    a :Function ;
+    rdfs:label "minimize risks related to the information system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MissionOfTheFacility
+    a :EntityType ;
+    rdfs:label "mission of the facility"@en ;
+    skos:altLabel ""@en, "mission"@en ;
+    skos:definition ""@en .
+
+bb2:MonarchicalConstellation
+    a :EntityType ;
+    rdfs:label "monarchical constellation"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Money
+    a :EntityType ;
+    rdfs:label "money"@en ;
+    rdfs:subClassOf bb2:Resources ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MonitoringResults
+    a :EntityType ;
+    rdfs:label "Monitoring results"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MonitoringTheProject
+    a :Function ;
+    rdfs:label "monitoring the project"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:MoreDetailedAnalysisAndCorrections
+    a :EntityType ;
+    rdfs:label "more detailed analysis and corrections"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Motivation
+    a :EntityType ;
+    rdfs:label "motivation"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:NationalLegislation
+    a :EntityType ;
+    rdfs:label "national legislation"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Needs
+    a :EntityType ;
+    rdfs:label "needs"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:NegotiationsForTheApprovalOfThePlan
+    a :Function ;
+    rdfs:label "negotiations for the approval of the plan"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Networks
+    a :EntityType ;
+    rdfs:label "Networks"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:NumberOfMedicalErrors
+    a :EntityType ;
+    rdfs:label "number of medical errors"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:NumberOfServiceDeskCalls
+    a :EntityType ;
+    rdfs:label "number of service desk calls"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:NursingDirector
+    a :Role ;
+    rdfs:label "nursing director"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Objectives
+    a :EntityType ;
+    rdfs:label "objectives"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:OperatingAServiceDesk
+    a :Function ;
+    rdfs:label "operating a service desk"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:OperationOfTheComponents
+    a :Function ;
+    rdfs:label "operation of the components"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:OperationalDirecting
+    a :Function ;
+    rdfs:label "operational directing"@en ;
+    skos:altLabel ""@en, "Operational Directing"@en, "Operational directing"@en ;
+    skos:definition ""@en .
+
+bb2:OperationalInformationManagement
+    a :Function ;
+    rdfs:label "operational information management"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:OperationalManagementOfInformationSystems
+    :functionComponent bb2:ChangeManagementProcess, bb2:ComprehensiveServices, bb2:ExecutiveOperationalTasks, bb2:IncidentManagementProcess, bb2:ProblemManagementProcess ;
+    :updates bb2:LongTermPlanForOperationalManagementOfInformationSystems, bb2:PrioritizationOfDailyTasks, bb2:ServicesForTheUsers, bb2:StrategicInformationManagementPlan ;
+    :uses bb2:InformationSystem, bb2:StrategicInformationManagementPlan ;
+    a :Function ;
+    rdfs:label "Operational management of information systems"@en ;
+    skos:altLabel ""@en, "operational information management"@en, "operational management of information systems"@en ;
+    skos:definition ""@en .
+
+bb2:OperationalMonitoring
+    a :Function ;
+    rdfs:label "operational monitoring"@en ;
+    skos:altLabel ""@en, "Operational Monitoring"@en, "Operational monitoring"@en ;
+    skos:definition ""@en .
+
+bb2:OperationalPlanning
+    :functionComponent bb2:IntraEnterpriseMarketingOfServices, bb2:ServiceDeskAndNetworkManagement ;
+    a :Function ;
+    rdfs:label "operational planning"@en ;
+    skos:altLabel ""@en, "Operational Planning"@en, "Operational planning"@en ;
+    skos:definition ""@en .
+
+bb2:OrganizationalStructures
+    a :EntityType ;
+    rdfs:label "organizational structures"@en ;
+    rdfs:subClassOf bb2:AnarchicSituation, bb2:FederalConstellation, bb2:FeudalConstellation, bb2:MonarchicalConstellation ;
+    skos:altLabel ""@en, "organizational structures for decision making"@en ;
+    skos:definition ""@en .
+
+bb2:OrganizationalStructuresForTheManagementOfHealthInformationSystems
+    a :EntityType ;
+    rdfs:label "Organizational Structures for the Management of Health Information Systems"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:OverseeTacticalManagementOfTheInformationSystemAndTheProjectPortfolio
+    a :Function ;
+    rdfs:label "oversee tactical management of the information system and the project portfolio"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:PaperBasedTools
+    a :EntityType ;
+    rdfs:label "Paper-Based Tools"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Patient
+    :isAssociatedWith bb2:InformationSystem ;
+    a :Role ;
+    rdfs:label "Patient"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:PatientAdministrationSystem
+    a :EntityType ;
+    rdfs:label "patient administration system"@en ;
+    rdfs:subClassOf bb2:UtilityApplication ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:PatientCareAndOperations
+    a :Function ;
+    rdfs:label "patient care and operations"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:PatientSatisfactionSurvey
+    a :EntityType ;
+    rdfs:label "patient satisfaction survey"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:PerformanceOfTheApplicationComponents
+    a :EntityType ;
+    rdfs:label "performance of the application components"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:PermanentMonitoringActivities
+    a :Function ;
+    rdfs:label "permanent monitoring activities"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Personnel
+    a :EntityType ;
+    rdfs:label "personnel"@en ;
+    rdfs:subClassOf bb2:Resources ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:PlannedFutureStateOfTheInformationSystem
+    a :EntityType ;
+    rdfs:label "Planned future state of the information system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition "Based on the assessment of the current state, a new state is described that achieves the goals better than the current state. Again, 3LGM² is useful here. The description of the planned state can be complemented by the description of the planned organizational structure of management of information systems. In many cases, this is an opportunity to introduce a CIO or to clarify his or her role."@en .
+
+bb2:PlanningDirectingAndMonitoringTheseProjects
+    a :Function ;
+    rdfs:label "Planning, directing, and monitoring these projects"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:PortfolioManagement
+    :functionComponent bb2:CalculateAnOverallPriorityScoreForEachProject, bb2:CreateAnUpToDateListOfOngoingOrPlannedProjects, bb2:DefineTheEvaluationCriteria, bb2:EvaluateEachProject, bb2:KeepTheProjectPortfolioUpToDate, bb2:SelectTheProjectsWithHighestPriorityForExecutionInTheNextTimePeriod ;
+    :updates bb2:AnnualProjectPortfolio ;
+    :uses bb2:CostsAndRisks, bb2:Dependencies, bb2:StrategicBusinessObjective, bb2:ValueForTheHealthCareFacility ;
+    a :Function ;
+    rdfs:label "portfolio management"@en ;
+    skos:altLabel ""@en ;
+    skos:definition "A portfolio is a collection of objects grouped together to facilitate effective management of activities to meet strategic business objectives. Managing a portfolio comprises the selection and management of objects based on their value for the health care facility, but also based on their costs and risks and on their dependencies (i.e., one project can only start when another project has ended). Portfolio management establishes categories of objects (i.e., projects or application components) and defines priorities for each category (i.e., which projects should start first). Each category carries a different degree of risk and may thus need different project management methods.In the context of management of information systems, portfolio management can focus on projects of information management or on components such as application components or physical data processing systems. "@en .
+
+bb2:Presence
+    a :EntityType ;
+    rdfs:label "Presence"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:PrioritizationOfDailyTasks
+    :isBasedOn bb2:OrganizationalStructures ;
+    a :EntityType ;
+    rdfs:label "prioritization of daily tasks"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:PrioritizeAndInitiateItsProjects
+    a :Function ;
+    rdfs:label "prioritize and initiate its projects"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Priority
+    a :EntityType ;
+    rdfs:label "priority"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProblemManagementProcess
+    a :Function ;
+    rdfs:label "problem management process"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProblemsToBeSolved
+    a :EntityType ;
+    rdfs:label "problems to be solved"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Procedures
+    a :EntityType ;
+    rdfs:label "procedures"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProcessReorganization
+    a :Function ;
+    rdfs:label "process reorganization"@en ;
+    rdfs:subClassOf bb2:StrategicDirecting ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProcessesAndBestPractices
+    a :EntityType ;
+    rdfs:label "processes and best practices"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProjectCharter
+    a :EntityType ;
+    rdfs:label "project charter"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProjectInitiationAndPlanning
+    a :Function ;
+    rdfs:label "project initiation and planning"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProjectManagement
+    a :Function ;
+    rdfs:label "project management"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProjectManager
+    a :Role ;
+    rdfs:label "project manager"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProjectPlan
+    a :EntityType ;
+    rdfs:label "project plan"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProjectPortfolio
+    a :EntityType ;
+    rdfs:label "project portfolio"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProjectPortfolioManagement
+    :functionComponent bb2:CalculateAnOverallPriorityScoreForEachProject, bb2:CreateAnUpToDateListOfOngoingOrPlannedProjects, bb2:DefineTheEvaluationCriteria, bb2:EvaluateEachProject, bb2:KeepTheProjectPortfolioUpToDate, bb2:SelectTheProjectsWithHighestPriorityForExecutionInTheNextTimePeriod ;
+    :updates bb2:ItProject ;
+    a :Function ;
+    rdfs:label "project portfolio management"@en ;
+    rdfs:subClassOf bb2:PortfolioManagement ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Projects
+    :entityTypeComponent bb2:Objectives ;
+    a :EntityType ;
+    rdfs:label "projects"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProvidingBackupFacilities
+    a :Function ;
+    rdfs:label "providing backup facilities"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ProvisionOfTheNeededResourcesForTheProject
+    a :Function ;
+    rdfs:label "provision of the needed resources for the project"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:QualityOfItSupport
+    a :EntityType ;
+    rdfs:label "quality of IT support"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:QualityOfItTraining
+    a :EntityType ;
+    rdfs:label "quality of IT training"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:QualityOfStrategicManagementOfInformationSystems
+    a :EntityType ;
+    rdfs:label "quality of strategic management of information systems"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:QualityOfTacticalManagementOfInformationSystems
+    a :EntityType ;
+    rdfs:label "quality of tactical management of information systems"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:RecordedInQuantitativeAndAsFarAsPossibleInAutomatedForm
+    :uses bb2:KeyPerformanceIndicator ;
+    a :Function ;
+    rdfs:label "recorded in quantitative and, as far as possible, in automated form"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:RelevantLaws
+    a :EntityType ;
+    rdfs:label "relevant laws"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ReportingOfTheProjectsResults
+    a :Function ;
+    rdfs:label "reporting of the project’s results"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Reports
+    a :Function ;
+    rdfs:label "reports"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:RequirementsForManagementOfInformationSystems
+    a :EntityType ;
+    rdfs:label "requirements for management of information systems"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ResourceAllocationAndCoordination
+    a :Function ;
+    rdfs:label "resource allocation and coordination"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Resources
+    :isAssociatedWith bb2:Architecture ;
+    a :EntityType ;
+    rdfs:label "resources"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Responsibility
+    a :Role ;
+    rdfs:label "Responsibility"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Restrictions
+    a :EntityType ;
+    rdfs:label "restrictions"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:RoomsForServers
+    a :EntityType ;
+    rdfs:label "rooms for servers"@en ;
+    rdfs:subClassOf bb2:Resources ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:RoomsForStaffTraining
+    a :EntityType ;
+    rdfs:label "rooms for staff training"@en ;
+    rdfs:subClassOf bb2:Resources ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:RulesForTheOperationOfTheInformationSystem
+    a :EntityType ;
+    rdfs:label "rules for the operation of the information system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Scope
+    a :EntityType ;
+    rdfs:label "scope"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SeamlessAndCostEffectiveOperationOfTheHealthCareFacility
+    a :Function ;
+    rdfs:label "seamless and cost-effective operation of the health care facility"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SecondLevelSupport
+    a :Function ;
+    rdfs:label "Second-level support"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SelectTheProjectsWithHighestPriorityForExecutionInTheNextTimePeriod
+    a :Function ;
+    rdfs:label "Select the projects with highest priority for execution in the next time period"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ServiceDepartment
+    :isAssociatedWith bb2:StrategicInformationManagementPlan ;
+    a :Role ;
+    rdfs:label "service department"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ServiceDesk
+    a :Role ;
+    rdfs:label "service desk"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ServiceDeskAndNetworkManagement
+    a :Function ;
+    rdfs:label "service desk and network management"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ServicesForTheUsers
+    a :EntityType ;
+    rdfs:label "services for the users"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Software
+    a :EntityType ;
+    rdfs:label "software"@en ;
+    rdfs:subClassOf bb2:Resources ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SoftwareDevelopmentOrCustomizing
+    a :Function ;
+    rdfs:label "software development or customizing"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SpecificProjectOrganization
+    :isBasedOn bb2:Projects ;
+    a :EntityType ;
+    rdfs:label "specific project organization"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:StaffMember
+    :isAssociatedWith bb2:StrategicInformationManagementPlan ;
+    a :Role ;
+    rdfs:label "staff member"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:StakeholdersRequirements
+    a :EntityType ;
+    rdfs:label "stakeholders’ requirements"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:StandardizationInitiative
+    a :EntityType ;
+    rdfs:label "standardization initiative"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:StandardizationOfTheInformationSystemsArchitecture
+    a :EntityType ;
+    rdfs:label "standardization of the information system’s architecture"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:StrategicAlignment
+    :updates bb2:StrategicInformationManagementPlan ;
+    :uses bb2:BusinessGoal, bb2:ItBudget, bb2:ItProject ;
+    a :Function ;
+    rdfs:label "Strategic alignment"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:StrategicAlignmentOfBusinessGoalsAndInformationManagementGoals
+    a :Function ;
+    rdfs:label "strategic alignment of business goals and strategic information management goals"@en ;
+    skos:altLabel ""@en, "Strategic Alignment of Business Goals and Information Management Goals"@en ;
+    skos:definition "Strategic alignment describes the process that balances and harmonizes the business goals of the health care facility and the information management strategies to obtain the best results. Strategic alignment ensures that the strategic information management plan directly supports the business goals and that IT projects and IT budget can be directly tied to these business goals. "@en .
+
+bb2:StrategicBusinessObjective
+    :isAssociatedWith bb2:CostsAndRisks, bb2:Dependencies, bb2:ValueForTheHealthCareFacility ;
+    a :EntityType ;
+    rdfs:label "strategic business objective"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:StrategicDirecting
+    :functionComponent bb2:AssignmentOfAProjectManager, bb2:InitiationOfProjects, bb2:ProvisionOfTheNeededResourcesForTheProject ;
+    :updates bb2:InformationSystem, bb2:MoreDetailedAnalysisAndCorrections, bb2:ProjectCharter, bb2:Projects, bb2:StrategicInformationManagementPlan ;
+    :uses bb2:StrategicInformationManagementPlan, bb2:StrategicProjectPortfolio ;
+    a :Function ;
+    rdfs:label "strategic directing"@en ;
+    skos:altLabel ""@en, "Strategic Directing"@en, "Strategic directing"@en ;
+    skos:definition ""@en .
+
+bb2:StrategicEnterpriseManagement
+    :updates bb2:BusinessStrategyOfTheEnterprise, bb2:FutureStateOfTheInformationSystem ;
+    :uses bb2:HisQualityIndicators, bb2:LegalRegulations ;
+    a :Function ;
+    rdfs:label "strategic enterprise management"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:StrategicInformationManagementGoal
+    a :EntityType ;
+    rdfs:label "Strategic goal"@en ;
+    skos:altLabel ""@en, "information management goal"@en, "strategic goals"@en, "strategic information management goals"@en ;
+    skos:definition "Based on a presentation of the business goals, the strategic information management goals are described based on strategic alignment."@en .
+
+bb2:StrategicInformationManagementPlan
+    :entityTypeComponent bb2:AnnualProjectPortfolio, bb2:Architecture, bb2:AssessmentOfTheCurrentStateOfTheInformationSystem, bb2:BusinessGoal, bb2:CurrentStateOfTheInformationSystem, bb2:DescriptionOfAppropriateOrganizationalStructures, bb2:FutureStateOfTheInformationSystem, bb2:MigrationPath, bb2:Resources, bb2:RulesForTheOperationOfTheInformationSystem, bb2:StrategicInformationManagementGoal ;
+    :isAssociatedWith bb2:InformationSystem ;
+    a :EntityType ;
+    rdfs:label "strategic information management plan"@en ;
+    skos:altLabel ""@en, "strategic management of information systems plan"@en ;
+    skos:definition "A strategic information management plan thus should encompass the business goals, the resulting information management goals, the current state of the information system, and an assessment of how well the current information system fits the goals. Based on this assessment, the future state of the information system is described, together with a migration path represented by a strategic project portfolio that allows this future state to be reached. The strategic plan must also deal with the resources needed to realize the planned architecture and must include rules for the operation of the information system and a description of appropriate organizational structures."@en .
+
+bb2:StrategicManagementOfInformationSystems
+    :functionComponent bb2:StrategicPlanning ;
+    :isAssociatedWith bb2:InformationSystem ;
+    :updates bb2:DecisionsOnThePlannedStateOfTheFacilitysInformationSystem, bb2:StrategicInformationManagementPlan ;
+    :uses bb2:MissionOfTheFacility, bb2:MonitoringResults, bb2:StrategicInformationManagementGoal, bb2:Vision ;
+    a :Function ;
+    rdfs:label "strategic information management"@en ;
+    skos:altLabel ""@en, "Strategic management of information systems"@en, "strategic management of information systems"@en ;
+    skos:definition "Strategic management of information systems deals with the information system of a health care facility as a whole. It depends on and must be aligned to the facility’s vision, mission, and strategic goals. Strategic management of information systems and its strategic information management plan are the prerequisites for tactical and operational management of information systems in a health care facility."@en .
+
+bb2:StrategicMonitoring
+    :functionComponent bb2:AdHocMonitoring, bb2:AdHocMonitoringActivities, bb2:BenchmarkingOfHealthInformationSystems, bb2:ComparesTheseWithTheProjectPlan, bb2:PermanentMonitoringActivities ;
+    :updates bb2:HisQualityIndicators ;
+    :uses bb2:CommentaryOnTheHealthCareFacilityInTheLocalPress, bb2:MedicalErrorReport, bb2:NationalLegislation, bb2:PatientSatisfactionSurvey, bb2:StandardizationInitiative ;
+    a :Function ;
+    rdfs:label "Strategic monitoring"@en ;
+    skos:altLabel ""@en, "Strategic Monitoring"@en, "strategic monitoring"@en ;
+    skos:definition ""@en .
+
+bb2:StrategicPlanning
+    :functionComponent bb2:ProjectManagement, bb2:StrategicAlignmentOfBusinessGoalsAndInformationManagementGoals, bb2:UserRequirementsAnalysis ;
+    :updates bb2:AnnualProjectPortfolio, bb2:StrategicInformationManagementPlan, bb2:StrategicProjectPortfolio ;
+    :uses bb2:BusinessStrategyOfTheEnterprise ;
+    a :Function ;
+    rdfs:label "Strategic planning"@en ;
+    skos:altLabel ""@en, "Strategic Planning"@en, "strategic planning"@en ;
+    skos:definition "Strategic planning is the first step of a systematic strategic information management process and leads to a strategic information management plan as basis. Planning, as part of strategic management of information systems, must translate vision, mission, and strategic goals into a specific strategic information management plan. Thus, the most important tasks of strategic planning are strategic alignment of business goals and strategic information management goals, and the development of both a long-term strategic project portfolio as part of a strategic information management plan and annual project portfolios."@en .
+
+bb2:StrategicProjectPortfolio
+    :entityTypeComponent bb2:Priority, bb2:Projects, bb2:TimelineForTheirInitiation ;
+    :isBasedOn bb2:StrategicInformationManagementPlan ;
+    a :EntityType ;
+    rdfs:label "strategic project portfolio"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:StrategiesAndPrinciplesForTheEvolutionOfTheInformationSystem
+    a :EntityType ;
+    rdfs:label "strategies and principles for the evolution of the information system"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:StructureOfStrategicPlan
+    a :EntityType ;
+    rdfs:label "structure of strategic plan"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SupportAndTraining
+    a :Function ;
+    rdfs:label "support and training"@en ;
+    rdfs:subClassOf bb2:ContinuouslyAuditingQualityAndCostOfTheInformationSystem ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SystemAnalysisAndAssessment
+    a :Function ;
+    rdfs:label "system analysis and assessment"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SystemEvaluation
+    a :Function ;
+    rdfs:label "system evaluation"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SystemIntroduction
+    a :Function ;
+    rdfs:label "system introduction"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SystemSelection
+    a :Function ;
+    rdfs:label "system selection"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:SystemSpecification
+    a :Function ;
+    rdfs:label "system specification"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:TacticalDirecting
+    a :Function ;
+    rdfs:label "tactical directing"@en ;
+    skos:altLabel ""@en, "Tactical Directing"@en, "Tactical directing"@en ;
+    skos:definition ""@en .
+
+bb2:TacticalInformationManagementProject
+    :entityTypeComponent bb2:ProjectPlan ;
+    :isBasedOn bb2:StrategicInformationManagementPlan ;
+    a :EntityType ;
+    rdfs:label "tactical information management project"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:TacticalManagementOfInformationSystems
+    :functionComponent bb2:PlanningDirectingAndMonitoringTheseProjects ;
+    :updates bb2:AppropriateExecutionOfTheIndividualProjectSteps, bb2:EvaluationProject, bb2:HandoverProtocol, bb2:InformationSystem ;
+    :uses bb2:ProjectCharter, bb2:TacticalInformationManagementProject ;
+    a :Function ;
+    rdfs:label "Tactical management of information systems"@en ;
+    skos:altLabel ""@en, "tactical information manegement"@en, "tactical management of information systems"@en ;
+    skos:definition ""@en .
+
+bb2:TacticalMonitoring
+    a :Function ;
+    rdfs:label "tactical monitoring"@en ;
+    skos:altLabel ""@en, "Tactical Monitoring"@en, "Tactical monitoring"@en ;
+    skos:definition ""@en .
+
+bb2:TacticalPlanning
+    :functionComponent bb2:ProjectInitiationAndPlanning, bb2:SoftwareDevelopmentOrCustomizing ;
+    :updates bb2:ProjectPlan ;
+    a :Function ;
+    rdfs:label "tactical planning"@en ;
+    skos:altLabel ""@en, "Tactical Planning"@en, "Tactical planning"@en ;
+    skos:definition ""@en .
+
+bb2:Tasks
+    a :EntityType ;
+    rdfs:label "tasks"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:TelemedicalApplication
+    a :EntityType ;
+    rdfs:label "telemedical application"@en ;
+    rdfs:subClassOf bb2:FrontierApplication ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:TheFacilitysSize
+    a :EntityType ;
+    rdfs:label "the facility’s size"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:TheInformationTechnologyInfrastructureLibrary
+    a :EntityType ;
+    rdfs:label "The Information Technology Infrastructure Library"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ThirdLevelSupport
+    a :Function ;
+    rdfs:label "Third-level support"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:TimelineForTheirInitiation
+    a :EntityType ;
+    rdfs:label "timeline for their initiation"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Timeliness
+    a :EntityType ;
+    rdfs:label "Timeliness"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:TopManagement
+    :approvesEntityType bb2:AnnualProjectPortfolio, bb2:StrategicInformationManagementPlan, bb2:StrategicProjectPortfolio ;
+    :isAssociatedWith bb2:SeamlessAndCostEffectiveOperationOfTheHealthCareFacility ;
+    :roleComponent bb2:ChiefExecutiveOfficer, bb2:ChiefInformationOfficer ;
+    a :Role ;
+    rdfs:label "top management"@en ;
+    skos:altLabel ""@en, "Top management"@en ;
+    skos:definition ""@en .
+
+bb2:TransmissionOfClinicalReports
+    a :Function ;
+    rdfs:label "transmission of clinical reports"@en ;
+    rdfs:subClassOf bb2:ContinuouslyAuditingQualityAndCostOfTheInformationSystem ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:UserRequirementsAnalysis
+    a :Function ;
+    rdfs:label "user requirements analysis"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:UserSatisfaction
+    a :EntityType ;
+    rdfs:label "user satisfaction"@en ;
+    rdfs:subClassOf bb2:KeyPerformanceIndicator ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:UserSatisfactionSurvey
+    a :EntityType ;
+    rdfs:label "user satisfaction survey"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Users
+    :isAssociatedWith bb2:InformationSystem, bb2:UserSatisfactionSurvey ;
+    :isInvolvedIn bb2:ComprehensiveServices ;
+    a :Role ;
+    rdfs:label "users"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:UtilityApplication
+    a :EntityType ;
+    rdfs:label "Utility application"@en ;
+    rdfs:subClassOf bb2:ApplicationComponent ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:ValueForTheHealthCareFacility
+    a :EntityType ;
+    rdfs:label "value for the health care facility"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Vendors
+    a :Role ;
+    rdfs:label "Vendors"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:VendorsOfComponent
+    a :Role ;
+    rdfs:label "vendors of component"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Vision
+    a :EntityType ;
+    rdfs:label "vision"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:VisionAndMission
+    a :EntityType ;
+    rdfs:label "vision and mission"@en ;
+    skos:altLabel ""@en, "facility’s vision and mission"@en ;
+    skos:definition ""@en .
+
+bb2:WorkingProcesses
+    a :EntityType ;
+    rdfs:label "Working Processes"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
+bb2:Workstations
+    a :EntityType ;
+    rdfs:label "Workstations"@en ;
+    skos:altLabel ""@en ;
+    skos:definition ""@en .
+
