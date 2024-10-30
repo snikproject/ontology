@@ -19,5 +19,6 @@ jobs:
           data: |
             meta.ttl
             bb.ttl
+            bb2.ttl
             ob.ttl
           shacl: shacl.ttl
