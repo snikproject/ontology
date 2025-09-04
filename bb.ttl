@@ -3738,9 +3738,6 @@ bb:GuaranteedStability
     a bb:StrategicInformationManagementGoal ;
     rdfs:label "Guaranteed Stability"@en, "Stabilität gewährleisten"@de .
 
-bb:HISStakeholder
-    skos:closeMatch ob:Stakeholder .
-
 bb:HL7CDA
     bb:conceptDomain "health care specific"^^xsd:string ;
     meta:chapter bb:chapter6-5 ;
@@ -4032,6 +4029,7 @@ bb:HisStakeholder
     rdfs:comment "Interessensvertreter des Krankenhausinformationssystems (HIS)"@en, "stakeholder in the hospital information system (HIS)"@en ;
     rdfs:label "HIS Interessenvertreter"@de, "HIS Stakeholder"@en, "ذینفعان HIS"@fa ;
     skos:altLabel "Interessensgruppe"@de ;
+    skos:closeMatch ob:Stakeholder ;
     skos:definition "Anyone who has direct or indirect influence on or interest in a component of an information system."@en .
 
 bb:HomeCareInstitution

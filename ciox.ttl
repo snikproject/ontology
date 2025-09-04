@@ -615,7 +615,7 @@ ciox:ItStrategieStakeholder
     a meta:Role, owl:Class ;
     rdfs:label "IT-Strategie Stakeholder"@de ;
     skos:altLabel "Stakeholder"@de ;
-    skos:closeMatch bb:HISStakeholder .
+    skos:closeMatch bb:HisStakeholder .
 
 ciox:ItStrategieStakeholderGenehmigung
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
@@ -1265,7 +1265,7 @@ ciox:Softwareprodukt
     skos:closeMatch bb:SoftwareProduct, ob:SoftwareProduct .
 
 ciox:Stakeholder
-    skos:closeMatch bb:HISStakeholder .
+    skos:closeMatch bb:HisStakeholder .
 
 ciox:StakeholderForschungUndLehre
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
@@ -1279,7 +1279,7 @@ ciox:StakeholderInformationsmanagement
     a meta:Role, owl:Class ;
     rdfs:label "Stakeholder aus dem Informationsmanagement"@de ;
     rdfs:subClassOf ciox:ItStrategieStakeholder ;
-    skos:closeMatch bb:HISStakeholder .
+    skos:closeMatch bb:HisStakeholder .
 
 ciox:StakeholderPatientenversorgung
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
@@ -1580,7 +1580,7 @@ ciox:blank223771
 ciox:blank223772
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
     a owl:Axiom ;
-    owl:object bb:HISStakeholder ;
+    owl:object bb:HisStakeholder ;
     owl:predicate skos:closeMatch ;
     owl:subject ciox:ItStrategieStakeholder .
 
@@ -1678,7 +1678,7 @@ ciox:blank223785
 ciox:blank223786
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
     a owl:Axiom ;
-    owl:object bb:HISStakeholder ;
+    owl:object bb:HisStakeholder ;
     owl:predicate skos:closeMatch ;
     owl:subject ciox:Stakeholder .
 
@@ -1692,7 +1692,7 @@ ciox:blank223787
 ciox:blank223788
     dc:source <http://se.ifi.uni-heidelberg.de/people/christian_kuecherer> ;
     a owl:Axiom ;
-    owl:object bb:HISStakeholder ;
+    owl:object bb:HisStakeholder ;
     owl:predicate skos:closeMatch ;
     owl:subject ciox:StakeholderInformationsmanagement .
 
