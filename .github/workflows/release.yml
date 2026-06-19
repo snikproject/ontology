@@ -28,7 +28,7 @@ jobs:
             }
 
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install dependencies
         run: sudo apt-get install -y raptor2-utils
