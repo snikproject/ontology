@@ -19,7 +19,8 @@ authors:
     affiliation: "Leipzig University, Institute for Medical Informatics, Statistics and Epidemiology, Leipzig, Germany"
   - family-names: Schneider
     given-names: Birgit
-    affiliation: "Heidelberg University, Department of Computer Science, Chair of Software Engineering"
+    orcid: https://orcid.org/0009-0001-9773-673X
+    affiliation: "Leipzig University, Institute for Medical Informatics, Statistics and Epidemiology, Leipzig, Germany"
   - family-names: Kücherer
     given-names: Christian
     orcid: https://orcid.org/0000-0001-5608-482X
